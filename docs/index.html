@@ -1322,5 +1322,110 @@ map.on('load', ()=>{
   addBuildings3D(); // enhancement only — called last, guarded, can't block anything above
 });
 </script>
+<!-- ═══════════ TORONTO SEER — intro + legend overlay ═══════════ -->
+<div id="ts-intro-root">
+  <style>
+    #ts-intro-root{
+      --sev-critical:#ff3355; --sev-high:#ff7a30; --sev-medium:#ffcc00; --sev-low:#00e87a;
+      --ts-loc:#2fb8ff;
+      --ts-bg:rgba(13,17,23,0.94); --ts-border:rgba(255,255,255,0.09);
+      --ts-text:#e6edf3; --ts-muted:#8b949e; --ts-accent:#2fb8ff;
+    }
+    #ts-intro-backdrop{
+      position:fixed; inset:0; z-index:100000;
+      background:rgba(0,0,0,0.58); backdrop-filter:blur(4px); -webkit-backdrop-filter:blur(4px);
+      display:flex; align-items:center; justify-content:center; padding:20px; animation:ts-fade .35s ease;
+    }
+    #ts-intro-card{
+      position:relative; z-index:100001; width:100%; max-width:430px; max-height:88vh; overflow-y:auto;
+      background:var(--ts-bg); color:var(--ts-text); border:1px solid var(--ts-border); border-radius:16px;
+      box-shadow:0 24px 60px rgba(0,0,0,0.6); padding:26px 26px 22px;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; animation:ts-rise .4s cubic-bezier(.2,.8,.2,1);
+    }
+    #ts-intro-card h1{margin:0 0 2px; font-size:22px; letter-spacing:.5px; font-weight:700;}
+    #ts-intro-card h1 .ts-eye{color:var(--ts-accent);}
+    #ts-intro-tag{margin:0 0 16px; font-size:13px; color:var(--ts-muted);}
+    #ts-intro-desc{margin:0 0 20px; font-size:14px; line-height:1.55; color:#cdd6e0;}
+    .ts-legend-title{font-size:11px; text-transform:uppercase; letter-spacing:1.2px; color:var(--ts-muted); margin:0 0 10px; font-weight:600;}
+    .ts-legend{display:flex; flex-direction:column; gap:9px; margin-bottom:18px;}
+    .ts-row{display:flex; align-items:center; gap:11px; font-size:13px;}
+    .ts-row .ts-label{color:#cdd6e0;}
+    .ts-row .ts-sub{color:var(--ts-muted); font-size:12px;}
+    .ts-dot{width:13px; height:13px; border-radius:50%; flex:0 0 13px; box-shadow:0 0 8px currentColor;}
+    .ts-glow{width:13px; height:13px; flex:0 0 13px; border-radius:50%;
+      background:radial-gradient(circle, rgba(255,51,85,.95) 0%, rgba(255,122,48,.55) 45%, rgba(0,232,122,0) 85%);}
+    .ts-area{width:13px; height:13px; flex:0 0 13px; border-radius:50%; background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.4);}
+    .ts-loc{width:13px; height:13px; flex:0 0 13px; border-radius:50%; background:var(--ts-loc); border:2px solid #fff; box-sizing:border-box; box-shadow:0 0 8px var(--ts-loc);}
+    .ts-divider{height:1px; background:var(--ts-border); margin:4px 0 16px;}
+    #ts-intro-foot{display:flex; align-items:center; justify-content:space-between; gap:12px;}
+    #ts-intro-again{display:flex; align-items:center; gap:7px; font-size:12px; color:var(--ts-muted); cursor:pointer; user-select:none;}
+    #ts-intro-again input{accent-color:var(--ts-accent); cursor:pointer;}
+    #ts-intro-go{background:var(--ts-accent); color:#06232a; border:none; padding:10px 20px; border-radius:10px;
+      font-size:14px; font-weight:700; cursor:pointer; transition:transform .12s ease, filter .12s ease;}
+    #ts-intro-go:hover{filter:brightness(1.08); transform:translateY(-1px);}
+    #ts-reopen{position:fixed; bottom:70px; left:20px; z-index:80; width:36px; height:36px; border-radius:50%;
+      background:var(--ts-bg); color:var(--ts-accent); border:1px solid var(--ts-border); box-shadow:0 4px 14px rgba(0,0,0,.5);
+      font-size:17px; font-weight:700; cursor:pointer; display:none; align-items:center; justify-content:center; font-family:Georgia,serif;}
+    #ts-reopen:hover{filter:brightness(1.15);}
+    @keyframes ts-fade{from{opacity:0;}to{opacity:1;}}
+    @keyframes ts-rise{from{opacity:0; transform:translateY(16px) scale(.98);}to{opacity:1; transform:none;}}
+    @media (max-width:480px){#ts-intro-card{padding:22px 20px 18px;} #ts-intro-card h1{font-size:20px;}}
+  </style>
+
+  <div id="ts-intro-backdrop">
+    <div id="ts-intro-card" role="dialog" aria-modal="true" aria-label="About Toronto Seer">
+      <h1>Toronto <span class="ts-eye">Seer</span></h1>
+      <p id="ts-intro-tag">Live police &amp; fire activity across Toronto</p>
+
+      <p id="ts-intro-desc">
+        Each mark is a real incident from Toronto Police and Fire dispatch,
+        plotted where it happened — a rolling <strong>24-hour</strong> window
+        that refreshes about every 15 minutes. Colour shows how serious a call
+        is; brighter areas mean more activity.
+        <strong>Zoom into your own neighbourhood to see what’s happening around
+        you right now</strong>, or tap “Near Me” to jump straight there.
+      </p>
+
+      <p class="ts-legend-title">How to read the map</p>
+      <div class="ts-legend">
+        <div class="ts-row"><span class="ts-dot" style="background:var(--sev-critical);color:var(--sev-critical)"></span><span class="ts-label">Critical <span class="ts-sub">— weapons, shots, serious harm</span></span></div>
+        <div class="ts-row"><span class="ts-dot" style="background:var(--sev-high);color:var(--sev-high)"></span><span class="ts-label">High <span class="ts-sub">— assault, robbery, break &amp; enter</span></span></div>
+        <div class="ts-row"><span class="ts-dot" style="background:var(--sev-medium);color:var(--sev-medium)"></span><span class="ts-label">Medium <span class="ts-sub">— theft, disturbance, impaired</span></span></div>
+        <div class="ts-row"><span class="ts-dot" style="background:var(--sev-low);color:var(--sev-low)"></span><span class="ts-label">Low <span class="ts-sub">— minor / non-urgent calls</span></span></div>
+        <div class="ts-divider"></div>
+        <div class="ts-row"><span class="ts-glow"></span><span class="ts-label">Hot zone <span class="ts-sub">— busier areas glow brighter</span></span></div>
+        <div class="ts-row"><span class="ts-area"></span><span class="ts-label">Approximate area <span class="ts-sub">— soft circle when the exact spot isn’t public</span></span></div>
+        <div class="ts-row"><span class="ts-loc"></span><span class="ts-label">You <span class="ts-sub">— shown when you use “Near Me”</span></span></div>
+      </div>
+
+      <div id="ts-intro-foot">
+        <label id="ts-intro-again"><input type="checkbox" id="ts-intro-dismiss"> Don’t show again</label>
+        <button id="ts-intro-go">Explore the map</button>
+      </div>
+    </div>
+  </div>
+
+  <button id="ts-reopen" title="About this map" aria-label="About this map">i</button>
+
+  <script>
+    (function(){
+      var KEY="toseer_intro_seen";
+      var backdrop=document.getElementById("ts-intro-backdrop");
+      var reopen=document.getElementById("ts-reopen");
+      var dismiss=document.getElementById("ts-intro-dismiss");
+      function hide(){ backdrop.style.display="none"; reopen.style.display="flex";
+        try{ if(dismiss.checked) localStorage.setItem(KEY,"1"); }catch(e){} }
+      function show(){ backdrop.style.display="flex"; reopen.style.display="none"; }
+      var seen=false; try{ seen=localStorage.getItem(KEY)==="1"; }catch(e){}
+      if(seen){ backdrop.style.display="none"; reopen.style.display="flex"; }
+      document.getElementById("ts-intro-go").addEventListener("click",hide);
+      reopen.addEventListener("click",show);
+      backdrop.addEventListener("click",function(e){ if(e.target===backdrop) hide(); });
+      document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&backdrop.style.display!=="none") hide(); });
+    })();
+  </script>
+</div>
+<!-- ═══════════ end Toronto Seer intro + legend ═══════════ -->
+
 </body>
 </html>
