@@ -195,13 +195,12 @@ html,body{width:100vw;height:100vh;overflow:hidden;background:#0a0f0b;font-famil
     background:rgba(0,0,0,.75); border:1px solid var(--bdr); border-radius:6px;
     backdrop-filter:blur(6px); cursor:pointer; font-size:18px;
   }
-  #filters, #layertoggles, #overviewbtn, #audiobtn, #locrow{
+  #filters, #layertoggles, #overviewbtn, #audiobtn{
     position:static !important; width:100%; box-sizing:border-box;
     margin-bottom:6px; top:auto; right:auto; left:auto; bottom:auto;
   }
   #filters, #layertoggles{display:flex; gap:6px;}
   #filters .fbtn, #layertoggles .fbtn{flex:1; min-height:40px; display:flex; align-items:center; justify-content:center;}
-  #locrow{border-bottom:none; padding:0 0 6px 0;}
   #mobilecontrols{
     display:none; position:absolute; top:60px; right:12px; z-index:65;
     width:min(260px, calc(100vw - 24px)); background:rgba(8,12,9,.95);
@@ -273,6 +272,7 @@ html,body{width:100vw;height:100vh;overflow:hidden;background:#0a0f0b;font-famil
 <div id="title">
   <div class="t1">TORONTO SEER</div>
   <div class="t2">LIVE EMERGENCY GRID</div>
+  <div class="t3" id="updatedline" style="font-family:var(--mono);font-size:9px;letter-spacing:1px;color:var(--dim);margin-top:4px;">—</div>
 </div>
 
 <div id="badge">
@@ -293,7 +293,6 @@ html,body{width:100vw;height:100vh;overflow:hidden;background:#0a0f0b;font-famil
 </div>
 <div id="layertoggles" style="position:absolute;top:104px;right:20px;z-index:50;display:flex;gap:6px;">
   <div class="fbtn on" id="newstogglebtn" onclick="toggleNewsLayer()"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c084fc;margin-right:6px;"></span>NEWS</div>
-  <div class="fbtn on" id="roadtogglebtn" onclick="toggleRoadLayer()"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#3388ff;margin-right:6px;"></span>ROADS</div>
 </div>
 <div id="overviewbtn" onclick="returnToOverview()" title="Return camera to city overview" style="position:absolute;top:150px;right:20px;z-index:50;display:flex;align-items:center;gap:6px;background:rgba(0,0,0,.7);border:1px solid var(--bdr);border-radius:4px;padding:8px 14px;cursor:pointer;backdrop-filter:blur(6px);">
   <span style="font-size:10px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,.7);">🏠 OVERVIEW</span>
@@ -302,11 +301,6 @@ html,body{width:100vw;height:100vh;overflow:hidden;background:#0a0f0b;font-famil
 
 <div id="ticker">
   <div class="th" onclick="toggleTickerDrawer()">LAST 24H <span class="n" id="tcount">0</span></div>
-  <div id="locrow" style="display:flex;gap:4px;padding:8px;border-bottom:1px solid var(--bdr);align-items:center;">
-    <div class="fbtn" style="flex:1;text-align:center;font-size:9px;padding:6px 4px;" onclick="useMyGeolocation()">📍 Near Me</div>
-    <div class="fbtn" id="locbtn-manual" style="flex:1;text-align:center;font-size:9px;padding:6px 4px;" onclick="startManualPick()">📍 Set Manually</div>
-    <div id="locbtn-clear" onclick="clearMyLocation()" style="display:none;cursor:pointer;color:var(--dim);font-size:12px;padding:0 4px;" title="Clear my location">✕</div>
-  </div>
   <div id="tlist"></div>
 </div>
 
@@ -332,7 +326,6 @@ html,body{width:100vw;height:100vh;overflow:hidden;background:#0a0f0b;font-famil
 // 'https://toronto-emergency-proxy.yoursubdomain.workers.dev'
 const DATA_URL       = 'data/incidents.json'; // same-origin — served by your own machine, no CORS involved
 const NEWS_URL        = 'data/news.json';
-const ROAD_URL        = 'data/road_restrictions.json';
 const HOME_VIEW     = { center:[-79.3832,43.6532], zoom:11.4, pitch:0, bearing:0 };
 // pitch is intentionally 0 here, not tilted: the 3D buildings layer has
 // minzoom:13 (well above this overview's zoom 11.4) so it was never visible
@@ -690,7 +683,7 @@ function incidentsToGeoJSON(list){
     features:list.map(d=>({
       type:'Feature',
       geometry:{type:'Point', coordinates:[d.lng, d.lat]},
-      properties:{ id:d.id, severity:d.severity, approximate: !!d.approximate, source:d.source },
+      properties:{ id:d.id, severity:d.severity, approximate: !!d.approximate, source:d.source, ageH: Math.max(0,(Date.now()-(+d.ts))/3600000) },
     })),
   };
 }
@@ -708,70 +701,6 @@ function timeAgo(ts){
   return Math.floor(s/3600)+'h ago';
 }
 const SEV_RANK = {critical:3, high:2, medium:1, low:0};
-const expandedBands = new Set(); // distance bands the user has manually opened — closed by default
-
-/* ───────────────────────── MY LOCATION ("near me") ─────────────────────────
- * Neighbourhood grouping used to reverse-geocode every single incident to a
- * postal code — Toronto's OSM postcode coverage is too patchy for that to
- * work reliably (most came back "unknown"). This needs exactly one geocode
- * instead of thousands: where the user is. Everything else is just math. */
-let myLocation = JSON.parse(localStorage.getItem('myLocation') || 'null');
-
-function haversineKm(lat1,lng1,lat2,lng2){
-  const r=6371, toRad=x=>x*Math.PI/180;
-  const dLat=toRad(lat2-lat1), dLng=toRad(lng2-lng1);
-  const a=Math.sin(dLat/2)**2 + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLng/2)**2;
-  return 2*r*Math.asin(Math.sqrt(a));
-}
-
-function setMyLocation(lat,lng,label){
-  myLocation = {lat,lng,label:label||'My Location'};
-  localStorage.setItem('myLocation', JSON.stringify(myLocation));
-  updateMyLocationMarker();
-  renderTicker();
-  typeText(`📍 LOCATION SET — showing distances from ${myLocation.label}`);
-}
-function clearMyLocation(){
-  myLocation = null;
-  localStorage.removeItem('myLocation');
-  updateMyLocationMarker();
-  renderTicker();
-}
-function useMyGeolocation(){
-  if(!navigator.geolocation){
-    alert('Geolocation not available in this browser — click "📍 Set Manually" instead and click your spot on the map.');
-    return;
-  }
-  typeText('📍 REQUESTING LOCATION — check your browser\'s permission prompt');
-  navigator.geolocation.getCurrentPosition(
-    pos => setMyLocation(pos.coords.latitude, pos.coords.longitude, 'My Location'),
-    err => alert('Could not get your location (' + err.message + '). Try "📍 Set Manually" instead.'),
-    {enableHighAccuracy:false, timeout:10000}
-  );
-}
-let pickingLocation = false;
-function startManualPick(){
-  pickingLocation = true;
-  document.getElementById('locbtn-manual').textContent = '📍 Click the map...';
-  map.getCanvas().style.cursor = 'crosshair';
-}
-function updateMyLocationMarker(){
-  const src = map.getSource('myloc');
-  if(!src) return;
-  src.setData(myLocation
-    ? {type:'FeatureCollection',features:[{type:'Feature',geometry:{type:'Point',coordinates:[myLocation.lng,myLocation.lat]},properties:{}}]}
-    : {type:'FeatureCollection',features:[]});
-  const clearBtn = document.getElementById('locbtn-clear');
-  if(clearBtn) clearBtn.style.display = myLocation ? 'block' : 'none';
-}
-function distanceBand(km){
-  if(km < 0.5) return {order:0, label:'Within 500m'};
-  if(km < 1)   return {order:1, label:'500m – 1km'};
-  if(km < 2)   return {order:2, label:'1 – 2km'};
-  if(km < 5)   return {order:3, label:'2 – 5km'};
-  if(km < 10)  return {order:4, label:'5 – 10km'};
-  return {order:5, label:'10km+'};
-}
 
 /* ───────────────────────── TICKER ───────────────────────── */
 function timeAgo(ts){
@@ -802,10 +731,8 @@ function renderTicker(){
   const list=document.getElementById('tlist');
   list.innerHTML='';
 
-  if(!myLocation){
-    // No location set — no distance axis to organize by, so group by hour instead.
-    // Newest-first both across groups and within each group (shown is already sorted).
-    let currentBucket=null, groupListEl=null;
+  // The 24h list is grouped by hour, newest-first (shown is already sorted).
+  let currentBucket=null, groupListEl=null;
     shown.forEach(d=>{
       const bucket = hourBucketStart(d.ts);
       if(bucket !== currentBucket){
@@ -835,45 +762,6 @@ function renderTicker(){
       }
       groupListEl.appendChild(buildRow(d));
     });
-    return;
-  }
-
-  const withDist = shown.map(d=>({d, km: haversineKm(myLocation.lat, myLocation.lng, d.lat, d.lng)}));
-  const groups = new Map();
-  withDist.forEach(({d,km})=>{
-    const band = distanceBand(km);
-    if(!groups.has(band.order)) groups.set(band.order, {label:band.label, items:[]});
-    groups.get(band.order).items.push({d,km});
-  });
-  // within each distance band, most recent first — exact-meter ordering
-  // matters less once you're already in the same proximity tier
-  for(const g of groups.values()) g.items.sort((a,b)=>b.d.ts-a.d.ts);
-
-  [...groups.keys()].sort((a,b)=>a-b).forEach(order=>{
-    const {label, items} = groups.get(order);
-    const collapsed = !expandedBands.has(order);
-    const worstSev = items.reduce((w,{d})=>SEV_RANK[d.severity]>SEV_RANK[w]?d.severity:w, 'low');
-    const groupEl = document.createElement('div');
-    groupEl.className='tgroup';
-    const head = document.createElement('div');
-    head.className='tghead';
-    head.style.borderLeftColor = SEV_COLOR[worstSev];
-    head.innerHTML = `<span class="tgchev">${collapsed?'▸':'▾'}</span>
-        <span class="tglabel">📍 ${label}</span>
-        <span class="tgcount">${items.length}</span>`;
-    head.onclick = () => {
-      if(expandedBands.has(order)) expandedBands.delete(order);
-      else expandedBands.add(order);
-      renderTicker();
-    };
-    groupEl.appendChild(head);
-    const groupListEl = document.createElement('div');
-    groupListEl.className = 'tgbody';
-    if(collapsed) groupListEl.style.display='none';
-    items.forEach(({d,km})=>groupListEl.appendChild(buildRow(d, km)));
-    groupEl.appendChild(groupListEl);
-    list.appendChild(groupEl);
-  });
 }
 
 function buildRow(d, km){
@@ -902,6 +790,16 @@ function renderStats(){
     <div class="fk"><div class="fn" style="color:${SEV_COLOR.high}">${counts.high}</div><div class="fl">High</div></div>
     <div class="fk"><div class="fn" style="color:${SEV_COLOR.medium}">${counts.medium}</div><div class="fl">Medium</div></div>
     <div class="fk"><div class="fn" style="color:${SEV_COLOR.low}">${counts.low}</div><div class="fl">Low</div></div>`;
+  const upd=document.getElementById('updatedline');
+  if(upd){
+    const total=incidents.length;
+    let ago='';
+    if(typeof lastGenerated!=='undefined' && lastGenerated){
+      const m=Math.floor((Date.now()-new Date(lastGenerated).getTime())/60000);
+      ago = m<1?'just now':(m<60?m+' min ago':Math.floor(m/60)+'h ago');
+    }
+    upd.textContent = `${total} incident${total===1?'':'s'} · last 24h${ago?' · updated '+ago:''}`;
+  }
 }
 
 function exactTime(ts){
@@ -1025,47 +923,6 @@ function showNewsCallout(a){
   co.style.display = 'block';
 }
 
-/* ───────────────────────── ROAD RESTRICTIONS ───────────────────────── */
-let roadRestrictions = [];
-async function fetchRoad(){
-  try{
-    const res = await fetch(`${ROAD_URL}?t=${Date.now()}`, {cache:'no-store'});
-    if(!res.ok) return;
-    const json = await res.json();
-    roadRestrictions = json.restrictions || [];
-    const src = map.getSource('roadwork');
-    if(src) src.setData({
-      type:'FeatureCollection',
-      features: roadRestrictions.map(r=>({
-        type:'Feature',
-        geometry:{type:'Point', coordinates:[r.lng, r.lat]},
-        properties:{ id:r.id },
-      })),
-    });
-  }catch(e){ console.warn('[road fetch failed]', e.message); }
-}
-function flyToRoad(id){
-  const r = roadRestrictions.find(x=>x.id===id);
-  if(!r) return;
-  busy = true; focusedId = null; clearRelationships(); hideCallout();
-  map.flyTo({ center:[r.lng,r.lat], zoom:16, pitch:40, duration:3000 });
-  map.once('moveend', ()=>{ busy=false; showRoadCallout(r); });
-}
-function showRoadCallout(r){
-  const co=document.getElementById('callout');
-  co.innerHTML = `
-    <div class="cosev" style="color:#3388ff;border:1px solid rgba(51,136,255,.4);background:rgba(51,136,255,.1);">🚧 ROAD RESTRICTION</div>
-    <div class="cotype">${r.reason || 'Road restriction'}</div>
-    <div class="coloc">📍 ${r.location}${r.district?' · '+r.district:''}${r.approximate?' (approximate)':''}</div>
-    ${r.status?`<div style="font-size:11px;color:var(--muted);margin-top:6px;">Impact: ${r.status}</div>`:''}
-    <div style="text-align:center;font-size:8px;color:var(--dim);margin-top:8px;">click to close</div>`;
-  co.onclick = ()=>{ hideCallout(); };
-  const pos = map.project([r.lng, r.lat]);
-  co.style.left = (pos.x + 22) + 'px';
-  co.style.top = Math.max(80, pos.y - 20) + 'px';
-  co.style.display = 'block';
-}
-
 /* ───────────────────────── CAMERA FLIGHT ───────────────────────── */
 let focusedId=null;
 
@@ -1117,16 +974,10 @@ function toggleNewsLayer(){
   const on = btn.classList.toggle('on');
   map.setLayoutProperty('news-dots', 'visibility', on ? 'visible' : 'none');
 }
-function toggleRoadLayer(){
-  const btn = document.getElementById('roadtogglebtn');
-  const on = btn.classList.toggle('on');
-  map.setLayoutProperty('roadwork-dots', 'visibility', on ? 'visible' : 'none');
-}
-
 function setupMobileLayout(){
   if(!isMobileLayout()) return;
   const panel = document.getElementById('mobilecontrols');
-  ['filters','layertoggles','overviewbtn','locrow'].forEach(id=>{
+  ['filters','layertoggles','overviewbtn'].forEach(id=>{
     const el = document.getElementById(id);
     if(el && el.parentElement !== panel) panel.appendChild(el);
   });
@@ -1210,7 +1061,7 @@ map.on('load', ()=>{
       'circle-color':['match',['get','severity'],'critical',SEV_COLOR.critical,'high',SEV_COLOR.high,'medium',SEV_COLOR.medium,SEV_COLOR.low],
       'circle-stroke-width':1.5,
       'circle-stroke-color':'#06100a',
-      'circle-opacity':0.95,
+      'circle-opacity':['interpolate',['linear'],['get','ageH'], 0,0.95, 2,0.85, 8,0.6, 24,0.32],
     },
   });
   // a second halo layer for the pulse — radius animated via setPaintProperty
@@ -1261,26 +1112,6 @@ map.on('load', ()=>{
     },
   }, 'incidents-circle');
 
-  // "My Location" pin — a small distinct marker, plus a ring showing roughly
-  // the 2km "nearby" radius for visual context.
-  map.addSource('myloc', { type:'geojson', data:{type:'FeatureCollection',features:[]} });
-  map.addLayer({
-    id:'myloc-ring', type:'circle', source:'myloc',
-    paint:{ 'circle-radius':{stops:[[10,20],[16,600]]}, 'circle-color':'#2fb8ff', 'circle-opacity':0.08, 'circle-stroke-width':1, 'circle-stroke-color':'#2fb8ff', 'circle-stroke-opacity':0.4 },
-  });
-  map.addLayer({
-    id:'myloc-dot', type:'circle', source:'myloc',
-    paint:{ 'circle-radius':7, 'circle-color':'#2fb8ff', 'circle-stroke-width':2, 'circle-stroke-color':'#ffffff' },
-  });
-  map.on('click', (e)=>{
-    if(!pickingLocation) return;
-    pickingLocation = false;
-    map.getCanvas().style.cursor = '';
-    document.getElementById('locbtn-manual').textContent = '📍 Set Manually';
-    setMyLocation(e.lngLat.lat, e.lngLat.lng, 'My Location');
-  });
-  updateMyLocationMarker(); // in case a location was already saved from a previous session
-
   // News articles (geocoded from RSS) — purple, distinct from incidents.
   // Slightly larger ring if a politician is tagged in the article.
   map.addSource('news', { type:'geojson', data:{type:'FeatureCollection',features:[]} });
@@ -1298,27 +1129,9 @@ map.on('load', ()=>{
   map.on('mouseleave','news-dots', ()=>map.getCanvas().style.cursor='');
   map.on('click','news-dots', (e)=>flyToNews(e.features[0].properties.id));
 
-  // Road restrictions/construction — orange, small, static reference layer.
-  map.addSource('roadwork', { type:'geojson', data:{type:'FeatureCollection',features:[]} });
-  map.addLayer({
-    id:'roadwork-dots', type:'circle', source:'roadwork',
-    minzoom:12,
-    paint:{
-      'circle-radius':4,
-      'circle-color':'#3388ff',
-      'circle-opacity':0.75,
-      'circle-stroke-width':1,
-      'circle-stroke-color':'#06100a',
-    },
-  });
-  map.on('mouseenter','roadwork-dots', ()=>map.getCanvas().style.cursor='pointer');
-  map.on('mouseleave','roadwork-dots', ()=>map.getCanvas().style.cursor='');
-  map.on('click','roadwork-dots', (e)=>flyToRoad(e.features[0].properties.id));
-
   typeText('INITIALIZING — connecting to Toronto Police Service public data portal…');
   refresh();      // one-shot load — this is a snapshot tool, not a live dashboard
   fetchNews();
-  fetchRoad();
   addBuildings3D(); // enhancement only — called last, guarded, can't block anything above
 });
 </script>
@@ -1383,7 +1196,7 @@ map.on('load', ()=>{
         that refreshes about every 15 minutes. Colour shows how serious a call
         is; brighter areas mean more activity.
         <strong>Zoom into your own neighbourhood to see what’s happening around
-        you right now</strong>, or tap “Near Me” to jump straight there.
+        you right now.</strong>
       </p>
 
       <p class="ts-legend-title">How to read the map</p>
@@ -1395,7 +1208,6 @@ map.on('load', ()=>{
         <div class="ts-divider"></div>
         <div class="ts-row"><span class="ts-glow"></span><span class="ts-label">Hot zone <span class="ts-sub">— busier areas glow brighter</span></span></div>
         <div class="ts-row"><span class="ts-area"></span><span class="ts-label">Approximate area <span class="ts-sub">— soft circle when the exact spot isn’t public</span></span></div>
-        <div class="ts-row"><span class="ts-loc"></span><span class="ts-label">You <span class="ts-sub">— shown when you use “Near Me”</span></span></div>
       </div>
 
       <div id="ts-intro-foot">
