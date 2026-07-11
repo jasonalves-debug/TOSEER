@@ -1,0 +1,11 @@
+name = "toronto-emergency-proxy"
+main = "index.js"
+compatibility_date = "2024-09-01"
+
+# Created in step 2 of README.md — fill in after `wrangler kv namespace create EMERGENCY_KV`
+kv_namespaces = [
+  { binding = "EMERGENCY_KV", id = "REPLACE_WITH_YOUR_KV_ID" }
+]
+
+[triggers]
+crons = ["*/5 * * * *"]
