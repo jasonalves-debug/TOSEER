@@ -1,11 +1,88 @@
 {
-  "generated": "2026-08-07T08:43:10.278123+00:00",
+  "generated": "2026-08-07T09:40:00.851514+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_87ce88eff39a",
+      "source": "police",
+      "lat": 43.66008969919346,
+      "lng": -79.36300135983919,
+      "type": "INDEX",
+      "type_plain": "INDEX",
+      "severity": "low",
+      "division": "D51",
+      "location": "SACKVILLE ST - DUNDAS ST E",
+      "ts": "2026-08-07T09:10:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_65eb7d2c79d4",
+      "source": "police",
+      "lat": 43.65448999359373,
+      "lng": -79.39032524083046,
+      "type": "FOUPR",
+      "type_plain": "Found Property",
+      "severity": "low",
+      "division": "D52",
+      "location": " - ",
+      "ts": "2026-08-07T08:58:31+00:00",
+      "related": [
+        {
+          "id": "tps_6c716867af8f",
+          "distance_m": 369,
+          "minutes_apart": 9
+        }
+      ]
+    },
+    {
+      "id": "tps_6c716867af8f",
+      "source": "police",
+      "lat": 43.65260489196127,
+      "lng": -79.39409393813668,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D52",
+      "location": "GRANGE PL - HURON ST",
+      "ts": "2026-08-07T08:49:03+00:00",
+      "related": [
+        {
+          "id": "tps_65eb7d2c79d4",
+          "distance_m": 369,
+          "minutes_apart": 9
+        }
+      ]
+    },
+    {
+      "id": "tps_b3d093954f56",
+      "source": "police",
+      "lat": 43.633678777907164,
+      "lng": -79.4316969227664,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY W - LAKE SHORE BLVD W",
+      "ts": "2026-08-07T08:36:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_eb212cdef275",
+      "source": "police",
+      "lat": 43.7387938353503,
+      "lng": -79.30844997105028,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D41",
+      "location": "SWEENEY DR - SLOANE AVE",
+      "ts": "2026-08-07T08:31:50+00:00",
+      "related": []
+    },
     {
       "id": "tps_21f54ec294cd",
       "source": "police",
@@ -5099,11 +5176,6 @@
       "ts": "2026-08-06T10:52:51+00:00",
       "related": [
         {
-          "id": "tps_e0e870f69fa3",
-          "distance_m": 0,
-          "minutes_apart": 82
-        },
-        {
           "id": "tps_415dca04f47d",
           "distance_m": 550,
           "minutes_apart": 8
@@ -5149,11 +5221,6 @@
           "id": "tps_ea9efc3b87b8",
           "distance_m": 550,
           "minutes_apart": 8
-        },
-        {
-          "id": "tps_e0e870f69fa3",
-          "distance_m": 550,
-          "minutes_apart": 74
         }
       ]
     },
@@ -5342,108 +5409,6 @@
           "minutes_apart": 56
         }
       ]
-    },
-    {
-      "id": "tps_b4ca6186d902",
-      "source": "police",
-      "lat": 43.6649204040241,
-      "lng": -79.38456274722806,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "BREADALBANE ST - WELLESLEY ST E",
-      "ts": "2026-08-06T09:33:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e0e870f69fa3",
-      "source": "police",
-      "lat": 43.6471940876252,
-      "lng": -79.40398193200464,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D14",
-      "location": "RYERSON AVE - BATHURST ST",
-      "ts": "2026-08-06T09:30:41+00:00",
-      "related": [
-        {
-          "id": "tps_ea9efc3b87b8",
-          "distance_m": 0,
-          "minutes_apart": 82
-        },
-        {
-          "id": "tps_415dca04f47d",
-          "distance_m": 550,
-          "minutes_apart": 74
-        }
-      ]
-    },
-    {
-      "id": "tps_fa28515582a8",
-      "source": "police",
-      "lat": 43.6563163410307,
-      "lng": -79.4681908194986,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D11",
-      "location": "BLOOR ST W - GLENLAKE AVE",
-      "ts": "2026-08-06T09:17:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2a8f64070edd",
-      "source": "police",
-      "lat": 43.79868761712339,
-      "lng": -79.41709903489257,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D32",
-      "location": "LN E YONGE S STEELES - DUMONT ST",
-      "ts": "2026-08-06T09:14:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b4632f773ee3",
-      "source": "police",
-      "lat": 43.66066399976775,
-      "lng": -79.37484595187715,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D51",
-      "location": "JARVIS ST - GEORGE ST",
-      "ts": "2026-08-06T09:09:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_078700d0ec22",
-      "source": "police",
-      "lat": 43.70324528912135,
-      "lng": -79.35156161800266,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D53",
-      "location": "OVERLEA BLVD - ",
-      "ts": "2026-08-06T08:56:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0a7e07ee1dda",
-      "source": "police",
-      "lat": 43.71544558021862,
-      "lng": -79.29200137197448,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D41",
-      "location": "PHARMACY AVE - FAIRFAX CRES",
-      "ts": "2026-08-06T08:43:55+00:00",
-      "related": []
     }
   ],
   "anomalies": []
