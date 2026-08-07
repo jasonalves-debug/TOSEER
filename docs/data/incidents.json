@@ -1,11 +1,261 @@
 {
-  "generated": "2026-08-07T16:30:35.913299+00:00",
+  "generated": "2026-08-07T17:29:48.724244+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26122144",
+      "source": "fire",
+      "lat": 43.8302672,
+      "lng": -79.2503298,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "211",
+      "location": "Scarborough - PASSMORE AVE & MARKHAM RD",
+      "approximate": false,
+      "units": "P211, P213",
+      "ts": "2026-08-07T17:11:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9ab4a5ded68b",
+      "source": "police",
+      "lat": 43.64698918653231,
+      "lng": -79.53033549516616,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D22",
+      "location": "BURNHAMTHORPE RD - CABOT CRT",
+      "ts": "2026-08-07T16:58:53+00:00",
+      "related": [
+        {
+          "id": "tps_8c6ee98dcd8f",
+          "distance_m": 31,
+          "minutes_apart": 19
+        },
+        {
+          "id": "tps_ff0082ab327f",
+          "distance_m": 31,
+          "minutes_apart": 42
+        },
+        {
+          "id": "tfs_F26122122",
+          "distance_m": 249,
+          "minutes_apart": 51
+        }
+      ]
+    },
+    {
+      "id": "tps_3ad09c480f5b",
+      "source": "police",
+      "lat": 43.65418629328998,
+      "lng": -79.3793664467043,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "SHUTER ST - DUNDAS SQ",
+      "ts": "2026-08-07T16:58:03+00:00",
+      "related": [
+        {
+          "id": "tps_a30356c31988",
+          "distance_m": 371,
+          "minutes_apart": 106
+        }
+      ]
+    },
+    {
+      "id": "tps_66bb557d5d59",
+      "source": "police",
+      "lat": 43.66392422245083,
+      "lng": -79.45047021868714,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D11",
+      "location": "WALLACE AVE - ANTLER ST",
+      "ts": "2026-08-07T16:54:26+00:00",
+      "related": [
+        {
+          "id": "tps_db0796e8508a",
+          "distance_m": 518,
+          "minutes_apart": 23
+        }
+      ]
+    },
+    {
+      "id": "tps_c41924af5f62",
+      "source": "police",
+      "lat": 43.76915259979652,
+      "lng": -79.18284860837016,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D43",
+      "location": "LING RD - LAWRENCE AVE E",
+      "ts": "2026-08-07T16:48:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_07d492e9c174",
+      "source": "police",
+      "lat": 43.73815297161101,
+      "lng": -79.56573417913623,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D23",
+      "location": "BARKWIN DR - WARDLAW CRES",
+      "ts": "2026-08-07T16:46:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8c6ee98dcd8f",
+      "source": "police",
+      "lat": 43.64675888467758,
+      "lng": -79.5305465951666,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "D22",
+      "location": "DUNDAS ST W - MABELLE AVE",
+      "ts": "2026-08-07T16:39:32+00:00",
+      "related": [
+        {
+          "id": "tps_ff0082ab327f",
+          "distance_m": 0,
+          "minutes_apart": 22
+        },
+        {
+          "id": "tps_9ab4a5ded68b",
+          "distance_m": 31,
+          "minutes_apart": 19
+        },
+        {
+          "id": "tfs_F26122122",
+          "distance_m": 279,
+          "minutes_apart": 31
+        }
+      ]
+    },
+    {
+      "id": "tps_dd4c1e69fa57",
+      "source": "police",
+      "lat": 43.76223977411964,
+      "lng": -79.50057711333972,
+      "type": "DAMAU",
+      "type_plain": "DAMAU",
+      "severity": "low",
+      "division": "D31",
+      "location": "SENTINEL RD - ",
+      "ts": "2026-08-07T16:31:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_db0796e8508a",
+      "source": "police",
+      "lat": 43.662354716700435,
+      "lng": -79.44440471987019,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D11",
+      "location": "LANSDOWNE AVE - WALLACE AVE",
+      "ts": "2026-08-07T16:31:31+00:00",
+      "related": [
+        {
+          "id": "tps_66bb557d5d59",
+          "distance_m": 518,
+          "minutes_apart": 23
+        }
+      ]
+    },
+    {
+      "id": "tps_6c118aece9b6",
+      "source": "police",
+      "lat": 43.61094362637411,
+      "lng": -79.49004822894521,
+      "type": "MARVA",
+      "type_plain": "MARVA",
+      "severity": "low",
+      "division": "D22",
+      "location": "LAKE SHORE BLVD W - NORRIS CRES",
+      "ts": "2026-08-07T16:23:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_eaafd6b4f1a7",
+      "source": "police",
+      "lat": 43.7175130572693,
+      "lng": -79.44891131390693,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D32",
+      "location": "MARLEE AVE - BLOSSOMFIELD DR",
+      "ts": "2026-08-07T16:22:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f8ae703b3e2e",
+      "source": "police",
+      "lat": 43.62593076775749,
+      "lng": -79.5123802182056,
+      "type": "THE",
+      "type_plain": "THE",
+      "severity": "low",
+      "division": "D22",
+      "location": "INVERNESS AVE - LN N THE QUEENSWAY E LADY BANK",
+      "ts": "2026-08-07T16:20:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ff0082ab327f",
+      "source": "police",
+      "lat": 43.64675888467758,
+      "lng": -79.5305465951666,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "DUNDAS ST W - MABELLE AVE",
+      "ts": "2026-08-07T16:17:22+00:00",
+      "related": [
+        {
+          "id": "tps_8c6ee98dcd8f",
+          "distance_m": 0,
+          "minutes_apart": 22
+        },
+        {
+          "id": "tps_9ab4a5ded68b",
+          "distance_m": 31,
+          "minutes_apart": 42
+        },
+        {
+          "id": "tfs_F26122122",
+          "distance_m": 279,
+          "minutes_apart": 9
+        }
+      ]
+    },
+    {
+      "id": "tps_9e1f695d9311",
+      "source": "police",
+      "lat": 43.71981314643954,
+      "lng": -79.51377244302977,
+      "type": "ATTBR",
+      "type_plain": "Attempt Break and Enter",
+      "severity": "high",
+      "division": "D31",
+      "location": "JANE ST - DALLNER RD",
+      "ts": "2026-08-07T16:15:01+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26122124",
       "source": "fire",
@@ -22,6 +272,30 @@
       "related": []
     },
     {
+      "id": "tps_27102804141b",
+      "source": "police",
+      "lat": 43.64733018643382,
+      "lng": -79.3797119440793,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D52",
+      "location": "WELLINGTON ST W - KING ST W",
+      "ts": "2026-08-07T16:09:36+00:00",
+      "related": [
+        {
+          "id": "tps_7292ee7657a6",
+          "distance_m": 165,
+          "minutes_apart": 26
+        },
+        {
+          "id": "tps_3f61f78ccb22",
+          "distance_m": 517,
+          "minutes_apart": 128
+        }
+      ]
+    },
+    {
       "id": "tfs_F26122122",
       "source": "fire",
       "lat": 43.648749,
@@ -34,6 +308,35 @@
       "approximate": false,
       "units": "P445",
       "ts": "2026-08-07T16:08:17+00:00",
+      "related": [
+        {
+          "id": "tps_9ab4a5ded68b",
+          "distance_m": 249,
+          "minutes_apart": 51
+        },
+        {
+          "id": "tps_ff0082ab327f",
+          "distance_m": 279,
+          "minutes_apart": 9
+        },
+        {
+          "id": "tps_8c6ee98dcd8f",
+          "distance_m": 279,
+          "minutes_apart": 31
+        }
+      ]
+    },
+    {
+      "id": "tps_903ddac34703",
+      "source": "police",
+      "lat": 43.668972589143436,
+      "lng": -79.31765302243647,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D55",
+      "location": "DUNDAS ST E - ROBBINS AVE",
+      "ts": "2026-08-07T16:08:05+00:00",
       "related": []
     },
     {
@@ -148,6 +451,11 @@
       "location": "BAY ST - YORK ST",
       "ts": "2026-08-07T15:43:07+00:00",
       "related": [
+        {
+          "id": "tps_27102804141b",
+          "distance_m": 165,
+          "minutes_apart": 26
+        },
         {
           "id": "tps_032e265b88bc",
           "distance_m": 488,
@@ -362,6 +670,11 @@
       "location": "SHUTER ST - ARENA GARDENS TRL",
       "ts": "2026-08-07T15:12:18+00:00",
       "related": [
+        {
+          "id": "tps_3ad09c480f5b",
+          "distance_m": 371,
+          "minutes_apart": 106
+        },
         {
           "id": "tps_8d9ab109bf76",
           "distance_m": 530,
@@ -750,6 +1063,11 @@
           "id": "tps_e002f86b8a62",
           "distance_m": 491,
           "minutes_apart": 144
+        },
+        {
+          "id": "tps_27102804141b",
+          "distance_m": 517,
+          "minutes_apart": 128
         }
       ]
     },
@@ -6603,50 +6921,18 @@
   "anomalies": [
     {
       "source": "police",
-      "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.0,
-      "ratio": 5.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d359b5917d81",
-        "tps_76eb074c767f",
-        "tps_4d75d054fa2c",
-        "tps_d7647066bc46",
-        "tps_6f77921fcff9"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 8,
-      "baseline_avg": 2.7,
-      "ratio": 3.0,
+      "current_count": 7,
+      "baseline_avg": 3.0,
+      "ratio": 2.3,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_ff0082ab327f",
         "tps_7f1473c0b5ba",
         "tps_995c7648de62",
         "tps_bca2db091acd",
-        "tps_1c92fffde835",
-        "tps_f11bcd7fbf5f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 7,
-      "baseline_avg": 2.7,
-      "ratio": 2.6,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3147cd493374",
-        "tps_db68545bff5e",
-        "tps_234965a41ded",
-        "tps_7b3b22d2857a",
-        "tps_f9269c6086cf"
+        "tps_1c92fffde835"
       ]
     }
   ]
