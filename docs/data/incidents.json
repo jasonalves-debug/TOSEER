@@ -1,11 +1,69 @@
 {
-  "generated": "2026-08-08T11:19:43.926577+00:00",
+  "generated": "2026-08-08T11:49:20.801347+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26122634",
+      "source": "fire",
+      "lat": 43.7269209,
+      "lng": -79.4810739,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "144",
+      "location": "KEELE ST & WILSON AVE",
+      "approximate": false,
+      "units": "P144",
+      "ts": "2026-08-08T11:32:42+00:00",
+      "related": [
+        {
+          "id": "tps_afd457ef2568",
+          "distance_m": 84,
+          "minutes_apart": 33
+        }
+      ]
+    },
+    {
+      "id": "tps_1f6ce374bb76",
+      "source": "police",
+      "lat": 43.59783658898966,
+      "lng": -79.52282909935016,
+      "type": "EXPJU",
+      "type_plain": "EXPJU",
+      "severity": "low",
+      "division": "D22",
+      "location": "LAKE SHORE BLVD W - FAIRFIELD AVE",
+      "ts": "2026-08-08T11:24:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6ad7c4198713",
+      "source": "police",
+      "lat": 43.75483178313826,
+      "lng": -79.51704361195162,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D31",
+      "location": "YEWTREE BLVD - FINCH AVE W",
+      "ts": "2026-08-08T11:13:06+00:00",
+      "related": [
+        {
+          "id": "tps_56eb5795c1a1",
+          "distance_m": 0,
+          "minutes_apart": 43
+        },
+        {
+          "id": "tps_b1ca26151a2b",
+          "distance_m": 591,
+          "minutes_apart": 39
+        }
+      ]
+    },
     {
       "id": "tps_49a9cd43c5bf",
       "source": "police",
@@ -41,6 +99,11 @@
           "id": "tps_2e7f5e3c8b8c",
           "distance_m": 0,
           "minutes_apart": 175
+        },
+        {
+          "id": "tfs_F26122634",
+          "distance_m": 84,
+          "minutes_apart": 33
         }
       ]
     },
@@ -156,6 +219,11 @@
           "id": "tps_56eb5795c1a1",
           "distance_m": 591,
           "minutes_apart": 4
+        },
+        {
+          "id": "tps_6ad7c4198713",
+          "distance_m": 591,
+          "minutes_apart": 39
         }
       ]
     },
@@ -171,6 +239,11 @@
       "location": "YEWTREE BLVD - FINCH AVE W",
       "ts": "2026-08-08T10:30:11+00:00",
       "related": [
+        {
+          "id": "tps_6ad7c4198713",
+          "distance_m": 0,
+          "minutes_apart": 43
+        },
         {
           "id": "tps_b1ca26151a2b",
           "distance_m": 591,
@@ -10526,13 +10599,7 @@
       "division": "D41",
       "location": "FARLINGER RAVINE TRL - ",
       "ts": "2026-08-07T14:03:18+00:00",
-      "related": [
-        {
-          "id": "tps_67585fab2842",
-          "distance_m": 0,
-          "minutes_apart": 136
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26122073",
@@ -10576,11 +10643,6 @@
           "id": "tps_7292ee7657a6",
           "distance_m": 491,
           "minutes_apart": 101
-        },
-        {
-          "id": "tps_e002f86b8a62",
-          "distance_m": 491,
-          "minutes_apart": 144
         },
         {
           "id": "tps_27102804141b",
@@ -10715,11 +10777,6 @@
           "minutes_apart": 68
         },
         {
-          "id": "tps_9fbc59ba4027",
-          "distance_m": 220,
-          "minutes_apart": 117
-        },
-        {
           "id": "tps_8d9ab109bf76",
           "distance_m": 321,
           "minutes_apart": 27
@@ -10826,11 +10883,6 @@
       "ts": "2026-08-07T13:11:59+00:00",
       "related": [
         {
-          "id": "tps_e002f86b8a62",
-          "distance_m": 488,
-          "minutes_apart": 94
-        },
-        {
           "id": "tps_7292ee7657a6",
           "distance_m": 488,
           "minutes_apart": 151
@@ -10892,11 +10944,6 @@
           "id": "tps_bdab722530d9",
           "distance_m": 132,
           "minutes_apart": 41
-        },
-        {
-          "id": "tps_9fbc59ba4027",
-          "distance_m": 132,
-          "minutes_apart": 91
         },
         {
           "id": "tps_9163c0e77d9d",
@@ -11048,11 +11095,6 @@
           "id": "tps_cfeda40f9efb",
           "distance_m": 0,
           "minutes_apart": 32
-        },
-        {
-          "id": "tps_eacf4a4acfdf",
-          "distance_m": 0,
-          "minutes_apart": 53
         }
       ]
     },
@@ -11161,11 +11203,6 @@
       "ts": "2026-08-07T12:22:20+00:00",
       "related": [
         {
-          "id": "tps_9fbc59ba4027",
-          "distance_m": 0,
-          "minutes_apart": 49
-        },
-        {
           "id": "tps_8d9ab109bf76",
           "distance_m": 132,
           "minutes_apart": 41
@@ -11270,11 +11307,6 @@
       "ts": "2026-08-07T11:59:34+00:00",
       "related": [
         {
-          "id": "tps_eacf4a4acfdf",
-          "distance_m": 0,
-          "minutes_apart": 22
-        },
-        {
           "id": "tps_20bd71e2a068",
           "distance_m": 0,
           "minutes_apart": 32
@@ -11336,237 +11368,23 @@
       "units": "",
       "ts": "2026-08-07T11:57:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_402cd12ca0e4",
-      "source": "police",
-      "lat": 43.79631651613332,
-      "lng": -79.4196186323514,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "ATHABASKA AVE - ABITIBI AVE",
-      "ts": "2026-08-07T11:48:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_67585fab2842",
-      "source": "police",
-      "lat": 43.72649288454519,
-      "lng": -79.26923980426945,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D41",
-      "location": "FARLINGER RAVINE TRL - ",
-      "ts": "2026-08-07T11:47:22+00:00",
-      "related": [
-        {
-          "id": "tps_6f77921fcff9",
-          "distance_m": 0,
-          "minutes_apart": 136
-        }
-      ]
-    },
-    {
-      "id": "tps_34558a816b85",
-      "source": "police",
-      "lat": 43.66672392285862,
-      "lng": -79.44645392062525,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D11",
-      "location": "DUPONT ST - C P R",
-      "ts": "2026-08-07T11:45:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0601ee1bc118",
-      "source": "police",
-      "lat": 43.7387938353503,
-      "lng": -79.30844997105028,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "HP",
-      "location": "SWEENEY DR - SLOANE AVE",
-      "ts": "2026-08-07T11:45:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6241872f08cc",
-      "source": "police",
-      "lat": 43.739977383704506,
-      "lng": -79.22792007025794,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D43",
-      "location": "BELLAMY RD S - MASON RD",
-      "ts": "2026-08-07T11:39:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_51818b811ddc",
-      "source": "police",
-      "lat": 43.660282109746134,
-      "lng": -79.34358367865595,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D55",
-      "location": "EASTERN AVE - LOUIS KESTEN LANE",
-      "ts": "2026-08-07T11:39:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e002f86b8a62",
-      "source": "police",
-      "lat": 43.64591718502081,
-      "lng": -79.37908774449542,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-08-07T11:38:01+00:00",
-      "related": [
-        {
-          "id": "tps_032e265b88bc",
-          "distance_m": 488,
-          "minutes_apart": 94
-        },
-        {
-          "id": "tps_3f61f78ccb22",
-          "distance_m": 491,
-          "minutes_apart": 144
-        }
-      ]
-    },
-    {
-      "id": "tps_eacf4a4acfdf",
-      "source": "police",
-      "lat": 43.74412467495701,
-      "lng": -79.58250687075332,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D23",
-      "location": "KIPLING AVE - ALBION RD",
-      "ts": "2026-08-07T11:37:55+00:00",
-      "related": [
-        {
-          "id": "tps_cfeda40f9efb",
-          "distance_m": 0,
-          "minutes_apart": 22
-        },
-        {
-          "id": "tps_20bd71e2a068",
-          "distance_m": 0,
-          "minutes_apart": 53
-        }
-      ]
-    },
-    {
-      "id": "tps_9fbc59ba4027",
-      "source": "police",
-      "lat": 43.65649449559822,
-      "lng": -79.36694025575773,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D51",
-      "location": "ONTARIO ST - MILAN ST",
-      "ts": "2026-08-07T11:32:57+00:00",
-      "related": [
-        {
-          "id": "tps_bdab722530d9",
-          "distance_m": 0,
-          "minutes_apart": 49
-        },
-        {
-          "id": "tps_8d9ab109bf76",
-          "distance_m": 132,
-          "minutes_apart": 91
-        },
-        {
-          "id": "tps_9163c0e77d9d",
-          "distance_m": 220,
-          "minutes_apart": 117
-        }
-      ]
-    },
-    {
-      "id": "tps_5ef1c6f9c244",
-      "source": "police",
-      "lat": 43.7736533589394,
-      "lng": -79.26113632345574,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D43",
-      "location": "TOWN CENTRE CRT - ",
-      "ts": "2026-08-07T11:27:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_398623405984",
-      "source": "police",
-      "lat": 43.58866695687845,
-      "lng": -79.54389168122589,
-      "type": "THE",
-      "type_plain": "THE",
-      "severity": "low",
-      "division": "D22",
-      "location": "MARIE CURTIS PARK TRL - JAMES ST",
-      "ts": "2026-08-07T11:24:04+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9d3786bc3e8a",
-      "source": "police",
-      "lat": 43.78706430049283,
-      "lng": -79.41733932969692,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D32",
-      "location": "YONGE ST - CUMMER AVE",
-      "ts": "2026-08-07T11:22:50+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D31",
-      "current_count": 5,
-      "baseline_avg": 1.2,
+      "current_count": 6,
+      "baseline_avg": 1.5,
       "ratio": 4.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_6ad7c4198713",
         "tps_afd457ef2568",
         "tps_b1ca26151a2b",
         "tps_56eb5795c1a1",
-        "tps_e688a7afdab3",
-        "tps_f88a08d14c16"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_49a9cd43c5bf",
-        "tps_c915856a35ea",
-        "tps_f926a64e1bd4"
+        "tps_e688a7afdab3"
       ]
     }
   ]
