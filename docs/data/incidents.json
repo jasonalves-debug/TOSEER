@@ -1,11 +1,101 @@
 {
-  "generated": "2026-08-08T09:07:52.404427+00:00",
+  "generated": "2026-08-08T09:50:49.103646+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_5d466aaf01d6",
+      "source": "police",
+      "lat": 43.71885744819192,
+      "lng": -79.60351229537977,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D23",
+      "location": " - ",
+      "ts": "2026-08-08T09:18:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f58486efa1de",
+      "source": "police",
+      "lat": 43.689436122397865,
+      "lng": -79.30098755237307,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "LN N DANFORTH W MAIN ST - STANLEY G. GRIZZLE PARK TRL",
+      "ts": "2026-08-08T09:15:59+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f88a08d14c16",
+      "source": "police",
+      "lat": 43.74479562250571,
+      "lng": -79.4864081970644,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D31",
+      "location": "KEELE ST - SHEPPARD AVE W",
+      "ts": "2026-08-08T09:08:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_be36d66346f4",
+      "source": "police",
+      "lat": 43.643234487513844,
+      "lng": -79.42359602546665,
+      "type": "SHO",
+      "type_plain": "SHO",
+      "severity": "low",
+      "division": "D13",
+      "location": "QUEEN ST W - LISGAR ST",
+      "ts": "2026-08-08T08:47:27+00:00",
+      "related": [
+        {
+          "id": "tps_c3b3c61281e1",
+          "distance_m": 0,
+          "minutes_apart": 7
+        }
+      ]
+    },
+    {
+      "id": "tps_7132bd334cfe",
+      "source": "police",
+      "lat": 43.695264417289806,
+      "lng": -79.29241196112409,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D55",
+      "location": "HEPC - DENTONIA PARK TRL",
+      "ts": "2026-08-08T08:47:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c3b3c61281e1",
+      "source": "police",
+      "lat": 43.643234487513844,
+      "lng": -79.42359602546665,
+      "type": "SHO",
+      "type_plain": "SHO",
+      "severity": "low",
+      "division": "D14",
+      "location": "QUEEN ST W - LISGAR ST",
+      "ts": "2026-08-08T08:40:11+00:00",
+      "related": [
+        {
+          "id": "tps_be36d66346f4",
+          "distance_m": 0,
+          "minutes_apart": 7
+        }
+      ]
+    },
     {
       "id": "tps_f926a64e1bd4",
       "source": "police",
@@ -11003,13 +11093,7 @@
       "division": "HP",
       "location": "ATHABASKA AVE - ABITIBI AVE",
       "ts": "2026-08-07T11:48:47+00:00",
-      "related": [
-        {
-          "id": "tps_0cde1239bb98",
-          "distance_m": 194,
-          "minutes_apart": 139
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_67585fab2842",
@@ -11162,11 +11246,6 @@
           "id": "tps_9163c0e77d9d",
           "distance_m": 220,
           "minutes_apart": 117
-        },
-        {
-          "id": "tps_87ce88eff39a",
-          "distance_m": 510,
-          "minutes_apart": 142
         }
       ]
     },
@@ -11367,71 +11446,22 @@
       "location": "RIVER ST - BAYVIEW AVE",
       "ts": "2026-08-07T10:19:57+00:00",
       "related": []
-    },
-    {
-      "id": "tps_c3131b65f587",
-      "source": "police",
-      "lat": 43.79948954915259,
-      "lng": -79.13225909668209,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D43",
-      "location": "ISLAND RD - EAST AVE",
-      "ts": "2026-08-07T09:41:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_160a0f335586",
-      "source": "police",
-      "lat": 43.638227083697785,
-      "lng": -79.43087572304012,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D14",
-      "location": "ELM GROVE AVE - SPENCER AVE",
-      "ts": "2026-08-07T09:35:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0cde1239bb98",
-      "source": "police",
-      "lat": 43.79803402021879,
-      "lng": -79.42004823854431,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D32",
-      "location": "YONGE ST - STEELES AVE E",
-      "ts": "2026-08-07T09:29:44+00:00",
-      "related": [
-        {
-          "id": "tps_402cd12ca0e4",
-          "distance_m": 194,
-          "minutes_apart": 139
-        }
-      ]
-    },
-    {
-      "id": "tps_87ce88eff39a",
-      "source": "police",
-      "lat": 43.66008969919346,
-      "lng": -79.36300135983919,
-      "type": "INDEX",
-      "type_plain": "INDEX",
-      "severity": "low",
-      "division": "D51",
-      "location": "SACKVILLE ST - DUNDAS ST E",
-      "ts": "2026-08-07T09:10:39+00:00",
-      "related": [
-        {
-          "id": "tps_9fbc59ba4027",
-          "distance_m": 510,
-          "minutes_apart": 142
-        }
-      ]
     }
   ],
-  "anomalies": []
+  "anomalies": [
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5d466aaf01d6",
+        "tps_d49b3340bf42",
+        "tps_6bc29f517aaa"
+      ]
+    }
+  ]
 }
