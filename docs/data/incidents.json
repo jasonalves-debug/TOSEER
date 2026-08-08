@@ -1,11 +1,76 @@
 {
-  "generated": "2026-08-08T09:50:49.103646+00:00",
+  "generated": "2026-08-08T10:17:55.477211+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_25d2d61ee545",
+      "source": "police",
+      "lat": 43.777745523686384,
+      "lng": -79.3241704680324,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D42",
+      "location": "PATRICK BLVD - OLD SHEPPARD AVE",
+      "ts": "2026-08-08T10:02:56+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_26f777648d76",
+      "source": "police",
+      "lat": 43.658366526420146,
+      "lng": -79.5335591916456,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D22",
+      "location": "CEDARLAND DR - REMINGTON DR",
+      "ts": "2026-08-08T09:51:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e688a7afdab3",
+      "source": "police",
+      "lat": 43.750643884213034,
+      "lng": -79.54906549257699,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D31",
+      "location": "FINCH AVE W - JAYZEL DR",
+      "ts": "2026-08-08T09:42:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9449fa27cf81",
+      "source": "police",
+      "lat": 43.655372194475895,
+      "lng": -79.37386715076576,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D51",
+      "location": "SHUTER ST - LN S DUNDAS W JARVIS",
+      "ts": "2026-08-08T09:40:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_51b30e7058a1",
+      "source": "police",
+      "lat": 43.705001709282904,
+      "lng": -79.27806947833699,
+      "type": "PERGU",
+      "type_plain": "Person Guarding / Person Gone",
+      "severity": "low",
+      "division": "D41",
+      "location": "662 WARDEN AVE - HEPC",
+      "ts": "2026-08-08T09:29:07+00:00",
+      "related": []
+    },
     {
       "id": "tps_5d466aaf01d6",
       "source": "police",
@@ -11451,16 +11516,16 @@
   "anomalies": [
     {
       "source": "police",
-      "division": "D23",
+      "division": "D51",
       "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_5d466aaf01d6",
-        "tps_d49b3340bf42",
-        "tps_6bc29f517aaa"
+        "tps_9449fa27cf81",
+        "tps_209fd4d7eb2e",
+        "tps_d08254df600a"
       ]
     }
   ]
