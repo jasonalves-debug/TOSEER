@@ -1,11 +1,84 @@
 {
-  "generated": "2026-08-08T22:13:38.378886+00:00",
+  "generated": "2026-08-08T22:45:21.700109+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26123000",
+      "source": "fire",
+      "lat": 43.6340203,
+      "lng": -79.4685872,
+      "type": "Fire - Grass/Rubbish",
+      "type_plain": "Fire - Grass/Rubbish",
+      "severity": "medium",
+      "division": "423",
+      "location": "HIGH PARK TRL & HIGH PARK TRL",
+      "approximate": false,
+      "units": "P423",
+      "ts": "2026-08-08T22:24:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_29250cd4657c",
+      "source": "police",
+      "lat": 43.61613691011641,
+      "lng": -79.4952908255014,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D22",
+      "location": "BLUE GOOSE ST - LN E ROYAL YORK N STANLEY",
+      "ts": "2026-08-08T22:13:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_72ef390612be",
+      "source": "police",
+      "lat": 43.671482540853994,
+      "lng": -79.48085851189737,
+      "type": "STA",
+      "type_plain": "STA",
+      "severity": "low",
+      "division": "D12",
+      "location": "HENRIETTA ST - GAFFNEY PARK TRL",
+      "ts": "2026-08-08T22:12:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f5e0e951c45b",
+      "source": "police",
+      "lat": 43.688443396444036,
+      "lng": -79.34845991402729,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D55",
+      "location": "GOWAN AVE - COSBURN AVE",
+      "ts": "2026-08-08T22:10:08+00:00",
+      "related": [
+        {
+          "id": "tps_5e1d6f77c194",
+          "distance_m": 111,
+          "minutes_apart": 112
+        }
+      ]
+    },
+    {
+      "id": "tps_c288f77a6273",
+      "source": "police",
+      "lat": 43.65144329676334,
+      "lng": -79.42554102481836,
+      "type": "MISEL",
+      "type_plain": "MISEL",
+      "severity": "low",
+      "division": "D14",
+      "location": "CHURCHILL AVE - ST ANNES RD",
+      "ts": "2026-08-08T22:06:13+00:00",
+      "related": []
+    },
     {
       "id": "tps_2c53e1951797",
       "source": "police",
@@ -859,7 +932,13 @@
       "division": "D55",
       "location": "GOWAN AVE - COSBURN AVE",
       "ts": "2026-08-08T20:18:19+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_f5e0e951c45b",
+          "distance_m": 111,
+          "minutes_apart": 112
+        }
+      ]
     },
     {
       "id": "tps_874ae9280753",
@@ -9207,11 +9286,6 @@
           "minutes_apart": 95
         },
         {
-          "id": "tfs_F26122307",
-          "distance_m": 373,
-          "minutes_apart": 161
-        },
-        {
           "id": "tps_ab01ed2f65c4",
           "distance_m": 405,
           "minutes_apart": 144
@@ -9402,11 +9476,6 @@
           "minutes_apart": 176
         },
         {
-          "id": "tfs_F26122307",
-          "distance_m": 81,
-          "minutes_apart": 144
-        },
-        {
           "id": "tps_ab01ed2f65c4",
           "distance_m": 375,
           "minutes_apart": 128
@@ -9440,11 +9509,6 @@
       "location": "WEST LODGE AVE - CLOSE AVE",
       "ts": "2026-08-08T01:03:43+00:00",
       "related": [
-        {
-          "id": "tps_636e7c1445e6",
-          "distance_m": 45,
-          "minutes_apart": 145
-        },
         {
           "id": "tps_ba1c7e4ff94f",
           "distance_m": 264,
@@ -9507,11 +9571,6 @@
           "id": "tps_2c5e61483852",
           "distance_m": 282,
           "minutes_apart": 15
-        },
-        {
-          "id": "tps_636e7c1445e6",
-          "distance_m": 309,
-          "minutes_apart": 143
         }
       ]
     },
@@ -9665,11 +9724,6 @@
           "id": "tps_72c065d3e367",
           "distance_m": 546,
           "minutes_apart": 18
-        },
-        {
-          "id": "tps_636e7c1445e6",
-          "distance_m": 591,
-          "minutes_apart": 128
         }
       ]
     },
@@ -9720,11 +9774,6 @@
           "id": "tps_72c065d3e367",
           "distance_m": 295,
           "minutes_apart": 29
-        },
-        {
-          "id": "tps_636e7c1445e6",
-          "distance_m": 329,
-          "minutes_apart": 116
         },
         {
           "id": "tps_2c5e61483852",
@@ -10008,13 +10057,7 @@
       "division": "D53",
       "location": "DUPLEX AVE - HENNING AVE",
       "ts": "2026-08-08T00:05:42+00:00",
-      "related": [
-        {
-          "id": "tps_88d7dffadf6d",
-          "distance_m": 163,
-          "minutes_apart": 99
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_8418dba48404",
@@ -10199,11 +10242,6 @@
       "location": "GERRARD ST E - WOODWARD EVANS LANE",
       "ts": "2026-08-07T23:49:10+00:00",
       "related": [
-        {
-          "id": "tps_6decab6f8bef",
-          "distance_m": 0,
-          "minutes_apart": 64
-        },
         {
           "id": "tps_4e4a1c596fb9",
           "distance_m": 213,
@@ -10419,11 +10457,6 @@
           "minutes_apart": 165
         },
         {
-          "id": "tps_6decab6f8bef",
-          "distance_m": 481,
-          "minutes_apart": 24
-        },
-        {
           "id": "tps_5752ed26426d",
           "distance_m": 481,
           "minutes_apart": 39
@@ -10459,13 +10492,7 @@
       "division": "D53",
       "location": "TRANMER AVE - HILLSDALE AVE W",
       "ts": "2026-08-07T23:04:39+00:00",
-      "related": [
-        {
-          "id": "tps_133fe538281d",
-          "distance_m": 544,
-          "minutes_apart": 50
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_d4e67feacbbd",
@@ -10491,13 +10518,7 @@
       "division": "D42",
       "location": "MORNINGSIDE AVE - SHEPPARD AVE E",
       "ts": "2026-08-07T23:02:28+00:00",
-      "related": [
-        {
-          "id": "tps_4be23133bc79",
-          "distance_m": 0,
-          "minutes_apart": 29
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_4760d543be2c",
@@ -10564,11 +10585,6 @@
           "minutes_apart": 128
         },
         {
-          "id": "tfs_F26122307",
-          "distance_m": 392,
-          "minutes_apart": 17
-        },
-        {
           "id": "tps_5a87e314283f",
           "distance_m": 405,
           "minutes_apart": 144
@@ -10586,13 +10602,7 @@
       "division": "D31",
       "location": "JANE ST - DALLNER RD",
       "ts": "2026-08-07T22:48:09+00:00",
-      "related": [
-        {
-          "id": "tfs_F26122298",
-          "distance_m": 169,
-          "minutes_apart": 21
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_dcbc767204a9",
@@ -10630,247 +10640,15 @@
       "location": "BARRINGTON AVE - GUEST AVE",
       "ts": "2026-08-07T22:45:46+00:00",
       "related": []
-    },
-    {
-      "id": "tps_6decab6f8bef",
-      "source": "police",
-      "lat": 43.662332401436146,
-      "lng": -79.36717885754466,
-      "type": "ESCCU",
-      "type_plain": "ESCCU",
-      "severity": "low",
-      "division": "D51",
-      "location": "GERRARD ST E - WOODWARD EVANS LANE",
-      "ts": "2026-08-07T22:45:19+00:00",
-      "related": [
-        {
-          "id": "tps_5752ed26426d",
-          "distance_m": 0,
-          "minutes_apart": 64
-        },
-        {
-          "id": "tps_f74e922a8495",
-          "distance_m": 481,
-          "minutes_apart": 24
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26122307",
-      "source": "fire",
-      "lat": 43.6496155,
-      "lng": -79.3811129,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "333",
-      "location": "Toronto - ADELAIDE ST & ONTARIO ST",
-      "approximate": false,
-      "units": "P333, T333",
-      "ts": "2026-08-07T22:39:48+00:00",
-      "related": [
-        {
-          "id": "tps_746c067652c5",
-          "distance_m": 81,
-          "minutes_apart": 144
-        },
-        {
-          "id": "tps_5a87e314283f",
-          "distance_m": 373,
-          "minutes_apart": 161
-        },
-        {
-          "id": "tps_ab01ed2f65c4",
-          "distance_m": 392,
-          "minutes_apart": 17
-        }
-      ]
-    },
-    {
-      "id": "tps_636e7c1445e6",
-      "source": "police",
-      "lat": 43.64084008869154,
-      "lng": -79.43540502153037,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D11",
-      "location": "DUNN AVE - WEST LODGE AVE",
-      "ts": "2026-08-07T22:38:21+00:00",
-      "related": [
-        {
-          "id": "tps_72c065d3e367",
-          "distance_m": 45,
-          "minutes_apart": 145
-        },
-        {
-          "id": "tps_ba1c7e4ff94f",
-          "distance_m": 309,
-          "minutes_apart": 143
-        },
-        {
-          "id": "tps_16b4c5a40758",
-          "distance_m": 329,
-          "minutes_apart": 116
-        },
-        {
-          "id": "tps_2c5e61483852",
-          "distance_m": 591,
-          "minutes_apart": 128
-        }
-      ]
-    },
-    {
-      "id": "tps_4be23133bc79",
-      "source": "police",
-      "lat": 43.80196899194465,
-      "lng": -79.19975946977212,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D42",
-      "location": "MORNINGSIDE AVE - SHEPPARD AVE E",
-      "ts": "2026-08-07T22:33:16+00:00",
-      "related": [
-        {
-          "id": "tps_2dc321db1ff6",
-          "distance_m": 0,
-          "minutes_apart": 29
-        }
-      ]
-    },
-    {
-      "id": "tps_446213197cc4",
-      "source": "police",
-      "lat": 43.75164965808687,
-      "lng": -79.27701032360154,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D41",
-      "location": "CANLISH RD - KENNEDY RD",
-      "ts": "2026-08-07T22:30:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26122298",
-      "source": "fire",
-      "lat": 43.7224972,
-      "lng": -79.5087331,
-      "type": "Rescue - Ring Removal",
-      "type_plain": "Rescue - Ring Removal",
-      "severity": "medium",
-      "division": "146",
-      "location": "North York - JANE ST & WILLIAM CRAGG DR",
-      "approximate": false,
-      "units": "P146, S143",
-      "ts": "2026-08-07T22:27:22+00:00",
-      "related": [
-        {
-          "id": "tps_7b7ad3f28d49",
-          "distance_m": 169,
-          "minutes_apart": 21
-        }
-      ]
-    },
-    {
-      "id": "tps_88d7dffadf6d",
-      "source": "police",
-      "lat": 43.70674080495774,
-      "lng": -79.39831324474767,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "EGLINTON AVE W - ROEHAMPTON AVE",
-      "ts": "2026-08-07T22:26:26+00:00",
-      "related": [
-        {
-          "id": "tps_b7c395966c6d",
-          "distance_m": 163,
-          "minutes_apart": 99
-        }
-      ]
-    },
-    {
-      "id": "tps_106e7dfe90c7",
-      "source": "police",
-      "lat": 43.68663652513942,
-      "lng": -79.30855184639708,
-      "type": "LOSEL",
-      "type_plain": "Lost/Found Property or Person",
-      "severity": "low",
-      "division": "D55",
-      "location": "PATRICIA DR - DANFORTH AVE",
-      "ts": "2026-08-07T22:25:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_704df5badbbb",
-      "source": "police",
-      "lat": 43.65431529341902,
-      "lng": -79.39143654040177,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D52",
-      "location": "DUNDAS ST W - MC CAUL ST",
-      "ts": "2026-08-07T22:22:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5cae7b92d2f7",
-      "source": "police",
-      "lat": 43.64604408514776,
-      "lng": -79.39897763385157,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D14",
-      "location": "BRANT ST - MORRISON ST",
-      "ts": "2026-08-07T22:19:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_92009b881e3e",
-      "source": "police",
-      "lat": 43.66267140629888,
-      "lng": -79.41021343352362,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D14",
-      "location": "HARBORD ST - HERRICK ST",
-      "ts": "2026-08-07T22:15:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_133fe538281d",
-      "source": "police",
-      "lat": 43.69830142894629,
-      "lng": -79.39660845557383,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D53",
-      "location": "BALLIOL ST - CHAPLIN CRES",
-      "ts": "2026-08-07T22:14:53+00:00",
-      "related": [
-        {
-          "id": "tps_70b3f83ab297",
-          "distance_m": 544,
-          "minutes_apart": 50
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D52",
-      "current_count": 8,
+      "current_count": 6,
       "baseline_avg": 1.0,
-      "ratio": 8.0,
+      "ratio": 6.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -10899,34 +10677,32 @@
     },
     {
       "source": "police",
+      "division": "D14",
+      "current_count": 7,
+      "baseline_avg": 2.8,
+      "ratio": 2.5,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c288f77a6273",
+        "tps_49d29d96ebf2",
+        "tps_01d341f2a02b",
+        "tps_c55b1129d691",
+        "tps_f7d94a827438"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
-      "current_count": 6,
+      "current_count": 3,
       "baseline_avg": 1.3,
-      "ratio": 4.5,
+      "ratio": 2.2,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_57a82b254a2c",
         "tps_60d9b4aed6f8",
-        "tps_7f957f1dbe49",
-        "tps_80c050806c01",
-        "tps_749381adcd8f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 6,
-      "baseline_avg": 2.5,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ab42717975d1",
-        "tps_591137672432",
-        "tps_3268b6beccee",
-        "tps_7fb590a2ab94",
-        "tps_7a2165edc2f7"
+        "tps_7f957f1dbe49"
       ]
     },
     {
