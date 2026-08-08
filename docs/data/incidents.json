@@ -1,11 +1,140 @@
 {
-  "generated": "2026-08-08T08:26:32.526680+00:00",
+  "generated": "2026-08-08T09:07:52.404427+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_f926a64e1bd4",
+      "source": "police",
+      "lat": 43.81670953701562,
+      "lng": -79.2036110959334,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "RANGELEY DR - BIRRELL AVE",
+      "ts": "2026-08-08T08:39:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d49b3340bf42",
+      "source": "police",
+      "lat": 43.68474536796836,
+      "lng": -79.56097768361184,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D23",
+      "location": "CELESTINE DR - BRAMPTON RD",
+      "ts": "2026-08-08T08:33:54+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b6523f44f9bc",
+      "source": "police",
+      "lat": 43.77251559527955,
+      "lng": -79.41795566062264,
+      "type": "THE",
+      "type_plain": "THE",
+      "severity": "low",
+      "division": "D32",
+      "location": "JOHNSON FARM LANE - CHURCHILL AVE",
+      "ts": "2026-08-08T08:30:40+00:00",
+      "related": [
+        {
+          "id": "tps_c5eb841308a7",
+          "distance_m": 531,
+          "minutes_apart": 159
+        }
+      ]
+    },
+    {
+      "id": "tps_5c2f8235d387",
+      "source": "police",
+      "lat": 43.63421417831526,
+      "lng": -79.51912160672175,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D22",
+      "location": "NORSEMAN ST - ADVANCE RD",
+      "ts": "2026-08-08T08:29:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a8879ec58ea2",
+      "source": "police",
+      "lat": 43.78229544587481,
+      "lng": -79.27682610438053,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D42",
+      "location": "MIDLAND AVE - ",
+      "ts": "2026-08-08T08:29:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_37907f900181",
+      "source": "police",
+      "lat": 43.67746321917854,
+      "lng": -79.45990971219395,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D12",
+      "location": "BLACKTHORN AVE - BLACKTHORN AVE",
+      "ts": "2026-08-08T08:25:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f4319cf6e244",
+      "source": "police",
+      "lat": 43.677901625132755,
+      "lng": -79.40510564531263,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D53",
+      "location": "DAVENPORT RD - GLEN EDYTH PL",
+      "ts": "2026-08-08T08:11:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9b44067e42f7",
+      "source": "police",
+      "lat": 43.677467745895626,
+      "lng": -79.35674888566281,
+      "type": "DAMAU",
+      "type_plain": "DAMAU",
+      "severity": "low",
+      "division": "D55",
+      "location": "BROADVIEW AVE - ELLERBECK ST",
+      "ts": "2026-08-08T08:06:49+00:00",
+      "related": [
+        {
+          "id": "tps_5d7089c0ef07",
+          "distance_m": 0,
+          "minutes_apart": 151
+        }
+      ]
+    },
+    {
+      "id": "tps_2e7f5e3c8b8c",
+      "source": "police",
+      "lat": 43.72666614741996,
+      "lng": -79.48205524351911,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "D31",
+      "location": "WILSON AVE - VICTORY DR",
+      "ts": "2026-08-08T08:05:14+00:00",
+      "related": []
+    },
     {
       "id": "tps_61e3fd99430a",
       "source": "police",
@@ -690,7 +819,13 @@
       "division": "D32",
       "location": "YONGE ST - DORIS AVE",
       "ts": "2026-08-08T05:51:48+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_b6523f44f9bc",
+          "distance_m": 531,
+          "minutes_apart": 159
+        }
+      ]
     },
     {
       "id": "tps_df64cda8297b",
@@ -776,6 +911,11 @@
       "ts": "2026-08-08T05:35:43+00:00",
       "related": [
         {
+          "id": "tps_9b44067e42f7",
+          "distance_m": 0,
+          "minutes_apart": 151
+        },
+        {
           "id": "tps_e7bedb7fb0d1",
           "distance_m": 93,
           "minutes_apart": 50
@@ -799,11 +939,6 @@
           "id": "tps_988897a493ae",
           "distance_m": 220,
           "minutes_apart": 81
-        },
-        {
-          "id": "tps_21b1c84c0857",
-          "distance_m": 570,
-          "minutes_apart": 84
         }
       ]
     },
@@ -11257,13 +11392,7 @@
       "division": "D14",
       "location": "ELM GROVE AVE - SPENCER AVE",
       "ts": "2026-08-07T09:35:32+00:00",
-      "related": [
-        {
-          "id": "tps_b3d093954f56",
-          "distance_m": 510,
-          "minutes_apart": 59
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_0cde1239bb98",
@@ -11302,94 +11431,7 @@
           "minutes_apart": 142
         }
       ]
-    },
-    {
-      "id": "tps_65eb7d2c79d4",
-      "source": "police",
-      "lat": 43.65448999359373,
-      "lng": -79.39032524083046,
-      "type": "FOUPR",
-      "type_plain": "Found Property",
-      "severity": "low",
-      "division": "D52",
-      "location": " - ",
-      "ts": "2026-08-07T08:58:31+00:00",
-      "related": [
-        {
-          "id": "tps_6c716867af8f",
-          "distance_m": 369,
-          "minutes_apart": 9
-        }
-      ]
-    },
-    {
-      "id": "tps_6c716867af8f",
-      "source": "police",
-      "lat": 43.65260489196127,
-      "lng": -79.39409393813668,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D52",
-      "location": "GRANGE PL - HURON ST",
-      "ts": "2026-08-07T08:49:03+00:00",
-      "related": [
-        {
-          "id": "tps_65eb7d2c79d4",
-          "distance_m": 369,
-          "minutes_apart": 9
-        }
-      ]
-    },
-    {
-      "id": "tps_b3d093954f56",
-      "source": "police",
-      "lat": 43.633678777907164,
-      "lng": -79.4316969227664,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY W - LAKE SHORE BLVD W",
-      "ts": "2026-08-07T08:36:57+00:00",
-      "related": [
-        {
-          "id": "tps_160a0f335586",
-          "distance_m": 510,
-          "minutes_apart": 59
-        }
-      ]
-    },
-    {
-      "id": "tps_eb212cdef275",
-      "source": "police",
-      "lat": 43.7387938353503,
-      "lng": -79.30844997105028,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D41",
-      "location": "SWEENEY DR - SLOANE AVE",
-      "ts": "2026-08-07T08:31:50+00:00",
-      "related": []
     }
   ],
-  "anomalies": [
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 1.5,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5efee57f455f",
-        "tps_c1beb5ef09d1",
-        "tps_54f13b25f523",
-        "tps_fc5be4983e69",
-        "tps_50bbe1cf56bb"
-      ]
-    }
-  ]
+  "anomalies": []
 }
