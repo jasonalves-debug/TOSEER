@@ -1,11 +1,150 @@
 {
-  "generated": "2026-08-09T11:16:59.006722+00:00",
+  "generated": "2026-08-09T11:50:59.206199+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_457f00ee2ebe",
+      "source": "police",
+      "lat": 43.687767138689644,
+      "lng": -79.27092807055557,
+      "type": "MISEL",
+      "type_plain": "MISEL",
+      "severity": "low",
+      "division": "D41",
+      "location": "WARDEN AVE - MANDERLEY DR",
+      "ts": "2026-08-09T11:38:27+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_074a4650ac47",
+      "source": "police",
+      "lat": 43.79129733205732,
+      "lng": -79.36912382540753,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D33",
+      "location": "FIELD SPARROWAY - ",
+      "ts": "2026-08-09T11:37:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6a6f350f2834",
+      "source": "police",
+      "lat": 43.69304867532786,
+      "lng": -79.46216598666872,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D13",
+      "location": "EGLINTON AVE W - CALEDONIA RD",
+      "ts": "2026-08-09T11:32:15+00:00",
+      "related": [
+        {
+          "id": "tps_3c49c28063f9",
+          "distance_m": 0,
+          "minutes_apart": 3
+        },
+        {
+          "id": "tfs_F26123290",
+          "distance_m": 220,
+          "minutes_apart": 24
+        }
+      ]
+    },
+    {
+      "id": "tps_3c49c28063f9",
+      "source": "police",
+      "lat": 43.69304867532786,
+      "lng": -79.46216598666872,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "EGLINTON AVE W - CALEDONIA RD",
+      "ts": "2026-08-09T11:29:09+00:00",
+      "related": [
+        {
+          "id": "tps_6a6f350f2834",
+          "distance_m": 0,
+          "minutes_apart": 3
+        },
+        {
+          "id": "tfs_F26123290",
+          "distance_m": 220,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_e76e13e7940e",
+      "source": "police",
+      "lat": 43.771695191471466,
+      "lng": -79.41459646439912,
+      "type": "FOUPR",
+      "type_plain": "Found Property",
+      "severity": "low",
+      "division": "D32",
+      "location": "CANTERBURY PL - BEECROFT RD",
+      "ts": "2026-08-09T11:22:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2c5d70f0b940",
+      "source": "police",
+      "lat": 43.69760630194127,
+      "lng": -79.33636392953336,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY S - DON MILLS RD",
+      "ts": "2026-08-09T11:11:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2b51b1c6dfc3",
+      "source": "police",
+      "lat": 43.6916298259123,
+      "lng": -79.28653536273097,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "LN N DANFORTH E VICTORIA PARK - DENTON AVE",
+      "ts": "2026-08-09T11:10:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26123290",
+      "source": "fire",
+      "lat": 43.6921594,
+      "lng": -79.4646151,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "341",
+      "location": "EGLINTON AVE W & CALEDONIA RD",
+      "approximate": false,
+      "units": "R341",
+      "ts": "2026-08-09T11:07:50+00:00",
+      "related": [
+        {
+          "id": "tps_3c49c28063f9",
+          "distance_m": 220,
+          "minutes_apart": 21
+        },
+        {
+          "id": "tps_6a6f350f2834",
+          "distance_m": 220,
+          "minutes_apart": 24
+        }
+      ]
+    },
     {
       "id": "tps_7b5d9e92e3d6",
       "source": "police",
@@ -9350,13 +9489,7 @@
       "division": "D55",
       "location": "TOMMY THOMPSON PK - LESLIE ST",
       "ts": "2026-08-08T14:18:47+00:00",
-      "related": [
-        {
-          "id": "tps_17acfc46601f",
-          "distance_m": 0,
-          "minutes_apart": 159
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_27515048e6e5",
@@ -9885,11 +10018,6 @@
       "ts": "2026-08-08T12:49:42+00:00",
       "related": [
         {
-          "id": "tps_fd1da9f324e6",
-          "distance_m": 211,
-          "minutes_apart": 70
-        },
-        {
           "id": "tps_b908b64a87e9",
           "distance_m": 428,
           "minutes_apart": 14
@@ -9981,11 +10109,6 @@
           "id": "tps_89c14d61f15f",
           "distance_m": 273,
           "minutes_apart": 157
-        },
-        {
-          "id": "tps_fd1da9f324e6",
-          "distance_m": 377,
-          "minutes_apart": 67
         },
         {
           "id": "tps_d12e661cfd87",
@@ -10091,11 +10214,6 @@
           "minutes_apart": 11
         },
         {
-          "id": "tps_fd1da9f324e6",
-          "distance_m": 369,
-          "minutes_apart": 56
-        },
-        {
           "id": "tps_d12e661cfd87",
           "distance_m": 428,
           "minutes_apart": 14
@@ -10169,11 +10287,6 @@
           "id": "tfs_F26122685",
           "distance_m": 521,
           "minutes_apart": 84
-        },
-        {
-          "id": "tps_dedc907512b3",
-          "distance_m": 596,
-          "minutes_apart": 30
         }
       ]
     },
@@ -10290,13 +10403,7 @@
       "division": "HP",
       "location": "KEELE ST - WILSON AVE",
       "ts": "2026-08-08T12:01:36+00:00",
-      "related": [
-        {
-          "id": "tfs_F26122634",
-          "distance_m": 84,
-          "minutes_apart": 29
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6e010e96b8e9",
@@ -10336,209 +10443,6 @@
       "location": "WEST HIGHLAND CREEK - STEVENWOOD RD",
       "ts": "2026-08-08T11:55:55+00:00",
       "related": []
-    },
-    {
-      "id": "tps_dedc907512b3",
-      "source": "police",
-      "lat": 43.65026718943953,
-      "lng": -79.39815453465033,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D14",
-      "location": "PHOEBE ST - SULLIVAN ST",
-      "ts": "2026-08-08T11:50:43+00:00",
-      "related": [
-        {
-          "id": "tps_19bbc56191e2",
-          "distance_m": 540,
-          "minutes_apart": 7
-        },
-        {
-          "id": "tps_7f848c67f7d1",
-          "distance_m": 596,
-          "minutes_apart": 30
-        }
-      ]
-    },
-    {
-      "id": "tps_be9777741867",
-      "source": "police",
-      "lat": 43.69041868018474,
-      "lng": -79.43676680495938,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D13",
-      "location": "MOIR AVE - JESMOND AVE",
-      "ts": "2026-08-08T11:46:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_19bbc56191e2",
-      "source": "police",
-      "lat": 43.64650428560793,
-      "lng": -79.39391893653499,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D52",
-      "location": "LN S ADELAIDE E CHARLOTTE - ADELAIDE ST W",
-      "ts": "2026-08-08T11:44:08+00:00",
-      "related": [
-        {
-          "id": "tps_dedc907512b3",
-          "distance_m": 540,
-          "minutes_apart": 7
-        }
-      ]
-    },
-    {
-      "id": "tps_b94e691259a6",
-      "source": "police",
-      "lat": 43.79676839792209,
-      "lng": -79.31575388981902,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D42",
-      "location": "BRIDLETOWNE CRCL - WARDEN AVE",
-      "ts": "2026-08-08T11:43:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_96fa309464b0",
-      "source": "police",
-      "lat": 43.82722875632219,
-      "lng": -79.29175381279309,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D42",
-      "location": "STEELES-MK AVE E - BRIMLEY RD",
-      "ts": "2026-08-08T11:40:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fd1da9f324e6",
-      "source": "police",
-      "lat": 43.65831599741979,
-      "lng": -79.37724624949428,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D51",
-      "location": "FRANK NATALE LANE - GOULD ST",
-      "ts": "2026-08-08T11:39:47+00:00",
-      "related": [
-        {
-          "id": "tps_d12e661cfd87",
-          "distance_m": 211,
-          "minutes_apart": 70
-        },
-        {
-          "id": "tps_b908b64a87e9",
-          "distance_m": 369,
-          "minutes_apart": 56
-        },
-        {
-          "id": "tps_3f8cc02908ee",
-          "distance_m": 377,
-          "minutes_apart": 67
-        }
-      ]
-    },
-    {
-      "id": "tps_17acfc46601f",
-      "source": "police",
-      "lat": 43.65240553874324,
-      "lng": -79.32299959773488,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D55",
-      "location": "MARTIN GOODMAN TRL - TOMMY THOMPSON PK",
-      "ts": "2026-08-08T11:39:18+00:00",
-      "related": [
-        {
-          "id": "tps_731278795218",
-          "distance_m": 0,
-          "minutes_apart": 159
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26122634",
-      "source": "fire",
-      "lat": 43.7269209,
-      "lng": -79.4810739,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "144",
-      "location": "KEELE ST & WILSON AVE",
-      "approximate": false,
-      "units": "P144",
-      "ts": "2026-08-08T11:32:42+00:00",
-      "related": [
-        {
-          "id": "tps_ec37d02f3d1e",
-          "distance_m": 84,
-          "minutes_apart": 29
-        }
-      ]
-    },
-    {
-      "id": "tps_62e36e7dc6eb",
-      "source": "police",
-      "lat": 43.739447679475646,
-      "lng": -79.24552004845341,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "DANFORTH RD - TRUDELLE STREET PARK TRL",
-      "ts": "2026-08-08T11:31:35+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1066b8e737f6",
-      "source": "police",
-      "lat": 43.666698505802216,
-      "lng": -79.38134984956254,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "BARBARA HALL PARK TRL - BARBARA HALL PARK TRL",
-      "ts": "2026-08-08T11:31:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ab857df5a77b",
-      "source": "police",
-      "lat": 43.68584709493187,
-      "lng": -79.48731408844087,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D12",
-      "location": "YORK AVE - EGLINTON AVE W",
-      "ts": "2026-08-08T11:27:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1f6ce374bb76",
-      "source": "police",
-      "lat": 43.59783658898966,
-      "lng": -79.52282909935016,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D22",
-      "location": "LAKE SHORE BLVD W - FAIRFIELD AVE",
-      "ts": "2026-08-08T11:24:34+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10555,6 +10459,22 @@
         "tps_8491fa4b247d",
         "tps_450f20960de4",
         "tps_7419150b56a4"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 2.5,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_3c49c28063f9",
+        "tps_2c5d70f0b940",
+        "tps_b498e0ef9419",
+        "tps_94ddbc7d23e6",
+        "tps_ccac82cb527e"
       ]
     }
   ]
