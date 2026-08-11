@@ -1,11 +1,107 @@
 {
-  "generated": "2026-08-11T09:38:07.730023+00:00",
+  "generated": "2026-08-11T10:29:40.519306+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_ab372f9b9932",
+      "source": "police",
+      "lat": 43.622468610441565,
+      "lng": -79.54066258881437,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": " - ",
+      "ts": "2026-08-11T10:04:17+00:00",
+      "related": [
+        {
+          "id": "tps_4f5164ac4c77",
+          "distance_m": 0,
+          "minutes_apart": 153
+        }
+      ]
+    },
+    {
+      "id": "tps_3e849be3083f",
+      "source": "police",
+      "lat": 43.682847803276616,
+      "lng": -79.3301095257934,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D55",
+      "location": "LN N DANFORTH W MONARCH PARK - STRATHMORE BLVD",
+      "ts": "2026-08-11T09:48:19+00:00",
+      "related": [
+        {
+          "id": "tps_e10a83c8440c",
+          "distance_m": 524,
+          "minutes_apart": 165
+        }
+      ]
+    },
+    {
+      "id": "tps_8113b6e0cd02",
+      "source": "police",
+      "lat": 43.719931772164145,
+      "lng": -79.29215937371501,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D41",
+      "location": "FAULKLAND RD - LEBOVIC AVE",
+      "ts": "2026-08-11T09:39:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_72a3e83812d6",
+      "source": "police",
+      "lat": 43.66290600200977,
+      "lng": -79.38372774683492,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "ALEXANDER ST - YONGE ST",
+      "ts": "2026-08-11T09:35:26+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_60019b1b3b80",
+      "source": "police",
+      "lat": 43.733944178292354,
+      "lng": -79.39971615051196,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D32",
+      "location": "MOUNT PLEASANT RD - ",
+      "ts": "2026-08-11T09:34:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_086e467bf73d",
+      "source": "police",
+      "lat": 43.6689814214509,
+      "lng": -79.44230242200905,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D11",
+      "location": "DUFFERIN ST - EMERSON AVE",
+      "ts": "2026-08-11T09:33:16+00:00",
+      "related": [
+        {
+          "id": "tps_92eb80af9c2b",
+          "distance_m": 28,
+          "minutes_apart": 87
+        }
+      ]
+    },
     {
       "id": "tfs_F26124348",
       "source": "fire",
@@ -199,7 +295,13 @@
       "division": "D11",
       "location": "DUFFERIN ST - EMERSON AVE",
       "ts": "2026-08-11T08:06:39+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_086e467bf73d",
+          "distance_m": 28,
+          "minutes_apart": 87
+        }
+      ]
     },
     {
       "id": "tps_7eb26f432e7e",
@@ -334,7 +436,13 @@
       "division": "D22",
       "location": " - ",
       "ts": "2026-08-11T07:31:22+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_ab372f9b9932",
+          "distance_m": 0,
+          "minutes_apart": 153
+        }
+      ]
     },
     {
       "id": "tps_76f58dd0db8d",
@@ -360,7 +468,32 @@
       "division": "D43",
       "location": "DANZIG ST - LING RD",
       "ts": "2026-08-11T07:16:43+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_3a629ddbb232",
+          "distance_m": 0,
+          "minutes_apart": 0
+        }
+      ]
+    },
+    {
+      "id": "tps_3a629ddbb232",
+      "source": "police",
+      "lat": 43.76488110191535,
+      "lng": -79.18489640543595,
+      "type": "SOUGU",
+      "type_plain": "Sound of Gunshots",
+      "severity": "critical",
+      "division": "D43",
+      "location": "MORNINGSIDE AVE - DEEKSHILL DR",
+      "ts": "2026-08-11T07:16:43+00:00",
+      "related": [
+        {
+          "id": "tps_55e848854194",
+          "distance_m": 0,
+          "minutes_apart": 0
+        }
+      ]
     },
     {
       "id": "tps_8a43ad3b6b49",
@@ -424,7 +557,13 @@
       "division": "D55",
       "location": "COXWELL AVE - HILLINGDON AVE",
       "ts": "2026-08-11T07:03:28+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_3e849be3083f",
+          "distance_m": 524,
+          "minutes_apart": 165
+        }
+      ]
     },
     {
       "id": "tps_024d62cfbbdd",
@@ -9866,47 +10005,21 @@
       "location": "SUMMER DR - CORVETTE AVE",
       "ts": "2026-08-10T10:37:41+00:00",
       "related": []
-    },
-    {
-      "id": "tps_456a27894c3e",
-      "source": "police",
-      "lat": 43.790925908518204,
-      "lng": -79.4237132192283,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D13",
-      "location": "FARGO AVE - HILDA AVE",
-      "ts": "2026-08-10T10:02:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_82b775e52ed6",
-      "source": "police",
-      "lat": 43.705107312255635,
-      "lng": -79.55042602072535,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D23",
-      "location": "MONOGRAM PL - METROLINX",
-      "ts": "2026-08-10T09:49:12+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
+      "division": "HP",
       "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_119f14190ff3",
-        "tps_ddc5783578a6",
-        "tps_f7a56d877046"
+        "tps_ab372f9b9932",
+        "tps_72a3e83812d6",
+        "tps_534d32609aad"
       ]
     }
   ]
