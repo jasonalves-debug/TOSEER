@@ -1,11 +1,202 @@
 {
-  "generated": "2026-08-12T09:44:21.363305+00:00",
+  "generated": "2026-08-12T10:42:31.092901+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26124917",
+      "source": "fire",
+      "lat": 43.6663767,
+      "lng": -79.4464798,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "345",
+      "location": "Toronto - LANSDOWNE AVE & DUPONT ST",
+      "approximate": false,
+      "units": "P345, P423",
+      "ts": "2026-08-12T10:29:41+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9b02f64fc5f0",
+      "source": "police",
+      "lat": 43.73871198817177,
+      "lng": -79.21704917636956,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D43",
+      "location": "KINGSTON RD - MARKHAM RD",
+      "ts": "2026-08-12T10:08:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dc58d9089ed1",
+      "source": "police",
+      "lat": 43.767080272059296,
+      "lng": -79.5011478038958,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D31",
+      "location": "LN E SENTINEL S COOK - SENTINEL RD",
+      "ts": "2026-08-12T10:06:31+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_278d91cf005a",
+      "source": "police",
+      "lat": 43.658165697269446,
+      "lng": -79.37237645269067,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D51",
+      "location": "DUNDAS ST E - LN N DUNDAS E GEORGE",
+      "ts": "2026-08-12T10:02:36+00:00",
+      "related": [
+        {
+          "id": "tfs_F26124912",
+          "distance_m": 20,
+          "minutes_apart": 6
+        },
+        {
+          "id": "tfs_F26124902",
+          "distance_m": 217,
+          "minutes_apart": 100
+        }
+      ]
+    },
+    {
+      "id": "tps_d6f217be076a",
+      "source": "police",
+      "lat": 43.65372579981223,
+      "lng": -79.34085117663946,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D55",
+      "location": "LAKE SHORE BLVD E - BOOTH AVE",
+      "ts": "2026-08-12T09:58:14+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26124913",
+      "source": "fire",
+      "lat": 43.8040272,
+      "lng": -79.3369262,
+      "type": "Vehicle Fire",
+      "type_plain": "Vehicle Fire",
+      "severity": "medium",
+      "division": "113",
+      "location": "North York - VICTORIA PARK AVE & MCNICOLL AVE",
+      "approximate": false,
+      "units": "A113, P113",
+      "ts": "2026-08-12T09:58:01+00:00",
+      "related": [
+        {
+          "id": "tps_2d3f9d4d79f8",
+          "distance_m": 50,
+          "minutes_apart": 163
+        },
+        {
+          "id": "tps_21212f8f1c93",
+          "distance_m": 512,
+          "minutes_apart": 63
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26124912",
+      "source": "fire",
+      "lat": 43.6581878,
+      "lng": -79.3726274,
+      "type": "Fire - Residential",
+      "type_plain": "Fire - Residential",
+      "severity": "critical",
+      "division": "325",
+      "location": "Toronto - GEORGE ST & DUNDAS ST E",
+      "approximate": false,
+      "units": "C31, C32, C33, HZ323, L312, L325, LA325, P312, P313, P314, P332, P333, R325, S313, T333",
+      "ts": "2026-08-12T09:56:31+00:00",
+      "related": [
+        {
+          "id": "tps_278d91cf005a",
+          "distance_m": 20,
+          "minutes_apart": 6
+        },
+        {
+          "id": "tfs_F26124902",
+          "distance_m": 200,
+          "minutes_apart": 94
+        }
+      ]
+    },
+    {
+      "id": "tps_626652ccc7ac",
+      "source": "police",
+      "lat": 43.697046477608836,
+      "lng": -79.54672195820916,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "ISLINGTON AVE - DIXON RD",
+      "ts": "2026-08-12T09:55:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6026c11248e4",
+      "source": "police",
+      "lat": 43.667124206227896,
+      "lng": -79.37868335162403,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "CHURCH ST - JARVIS ST",
+      "ts": "2026-08-12T09:43:35+00:00",
+      "related": [
+        {
+          "id": "tps_f01f343bfa39",
+          "distance_m": 98,
+          "minutes_apart": 179
+        }
+      ]
+    },
+    {
+      "id": "tps_6d2ce9190a67",
+      "source": "police",
+      "lat": 43.64807688718051,
+      "lng": -79.39965233353684,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "QUEEN ST W - AUGUSTA AVE",
+      "ts": "2026-08-12T09:43:06+00:00",
+      "related": [
+        {
+          "id": "tps_fe46df333b7f",
+          "distance_m": 95,
+          "minutes_apart": 80
+        },
+        {
+          "id": "tps_21d5b70c15f1",
+          "distance_m": 240,
+          "minutes_apart": 99
+        },
+        {
+          "id": "tps_852d44c11935",
+          "distance_m": 362,
+          "minutes_apart": 91
+        }
+      ]
+    },
     {
       "id": "tfs_F26124907",
       "source": "fire",
@@ -92,6 +283,11 @@
       "ts": "2026-08-12T08:54:33+00:00",
       "related": [
         {
+          "id": "tfs_F26124913",
+          "distance_m": 512,
+          "minutes_apart": 63
+        },
+        {
           "id": "tps_2d3f9d4d79f8",
           "distance_m": 519,
           "minutes_apart": 100
@@ -143,6 +339,11 @@
       "ts": "2026-08-12T08:23:18+00:00",
       "related": [
         {
+          "id": "tps_6d2ce9190a67",
+          "distance_m": 95,
+          "minutes_apart": 80
+        },
+        {
           "id": "tps_21d5b70c15f1",
           "distance_m": 145,
           "minutes_apart": 19
@@ -173,6 +374,16 @@
       "units": "C33, L325, R325",
       "ts": "2026-08-12T08:22:58+00:00",
       "related": [
+        {
+          "id": "tfs_F26124912",
+          "distance_m": 200,
+          "minutes_apart": 94
+        },
+        {
+          "id": "tps_278d91cf005a",
+          "distance_m": 217,
+          "minutes_apart": 100
+        },
         {
           "id": "tps_12846b6dd2e7",
           "distance_m": 324,
@@ -215,6 +426,11 @@
       "location": "BATHURST ST - QUEEN ST W",
       "ts": "2026-08-12T08:12:24+00:00",
       "related": [
+        {
+          "id": "tps_6d2ce9190a67",
+          "distance_m": 362,
+          "minutes_apart": 91
+        },
         {
           "id": "tps_fe46df333b7f",
           "distance_m": 374,
@@ -267,6 +483,11 @@
           "id": "tps_fe46df333b7f",
           "distance_m": 145,
           "minutes_apart": 19
+        },
+        {
+          "id": "tps_6d2ce9190a67",
+          "distance_m": 240,
+          "minutes_apart": 99
         },
         {
           "id": "tps_c3c6090430b9",
@@ -388,6 +609,11 @@
       "ts": "2026-08-12T07:14:55+00:00",
       "related": [
         {
+          "id": "tfs_F26124913",
+          "distance_m": 50,
+          "minutes_apart": 163
+        },
+        {
           "id": "tps_21212f8f1c93",
           "distance_m": 519,
           "minutes_apart": 100
@@ -406,25 +632,6 @@
       "location": " - GOURLAY CRES",
       "ts": "2026-08-12T07:10:48+00:00",
       "related": []
-    },
-    {
-      "id": "tps_ce7f50c2952c",
-      "source": "police",
-      "lat": 43.659859006137324,
-      "lng": -79.34545567627927,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D55",
-      "location": "MC GEE ST - JIMMIE SIMPSON PARK TRL",
-      "ts": "2026-08-12T07:09:00+00:00",
-      "related": [
-        {
-          "id": "tps_42585080975b",
-          "distance_m": 465,
-          "minutes_apart": 161
-        }
-      ]
     },
     {
       "id": "tps_247fc69aae77",
@@ -455,6 +662,25 @@
           "id": "tps_71a13eebeacc",
           "distance_m": 579,
           "minutes_apart": 154
+        }
+      ]
+    },
+    {
+      "id": "tps_ce7f50c2952c",
+      "source": "police",
+      "lat": 43.659859006137324,
+      "lng": -79.34545567627927,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D14",
+      "location": "MC GEE ST - JIMMIE SIMPSON PARK TRL",
+      "ts": "2026-08-12T07:03:18+00:00",
+      "related": [
+        {
+          "id": "tps_42585080975b",
+          "distance_m": 465,
+          "minutes_apart": 155
         }
       ]
     },
@@ -515,6 +741,11 @@
       "location": "WELLESLEY ST E - JARVIS ST",
       "ts": "2026-08-12T06:44:31+00:00",
       "related": [
+        {
+          "id": "tps_6026c11248e4",
+          "distance_m": 98,
+          "minutes_apart": 179
+        },
         {
           "id": "tps_e024a36637c1",
           "distance_m": 236,
@@ -1218,7 +1449,7 @@
         {
           "id": "tps_ce7f50c2952c",
           "distance_m": 465,
-          "minutes_apart": 161
+          "minutes_apart": 155
         }
       ]
     },
@@ -10457,102 +10688,7 @@
       "location": "CHARLES ST W - HAYDEN ST",
       "ts": "2026-08-11T10:45:19+00:00",
       "related": []
-    },
-    {
-      "id": "tps_1fd422008281",
-      "source": "police",
-      "lat": 43.66125060035437,
-      "lng": -79.37910194923538,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D51",
-      "location": "GRANBY ST - CARLTON ST",
-      "ts": "2026-08-11T10:37:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bf1c3f24426f",
-      "source": "police",
-      "lat": 43.766584388106,
-      "lng": -79.38804471609475,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D32",
-      "location": "CLAIRTRELL RD - BAYVIEW AVE",
-      "ts": "2026-08-11T10:31:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_eaec9ffa05e1",
-      "source": "police",
-      "lat": 43.72283806136548,
-      "lng": -79.2986157677257,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D41",
-      "location": "SUNDRIDGE DR - HARRIS PARK DR",
-      "ts": "2026-08-11T10:26:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bf37ec8aeb8f",
-      "source": "police",
-      "lat": 43.6385443776481,
-      "lng": -79.39213313595421,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY E - SPADINA AVE",
-      "ts": "2026-08-11T10:25:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ab372f9b9932",
-      "source": "police",
-      "lat": 43.622468610441565,
-      "lng": -79.54066258881437,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": " - ",
-      "ts": "2026-08-11T10:04:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3e849be3083f",
-      "source": "police",
-      "lat": 43.682847803276616,
-      "lng": -79.3301095257934,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D55",
-      "location": "LN N DANFORTH W MONARCH PARK - STRATHMORE BLVD",
-      "ts": "2026-08-11T09:48:19+00:00",
-      "related": []
     }
   ],
-  "anomalies": [
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.6,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b7a022266916",
-        "tps_4952afdcedb2",
-        "tps_a6af73529861",
-        "tps_64c9dd2b6a93",
-        "tps_15c1ca8d99aa"
-      ]
-    }
-  ]
+  "anomalies": []
 }
