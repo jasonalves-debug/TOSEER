@@ -1,11 +1,135 @@
 {
-  "generated": "2026-08-12T08:37:23.126980+00:00",
+  "generated": "2026-08-12T09:44:21.363305+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26124907",
+      "source": "fire",
+      "lat": 43.7519867,
+      "lng": -79.4887461,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "141",
+      "location": "North York - KEELE ST & GRANDRAVINE DR",
+      "approximate": false,
+      "units": "P141, P144",
+      "ts": "2026-08-12T09:28:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b7a022266916",
+      "source": "police",
+      "lat": 43.66748149675699,
+      "lng": -79.31138382839757,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "LN 2 N QUEEN E KINGSTON - LARK ST",
+      "ts": "2026-08-12T09:26:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6a8034351287",
+      "source": "police",
+      "lat": 43.670755911455295,
+      "lng": -79.39304074611381,
+      "type": "EXPJU",
+      "type_plain": "EXPJU",
+      "severity": "low",
+      "division": "D53",
+      "location": "BELLAIR ST - HAZELTON AVE",
+      "ts": "2026-08-12T09:25:23+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4952afdcedb2",
+      "source": "police",
+      "lat": 43.67700602579838,
+      "lng": -79.37096906736969,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "BLOOR RAMP - BAYVIEW AVE",
+      "ts": "2026-08-12T09:07:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a6af73529861",
+      "source": "police",
+      "lat": 43.68231347289946,
+      "lng": -79.35097980105219,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D55",
+      "location": "BROWNING AVE - FULTON AVE",
+      "ts": "2026-08-12T08:54:59+00:00",
+      "related": [
+        {
+          "id": "tps_64c9dd2b6a93",
+          "distance_m": 309,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_21212f8f1c93",
+      "source": "police",
+      "lat": 43.808524344184214,
+      "lng": -79.33829772537008,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D33",
+      "location": "TEMPO AVE - SPARKS AVE",
+      "ts": "2026-08-12T08:54:33+00:00",
+      "related": [
+        {
+          "id": "tps_2d3f9d4d79f8",
+          "distance_m": 519,
+          "minutes_apart": 100
+        }
+      ]
+    },
+    {
+      "id": "tps_64c9dd2b6a93",
+      "source": "police",
+      "lat": 43.679540863086835,
+      "lng": -79.35066849668102,
+      "type": "THEAU",
+      "type_plain": "THEAU",
+      "severity": "low",
+      "division": "D55",
+      "location": "PLUM PL - AINSWORTH RD",
+      "ts": "2026-08-12T08:42:13+00:00",
+      "related": [
+        {
+          "id": "tps_a6af73529861",
+          "distance_m": 309,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_bb1645df7312",
+      "source": "police",
+      "lat": 43.751454231596036,
+      "lng": -79.30348218371263,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D41",
+      "location": "BRIAN AVE - MURRAY GLEN DR",
+      "ts": "2026-08-12T08:27:21+00:00",
+      "related": []
+    },
     {
       "id": "tps_fe46df333b7f",
       "source": "police",
@@ -262,7 +386,13 @@
       "division": "D33",
       "location": "HEPC - MCNICOLL AVE",
       "ts": "2026-08-12T07:14:55+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_21212f8f1c93",
+          "distance_m": 519,
+          "minutes_apart": 100
+        }
+      ]
     },
     {
       "id": "tps_8534441efc6c",
@@ -10339,13 +10469,7 @@
       "division": "D51",
       "location": "GRANBY ST - CARLTON ST",
       "ts": "2026-08-11T10:37:29+00:00",
-      "related": [
-        {
-          "id": "tps_72a3e83812d6",
-          "distance_m": 415,
-          "minutes_apart": 62
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_bf1c3f24426f",
@@ -10411,226 +10535,23 @@
       "location": "LN N DANFORTH W MONARCH PARK - STRATHMORE BLVD",
       "ts": "2026-08-11T09:48:19+00:00",
       "related": []
-    },
-    {
-      "id": "tps_8113b6e0cd02",
-      "source": "police",
-      "lat": 43.719931772164145,
-      "lng": -79.29215937371501,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "FAULKLAND RD - LEBOVIC AVE",
-      "ts": "2026-08-11T09:39:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_72a3e83812d6",
-      "source": "police",
-      "lat": 43.66290600200977,
-      "lng": -79.38372774683492,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "ALEXANDER ST - YONGE ST",
-      "ts": "2026-08-11T09:35:26+00:00",
-      "related": [
-        {
-          "id": "tps_1fd422008281",
-          "distance_m": 415,
-          "minutes_apart": 62
-        }
-      ]
-    },
-    {
-      "id": "tps_60019b1b3b80",
-      "source": "police",
-      "lat": 43.733944178292354,
-      "lng": -79.39971615051196,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D32",
-      "location": "MOUNT PLEASANT RD - ",
-      "ts": "2026-08-11T09:34:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_086e467bf73d",
-      "source": "police",
-      "lat": 43.6689814214509,
-      "lng": -79.44230242200905,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D11",
-      "location": "DUFFERIN ST - EMERSON AVE",
-      "ts": "2026-08-11T09:33:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26124348",
-      "source": "fire",
-      "lat": 43.6596131,
-      "lng": -79.3504589,
-      "type": "Fire - Subway",
-      "type_plain": "Fire - Subway",
-      "severity": "medium",
-      "division": "313",
-      "location": "Toronto - BROADVIEW AVE & DANFORTH AVE",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-11T09:28:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2dd64564c16c",
-      "source": "police",
-      "lat": 43.76100600637121,
-      "lng": -79.22911908155677,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D43",
-      "location": "GREENBRAE CRCT - MARKHAM RD",
-      "ts": "2026-08-11T09:23:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d5baf65f163b",
-      "source": "police",
-      "lat": 43.65775351503312,
-      "lng": -79.45510951496226,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D11",
-      "location": "CHELSEA AVE - WANDA RD",
-      "ts": "2026-08-11T09:16:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7b749b554d87",
-      "source": "police",
-      "lat": 43.75598418741566,
-      "lng": -79.52430400995499,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D31",
-      "location": "FINCH AVE W - HEPC",
-      "ts": "2026-08-11T09:15:53+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c503481c2c3b",
-      "source": "police",
-      "lat": 43.73396767891982,
-      "lng": -79.58261467205789,
-      "type": "BREJU",
-      "type_plain": "BREJU",
-      "severity": "low",
-      "division": "D23",
-      "location": "JOHN GARLAND BLVD - WW N JAMESTOWN W JOHN GARLAND",
-      "ts": "2026-08-11T09:15:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_827312e8c363",
-      "source": "police",
-      "lat": 43.709588497285964,
-      "lng": -79.39898134140446,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "YONGE ST - REDPATH AVE",
-      "ts": "2026-08-11T09:10:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_119f14190ff3",
-      "source": "police",
-      "lat": 43.665669710008395,
-      "lng": -79.40864393656943,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D14",
-      "location": "HOWLAND AVE - CROFT ST",
-      "ts": "2026-08-11T09:04:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_405611512cf2",
-      "source": "police",
-      "lat": 43.7601415903825,
-      "lng": -79.19886420639797,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "OVERTURE RD - GALLOWAY RD",
-      "ts": "2026-08-11T09:00:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0ba8201543c2",
-      "source": "police",
-      "lat": 43.74680967781584,
-      "lng": -79.58379757246055,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D23",
-      "location": "KIPLING AVE - ",
-      "ts": "2026-08-11T08:53:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9b92925864bc",
-      "source": "police",
-      "lat": 43.75574953014293,
-      "lng": -79.30056848172748,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D41",
-      "location": "PRINCEMERE CRES - TARDREE PL",
-      "ts": "2026-08-11T08:47:41+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_15c1ca8d99aa",
-        "tps_ce7f50c2952c",
-        "tps_718c7dc6fd96",
-        "tps_3e3f8a1a4a66"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
+      "current_count": 6,
+      "baseline_avg": 1.7,
+      "ratio": 3.6,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_451fb009edad",
-        "tps_a53297654d24",
-        "tps_209a254586a4"
+        "tps_b7a022266916",
+        "tps_4952afdcedb2",
+        "tps_a6af73529861",
+        "tps_64c9dd2b6a93",
+        "tps_15c1ca8d99aa"
       ]
     }
   ]
