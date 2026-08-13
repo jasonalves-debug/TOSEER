@@ -1,11 +1,140 @@
 {
-  "generated": "2026-08-13T10:44:30.230733+00:00",
+  "generated": "2026-08-13T11:27:30.376483+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_d119eb622d3b",
+      "source": "police",
+      "lat": 43.68122325465253,
+      "lng": -79.36156748690524,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY N - BAYVIEW BLOOR DVP RAMP",
+      "ts": "2026-08-13T11:08:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4a58dca5f4e7",
+      "source": "police",
+      "lat": 43.65826906007033,
+      "lng": -79.48812771695377,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D11",
+      "location": "JANE ST - ANNETTE ST",
+      "ts": "2026-08-13T11:05:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c4ece4f7ed90",
+      "source": "police",
+      "lat": 43.6520564936609,
+      "lng": -79.40722953160683,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D14",
+      "location": "LN S DUNDAS W MARKHAM - DUNDAS ST W",
+      "ts": "2026-08-13T10:59:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_028d5b54c1b5",
+      "source": "police",
+      "lat": 43.754358723278315,
+      "lng": -79.31402897216104,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D41",
+      "location": "VICTORIA PARK AVE - CASSANDRA BLVD",
+      "ts": "2026-08-13T10:53:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_637f19ba7157",
+      "source": "police",
+      "lat": 43.688447123843794,
+      "lng": -79.30055625233094,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "BARRINGTON AVE - GUEST AVE",
+      "ts": "2026-08-13T10:47:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_454c65b4d2e3",
+      "source": "police",
+      "lat": 43.61935103021635,
+      "lng": -79.51601273074598,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY W - ISLINGTON AVE",
+      "ts": "2026-08-13T10:47:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dafc9b040c4b",
+      "source": "police",
+      "lat": 43.7621233930652,
+      "lng": -79.1947643043253,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D43",
+      "location": "4315 KINGSTON RD - IGNATIUS LANE",
+      "ts": "2026-08-13T10:47:13+00:00",
+      "related": [
+        {
+          "id": "tps_9acba97e0bef",
+          "distance_m": 485,
+          "minutes_apart": 162
+        }
+      ]
+    },
+    {
+      "id": "tps_e284ae2d2e5f",
+      "source": "police",
+      "lat": 43.76632928585783,
+      "lng": -79.41536447488234,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D32",
+      "location": "ELMHURST AVE - NORTH YORK BLVD",
+      "ts": "2026-08-13T10:33:14+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_063dde09a64b",
+      "source": "police",
+      "lat": 43.77357091543586,
+      "lng": -79.34459195690874,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D33",
+      "location": "GEORGE HENRY BLVD - PARKWAY FOREST DR",
+      "ts": "2026-08-13T10:29:54+00:00",
+      "related": [
+        {
+          "id": "tps_92e455342d07",
+          "distance_m": 519,
+          "minutes_apart": 167
+        }
+      ]
+    },
     {
       "id": "tfs_F26125515",
       "source": "fire",
@@ -300,7 +429,13 @@
       "division": "D43",
       "location": "ATHENIA CRT - ARES CRT",
       "ts": "2026-08-13T08:05:06+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_dafc9b040c4b",
+          "distance_m": 485,
+          "minutes_apart": 162
+        }
+      ]
     },
     {
       "id": "tps_e53edd54bd8b",
@@ -365,7 +500,13 @@
       "division": "D33",
       "location": "SHINLEAF TER - YORKLAND RD",
       "ts": "2026-08-13T07:43:12+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_063dde09a64b",
+          "distance_m": 519,
+          "minutes_apart": 167
+        }
+      ]
     },
     {
       "id": "tps_bc633e9553c7",
@@ -8602,11 +8743,6 @@
           "minutes_apart": 118
         },
         {
-          "id": "tps_870861b99e56",
-          "distance_m": 82,
-          "minutes_apart": 175
-        },
-        {
           "id": "tps_e6aef4febf48",
           "distance_m": 158,
           "minutes_apart": 158
@@ -8620,6 +8756,11 @@
           "id": "tps_70d757b25bed",
           "distance_m": 236,
           "minutes_apart": 43
+        },
+        {
+          "id": "tps_a174717ee035",
+          "distance_m": 346,
+          "minutes_apart": 174
         }
       ]
     },
@@ -8703,13 +8844,7 @@
       "division": "D43",
       "location": "BELLAMY RD N - CONFEDERATION PARK TRL",
       "ts": "2026-08-12T13:30:10+00:00",
-      "related": [
-        {
-          "id": "tps_6c9bda0bf129",
-          "distance_m": 0,
-          "minutes_apart": 135
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_61c591339d38",
@@ -8790,11 +8925,6 @@
       "ts": "2026-08-12T13:15:23+00:00",
       "related": [
         {
-          "id": "tps_870861b99e56",
-          "distance_m": 318,
-          "minutes_apart": 148
-        },
-        {
           "id": "tps_caa7339ce765",
           "distance_m": 400,
           "minutes_apart": 26
@@ -8818,6 +8948,11 @@
           "id": "tps_0e1c67a76b5e",
           "distance_m": 559,
           "minutes_apart": 76
+        },
+        {
+          "id": "tps_0b46bf3f0b1e",
+          "distance_m": 564,
+          "minutes_apart": 69
         }
       ]
     },
@@ -9156,13 +9291,7 @@
       "division": "HP",
       "location": "PARLIAMENT ST - CHERRY ST",
       "ts": "2026-08-12T12:05:08+00:00",
-      "related": [
-        {
-          "id": "tps_ee6b6f3b9bc3",
-          "distance_m": 570,
-          "minutes_apart": 72
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_03ed3dc5e4e9",
@@ -9328,11 +9457,6 @@
           "minutes_apart": 118
         },
         {
-          "id": "tps_870861b99e56",
-          "distance_m": 82,
-          "minutes_apart": 57
-        },
-        {
           "id": "tps_70d757b25bed",
           "distance_m": 236,
           "minutes_apart": 161
@@ -9365,11 +9489,6 @@
           "id": "tps_caa7339ce765",
           "distance_m": 0,
           "minutes_apart": 118
-        },
-        {
-          "id": "tps_870861b99e56",
-          "distance_m": 82,
-          "minutes_apart": 57
         },
         {
           "id": "tps_70d757b25bed",
@@ -9523,160 +9642,7 @@
           "minutes_apart": 149
         }
       ]
-    },
-    {
-      "id": "tps_53dcc2e08ddd",
-      "source": "police",
-      "lat": 43.69749530005265,
-      "lng": -79.34947092001272,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY S - LEASIDE BDGE",
-      "ts": "2026-08-12T11:21:04+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1a6add6bf3f5",
-      "source": "police",
-      "lat": 43.72344567591844,
-      "lng": -79.40186783512526,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D53",
-      "location": "LYMPSTONE AVE - LAWRENCE PARK RAVINE TRL",
-      "ts": "2026-08-12T11:14:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6c9bda0bf129",
-      "source": "police",
-      "lat": 43.77432988919434,
-      "lng": -79.24174781301852,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D43",
-      "location": "BELLAMY RD N - CONFEDERATION PARK TRL",
-      "ts": "2026-08-12T11:14:57+00:00",
-      "related": [
-        {
-          "id": "tps_5c1e664fcd31",
-          "distance_m": 0,
-          "minutes_apart": 135
-        }
-      ]
-    },
-    {
-      "id": "tps_9918b7bcf91e",
-      "source": "police",
-      "lat": 43.78207648489185,
-      "lng": -79.16817401943683,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D43",
-      "location": "HWY 2A E LAWSON RD RAMP - LAWSON RD",
-      "ts": "2026-08-12T11:12:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a79e88798e0e",
-      "source": "police",
-      "lat": 43.73871198817177,
-      "lng": -79.21704917636956,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D41",
-      "location": "KINGSTON RD - MARKHAM RD",
-      "ts": "2026-08-12T10:55:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ee6b6f3b9bc3",
-      "source": "police",
-      "lat": 43.64531098441457,
-      "lng": -79.35246376409961,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D51",
-      "location": "CHERRY ST - COMMISSIONERS ST",
-      "ts": "2026-08-12T10:53:28+00:00",
-      "related": [
-        {
-          "id": "tps_e09ef83daa04",
-          "distance_m": 570,
-          "minutes_apart": 72
-        }
-      ]
-    },
-    {
-      "id": "tps_215d22d43ff4",
-      "source": "police",
-      "lat": 43.68258870663456,
-      "lng": -79.32716392839349,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D55",
-      "location": "GILLARD AVE - MONARCH PARK AVE",
-      "ts": "2026-08-12T10:48:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_870861b99e56",
-      "source": "police",
-      "lat": 43.65643079553456,
-      "lng": -79.38400924458271,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D52",
-      "location": "EDWARD ST - BAY ST",
-      "ts": "2026-08-12T10:46:54+00:00",
-      "related": [
-        {
-          "id": "tps_7cd8f5058785",
-          "distance_m": 82,
-          "minutes_apart": 57
-        },
-        {
-          "id": "tps_c2df946889a3",
-          "distance_m": 82,
-          "minutes_apart": 57
-        },
-        {
-          "id": "tps_caa7339ce765",
-          "distance_m": 82,
-          "minutes_apart": 175
-        },
-        {
-          "id": "tfs_F26124972",
-          "distance_m": 318,
-          "minutes_apart": 148
-        }
-      ]
     }
   ],
-  "anomalies": [
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ec9545e19a91",
-        "tps_7a6d84882341",
-        "tps_52a493a689f6",
-        "tps_e53edd54bd8b"
-      ]
-    }
-  ]
+  "anomalies": []
 }
