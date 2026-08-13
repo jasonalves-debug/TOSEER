@@ -1,11 +1,100 @@
 {
-  "generated": "2026-08-13T09:44:54.859803+00:00",
+  "generated": "2026-08-13T10:44:30.230733+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26125515",
+      "source": "fire",
+      "lat": 43.702087,
+      "lng": -79.403393,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "134",
+      "location": "Toronto - YONGE ST & EGLINTON AVE W",
+      "approximate": false,
+      "units": "C13, P134, P135",
+      "ts": "2026-08-13T10:26:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26125514",
+      "source": "fire",
+      "lat": 43.6605715,
+      "lng": -79.3662237,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "325",
+      "location": "Toronto - PARLIAMENT ST & OAK ST",
+      "approximate": false,
+      "units": "L325, R325",
+      "ts": "2026-08-13T10:21:52+00:00",
+      "related": [
+        {
+          "id": "tps_0f4340976a31",
+          "distance_m": 178,
+          "minutes_apart": 115
+        }
+      ]
+    },
+    {
+      "id": "tps_b4df3b5e3a45",
+      "source": "police",
+      "lat": 43.69756446307183,
+      "lng": -79.50193545668895,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "D12",
+      "location": "TRETHEWEY DR - JOHN BEST AVE",
+      "ts": "2026-08-13T10:20:11+00:00",
+      "related": [
+        {
+          "id": "tfs_F26125512",
+          "distance_m": 68,
+          "minutes_apart": 5
+        }
+      ]
+    },
+    {
+      "id": "tps_d67b3a36ccc3",
+      "source": "police",
+      "lat": 43.65728261360197,
+      "lng": -79.45269971576553,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "BLOOR ST W - EDNA AVE",
+      "ts": "2026-08-13T10:18:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26125512",
+      "source": "fire",
+      "lat": 43.6974173,
+      "lng": -79.5011205,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "442",
+      "location": "JANE ST & TRETHEWEY DR",
+      "approximate": false,
+      "units": "P442",
+      "ts": "2026-08-13T10:15:08+00:00",
+      "related": [
+        {
+          "id": "tps_b4df3b5e3a45",
+          "distance_m": 68,
+          "minutes_apart": 5
+        }
+      ]
+    },
     {
       "id": "tps_b6276f331eb0",
       "source": "police",
@@ -143,6 +232,11 @@
       "location": "ST DAVID ST - COATSWORTH ST",
       "ts": "2026-08-13T08:27:11+00:00",
       "related": [
+        {
+          "id": "tfs_F26125514",
+          "distance_m": 178,
+          "minutes_apart": 115
+        },
         {
           "id": "tps_593b04e6b935",
           "distance_m": 577,
@@ -439,6 +533,35 @@
       "ts": "2026-08-13T06:55:13+00:00",
       "related": [
         {
+          "id": "tps_6202ceecdab4",
+          "distance_m": 0,
+          "minutes_apart": 0
+        },
+        {
+          "id": "tps_9b61a050b6a3",
+          "distance_m": 0,
+          "minutes_apart": 25
+        }
+      ]
+    },
+    {
+      "id": "tps_6202ceecdab4",
+      "source": "police",
+      "lat": 43.690787230450496,
+      "lng": -79.40290845104441,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "HP",
+      "location": "AVENUE RD - LONSDALE RD",
+      "ts": "2026-08-13T06:55:13+00:00",
+      "related": [
+        {
+          "id": "tps_34b7fc215a1a",
+          "distance_m": 0,
+          "minutes_apart": 0
+        },
+        {
           "id": "tps_9b61a050b6a3",
           "distance_m": 0,
           "minutes_apart": 25
@@ -542,6 +665,11 @@
       "related": [
         {
           "id": "tps_34b7fc215a1a",
+          "distance_m": 0,
+          "minutes_apart": 25
+        },
+        {
+          "id": "tps_6202ceecdab4",
           "distance_m": 0,
           "minutes_apart": 25
         }
@@ -8667,11 +8795,6 @@
           "minutes_apart": 148
         },
         {
-          "id": "tfs_F26124921",
-          "distance_m": 336,
-          "minutes_apart": 157
-        },
-        {
           "id": "tps_caa7339ce765",
           "distance_m": 400,
           "minutes_apart": 26
@@ -8690,6 +8813,11 @@
           "id": "tps_70d757b25bed",
           "distance_m": 470,
           "minutes_apart": 69
+        },
+        {
+          "id": "tps_0e1c67a76b5e",
+          "distance_m": 559,
+          "minutes_apart": 76
         }
       ]
     },
@@ -9205,11 +9333,6 @@
           "minutes_apart": 57
         },
         {
-          "id": "tfs_F26124921",
-          "distance_m": 156,
-          "minutes_apart": 65
-        },
-        {
           "id": "tps_70d757b25bed",
           "distance_m": 236,
           "minutes_apart": 161
@@ -9247,11 +9370,6 @@
           "id": "tps_870861b99e56",
           "distance_m": 82,
           "minutes_apart": 57
-        },
-        {
-          "id": "tfs_F26124921",
-          "distance_m": 156,
-          "minutes_apart": 65
         },
         {
           "id": "tps_70d757b25bed",
@@ -9475,13 +9593,7 @@
       "division": "D41",
       "location": "KINGSTON RD - MARKHAM RD",
       "ts": "2026-08-12T10:55:55+00:00",
-      "related": [
-        {
-          "id": "tps_9b02f64fc5f0",
-          "distance_m": 0,
-          "minutes_apart": 47
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_ee6b6f3b9bc3",
@@ -9543,209 +9655,27 @@
           "minutes_apart": 175
         },
         {
-          "id": "tfs_F26124921",
-          "distance_m": 125,
-          "minutes_apart": 8
-        },
-        {
           "id": "tfs_F26124972",
           "distance_m": 318,
           "minutes_apart": 148
         }
       ]
-    },
-    {
-      "id": "tps_8d98cf5ecd8e",
-      "source": "police",
-      "lat": 43.720780848086626,
-      "lng": -79.3325817281569,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - EGLINTON AVE E",
-      "ts": "2026-08-12T10:39:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26124921",
-      "source": "fire",
-      "lat": 43.656837,
-      "lng": -79.382563,
-      "type": "Fire - Grass/Rubbish",
-      "type_plain": "Fire - Grass/Rubbish",
-      "severity": "medium",
-      "division": "314",
-      "location": "Toronto - EDWARD ST & YONGE ST",
-      "approximate": false,
-      "units": "P315, P332",
-      "ts": "2026-08-12T10:38:31+00:00",
-      "related": [
-        {
-          "id": "tps_870861b99e56",
-          "distance_m": 125,
-          "minutes_apart": 8
-        },
-        {
-          "id": "tps_7cd8f5058785",
-          "distance_m": 156,
-          "minutes_apart": 65
-        },
-        {
-          "id": "tps_c2df946889a3",
-          "distance_m": 156,
-          "minutes_apart": 65
-        },
-        {
-          "id": "tfs_F26124972",
-          "distance_m": 336,
-          "minutes_apart": 157
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26124917",
-      "source": "fire",
-      "lat": 43.6663767,
-      "lng": -79.4464798,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "345",
-      "location": "Toronto - LANSDOWNE AVE & DUPONT ST",
-      "approximate": false,
-      "units": "P345, P423",
-      "ts": "2026-08-12T10:29:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9b02f64fc5f0",
-      "source": "police",
-      "lat": 43.73871198817177,
-      "lng": -79.21704917636956,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D43",
-      "location": "KINGSTON RD - MARKHAM RD",
-      "ts": "2026-08-12T10:08:43+00:00",
-      "related": [
-        {
-          "id": "tps_a79e88798e0e",
-          "distance_m": 0,
-          "minutes_apart": 47
-        }
-      ]
-    },
-    {
-      "id": "tps_dc58d9089ed1",
-      "source": "police",
-      "lat": 43.767080272059296,
-      "lng": -79.5011478038958,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D31",
-      "location": "LN E SENTINEL S COOK - SENTINEL RD",
-      "ts": "2026-08-12T10:06:31+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_278d91cf005a",
-      "source": "police",
-      "lat": 43.658165697269446,
-      "lng": -79.37237645269067,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D51",
-      "location": "DUNDAS ST E - LN N DUNDAS E GEORGE",
-      "ts": "2026-08-12T10:02:36+00:00",
-      "related": [
-        {
-          "id": "tfs_F26124912",
-          "distance_m": 20,
-          "minutes_apart": 6
-        }
-      ]
-    },
-    {
-      "id": "tps_d6f217be076a",
-      "source": "police",
-      "lat": 43.65372579981223,
-      "lng": -79.34085117663946,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D55",
-      "location": "LAKE SHORE BLVD E - BOOTH AVE",
-      "ts": "2026-08-12T09:58:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26124913",
-      "source": "fire",
-      "lat": 43.8040272,
-      "lng": -79.3369262,
-      "type": "Vehicle Fire",
-      "type_plain": "Vehicle Fire",
-      "severity": "medium",
-      "division": "113",
-      "location": "North York - VICTORIA PARK AVE & MCNICOLL AVE",
-      "approximate": false,
-      "units": "A113, P113",
-      "ts": "2026-08-12T09:58:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26124912",
-      "source": "fire",
-      "lat": 43.6581878,
-      "lng": -79.3726274,
-      "type": "Fire - Residential",
-      "type_plain": "Fire - Residential",
-      "severity": "critical",
-      "division": "325",
-      "location": "Toronto - GEORGE ST & DUNDAS ST E",
-      "approximate": false,
-      "units": "C31, C32, C33, FI28, HZ323, HZ323, L312, L325, L325, LA325, P312, P313, P314, P326, P332, P333, R325, S313, T333",
-      "ts": "2026-08-12T09:56:31+00:00",
-      "related": [
-        {
-          "id": "tps_278d91cf005a",
-          "distance_m": 20,
-          "minutes_apart": 6
-        }
-      ]
-    },
-    {
-      "id": "tps_626652ccc7ac",
-      "source": "police",
-      "lat": 43.697046477608836,
-      "lng": -79.54672195820916,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "ISLINGTON AVE - DIXON RD",
-      "ts": "2026-08-12T09:55:37+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D51",
+      "division": "D32",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_3bac728de6f0",
-        "tps_0f4340976a31",
-        "tps_af8f4e634075",
-        "tps_593b04e6b935"
+        "tps_ec9545e19a91",
+        "tps_7a6d84882341",
+        "tps_52a493a689f6",
+        "tps_e53edd54bd8b"
       ]
     }
   ]
