@@ -1,11 +1,136 @@
 {
-  "generated": "2026-08-13T08:40:36.447783+00:00",
+  "generated": "2026-08-13T09:44:54.859803+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_b6276f331eb0",
+      "source": "police",
+      "lat": 43.765820740158325,
+      "lng": -79.2810965997869,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D41",
+      "location": "ELLESMERE RD - GLAMORGAN AVE",
+      "ts": "2026-08-13T09:23:18+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3bac728de6f0",
+      "source": "police",
+      "lat": 43.64726258636617,
+      "lng": -79.37328194836591,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "THE ESPLANADE - FRONT ST E",
+      "ts": "2026-08-13T09:21:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_43d50378fcdd",
+      "source": "police",
+      "lat": 43.723001037954745,
+      "lng": -79.33965841873807,
+      "type": "THE",
+      "type_plain": "THE",
+      "severity": "low",
+      "division": "D33",
+      "location": "EGLINTON AVE E - WYNFORD DR",
+      "ts": "2026-08-13T09:19:56+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ec9545e19a91",
+      "source": "police",
+      "lat": 43.79868761712339,
+      "lng": -79.41709903489257,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D32",
+      "location": "LN E YONGE S STEELES - DUMONT ST",
+      "ts": "2026-08-13T09:14:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bc6e3c3cacd2",
+      "source": "police",
+      "lat": 43.777745523686384,
+      "lng": -79.3241704680324,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D42",
+      "location": "PATRICK BLVD - OLD SHEPPARD AVE",
+      "ts": "2026-08-13T09:09:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26125500",
+      "source": "fire",
+      "lat": 43.6972893,
+      "lng": -79.5470153,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "443",
+      "location": "Etobicoke - DIXON RD & ISLINGTON AVE",
+      "approximate": false,
+      "units": "P443, R441",
+      "ts": "2026-08-13T09:06:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_356c97049a6f",
+      "source": "police",
+      "lat": 43.66682691210499,
+      "lng": -79.41839743007161,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "BARTON AVE - SHADY LANE",
+      "ts": "2026-08-13T08:56:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d3137f5bbb79",
+      "source": "police",
+      "lat": 43.741089572019206,
+      "lng": -79.58922306495246,
+      "type": "TAXAL",
+      "type_plain": "TAXAL",
+      "severity": "low",
+      "division": "D23",
+      "location": "ALBION RD - FINCH AVE W",
+      "ts": "2026-08-13T08:49:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7a6d84882341",
+      "source": "police",
+      "lat": 43.74414518291392,
+      "lng": -79.40671388896679,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D32",
+      "location": "YONGE ST - YORK MILLS RD",
+      "ts": "2026-08-13T08:35:11+00:00",
+      "related": [
+        {
+          "id": "tps_52a493a689f6",
+          "distance_m": 0,
+          "minutes_apart": 9
+        }
+      ]
+    },
     {
       "id": "tps_0f4340976a31",
       "source": "police",
@@ -36,7 +161,13 @@
       "division": "D32",
       "location": "WILSON AVE - YONGE ST",
       "ts": "2026-08-13T08:26:26+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_7a6d84882341",
+          "distance_m": 0,
+          "minutes_apart": 9
+        }
+      ]
     },
     {
       "id": "tps_6939a2cfb3ca",
@@ -8827,11 +8958,6 @@
           "id": "tps_68156f526930",
           "distance_m": 349,
           "minutes_apart": 97
-        },
-        {
-          "id": "tps_6026c11248e4",
-          "distance_m": 398,
-          "minutes_apart": 161
         }
       ]
     },
@@ -9259,13 +9385,7 @@
       "division": "D31",
       "location": "SHARPECROFT BLVD - DERRYDOWN RD",
       "ts": "2026-08-12T11:29:09+00:00",
-      "related": [
-        {
-          "id": "tfs_F26124907",
-          "distance_m": 263,
-          "minutes_apart": 120
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_353c96f7061f",
@@ -9279,11 +9399,6 @@
       "location": "PORTLAND ST - WATERLOO TER",
       "ts": "2026-08-12T11:28:13+00:00",
       "related": [
-        {
-          "id": "tps_6d2ce9190a67",
-          "distance_m": 431,
-          "minutes_apart": 105
-        },
         {
           "id": "tps_d238b84de81f",
           "distance_m": 506,
@@ -9580,13 +9695,7 @@
       "approximate": false,
       "units": "A113, P113",
       "ts": "2026-08-12T09:58:01+00:00",
-      "related": [
-        {
-          "id": "tps_21212f8f1c93",
-          "distance_m": 512,
-          "minutes_apart": 63
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26124912",
@@ -9621,190 +9730,22 @@
       "location": "ISLINGTON AVE - DIXON RD",
       "ts": "2026-08-12T09:55:37+00:00",
       "related": []
-    },
-    {
-      "id": "tps_6026c11248e4",
-      "source": "police",
-      "lat": 43.667124206227896,
-      "lng": -79.37868335162403,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "CHURCH ST - JARVIS ST",
-      "ts": "2026-08-12T09:43:35+00:00",
-      "related": [
-        {
-          "id": "tps_7aa0f2c9f1e9",
-          "distance_m": 398,
-          "minutes_apart": 161
-        }
-      ]
-    },
-    {
-      "id": "tps_6d2ce9190a67",
-      "source": "police",
-      "lat": 43.64807688718051,
-      "lng": -79.39965233353684,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "QUEEN ST W - AUGUSTA AVE",
-      "ts": "2026-08-12T09:43:06+00:00",
-      "related": [
-        {
-          "id": "tps_353c96f7061f",
-          "distance_m": 431,
-          "minutes_apart": 105
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26124907",
-      "source": "fire",
-      "lat": 43.7519867,
-      "lng": -79.4887461,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "141",
-      "location": "North York - KEELE ST & GRANDRAVINE DR",
-      "approximate": false,
-      "units": "P141, P144",
-      "ts": "2026-08-12T09:28:40+00:00",
-      "related": [
-        {
-          "id": "tps_b6738ac90b77",
-          "distance_m": 263,
-          "minutes_apart": 120
-        }
-      ]
-    },
-    {
-      "id": "tps_b7a022266916",
-      "source": "police",
-      "lat": 43.66748149675699,
-      "lng": -79.31138382839757,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "LN 2 N QUEEN E KINGSTON - LARK ST",
-      "ts": "2026-08-12T09:26:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6a8034351287",
-      "source": "police",
-      "lat": 43.670755911455295,
-      "lng": -79.39304074611381,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D53",
-      "location": "BELLAIR ST - HAZELTON AVE",
-      "ts": "2026-08-12T09:25:23+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4952afdcedb2",
-      "source": "police",
-      "lat": 43.67700602579838,
-      "lng": -79.37096906736969,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "BLOOR RAMP - BAYVIEW AVE",
-      "ts": "2026-08-12T09:07:42+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a6af73529861",
-      "source": "police",
-      "lat": 43.68231347289946,
-      "lng": -79.35097980105219,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D55",
-      "location": "BROWNING AVE - FULTON AVE",
-      "ts": "2026-08-12T08:54:59+00:00",
-      "related": [
-        {
-          "id": "tps_64c9dd2b6a93",
-          "distance_m": 309,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tps_21212f8f1c93",
-      "source": "police",
-      "lat": 43.808524344184214,
-      "lng": -79.33829772537008,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D33",
-      "location": "TEMPO AVE - SPARKS AVE",
-      "ts": "2026-08-12T08:54:33+00:00",
-      "related": [
-        {
-          "id": "tfs_F26124913",
-          "distance_m": 512,
-          "minutes_apart": 63
-        }
-      ]
-    },
-    {
-      "id": "tps_64c9dd2b6a93",
-      "source": "police",
-      "lat": 43.679540863086835,
-      "lng": -79.35066849668102,
-      "type": "THEAU",
-      "type_plain": "THEAU",
-      "severity": "low",
-      "division": "D55",
-      "location": "PLUM PL - AINSWORTH RD",
-      "ts": "2026-08-12T08:42:13+00:00",
-      "related": [
-        {
-          "id": "tps_a6af73529861",
-          "distance_m": 309,
-          "minutes_apart": 13
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D43",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
+      "division": "D51",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_9acba97e0bef",
-        "tps_4406c7a8ce20",
-        "tps_0b1314912d4d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6712711bf105",
-        "tps_722cbd45c01e",
-        "tps_49936f23907d"
+        "tps_3bac728de6f0",
+        "tps_0f4340976a31",
+        "tps_af8f4e634075",
+        "tps_593b04e6b935"
       ]
     }
   ]
