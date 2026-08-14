@@ -1,11 +1,26 @@
 {
-  "generated": "2026-08-14T21:55:27.813404+00:00",
+  "generated": "2026-08-14T22:10:00.540918+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26126454",
+      "source": "fire",
+      "lat": 43.6642812,
+      "lng": -79.4588924,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "423",
+      "location": "DUNDAS ST W & ANNETTE ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-14T21:59:34+00:00",
+      "related": []
+    },
     {
       "id": "tps_cdf1403c8fb2",
       "source": "police",
@@ -8809,13 +8824,7 @@
       "division": "D22",
       "location": "RAMSBURY RD - STANMILLS RD",
       "ts": "2026-08-14T00:46:30+00:00",
-      "related": [
-        {
-          "id": "tps_624240ae4391",
-          "distance_m": 204,
-          "minutes_apart": 165
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f37feda9bbad",
@@ -9897,13 +9906,7 @@
       "division": "D23",
       "location": "CHILCOT AVE - BERGAMOT AVE",
       "ts": "2026-08-13T22:43:55+00:00",
-      "related": [
-        {
-          "id": "tps_e9f9a3b94e19",
-          "distance_m": 321,
-          "minutes_apart": 47
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_980cf89b64e3",
@@ -10171,109 +10174,6 @@
           "minutes_apart": 78
         }
       ]
-    },
-    {
-      "id": "tps_ec8e72128479",
-      "source": "police",
-      "lat": 43.6942459837147,
-      "lng": -79.5586388586282,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D23",
-      "location": "HAYHURST RD - DIXON RD",
-      "ts": "2026-08-13T22:07:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2783151170f4",
-      "source": "police",
-      "lat": 43.67676172261382,
-      "lng": -79.41470393817829,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D13",
-      "location": "CAWTHRA PLAYGROUND TRL - DAVENPORT RD",
-      "ts": "2026-08-13T22:06:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1aa1fb79edfc",
-      "source": "police",
-      "lat": 43.77658049552144,
-      "lng": -79.41474275476786,
-      "type": "LOSEL",
-      "type_plain": "Lost/Found Property or Person",
-      "severity": "low",
-      "division": "D32",
-      "location": "YONGE ST - BYNG AVE",
-      "ts": "2026-08-13T22:04:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_624240ae4391",
-      "source": "police",
-      "lat": 43.62357454902827,
-      "lng": -79.51482932229902,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D22",
-      "location": "ISLINGTON AVE - DORCHESTER AVE",
-      "ts": "2026-08-13T22:01:19+00:00",
-      "related": [
-        {
-          "id": "tps_ca5cdea380e9",
-          "distance_m": 204,
-          "minutes_apart": 165
-        }
-      ]
-    },
-    {
-      "id": "tps_1bf6d47ab0a3",
-      "source": "police",
-      "lat": 43.689674704274495,
-      "lng": -79.4176120292701,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D13",
-      "location": "CEDARVALE RAVINE TRL - MILLBANK AVE",
-      "ts": "2026-08-13T22:00:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e9f9a3b94e19",
-      "source": "police",
-      "lat": 43.71136290747866,
-      "lng": -79.55342181731326,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D23",
-      "location": " - ",
-      "ts": "2026-08-13T21:56:44+00:00",
-      "related": [
-        {
-          "id": "tps_427a82cc410c",
-          "distance_m": 321,
-          "minutes_apart": 47
-        }
-      ]
-    },
-    {
-      "id": "tps_d79a6e718c25",
-      "source": "police",
-      "lat": 43.697046477608836,
-      "lng": -79.54672195820916,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "ISLINGTON AVE - DIXON RD",
-      "ts": "2026-08-13T21:56:14+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10281,8 +10181,8 @@
       "source": "police",
       "division": "D51",
       "current_count": 7,
-      "baseline_avg": 1.2,
-      "ratio": 5.6,
+      "baseline_avg": 1.8,
+      "ratio": 4.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -10295,27 +10195,11 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 8,
-      "baseline_avg": 1.7,
-      "ratio": 4.8,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_fe0f6e76ffa2",
-        "tps_6c1d31ad6cdd",
-        "tps_5d203c550842",
-        "tps_bd34a326799a",
-        "tps_8258e04ca744"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 1.4,
-      "ratio": 4.3,
-      "sample_days": 5,
+      "current_count": 5,
+      "baseline_avg": 1.3,
+      "ratio": 3.8,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_0a4cc781f58e",
@@ -10327,59 +10211,11 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0a9ee088c793",
-        "tps_5ddfb6e12ee8",
-        "tps_45faf69d23c9",
-        "tps_860d1612ba5e",
-        "tps_068d9b03e76e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a7c71177a4bb",
-        "tps_960b5930d801",
-        "tps_5ae7f9851e03",
-        "tps_95623faa35cf",
-        "tps_b35641d8c8de"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_59aa1f96be67",
-        "tps_79a4c5c24eff",
-        "tps_f0d3bb852319",
-        "tps_404ceadc9e6e",
-        "tps_821d83faf90c"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
       "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.9,
-      "sample_days": 4,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_93c7b24639c5",
@@ -10391,58 +10227,11 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c4f795b319cb",
-        "tps_4e0b0e75cb98",
-        "tps_0fcf49d433d7",
-        "tps_fa551c585fea",
-        "tps_e275efb97093"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7f4cfa268f75",
-        "tps_a25399701337",
-        "tps_f7c2606a06d8",
-        "tps_c69604e28aa5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 5,
-      "baseline_avg": 2.4,
-      "ratio": 2.1,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_03421a79b17e",
-        "tps_d91386ff60a0",
-        "tps_049272fb045c",
-        "tps_5d6a9ec367eb",
-        "tps_246138778978"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 8,
-      "baseline_avg": 4.0,
-      "ratio": 2.0,
-      "sample_days": 5,
+      "current_count": 7,
+      "baseline_avg": 2.5,
+      "ratio": 2.8,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_cdf1403c8fb2",
@@ -10454,16 +10243,61 @@
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 3,
+      "division": "D41",
+      "current_count": 4,
       "baseline_avg": 1.5,
-      "ratio": 2.0,
+      "ratio": 2.7,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_d48d3f7877b0",
-        "tps_eac2b7861f5a",
-        "tps_8c9ed893f2f0"
+        "tps_7f4cfa268f75",
+        "tps_a25399701337",
+        "tps_f7c2606a06d8",
+        "tps_c69604e28aa5"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 4,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_59aa1f96be67",
+        "tps_79a4c5c24eff",
+        "tps_f0d3bb852319",
+        "tps_404ceadc9e6e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a7c71177a4bb",
+        "tps_960b5930d801",
+        "tps_5ae7f9851e03",
+        "tps_95623faa35cf"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_3e3cb01b35c2",
+        "tps_6e5cb9736ee6",
+        "tps_b3a8c2c3d6fd"
       ]
     }
   ]
