@@ -1,11 +1,101 @@
 {
-  "generated": "2026-08-14T21:37:48.965948+00:00",
+  "generated": "2026-08-14T21:55:27.813404+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_cdf1403c8fb2",
+      "source": "police",
+      "lat": 43.785321679089435,
+      "lng": -79.16068822510371,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "RAMBLEWOOD DR - LAWSON RD",
+      "ts": "2026-08-14T21:44:34+00:00",
+      "related": [
+        {
+          "id": "tps_59aa1f96be67",
+          "distance_m": 0,
+          "minutes_apart": 60
+        }
+      ]
+    },
+    {
+      "id": "tps_22ee3cab6801",
+      "source": "police",
+      "lat": 43.6984401653,
+      "lng": -79.46349947408855,
+      "type": "FOUCH",
+      "type_plain": "FOUCH",
+      "severity": "low",
+      "division": "D13",
+      "location": "CASTLEFIELD AVE - CALEDONIA RD",
+      "ts": "2026-08-14T21:39:21+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0a9ee088c793",
+      "source": "police",
+      "lat": 43.67186383739783,
+      "lng": -79.46032601964032,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D11",
+      "location": "DAVENPORT RD - CONNOLLY ST",
+      "ts": "2026-08-14T21:37:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0a4cc781f58e",
+      "source": "police",
+      "lat": 43.64148838498934,
+      "lng": -79.42163222612125,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "KING ST W - LN E DOVERCOURT N SUDBURY",
+      "ts": "2026-08-14T21:36:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b5894628c82b",
+      "source": "police",
+      "lat": 43.661875500979264,
+      "lng": -79.37935794927299,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D51",
+      "location": "REVEREND PORTER LANE - CHURCH ST",
+      "ts": "2026-08-14T21:32:06+00:00",
+      "related": [
+        {
+          "id": "tfs_F26126424",
+          "distance_m": 257,
+          "minutes_apart": 40
+        }
+      ]
+    },
+    {
+      "id": "tps_d48d3f7877b0",
+      "source": "police",
+      "lat": 43.64964698875063,
+      "lng": -79.3921049384829,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D52",
+      "location": "BEVERLEY ST - SOHO ST",
+      "ts": "2026-08-14T21:30:32+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26126436",
       "source": "fire",
@@ -19,7 +109,32 @@
       "approximate": false,
       "units": "A221",
       "ts": "2026-08-14T21:29:02+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_7f4cfa268f75",
+          "distance_m": 45,
+          "minutes_apart": 5
+        }
+      ]
+    },
+    {
+      "id": "tps_7f4cfa268f75",
+      "source": "police",
+      "lat": 43.716843202237065,
+      "lng": -79.25990950515116,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "D41",
+      "location": "ST CLAIR AVE E - DANFORTH RD",
+      "ts": "2026-08-14T21:23:37+00:00",
+      "related": [
+        {
+          "id": "tfs_F26126436",
+          "distance_m": 45,
+          "minutes_apart": 5
+        }
+      ]
     },
     {
       "id": "tps_495516976a58",
@@ -227,6 +342,11 @@
       "ts": "2026-08-14T20:52:08+00:00",
       "related": [
         {
+          "id": "tps_b5894628c82b",
+          "distance_m": 257,
+          "minutes_apart": 40
+        },
+        {
           "id": "tps_14a136e73079",
           "distance_m": 472,
           "minutes_apart": 71
@@ -331,7 +451,13 @@
       "division": "D43",
       "location": "RAMBLEWOOD DR - LAWSON RD",
       "ts": "2026-08-14T20:45:04+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_cdf1403c8fb2",
+          "distance_m": 0,
+          "minutes_apart": 60
+        }
+      ]
     },
     {
       "id": "tps_6e90508a7e1d",
@@ -8722,11 +8848,6 @@
           "id": "tps_b0e562187755",
           "distance_m": 429,
           "minutes_apart": 89
-        },
-        {
-          "id": "tps_faedeb94a165",
-          "distance_m": 481,
-          "minutes_apart": 170
         }
       ]
     },
@@ -8878,18 +8999,7 @@
       "division": "D55",
       "location": "GERRARD ST E - FAIRFORD AVE",
       "ts": "2026-08-14T00:34:39+00:00",
-      "related": [
-        {
-          "id": "tps_fce5769a7423",
-          "distance_m": 283,
-          "minutes_apart": 169
-        },
-        {
-          "id": "tps_2f8c94f41655",
-          "distance_m": 283,
-          "minutes_apart": 174
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_5033bd40acd8",
@@ -9466,11 +9576,6 @@
           "minutes_apart": 156
         },
         {
-          "id": "tps_faedeb94a165",
-          "distance_m": 367,
-          "minutes_apart": 94
-        },
-        {
           "id": "tps_f37feda9bbad",
           "distance_m": 429,
           "minutes_apart": 76
@@ -9638,13 +9743,7 @@
       "division": "D51",
       "location": "WELLESLEY ST E - DUNDONALD ST",
       "ts": "2026-08-13T22:58:12+00:00",
-      "related": [
-        {
-          "id": "tps_0784c59c77ee",
-          "distance_m": 412,
-          "minutes_apart": 63
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6a5f078acdd7",
@@ -9937,11 +10036,6 @@
           "id": "tps_55da3bef321e",
           "distance_m": 108,
           "minutes_apart": 0
-        },
-        {
-          "id": "tps_52fbeb88f4a9",
-          "distance_m": 596,
-          "minutes_apart": 45
         }
       ]
     },
@@ -10052,13 +10146,7 @@
       "division": "D51",
       "location": "GERRARD ST E - WOODWARD EVANS LANE",
       "ts": "2026-08-13T22:14:32+00:00",
-      "related": [
-        {
-          "id": "tps_faedeb94a165",
-          "distance_m": 485,
-          "minutes_apart": 21
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_c50f921e39ef",
@@ -10185,173 +10273,7 @@
       "division": "HP",
       "location": "ISLINGTON AVE - DIXON RD",
       "ts": "2026-08-13T21:56:14+00:00",
-      "related": [
-        {
-          "id": "tps_b030952e1431",
-          "distance_m": 248,
-          "minutes_apart": 11
-        }
-      ]
-    },
-    {
-      "id": "tps_0784c59c77ee",
-      "source": "police",
-      "lat": 43.66137010047386,
-      "lng": -79.38309224661504,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D52",
-      "location": "ST LUKE LANE - BAY ST",
-      "ts": "2026-08-13T21:54:55+00:00",
-      "related": [
-        {
-          "id": "tps_36f10fb001c4",
-          "distance_m": 412,
-          "minutes_apart": 63
-        }
-      ]
-    },
-    {
-      "id": "tps_faedeb94a165",
-      "source": "police",
-      "lat": 43.667557507172624,
-      "lng": -79.36780355942176,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D51",
-      "location": "PROHIBITION LANE - SCHAWLOW LANE",
-      "ts": "2026-08-13T21:53:40+00:00",
-      "related": [
-        {
-          "id": "tps_fbaca342732c",
-          "distance_m": 367,
-          "minutes_apart": 94
-        },
-        {
-          "id": "tps_f37feda9bbad",
-          "distance_m": 481,
-          "minutes_apart": 170
-        },
-        {
-          "id": "tps_43bd7c3b0a8b",
-          "distance_m": 485,
-          "minutes_apart": 21
-        }
-      ]
-    },
-    {
-      "id": "tps_fce5769a7423",
-      "source": "police",
-      "lat": 43.67532969893694,
-      "lng": -79.32028232710712,
-      "type": "ASSPC",
-      "type_plain": "ASSPC",
-      "severity": "low",
-      "division": "D55",
-      "location": "COXWELL AVE - GERRARD ST E",
-      "ts": "2026-08-13T21:45:58+00:00",
-      "related": [
-        {
-          "id": "tps_2f8c94f41655",
-          "distance_m": 0,
-          "minutes_apart": 5
-        },
-        {
-          "id": "tps_f0b86ff8345f",
-          "distance_m": 283,
-          "minutes_apart": 169
-        }
-      ]
-    },
-    {
-      "id": "tps_b030952e1431",
-      "source": "police",
-      "lat": 43.69925647446546,
-      "lng": -79.546318952625,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D23",
-      "location": "MAPLEBRANCH PATH - ISLINGTON AVE",
-      "ts": "2026-08-13T21:44:48+00:00",
-      "related": [
-        {
-          "id": "tps_d79a6e718c25",
-          "distance_m": 248,
-          "minutes_apart": 11
-        }
-      ]
-    },
-    {
-      "id": "tps_acb54c66735b",
-      "source": "police",
-      "lat": 43.79310896719046,
-      "lng": -79.33141226562172,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D42",
-      "location": "VICTORIA PARK AVE - FINCH AVE E",
-      "ts": "2026-08-13T21:44:27+00:00",
       "related": []
-    },
-    {
-      "id": "tps_9b0b20cc684b",
-      "source": "police",
-      "lat": 43.68386041645864,
-      "lng": -79.32117323564978,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D55",
-      "location": "COXWELL AVE - HILLINGDON AVE",
-      "ts": "2026-08-13T21:43:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_52fbeb88f4a9",
-      "source": "police",
-      "lat": 43.643702682806364,
-      "lng": -79.3899764377768,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "PSRT1",
-      "location": "NORTHERN LINEAR PARK TRL - METROLINX",
-      "ts": "2026-08-13T21:42:05+00:00",
-      "related": [
-        {
-          "id": "tps_559a5a49abf3",
-          "distance_m": 596,
-          "minutes_apart": 45
-        }
-      ]
-    },
-    {
-      "id": "tps_2f8c94f41655",
-      "source": "police",
-      "lat": 43.67532969893694,
-      "lng": -79.32028232710712,
-      "type": "ASSPC",
-      "type_plain": "ASSPC",
-      "severity": "low",
-      "division": "PK42",
-      "location": "COXWELL AVE - GERRARD ST E",
-      "ts": "2026-08-13T21:41:06+00:00",
-      "related": [
-        {
-          "id": "tps_fce5769a7423",
-          "distance_m": 0,
-          "minutes_apart": 5
-        },
-        {
-          "id": "tps_f0b86ff8345f",
-          "distance_m": 283,
-          "minutes_apart": 174
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -10359,16 +10281,16 @@
       "source": "police",
       "division": "D51",
       "current_count": 7,
-      "baseline_avg": 1.3,
-      "ratio": 5.2,
-      "sample_days": 3,
+      "baseline_avg": 1.2,
+      "ratio": 5.6,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_b5894628c82b",
         "tps_975f7c784d7a",
         "tps_6e90508a7e1d",
         "tps_ac6e167d827b",
-        "tps_d6da09576ef9",
-        "tps_bfa0d78f22ed"
+        "tps_d6da09576ef9"
       ]
     },
     {
@@ -10389,10 +10311,42 @@
     },
     {
       "source": "police",
-      "division": "D32",
+      "division": "D14",
       "current_count": 6,
+      "baseline_avg": 1.4,
+      "ratio": 4.3,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0a4cc781f58e",
+        "tps_264f88c69e55",
+        "tps_c1a66325695a",
+        "tps_902be441d74a",
+        "tps_c1f5d942beef"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 5,
       "baseline_avg": 1.5,
-      "ratio": 4.0,
+      "ratio": 3.3,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0a9ee088c793",
+        "tps_5ddfb6e12ee8",
+        "tps_45faf69d23c9",
+        "tps_860d1612ba5e",
+        "tps_068d9b03e76e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 5,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -10401,38 +10355,6 @@
         "tps_5ae7f9851e03",
         "tps_95623faa35cf",
         "tps_b35641d8c8de"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 6,
-      "baseline_avg": 1.8,
-      "ratio": 3.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_93c7b24639c5",
-        "tps_5a77f8cd5e80",
-        "tps_a0d001a8deb4",
-        "tps_cb80642768f9",
-        "tps_d77a4183c8cf"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_264f88c69e55",
-        "tps_c1a66325695a",
-        "tps_902be441d74a",
-        "tps_c1f5d942beef",
-        "tps_0866bf2a95f6"
       ]
     },
     {
@@ -10453,10 +10375,26 @@
     },
     {
       "source": "police",
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.9,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_93c7b24639c5",
+        "tps_5a77f8cd5e80",
+        "tps_a0d001a8deb4",
+        "tps_cb80642768f9",
+        "tps_d77a4183c8cf"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D53",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 2.0,
-      "ratio": 3.0,
+      "ratio": 2.5,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -10469,10 +10407,25 @@
     },
     {
       "source": "police",
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7f4cfa268f75",
+        "tps_a25399701337",
+        "tps_f7c2606a06d8",
+        "tps_c69604e28aa5"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D12",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 2.4,
-      "ratio": 2.5,
+      "ratio": 2.1,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -10485,47 +10438,32 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5ddfb6e12ee8",
-        "tps_45faf69d23c9",
-        "tps_860d1612ba5e",
-        "tps_068d9b03e76e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a25399701337",
-        "tps_f7c2606a06d8",
-        "tps_c69604e28aa5"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
       "current_count": 8,
-      "baseline_avg": 3.8,
-      "ratio": 2.1,
+      "baseline_avg": 4.0,
+      "ratio": 2.0,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_cdf1403c8fb2",
         "tps_6ae81fd22d1b",
         "tps_46538580e52a",
         "tps_ea5b9f225d0b",
-        "tps_3cd0632dbe94",
-        "tps_1f793ebf76cd"
+        "tps_3cd0632dbe94"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d48d3f7877b0",
+        "tps_eac2b7861f5a",
+        "tps_8c9ed893f2f0"
       ]
     }
   ]
