@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T19:52:17.905193+00:00",
+  "generated": "2026-08-15T20:07:36.629993+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -10425,13 +10425,7 @@
       "division": "D11",
       "location": "LN N QUEEN E LANSDOWNE - ",
       "ts": "2026-08-14T22:40:52+00:00",
-      "related": [
-        {
-          "id": "tps_c1f5d942beef",
-          "distance_m": 262,
-          "minutes_apart": 162
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_8ae9b95f0228",
@@ -11636,90 +11630,32 @@
       "location": "ALLEN AVE - SUMMERHILL RD",
       "ts": "2026-08-14T20:07:41+00:00",
       "related": []
-    },
-    {
-      "id": "tps_fa551c585fea",
-      "source": "police",
-      "lat": 43.70525067580104,
-      "lng": -79.36292850501756,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D53",
-      "location": "MALCOLM RD - KENRAE RD",
-      "ts": "2026-08-14T20:06:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d6da09576ef9",
-      "source": "police",
-      "lat": 43.65431769342137,
-      "lng": -79.37875654715465,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D51",
-      "location": "VICTORIA ST - SHUTER ST",
-      "ts": "2026-08-14T20:04:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5ae7f9851e03",
-      "source": "police",
-      "lat": 43.75904828804913,
-      "lng": -79.4103279105276,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D32",
-      "location": "FLORENCE AVE - JOHNSTON AVE",
-      "ts": "2026-08-14T20:04:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c1f5d942beef",
-      "source": "police",
-      "lat": 43.64057798875763,
-      "lng": -79.43665162111486,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D14",
-      "location": "QUEEN ST W - LANSDOWNE AVE",
-      "ts": "2026-08-14T19:59:12+00:00",
-      "related": [
-        {
-          "id": "tps_705ce81b6e70",
-          "distance_m": 262,
-          "minutes_apart": 162
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D42",
+      "division": "D12",
       "current_count": 5,
       "baseline_avg": 1.2,
-      "ratio": 4.2,
-      "sample_days": 5,
+      "ratio": 4.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_3d1105c37efe",
-        "tps_8170e1344f4a",
-        "tps_5acaf289be98",
-        "tps_365bea33828e",
-        "tps_bc35f7659b84"
+        "tps_7bc1d016a9fa",
+        "tps_521f5750a89c",
+        "tps_2862232f4073",
+        "tps_d683459843aa",
+        "tps_508000773c5b"
       ]
     },
     {
       "source": "police",
       "division": "D32",
       "current_count": 7,
-      "baseline_avg": 2.2,
-      "ratio": 3.2,
-      "sample_days": 6,
+      "baseline_avg": 1.8,
+      "ratio": 3.9,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_1cee5a7fb9e8",
@@ -11731,10 +11667,58 @@
     },
     {
       "source": "police",
+      "division": "HP",
+      "current_count": 6,
+      "baseline_avg": 1.6,
+      "ratio": 3.8,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_63033997ebc1",
+        "tps_cfb69987ed87",
+        "tps_fb5e0fb7a5b4",
+        "tps_f60d19248d18",
+        "tps_0409fdb1ef52"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
+      "current_count": 5,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_3d1105c37efe",
+        "tps_8170e1344f4a",
+        "tps_5acaf289be98",
+        "tps_365bea33828e",
+        "tps_bc35f7659b84"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 5,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_58b1f55dc461",
+        "tps_bcf9ed9ce14f",
+        "tps_de37feae4a5b",
+        "tps_4bdc519d9964",
+        "tps_9b7f01204787"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D51",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 2.6,
-      "ratio": 3.1,
+      "ratio": 2.7,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -11747,94 +11731,31 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 5,
-      "baseline_avg": 1.7,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7bc1d016a9fa",
-        "tps_521f5750a89c",
-        "tps_2862232f4073",
-        "tps_d683459843aa",
-        "tps_508000773c5b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 6,
-      "baseline_avg": 2.3,
-      "ratio": 2.6,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_63033997ebc1",
-        "tps_cfb69987ed87",
-        "tps_fb5e0fb7a5b4",
-        "tps_f60d19248d18",
-        "tps_0409fdb1ef52"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
+      "division": "D13",
       "current_count": 3,
       "baseline_avg": 1.2,
       "ratio": 2.4,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_892bcd6814d4",
-        "tps_b89309878517",
-        "tps_4d117a8a2bd9"
+        "tps_36c77f185e8d",
+        "tps_8648d3565889",
+        "tps_0d88f7517c2e"
       ]
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_58b1f55dc461",
-        "tps_bcf9ed9ce14f",
-        "tps_de37feae4a5b",
-        "tps_4bdc519d9964",
-        "tps_9b7f01204787"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 2.5,
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 2.0,
       "ratio": 2.0,
-      "sample_days": 4,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_057538ff4cb8",
-        "tps_bd2b26acac22",
-        "tps_d835fcaf5e90",
-        "tps_db98554b8685",
-        "tps_ff2f36fc45cc"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7aa01efe90ac",
-        "tps_9cac6dd66eb8",
-        "tps_a6d5fa41b981"
+        "tps_e645376075f9",
+        "tps_285bf69d388c",
+        "tps_7767c1445bbe",
+        "tps_4361c5a9fcf5"
       ]
     }
   ]
