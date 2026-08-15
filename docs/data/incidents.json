@@ -1,11 +1,32 @@
 {
-  "generated": "2026-08-15T21:53:58.880701+00:00",
+  "generated": "2026-08-15T22:05:21.960255+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26127081",
+      "source": "fire",
+      "lat": 43.6663414,
+      "lng": -79.3734414,
+      "type": "Alarm Highrise Residential",
+      "type_plain": "Alarm Highrise Residential",
+      "severity": "medium",
+      "division": "313",
+      "location": "Toronto - WELLESLEY ST & BLEECKER ST",
+      "approximate": false,
+      "units": "A135, C31, HR332, L325, P312, P324, R325, S331",
+      "ts": "2026-08-15T21:53:51+00:00",
+      "related": [
+        {
+          "id": "tps_e5af1aac9f0e",
+          "distance_m": 542,
+          "minutes_apart": 13
+        }
+      ]
+    },
     {
       "id": "tps_e5af1aac9f0e",
       "source": "police",
@@ -17,7 +38,13 @@
       "division": "D51",
       "location": "ISABELLA ST - ST. JAMES TOWN WEST PARK TRL",
       "ts": "2026-08-15T21:40:25+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26127081",
+          "distance_m": 542,
+          "minutes_apart": 13
+        }
+      ]
     },
     {
       "id": "tps_70a4e766c83e",
@@ -10205,11 +10232,6 @@
       "ts": "2026-08-14T23:48:39+00:00",
       "related": [
         {
-          "id": "tps_0a4f33ea973b",
-          "distance_m": 381,
-          "minutes_apart": 113
-        },
-        {
           "id": "tps_fdbe0c8c4520",
           "distance_m": 383,
           "minutes_apart": 165
@@ -10232,11 +10254,6 @@
           "id": "tps_1912362b4998",
           "distance_m": 0,
           "minutes_apart": 98
-        },
-        {
-          "id": "tps_9496cd286143",
-          "distance_m": 140,
-          "minutes_apart": 106
         },
         {
           "id": "tps_cb639e4df3dc",
@@ -10490,13 +10507,7 @@
       "division": "D32",
       "location": "HILLCREST AVE - EMPRESS AVE",
       "ts": "2026-08-14T23:36:00+00:00",
-      "related": [
-        {
-          "id": "tps_ad8bc03b21b6",
-          "distance_m": 267,
-          "minutes_apart": 97
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_9b7a76c88f2e",
@@ -10790,13 +10801,7 @@
       "approximate": false,
       "units": "P324, P326",
       "ts": "2026-08-14T23:13:39+00:00",
-      "related": [
-        {
-          "id": "tps_dcddaca07fba",
-          "distance_m": 500,
-          "minutes_apart": 69
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e82f01dc2ce9",
@@ -10969,13 +10974,7 @@
       "division": "D11",
       "location": "OSLER ST - OSLER ST",
       "ts": "2026-08-14T22:52:15+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126454",
-          "distance_m": 480,
-          "minutes_apart": 53
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_fb9c648207d0",
@@ -11056,13 +11055,7 @@
       "division": "HP",
       "location": "ANNETTE ST - MAVETY ST",
       "ts": "2026-08-14T22:33:50+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126454",
-          "distance_m": 512,
-          "minutes_apart": 34
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_1cd5c0402f9b",
@@ -11177,169 +11170,63 @@
           "id": "tps_e278a896c132",
           "distance_m": 0,
           "minutes_apart": 98
-        },
-        {
-          "id": "tps_9496cd286143",
-          "distance_m": 140,
-          "minutes_apart": 7
         }
       ]
-    },
-    {
-      "id": "tps_43cc63154fba",
-      "source": "police",
-      "lat": 43.67524191717405,
-      "lng": -79.39052254931372,
-      "type": "SEEFI",
-      "type_plain": "SEEFI",
-      "severity": "low",
-      "division": "D53",
-      "location": "LN N BELMONT W YONGE - BASIL JOHNSTON TER",
-      "ts": "2026-08-14T22:04:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dcddaca07fba",
-      "source": "police",
-      "lat": 43.659884435308555,
-      "lng": -79.33215849351818,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D55",
-      "location": "BERKSHIRE AVE - EASTERN AVE",
-      "ts": "2026-08-14T22:04:34+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126505",
-          "distance_m": 500,
-          "minutes_apart": 69
-        }
-      ]
-    },
-    {
-      "id": "tps_61c4c2403d4b",
-      "source": "police",
-      "lat": 43.64273415960989,
-      "lng": -79.53203869519615,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D22",
-      "location": "BLOOR ST W - DUNBLOOR RD",
-      "ts": "2026-08-14T22:03:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26126454",
-      "source": "fire",
-      "lat": 43.6642812,
-      "lng": -79.4588924,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "423",
-      "location": "DUNDAS ST W & ANNETTE ST",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-14T21:59:34+00:00",
-      "related": [
-        {
-          "id": "tps_bfe9a7a6bb15",
-          "distance_m": 480,
-          "minutes_apart": 53
-        },
-        {
-          "id": "tps_cff5f239f3e6",
-          "distance_m": 512,
-          "minutes_apart": 34
-        }
-      ]
-    },
-    {
-      "id": "tps_ad8bc03b21b6",
-      "source": "police",
-      "lat": 43.76747578740376,
-      "lng": -79.41243927814328,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D32",
-      "location": "YONGE ST - HILLCREST AVE",
-      "ts": "2026-08-14T21:59:21+00:00",
-      "related": [
-        {
-          "id": "tps_ef80c397fa21",
-          "distance_m": 267,
-          "minutes_apart": 97
-        }
-      ]
-    },
-    {
-      "id": "tps_9496cd286143",
-      "source": "police",
-      "lat": 43.65144329676334,
-      "lng": -79.42554102481836,
-      "type": "ROB",
-      "type_plain": "ROB",
-      "severity": "low",
-      "division": "D14",
-      "location": "CHURCHILL AVE - ST ANNES RD",
-      "ts": "2026-08-14T21:59:09+00:00",
-      "related": [
-        {
-          "id": "tps_1912362b4998",
-          "distance_m": 140,
-          "minutes_apart": 7
-        },
-        {
-          "id": "tps_e278a896c132",
-          "distance_m": 140,
-          "minutes_apart": 106
-        }
-      ]
-    },
-    {
-      "id": "tps_0a4f33ea973b",
-      "source": "police",
-      "lat": 43.646681487965736,
-      "lng": -79.40654123115154,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D14",
-      "location": "QUEEN ST W - PALMERSTON AVE",
-      "ts": "2026-08-14T21:55:59+00:00",
-      "related": [
-        {
-          "id": "tps_ab7c824b3d64",
-          "distance_m": 381,
-          "minutes_apart": 113
-        }
-      ]
-    },
-    {
-      "id": "tps_c4fafeb5a739",
-      "source": "police",
-      "lat": 43.69461397681813,
-      "lng": -79.51733426722471,
-      "type": "STA",
-      "type_plain": "STA",
-      "severity": "low",
-      "division": "D23",
-      "location": " - ",
-      "ts": "2026-08-14T21:55:15+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D51",
+      "current_count": 5,
+      "baseline_avg": 1.2,
+      "ratio": 4.2,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e5af1aac9f0e",
+        "tps_c18afcd11cc8",
+        "tps_7a2f93af518d",
+        "tps_94abdeeea9bf",
+        "tps_ee9f72a21c92"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_46d84cb7a1fc",
+        "tps_c40aac3c5d4b",
+        "tps_937b9a107971",
+        "tps_234eb12b262e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_70e4895ddf9f",
+        "tps_eababd3fb008",
+        "tps_aab2b078f77c"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D55",
       "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 4.0,
-      "sample_days": 4,
+      "baseline_avg": 2.4,
+      "ratio": 2.9,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_894a5a50226a",
@@ -11353,8 +11240,8 @@
       "source": "police",
       "division": "HP",
       "current_count": 8,
-      "baseline_avg": 2.4,
-      "ratio": 3.3,
+      "baseline_avg": 3.0,
+      "ratio": 2.7,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -11367,79 +11254,16 @@
     },
     {
       "source": "police",
-      "division": "D43",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4afa46033333",
-        "tps_32b39dab837c",
-        "tps_3ec1b081374f",
-        "tps_afd18dfccd00"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
+      "division": "D53",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_46d84cb7a1fc",
-        "tps_c40aac3c5d4b",
-        "tps_937b9a107971",
-        "tps_234eb12b262e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e5af1aac9f0e",
-        "tps_c18afcd11cc8",
-        "tps_7a2f93af518d",
-        "tps_94abdeeea9bf",
-        "tps_ee9f72a21c92"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.2,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_668d4f896d4d",
-        "tps_daf99915903e",
-        "tps_0a74cc355f6d",
-        "tps_e645376075f9",
-        "tps_285bf69d388c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_33b19b481c94",
-        "tps_cde8d1b61d61",
-        "tps_1cee5a7fb9e8",
-        "tps_f569d65dd413"
+        "tps_b601a2910198",
+        "tps_736cc385ba95",
+        "tps_c159618f2614"
       ]
     }
   ]
