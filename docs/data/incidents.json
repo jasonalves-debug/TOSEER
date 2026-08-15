@@ -1,11 +1,137 @@
 {
-  "generated": "2026-08-15T19:02:44.922915+00:00",
+  "generated": "2026-08-15T19:30:23.322764+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26127006",
+      "source": "fire",
+      "lat": 43.6507201,
+      "lng": -79.3969684,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "332",
+      "location": "Toronto - SPADINA AVE & SULLIVAN ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-15T19:22:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bd2b26acac22",
+      "source": "police",
+      "lat": 43.62496016336625,
+      "lng": -79.48924461392606,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D22",
+      "location": "MANITOBA ST - MIMICO CREEK TRL",
+      "ts": "2026-08-15T19:02:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7bc1d016a9fa",
+      "source": "police",
+      "lat": 43.71550254682834,
+      "lng": -79.48943764192288,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D12",
+      "location": "RUSTIC RD - BLUE SPRINGS RD",
+      "ts": "2026-08-15T19:01:03+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bcf9ed9ce14f",
+      "source": "police",
+      "lat": 43.64591718502081,
+      "lng": -79.37908774449542,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D52",
+      "location": "BAY ST - YORK ST",
+      "ts": "2026-08-15T18:51:06+00:00",
+      "related": [
+        {
+          "id": "tps_32488157ea34",
+          "distance_m": 0,
+          "minutes_apart": 177
+        },
+        {
+          "id": "tps_be687f62570a",
+          "distance_m": 550,
+          "minutes_apart": 107
+        }
+      ]
+    },
+    {
+      "id": "tps_8170e1344f4a",
+      "source": "police",
+      "lat": 43.788029563878126,
+      "lng": -79.28641140238707,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D42",
+      "location": "MARILYN AVE - KENNEDY RD",
+      "ts": "2026-08-15T18:49:38+00:00",
+      "related": [
+        {
+          "id": "tps_92fbbf145c1d",
+          "distance_m": 548,
+          "minutes_apart": 79
+        },
+        {
+          "id": "tps_bc35f7659b84",
+          "distance_m": 548,
+          "minutes_apart": 85
+        },
+        {
+          "id": "tfs_F26126944",
+          "distance_m": 586,
+          "minutes_apart": 94
+        }
+      ]
+    },
+    {
+      "id": "tps_5acaf289be98",
+      "source": "police",
+      "lat": 43.83272696567633,
+      "lng": -79.26790073567186,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D42",
+      "location": "MCCOWAN RD - MILLIKEN PARK TRL",
+      "ts": "2026-08-15T18:49:32+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_98194b1ac40d",
+      "source": "police",
+      "lat": 43.650667689771275,
+      "lng": -79.36666165400118,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D51",
+      "location": "PRINCESS ST - BERKELEY ST",
+      "ts": "2026-08-15T18:45:25+00:00",
+      "related": [
+        {
+          "id": "tps_4c3c3583197f",
+          "distance_m": 218,
+          "minutes_apart": 78
+        }
+      ]
+    },
     {
       "id": "tfs_F26126985",
       "source": "fire",
@@ -481,6 +607,11 @@
           "id": "tfs_F26126944",
           "distance_m": 46,
           "minutes_apart": 15
+        },
+        {
+          "id": "tps_8170e1344f4a",
+          "distance_m": 548,
+          "minutes_apart": 79
         }
       ]
     },
@@ -495,7 +626,13 @@
       "division": "D51",
       "location": "ADELAIDE ST E - ONTARIO ST",
       "ts": "2026-08-15T17:27:03+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_98194b1ac40d",
+          "distance_m": 218,
+          "minutes_apart": 78
+        }
+      ]
     },
     {
       "id": "tps_0d88f7517c2e",
@@ -560,6 +697,11 @@
           "id": "tfs_F26126944",
           "distance_m": 46,
           "minutes_apart": 9
+        },
+        {
+          "id": "tps_8170e1344f4a",
+          "distance_m": 548,
+          "minutes_apart": 85
         }
       ]
     },
@@ -646,6 +788,11 @@
           "id": "tps_92fbbf145c1d",
           "distance_m": 46,
           "minutes_apart": 15
+        },
+        {
+          "id": "tps_8170e1344f4a",
+          "distance_m": 586,
+          "minutes_apart": 94
         }
       ]
     },
@@ -741,6 +888,11 @@
           "id": "tps_32488157ea34",
           "distance_m": 550,
           "minutes_apart": 70
+        },
+        {
+          "id": "tps_bcf9ed9ce14f",
+          "distance_m": 550,
+          "minutes_apart": 107
         }
       ]
     },
@@ -1366,6 +1518,11 @@
       "location": " - ",
       "ts": "2026-08-15T15:54:26+00:00",
       "related": [
+        {
+          "id": "tps_bcf9ed9ce14f",
+          "distance_m": 0,
+          "minutes_apart": 177
+        },
         {
           "id": "tps_13560def61d9",
           "distance_m": 283,
@@ -11279,191 +11436,54 @@
       "location": "BRIMWOOD BLVD - FINCH AVE E",
       "ts": "2026-08-14T19:31:38+00:00",
       "related": []
-    },
-    {
-      "id": "tps_5d6a9ec367eb",
-      "source": "police",
-      "lat": 43.68287790772459,
-      "lng": -79.4786543981729,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D12",
-      "location": "ROGERS RD - PORTER AVE",
-      "ts": "2026-08-14T19:26:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ce66863ab91b",
-      "source": "police",
-      "lat": 43.79899361329984,
-      "lng": -79.30596910122911,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D42",
-      "location": "FINCH AVE E - SILVER SPRINGS BLVD",
-      "ts": "2026-08-14T19:25:34+00:00",
-      "related": [
-        {
-          "id": "tps_1a38db0eef55",
-          "distance_m": 378,
-          "minutes_apart": 4
-        }
-      ]
-    },
-    {
-      "id": "tps_e275efb97093",
-      "source": "police",
-      "lat": 43.67299181558383,
-      "lng": -79.40213154285294,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "D53",
-      "location": "LOWTHER AVE - BERNARD AVE",
-      "ts": "2026-08-14T19:24:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f98c7e65f6b6",
-      "source": "police",
-      "lat": 43.702347858764696,
-      "lng": -79.4521117683361,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "D13",
-      "location": "RIDELLE AVE - BRIAR HILL AVE",
-      "ts": "2026-08-14T19:24:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_246138778978",
-      "source": "police",
-      "lat": 43.70251136022851,
-      "lng": -79.51949764897076,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D12",
-      "location": "GEORGE ST - METROLINX / C P R",
-      "ts": "2026-08-14T19:23:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1a38db0eef55",
-      "source": "police",
-      "lat": 43.795868299135066,
-      "lng": -79.30783439581849,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D42",
-      "location": "GLOXINIA CRES - BIRCHMOUNT RD",
-      "ts": "2026-08-14T19:21:07+00:00",
-      "related": [
-        {
-          "id": "tps_ce66863ab91b",
-          "distance_m": 378,
-          "minutes_apart": 4
-        }
-      ]
-    },
-    {
-      "id": "tps_95623faa35cf",
-      "source": "police",
-      "lat": 43.792059308576384,
-      "lng": -79.44755973642219,
-      "type": "ATTBR",
-      "type_plain": "Attempt Break and Enter",
-      "severity": "high",
-      "division": "D32",
-      "location": "CARPENTER RD - TORRESDALE AVE",
-      "ts": "2026-08-14T19:21:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_693a8cbc71cd",
-      "source": "police",
-      "lat": 43.738724081341445,
-      "lng": -79.62806217801939,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D23",
-      "location": "HUMBERLINE DR - C N R",
-      "ts": "2026-08-14T19:18:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_404ceadc9e6e",
-      "source": "police",
-      "lat": 43.77269329373245,
-      "lng": -79.18777130908978,
-      "type": "BREJU",
-      "type_plain": "BREJU",
-      "severity": "low",
-      "division": "D43",
-      "location": "KINGSTON RD - TEFFT RD",
-      "ts": "2026-08-14T19:17:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ccc4f2ae5ea3",
-      "source": "police",
-      "lat": 43.809911366498525,
-      "lng": -79.25769085388117,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D42",
-      "location": "FINCH AVE E - MIDDLEFIELD RD",
-      "ts": "2026-08-14T19:17:18+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4549d3428705",
-      "source": "police",
-      "lat": 43.65016399978196,
-      "lng": -79.43971372009422,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DUNDAS ST W - LANSDOWNE AVE",
-      "ts": "2026-08-14T19:13:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fa30e12fa8f1",
-      "source": "police",
-      "lat": 43.79704806003967,
-      "lng": -79.14915937257543,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "HP",
-      "location": "RYLANDER BLVD - KINGSTON RD",
-      "ts": "2026-08-14T19:09:24+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.2,
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.2,
       "ratio": 3.2,
-      "sample_days": 5,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_f60d19248d18",
-        "tps_0409fdb1ef52",
-        "tps_92fbbf145c1d",
-        "tps_eb175882ef81",
-        "tps_892a03f58669"
+        "tps_8170e1344f4a",
+        "tps_5acaf289be98",
+        "tps_365bea33828e",
+        "tps_bc35f7659b84"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7bc1d016a9fa",
+        "tps_521f5750a89c",
+        "tps_2862232f4073",
+        "tps_d683459843aa",
+        "tps_508000773c5b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 6,
+      "baseline_avg": 2.2,
+      "ratio": 2.7,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_98194b1ac40d",
+        "tps_4648ab8ea146",
+        "tps_4c3c3583197f",
+        "tps_119efe7c265a",
+        "tps_be687f62570a"
       ]
     },
     {
@@ -11482,20 +11502,6 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_365bea33828e",
-        "tps_bc35f7659b84",
-        "tps_cff152128e77"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D32",
       "current_count": 5,
       "baseline_avg": 2.2,
@@ -11508,22 +11514,6 @@
         "tps_27a78a223948",
         "tps_a71f86148aa2",
         "tps_e25eac8e77ff"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.2,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4648ab8ea146",
-        "tps_4c3c3583197f",
-        "tps_119efe7c265a",
-        "tps_be687f62570a",
-        "tps_4a896554bc84"
       ]
     },
     {
