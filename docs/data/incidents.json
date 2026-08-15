@@ -1,11 +1,47 @@
 {
-  "generated": "2026-08-15T14:56:03.898769+00:00",
+  "generated": "2026-08-15T15:09:15.013801+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26126879",
+      "source": "fire",
+      "lat": 43.7670524,
+      "lng": -79.1904024,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "234",
+      "location": "Scarborough - LAWRENCE AVE & KINGSTON RD",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-15T14:59:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26126878",
+      "source": "fire",
+      "lat": 43.6556588,
+      "lng": -79.380368,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - DUNDAS SQ & YONGE ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-15T14:57:56+00:00",
+      "related": [
+        {
+          "id": "tps_9af3a9d72a1a",
+          "distance_m": 412,
+          "minutes_apart": 178
+        }
+      ]
+    },
     {
       "id": "tps_4de5cb260a95",
       "source": "police",
@@ -1018,6 +1054,11 @@
       "location": "VICTORIA ST - BOND ST",
       "ts": "2026-08-15T11:59:44+00:00",
       "related": [
+        {
+          "id": "tfs_F26126878",
+          "distance_m": 412,
+          "minutes_apart": 178
+        },
         {
           "id": "tps_45e9c2a27f7f",
           "distance_m": 465,
@@ -10004,14 +10045,14 @@
           "minutes_apart": 76
         },
         {
-          "id": "tps_f02dabade4b9",
-          "distance_m": 297,
-          "minutes_apart": 164
+          "id": "tps_c6d43151334b",
+          "distance_m": 316,
+          "minutes_apart": 26
         },
         {
-          "id": "tfs_F26126241",
-          "distance_m": 303,
-          "minutes_apart": 166
+          "id": "tps_56614fb56644",
+          "distance_m": 368,
+          "minutes_apart": 25
         }
       ]
     },
@@ -10050,14 +10091,14 @@
           "minutes_apart": 76
         },
         {
-          "id": "tps_f02dabade4b9",
-          "distance_m": 313,
-          "minutes_apart": 164
-        },
-        {
           "id": "tps_c6d43151334b",
           "distance_m": 322,
           "minutes_apart": 25
+        },
+        {
+          "id": "tps_56614fb56644",
+          "distance_m": 350,
+          "minutes_apart": 26
         }
       ]
     },
@@ -10192,11 +10233,6 @@
           "minutes_apart": 121
         },
         {
-          "id": "tps_f6488ccbc409",
-          "distance_m": 503,
-          "minutes_apart": 153
-        },
-        {
           "id": "tps_46538580e52a",
           "distance_m": 555,
           "minutes_apart": 158
@@ -10255,11 +10291,6 @@
       "ts": "2026-08-14T17:24:34+00:00",
       "related": [
         {
-          "id": "tps_f02dabade4b9",
-          "distance_m": 217,
-          "minutes_apart": 139
-        },
-        {
           "id": "tps_77a426cc5a51",
           "distance_m": 316,
           "minutes_apart": 26
@@ -10270,11 +10301,6 @@
           "minutes_apart": 25
         },
         {
-          "id": "tfs_F26126241",
-          "distance_m": 329,
-          "minutes_apart": 141
-        },
-        {
           "id": "tps_739319e5eab7",
           "distance_m": 399,
           "minutes_apart": 51
@@ -10283,6 +10309,16 @@
           "id": "tps_d6da09576ef9",
           "distance_m": 410,
           "minutes_apart": 160
+        },
+        {
+          "id": "tps_007666e78c09",
+          "distance_m": 577,
+          "minutes_apart": 8
+        },
+        {
+          "id": "tps_14a136e73079",
+          "distance_m": 577,
+          "minutes_apart": 137
         }
       ]
     },
@@ -10363,21 +10399,6 @@
           "id": "tps_d6da09576ef9",
           "distance_m": 283,
           "minutes_apart": 168
-        },
-        {
-          "id": "tps_03109db251f5",
-          "distance_m": 398,
-          "minutes_apart": 140
-        },
-        {
-          "id": "tps_4fb62b17894b",
-          "distance_m": 472,
-          "minutes_apart": 138
-        },
-        {
-          "id": "tps_ac55c03052e3",
-          "distance_m": 575,
-          "minutes_apart": 131
         },
         {
           "id": "tps_c6d43151334b",
@@ -10694,16 +10715,6 @@
       "location": "DUNDAS ST E - SHERBOURNE ST",
       "ts": "2026-08-14T16:34:00+00:00",
       "related": [
-        {
-          "id": "tfs_F26126241",
-          "distance_m": 131,
-          "minutes_apart": 90
-        },
-        {
-          "id": "tps_f02dabade4b9",
-          "distance_m": 225,
-          "minutes_apart": 88
-        },
         {
           "id": "tps_77a426cc5a51",
           "distance_m": 248,
@@ -11140,11 +11151,6 @@
           "id": "tfs_F26126291",
           "distance_m": 502,
           "minutes_apart": 74
-        },
-        {
-          "id": "tps_4fb62b17894b",
-          "distance_m": 525,
-          "minutes_apart": 28
         }
       ]
     },
@@ -11263,203 +11269,6 @@
           "minutes_apart": 14
         }
       ]
-    },
-    {
-      "id": "tps_5d1cbf8a0cc5",
-      "source": "police",
-      "lat": 43.70252131741821,
-      "lng": -79.39746845017567,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "PK53",
-      "location": "MANOR RD E - YONGE ST",
-      "ts": "2026-08-14T15:08:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f02dabade4b9",
-      "source": "police",
-      "lat": 43.65729849640226,
-      "lng": -79.37344165169152,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D51",
-      "location": "DUNDAS ST E - LN N DUNDAS E GEORGE",
-      "ts": "2026-08-14T15:05:54+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126241",
-          "distance_m": 119,
-          "minutes_apart": 2
-        },
-        {
-          "id": "tps_c6d43151334b",
-          "distance_m": 217,
-          "minutes_apart": 139
-        },
-        {
-          "id": "tps_739319e5eab7",
-          "distance_m": 225,
-          "minutes_apart": 88
-        },
-        {
-          "id": "tps_77a426cc5a51",
-          "distance_m": 297,
-          "minutes_apart": 164
-        },
-        {
-          "id": "tfs_F26126326",
-          "distance_m": 313,
-          "minutes_apart": 164
-        }
-      ]
-    },
-    {
-      "id": "tps_ac55c03052e3",
-      "source": "police",
-      "lat": 43.65116169026529,
-      "lng": -79.38132014339358,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D52",
-      "location": "BAY ST - RICHMOND ST W",
-      "ts": "2026-08-14T15:05:21+00:00",
-      "related": [
-        {
-          "id": "tps_03109db251f5",
-          "distance_m": 226,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_007666e78c09",
-          "distance_m": 575,
-          "minutes_apart": 131
-        }
-      ]
-    },
-    {
-      "id": "tps_f6488ccbc409",
-      "source": "police",
-      "lat": 43.6405338142341,
-      "lng": -79.57012948228206,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "TOLEDO RD - REXTON RD",
-      "ts": "2026-08-14T15:04:05+00:00",
-      "related": [
-        {
-          "id": "tps_4cc3cc869f90",
-          "distance_m": 503,
-          "minutes_apart": 153
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26126241",
-      "source": "fire",
-      "lat": 43.6581878,
-      "lng": -79.3726274,
-      "type": "Vehicle Fire",
-      "type_plain": "Vehicle Fire",
-      "severity": "medium",
-      "division": "325",
-      "location": "Toronto - GEORGE ST & DUNDAS ST E",
-      "approximate": false,
-      "units": "R325",
-      "ts": "2026-08-14T15:03:50+00:00",
-      "related": [
-        {
-          "id": "tps_f02dabade4b9",
-          "distance_m": 119,
-          "minutes_apart": 2
-        },
-        {
-          "id": "tps_739319e5eab7",
-          "distance_m": 131,
-          "minutes_apart": 90
-        },
-        {
-          "id": "tps_77a426cc5a51",
-          "distance_m": 303,
-          "minutes_apart": 166
-        },
-        {
-          "id": "tfs_F26126326",
-          "distance_m": 322,
-          "minutes_apart": 166
-        },
-        {
-          "id": "tps_c6d43151334b",
-          "distance_m": 329,
-          "minutes_apart": 141
-        }
-      ]
-    },
-    {
-      "id": "tps_cf1775caed66",
-      "source": "police",
-      "lat": 43.64857479289556,
-      "lng": -79.41907222697462,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN N ARGYLE W SHAW - HALTON ST",
-      "ts": "2026-08-14T15:01:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4fb62b17894b",
-      "source": "police",
-      "lat": 43.65923739834116,
-      "lng": -79.38517394513003,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D52",
-      "location": "GERRARD ST E - COLLEGE ST",
-      "ts": "2026-08-14T14:58:43+00:00",
-      "related": [
-        {
-          "id": "tps_007666e78c09",
-          "distance_m": 472,
-          "minutes_apart": 138
-        },
-        {
-          "id": "tps_f5d00ea60eeb",
-          "distance_m": 525,
-          "minutes_apart": 28
-        }
-      ]
-    },
-    {
-      "id": "tps_03109db251f5",
-      "source": "police",
-      "lat": 43.65296289206652,
-      "lng": -79.38262344412513,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "D52",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-08-14T14:56:19+00:00",
-      "related": [
-        {
-          "id": "tps_ac55c03052e3",
-          "distance_m": 226,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_007666e78c09",
-          "distance_m": 398,
-          "minutes_apart": 140
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11467,9 +11276,9 @@
       "source": "police",
       "division": "HP",
       "current_count": 9,
-      "baseline_avg": 2.5,
-      "ratio": 3.6,
-      "sample_days": 4,
+      "baseline_avg": 1.8,
+      "ratio": 5.0,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_f2987e037714",
@@ -11481,27 +11290,11 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_703a27c5d5aa",
-        "tps_570b7a8a4c6f",
-        "tps_d1e72dcf90bb",
-        "tps_8f4aa9cda01f",
-        "tps_c50ce507a04c"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D53",
       "current_count": 6,
-      "baseline_avg": 1.8,
-      "ratio": 3.3,
-      "sample_days": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.6,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_b470ded4966a",
@@ -11513,10 +11306,39 @@
     },
     {
       "source": "police",
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_703a27c5d5aa",
+        "tps_570b7a8a4c6f",
+        "tps_d1e72dcf90bb",
+        "tps_8f4aa9cda01f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_13d6976f5000",
+        "tps_c983e1ea10f3",
+        "tps_dd49607955c2"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D43",
       "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
+      "baseline_avg": 1.8,
+      "ratio": 2.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -11524,63 +11346,6 @@
         "tps_ed7f09383f82",
         "tps_b3728b4af9ff",
         "tps_0667b0a03d54"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_13d6976f5000",
-        "tps_c983e1ea10f3",
-        "tps_dd49607955c2",
-        "tps_1656e1dd8bfa"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0ef001b51f9b",
-        "tps_8f536a7243a9",
-        "tps_f10471de47c5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4cc434aae8b3",
-        "tps_d4bb43dfb8a4",
-        "tps_97ab2c2e9a39"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D13",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4de5cb260a95",
-        "tps_ecbf6293ed5f",
-        "tps_9e2a773f4571"
       ]
     }
   ]
