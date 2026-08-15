@@ -1,11 +1,141 @@
 {
-  "generated": "2026-08-15T12:56:01.167409+00:00",
+  "generated": "2026-08-15T13:21:39.025760+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_9c56e4a1ebef",
+      "source": "police",
+      "lat": 43.69122472524528,
+      "lng": -79.28834606133788,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D41",
+      "location": "VICTORIA PARK AVE - THORA AVE",
+      "ts": "2026-08-15T13:00:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_30018513e251",
+      "source": "police",
+      "lat": 43.70841831692344,
+      "lng": -79.39016125898006,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D53",
+      "location": "EGLINTON AVE E - MOUNT PLEASANT RD",
+      "ts": "2026-08-15T12:59:26+00:00",
+      "related": [
+        {
+          "id": "tps_dd6047d1e3d5",
+          "distance_m": 0,
+          "minutes_apart": 16
+        }
+      ]
+    },
+    {
+      "id": "tps_f10471de47c5",
+      "source": "police",
+      "lat": 43.75793629475563,
+      "lng": -79.37471742288092,
+      "type": "FRA",
+      "type_plain": "Fraud",
+      "severity": "medium",
+      "division": "D33",
+      "location": "FARRINGTON DR - ",
+      "ts": "2026-08-15T12:58:16+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e06c0fba6be5",
+      "source": "police",
+      "lat": 43.67700602579838,
+      "lng": -79.37096906736969,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "BLOOR RAMP - BAYVIEW AVE",
+      "ts": "2026-08-15T12:54:54+00:00",
+      "related": [
+        {
+          "id": "tps_2d6ddda16a6b",
+          "distance_m": 0,
+          "minutes_apart": 18
+        },
+        {
+          "id": "tps_d83fa846cb46",
+          "distance_m": 423,
+          "minutes_apart": 134
+        }
+      ]
+    },
+    {
+      "id": "tps_8bf5ad9dc91c",
+      "source": "police",
+      "lat": 43.692792514637134,
+      "lng": -79.3230335384202,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D55",
+      "location": "SOUTHRIDGE AVE - BINSWOOD AVE",
+      "ts": "2026-08-15T12:51:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bcf772e7b265",
+      "source": "police",
+      "lat": 43.67127351037715,
+      "lng": -79.37540855657336,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D51",
+      "location": "BLEECKER ST - HOWARD ST",
+      "ts": "2026-08-15T12:48:56+00:00",
+      "related": [
+        {
+          "id": "tps_e2ab4298aa62",
+          "distance_m": 284,
+          "minutes_apart": 20
+        },
+        {
+          "id": "tfs_F26126795",
+          "distance_m": 526,
+          "minutes_apart": 125
+        },
+        {
+          "id": "tfs_F26126807",
+          "distance_m": 556,
+          "minutes_apart": 86
+        }
+      ]
+    },
+    {
+      "id": "tps_97ab2c2e9a39",
+      "source": "police",
+      "lat": 43.62788469540561,
+      "lng": -79.50754731533851,
+      "type": "ATTBR",
+      "type_plain": "Attempt Break and Enter",
+      "severity": "high",
+      "division": "D22",
+      "location": " - ",
+      "ts": "2026-08-15T12:46:37+00:00",
+      "related": [
+        {
+          "id": "tfs_F26126794",
+          "distance_m": 347,
+          "minutes_apart": 125
+        }
+      ]
+    },
     {
       "id": "tps_18ff01f09145",
       "source": "police",
@@ -58,7 +188,13 @@
       "division": "D53",
       "location": "EGLINTON AVE E - MOUNT PLEASANT RD",
       "ts": "2026-08-15T12:43:47+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_30018513e251",
+          "distance_m": 0,
+          "minutes_apart": 16
+        }
+      ]
     },
     {
       "id": "tps_6e0e33b5b2b8",
@@ -136,6 +272,11 @@
       "ts": "2026-08-15T12:36:53+00:00",
       "related": [
         {
+          "id": "tps_e06c0fba6be5",
+          "distance_m": 0,
+          "minutes_apart": 18
+        },
+        {
           "id": "tps_d83fa846cb46",
           "distance_m": 423,
           "minutes_apart": 116
@@ -167,6 +308,11 @@
       "location": "LOURDES LANE - EARL ST",
       "ts": "2026-08-15T12:28:49+00:00",
       "related": [
+        {
+          "id": "tps_bcf772e7b265",
+          "distance_m": 284,
+          "minutes_apart": 20
+        },
         {
           "id": "tfs_F26126807",
           "distance_m": 310,
@@ -378,6 +524,11 @@
           "id": "tfs_F26126795",
           "distance_m": 532,
           "minutes_apart": 39
+        },
+        {
+          "id": "tps_bcf772e7b265",
+          "distance_m": 556,
+          "minutes_apart": 86
         }
       ]
     },
@@ -571,6 +722,11 @@
           "minutes_apart": 11
         },
         {
+          "id": "tps_bcf772e7b265",
+          "distance_m": 526,
+          "minutes_apart": 125
+        },
+        {
           "id": "tfs_F26126807",
           "distance_m": 532,
           "minutes_apart": 39
@@ -608,7 +764,13 @@
       "approximate": false,
       "units": "P433",
       "ts": "2026-08-15T10:41:53+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_97ab2c2e9a39",
+          "distance_m": 347,
+          "minutes_apart": 125
+        }
+      ]
     },
     {
       "id": "tps_d83fa846cb46",
@@ -626,6 +788,11 @@
           "id": "tps_2d6ddda16a6b",
           "distance_m": 423,
           "minutes_apart": 116
+        },
+        {
+          "id": "tps_e06c0fba6be5",
+          "distance_m": 423,
+          "minutes_apart": 134
         }
       ]
     },
@@ -10382,11 +10549,6 @@
       "ts": "2026-08-14T15:25:22+00:00",
       "related": [
         {
-          "id": "tps_2a42df94f892",
-          "distance_m": 260,
-          "minutes_apart": 128
-        },
-        {
           "id": "tps_68b66d324f9a",
           "distance_m": 436,
           "minutes_apart": 14
@@ -10404,13 +10566,7 @@
       "division": "D13",
       "location": "OAKWOOD AVE - CRANG AVE",
       "ts": "2026-08-14T15:20:05+00:00",
-      "related": [
-        {
-          "id": "tps_c60cc4ca4394",
-          "distance_m": 55,
-          "minutes_apart": 138
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f5fa389a0696",
@@ -10604,11 +10760,6 @@
       "location": "TOLEDO RD - REXTON RD",
       "ts": "2026-08-14T15:04:05+00:00",
       "related": [
-        {
-          "id": "tps_e1ffc2fca4c8",
-          "distance_m": 503,
-          "minutes_apart": 104
-        },
         {
           "id": "tps_4cc3cc869f90",
           "distance_m": 503,
@@ -11000,11 +11151,6 @@
           "id": "tps_ac55c03052e3",
           "distance_m": 382,
           "minutes_apart": 42
-        },
-        {
-          "id": "tps_e4dd449cb902",
-          "distance_m": 568,
-          "minutes_apart": 86
         }
       ]
     },
@@ -11060,11 +11206,6 @@
       "ts": "2026-08-14T14:08:25+00:00",
       "related": [
         {
-          "id": "tps_332bba991eef",
-          "distance_m": 0,
-          "minutes_apart": 57
-        },
-        {
           "id": "tps_817a94c79385",
           "distance_m": 401,
           "minutes_apart": 130
@@ -11082,13 +11223,7 @@
       "division": "D14",
       "location": "COLLEGE ST - AUGUSTA AVE",
       "ts": "2026-08-14T14:08:24+00:00",
-      "related": [
-        {
-          "id": "tps_323d654ec3cb",
-          "distance_m": 183,
-          "minutes_apart": 55
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_34a029024dd5",
@@ -11181,11 +11316,6 @@
       "ts": "2026-08-14T13:51:59+00:00",
       "related": [
         {
-          "id": "tps_db2fdc597a10",
-          "distance_m": 0,
-          "minutes_apart": 39
-        },
-        {
           "id": "tps_35be95c91883",
           "distance_m": 411,
           "minutes_apart": 5
@@ -11240,11 +11370,6 @@
           "id": "tps_57051672ab4e",
           "distance_m": 411,
           "minutes_apart": 5
-        },
-        {
-          "id": "tps_db2fdc597a10",
-          "distance_m": 411,
-          "minutes_apart": 33
         }
       ]
     },
@@ -11330,11 +11455,6 @@
       "ts": "2026-08-14T13:31:56+00:00",
       "related": [
         {
-          "id": "tps_d2bf7158b403",
-          "distance_m": 168,
-          "minutes_apart": 34
-        },
-        {
           "id": "tps_b6787432b58f",
           "distance_m": 324,
           "minutes_apart": 169
@@ -11366,263 +11486,30 @@
       "location": "BLOOR ST W - LN 1 N BLOOR E BATHURST",
       "ts": "2026-08-14T13:25:23+00:00",
       "related": []
-    },
-    {
-      "id": "tps_b89d86d383bf",
-      "source": "police",
-      "lat": 43.73830677526974,
-      "lng": -79.48481626567643,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DENBIGH CRES - DOWNSVIEW PARK TRL",
-      "ts": "2026-08-14T13:20:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e1ffc2fca4c8",
-      "source": "police",
-      "lat": 43.64454781096825,
-      "lng": -79.5672397764974,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D22",
-      "location": "CIVIC CENTRE CRT - BURNHAMTHORPE RD",
-      "ts": "2026-08-14T13:20:27+00:00",
-      "related": [
-        {
-          "id": "tps_f6488ccbc409",
-          "distance_m": 503,
-          "minutes_apart": 104
-        }
-      ]
-    },
-    {
-      "id": "tps_2a42df94f892",
-      "source": "police",
-      "lat": 43.671910411014075,
-      "lng": -79.37905065456997,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "SELBY ST - BLOOR ST E",
-      "ts": "2026-08-14T13:16:52+00:00",
-      "related": [
-        {
-          "id": "tps_a2229fde369b",
-          "distance_m": 260,
-          "minutes_apart": 128
-        }
-      ]
-    },
-    {
-      "id": "tps_b593c216d9c1",
-      "source": "police",
-      "lat": 43.63801828374688,
-      "lng": -79.43185822271265,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D14",
-      "location": "COWAN AVE - DUNN AVE",
-      "ts": "2026-08-14T13:16:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_323d654ec3cb",
-      "source": "police",
-      "lat": 43.655831497277774,
-      "lng": -79.4039883339455,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "OXFORD ST - COLLEGE ST",
-      "ts": "2026-08-14T13:13:21+00:00",
-      "related": [
-        {
-          "id": "tps_14132ff61c14",
-          "distance_m": 183,
-          "minutes_apart": 55
-        }
-      ]
-    },
-    {
-      "id": "tps_db2fdc597a10",
-      "source": "police",
-      "lat": 43.67966401027256,
-      "lng": -79.31936563311967,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "D55",
-      "location": " - HANSON ST",
-      "ts": "2026-08-14T13:13:20+00:00",
-      "related": [
-        {
-          "id": "tps_57051672ab4e",
-          "distance_m": 0,
-          "minutes_apart": 39
-        },
-        {
-          "id": "tps_35be95c91883",
-          "distance_m": 411,
-          "minutes_apart": 33
-        }
-      ]
-    },
-    {
-      "id": "tps_859fe32f0797",
-      "source": "police",
-      "lat": 43.758609488105996,
-      "lng": -79.40404031439537,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D32",
-      "location": "AVONDALE AVE - AVONSHIRE PARK TRL",
-      "ts": "2026-08-14T13:11:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_332bba991eef",
-      "source": "police",
-      "lat": 43.67489334965499,
-      "lng": -79.34841669181614,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "GRANDVIEW AVE - WITHROW PARK TRL",
-      "ts": "2026-08-14T13:11:24+00:00",
-      "related": [
-        {
-          "id": "tps_442c930957af",
-          "distance_m": 0,
-          "minutes_apart": 57
-        }
-      ]
-    },
-    {
-      "id": "tps_1b86f285e7cd",
-      "source": "police",
-      "lat": 43.75789219396543,
-      "lng": -79.1929318015004,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D43",
-      "location": "GALLOWAY PARK TRL - DUNERA AVE",
-      "ts": "2026-08-14T13:06:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3422d64cf610",
-      "source": "police",
-      "lat": 43.64674303961427,
-      "lng": -79.51421449661646,
-      "type": "LOSEL",
-      "type_plain": "Lost/Found Property or Person",
-      "severity": "low",
-      "division": "D22",
-      "location": "BRENTWOOD RD N - THOMPSON AVE",
-      "ts": "2026-08-14T13:04:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_24843bfc7432",
-      "source": "police",
-      "lat": 43.66633588572602,
-      "lng": -79.31656272024765,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D55",
-      "location": "COXWELL AVE - EASTERN AVE",
-      "ts": "2026-08-14T13:03:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f97e6df4a421",
-      "source": "police",
-      "lat": 43.73996091770656,
-      "lng": -79.32964024221637,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - LAWRENCE AVE E",
-      "ts": "2026-08-14T13:03:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c60cc4ca4394",
-      "source": "police",
-      "lat": 43.679609310916945,
-      "lng": -79.43593572089893,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D13",
-      "location": "OAKWOOD AVE - CRANG AVE",
-      "ts": "2026-08-14T13:02:14+00:00",
-      "related": [
-        {
-          "id": "tps_c5d91fc1f514",
-          "distance_m": 55,
-          "minutes_apart": 138
-        }
-      ]
-    },
-    {
-      "id": "tps_d2bf7158b403",
-      "source": "police",
-      "lat": 43.64014057924428,
-      "lng": -79.3944049351969,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "FORT YORK BLVD - CANOE LANDING PARK TRL",
-      "ts": "2026-08-14T12:57:26+00:00",
-      "related": [
-        {
-          "id": "tps_ebd007311cd6",
-          "distance_m": 168,
-          "minutes_apart": 34
-        }
-      ]
-    },
-    {
-      "id": "tps_e4dd449cb902",
-      "source": "police",
-      "lat": 43.64618808529175,
-      "lng": -79.38490074090352,
-      "type": "FOUPR",
-      "type_plain": "Found Property",
-      "severity": "low",
-      "division": "D52",
-      "location": " - ",
-      "ts": "2026-08-14T12:56:39+00:00",
-      "related": [
-        {
-          "id": "tps_832d810656b1",
-          "distance_m": 568,
-          "minutes_apart": 86
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D23",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_6e0e33b5b2b8",
+        "tps_6a8f0a059d11",
+        "tps_a4c8d5ca206d",
+        "tps_d4d2268a2317"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D14",
       "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.7,
+      "baseline_avg": 2.0,
+      "ratio": 3.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -11635,33 +11522,18 @@
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6e0e33b5b2b8",
-        "tps_6a8f0a059d11",
-        "tps_a4c8d5ca206d",
-        "tps_d4d2268a2317"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.3,
-      "ratio": 2.1,
-      "sample_days": 6,
+      "current_count": 6,
+      "baseline_avg": 3.0,
+      "ratio": 2.0,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_bcf772e7b265",
         "tps_18ff01f09145",
         "tps_e2ab4298aa62",
         "tps_9af3a9d72a1a",
-        "tps_2299c6c645ed",
-        "tps_d83fa846cb46"
+        "tps_2299c6c645ed"
       ]
     }
   ]
