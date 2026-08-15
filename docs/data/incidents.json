@@ -1,11 +1,26 @@
 {
-  "generated": "2026-08-15T11:53:17.505637+00:00",
+  "generated": "2026-08-15T12:10:27.345930+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26126819",
+      "source": "fire",
+      "lat": 43.7701243,
+      "lng": -79.2821463,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "245",
+      "location": "KENNEDY RD & ELLESMERE RD",
+      "approximate": false,
+      "units": "P245",
+      "ts": "2026-08-15T11:55:39+00:00",
+      "related": []
+    },
     {
       "id": "tps_6a8f0a059d11",
       "source": "police",
@@ -11584,91 +11599,7 @@
       "location": "DON MILLS RD - VILLAGE GREENWAY",
       "ts": "2026-08-14T12:11:06+00:00",
       "related": []
-    },
-    {
-      "id": "tps_d9c5da174ec6",
-      "source": "police",
-      "lat": 43.682424608360115,
-      "lng": -79.48048329755808,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D12",
-      "location": "HUMBER BLVD - AVON AVE",
-      "ts": "2026-08-14T12:08:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_52f8eebf2b0b",
-      "source": "police",
-      "lat": 43.65269629586717,
-      "lng": -79.4122010297461,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN N DUNDAS W EUCLID - LN S MANSFIELD W MANNING",
-      "ts": "2026-08-14T11:53:28+00:00",
-      "related": []
     }
   ],
-  "anomalies": [
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_233c2b49a2cb",
-        "tps_15754be44df7",
-        "tps_e13c72f5cc16"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_96a75c691239",
-        "tps_2e7bd5b5cdad",
-        "tps_447da94f380d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6a8f0a059d11",
-        "tps_a4c8d5ca206d",
-        "tps_d4d2268a2317"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f0dbe6eb4f79",
-        "tps_59e5c80bedd3",
-        "tps_ca8e4a088cbc",
-        "tps_a1cd7049f30d"
-      ]
-    }
-  ]
+  "anomalies": []
 }
