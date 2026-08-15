@@ -1,11 +1,119 @@
 {
-  "generated": "2026-08-15T16:56:27.502869+00:00",
+  "generated": "2026-08-15T17:11:42.285702+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_eb175882ef81",
+      "source": "police",
+      "lat": 43.65099677009141,
+      "lng": -79.53934649234688,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": " - ",
+      "ts": "2026-08-15T16:51:35+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6f5fd153c50c",
+      "source": "police",
+      "lat": 43.756157968290246,
+      "lng": -79.59524118841559,
+      "type": "ROB",
+      "type_plain": "ROB",
+      "severity": "low",
+      "division": "D23",
+      "location": "GIHON SPRING PARK TRL - GIHON SPRING PARK TRL",
+      "ts": "2026-08-15T16:51:27+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3712771dec97",
+      "source": "police",
+      "lat": 43.710012275979146,
+      "lng": -79.33430173002643,
+      "type": "MISCH",
+      "type_plain": "Mischief",
+      "severity": "medium",
+      "division": "D55",
+      "location": "WEST DON RIVER TRL - GATEWAY BLVD",
+      "ts": "2026-08-15T16:51:11+00:00",
+      "related": [
+        {
+          "id": "tps_278d690f6abb",
+          "distance_m": 514,
+          "minutes_apart": 50
+        }
+      ]
+    },
+    {
+      "id": "tps_4a896554bc84",
+      "source": "police",
+      "lat": 43.663201702305415,
+      "lng": -79.36752735760204,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D51",
+      "location": "PARLIAMENT ST - SPRUCE ST",
+      "ts": "2026-08-15T16:50:48+00:00",
+      "related": [
+        {
+          "id": "tfs_F26126890",
+          "distance_m": 435,
+          "minutes_apart": 93
+        },
+        {
+          "id": "tps_8923f0b87eaf",
+          "distance_m": 436,
+          "minutes_apart": 67
+        },
+        {
+          "id": "tps_fe9d1d019795",
+          "distance_m": 436,
+          "minutes_apart": 90
+        },
+        {
+          "id": "tps_4123d1882ce9",
+          "distance_m": 436,
+          "minutes_apart": 90
+        },
+        {
+          "id": "tps_2acdce8a8df9",
+          "distance_m": 530,
+          "minutes_apart": 54
+        },
+        {
+          "id": "tps_73b793acc723",
+          "distance_m": 530,
+          "minutes_apart": 124
+        }
+      ]
+    },
+    {
+      "id": "tps_b664d9a7306f",
+      "source": "police",
+      "lat": 43.66220290951827,
+      "lng": -79.42463442640963,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D14",
+      "location": "CARLING AVE - OSSINGTON AVE",
+      "ts": "2026-08-15T16:49:40+00:00",
+      "related": [
+        {
+          "id": "tps_b2f28ef5f196",
+          "distance_m": 522,
+          "minutes_apart": 81
+        }
+      ]
+    },
     {
       "id": "tfs_F26126931",
       "source": "fire",
@@ -271,7 +379,13 @@
       "division": "D55",
       "location": "HEPC - GATEWAY BLVD",
       "ts": "2026-08-15T16:01:04+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_3712771dec97",
+          "distance_m": 514,
+          "minutes_apart": 50
+        }
+      ]
     },
     {
       "id": "tfs_F26126917",
@@ -383,6 +497,11 @@
           "id": "tfs_F26126890",
           "distance_m": 313,
           "minutes_apart": 39
+        },
+        {
+          "id": "tps_4a896554bc84",
+          "distance_m": 530,
+          "minutes_apart": 54
         }
       ]
     },
@@ -491,6 +610,11 @@
           "id": "tps_73b793acc723",
           "distance_m": 294,
           "minutes_apart": 57
+        },
+        {
+          "id": "tps_4a896554bc84",
+          "distance_m": 436,
+          "minutes_apart": 67
         }
       ]
     },
@@ -694,6 +818,11 @@
           "id": "tps_d1e72dcf90bb",
           "distance_m": 0,
           "minutes_apart": 118
+        },
+        {
+          "id": "tps_b664d9a7306f",
+          "distance_m": 522,
+          "minutes_apart": 81
         }
       ]
     },
@@ -797,6 +926,11 @@
           "id": "tps_2acdce8a8df9",
           "distance_m": 294,
           "minutes_apart": 36
+        },
+        {
+          "id": "tps_4a896554bc84",
+          "distance_m": 436,
+          "minutes_apart": 90
         }
       ]
     },
@@ -836,6 +970,11 @@
           "id": "tps_2acdce8a8df9",
           "distance_m": 294,
           "minutes_apart": 36
+        },
+        {
+          "id": "tps_4a896554bc84",
+          "distance_m": 436,
+          "minutes_apart": 90
         }
       ]
     },
@@ -877,6 +1016,11 @@
           "id": "tps_2acdce8a8df9",
           "distance_m": 313,
           "minutes_apart": 39
+        },
+        {
+          "id": "tps_4a896554bc84",
+          "distance_m": 435,
+          "minutes_apart": 93
         }
       ]
     },
@@ -1099,6 +1243,11 @@
           "id": "tfs_F26126890",
           "distance_m": 313,
           "minutes_apart": 31
+        },
+        {
+          "id": "tps_4a896554bc84",
+          "distance_m": 530,
+          "minutes_apart": 124
         }
       ]
     },
@@ -10349,13 +10498,7 @@
       "division": "D12",
       "location": "ROGERS RD - PORTER AVE",
       "ts": "2026-08-14T19:26:41+00:00",
-      "related": [
-        {
-          "id": "tps_bb1300279831",
-          "distance_m": 383,
-          "minutes_apart": 142
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_ce66863ab91b",
@@ -10697,13 +10840,7 @@
       "division": "D32",
       "location": "BLOSSOMFIELD DR - EDENGARTH CRT",
       "ts": "2026-08-14T18:46:15+00:00",
-      "related": [
-        {
-          "id": "tps_be000f085bda",
-          "distance_m": 563,
-          "minutes_apart": 107
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_ec6827a77ec4",
@@ -11568,239 +11705,85 @@
       "location": "BAY ST - YORK ST",
       "ts": "2026-08-14T17:12:38+00:00",
       "related": []
-    },
-    {
-      "id": "tps_514d65ff1633",
-      "source": "police",
-      "lat": 43.737573568126344,
-      "lng": -79.27370961071638,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "FLEMPTON CRES - FLEMPTON CRES",
-      "ts": "2026-08-14T17:11:42+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_706dfe199468",
-      "source": "police",
-      "lat": 43.7393197797758,
-      "lng": -79.4022753684987,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D32",
-      "location": " - ",
-      "ts": "2026-08-14T17:05:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bb1300279831",
-      "source": "police",
-      "lat": 43.68032641731536,
-      "lng": -79.47546350370216,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D12",
-      "location": "SENECA AVE - AVON CRES",
-      "ts": "2026-08-14T17:04:32+00:00",
-      "related": [
-        {
-          "id": "tps_5d6a9ec367eb",
-          "distance_m": 383,
-          "minutes_apart": 142
-        }
-      ]
-    },
-    {
-      "id": "tps_85f24f3d835c",
-      "source": "police",
-      "lat": 43.67480522084863,
-      "lng": -79.41258623837064,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "HOWLAND AVE - BRIDGMAN AVE",
-      "ts": "2026-08-14T16:59:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_be000f085bda",
-      "source": "police",
-      "lat": 43.723657055150866,
-      "lng": -79.45130621630454,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D32",
-      "location": "JANE OSLER BLVD - 401 C E YORKDALE RD RAMP",
-      "ts": "2026-08-14T16:58:57+00:00",
-      "related": [
-        {
-          "id": "tps_1fba3231960f",
-          "distance_m": 563,
-          "minutes_apart": 107
-        }
-      ]
-    },
-    {
-      "id": "tps_890fab2caf23",
-      "source": "police",
-      "lat": 43.73162457694343,
-      "lng": -79.40144314526066,
-      "type": "GASLE",
-      "type_plain": "Gas Leak",
-      "severity": "low",
-      "division": "D32",
-      "location": "BOCASTLE AVE - MOUNT PLEASANT RD",
-      "ts": "2026-08-14T16:56:36+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.2,
+      "division": "D14",
+      "current_count": 8,
+      "baseline_avg": 2.4,
+      "ratio": 3.3,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_45ef4cd72b86",
-        "tps_5b9e0780f1d1",
-        "tps_e44eb37288db",
-        "tps_13d6976f5000",
-        "tps_c983e1ea10f3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 8,
-      "baseline_avg": 2.2,
-      "ratio": 3.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
+        "tps_b664d9a7306f",
         "tps_7053e50f31a7",
         "tps_cd2ab9703491",
         "tps_e9cc39e38a42",
-        "tps_d32806b6c5ef",
-        "tps_f91cc1a7e2b8"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 8,
-      "baseline_avg": 2.7,
-      "ratio": 3.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_892a03f58669",
-        "tps_58a6caa5f5b8",
-        "tps_e1a33d14e4ac",
-        "tps_8923f0b87eaf",
-        "tps_9987223ab6fb"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2acdce8a8df9",
-        "tps_3bb72df0d9e3",
-        "tps_fe9d1d019795",
-        "tps_4123d1882ce9",
-        "tps_73b793acc723"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.9,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2d96c5d355d6",
-        "tps_2fce35ad0abc",
-        "tps_4e88c48ba55d",
-        "tps_aa47d6707254",
-        "tps_281ffcda1c8e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.8,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7a1d201255c2",
-        "tps_a6105c03857f",
-        "tps_b470ded4966a",
-        "tps_5ebe5bf97b57",
-        "tps_bd60fb31e97e"
+        "tps_d32806b6c5ef"
       ]
     },
     {
       "source": "police",
       "division": "D55",
-      "current_count": 6,
+      "current_count": 7,
       "baseline_avg": 2.2,
-      "ratio": 2.7,
-      "sample_days": 5,
+      "ratio": 3.1,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_3712771dec97",
         "tps_9c6d97e01ebd",
         "tps_278d690f6abb",
         "tps_fee099ddd63c",
-        "tps_20db7a440450",
-        "tps_574ef1a1ef8f"
+        "tps_20db7a440450"
       ]
     },
     {
       "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e35ce81df560",
-        "tps_b5dabfb83d14",
-        "tps_82d4736a9bcc",
-        "tps_ed7f09383f82",
-        "tps_b3728b4af9ff"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
+      "division": "D13",
       "current_count": 3,
       "baseline_avg": 1.3,
       "ratio": 2.2,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_eee451dd833e",
-        "tps_4b585f7c4b63",
-        "tps_28de087929b5"
+        "tps_0064c2492e07",
+        "tps_63f6bd84c5a2",
+        "tps_4de5cb260a95"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 8,
+      "baseline_avg": 4.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_eb175882ef81",
+        "tps_892a03f58669",
+        "tps_58a6caa5f5b8",
+        "tps_e1a33d14e4ac",
+        "tps_8923f0b87eaf"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 6,
+      "baseline_avg": 3.0,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_4a896554bc84",
+        "tps_2acdce8a8df9",
+        "tps_3bb72df0d9e3",
+        "tps_fe9d1d019795",
+        "tps_4123d1882ce9"
       ]
     }
   ]
