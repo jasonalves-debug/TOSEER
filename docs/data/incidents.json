@@ -1,11 +1,93 @@
 {
-  "generated": "2026-08-15T21:32:42.620618+00:00",
+  "generated": "2026-08-15T21:53:58.880701+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_e5af1aac9f0e",
+      "source": "police",
+      "lat": 43.670779209882895,
+      "lng": -79.37622315570079,
+      "type": "THEPR",
+      "type_plain": "Theft (Priority)",
+      "severity": "medium",
+      "division": "D51",
+      "location": "ISABELLA ST - ST. JAMES TOWN WEST PARK TRL",
+      "ts": "2026-08-15T21:40:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_70a4e766c83e",
+      "source": "police",
+      "lat": 43.66970770955897,
+      "lng": -79.3894835474489,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "CHARLES ST W - BLOOR ST W",
+      "ts": "2026-08-15T21:36:17+00:00",
+      "related": [
+        {
+          "id": "tps_c159618f2614",
+          "distance_m": 375,
+          "minutes_apart": 29
+        },
+        {
+          "id": "tps_58b1f55dc461",
+          "distance_m": 556,
+          "minutes_apart": 152
+        }
+      ]
+    },
+    {
+      "id": "tps_668d4f896d4d",
+      "source": "police",
+      "lat": 43.66356040880575,
+      "lng": -79.41842442893208,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D14",
+      "location": "CHRISTIE PITS PARK TRL - CRESTFALLEN LANE",
+      "ts": "2026-08-15T21:33:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_15be2b3dbfc8",
+      "source": "police",
+      "lat": 43.77290330315219,
+      "lng": -79.36182413701758,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D33",
+      "location": " - ",
+      "ts": "2026-08-15T21:32:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_49db33ca2618",
+      "source": "police",
+      "lat": 43.64840308750672,
+      "lng": -79.39327793738313,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D52",
+      "location": "RICHMOND ST W - JACK COOPER LANE",
+      "ts": "2026-08-15T21:31:23+00:00",
+      "related": [
+        {
+          "id": "tfs_F26127006",
+          "distance_m": 393,
+          "minutes_apart": 128
+        }
+      ]
+    },
     {
       "id": "tps_46d84cb7a1fc",
       "source": "police",
@@ -88,7 +170,13 @@
       "division": "D53",
       "location": "COLLIER ST - YONGE ST",
       "ts": "2026-08-15T21:06:58+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_70a4e766c83e",
+          "distance_m": 375,
+          "minutes_apart": 29
+        }
+      ]
     },
     {
       "id": "tps_cda430d247a8",
@@ -756,7 +844,13 @@
       "approximate": false,
       "units": "",
       "ts": "2026-08-15T19:22:55+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_49db33ca2618",
+          "distance_m": 393,
+          "minutes_apart": 128
+        }
+      ]
     },
     {
       "id": "tps_057538ff4cb8",
@@ -950,6 +1044,11 @@
           "id": "tps_de37feae4a5b",
           "distance_m": 529,
           "minutes_apart": 71
+        },
+        {
+          "id": "tps_70a4e766c83e",
+          "distance_m": 556,
+          "minutes_apart": 152
         }
       ]
     },
@@ -10018,11 +10117,6 @@
           "minutes_apart": 46
         },
         {
-          "id": "tps_0a4cc781f58e",
-          "distance_m": 483,
-          "minutes_apart": 152
-        },
-        {
           "id": "tfs_F26126529",
           "distance_m": 576,
           "minutes_apart": 24
@@ -10202,11 +10296,6 @@
       "units": "P331",
       "ts": "2026-08-14T23:43:57+00:00",
       "related": [
-        {
-          "id": "tps_0a4cc781f58e",
-          "distance_m": 343,
-          "minutes_apart": 128
-        },
         {
           "id": "tps_eb95b080ac48",
           "distance_m": 413,
@@ -10611,11 +10700,6 @@
           "minutes_apart": 46
         },
         {
-          "id": "tps_0a4cc781f58e",
-          "distance_m": 485,
-          "minutes_apart": 106
-        },
-        {
           "id": "tfs_F26126529",
           "distance_m": 553,
           "minutes_apart": 21
@@ -10886,11 +10970,6 @@
       "location": "OSLER ST - OSLER ST",
       "ts": "2026-08-14T22:52:15+00:00",
       "related": [
-        {
-          "id": "tps_0a9ee088c793",
-          "distance_m": 384,
-          "minutes_apart": 75
-        },
         {
           "id": "tfs_F26126454",
           "distance_m": 480,
@@ -11251,117 +11330,6 @@
       "location": " - ",
       "ts": "2026-08-14T21:55:15+00:00",
       "related": []
-    },
-    {
-      "id": "tps_eb378771fdaa",
-      "source": "police",
-      "lat": 43.69760630194127,
-      "lng": -79.33636392953336,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON MILLS RD - DON VALLEY PARKWAY N",
-      "ts": "2026-08-14T21:48:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_eed49e81e26b",
-      "source": "police",
-      "lat": 43.674130731274424,
-      "lng": -79.45994771711165,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D11",
-      "location": "HOUNSLOW HEATH RD - LN E OSLER S ST CLAIR",
-      "ts": "2026-08-14T21:46:45+00:00",
-      "related": [
-        {
-          "id": "tps_0a9ee088c793",
-          "distance_m": 254,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_cdf1403c8fb2",
-      "source": "police",
-      "lat": 43.785321679089435,
-      "lng": -79.16068822510371,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "RAMBLEWOOD DR - LAWSON RD",
-      "ts": "2026-08-14T21:44:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_22ee3cab6801",
-      "source": "police",
-      "lat": 43.6984401653,
-      "lng": -79.46349947408855,
-      "type": "FOUCH",
-      "type_plain": "FOUCH",
-      "severity": "low",
-      "division": "D13",
-      "location": "CASTLEFIELD AVE - CALEDONIA RD",
-      "ts": "2026-08-14T21:39:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0a9ee088c793",
-      "source": "police",
-      "lat": 43.67186383739783,
-      "lng": -79.46032601964032,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D11",
-      "location": "DAVENPORT RD - CONNOLLY ST",
-      "ts": "2026-08-14T21:37:11+00:00",
-      "related": [
-        {
-          "id": "tps_eed49e81e26b",
-          "distance_m": 254,
-          "minutes_apart": 10
-        },
-        {
-          "id": "tps_bfe9a7a6bb15",
-          "distance_m": 384,
-          "minutes_apart": 75
-        }
-      ]
-    },
-    {
-      "id": "tps_0a4cc781f58e",
-      "source": "police",
-      "lat": 43.64148838498934,
-      "lng": -79.42163222612125,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "KING ST W - LN E DOVERCOURT N SUDBURY",
-      "ts": "2026-08-14T21:36:05+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126529",
-          "distance_m": 343,
-          "minutes_apart": 128
-        },
-        {
-          "id": "tps_66d1a164cff2",
-          "distance_m": 483,
-          "minutes_apart": 152
-        },
-        {
-          "id": "tfs_F26126511",
-          "distance_m": 485,
-          "minutes_apart": 106
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11399,22 +11367,6 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.8,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_33b19b481c94",
-        "tps_cde8d1b61d61",
-        "tps_1cee5a7fb9e8",
-        "tps_f569d65dd413",
-        "tps_f9eb1a80d651"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D43",
       "current_count": 4,
       "baseline_avg": 1.6,
@@ -11447,16 +11399,47 @@
       "source": "police",
       "division": "D51",
       "current_count": 5,
-      "baseline_avg": 2.4,
-      "ratio": 2.1,
-      "sample_days": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_e5af1aac9f0e",
         "tps_c18afcd11cc8",
         "tps_7a2f93af518d",
         "tps_94abdeeea9bf",
-        "tps_ee9f72a21c92",
-        "tps_98194b1ac40d"
+        "tps_ee9f72a21c92"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.2,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_668d4f896d4d",
+        "tps_daf99915903e",
+        "tps_0a74cc355f6d",
+        "tps_e645376075f9",
+        "tps_285bf69d388c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_33b19b481c94",
+        "tps_cde8d1b61d61",
+        "tps_1cee5a7fb9e8",
+        "tps_f569d65dd413"
       ]
     }
   ]
