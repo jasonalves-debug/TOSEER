@@ -1,11 +1,91 @@
 {
-  "generated": "2026-08-15T08:17:03.154389+00:00",
+  "generated": "2026-08-15T08:50:17.455026+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26126768",
+      "source": "fire",
+      "lat": 43.7556089,
+      "lng": -79.4739234,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "143",
+      "location": "North York - CHESSWOOD DR & SHEPPARD AVE W",
+      "approximate": false,
+      "units": "P143, P144",
+      "ts": "2026-08-15T08:43:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3aea3c298c45",
+      "source": "police",
+      "lat": 43.67540153558696,
+      "lng": -79.35806637992573,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D51",
+      "location": "DON VALLEY PARKWAY N - DANFORTH AVE",
+      "ts": "2026-08-15T08:26:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9f4fd52bdd39",
+      "source": "police",
+      "lat": 43.66817370793327,
+      "lng": -79.3695508587399,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D53",
+      "location": "PARLIAMENT ST - IROQUOIS LANE",
+      "ts": "2026-08-15T08:16:05+00:00",
+      "related": [
+        {
+          "id": "tps_8e2f29a1ed7a",
+          "distance_m": 461,
+          "minutes_apart": 151
+        },
+        {
+          "id": "tps_7e54b72b99e7",
+          "distance_m": 461,
+          "minutes_apart": 157
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26126758",
+      "source": "fire",
+      "lat": 43.6968294,
+      "lng": -79.5463527,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "443",
+      "location": "DIXON RD & ISLINGTON AVE",
+      "approximate": false,
+      "units": "P443",
+      "ts": "2026-08-15T08:15:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1c1e95bc865c",
+      "source": "police",
+      "lat": 43.69012048736911,
+      "lng": -79.56096077408922,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D23",
+      "location": "MOFORD CRES - LEARMONT DR",
+      "ts": "2026-08-15T08:07:28+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26126754",
       "source": "fire",
@@ -19,6 +99,132 @@
       "approximate": false,
       "units": "P314, P332",
       "ts": "2026-08-15T08:07:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0d664eb8c2b3",
+      "source": "police",
+      "lat": 43.74310363081417,
+      "lng": -79.49423099496148,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D31",
+      "location": "SEELEY DR - BLACK CREEK TRL",
+      "ts": "2026-08-15T08:06:36+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_31280b71f920",
+      "source": "police",
+      "lat": 43.669712688213245,
+      "lng": -79.5763831354811,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D22",
+      "location": "EGLINTON AVE W - 401 X E 427 X S RAMP",
+      "ts": "2026-08-15T08:04:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ed0556ef5937",
+      "source": "police",
+      "lat": 43.73996091770656,
+      "lng": -79.32964024221637,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY N - LAWRENCE AVE E",
+      "ts": "2026-08-15T08:04:09+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f4978f6cd1cc",
+      "source": "police",
+      "lat": 43.76930850184144,
+      "lng": -79.17116811364481,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D43",
+      "location": "WOODGARDEN CRES - WILDLARK DR",
+      "ts": "2026-08-15T08:01:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fd7715d39036",
+      "source": "police",
+      "lat": 43.667124206227896,
+      "lng": -79.37868335162403,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D53",
+      "location": "JARVIS ST - BARBARA HALL PARK TRL",
+      "ts": "2026-08-15T07:58:22+00:00",
+      "related": [
+        {
+          "id": "tfs_F26126746",
+          "distance_m": 90,
+          "minutes_apart": 25
+        },
+        {
+          "id": "tps_0a006271f405",
+          "distance_m": 533,
+          "minutes_apart": 145
+        }
+      ]
+    },
+    {
+      "id": "tps_8d6e2dbf10f2",
+      "source": "police",
+      "lat": 43.68443711315359,
+      "lng": -79.42142792944989,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D13",
+      "location": "LOUISE AVE - MAPLEWOOD AVE",
+      "ts": "2026-08-15T07:52:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f21f5455347d",
+      "source": "police",
+      "lat": 43.64238598148964,
+      "lng": -79.38399524124279,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "BREMNER BLVD - LOWER SIMCOE ST",
+      "ts": "2026-08-15T07:50:14+00:00",
+      "related": [
+        {
+          "id": "tps_4117e4f4ff9e",
+          "distance_m": 0,
+          "minutes_apart": 119
+        },
+        {
+          "id": "tfs_F26126692",
+          "distance_m": 480,
+          "minutes_apart": 168
+        }
+      ]
+    },
+    {
+      "id": "tps_90a6285057fd",
+      "source": "police",
+      "lat": 43.80305874106793,
+      "lng": -79.27448882839305,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D42",
+      "location": "PIPERS GREEN AVE - BRIARSCROSS BLVD",
+      "ts": "2026-08-15T07:45:45+00:00",
       "related": []
     },
     {
@@ -98,6 +304,11 @@
       "units": "P313",
       "ts": "2026-08-15T07:32:57+00:00",
       "related": [
+        {
+          "id": "tps_fd7715d39036",
+          "distance_m": 90,
+          "minutes_apart": 25
+        },
         {
           "id": "tps_0a006271f405",
           "distance_m": 571,
@@ -869,6 +1080,11 @@
       "ts": "2026-08-15T05:51:03+00:00",
       "related": [
         {
+          "id": "tps_f21f5455347d",
+          "distance_m": 0,
+          "minutes_apart": 119
+        },
+        {
           "id": "tps_17171260eec1",
           "distance_m": 343,
           "minutes_apart": 116
@@ -911,6 +1127,11 @@
           "id": "tps_7d790d1ec698",
           "distance_m": 452,
           "minutes_apart": 152
+        },
+        {
+          "id": "tps_9f4fd52bdd39",
+          "distance_m": 461,
+          "minutes_apart": 151
         },
         {
           "id": "tfs_F26126659",
@@ -1001,6 +1222,11 @@
           "minutes_apart": 146
         },
         {
+          "id": "tps_9f4fd52bdd39",
+          "distance_m": 461,
+          "minutes_apart": 157
+        },
+        {
           "id": "tfs_F26126659",
           "distance_m": 555,
           "minutes_apart": 110
@@ -1028,6 +1254,11 @@
           "id": "tps_de77c7f2984c",
           "distance_m": 523,
           "minutes_apart": 111
+        },
+        {
+          "id": "tps_fd7715d39036",
+          "distance_m": 533,
+          "minutes_apart": 145
         },
         {
           "id": "tps_e4d8fa9172e8",
@@ -1326,6 +1557,11 @@
           "id": "tps_4117e4f4ff9e",
           "distance_m": 480,
           "minutes_apart": 49
+        },
+        {
+          "id": "tps_f21f5455347d",
+          "distance_m": 480,
+          "minutes_apart": 168
         },
         {
           "id": "tps_7111ba56f42e",
@@ -10793,11 +11029,6 @@
       "ts": "2026-08-14T10:57:53+00:00",
       "related": [
         {
-          "id": "tps_60e42272c8a8",
-          "distance_m": 273,
-          "minutes_apart": 154
-        },
-        {
           "id": "tps_d374732cda66",
           "distance_m": 528,
           "minutes_apart": 116
@@ -10828,13 +11059,7 @@
       "division": "D14",
       "location": "QUEEN ST W - BATHURST ST",
       "ts": "2026-08-14T10:43:52+00:00",
-      "related": [
-        {
-          "id": "tps_3d58f1fdec44",
-          "distance_m": 0,
-          "minutes_apart": 140
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e05bf40b0ecf",
@@ -11030,11 +11255,6 @@
       "ts": "2026-08-14T09:02:13+00:00",
       "related": [
         {
-          "id": "tps_60e42272c8a8",
-          "distance_m": 445,
-          "minutes_apart": 39
-        },
-        {
           "id": "tps_316613dda1fb",
           "distance_m": 528,
           "minutes_apart": 116
@@ -11053,145 +11273,84 @@
       "location": "SHEPPARD AVE E - 30 CHICHESTER PL",
       "ts": "2026-08-14T08:52:23+00:00",
       "related": []
-    },
-    {
-      "id": "tps_0832743e8b1d",
-      "source": "police",
-      "lat": 43.76303802230966,
-      "lng": -79.31755817158346,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D41",
-      "location": "WW W VICTORIA PARK S YORK MILL - YORK MILLS RD",
-      "ts": "2026-08-14T08:40:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ffd319479f95",
-      "source": "police",
-      "lat": 43.68886678208973,
-      "lng": -79.50400087777705,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D12",
-      "location": "VERONA AVE - HUMBER RIVER RECREATIONAL TRL",
-      "ts": "2026-08-14T08:36:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f5a92bd863b7",
-      "source": "police",
-      "lat": 43.62545188019389,
-      "lng": -79.48568571369577,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "PARK LAWN RD - GARDINER XWY E",
-      "ts": "2026-08-14T08:35:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_24f78193f0e1",
-      "source": "police",
-      "lat": 43.69756067280868,
-      "lng": -79.52099706030877,
-      "type": "PRO",
-      "type_plain": "PRO",
-      "severity": "low",
-      "division": "D23",
-      "location": "THE ELMS - ",
-      "ts": "2026-08-14T08:31:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0faa6b881a9e",
-      "source": "police",
-      "lat": 43.67891210956073,
-      "lng": -79.44953861315291,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D13",
-      "location": "ASCOT AVE - NAIRN AVE",
-      "ts": "2026-08-14T08:29:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_60e42272c8a8",
-      "source": "police",
-      "lat": 43.670324511884736,
-      "lng": -79.39828334321778,
-      "type": "BREJU",
-      "type_plain": "BREJU",
-      "severity": "low",
-      "division": "D53",
-      "location": "AVENUE RD - BEDFORD RD",
-      "ts": "2026-08-14T08:23:26+00:00",
-      "related": [
-        {
-          "id": "tps_316613dda1fb",
-          "distance_m": 273,
-          "minutes_apart": 154
-        },
-        {
-          "id": "tps_d374732cda66",
-          "distance_m": 445,
-          "minutes_apart": 39
-        }
-      ]
-    },
-    {
-      "id": "tps_3d58f1fdec44",
-      "source": "police",
-      "lat": 43.6471940876252,
-      "lng": -79.40398193200464,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": "QUEEN ST W - BATHURST ST",
-      "ts": "2026-08-14T08:23:24+00:00",
-      "related": [
-        {
-          "id": "tps_fa94a5d78ccc",
-          "distance_m": 0,
-          "minutes_apart": 140
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
+      "division": "HP",
       "current_count": 5,
-      "baseline_avg": 1.4,
+      "baseline_avg": 1.0,
+      "ratio": 5.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ed0556ef5937",
+        "tps_f21f5455347d",
+        "tps_2ce87f3f86a5",
+        "tps_ffb037eff946",
+        "tps_4117e4f4ff9e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0d664eb8c2b3",
+        "tps_7e4389b10580",
+        "tps_412f6ba5070a",
+        "tps_abdc48b931e5"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 6,
+      "baseline_avg": 1.7,
       "ratio": 3.6,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f4978f6cd1cc",
+        "tps_707a9807f4e4",
+        "tps_1c2278219277",
+        "tps_70a1af401410",
+        "tps_726a7dad6c86"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9f4fd52bdd39",
+        "tps_fd7715d39036",
+        "tps_58a9ab1d67c4",
+        "tps_020aebcda325"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_21dc44124060",
         "tps_405b8df43a15",
         "tps_c9d3e41f0e80",
-        "tps_ff4feb1ae900",
-        "tps_a885568b1d2c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2ce87f3f86a5",
-        "tps_ffb037eff946",
-        "tps_4117e4f4ff9e"
+        "tps_ff4feb1ae900"
       ]
     }
   ]
