@@ -1,11 +1,152 @@
 {
-  "generated": "2026-08-15T10:35:51.317737+00:00",
+  "generated": "2026-08-15T10:55:21.566312+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26126795",
+      "source": "fire",
+      "lat": 43.6704012,
+      "lng": -79.381833,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "313",
+      "location": "Toronto - HAYDEN ST & CHURCH ST",
+      "approximate": false,
+      "units": "P312, P313",
+      "ts": "2026-08-15T10:44:08+00:00",
+      "related": [
+        {
+          "id": "tps_1e861fb55edb",
+          "distance_m": 397,
+          "minutes_apart": 66
+        },
+        {
+          "id": "tps_fd7715d39036",
+          "distance_m": 444,
+          "minutes_apart": 166
+        },
+        {
+          "id": "tps_3a03501ef618",
+          "distance_m": 469,
+          "minutes_apart": 11
+        }
+      ]
+    },
+    {
+      "id": "tps_f0dbe6eb4f79",
+      "source": "police",
+      "lat": 43.80566182132712,
+      "lng": -79.32394799883015,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D42",
+      "location": "HUNTSMILL BLVD - HUNTSMILL BLVD",
+      "ts": "2026-08-15T10:43:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26126794",
+      "source": "fire",
+      "lat": 43.6262001,
+      "lng": -79.5111765,
+      "type": "Fire Alarm - Check Call",
+      "type_plain": "Fire Alarm - Check Call",
+      "severity": "medium",
+      "division": "433",
+      "location": "Etobicoke - CHARTWELL RD & THE QUEENSWAY",
+      "approximate": false,
+      "units": "P433",
+      "ts": "2026-08-15T10:41:53+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d83fa846cb46",
+      "source": "police",
+      "lat": 43.67378391677541,
+      "lng": -79.36816906501721,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D51",
+      "location": "CASTLE FRANK RD - BLOOR ST E",
+      "ts": "2026-08-15T10:41:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dc4ffff93ee2",
+      "source": "police",
+      "lat": 43.68693829028428,
+      "lng": -79.48941558558496,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D12",
+      "location": "METROLINX / C P R - LN E WESTON S EGLINTON",
+      "ts": "2026-08-15T10:40:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9a7315db775a",
+      "source": "police",
+      "lat": 43.664443640236854,
+      "lng": -79.4588062222316,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "D11",
+      "location": "OLD WESTON RD - DUPONT ST",
+      "ts": "2026-08-15T10:37:48+00:00",
+      "related": [
+        {
+          "id": "tps_1e1d3caa53db",
+          "distance_m": 272,
+          "minutes_apart": 176
+        }
+      ]
+    },
+    {
+      "id": "tps_5c943d3f0c0d",
+      "source": "police",
+      "lat": 43.696294708834934,
+      "lng": -79.3101680481995,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D55",
+      "location": "EVERETT PARK TRL - HAMSTEAD AVE",
+      "ts": "2026-08-15T10:37:16+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3a03501ef618",
+      "source": "police",
+      "lat": 43.66854170792509,
+      "lng": -79.3870670479449,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D52",
+      "location": " - ",
+      "ts": "2026-08-15T10:33:13+00:00",
+      "related": [
+        {
+          "id": "tps_1e861fb55edb",
+          "distance_m": 190,
+          "minutes_apart": 55
+        },
+        {
+          "id": "tfs_F26126795",
+          "distance_m": 469,
+          "minutes_apart": 11
+        }
+      ]
+    },
     {
       "id": "tps_59e5c80bedd3",
       "source": "police",
@@ -30,7 +171,18 @@
       "division": "D51",
       "location": "YONGE ST - PARK RD",
       "ts": "2026-08-15T09:37:48+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_3a03501ef618",
+          "distance_m": 190,
+          "minutes_apart": 55
+        },
+        {
+          "id": "tfs_F26126795",
+          "distance_m": 397,
+          "minutes_apart": 66
+        }
+      ]
     },
     {
       "id": "tfs_F26126781",
@@ -524,6 +676,11 @@
           "minutes_apart": 25
         },
         {
+          "id": "tfs_F26126795",
+          "distance_m": 444,
+          "minutes_apart": 166
+        },
+        {
           "id": "tps_dfed20439fd3",
           "distance_m": 525,
           "minutes_apart": 53
@@ -610,6 +767,11 @@
       "location": "EDWIN AVE - OSLER ST",
       "ts": "2026-08-15T07:41:49+00:00",
       "related": [
+        {
+          "id": "tps_9a7315db775a",
+          "distance_m": 272,
+          "minutes_apart": 176
+        },
         {
           "id": "tps_5efe1afae0d5",
           "distance_m": 495,
@@ -11387,92 +11549,53 @@
       "location": "TRANBY AVE - BERNARD AVE",
       "ts": "2026-08-14T10:57:53+00:00",
       "related": []
-    },
-    {
-      "id": "tps_bb5551b5e7d7",
-      "source": "police",
-      "lat": 43.687767138689644,
-      "lng": -79.27092807055557,
-      "type": "DAMPR",
-      "type_plain": "Damage to Property (Priority)",
-      "severity": "low",
-      "division": "D41",
-      "location": "KINGSTON RD - WARDEN AVE",
-      "ts": "2026-08-14T10:43:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fa94a5d78ccc",
-      "source": "police",
-      "lat": 43.6471940876252,
-      "lng": -79.40398193200464,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "QUEEN ST W - BATHURST ST",
-      "ts": "2026-08-14T10:43:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e05bf40b0ecf",
-      "source": "police",
-      "lat": 43.69304867532786,
-      "lng": -79.46216598666872,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D13",
-      "location": "KEITH AVE - EGLINTON AVE W",
-      "ts": "2026-08-14T10:41:50+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_59e5c80bedd3",
-        "tps_ca8e4a088cbc",
-        "tps_a1cd7049f30d",
-        "tps_90a6285057fd"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
+      "division": "D51",
       "current_count": 5,
       "baseline_avg": 1.4,
       "ratio": 3.6,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_15754be44df7",
-        "tps_e13c72f5cc16",
-        "tps_07a3958126ee",
-        "tps_ed0556ef5937",
-        "tps_f21f5455347d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
+        "tps_d83fa846cb46",
         "tps_1e861fb55edb",
         "tps_dfed20439fd3",
         "tps_308ce6d480ad",
         "tps_3aea3c298c45"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.3,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f0dbe6eb4f79",
+        "tps_59e5c80bedd3",
+        "tps_ca8e4a088cbc",
+        "tps_a1cd7049f30d"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_15754be44df7",
+        "tps_e13c72f5cc16",
+        "tps_07a3958126ee",
+        "tps_ed0556ef5937"
       ]
     },
     {
@@ -11487,20 +11610,6 @@
         "tps_2e7bd5b5cdad",
         "tps_447da94f380d",
         "tps_f4978f6cd1cc"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e5dfd18991c0",
-        "tps_0d664eb8c2b3",
-        "tps_7e4389b10580"
       ]
     }
   ]
