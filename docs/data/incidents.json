@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T10:55:21.566312+00:00",
+  "generated": "2026-08-15T11:07:54.568905+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -11510,54 +11510,29 @@
       "location": "CASTLEFIELD AVE - RAITHERM RD",
       "ts": "2026-08-14T11:19:32+00:00",
       "related": []
-    },
-    {
-      "id": "tps_32b2bf8fabc0",
-      "source": "police",
-      "lat": 43.67068024087543,
-      "lng": -79.46069112101719,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D11",
-      "location": "OSLER ST - MILLER ST",
-      "ts": "2026-08-14T11:06:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7f3f6fb1f117",
-      "source": "police",
-      "lat": 43.691480137204195,
-      "lng": -79.26475047713478,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D41",
-      "location": "BIRCHCLIFF AVE - AVALON BLVD",
-      "ts": "2026-08-14T11:00:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_316613dda1fb",
-      "source": "police",
-      "lat": 43.6726966144982,
-      "lng": -79.39913474427401,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "TRANBY AVE - BERNARD AVE",
-      "ts": "2026-08-14T10:57:53+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "HP",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_15754be44df7",
+        "tps_e13c72f5cc16",
+        "tps_07a3958126ee"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D51",
       "current_count": 5,
-      "baseline_avg": 1.4,
-      "ratio": 3.6,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -11572,44 +11547,15 @@
       "source": "police",
       "division": "D42",
       "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.3,
-      "sample_days": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_f0dbe6eb4f79",
         "tps_59e5c80bedd3",
         "tps_ca8e4a088cbc",
         "tps_a1cd7049f30d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_15754be44df7",
-        "tps_e13c72f5cc16",
-        "tps_07a3958126ee",
-        "tps_ed0556ef5937"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2e7bd5b5cdad",
-        "tps_447da94f380d",
-        "tps_f4978f6cd1cc"
       ]
     }
   ]
