@@ -1,11 +1,100 @@
 {
-  "generated": "2026-08-15T07:39:49.379015+00:00",
+  "generated": "2026-08-15T07:57:07.983992+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_7e4389b10580",
+      "source": "police",
+      "lat": 43.769231885658456,
+      "lng": -79.51874191355783,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D31",
+      "location": "SHOREHAM DR - HULLMAR DR",
+      "ts": "2026-08-15T07:44:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1e1d3caa53db",
+      "source": "police",
+      "lat": 43.6648415345652,
+      "lng": -79.45546822128064,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D11",
+      "location": "EDWIN AVE - OSLER ST",
+      "ts": "2026-08-15T07:41:49+00:00",
+      "related": [
+        {
+          "id": "tps_5efe1afae0d5",
+          "distance_m": 495,
+          "minutes_apart": 37
+        },
+        {
+          "id": "tps_5b2658eb457b",
+          "distance_m": 551,
+          "minutes_apart": 45
+        }
+      ]
+    },
+    {
+      "id": "tps_80ea56aee305",
+      "source": "police",
+      "lat": 43.697232269719805,
+      "lng": -79.47544957212479,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D12",
+      "location": "KEELE ST - ",
+      "ts": "2026-08-15T07:41:09+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4b1390e879a7",
+      "source": "police",
+      "lat": 43.67382864696482,
+      "lng": -79.28185785714584,
+      "type": "ASSPR",
+      "type_plain": "Assault (Priority / In Progress)",
+      "severity": "high",
+      "division": "D55",
+      "location": "NEVILLE PARK BLVD - NEVILLE PARK BLVD",
+      "ts": "2026-08-15T07:35:32+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26126746",
+      "source": "fire",
+      "lat": 43.6665891,
+      "lng": -79.3778435,
+      "type": "Water Problem - Level 1",
+      "type_plain": "Water Problem - Level 1",
+      "severity": "medium",
+      "division": "313",
+      "location": "WELLESLEY ST E & ONTARIO ST",
+      "approximate": false,
+      "units": "P313",
+      "ts": "2026-08-15T07:32:57+00:00",
+      "related": [
+        {
+          "id": "tps_0a006271f405",
+          "distance_m": 571,
+          "minutes_apart": 119
+        },
+        {
+          "id": "tps_15ee004b876e",
+          "distance_m": 577,
+          "minutes_apart": 169
+        }
+      ]
+    },
     {
       "id": "tps_a765c0e3053e",
       "source": "police",
@@ -144,6 +233,11 @@
           "id": "tps_5b2658eb457b",
           "distance_m": 456,
           "minutes_apart": 8
+        },
+        {
+          "id": "tps_1e1d3caa53db",
+          "distance_m": 495,
+          "minutes_apart": 37
         }
       ]
     },
@@ -255,6 +349,11 @@
           "id": "tps_5efe1afae0d5",
           "distance_m": 456,
           "minutes_apart": 8
+        },
+        {
+          "id": "tps_1e1d3caa53db",
+          "distance_m": 551,
+          "minutes_apart": 45
         }
       ]
     },
@@ -919,6 +1018,11 @@
           "id": "tps_e4d8fa9172e8",
           "distance_m": 538,
           "minutes_apart": 173
+        },
+        {
+          "id": "tfs_F26126746",
+          "distance_m": 571,
+          "minutes_apart": 119
         }
       ]
     },
@@ -10847,11 +10951,6 @@
       "ts": "2026-08-14T09:12:36+00:00",
       "related": [
         {
-          "id": "tps_71ea3920d56f",
-          "distance_m": 307,
-          "minutes_apart": 80
-        },
-        {
           "id": "tfs_F26126160",
           "distance_m": 514,
           "minutes_apart": 160
@@ -11114,73 +11213,15 @@
       "location": "FOLCROFT AVE - AYLESFORD DR",
       "ts": "2026-08-14T08:08:24+00:00",
       "related": []
-    },
-    {
-      "id": "tps_9808dbaf138b",
-      "source": "police",
-      "lat": 43.66748149675699,
-      "lng": -79.31138382839757,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "LN 2 N QUEEN E KINGSTON - LARK ST",
-      "ts": "2026-08-14T07:54:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_71ea3920d56f",
-      "source": "police",
-      "lat": 43.66242040152412,
-      "lng": -79.37670375122408,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D51",
-      "location": "CARLTON ST - SIRMAN LANE",
-      "ts": "2026-08-14T07:52:57+00:00",
-      "related": [
-        {
-          "id": "tps_374fab2dd69a",
-          "distance_m": 307,
-          "minutes_apart": 80
-        }
-      ]
-    },
-    {
-      "id": "tps_c75636fce74e",
-      "source": "police",
-      "lat": 43.66590630589419,
-      "lng": -79.35735966812996,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "BAYVIEW AVE - RIVER ST",
-      "ts": "2026-08-14T07:49:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7f7763ebaba9",
-      "source": "police",
-      "lat": 43.685398713547144,
-      "lng": -79.41920953144604,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D13",
-      "location": "TICHESTER RD - MONTCLAIR AVE",
-      "ts": "2026-08-14T07:39:55+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D43",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 1.0,
-      "ratio": 8.0,
+      "ratio": 7.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
@@ -11194,12 +11235,13 @@
     {
       "source": "police",
       "division": "D12",
-      "current_count": 4,
+      "current_count": 5,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
+      "ratio": 5.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_80ea56aee305",
         "tps_7713f8ec401f",
         "tps_e9091fb15d27",
         "tps_254132e1301d",
@@ -11208,18 +11250,18 @@
     },
     {
       "source": "police",
-      "division": "HP",
+      "division": "D55",
       "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.6,
+      "baseline_avg": 1.3,
+      "ratio": 4.5,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_2ce87f3f86a5",
-        "tps_ffb037eff946",
-        "tps_4117e4f4ff9e",
-        "tps_d87342d4be34",
-        "tps_a77095f6a0d3"
+        "tps_4b1390e879a7",
+        "tps_4cfbd12783f7",
+        "tps_fc41c8f4d727",
+        "tps_c9d53bcef069",
+        "tps_e14e0eb9300a"
       ]
     },
     {
@@ -11240,61 +11282,63 @@
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.0,
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.3,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7e4389b10580",
+        "tps_412f6ba5070a",
+        "tps_abdc48b931e5",
+        "tps_02f9ff27c567"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 1.7,
       "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_41f4ad1a3741",
-        "tps_881343c0780d",
-        "tps_f5ad1fe9b935"
+        "tps_2ce87f3f86a5",
+        "tps_ffb037eff946",
+        "tps_4117e4f4ff9e",
+        "tps_d87342d4be34",
+        "tps_a77095f6a0d3"
       ]
     },
     {
       "source": "police",
       "division": "D11",
-      "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.7,
+      "current_count": 7,
+      "baseline_avg": 2.5,
+      "ratio": 2.8,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_1e1d3caa53db",
         "tps_500b36aa083d",
         "tps_5efe1afae0d5",
         "tps_5b2658eb457b",
-        "tps_a671a02215e8",
-        "tps_045476f5aac3"
+        "tps_a671a02215e8"
       ]
     },
     {
       "source": "police",
       "division": "D51",
-      "current_count": 4,
+      "current_count": 3,
       "baseline_avg": 1.5,
-      "ratio": 2.7,
+      "ratio": 2.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_3978a847e0e2",
         "tps_8e2f29a1ed7a",
-        "tps_0a006271f405",
-        "tps_15ee004b876e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_412f6ba5070a",
-        "tps_abdc48b931e5",
-        "tps_02f9ff27c567"
+        "tps_0a006271f405"
       ]
     }
   ]
