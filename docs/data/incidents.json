@@ -1,11 +1,26 @@
 {
-  "generated": "2026-08-16T14:56:12.448642+00:00",
+  "generated": "2026-08-16T15:10:18.716069+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26127453",
+      "source": "fire",
+      "lat": 43.7466523,
+      "lng": -79.28821,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "245",
+      "location": "UNDERWRITERS RD & LAWRENCE AVE E",
+      "approximate": false,
+      "units": "P245",
+      "ts": "2026-08-16T14:53:28+00:00",
+      "related": []
+    },
     {
       "id": "tps_c06cc183a571",
       "source": "police",
@@ -9609,11 +9624,6 @@
           "minutes_apart": 43
         },
         {
-          "id": "tfs_F26126878",
-          "distance_m": 270,
-          "minutes_apart": 173
-        },
-        {
           "id": "tps_ee9f72a21c92",
           "distance_m": 447,
           "minutes_apart": 86
@@ -10008,11 +10018,6 @@
           "id": "tps_4bdc519d9964",
           "distance_m": 0,
           "minutes_apart": 43
-        },
-        {
-          "id": "tfs_F26126878",
-          "distance_m": 270,
-          "minutes_apart": 130
         },
         {
           "id": "tps_ee9f72a21c92",
@@ -11205,116 +11210,22 @@
       "location": "LAWRENCE AVE W - BLACK CREEK DR",
       "ts": "2026-08-15T15:14:28+00:00",
       "related": []
-    },
-    {
-      "id": "tps_959ee2c3d30f",
-      "source": "police",
-      "lat": 43.750851584279204,
-      "lng": -79.54211369717221,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D31",
-      "location": "ZAPPACOSTA DR - ",
-      "ts": "2026-08-15T15:04:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a6105c03857f",
-      "source": "police",
-      "lat": 43.7135871579345,
-      "lng": -79.36478229921464,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "SUTHERLAND DR - LAIRD DR",
-      "ts": "2026-08-15T15:03:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_97afeff44c1c",
-      "source": "police",
-      "lat": 43.703443532947595,
-      "lng": -79.55433722627717,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D23",
-      "location": "ST GEORGES BLVD - WESTHAMPTON DR",
-      "ts": "2026-08-15T15:02:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26126879",
-      "source": "fire",
-      "lat": 43.7670524,
-      "lng": -79.1904024,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "234",
-      "location": "Scarborough - LAWRENCE AVE & KINGSTON RD",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-15T14:59:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26126878",
-      "source": "fire",
-      "lat": 43.6556588,
-      "lng": -79.380368,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "314",
-      "location": "Toronto - DUNDAS SQ & YONGE ST",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-15T14:57:56+00:00",
-      "related": [
-        {
-          "id": "tps_9b7f01204787",
-          "distance_m": 270,
-          "minutes_apart": 130
-        },
-        {
-          "id": "tps_4bdc519d9964",
-          "distance_m": 270,
-          "minutes_apart": 173
-        }
-      ]
-    },
-    {
-      "id": "tps_059e335a3f74",
-      "source": "police",
-      "lat": 43.63218292402667,
-      "lng": -79.50504840877461,
-      "type": "MISCH",
-      "type_plain": "Mischief",
-      "severity": "medium",
-      "division": "D22",
-      "location": "OAKFIELD DR - ROYAL YORK RD",
-      "ts": "2026-08-15T14:56:16+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 6,
-      "baseline_avg": 1.5,
-      "ratio": 4.0,
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_4905789d5e4b",
-        "tps_213bbc5fa4ab",
-        "tps_2559cbb6262b",
-        "tps_faf71a474116",
-        "tps_c8deda7e9d5e"
+        "tps_4d0efbb76242",
+        "tps_9587d0ae84b5",
+        "tps_acdf93532971",
+        "tps_47bfd9d4dd59"
       ]
     },
     {
@@ -11333,33 +11244,18 @@
     },
     {
       "source": "police",
-      "division": "D51",
+      "division": "HP",
       "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_88f1e5c70a48",
-        "tps_0a6793d74d45",
-        "tps_b6154a8bee7b",
-        "tps_c6edb90c4a7b",
-        "tps_3ab6efe6ca7d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.8,
+      "baseline_avg": 2.2,
       "ratio": 2.2,
-      "sample_days": 6,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_4d0efbb76242",
-        "tps_9587d0ae84b5",
-        "tps_acdf93532971",
-        "tps_47bfd9d4dd59"
+        "tps_4905789d5e4b",
+        "tps_213bbc5fa4ab",
+        "tps_2559cbb6262b",
+        "tps_faf71a474116",
+        "tps_c8deda7e9d5e"
       ]
     }
   ]
