@@ -1,11 +1,60 @@
 {
-  "generated": "2026-08-16T13:26:31.604823+00:00",
+  "generated": "2026-08-16T13:50:01.557175+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26127428",
+      "source": "fire",
+      "lat": 43.6663414,
+      "lng": -79.3734414,
+      "type": "Alarm Highrise Residential",
+      "type_plain": "Alarm Highrise Residential",
+      "severity": "medium",
+      "division": "313",
+      "location": "Toronto - WELLESLEY ST & BLEECKER ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-16T13:38:14+00:00",
+      "related": [
+        {
+          "id": "tps_3ab6efe6ca7d",
+          "distance_m": 175,
+          "minutes_apart": 45
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26127427",
+      "source": "fire",
+      "lat": 43.7342126,
+      "lng": -79.4333518,
+      "type": "Fire Alarm - Check Call",
+      "type_plain": "Fire Alarm - Check Call",
+      "severity": "medium",
+      "division": "132",
+      "location": "North York - MARQUETTE AVE & BATHURST ST",
+      "approximate": false,
+      "units": "P132",
+      "ts": "2026-08-16T13:30:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0da3a2ba35c1",
+      "source": "police",
+      "lat": 43.75417052377861,
+      "lng": -79.61983270641635,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D23",
+      "location": "STEELES AVE W - STEINWAY BLVD",
+      "ts": "2026-08-16T13:20:20+00:00",
+      "related": []
+    },
     {
       "id": "tps_c6edb90c4a7b",
       "source": "police",
@@ -43,7 +92,13 @@
       "division": "D51",
       "location": "WELLESLEY ST E - ONTARIO ST",
       "ts": "2026-08-16T12:52:52+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26127428",
+          "distance_m": 175,
+          "minutes_apart": 45
+        }
+      ]
     },
     {
       "id": "tps_472b72200b8f",
@@ -10131,11 +10186,6 @@
           "minutes_apart": 16
         },
         {
-          "id": "tps_34aed1102c8f",
-          "distance_m": 186,
-          "minutes_apart": 142
-        },
-        {
           "id": "tps_d683459843aa",
           "distance_m": 384,
           "minutes_apart": 94
@@ -10369,11 +10419,6 @@
           "minutes_apart": 78
         },
         {
-          "id": "tps_34aed1102c8f",
-          "distance_m": 180,
-          "minutes_apart": 127
-        },
-        {
           "id": "tps_d683459843aa",
           "distance_m": 396,
           "minutes_apart": 110
@@ -10561,11 +10606,6 @@
       "location": "LN N BLOOR E CHRISTIE - CRESTFALLEN LANE",
       "ts": "2026-08-15T15:29:07+00:00",
       "related": [
-        {
-          "id": "tps_d1e72dcf90bb",
-          "distance_m": 0,
-          "minutes_apart": 118
-        },
         {
           "id": "tps_4361c5a9fcf5",
           "distance_m": 34,
@@ -11174,11 +11214,6 @@
           "id": "tfs_F26126908",
           "distance_m": 24,
           "minutes_apart": 78
-        },
-        {
-          "id": "tps_34aed1102c8f",
-          "distance_m": 186,
-          "minutes_apart": 49
         }
       ]
     },
@@ -11401,201 +11436,22 @@
       "location": "AVELLINO LANE - HOPE ST",
       "ts": "2026-08-15T13:53:20+00:00",
       "related": []
-    },
-    {
-      "id": "tps_0e053495b028",
-      "source": "police",
-      "lat": 43.77017884229359,
-      "lng": -79.27877690190728,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D41",
-      "location": "WILLIAM KITCHEN RD - PROGRESS AVE",
-      "ts": "2026-08-15T13:47:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26126850",
-      "source": "fire",
-      "lat": 43.7090012,
-      "lng": -79.4782731,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "133",
-      "location": "North York - LAWRENCE AVE & KEELE ST",
-      "approximate": false,
-      "units": "P442, R133",
-      "ts": "2026-08-15T13:47:30+00:00",
-      "related": [
-        {
-          "id": "tps_a9521ae7d66f",
-          "distance_m": 510,
-          "minutes_apart": 20
-        }
-      ]
-    },
-    {
-      "id": "tps_dc26693ca6fc",
-      "source": "police",
-      "lat": 43.697232269719805,
-      "lng": -79.47544957212479,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D12",
-      "location": "KEELE ST - ",
-      "ts": "2026-08-15T13:40:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d4bb43dfb8a4",
-      "source": "police",
-      "lat": 43.6200637396379,
-      "lng": -79.49134431876293,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D22",
-      "location": "CAVELL AVE - SKELTON ST",
-      "ts": "2026-08-15T13:36:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_34aed1102c8f",
-      "source": "police",
-      "lat": 43.701657961718745,
-      "lng": -79.51719955012477,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D12",
-      "location": "PANTELIS KALAMARIS LANE - SOUTH STATION ST",
-      "ts": "2026-08-15T13:36:44+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126908",
-          "distance_m": 180,
-          "minutes_apart": 127
-        },
-        {
-          "id": "tps_281ffcda1c8e",
-          "distance_m": 186,
-          "minutes_apart": 49
-        },
-        {
-          "id": "tps_2d96c5d355d6",
-          "distance_m": 186,
-          "minutes_apart": 142
-        }
-      ]
-    },
-    {
-      "id": "tps_cf4bf0f3820b",
-      "source": "police",
-      "lat": 43.73245327745153,
-      "lng": -79.58378627224546,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "COLLINGDALE RD - COLLINGDALE RD",
-      "ts": "2026-08-15T13:31:35+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d1e72dcf90bb",
-      "source": "police",
-      "lat": 43.66356040880575,
-      "lng": -79.41842442893208,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D14",
-      "location": "CHRISTIE PITS PARK TRL - CRESTFALLEN LANE",
-      "ts": "2026-08-15T13:31:25+00:00",
-      "related": [
-        {
-          "id": "tps_b2f28ef5f196",
-          "distance_m": 0,
-          "minutes_apart": 118
-        }
-      ]
-    },
-    {
-      "id": "tps_6c0a48bd9726",
-      "source": "police",
-      "lat": 43.697046477608836,
-      "lng": -79.54672195820916,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DIXON RD - ISLINGTON AVE",
-      "ts": "2026-08-15T13:31:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ce9aad0e4185",
-      "source": "police",
-      "lat": 43.701943870033936,
-      "lng": -79.57562278360264,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "MARTIN GROVE RD - BELFIELD RD",
-      "ts": "2026-08-15T13:30:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_90a88214aa6d",
-      "source": "police",
-      "lat": 43.66221667969741,
-      "lng": -79.31480841846755,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D55",
-      "location": "COXWELL AVE - NORTHERN DANCER BLVD",
-      "ts": "2026-08-15T13:28:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a9521ae7d66f",
-      "source": "police",
-      "lat": 43.709157548943246,
-      "lng": -79.48461894031664,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D12",
-      "location": "PIMLICO RD - AMESBURY PARK TRL",
-      "ts": "2026-08-15T13:27:23+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126850",
-          "distance_m": 510,
-          "minutes_apart": 20
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
+      "division": "D23",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 5,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_e6b5206c7289",
-        "tps_69980daa93b8",
-        "tps_441fe990b0aa",
-        "tps_00dd537a18b1"
+        "tps_0da3a2ba35c1",
+        "tps_578d4e339a6b",
+        "tps_0b7c48b26846",
+        "tps_4e88c86d2f9b"
       ]
     },
     {
