@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T20:54:50.177586+00:00",
+  "generated": "2026-08-16T21:07:41.866623+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -9536,11 +9536,6 @@
           "id": "tps_0c1036f02cbd",
           "distance_m": 471,
           "minutes_apart": 124
-        },
-        {
-          "id": "tps_c159618f2614",
-          "distance_m": 565,
-          "minutes_apart": 171
         }
       ]
     },
@@ -10771,11 +10766,6 @@
           "minutes_apart": 11
         },
         {
-          "id": "tps_c159618f2614",
-          "distance_m": 258,
-          "minutes_apart": 58
-        },
-        {
           "id": "tps_70a4e766c83e",
           "distance_m": 467,
           "minutes_apart": 29
@@ -10900,11 +10890,6 @@
           "minutes_apart": 11
         },
         {
-          "id": "tps_c159618f2614",
-          "distance_m": 258,
-          "minutes_apart": 47
-        },
-        {
           "id": "tps_70a4e766c83e",
           "distance_m": 467,
           "minutes_apart": 18
@@ -10990,11 +10975,6 @@
           "id": "tps_c42300dcb866",
           "distance_m": 349,
           "minutes_apart": 142
-        },
-        {
-          "id": "tps_c159618f2614",
-          "distance_m": 375,
-          "minutes_apart": 29
         },
         {
           "id": "tps_0c1036f02cbd",
@@ -11123,83 +11103,23 @@
       "location": "COXWELL AVE - MORTIMER AVE",
       "ts": "2026-08-15T21:12:08+00:00",
       "related": []
-    },
-    {
-      "id": "tps_c159618f2614",
-      "source": "police",
-      "lat": 43.67286831309028,
-      "lng": -79.38784294973205,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "COLLIER ST - YONGE ST",
-      "ts": "2026-08-15T21:06:58+00:00",
-      "related": [
-        {
-          "id": "tps_0c1036f02cbd",
-          "distance_m": 258,
-          "minutes_apart": 47
-        },
-        {
-          "id": "tps_fffc78cce396",
-          "distance_m": 258,
-          "minutes_apart": 58
-        },
-        {
-          "id": "tps_70a4e766c83e",
-          "distance_m": 375,
-          "minutes_apart": 29
-        },
-        {
-          "id": "tps_c42300dcb866",
-          "distance_m": 565,
-          "minutes_apart": 171
-        }
-      ]
-    },
-    {
-      "id": "tps_cda430d247a8",
-      "source": "police",
-      "lat": 43.66701919224092,
-      "lng": -79.31353872503584,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "EASTERN AVE - ORCHARD PARK BLVD",
-      "ts": "2026-08-15T21:06:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9bf325b3906d",
-      "source": "police",
-      "lat": 43.71419233613667,
-      "lng": -79.59419099962328,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "PSRT2",
-      "location": " - ",
-      "ts": "2026-08-15T21:05:57+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D32",
+      "division": "D14",
       "current_count": 8,
       "baseline_avg": 1.8,
       "ratio": 4.4,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_345b64e3e8b0",
-        "tps_18f1780d282f",
-        "tps_3e3ec714a279",
-        "tps_a3eca4d8a94b",
-        "tps_cb641d06c6db"
+        "tps_bca522135a55",
+        "tps_931cefcb85e5",
+        "tps_4df36f226d7f",
+        "tps_cc1f07bb3126",
+        "tps_10096727a913"
       ]
     },
     {
@@ -11208,7 +11128,7 @@
       "current_count": 9,
       "baseline_avg": 2.5,
       "ratio": 3.6,
-      "sample_days": 6,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_68b69c19a646",
@@ -11220,33 +11140,18 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
+      "division": "D32",
+      "current_count": 8,
+      "baseline_avg": 2.2,
+      "ratio": 3.6,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_86c982451c3c",
-        "tps_1a163daac2ac",
-        "tps_bcffc245ac6c",
-        "tps_fbb8d179caaf",
-        "tps_89a66b4ad301"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D13",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_58411ff7907a",
-        "tps_505a2c23c780",
-        "tps_5fa4afa5bb85",
-        "tps_5b73baaf431f"
+        "tps_345b64e3e8b0",
+        "tps_18f1780d282f",
+        "tps_3e3ec714a279",
+        "tps_a3eca4d8a94b",
+        "tps_cb641d06c6db"
       ]
     },
     {
@@ -11266,11 +11171,72 @@
     },
     {
       "source": "police",
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_88544b08f1be",
+        "tps_1725f0b4e6cd",
+        "tps_ece7502a0704",
+        "tps_e4fe98409f45"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b936d29dfd34",
+        "tps_8c7b8c31797c",
+        "tps_fa0f8fee365a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_21a0bdc972cd",
+        "tps_c2f3834c88b9",
+        "tps_bc59ce649e48",
+        "tps_36911730e9f2",
+        "tps_ecb7990b50ff"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_86c982451c3c",
+        "tps_1a163daac2ac",
+        "tps_bcffc245ac6c",
+        "tps_fbb8d179caaf",
+        "tps_89a66b4ad301"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
       "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_54c0a4021dd9",
@@ -11281,27 +11247,11 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 8,
-      "baseline_avg": 3.0,
-      "ratio": 2.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_bca522135a55",
-        "tps_931cefcb85e5",
-        "tps_4df36f226d7f",
-        "tps_cc1f07bb3126",
-        "tps_10096727a913"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D23",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_a16b051c1763",
@@ -11311,17 +11261,17 @@
     },
     {
       "source": "police",
-      "division": "D53",
+      "division": "D43",
       "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.3,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_b936d29dfd34",
-        "tps_8c7b8c31797c",
-        "tps_fa0f8fee365a",
-        "tps_f3729f045b71"
+        "tps_53237c271d43",
+        "tps_2f10eaddb9de",
+        "tps_24ed06393762",
+        "tps_79762ae0848b"
       ]
     }
   ]
