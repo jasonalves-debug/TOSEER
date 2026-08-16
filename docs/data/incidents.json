@@ -1,11 +1,95 @@
 {
-  "generated": "2026-08-16T11:31:40.712782+00:00",
+  "generated": "2026-08-16T11:53:25.525609+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_d04661d4fe4b",
+      "source": "police",
+      "lat": 43.75092022305602,
+      "lng": -79.31562657140621,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D33",
+      "location": "ROWENA DR - CASSANDRA BLVD",
+      "ts": "2026-08-16T11:47:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_69980daa93b8",
+      "source": "police",
+      "lat": 43.6385443776481,
+      "lng": -79.39213313595421,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D14",
+      "location": "LAKE SHORE BLVD W - SPADINA AVE",
+      "ts": "2026-08-16T11:46:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_379424e10489",
+      "source": "police",
+      "lat": 43.749625490081065,
+      "lng": -79.20589409685209,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D43",
+      "location": "15 GUILDWOOD PKWY - PRINCE PHILIP BLVD",
+      "ts": "2026-08-16T11:42:36+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dc960573220c",
+      "source": "police",
+      "lat": 43.67404003302331,
+      "lng": -79.46316911638833,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D12",
+      "location": "TOWNSLEY ST - ED CLARK GDNS",
+      "ts": "2026-08-16T11:41:53+00:00",
+      "related": [
+        {
+          "id": "tps_0b7c48b26846",
+          "distance_m": 317,
+          "minutes_apart": 35
+        }
+      ]
+    },
+    {
+      "id": "tps_441fe990b0aa",
+      "source": "police",
+      "lat": 43.63265417439493,
+      "lng": -79.41983792694654,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D14",
+      "location": "ONTARIO DR - PRINCE EDWARD ISLAND CRES",
+      "ts": "2026-08-16T11:36:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_578d4e339a6b",
+      "source": "police",
+      "lat": 43.689208643704305,
+      "lng": -79.58225330540131,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D23",
+      "location": " - ",
+      "ts": "2026-08-16T11:30:51+00:00",
+      "related": []
+    },
     {
       "id": "tps_be0ce75e8e4c",
       "source": "police",
@@ -59,7 +143,13 @@
       "division": "D23",
       "location": "HEPC - HOWICK AVE",
       "ts": "2026-08-16T11:06:57+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_dc960573220c",
+          "distance_m": 317,
+          "minutes_apart": 35
+        }
+      ]
     },
     {
       "id": "tps_8c4191cf580f",
@@ -11692,45 +11782,6 @@
           "minutes_apart": 112
         }
       ]
-    },
-    {
-      "id": "tps_2299c6c645ed",
-      "source": "police",
-      "lat": 43.652732991836636,
-      "lng": -79.36321805698537,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D51",
-      "location": "KING ST E - PARLIAMENT ST",
-      "ts": "2026-08-15T11:50:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6a8f0a059d11",
-      "source": "police",
-      "lat": 43.738724081341445,
-      "lng": -79.62806217801939,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D23",
-      "location": "FINCH W 427 N RAMP - 427 N 407 RAMP",
-      "ts": "2026-08-15T11:38:35+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_233c2b49a2cb",
-      "source": "police",
-      "lat": 43.664443640236854,
-      "lng": -79.4588062222316,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "OLD WESTON RD - DUPONT ST",
-      "ts": "2026-08-15T11:37:02+00:00",
-      "related": []
     }
   ],
   "anomalies": [
