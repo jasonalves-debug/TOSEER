@@ -1,11 +1,89 @@
 {
-  "generated": "2026-08-16T11:53:25.525609+00:00",
+  "generated": "2026-08-16T12:11:30.172497+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_c566a580a755",
+      "source": "police",
+      "lat": 43.718279055503984,
+      "lng": -79.45561380592014,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D13",
+      "location": "DUFFERIN ST - SAMOR RD",
+      "ts": "2026-08-16T11:58:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9b7e871e9cc9",
+      "source": "police",
+      "lat": 43.720780848086626,
+      "lng": -79.3325817281569,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY N - EGLINTON AVE E",
+      "ts": "2026-08-16T11:56:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bdf812f4bb1d",
+      "source": "police",
+      "lat": 43.74005035433166,
+      "lng": -79.51826239303222,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D31",
+      "location": "JANE ST - LAURA RD",
+      "ts": "2026-08-16T11:55:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_676935a80b8a",
+      "source": "police",
+      "lat": 43.70739071380607,
+      "lng": -79.26828758786104,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D41",
+      "location": "DANFORTH RD - SADLER DR",
+      "ts": "2026-08-16T11:54:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a1edf7571e48",
+      "source": "police",
+      "lat": 43.79245878696635,
+      "lng": -79.28571880979331,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D42",
+      "location": "LOCKIE AVE - HAVENDALE RD",
+      "ts": "2026-08-16T11:51:21+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7244602e8550",
+      "source": "police",
+      "lat": 43.7485166741116,
+      "lng": -79.49940192481044,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D31",
+      "location": "ELDORADO CRT - LADYSHOT CRES",
+      "ts": "2026-08-16T11:49:38+00:00",
+      "related": []
+    },
     {
       "id": "tps_d04661d4fe4b",
       "source": "police",
@@ -31,6 +109,25 @@
       "location": "LAKE SHORE BLVD W - SPADINA AVE",
       "ts": "2026-08-16T11:46:15+00:00",
       "related": []
+    },
+    {
+      "id": "tps_6789011dd597",
+      "source": "police",
+      "lat": 43.6487715878752,
+      "lng": -79.39626253563942,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "TAC8",
+      "location": "QUEEN ST W - SPADINA AVE",
+      "ts": "2026-08-16T11:43:05+00:00",
+      "related": [
+        {
+          "id": "tfs_F26127375",
+          "distance_m": 596,
+          "minutes_apart": 60
+        }
+      ]
     },
     {
       "id": "tps_379424e10489",
@@ -261,7 +358,13 @@
       "approximate": false,
       "units": "R346",
       "ts": "2026-08-16T10:43:07+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_6789011dd597",
+          "distance_m": 596,
+          "minutes_apart": 60
+        }
+      ]
     },
     {
       "id": "tps_00dd537a18b1",
@@ -10544,11 +10647,6 @@
           "id": "tps_4bdc519d9964",
           "distance_m": 270,
           "minutes_apart": 173
-        },
-        {
-          "id": "tps_9af3a9d72a1a",
-          "distance_m": 412,
-          "minutes_apart": 178
         }
       ]
     },
@@ -11102,13 +11200,7 @@
       "division": "D41",
       "location": "WILLIAM KITCHEN RD - PROGRESS AVE",
       "ts": "2026-08-15T13:47:39+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126819",
-          "distance_m": 271,
-          "minutes_apart": 112
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26126850",
@@ -11622,11 +11714,6 @@
           "id": "tfs_F26126830",
           "distance_m": 309,
           "minutes_apart": 1
-        },
-        {
-          "id": "tps_9af3a9d72a1a",
-          "distance_m": 465,
-          "minutes_apart": 38
         }
       ]
     },
@@ -11711,77 +11798,6 @@
       "location": "DENSLEY AVE - LN N FLAMBOROUGH W KEELE",
       "ts": "2026-08-15T12:20:16+00:00",
       "related": []
-    },
-    {
-      "id": "tps_1656e1dd8bfa",
-      "source": "police",
-      "lat": 43.78220380141324,
-      "lng": -79.40448186890414,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D32",
-      "location": "SLINGSBY LANE - LONGMORE ST",
-      "ts": "2026-08-15T12:07:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c50ce507a04c",
-      "source": "police",
-      "lat": 43.6552315002371,
-      "lng": -79.41832222722458,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN N COLLEGE W BEATRICE - NORTH BEATRICE ST",
-      "ts": "2026-08-15T12:00:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9af3a9d72a1a",
-      "source": "police",
-      "lat": 43.65290919201284,
-      "lng": -79.3769330479008,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "VICTORIA ST - BOND ST",
-      "ts": "2026-08-15T11:59:44+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126878",
-          "distance_m": 412,
-          "minutes_apart": 178
-        },
-        {
-          "id": "tps_45e9c2a27f7f",
-          "distance_m": 465,
-          "minutes_apart": 38
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26126819",
-      "source": "fire",
-      "lat": 43.7701243,
-      "lng": -79.2821463,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "245",
-      "location": "KENNEDY RD & ELLESMERE RD",
-      "approximate": false,
-      "units": "P245",
-      "ts": "2026-08-15T11:55:39+00:00",
-      "related": [
-        {
-          "id": "tps_0e053495b028",
-          "distance_m": 271,
-          "minutes_apart": 112
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11789,8 +11805,8 @@
       "source": "police",
       "division": "D51",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
+      "baseline_avg": 1.8,
+      "ratio": 2.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
