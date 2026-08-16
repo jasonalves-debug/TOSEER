@@ -1,11 +1,80 @@
 {
-  "generated": "2026-08-16T08:52:07.379219+00:00",
+  "generated": "2026-08-16T09:13:46.640003+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_6293c161c68f",
+      "source": "police",
+      "lat": 43.67697560408868,
+      "lng": -79.52430648580521,
+      "type": "PERGU",
+      "type_plain": "Person Guarding / Person Gone",
+      "severity": "low",
+      "division": "D22",
+      "location": "HUMBER RIVER TRIB - NORTH DR",
+      "ts": "2026-08-16T09:05:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_cf613262248f",
+      "source": "police",
+      "lat": 43.674759789156944,
+      "lng": -79.32624021894753,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D55",
+      "location": "LN N GERRARD E WOODFIELD - WALPOLE AVE",
+      "ts": "2026-08-16T08:59:56+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d7197a2440cc",
+      "source": "police",
+      "lat": 43.670755911455295,
+      "lng": -79.39304074611381,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D53",
+      "location": "HAZELTON AVE - YORKVILLE AVE",
+      "ts": "2026-08-16T08:56:54+00:00",
+      "related": [
+        {
+          "id": "tps_7dfaca9a04bc",
+          "distance_m": 0,
+          "minutes_apart": 161
+        },
+        {
+          "id": "tps_7ae824581bb4",
+          "distance_m": 538,
+          "minutes_apart": 55
+        }
+      ]
+    },
+    {
+      "id": "tps_186ab85d415e",
+      "source": "police",
+      "lat": 43.68160471249908,
+      "lng": -79.47674090114616,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D12",
+      "location": "WESTON RD - ROGERS RD",
+      "ts": "2026-08-16T08:50:33+00:00",
+      "related": [
+        {
+          "id": "tfs_F26127332",
+          "distance_m": 385,
+          "minutes_apart": 69
+        }
+      ]
+    },
     {
       "id": "tps_f7b90f650363",
       "source": "police",
@@ -236,6 +305,11 @@
       "ts": "2026-08-16T08:01:57+00:00",
       "related": [
         {
+          "id": "tps_d7197a2440cc",
+          "distance_m": 538,
+          "minutes_apart": 55
+        },
+        {
           "id": "tps_7dfaca9a04bc",
           "distance_m": 538,
           "minutes_apart": 106
@@ -392,7 +466,13 @@
       "approximate": false,
       "units": "P421",
       "ts": "2026-08-16T07:41:32+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_186ab85d415e",
+          "distance_m": 385,
+          "minutes_apart": 69
+        }
+      ]
     },
     {
       "id": "tps_42a74595fcf5",
@@ -1127,6 +1207,11 @@
       "location": "HAZELTON AVE - YORKVILLE AVE",
       "ts": "2026-08-16T06:16:07+00:00",
       "related": [
+        {
+          "id": "tps_d7197a2440cc",
+          "distance_m": 0,
+          "minutes_apart": 161
+        },
         {
           "id": "tps_7ae824581bb4",
           "distance_m": 538,
@@ -11699,110 +11784,16 @@
           "minutes_apart": 121
         }
       ]
-    },
-    {
-      "id": "tps_ca8e4a088cbc",
-      "source": "police",
-      "lat": 43.80653179988055,
-      "lng": -79.21853987568507,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "NEILSON RD - WICKSON TRAIL PARK TRL",
-      "ts": "2026-08-15T09:13:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_15754be44df7",
-      "source": "police",
-      "lat": 43.67540153558696,
-      "lng": -79.35806637992573,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - DANFORTH AVE",
-      "ts": "2026-08-15T09:08:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e13c72f5cc16",
-      "source": "police",
-      "lat": 43.6312685122686,
-      "lng": -79.47555341439238,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY W - HUMBER RIVER",
-      "ts": "2026-08-15T09:06:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_447da94f380d",
-      "source": "police",
-      "lat": 43.75995538880156,
-      "lng": -79.23963391691687,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "BEN ALDER DR - BENSHIRE DR",
-      "ts": "2026-08-15T09:01:43+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a1cd7049f30d",
-      "source": "police",
-      "lat": 43.778428126517674,
-      "lng": -79.32013406995365,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D42",
-      "location": "SHEPPARD AVE E - 30 CHICHESTER PL",
-      "ts": "2026-08-15T09:01:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8934f7a30a00",
-      "source": "police",
-      "lat": 43.75553415340944,
-      "lng": -79.27846402168994,
-      "type": "WIRDO",
-      "type_plain": "WIRDO",
-      "severity": "low",
-      "division": "D41",
-      "location": "EXFORD DR - FORBES RD",
-      "ts": "2026-08-15T08:55:15+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 5,
-      "baseline_avg": 1.0,
-      "ratio": 5.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_48a8b7029ae9",
-        "tps_115688aff16c",
-        "tps_caf4713ba878",
-        "tps_29f4f5473130",
-        "tps_b15eff40a0bc"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D14",
-      "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 3.9,
-      "sample_days": 5,
+      "current_count": 6,
+      "baseline_avg": 1.0,
+      "ratio": 6.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_73ebffc69f31",
@@ -11815,55 +11806,25 @@
     {
       "source": "police",
       "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_569ec17b00bf",
-        "tps_bc11f8ff87a7",
-        "tps_496b82d6b2d2",
-        "tps_791005621936",
-        "tps_94db49345250"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7ae824581bb4",
-        "tps_dce53e0c0a46",
-        "tps_de12c7d23e5e",
-        "tps_7dfaca9a04bc"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D13",
-      "current_count": 4,
+      "current_count": 6,
       "baseline_avg": 1.3,
-      "ratio": 3.0,
+      "ratio": 4.5,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_f7b90f650363",
-        "tps_8508299bcb79",
-        "tps_ab359d26db3c",
-        "tps_e48c3cafa4c4"
+        "tps_cf613262248f",
+        "tps_569ec17b00bf",
+        "tps_bc11f8ff87a7",
+        "tps_496b82d6b2d2",
+        "tps_791005621936"
       ]
     },
     {
       "source": "police",
       "division": "D32",
       "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
+      "baseline_avg": 1.3,
+      "ratio": 4.5,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
@@ -11876,43 +11837,14 @@
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "D22",
       "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_6f797040a654",
-        "tps_2cbf1e1635d7",
-        "tps_1a9a366a387c",
-        "tps_97277c109033"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_485cfdc23b8a",
-        "tps_2748236e1844",
-        "tps_399ddd7a4ea5",
-        "tps_89153eebe7ef"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
+        "tps_6293c161c68f",
         "tps_22af20a45b04",
         "tps_eadb4f281cbc",
         "tps_67db33d5afa8"
@@ -11920,16 +11852,31 @@
     },
     {
       "source": "police",
-      "division": "HP",
+      "division": "D13",
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f7b90f650363",
+        "tps_8508299bcb79",
+        "tps_ab359d26db3c",
+        "tps_e48c3cafa4c4"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
       "current_count": 3,
       "baseline_avg": 1.3,
       "ratio": 2.2,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_d99b91bc5ff2",
-        "tps_4fdf6646a3b0",
-        "tps_4b01ecf0d27f"
+        "tps_01ef39f5aea8",
+        "tps_ef41974bbc14",
+        "tps_3ccd88d9678c"
       ]
     }
   ]
