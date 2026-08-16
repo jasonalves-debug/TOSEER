@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T10:55:56.206516+00:00",
+  "generated": "2026-08-16T11:09:59.735516+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -174,7 +174,7 @@
       "division": "314",
       "location": "Toronto - YONGE ST & ELM ST",
       "approximate": false,
-      "units": "A135, A322, C30, C31, C32, C33, CMD30, CMD30C, HR332, HZ323, L312, L325, LA325, P116, P311, P312, P313, P314, P315, P331, P332, P344, P345, R227, R325, R341, REHAB01, S313, T1",
+      "units": "A135, A322, C30, C31, C32, C33, C34, C8, CMD30, CMD30C, HR332, HZ323, L312, L325, LA325, P116, P311, P312, P313, P314, P315, P331, P332, P344, P345, R227, R325, R341, REHAB01, S313, T1",
       "ts": "2026-08-16T10:02:24+00:00",
       "related": [
         {
@@ -11630,13 +11630,7 @@
       "division": "D14",
       "location": "PHOEBE ST - SULLIVAN ST",
       "ts": "2026-08-15T11:27:00+00:00",
-      "related": [
-        {
-          "id": "tps_4329288c2dfd",
-          "distance_m": 383,
-          "minutes_apart": 19
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26126807",
@@ -11726,103 +11720,16 @@
           "minutes_apart": 87
         }
       ]
-    },
-    {
-      "id": "tps_5f06c7865d60",
-      "source": "police",
-      "lat": 43.659901576077765,
-      "lng": -79.58331572133065,
-      "type": "INDAC",
-      "type_plain": "INDAC",
-      "severity": "low",
-      "division": "D22",
-      "location": "WELLESWORTH DR - RENFORTH DR",
-      "ts": "2026-08-15T11:07:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4329288c2dfd",
-      "source": "police",
-      "lat": 43.65202349236999,
-      "lng": -79.40225363325442,
-      "type": "ROB",
-      "type_plain": "ROB",
-      "severity": "low",
-      "division": "D14",
-      "location": "DUNDAS ST W - DENISON AVE",
-      "ts": "2026-08-15T11:07:52+00:00",
-      "related": [
-        {
-          "id": "tps_2f8e84d60480",
-          "distance_m": 383,
-          "minutes_apart": 19
-        }
-      ]
-    },
-    {
-      "id": "tps_4b80a0adb315",
-      "source": "police",
-      "lat": 43.64150461311064,
-      "lng": -79.55767268115487,
-      "type": "ROB",
-      "type_plain": "ROB",
-      "severity": "low",
-      "division": "D22",
-      "location": "FORMULA CRT - VALHALLA INN RD",
-      "ts": "2026-08-15T11:04:55+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7fb09670d4cc",
-        "tps_123822eb0b0c",
-        "tps_0af17213742a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5e4248bb12b2",
-        "tps_485cfdc23b8a",
-        "tps_2748236e1844"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b63f39e1bed6",
-        "tps_d7197a2440cc",
-        "tps_7ae824581bb4"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D31",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_c5dd78ab1751",
