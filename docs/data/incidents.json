@@ -1,11 +1,100 @@
 {
-  "generated": "2026-08-16T10:12:32.751831+00:00",
+  "generated": "2026-08-16T10:37:29.324115+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26127370",
+      "source": "fire",
+      "lat": 43.657777,
+      "lng": -79.3892159,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - GERRARD ST & ELIZABETH ST",
+      "approximate": false,
+      "units": "P426CA, R346",
+      "ts": "2026-08-16T10:24:45+00:00",
+      "related": [
+        {
+          "id": "tfs_F26127361",
+          "distance_m": 189,
+          "minutes_apart": 22
+        }
+      ]
+    },
+    {
+      "id": "tps_7fb09670d4cc",
+      "source": "police",
+      "lat": 43.657900097003875,
+      "lng": -79.38157314647108,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D51",
+      "location": "ELM ST - WALTON ST",
+      "ts": "2026-08-16T10:19:28+00:00",
+      "related": [
+        {
+          "id": "tps_f83f32ba7318",
+          "distance_m": 0,
+          "minutes_apart": 5
+        },
+        {
+          "id": "tps_8a0a107b813e",
+          "distance_m": 405,
+          "minutes_apart": 110
+        },
+        {
+          "id": "tps_01ef39f5aea8",
+          "distance_m": 405,
+          "minutes_apart": 161
+        },
+        {
+          "id": "tfs_F26127361",
+          "distance_m": 563,
+          "minutes_apart": 17
+        }
+      ]
+    },
+    {
+      "id": "tps_f83f32ba7318",
+      "source": "police",
+      "lat": 43.657900097003875,
+      "lng": -79.38157314647108,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D52",
+      "location": "ELM ST - WALTON ST",
+      "ts": "2026-08-16T10:14:34+00:00",
+      "related": [
+        {
+          "id": "tps_7fb09670d4cc",
+          "distance_m": 0,
+          "minutes_apart": 5
+        },
+        {
+          "id": "tps_8a0a107b813e",
+          "distance_m": 405,
+          "minutes_apart": 105
+        },
+        {
+          "id": "tps_01ef39f5aea8",
+          "distance_m": 405,
+          "minutes_apart": 156
+        },
+        {
+          "id": "tfs_F26127361",
+          "distance_m": 563,
+          "minutes_apart": 12
+        }
+      ]
+    },
     {
       "id": "tfs_F26127362",
       "source": "fire",
@@ -28,13 +117,29 @@
       "lng": -79.3881872,
       "type": "Fire - Commercial/Industrial",
       "type_plain": "Fire - Commercial/Industrial",
-      "severity": "medium",
+      "severity": "critical",
       "division": "314",
       "location": "Toronto - YONGE ST & ELM ST",
       "approximate": false,
-      "units": "C31, C33, HR332, L312, L325, LA325, P312, P314, P332, R325, S313",
+      "units": "A135, A322, C30, C31, C32, C33, CMD30, CMD30C, HR332, HZ323, L312, L325, LA325, P116, P312, P313, P314, P315, P331, P332, P344, R325, R341, REHAB01, S313, T1",
       "ts": "2026-08-16T10:02:24+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26127370",
+          "distance_m": 189,
+          "minutes_apart": 22
+        },
+        {
+          "id": "tps_f83f32ba7318",
+          "distance_m": 563,
+          "minutes_apart": 12
+        },
+        {
+          "id": "tps_7fb09670d4cc",
+          "distance_m": 563,
+          "minutes_apart": 17
+        }
+      ]
     },
     {
       "id": "tps_c5dd78ab1751",
@@ -357,6 +462,16 @@
           "id": "tps_01ef39f5aea8",
           "distance_m": 0,
           "minutes_apart": 51
+        },
+        {
+          "id": "tps_f83f32ba7318",
+          "distance_m": 405,
+          "minutes_apart": 105
+        },
+        {
+          "id": "tps_7fb09670d4cc",
+          "distance_m": 405,
+          "minutes_apart": 110
         }
       ]
     },
@@ -668,6 +783,16 @@
           "id": "tps_8a0a107b813e",
           "distance_m": 0,
           "minutes_apart": 51
+        },
+        {
+          "id": "tps_f83f32ba7318",
+          "distance_m": 405,
+          "minutes_apart": 156
+        },
+        {
+          "id": "tps_7fb09670d4cc",
+          "distance_m": 405,
+          "minutes_apart": 161
         },
         {
           "id": "tps_e4a4cee5d50e",
@@ -11698,11 +11823,6 @@
       "ts": "2026-08-15T10:44:08+00:00",
       "related": [
         {
-          "id": "tps_3a03501ef618",
-          "distance_m": 469,
-          "minutes_apart": 11
-        },
-        {
           "id": "tps_bcf772e7b265",
           "distance_m": 526,
           "minutes_apart": 125
@@ -11808,38 +11928,6 @@
           "minutes_apart": 59
         }
       ]
-    },
-    {
-      "id": "tps_5c943d3f0c0d",
-      "source": "police",
-      "lat": 43.696294708834934,
-      "lng": -79.3101680481995,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D55",
-      "location": "EVERETT PARK TRL - HAMSTEAD AVE",
-      "ts": "2026-08-15T10:37:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3a03501ef618",
-      "source": "police",
-      "lat": 43.66854170792509,
-      "lng": -79.3870670479449,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D52",
-      "location": " - ",
-      "ts": "2026-08-15T10:33:13+00:00",
-      "related": [
-        {
-          "id": "tfs_F26126795",
-          "distance_m": 469,
-          "minutes_apart": 11
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11849,43 +11937,27 @@
       "current_count": 4,
       "baseline_avg": 1.0,
       "ratio": 4.0,
-      "sample_days": 4,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_7fb09670d4cc",
         "tps_123822eb0b0c",
         "tps_0af17213742a",
-        "tps_01ef39f5aea8",
-        "tps_ef41974bbc14"
+        "tps_01ef39f5aea8"
       ]
     },
     {
       "source": "police",
       "division": "D42",
-      "current_count": 4,
+      "current_count": 3,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
+      "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_5e4248bb12b2",
         "tps_485cfdc23b8a",
-        "tps_2748236e1844",
-        "tps_399ddd7a4ea5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b63f39e1bed6",
-        "tps_d7197a2440cc",
-        "tps_7ae824581bb4",
-        "tps_dce53e0c0a46"
+        "tps_2748236e1844"
       ]
     },
     {
@@ -11901,6 +11973,20 @@
         "tps_513276bfb4dc",
         "tps_89a1930af62a",
         "tps_e119a123ac62"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b63f39e1bed6",
+        "tps_d7197a2440cc",
+        "tps_7ae824581bb4"
       ]
     }
   ]
