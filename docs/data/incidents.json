@@ -1,11 +1,95 @@
 {
-  "generated": "2026-08-16T12:58:29.173349+00:00",
+  "generated": "2026-08-16T13:26:31.604823+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_c6edb90c4a7b",
+      "source": "police",
+      "lat": 43.64210538429025,
+      "lng": -79.34124407101056,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D51",
+      "location": "MARTIN GOODMAN TRL - ",
+      "ts": "2026-08-16T13:03:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_74ebbd3dbec8",
+      "source": "police",
+      "lat": 43.66873451071916,
+      "lng": -79.4003094411357,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D53",
+      "location": "BLOOR ST W - PRINCE ARTHUR AVE",
+      "ts": "2026-08-16T13:00:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3ab6efe6ca7d",
+      "source": "police",
+      "lat": 43.66763520695567,
+      "lng": -79.37219495639862,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D51",
+      "location": "WELLESLEY ST E - ONTARIO ST",
+      "ts": "2026-08-16T12:52:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_472b72200b8f",
+      "source": "police",
+      "lat": 43.755455974900755,
+      "lng": -79.43845112728326,
+      "type": "DEMO",
+      "type_plain": "DEMO",
+      "severity": "low",
+      "division": "D32",
+      "location": "BATHURST ST - SHEPPARD AVE W",
+      "ts": "2026-08-16T12:52:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_acdf93532971",
+      "source": "police",
+      "lat": 43.66970770955897,
+      "lng": -79.3894835474489,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "CHARLES ST W - BLOOR ST W",
+      "ts": "2026-08-16T12:50:10+00:00",
+      "related": [
+        {
+          "id": "tps_47bfd9d4dd59",
+          "distance_m": 473,
+          "minutes_apart": 8
+        }
+      ]
+    },
+    {
+      "id": "tps_80adae2a2c30",
+      "source": "police",
+      "lat": 43.665398052025864,
+      "lng": -79.46327772520391,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D11",
+      "location": "INDIAN GRV - HEINTZMAN ST",
+      "ts": "2026-08-16T12:48:06+00:00",
+      "related": []
+    },
     {
       "id": "tps_47bfd9d4dd59",
       "source": "police",
@@ -17,7 +101,13 @@
       "division": "D52",
       "location": "BAY ST - ST JOSEPH ST",
       "ts": "2026-08-16T12:42:14+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_acdf93532971",
+          "distance_m": 473,
+          "minutes_apart": 8
+        }
+      ]
     },
     {
       "id": "tps_d8e86c572b07",
@@ -643,7 +733,7 @@
       "division": "314",
       "location": "Toronto - YONGE ST & ELM ST",
       "approximate": false,
-      "units": "A135, A322, BOX12, C30, C31, C32, C33, C34, C8, CMD30, CMD30C, FI32, HR332, HZ323, L312, L325, LA325, LA421, P116, P311, P312, P313, P314, P315, P331, P332, P344, P345, R227, R325, R341, REHAB01, S313, T1, T333",
+      "units": "A135, A322, BOX12, C30, C31, C32, C33, C34, C8, CMD30, CMD30C, FI31, FI32, HR332, HZ323, L312, L325, LA325, LA421, P116, P311, P312, P313, P314, P315, P331, P332, P344, P345, R227, R325, R341, REHAB01, S313, T1, T333",
       "ts": "2026-08-16T10:02:24+00:00",
       "related": [
         {
@@ -11457,13 +11547,7 @@
       "division": "HP",
       "location": "MARTIN GROVE RD - BELFIELD RD",
       "ts": "2026-08-15T13:30:57+00:00",
-      "related": [
-        {
-          "id": "tps_ccafcfdebbe4",
-          "distance_m": 0,
-          "minutes_apart": 13
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_90a88214aa6d",
@@ -11496,171 +11580,36 @@
           "minutes_apart": 20
         }
       ]
-    },
-    {
-      "id": "tps_0667b0a03d54",
-      "source": "police",
-      "lat": 43.7736533589394,
-      "lng": -79.26113632345574,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D43",
-      "location": "TOWN CENTRE CRT - ",
-      "ts": "2026-08-15T13:23:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_55d588a9129d",
-      "source": "police",
-      "lat": 43.74317708571763,
-      "lng": -79.2189016837165,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "EGLINTON AVE E - MARKHAM RD",
-      "ts": "2026-08-15T13:22:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b31b3edbb5b2",
-      "source": "police",
-      "lat": 43.75250408148412,
-      "lng": -79.5164797123403,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D31",
-      "location": "CANE GRASSWAY - YEWTREE BLVD",
-      "ts": "2026-08-15T13:21:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ccafcfdebbe4",
-      "source": "police",
-      "lat": 43.701943870033936,
-      "lng": -79.57562278360264,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D23",
-      "location": "MARTIN GROVE RD - BELFIELD RD",
-      "ts": "2026-08-15T13:18:06+00:00",
-      "related": [
-        {
-          "id": "tps_ce9aad0e4185",
-          "distance_m": 0,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tps_e1aef17a4a08",
-      "source": "police",
-      "lat": 43.75144498737536,
-      "lng": -79.55293379405703,
-      "type": "DAMAU",
-      "type_plain": "DAMAU",
-      "severity": "low",
-      "division": "D31",
-      "location": "PENN DR - PENN DR",
-      "ts": "2026-08-15T13:14:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8f536a7243a9",
-      "source": "police",
-      "lat": 43.77256391249197,
-      "lng": -79.35132865158954,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D33",
-      "location": "SHAUGHNESSY BLVD - RINGWOOD CRES",
-      "ts": "2026-08-15T13:11:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5629ba1fc75a",
-      "source": "police",
-      "lat": 43.75553415340944,
-      "lng": -79.27846402168994,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "EXFORD DR - FORBES RD",
-      "ts": "2026-08-15T13:05:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dd49607955c2",
-      "source": "police",
-      "lat": 43.77874339614056,
-      "lng": -79.41529315076288,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D32",
-      "location": "TOLMAN ST - FINCH AVE W",
-      "ts": "2026-08-15T13:02:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9c56e4a1ebef",
-      "source": "police",
-      "lat": 43.69122472524528,
-      "lng": -79.28834606133788,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D41",
-      "location": "VICTORIA PARK AVE - THORA AVE",
-      "ts": "2026-08-15T13:00:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_30018513e251",
-      "source": "police",
-      "lat": 43.70841831692344,
-      "lng": -79.39016125898006,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D53",
-      "location": "EGLINTON AVE E - MOUNT PLEASANT RD",
-      "ts": "2026-08-15T12:59:26+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e6b5206c7289",
+        "tps_69980daa93b8",
+        "tps_441fe990b0aa",
+        "tps_00dd537a18b1"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D43",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_48b78f62c779",
         "tps_379424e10489",
         "tps_6a41c6c42d62"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c8deda7e9d5e",
-        "tps_9b7e871e9cc9",
-        "tps_1ffb285a94ad"
       ]
     }
   ]
