@@ -1,11 +1,116 @@
 {
-  "generated": "2026-08-16T17:12:31.674539+00:00",
+  "generated": "2026-08-16T17:32:34.521426+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_2ada087c89ed",
+      "source": "police",
+      "lat": 43.68060391274556,
+      "lng": -79.48208659891681,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D12",
+      "location": "AVON AVE - ALLIANCE AVE",
+      "ts": "2026-08-16T17:24:31+00:00",
+      "related": [
+        {
+          "id": "tps_8ffd15dcc96d",
+          "distance_m": 533,
+          "minutes_apart": 121
+        },
+        {
+          "id": "tps_bc7d699557d6",
+          "distance_m": 533,
+          "minutes_apart": 131
+        },
+        {
+          "id": "tfs_F26127460",
+          "distance_m": 546,
+          "minutes_apart": 139
+        }
+      ]
+    },
+    {
+      "id": "tps_d17d5b644c07",
+      "source": "police",
+      "lat": 43.6890547238489,
+      "lng": -79.29789525430746,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "BARRINGTON AVE - GUEST AVE",
+      "ts": "2026-08-16T17:23:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26127523",
+      "source": "fire",
+      "lat": 43.6525616,
+      "lng": -79.3686984,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "333",
+      "location": "Toronto - ADELAIDE ST & SHERBOURNE ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-16T17:22:16+00:00",
+      "related": [
+        {
+          "id": "tps_88f1e5c70a48",
+          "distance_m": 226,
+          "minutes_apart": 167
+        },
+        {
+          "id": "tps_f94a665b2a83",
+          "distance_m": 416,
+          "minutes_apart": 18
+        }
+      ]
+    },
+    {
+      "id": "tps_5daaff2a427e",
+      "source": "police",
+      "lat": 43.696966565059675,
+      "lng": -79.44437008701637,
+      "type": "LOSEL",
+      "type_plain": "Lost/Found Property or Person",
+      "severity": "low",
+      "division": "D13",
+      "location": "TIMES RD - EGLINTON AVE W",
+      "ts": "2026-08-16T17:12:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f94a665b2a83",
+      "source": "police",
+      "lat": 43.65616289526663,
+      "lng": -79.37009915354126,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D51",
+      "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
+      "ts": "2026-08-16T17:04:39+00:00",
+      "related": [
+        {
+          "id": "tps_88f1e5c70a48",
+          "distance_m": 190,
+          "minutes_apart": 150
+        },
+        {
+          "id": "tfs_F26127523",
+          "distance_m": 416,
+          "minutes_apart": 18
+        }
+      ]
+    },
     {
       "id": "tps_5854c49ae0d0",
       "source": "police",
@@ -697,6 +802,11 @@
           "id": "tfs_F26127460",
           "distance_m": 13,
           "minutes_apart": 18
+        },
+        {
+          "id": "tps_2ada087c89ed",
+          "distance_m": 533,
+          "minutes_apart": 121
         }
       ]
     },
@@ -801,6 +911,11 @@
           "id": "tfs_F26127460",
           "distance_m": 13,
           "minutes_apart": 9
+        },
+        {
+          "id": "tps_2ada087c89ed",
+          "distance_m": 533,
+          "minutes_apart": 131
         }
       ]
     },
@@ -827,6 +942,11 @@
           "id": "tps_8ffd15dcc96d",
           "distance_m": 13,
           "minutes_apart": 18
+        },
+        {
+          "id": "tps_2ada087c89ed",
+          "distance_m": 546,
+          "minutes_apart": 139
         }
       ]
     },
@@ -997,7 +1117,18 @@
       "division": "D51",
       "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
       "ts": "2026-08-16T14:34:58+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_f94a665b2a83",
+          "distance_m": 190,
+          "minutes_apart": 150
+        },
+        {
+          "id": "tfs_F26127523",
+          "distance_m": 226,
+          "minutes_apart": 167
+        }
+      ]
     },
     {
       "id": "tps_61bc0c711245",
@@ -10056,11 +10187,6 @@
           "minutes_apart": 22
         },
         {
-          "id": "tps_4c3c3583197f",
-          "distance_m": 273,
-          "minutes_apart": 100
-        },
-        {
           "id": "tps_c18afcd11cc8",
           "distance_m": 367,
           "minutes_apart": 72
@@ -10083,13 +10209,7 @@
       "division": "D11",
       "location": "RUNNYMEDE RD - CASTLETON AVE",
       "ts": "2026-08-15T19:06:24+00:00",
-      "related": [
-        {
-          "id": "tps_508000773c5b",
-          "distance_m": 202,
-          "minutes_apart": 102
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_58b1f55dc461",
@@ -10184,23 +10304,7 @@
       "division": "D42",
       "location": "MARILYN AVE - KENNEDY RD",
       "ts": "2026-08-15T18:49:38+00:00",
-      "related": [
-        {
-          "id": "tps_92fbbf145c1d",
-          "distance_m": 548,
-          "minutes_apart": 79
-        },
-        {
-          "id": "tps_bc35f7659b84",
-          "distance_m": 548,
-          "minutes_apart": 85
-        },
-        {
-          "id": "tfs_F26126944",
-          "distance_m": 586,
-          "minutes_apart": 94
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_5acaf289be98",
@@ -10231,11 +10335,6 @@
           "id": "tps_fb5e0fb7a5b4",
           "distance_m": 102,
           "minutes_apart": 22
-        },
-        {
-          "id": "tps_4c3c3583197f",
-          "distance_m": 218,
-          "minutes_apart": 78
         },
         {
           "id": "tps_c18afcd11cc8",
@@ -10634,224 +10733,9 @@
           "minutes_apart": 155
         }
       ]
-    },
-    {
-      "id": "tps_92fbbf145c1d",
-      "source": "police",
-      "lat": 43.783289338571876,
-      "lng": -79.28826359326524,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "SHEPPARD AVE E - KENNEDY RD",
-      "ts": "2026-08-15T17:30:53+00:00",
-      "related": [
-        {
-          "id": "tps_bc35f7659b84",
-          "distance_m": 0,
-          "minutes_apart": 6
-        },
-        {
-          "id": "tfs_F26126944",
-          "distance_m": 46,
-          "minutes_apart": 15
-        },
-        {
-          "id": "tps_8170e1344f4a",
-          "distance_m": 548,
-          "minutes_apart": 79
-        }
-      ]
-    },
-    {
-      "id": "tps_4c3c3583197f",
-      "source": "police",
-      "lat": 43.65262479172844,
-      "lng": -79.3664499547947,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D51",
-      "location": "ADELAIDE ST E - ONTARIO ST",
-      "ts": "2026-08-15T17:27:03+00:00",
-      "related": [
-        {
-          "id": "tps_98194b1ac40d",
-          "distance_m": 218,
-          "minutes_apart": 78
-        },
-        {
-          "id": "tps_fb5e0fb7a5b4",
-          "distance_m": 273,
-          "minutes_apart": 100
-        }
-      ]
-    },
-    {
-      "id": "tps_0d88f7517c2e",
-      "source": "police",
-      "lat": 43.68157492093088,
-      "lng": -79.41810073539936,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D13",
-      "location": "BATHURST ST - BATHURST S VAUGHAN N RAMP",
-      "ts": "2026-08-15T17:26:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a71f86148aa2",
-      "source": "police",
-      "lat": 43.760647136347366,
-      "lng": -79.45096734635497,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D32",
-      "location": "GODDARD ST - ELDER ST",
-      "ts": "2026-08-15T17:25:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bc35f7659b84",
-      "source": "police",
-      "lat": 43.783289338571876,
-      "lng": -79.28826359326524,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D42",
-      "location": "SHEPPARD AVE E - KENNEDY RD",
-      "ts": "2026-08-15T17:24:47+00:00",
-      "related": [
-        {
-          "id": "tps_92fbbf145c1d",
-          "distance_m": 0,
-          "minutes_apart": 6
-        },
-        {
-          "id": "tfs_F26126944",
-          "distance_m": 46,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_8170e1344f4a",
-          "distance_m": 548,
-          "minutes_apart": 85
-        }
-      ]
-    },
-    {
-      "id": "tps_508000773c5b",
-      "source": "police",
-      "lat": 43.670657040876165,
-      "lng": -79.48455751053203,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D12",
-      "location": "HENRIETTA ST - GAFFNEY PARK TRL",
-      "ts": "2026-08-15T17:24:04+00:00",
-      "related": [
-        {
-          "id": "tps_538e9532ffd6",
-          "distance_m": 202,
-          "minutes_apart": 102
-        }
-      ]
-    },
-    {
-      "id": "tps_db98554b8685",
-      "source": "police",
-      "lat": 43.62385045433349,
-      "lng": -79.51373292174718,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "D22",
-      "location": "THE QUEENSWAY - ROTHSAY AVE",
-      "ts": "2026-08-15T17:23:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26126948",
-      "source": "fire",
-      "lat": 43.7474368,
-      "lng": -79.4366437,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "143",
-      "location": "North York - YORK DOWNS DR & BATHURST ST",
-      "approximate": false,
-      "units": "P132, P145",
-      "ts": "2026-08-15T17:20:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ff2f36fc45cc",
-      "source": "police",
-      "lat": 43.59890447100113,
-      "lng": -79.49956715558474,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D22",
-      "location": " - PRINCE OF WALES PARK TRL",
-      "ts": "2026-08-15T17:19:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26126944",
-      "source": "fire",
-      "lat": 43.783021,
-      "lng": -79.2887,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "244",
-      "location": "KENNEDY RD & SHEPPARD AVE E",
-      "approximate": false,
-      "units": "P244",
-      "ts": "2026-08-15T17:15:46+00:00",
-      "related": [
-        {
-          "id": "tps_bc35f7659b84",
-          "distance_m": 46,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_92fbbf145c1d",
-          "distance_m": 46,
-          "minutes_apart": 15
-        },
-        {
-          "id": "tps_8170e1344f4a",
-          "distance_m": 586,
-          "minutes_apart": 94
-        }
-      ]
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6f160ff5c852",
-        "tps_42d7baaba5e1",
-        "tps_ab1fe0969474",
-        "tps_fbce3eac0a50",
-        "tps_25788090dbce"
-      ]
-    },
     {
       "source": "police",
       "division": "D53",
@@ -10870,18 +10754,17 @@
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.9,
-      "sample_days": 4,
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_597ec2fd0b54",
-        "tps_88bb3c2ca8c4",
-        "tps_d2ee2e621d97",
-        "tps_27e64cbc6979",
-        "tps_51d5dbbe6864"
+        "tps_6f160ff5c852",
+        "tps_42d7baaba5e1",
+        "tps_ab1fe0969474",
+        "tps_fbce3eac0a50"
       ]
     },
     {
@@ -10902,47 +10785,61 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 6,
-      "baseline_avg": 2.5,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "division": "D13",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.6,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_08294d91c3fa",
-        "tps_2bcf27cdd8a1",
-        "tps_e2f90a2f46e2",
-        "tps_5fd42e210058",
-        "tps_8ffd15dcc96d"
+        "tps_5daaff2a427e",
+        "tps_858b33c74ad7",
+        "tps_400aaf21cf8e"
       ]
     },
     {
       "source": "police",
       "division": "D55",
       "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_d17d5b644c07",
         "tps_3288029f5e65",
-        "tps_e7283cf02581",
-        "tps_61bc0c711245"
+        "tps_e7283cf02581"
       ]
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "D22",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 3,
+      "baseline_avg": 1.8,
+      "ratio": 2.3,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_c08b1dc79d38",
-        "tps_33741b6f31d0",
-        "tps_327ecb0b7b14",
-        "tps_9154586693b9"
+        "tps_597ec2fd0b54",
+        "tps_88bb3c2ca8c4",
+        "tps_d2ee2e621d97",
+        "tps_27e64cbc6979"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 6,
+      "baseline_avg": 3.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f94a665b2a83",
+        "tps_f4c067958b5b",
+        "tps_b132712748a1",
+        "tps_6b773ec413bc",
+        "tps_1c4853a38282"
       ]
     },
     {
@@ -10957,6 +10854,22 @@
         "tps_584d19ebf4d6",
         "tps_779d4e89ddaf",
         "tps_6a110f2fbfda"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 2.5,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_08294d91c3fa",
+        "tps_2bcf27cdd8a1",
+        "tps_e2f90a2f46e2",
+        "tps_5fd42e210058",
+        "tps_8ffd15dcc96d"
       ]
     }
   ]
