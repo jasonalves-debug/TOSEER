@@ -1,11 +1,48 @@
 {
-  "generated": "2026-08-16T13:50:01.557175+00:00",
+  "generated": "2026-08-16T14:09:50.343551+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_b7ea459f6cb6",
+      "source": "police",
+      "lat": 43.72503165591391,
+      "lng": -79.2998193678649,
+      "type": "ANICO",
+      "type_plain": "Animal Complaint",
+      "severity": "low",
+      "division": "4GRP",
+      "location": "EGLINTON SQ - EGLINTON SQ",
+      "ts": "2026-08-16T13:40:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b6154a8bee7b",
+      "source": "police",
+      "lat": 43.670278910712895,
+      "lng": -79.3703929599192,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "LN N WELLESLEY W PARLIAMENT - ST JAMES AVE",
+      "ts": "2026-08-16T13:38:53+00:00",
+      "related": [
+        {
+          "id": "tps_3ab6efe6ca7d",
+          "distance_m": 328,
+          "minutes_apart": 46
+        },
+        {
+          "id": "tfs_F26127428",
+          "distance_m": 502,
+          "minutes_apart": 1
+        }
+      ]
+    },
     {
       "id": "tfs_F26127428",
       "source": "fire",
@@ -17,15 +54,33 @@
       "division": "313",
       "location": "Toronto - WELLESLEY ST & BLEECKER ST",
       "approximate": false,
-      "units": "",
+      "units": "C32, HR114, L312, L315, P312, P324, P333, S331",
       "ts": "2026-08-16T13:38:14+00:00",
       "related": [
         {
           "id": "tps_3ab6efe6ca7d",
           "distance_m": 175,
           "minutes_apart": 45
+        },
+        {
+          "id": "tps_b6154a8bee7b",
+          "distance_m": 502,
+          "minutes_apart": 1
         }
       ]
+    },
+    {
+      "id": "tps_74091f6a2f61",
+      "source": "police",
+      "lat": 43.76942243842896,
+      "lng": -79.28227009559461,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D41",
+      "location": "PROGRESS AVE - KENNEDY RD",
+      "ts": "2026-08-16T13:37:48+00:00",
+      "related": []
     },
     {
       "id": "tfs_F26127427",
@@ -43,6 +98,45 @@
       "related": []
     },
     {
+      "id": "tps_ac1adb300e90",
+      "source": "police",
+      "lat": 43.68311161113138,
+      "lng": -79.32475493150189,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D55",
+      "location": "ROBERTSON PARKETTE TRL - ROBERTSON PARKETTE TRL",
+      "ts": "2026-08-16T13:30:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_faf71a474116",
+      "source": "police",
+      "lat": 43.69967280087644,
+      "lng": -79.31884204121454,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "WOODBINE AVE - O'CONNOR DR",
+      "ts": "2026-08-16T13:26:09+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5ab8f94befa3",
+      "source": "police",
+      "lat": 43.727339039883816,
+      "lng": -79.31873614424079,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D33",
+      "location": "ELVASTON DR - SWIFT DR",
+      "ts": "2026-08-16T13:25:51+00:00",
+      "related": []
+    },
+    {
       "id": "tps_0da3a2ba35c1",
       "source": "police",
       "lat": 43.75417052377861,
@@ -53,6 +147,19 @@
       "division": "D23",
       "location": "STEELES AVE W - STEINWAY BLVD",
       "ts": "2026-08-16T13:20:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bcd9bbd9c1a6",
+      "source": "police",
+      "lat": 43.664889940419826,
+      "lng": -79.50147990299354,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "DUNDAS ST W - HUMBER HILL AVE",
+      "ts": "2026-08-16T13:19:14+00:00",
       "related": []
     },
     {
@@ -97,6 +204,11 @@
           "id": "tfs_F26127428",
           "distance_m": 175,
           "minutes_apart": 45
+        },
+        {
+          "id": "tps_b6154a8bee7b",
+          "distance_m": 328,
+          "minutes_apart": 46
         }
       ]
     },
@@ -11281,191 +11393,50 @@
       "location": "SELBY ST - BLOOR ST E",
       "ts": "2026-08-15T14:10:43+00:00",
       "related": []
-    },
-    {
-      "id": "tps_ecbf6293ed5f",
-      "source": "police",
-      "lat": 43.715615457346686,
-      "lng": -79.44650683069729,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D13",
-      "location": "WILLIAM R ALLEN RD S - LAWRENCE AVE W",
-      "ts": "2026-08-15T14:07:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c983e1ea10f3",
-      "source": "police",
-      "lat": 43.75952257978528,
-      "lng": -79.42498646892058,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D32",
-      "location": "ADDINGTON PL - WENTWORTH AVE",
-      "ts": "2026-08-15T14:07:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_570b7a8a4c6f",
-      "source": "police",
-      "lat": 43.668980612452145,
-      "lng": -79.40476973939758,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": "ANNEX LANE - LOWTHER AVE",
-      "ts": "2026-08-15T14:06:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a1255939e3d9",
-      "source": "police",
-      "lat": 43.73996091770656,
-      "lng": -79.32964024221637,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - LAWRENCE AVE E",
-      "ts": "2026-08-15T14:05:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b470ded4966a",
-      "source": "police",
-      "lat": 43.69787231717832,
-      "lng": -79.40323354468558,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "CHAPLIN CRES - ORIOLE PKWY",
-      "ts": "2026-08-15T14:04:23+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_82d4736a9bcc",
-      "source": "police",
-      "lat": 43.7747492922612,
-      "lng": -79.17935471326595,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D43",
-      "location": " - ",
-      "ts": "2026-08-15T14:03:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5ebe5bf97b57",
-      "source": "police",
-      "lat": 43.67827792561848,
-      "lng": -79.39448575164843,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D53",
-      "location": "MOLSON ST - LN E MARLBOROUGH PL N MACPHERS",
-      "ts": "2026-08-15T13:59:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bd60fb31e97e",
-      "source": "police",
-      "lat": 43.71093479445666,
-      "lng": -79.39924684037025,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "YONGE ST - REDPATH AVE",
-      "ts": "2026-08-15T13:59:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ed7f09383f82",
-      "source": "police",
-      "lat": 43.7344170846084,
-      "lng": -79.23632915245214,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D43",
-      "location": "BRIDLEGROVE DR - METROLINX",
-      "ts": "2026-08-15T13:56:58+00:00",
-      "related": [
-        {
-          "id": "tps_b3728b4af9ff",
-          "distance_m": 433,
-          "minutes_apart": 0
-        }
-      ]
-    },
-    {
-      "id": "tps_b3728b4af9ff",
-      "source": "police",
-      "lat": 43.73812618158424,
-      "lng": -79.23798345621825,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D43",
-      "location": "LANDMARK BLVD - EGLINTON AVE E",
-      "ts": "2026-08-15T13:56:48+00:00",
-      "related": [
-        {
-          "id": "tps_ed7f09383f82",
-          "distance_m": 433,
-          "minutes_apart": 0
-        }
-      ]
-    },
-    {
-      "id": "tps_9e2a773f4571",
-      "source": "police",
-      "lat": 43.68083920367976,
-      "lng": -79.45160700917958,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D13",
-      "location": "AVELLINO LANE - HOPE ST",
-      "ts": "2026-08-15T13:53:20+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 6,
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_0da3a2ba35c1",
-        "tps_578d4e339a6b",
-        "tps_0b7c48b26846",
-        "tps_4e88c86d2f9b"
+        "tps_bcd9bbd9c1a6",
+        "tps_80adae2a2c30",
+        "tps_691428b87aad"
       ]
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "HP",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_48b78f62c779",
-        "tps_379424e10489",
-        "tps_6a41c6c42d62"
+        "tps_faf71a474116",
+        "tps_c8deda7e9d5e",
+        "tps_9b7e871e9cc9"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b6154a8bee7b",
+        "tps_c6edb90c4a7b",
+        "tps_3ab6efe6ca7d",
+        "tps_be0ce75e8e4c"
       ]
     }
   ]
