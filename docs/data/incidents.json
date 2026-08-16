@@ -1,11 +1,56 @@
 {
-  "generated": "2026-08-16T09:40:17.764682+00:00",
+  "generated": "2026-08-16T09:56:13.147612+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_0af17213742a",
+      "source": "police",
+      "lat": 43.65809089719463,
+      "lng": -79.35332956703142,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D51",
+      "location": "DON VALLEY PARKWAY S - QUEEN ST E",
+      "ts": "2026-08-16T09:35:29+00:00",
+      "related": [
+        {
+          "id": "tps_bc11f8ff87a7",
+          "distance_m": 348,
+          "minutes_apart": 156
+        }
+      ]
+    },
+    {
+      "id": "tps_b63f39e1bed6",
+      "source": "police",
+      "lat": 43.721735013315154,
+      "lng": -79.37792337253975,
+      "type": "SHO",
+      "type_plain": "SHO",
+      "severity": "low",
+      "division": "D53",
+      "location": "STRATFORD PARK TRL - STRATFORD PARK TRL",
+      "ts": "2026-08-16T09:29:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_79c12095392f",
+      "source": "police",
+      "lat": 43.63029841002115,
+      "lng": -79.47693891425389,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D22",
+      "location": "HEPC - HIGH ST",
+      "ts": "2026-08-16T09:29:03+00:00",
+      "related": []
+    },
     {
       "id": "tps_f9cdb7f700a9",
       "source": "police",
@@ -816,7 +861,13 @@
       "division": "D55",
       "location": "BROADVIEW AVE - KINTYRE AVE",
       "ts": "2026-08-16T06:59:51+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_0af17213742a",
+          "distance_m": 348,
+          "minutes_apart": 156
+        }
+      ]
     },
     {
       "id": "tps_8508299bcb79",
@@ -11728,9 +11779,9 @@
     {
       "source": "police",
       "division": "D32",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.3,
-      "ratio": 4.5,
+      "ratio": 3.8,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
@@ -11743,28 +11794,14 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_73ebffc69f31",
-        "tps_fb534f6dfb87",
-        "tps_c3c5257e1f80",
-        "tps_91eb9e21553b"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_79c12095392f",
         "tps_6293c161c68f",
         "tps_22af20a45b04",
         "tps_eadb4f281cbc"
@@ -11772,17 +11809,44 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 1.3,
+      "division": "D14",
+      "current_count": 3,
+      "baseline_avg": 1.0,
       "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_73ebffc69f31",
+        "tps_fb534f6dfb87",
+        "tps_c3c5257e1f80"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0af17213742a",
+        "tps_01ef39f5aea8",
+        "tps_ef41974bbc14"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_cf613262248f",
         "tps_569ec17b00bf",
-        "tps_bc11f8ff87a7",
-        "tps_496b82d6b2d2"
+        "tps_bc11f8ff87a7"
       ]
     }
   ]
