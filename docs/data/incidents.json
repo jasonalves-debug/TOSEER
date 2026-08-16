@@ -1,11 +1,106 @@
 {
-  "generated": "2026-08-16T23:31:12.943735+00:00",
+  "generated": "2026-08-16T23:52:59.700588+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_4d569a059ba7",
+      "source": "police",
+      "lat": 43.770370564629,
+      "lng": -79.44212838513829,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D32",
+      "location": "BATHURST ST - ",
+      "ts": "2026-08-16T23:40:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_628fbc48b56c",
+      "source": "police",
+      "lat": 43.76584818645335,
+      "lng": -79.2445455100185,
+      "type": "ASSPR",
+      "type_plain": "Assault (Priority / In Progress)",
+      "severity": "high",
+      "division": "D43",
+      "location": "BRIMORTON DR - FARADAY DR",
+      "ts": "2026-08-16T23:37:21+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c423c13c8dac",
+      "source": "police",
+      "lat": 43.72097784643953,
+      "lng": -79.50863794404951,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D31",
+      "location": "JANE ST - WILSON AVE",
+      "ts": "2026-08-16T23:35:37+00:00",
+      "related": [
+        {
+          "id": "tps_fc296b88c0db",
+          "distance_m": 421,
+          "minutes_apart": 128
+        }
+      ]
+    },
+    {
+      "id": "tps_6b4cdf3d202c",
+      "source": "police",
+      "lat": 43.64894520195857,
+      "lng": -79.45006191664478,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D11",
+      "location": "RONCESVALLES AVE - LN W RONCESVALLES N GRENADIER",
+      "ts": "2026-08-16T23:34:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9c57f71d3be2",
+      "source": "police",
+      "lat": 43.777124113793384,
+      "lng": -79.34788525064288,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D33",
+      "location": "SHEPPARD AVE E - LEITH HILL RD",
+      "ts": "2026-08-16T23:31:41+00:00",
+      "related": [
+        {
+          "id": "tps_06abf1e65a51",
+          "distance_m": 407,
+          "minutes_apart": 31
+        },
+        {
+          "id": "tps_9b0695fb0183",
+          "distance_m": 419,
+          "minutes_apart": 173
+        }
+      ]
+    },
+    {
+      "id": "tps_e8df6b5ecb22",
+      "source": "police",
+      "lat": 43.80244578814166,
+      "lng": -79.17237379659909,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D41",
+      "location": "RED RIVER CRES - RED RIVER CRES",
+      "ts": "2026-08-16T23:30:59+00:00",
+      "related": []
+    },
     {
       "id": "tps_78e2fb287e50",
       "source": "police",
@@ -179,7 +274,13 @@
       "division": "D33",
       "location": " - ",
       "ts": "2026-08-16T23:01:07+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_9c57f71d3be2",
+          "distance_m": 407,
+          "minutes_apart": 31
+        }
+      ]
     },
     {
       "id": "tps_b04d934266d4",
@@ -982,7 +1083,13 @@
       "division": "D31",
       "location": "JANE ST - DALLNER RD",
       "ts": "2026-08-16T21:27:48+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_c423c13c8dac",
+          "distance_m": 421,
+          "minutes_apart": 128
+        }
+      ]
     },
     {
       "id": "tps_e642356cd1f8",
@@ -1675,7 +1782,13 @@
       "division": "D33",
       "location": "GEORGE HENRY BLVD - PARKWAY FOREST DR",
       "ts": "2026-08-16T20:38:19+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_9c57f71d3be2",
+          "distance_m": 419,
+          "minutes_apart": 173
+        }
+      ]
     },
     {
       "id": "tps_8acbfb6f45db",
@@ -9571,13 +9684,7 @@
       "division": "D33",
       "location": "FENSIDE DR - BROOKBANKS PARK TRL",
       "ts": "2026-08-16T02:18:47+00:00",
-      "related": [
-        {
-          "id": "tps_cee887f9a54d",
-          "distance_m": 253,
-          "minutes_apart": 149
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_78529ff14b16",
@@ -9999,11 +10106,6 @@
           "id": "tps_b354c59e1813",
           "distance_m": 77,
           "minutes_apart": 83
-        },
-        {
-          "id": "tps_f2b01fc80bea",
-          "distance_m": 380,
-          "minutes_apart": 120
         }
       ]
     },
@@ -10178,13 +10280,7 @@
       "division": "D41",
       "location": "TORONTO SHORELINE - BELLAMY RAVINE CREEK",
       "ts": "2026-08-16T01:25:39+00:00",
-      "related": [
-        {
-          "id": "tps_3f7aec91bbb9",
-          "distance_m": 0,
-          "minutes_apart": 114
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26127185",
@@ -10613,11 +10709,6 @@
       "location": "JARVIS ST - QUEEN ST E",
       "ts": "2026-08-16T00:42:14+00:00",
       "related": [
-        {
-          "id": "tfs_F26127128",
-          "distance_m": 498,
-          "minutes_apart": 67
-        },
         {
           "id": "tps_3aa554fd969e",
           "distance_m": 539,
@@ -11145,174 +11236,6 @@
       "location": " - ",
       "ts": "2026-08-15T23:53:27+00:00",
       "related": []
-    },
-    {
-      "id": "tps_cee887f9a54d",
-      "source": "police",
-      "lat": 43.76133302065415,
-      "lng": -79.32501386687734,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D33",
-      "location": "FENSIDE DR - PARKWOODS VILLAGE DR",
-      "ts": "2026-08-15T23:50:09+00:00",
-      "related": [
-        {
-          "id": "tps_1610a25bfe44",
-          "distance_m": 253,
-          "minutes_apart": 149
-        }
-      ]
-    },
-    {
-      "id": "tps_039518afa178",
-      "source": "police",
-      "lat": 43.66018581056417,
-      "lng": -79.43382362267417,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D14",
-      "location": "BLOOR ST W - GLADSTONE AVE",
-      "ts": "2026-08-15T23:49:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3ae573236672",
-      "source": "police",
-      "lat": 43.7684035984007,
-      "lng": -79.18621380674915,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D43",
-      "location": "LAWRENCE AVE E - KINGSTON RD",
-      "ts": "2026-08-15T23:46:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ee8cdbd0d3b4",
-      "source": "police",
-      "lat": 43.71224185344599,
-      "lng": -79.4667404458886,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D32",
-      "location": "LAWRENCE SERVICE RD N - LESWYN RD",
-      "ts": "2026-08-15T23:41:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f2b01fc80bea",
-      "source": "police",
-      "lat": 43.646839593287055,
-      "lng": -79.43036392321069,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "HP",
-      "location": "DUFFERIN ST - GORDON ST",
-      "ts": "2026-08-15T23:35:44+00:00",
-      "related": [
-        {
-          "id": "tps_04d170cb15fb",
-          "distance_m": 380,
-          "minutes_apart": 120
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26127128",
-      "source": "fire",
-      "lat": 43.6492898,
-      "lng": -79.3723505,
-      "type": "Fire Alarm - Check Call",
-      "type_plain": "Fire Alarm - Check Call",
-      "severity": "medium",
-      "division": "333",
-      "location": "Toronto - YONGE ST & FRONT ST E",
-      "approximate": false,
-      "units": "P332",
-      "ts": "2026-08-15T23:35:24+00:00",
-      "related": [
-        {
-          "id": "tps_a4bceef7025c",
-          "distance_m": 498,
-          "minutes_apart": 67
-        }
-      ]
-    },
-    {
-      "id": "tps_9975f96c24ee",
-      "source": "police",
-      "lat": 43.69758756315365,
-      "lng": -79.50231965666266,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "JANE ST - TRETHEWEY DR",
-      "ts": "2026-08-15T23:34:19+00:00",
-      "related": [
-        {
-          "id": "tps_fdbad750a1bc",
-          "distance_m": 0,
-          "minutes_apart": 3
-        }
-      ]
-    },
-    {
-      "id": "tps_75b813c35509",
-      "source": "police",
-      "lat": 43.65202349236999,
-      "lng": -79.40225363325442,
-      "type": "ROB",
-      "type_plain": "ROB",
-      "severity": "low",
-      "division": "D14",
-      "location": "DUNDAS ST W - DENISON AVE",
-      "ts": "2026-08-15T23:33:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3f7aec91bbb9",
-      "source": "police",
-      "lat": 43.70728991792506,
-      "lng": -79.23543831945972,
-      "type": "FOUCH",
-      "type_plain": "FOUCH",
-      "severity": "low",
-      "division": "D41",
-      "location": "BLUFFER'S PARK TRL - BLUFFERS PARK RD",
-      "ts": "2026-08-15T23:31:48+00:00",
-      "related": [
-        {
-          "id": "tps_005e64fb4b81",
-          "distance_m": 0,
-          "minutes_apart": 114
-        }
-      ]
-    },
-    {
-      "id": "tps_fdbad750a1bc",
-      "source": "police",
-      "lat": 43.69758756315365,
-      "lng": -79.50231965666266,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "D12",
-      "location": "JANE ST - TRETHEWEY DR",
-      "ts": "2026-08-15T23:31:24+00:00",
-      "related": [
-        {
-          "id": "tps_9975f96c24ee",
-          "distance_m": 0,
-          "minutes_apart": 3
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11335,9 +11258,9 @@
     {
       "source": "police",
       "division": "D42",
-      "current_count": 7,
+      "current_count": 6,
       "baseline_avg": 1.6,
-      "ratio": 4.4,
+      "ratio": 3.8,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -11351,9 +11274,9 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 2.0,
-      "ratio": 4.0,
+      "ratio": 3.5,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -11366,59 +11289,46 @@
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e1fedb3ee6b3",
-        "tps_06abf1e65a51",
-        "tps_bc32bda85f16",
-        "tps_30c4812fb687",
-        "tps_9b0695fb0183"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D41",
       "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
-      "sample_days": 4,
+      "baseline_avg": 1.8,
+      "ratio": 3.3,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_e8df6b5ecb22",
         "tps_4bc00312acad",
         "tps_ee408585eb19",
         "tps_440171817b4a",
-        "tps_2fc0babd1705",
-        "tps_51c463c491dd"
+        "tps_2fc0babd1705"
       ]
     },
     {
       "source": "police",
-      "division": "D13",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
+      "division": "D33",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_5b86fd092dab",
-        "tps_7db48c083fe2",
-        "tps_58411ff7907a"
+        "tps_9c57f71d3be2",
+        "tps_e1fedb3ee6b3",
+        "tps_06abf1e65a51",
+        "tps_bc32bda85f16",
+        "tps_30c4812fb687"
       ]
     },
     {
       "source": "police",
       "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_c423c13c8dac",
         "tps_1741b701c214",
         "tps_a90a3e07283d",
         "tps_fc296b88c0db"
@@ -11426,18 +11336,45 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 2.5,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_fdb76f95eccf",
-        "tps_2098b790a144",
-        "tps_45ebe6e22914",
-        "tps_fdfcdd9e7726",
-        "tps_21a0bdc972cd"
+        "tps_6b4cdf3d202c",
+        "tps_44cce16ef3da",
+        "tps_9287fb2cb443"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_4d569a059ba7",
+        "tps_0ed12ad1ee4f",
+        "tps_295887c0cdd8"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_628fbc48b56c",
+        "tps_b7c7af9790f4",
+        "tps_35bff83c5352",
+        "tps_0a1716c953b2"
       ]
     }
   ]
