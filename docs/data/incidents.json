@@ -1,11 +1,86 @@
 {
-  "generated": "2026-08-16T09:56:13.147612+00:00",
+  "generated": "2026-08-16T10:12:32.751831+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26127362",
+      "source": "fire",
+      "lat": 43.6415666,
+      "lng": -79.3754851,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "334",
+      "location": "Toronto - BAY ST & QUEENS QUAY W",
+      "approximate": false,
+      "units": "R346, T333",
+      "ts": "2026-08-16T10:02:35+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26127361",
+      "source": "fire",
+      "lat": 43.6562537,
+      "lng": -79.3881872,
+      "type": "Fire - Commercial/Industrial",
+      "type_plain": "Fire - Commercial/Industrial",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - YONGE ST & ELM ST",
+      "approximate": false,
+      "units": "C31, C33, HR332, L312, L325, LA325, P312, P314, P332, R325, S313",
+      "ts": "2026-08-16T10:02:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c5dd78ab1751",
+      "source": "police",
+      "lat": 43.750643884213034,
+      "lng": -79.54906549257699,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D31",
+      "location": "LINDYLOU PARK TRL - JAYZEL DR",
+      "ts": "2026-08-16T09:56:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_16b8489487fa",
+      "source": "police",
+      "lat": 43.7085872547147,
+      "lng": -79.46410255130654,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D13",
+      "location": "LANSDOWNE AVE - ",
+      "ts": "2026-08-16T09:54:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_123822eb0b0c",
+      "source": "police",
+      "lat": 43.65729849640226,
+      "lng": -79.37344165169152,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "GEORGE ST - PEMBROKE ST",
+      "ts": "2026-08-16T09:51:05+00:00",
+      "related": [
+        {
+          "id": "tps_ef41974bbc14",
+          "distance_m": 520,
+          "minutes_apart": 148
+        }
+      ]
+    },
     {
       "id": "tps_0af17213742a",
       "source": "police",
@@ -753,6 +828,11 @@
       "location": "MC FARRENS LANE - SEATON ST",
       "ts": "2026-08-16T07:22:43+00:00",
       "related": [
+        {
+          "id": "tps_123822eb0b0c",
+          "distance_m": 520,
+          "minutes_apart": 148
+        },
         {
           "id": "tps_1f825aab113d",
           "distance_m": 584,
@@ -11760,76 +11840,19 @@
           "minutes_apart": 11
         }
       ]
-    },
-    {
-      "id": "tps_59e5c80bedd3",
-      "source": "police",
-      "lat": 43.778657634738465,
-      "lng": -79.28987538889452,
-      "type": "THE",
-      "type_plain": "THE",
-      "severity": "low",
-      "division": "D42",
-      "location": "KERWOOD CRES - INGLEWOOD HEIGHTS PARK TRL",
-      "ts": "2026-08-15T10:02:28+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_15cada8c9a1d",
-        "tps_199e8c3e0ff4",
-        "tps_c564868230ed",
-        "tps_42a74595fcf5",
-        "tps_f88d1185ef6b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_79c12095392f",
-        "tps_6293c161c68f",
-        "tps_22af20a45b04",
-        "tps_eadb4f281cbc"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_73ebffc69f31",
-        "tps_fb534f6dfb87",
-        "tps_c3c5257e1f80"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_123822eb0b0c",
         "tps_0af17213742a",
         "tps_01ef39f5aea8",
         "tps_ef41974bbc14"
@@ -11837,16 +11860,47 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_cf613262248f",
-        "tps_569ec17b00bf",
-        "tps_bc11f8ff87a7"
+        "tps_5e4248bb12b2",
+        "tps_485cfdc23b8a",
+        "tps_2748236e1844",
+        "tps_399ddd7a4ea5"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b63f39e1bed6",
+        "tps_d7197a2440cc",
+        "tps_7ae824581bb4",
+        "tps_dce53e0c0a46"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c5dd78ab1751",
+        "tps_513276bfb4dc",
+        "tps_89a1930af62a",
+        "tps_e119a123ac62"
       ]
     }
   ]
