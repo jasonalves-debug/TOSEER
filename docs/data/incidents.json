@@ -1,11 +1,142 @@
 {
-  "generated": "2026-08-17T12:19:37.107384+00:00",
+  "generated": "2026-08-17T13:12:02.578549+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26127939",
+      "source": "fire",
+      "lat": 43.7424139,
+      "lng": -79.3100952,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "233",
+      "location": "LAWRENCE AVE E & VICTORIA PARK AVE",
+      "approximate": false,
+      "units": "P233",
+      "ts": "2026-08-17T12:59:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3ba2b719e681",
+      "source": "police",
+      "lat": 43.74412467495701,
+      "lng": -79.58250687075332,
+      "type": "FOUPR",
+      "type_plain": "Found Property",
+      "severity": "low",
+      "division": "D23",
+      "location": "KIPLING AVE - ALBION RD",
+      "ts": "2026-08-17T12:37:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ce887a958405",
+      "source": "police",
+      "lat": 43.81455052422799,
+      "lng": -79.20251759174508,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D42",
+      "location": "MORNINGVIEW TRL - MORNINGVIEW TRL",
+      "ts": "2026-08-17T12:33:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_06056e48ac5b",
+      "source": "police",
+      "lat": 43.639404139290015,
+      "lng": -79.534455893695,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D22",
+      "location": "C P R - ST ALBANS RD",
+      "ts": "2026-08-17T12:29:31+00:00",
+      "related": [
+        {
+          "id": "tps_b378d3314b35",
+          "distance_m": 292,
+          "minutes_apart": 155
+        }
+      ]
+    },
+    {
+      "id": "tps_b8459673ae48",
+      "source": "police",
+      "lat": 43.66662311127349,
+      "lng": -79.41179143478892,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "LN 2 N BLOOR E BATHURST - LONDON ST",
+      "ts": "2026-08-17T12:23:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_240259919b0d",
+      "source": "police",
+      "lat": 43.6440827860057,
+      "lng": -79.40876273041107,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D14",
+      "location": "LN W TECUMSETH N MITCHELL - NIAGARA ST",
+      "ts": "2026-08-17T12:19:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8a6b5f54b02c",
+      "source": "police",
+      "lat": 43.65448999359373,
+      "lng": -79.39032524083046,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D52",
+      "location": "SIMCOE ST - ST PATRICK ST",
+      "ts": "2026-08-17T12:19:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_57f516f72719",
+      "source": "police",
+      "lat": 43.65431769342137,
+      "lng": -79.37875654715465,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "VICTORIA ST - SHUTER ST",
+      "ts": "2026-08-17T12:13:53+00:00",
+      "related": [
+        {
+          "id": "tps_f9adbc27725b",
+          "distance_m": 569,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_592e2d58d4c4",
+      "source": "police",
+      "lat": 43.674805148866405,
+      "lng": -79.27878265952148,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D41",
+      "location": "BLANTYRE AVE - COURCELETTE RD",
+      "ts": "2026-08-17T12:12:10+00:00",
+      "related": []
+    },
     {
       "id": "tps_3bfae150d09c",
       "source": "police",
@@ -43,7 +174,13 @@
       "division": "D51",
       "location": "YONGE ST - VICTORIA ST",
       "ts": "2026-08-17T11:53:04+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_57f516f72719",
+          "distance_m": 569,
+          "minutes_apart": 21
+        }
+      ]
     },
     {
       "id": "tps_2d2e22a07a33",
@@ -283,6 +420,11 @@
           "id": "tps_960ba515533e",
           "distance_m": 0,
           "minutes_apart": 90
+        },
+        {
+          "id": "tps_06056e48ac5b",
+          "distance_m": 292,
+          "minutes_apart": 155
         }
       ]
     },
@@ -7735,11 +7877,6 @@
       "ts": "2026-08-16T15:47:54+00:00",
       "related": [
         {
-          "id": "tps_acdf93532971",
-          "distance_m": 296,
-          "minutes_apart": 178
-        },
-        {
           "id": "tps_08294d91c3fa",
           "distance_m": 406,
           "minutes_apart": 42
@@ -7859,11 +7996,6 @@
           "id": "tfs_F26127428",
           "distance_m": 109,
           "minutes_apart": 121
-        },
-        {
-          "id": "tps_3ab6efe6ca7d",
-          "distance_m": 132,
-          "minutes_apart": 166
         },
         {
           "id": "tps_b6154a8bee7b",
@@ -8197,11 +8329,6 @@
           "id": "tps_16a6fe591647",
           "distance_m": 528,
           "minutes_apart": 51
-        },
-        {
-          "id": "tps_47bfd9d4dd59",
-          "distance_m": 543,
-          "minutes_apart": 135
         }
       ]
     },
@@ -8476,11 +8603,6 @@
           "minutes_apart": 23
         },
         {
-          "id": "tps_3ab6efe6ca7d",
-          "distance_m": 477,
-          "minutes_apart": 69
-        },
-        {
           "id": "tfs_F26127428",
           "distance_m": 542,
           "minutes_apart": 24
@@ -8517,13 +8639,7 @@
       "division": "HP",
       "location": "TOWNSLEY ST - ED CLARK GDNS",
       "ts": "2026-08-16T13:57:51+00:00",
-      "related": [
-        {
-          "id": "tps_691428b87aad",
-          "distance_m": 450,
-          "minutes_apart": 90
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_3f9ea47c3816",
@@ -8596,11 +8712,6 @@
       "ts": "2026-08-16T13:38:53+00:00",
       "related": [
         {
-          "id": "tps_3ab6efe6ca7d",
-          "distance_m": 328,
-          "minutes_apart": 46
-        },
-        {
           "id": "tps_b132712748a1",
           "distance_m": 429,
           "minutes_apart": 120
@@ -8635,11 +8746,6 @@
           "id": "tps_b132712748a1",
           "distance_m": 109,
           "minutes_apart": 121
-        },
-        {
-          "id": "tps_3ab6efe6ca7d",
-          "distance_m": 175,
-          "minutes_apart": 45
         },
         {
           "id": "tps_b6154a8bee7b",
@@ -8751,241 +8857,7 @@
       "location": "DUNDAS ST W - HUMBER HILL AVE",
       "ts": "2026-08-16T13:19:14+00:00",
       "related": []
-    },
-    {
-      "id": "tps_c6edb90c4a7b",
-      "source": "police",
-      "lat": 43.64210538429025,
-      "lng": -79.34124407101056,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D51",
-      "location": "MARTIN GOODMAN TRL - ",
-      "ts": "2026-08-16T13:03:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_74ebbd3dbec8",
-      "source": "police",
-      "lat": 43.66873451071916,
-      "lng": -79.4003094411357,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "BLOOR ST W - PRINCE ARTHUR AVE",
-      "ts": "2026-08-16T13:00:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3ab6efe6ca7d",
-      "source": "police",
-      "lat": 43.66763520695567,
-      "lng": -79.37219495639862,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D51",
-      "location": "WELLESLEY ST E - ONTARIO ST",
-      "ts": "2026-08-16T12:52:52+00:00",
-      "related": [
-        {
-          "id": "tps_b132712748a1",
-          "distance_m": 132,
-          "minutes_apart": 166
-        },
-        {
-          "id": "tfs_F26127428",
-          "distance_m": 175,
-          "minutes_apart": 45
-        },
-        {
-          "id": "tps_b6154a8bee7b",
-          "distance_m": 328,
-          "minutes_apart": 46
-        },
-        {
-          "id": "tps_0a6793d74d45",
-          "distance_m": 477,
-          "minutes_apart": 69
-        }
-      ]
-    },
-    {
-      "id": "tps_472b72200b8f",
-      "source": "police",
-      "lat": 43.755455974900755,
-      "lng": -79.43845112728326,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "D32",
-      "location": "BATHURST ST - SHEPPARD AVE W",
-      "ts": "2026-08-16T12:52:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_acdf93532971",
-      "source": "police",
-      "lat": 43.66970770955897,
-      "lng": -79.3894835474489,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "CHARLES ST W - BLOOR ST W",
-      "ts": "2026-08-16T12:50:10+00:00",
-      "related": [
-        {
-          "id": "tps_16a6fe591647",
-          "distance_m": 296,
-          "minutes_apart": 178
-        },
-        {
-          "id": "tps_47bfd9d4dd59",
-          "distance_m": 473,
-          "minutes_apart": 8
-        }
-      ]
-    },
-    {
-      "id": "tps_80adae2a2c30",
-      "source": "police",
-      "lat": 43.665398052025864,
-      "lng": -79.46327772520391,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D11",
-      "location": "INDIAN GRV - HEINTZMAN ST",
-      "ts": "2026-08-16T12:48:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_47bfd9d4dd59",
-      "source": "police",
-      "lat": 43.66565180475552,
-      "lng": -79.38769484642785,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "BAY ST - ST JOSEPH ST",
-      "ts": "2026-08-16T12:42:14+00:00",
-      "related": [
-        {
-          "id": "tps_acdf93532971",
-          "distance_m": 473,
-          "minutes_apart": 8
-        },
-        {
-          "id": "tps_6b773ec413bc",
-          "distance_m": 543,
-          "minutes_apart": 135
-        }
-      ]
-    },
-    {
-      "id": "tps_d8e86c572b07",
-      "source": "police",
-      "lat": 43.74787608113298,
-      "lng": -79.54521679307662,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D31",
-      "location": "DAYSTROM DR - WW N LANYARD E LINDYLOU",
-      "ts": "2026-08-16T12:38:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f9ff50fe863d",
-      "source": "police",
-      "lat": 43.79532339409405,
-      "lng": -79.20663186987504,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D42",
-      "location": " - ",
-      "ts": "2026-08-16T12:37:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e6b5206c7289",
-      "source": "police",
-      "lat": 43.65144329676334,
-      "lng": -79.42554102481836,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D14",
-      "location": "CHURCHILL AVE - ST ANNES RD",
-      "ts": "2026-08-16T12:32:31+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_691428b87aad",
-      "source": "police",
-      "lat": 43.67479952799246,
-      "lng": -79.45766751707413,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D11",
-      "location": "ST CLAIR AVE W - LAUGHTON AVE",
-      "ts": "2026-08-16T12:27:25+00:00",
-      "related": [
-        {
-          "id": "tps_2559cbb6262b",
-          "distance_m": 450,
-          "minutes_apart": 90
-        }
-      ]
-    },
-    {
-      "id": "tps_48b78f62c779",
-      "source": "police",
-      "lat": 43.74655198581917,
-      "lng": -79.22035229120927,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D43",
-      "location": "COUGAR CRT - DUNELM ST",
-      "ts": "2026-08-16T12:26:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c8deda7e9d5e",
-      "source": "police",
-      "lat": 43.743842377270276,
-      "lng": -79.25557553904716,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "KELLS AVE - BRIMLEY RD",
-      "ts": "2026-08-16T12:20:48+00:00",
-      "related": []
     }
   ],
-  "anomalies": [
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f02830df903a",
-        "tps_2f2eaa358708",
-        "tps_dd60f1b1bb12",
-        "tps_4c7dbbae4762"
-      ]
-    }
-  ]
+  "anomalies": []
 }
