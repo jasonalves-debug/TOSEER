@@ -1,11 +1,202 @@
 {
-  "generated": "2026-08-17T23:13:28.845403+00:00",
+  "generated": "2026-08-17T23:35:14.786730+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_20bf4aa50599",
+      "source": "police",
+      "lat": 43.63895588349699,
+      "lng": -79.42735822421264,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D14",
+      "location": " - ",
+      "ts": "2026-08-17T23:19:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b98e734fc2f3",
+      "source": "police",
+      "lat": 43.698221103887555,
+      "lng": -79.3162553430467,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D55",
+      "location": " - ",
+      "ts": "2026-08-17T23:19:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26128266",
+      "source": "fire",
+      "lat": 43.6598852,
+      "lng": -79.3777239,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - YONGE ST & GERRARD ST E",
+      "approximate": false,
+      "units": "C31, P314, P332",
+      "ts": "2026-08-17T23:18:06+00:00",
+      "related": [
+        {
+          "id": "tps_67976fe90ae5",
+          "distance_m": 472,
+          "minutes_apart": 164
+        },
+        {
+          "id": "tps_baf408abf5ad",
+          "distance_m": 569,
+          "minutes_apart": 95
+        },
+        {
+          "id": "tps_c4955aa4ecaf",
+          "distance_m": 569,
+          "minutes_apart": 167
+        }
+      ]
+    },
+    {
+      "id": "tps_4050bb44134c",
+      "source": "police",
+      "lat": 43.69323410392405,
+      "lng": -79.35028341797985,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D55",
+      "location": "PAPE AVE - O'CONNOR DR",
+      "ts": "2026-08-17T23:15:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6d2a1b13ba33",
+      "source": "police",
+      "lat": 43.65840880031125,
+      "lng": -79.40716513374569,
+      "type": "ANICO",
+      "type_plain": "Animal Complaint",
+      "severity": "low",
+      "division": "D14",
+      "location": "COLLEGE ST - ULSTER ST",
+      "ts": "2026-08-17T23:15:10+00:00",
+      "related": [
+        {
+          "id": "tps_061e3ba6754a",
+          "distance_m": 362,
+          "minutes_apart": 136
+        },
+        {
+          "id": "tps_b95fbc9f49d9",
+          "distance_m": 585,
+          "minutes_apart": 164
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26128263",
+      "source": "fire",
+      "lat": 43.7816313,
+      "lng": -79.276401,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "243",
+      "location": "Scarborough - SALOME DR & MIDLAND AVE",
+      "approximate": false,
+      "units": "P244, R243",
+      "ts": "2026-08-17T23:14:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_12718defb071",
+      "source": "police",
+      "lat": 43.670029048919226,
+      "lng": -79.46650052216619,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "WEST TORONTO ST - LLOYD AVE",
+      "ts": "2026-08-17T23:14:27+00:00",
+      "related": [
+        {
+          "id": "tps_3a2f6ba0cbcb",
+          "distance_m": 354,
+          "minutes_apart": 10
+        },
+        {
+          "id": "tps_64fc8be15337",
+          "distance_m": 354,
+          "minutes_apart": 19
+        }
+      ]
+    },
+    {
+      "id": "tps_fbc12207bc3c",
+      "source": "police",
+      "lat": 43.64604768515132,
+      "lng": -79.37914544445697,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D52",
+      "location": "BAY ST - FRONT ST W",
+      "ts": "2026-08-17T23:14:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26128257",
+      "source": "fire",
+      "lat": 43.6960511,
+      "lng": -79.4893442,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "421",
+      "location": "North York - MARTHA EATON WAY & TRETHEWEY DR",
+      "approximate": false,
+      "units": "A421, P421",
+      "ts": "2026-08-17T23:09:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26128256",
+      "source": "fire",
+      "lat": 43.6613045,
+      "lng": -79.4629017,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "423",
+      "location": "Toronto - KEELE ST & WEST TORONTO ST",
+      "approximate": false,
+      "units": "A423",
+      "ts": "2026-08-17T23:08:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26128250",
+      "source": "fire",
+      "lat": 43.6673947,
+      "lng": -79.3690914,
+      "type": "Vehicle Accident with Fire",
+      "type_plain": "Vehicle Accident with Fire",
+      "severity": "medium",
+      "division": "313",
+      "location": "Toronto - PARLIAMENT ST & AMELIA ST",
+      "approximate": false,
+      "units": "P313, R227, R325",
+      "ts": "2026-08-17T23:04:43+00:00",
+      "related": []
+    },
     {
       "id": "tps_aa898546d3a7",
       "source": "police",
@@ -35,6 +226,11 @@
           "id": "tps_64fc8be15337",
           "distance_m": 0,
           "minutes_apart": 8
+        },
+        {
+          "id": "tps_12718defb071",
+          "distance_m": 354,
+          "minutes_apart": 10
         }
       ]
     },
@@ -99,6 +295,11 @@
           "id": "tps_3a2f6ba0cbcb",
           "distance_m": 0,
           "minutes_apart": 8
+        },
+        {
+          "id": "tps_12718defb071",
+          "distance_m": 354,
+          "minutes_apart": 19
         }
       ]
     },
@@ -819,6 +1020,11 @@
           "id": "tps_c4955aa4ecaf",
           "distance_m": 0,
           "minutes_apart": 72
+        },
+        {
+          "id": "tfs_F26128266",
+          "distance_m": 569,
+          "minutes_apart": 95
         }
       ]
     },
@@ -1284,7 +1490,13 @@
       "division": "D14",
       "location": "MARKHAM ST - PALMERSTON BLVD",
       "ts": "2026-08-17T20:59:18+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_6d2a1b13ba33",
+          "distance_m": 362,
+          "minutes_apart": 136
+        }
+      ]
     },
     {
       "id": "tps_e2c945025400",
@@ -1644,6 +1856,11 @@
           "id": "tps_0eb7155446bc",
           "distance_m": 406,
           "minutes_apart": 149
+        },
+        {
+          "id": "tfs_F26128266",
+          "distance_m": 569,
+          "minutes_apart": 167
         }
       ]
     },
@@ -1668,6 +1885,11 @@
           "id": "tps_48ef852cb6e5",
           "distance_m": 302,
           "minutes_apart": 59
+        },
+        {
+          "id": "tps_6d2a1b13ba33",
+          "distance_m": 585,
+          "minutes_apart": 164
         }
       ]
     },
@@ -8659,11 +8881,6 @@
           "minutes_apart": 159
         },
         {
-          "id": "tps_c12127ab553b",
-          "distance_m": 332,
-          "minutes_apart": 140
-        },
-        {
           "id": "tps_85c9b61de59b",
           "distance_m": 436,
           "minutes_apart": 111
@@ -9371,11 +9588,6 @@
       "ts": "2026-08-16T23:42:55+00:00",
       "related": [
         {
-          "id": "tps_c12127ab553b",
-          "distance_m": 270,
-          "minutes_apart": 24
-        },
-        {
           "id": "tps_14c20bf7bd74",
           "distance_m": 436,
           "minutes_apart": 116
@@ -9426,146 +9638,6 @@
           "minutes_apart": 166
         }
       ]
-    },
-    {
-      "id": "tps_6b4cdf3d202c",
-      "source": "police",
-      "lat": 43.64894520195857,
-      "lng": -79.45006191664478,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D11",
-      "location": "RONCESVALLES AVE - LN W RONCESVALLES N GRENADIER",
-      "ts": "2026-08-16T23:34:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9c57f71d3be2",
-      "source": "police",
-      "lat": 43.777124113793384,
-      "lng": -79.34788525064288,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D33",
-      "location": "SHEPPARD AVE E - LEITH HILL RD",
-      "ts": "2026-08-16T23:31:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e8df6b5ecb22",
-      "source": "police",
-      "lat": 43.80244578814166,
-      "lng": -79.17237379659909,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D41",
-      "location": "RED RIVER CRES - RED RIVER CRES",
-      "ts": "2026-08-16T23:30:59+00:00",
-      "related": [
-        {
-          "id": "tps_9541434aee52",
-          "distance_m": 350,
-          "minutes_apart": 0
-        }
-      ]
-    },
-    {
-      "id": "tps_9541434aee52",
-      "source": "police",
-      "lat": 43.80421958494722,
-      "lng": -79.16877540617993,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D41",
-      "location": "MEADOWVALE RD - BRAYMORE BLVD",
-      "ts": "2026-08-16T23:30:59+00:00",
-      "related": [
-        {
-          "id": "tps_e8df6b5ecb22",
-          "distance_m": 350,
-          "minutes_apart": 0
-        }
-      ]
-    },
-    {
-      "id": "tps_78e2fb287e50",
-      "source": "police",
-      "lat": 43.78886658494799,
-      "lng": -79.24009727624617,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D42",
-      "location": "SCUNTHORPE RD - MARKHAM RD",
-      "ts": "2026-08-16T23:23:42+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0467a243b714",
-      "source": "police",
-      "lat": 43.70922399170647,
-      "lng": -79.55247871146365,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "TAC8",
-      "location": "401 HWY W - ISLINGTON AVE",
-      "ts": "2026-08-16T23:23:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_45e483d799c9",
-      "source": "police",
-      "lat": 43.80512289242385,
-      "lng": -79.19579437472693,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D42",
-      "location": "VENTURE DR - WATER TOWER GT",
-      "ts": "2026-08-16T23:20:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c12127ab553b",
-      "source": "police",
-      "lat": 43.65627169537542,
-      "lng": -79.3847450442844,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D52",
-      "location": "BAY ST - ELIZABETH ST",
-      "ts": "2026-08-16T23:18:36+00:00",
-      "related": [
-        {
-          "id": "tps_e4fc31ca116e",
-          "distance_m": 270,
-          "minutes_apart": 24
-        },
-        {
-          "id": "tps_14c20bf7bd74",
-          "distance_m": 332,
-          "minutes_apart": 140
-        }
-      ]
-    },
-    {
-      "id": "tps_44cce16ef3da",
-      "source": "police",
-      "lat": 43.66332155366275,
-      "lng": -79.49019921267752,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D11",
-      "location": "BRADLEY AVE - PAGE AVE",
-      "ts": "2026-08-16T23:18:08+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -9573,48 +9645,32 @@
       "source": "police",
       "division": "HP",
       "current_count": 9,
-      "baseline_avg": 1.0,
-      "ratio": 9.0,
+      "baseline_avg": 1.2,
+      "ratio": 7.7,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_12718defb071",
         "tps_3a2f6ba0cbcb",
         "tps_26a7ab79a330",
         "tps_4edc1fc340d4",
-        "tps_f03d72bc4c97",
-        "tps_c208aff0e349"
+        "tps_f03d72bc4c97"
       ]
     },
     {
       "source": "police",
       "division": "D55",
-      "current_count": 12,
-      "baseline_avg": 1.8,
-      "ratio": 6.7,
+      "current_count": 13,
+      "baseline_avg": 2.2,
+      "ratio": 5.9,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_b98e734fc2f3",
+        "tps_4050bb44134c",
         "tps_aa898546d3a7",
         "tps_d3b0325883b6",
-        "tps_c093c5af84dd",
-        "tps_4bfac2bf3fdd",
-        "tps_4175e23cc61d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 7,
-      "baseline_avg": 1.5,
-      "ratio": 4.7,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8fd445d84d43",
-        "tps_6eb30df2be18",
-        "tps_63588b467ab0",
-        "tps_27f8498a3462",
-        "tps_b95fbc9f49d9"
+        "tps_c093c5af84dd"
       ]
     },
     {
@@ -9630,38 +9686,6 @@
         "tps_e87fc75f5f26",
         "tps_4e92b16858ac",
         "tps_1723f786fdd7"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_91c909c9ceda",
-        "tps_baf408abf5ad",
-        "tps_9482d3b081b6",
-        "tps_feba79296b44",
-        "tps_9883c3b2d60d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_1dd8a361b829",
-        "tps_b08b8b3c0104",
-        "tps_0a6589686abf",
-        "tps_0cfeddd30823",
-        "tps_efafdc200dc7"
       ]
     },
     {
@@ -9698,6 +9722,37 @@
     },
     {
       "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_1dd8a361b829",
+        "tps_b08b8b3c0104",
+        "tps_0a6589686abf",
+        "tps_0cfeddd30823"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.9,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_fbc12207bc3c",
+        "tps_8fd445d84d43",
+        "tps_6eb30df2be18",
+        "tps_63588b467ab0",
+        "tps_27f8498a3462"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D31",
       "current_count": 4,
       "baseline_avg": 1.6,
@@ -9713,31 +9768,17 @@
     },
     {
       "source": "police",
-      "division": "D32",
+      "division": "D51",
       "current_count": 4,
       "baseline_avg": 1.8,
       "ratio": 2.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_56ece57575fd",
-        "tps_6b056cf339a8",
-        "tps_8fe47f2007a1",
-        "tps_82f3c13d8bc7"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_64fc8be15337",
-        "tps_7561fa253297",
-        "tps_e646c6296954"
+        "tps_91c909c9ceda",
+        "tps_baf408abf5ad",
+        "tps_9482d3b081b6",
+        "tps_feba79296b44"
       ]
     },
     {
