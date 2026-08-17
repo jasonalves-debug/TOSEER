@@ -1,11 +1,126 @@
 {
-  "generated": "2026-08-17T14:14:39.373306+00:00",
+  "generated": "2026-08-17T14:44:05.378174+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_a9dee7b58d68",
+      "source": "police",
+      "lat": 43.773361693160474,
+      "lng": -79.38155501159767,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D33",
+      "location": "HAWKSBURY DR - HAWKSBURY DR",
+      "ts": "2026-08-17T14:26:18+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_caebf135b28b",
+      "source": "police",
+      "lat": 43.66672392285862,
+      "lng": -79.44645392062525,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "ST CLARENS AVE - LANSDOWNE AVE",
+      "ts": "2026-08-17T14:21:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dfd31dbd2f30",
+      "source": "police",
+      "lat": 43.64726258636617,
+      "lng": -79.37328194836591,
+      "type": "ROB",
+      "type_plain": "ROB",
+      "severity": "low",
+      "division": "D51",
+      "location": "SCOTT ST - CHURCH ST",
+      "ts": "2026-08-17T14:18:17+00:00",
+      "related": [
+        {
+          "id": "tps_f9adbc27725b",
+          "distance_m": 367,
+          "minutes_apart": 145
+        },
+        {
+          "id": "tps_da1b625b54d2",
+          "distance_m": 507,
+          "minutes_apart": 69
+        }
+      ]
+    },
+    {
+      "id": "tps_7e64a1f8285c",
+      "source": "police",
+      "lat": 43.70059626494025,
+      "lng": -79.51774105209435,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D12",
+      "location": "WESTON RD - HICKORY TREE RD",
+      "ts": "2026-08-17T14:14:54+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b918c7532c2c",
+      "source": "police",
+      "lat": 43.6387094894521,
+      "lng": -79.44620901792912,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D11",
+      "location": "QUEEN ST W - RONCESVALLES AVE",
+      "ts": "2026-08-17T14:10:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_311b947d0b9a",
+      "source": "police",
+      "lat": 43.6530790020638,
+      "lng": -79.43489932169892,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D11",
+      "location": "SHERIDAN AVE - LN E BROCK S LINDSEY",
+      "ts": "2026-08-17T14:05:09+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_788b2bb9610f",
+      "source": "police",
+      "lat": 43.64732341987895,
+      "lng": -79.57445498355787,
+      "type": "MISEL",
+      "type_plain": "MISEL",
+      "severity": "low",
+      "division": "D22",
+      "location": "ENDWOOD RD - CRENDON DR",
+      "ts": "2026-08-17T14:04:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d5d9be7b286c",
+      "source": "police",
+      "lat": 43.67833676691915,
+      "lng": -79.584959664527,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "VOYAGER CRT N - GALAXY BLVD",
+      "ts": "2026-08-17T14:01:49+00:00",
+      "related": []
+    },
     {
       "id": "tps_6fbdd719ad0c",
       "source": "police",
@@ -277,7 +392,13 @@
       "division": "D51",
       "location": "QUEENS QUAY E - LAKE SHORE BLVD E",
       "ts": "2026-08-17T13:09:21+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_dfd31dbd2f30",
+          "distance_m": 507,
+          "minutes_apart": 69
+        }
+      ]
     },
     {
       "id": "tps_adf4e82d321c",
@@ -665,6 +786,11 @@
       "location": "YONGE ST - VICTORIA ST",
       "ts": "2026-08-17T11:53:04+00:00",
       "related": [
+        {
+          "id": "tps_dfd31dbd2f30",
+          "distance_m": 367,
+          "minutes_apart": 145
+        },
         {
           "id": "tps_80aad36fb067",
           "distance_m": 390,
@@ -7762,11 +7888,6 @@
       "ts": "2026-08-16T17:22:16+00:00",
       "related": [
         {
-          "id": "tps_88f1e5c70a48",
-          "distance_m": 226,
-          "minutes_apart": 167
-        },
-        {
           "id": "tps_ff01f4820d6b",
           "distance_m": 386,
           "minutes_apart": 110
@@ -7790,6 +7911,11 @@
           "id": "tps_d66f8d05360f",
           "distance_m": 545,
           "minutes_apart": 163
+        },
+        {
+          "id": "tps_4e0c1411cf0c",
+          "distance_m": 571,
+          "minutes_apart": 172
         }
       ]
     },
@@ -7858,11 +7984,6 @@
       "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
       "ts": "2026-08-16T17:04:39+00:00",
       "related": [
-        {
-          "id": "tps_88f1e5c70a48",
-          "distance_m": 190,
-          "minutes_apart": 150
-        },
         {
           "id": "tps_a41d81e4b8a1",
           "distance_m": 297,
@@ -7959,13 +8080,7 @@
       "division": "D22",
       "location": "C P R - RESURRECTION RD",
       "ts": "2026-08-16T16:47:35+00:00",
-      "related": [
-        {
-          "id": "tps_51d5dbbe6864",
-          "distance_m": 499,
-          "minutes_apart": 152
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_779d4e89ddaf",
@@ -8878,101 +8993,6 @@
       "location": "LORRAINE AVE - BRUSSELS RD",
       "ts": "2026-08-16T14:46:37+00:00",
       "related": []
-    },
-    {
-      "id": "tps_c06cc183a571",
-      "source": "police",
-      "lat": 43.741089572019206,
-      "lng": -79.58922306495246,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D23",
-      "location": "KIPLING AVE - FINCH AVE W",
-      "ts": "2026-08-16T14:39:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_88f1e5c70a48",
-      "source": "police",
-      "lat": 43.65452239362609,
-      "lng": -79.36944905342786,
-      "type": "STA",
-      "type_plain": "STA",
-      "severity": "low",
-      "division": "D51",
-      "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
-      "ts": "2026-08-16T14:34:58+00:00",
-      "related": [
-        {
-          "id": "tps_f94a665b2a83",
-          "distance_m": 190,
-          "minutes_apart": 150
-        },
-        {
-          "id": "tfs_F26127523",
-          "distance_m": 226,
-          "minutes_apart": 167
-        }
-      ]
-    },
-    {
-      "id": "tps_61bc0c711245",
-      "source": "police",
-      "lat": 43.66548840948154,
-      "lng": -79.35263637257466,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D55",
-      "location": "BROADVIEW AVE - GERRARD ST E",
-      "ts": "2026-08-16T14:22:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_504b7986bef5",
-      "source": "police",
-      "lat": 43.62094188018773,
-      "lng": -79.48275561678737,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "MAR",
-      "location": " - ",
-      "ts": "2026-08-16T14:18:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_25788090dbce",
-      "source": "police",
-      "lat": 43.6970102181584,
-      "lng": -79.28539606707241,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D41",
-      "location": "PHARMACY AVE - ",
-      "ts": "2026-08-16T14:16:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_51d5dbbe6864",
-      "source": "police",
-      "lat": 43.639404139290015,
-      "lng": -79.534455893695,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D22",
-      "location": "C P R - ST ALBANS RD",
-      "ts": "2026-08-16T14:15:56+00:00",
-      "related": [
-        {
-          "id": "tps_597ec2fd0b54",
-          "distance_m": 499,
-          "minutes_apart": 152
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -8995,12 +9015,13 @@
     {
       "source": "police",
       "division": "D22",
-      "current_count": 3,
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
+      "ratio": 4.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_788b2bb9610f",
         "tps_ccf158c1aa47",
         "tps_cb4eb6468888",
         "tps_06056e48ac5b"
@@ -9008,32 +9029,33 @@
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 3,
+      "division": "D51",
+      "current_count": 8,
+      "baseline_avg": 3.2,
+      "ratio": 2.5,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_e96111ad5c43",
-        "tps_b0b6c3c09297",
-        "tps_3ba2b719e681",
-        "tps_f02830df903a"
+        "tps_dfd31dbd2f30",
+        "tps_80aad36fb067",
+        "tps_da1b625b54d2",
+        "tps_adf4e82d321c",
+        "tps_7431a77abff8"
       ]
     },
     {
       "source": "police",
       "division": "HP",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_d5d9be7b286c",
         "tps_93abefa56625",
         "tps_d8958f656bb8",
-        "tps_91d973dbbf05",
-        "tps_2d2e22a07a33"
+        "tps_91d973dbbf05"
       ]
     }
   ]
