@@ -1,11 +1,30 @@
 {
-  "generated": "2026-08-17T11:37:34.678404+00:00",
+  "generated": "2026-08-17T11:56:04.664982+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_2d2e22a07a33",
+      "source": "police",
+      "lat": 43.703234389898334,
+      "lng": -79.34661502162206,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "R. V. BURGESS PARK TRL - WEST DON RIVER TRL",
+      "ts": "2026-08-17T11:32:10+00:00",
+      "related": [
+        {
+          "id": "tps_14a12e43633b",
+          "distance_m": 0,
+          "minutes_apart": 13
+        }
+      ]
+    },
     {
       "id": "tps_f02830df903a",
       "source": "police",
@@ -54,7 +73,13 @@
       "division": "D53",
       "location": "R. V. BURGESS PARK TRL - WEST DON RIVER TRL",
       "ts": "2026-08-17T11:19:38+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_2d2e22a07a33",
+          "distance_m": 0,
+          "minutes_apart": 13
+        }
+      ]
     },
     {
       "id": "tps_4455821a2b45",
@@ -8455,11 +8480,6 @@
       "ts": "2026-08-16T13:57:51+00:00",
       "related": [
         {
-          "id": "tps_dc960573220c",
-          "distance_m": 0,
-          "minutes_apart": 136
-        },
-        {
           "id": "tps_691428b87aad",
           "distance_m": 450,
           "minutes_apart": 90
@@ -8879,11 +8899,6 @@
       "ts": "2026-08-16T12:27:25+00:00",
       "related": [
         {
-          "id": "tps_dc960573220c",
-          "distance_m": 450,
-          "minutes_apart": 46
-        },
-        {
           "id": "tps_2559cbb6262b",
           "distance_m": 450,
           "minutes_apart": 90
@@ -8956,165 +8971,22 @@
       "location": "DON VALLEY PARKWAY N - EGLINTON AVE E",
       "ts": "2026-08-16T11:56:58+00:00",
       "related": []
-    },
-    {
-      "id": "tps_bdf812f4bb1d",
-      "source": "police",
-      "lat": 43.74005035433166,
-      "lng": -79.51826239303222,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D31",
-      "location": "JANE ST - LAURA RD",
-      "ts": "2026-08-16T11:55:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_676935a80b8a",
-      "source": "police",
-      "lat": 43.70739071380607,
-      "lng": -79.26828758786104,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "DANFORTH RD - SADLER DR",
-      "ts": "2026-08-16T11:54:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a1edf7571e48",
-      "source": "police",
-      "lat": 43.79245878696635,
-      "lng": -79.28571880979331,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D42",
-      "location": "LOCKIE AVE - HAVENDALE RD",
-      "ts": "2026-08-16T11:51:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7244602e8550",
-      "source": "police",
-      "lat": 43.7485166741116,
-      "lng": -79.49940192481044,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D31",
-      "location": "ELDORADO CRT - LADYSHOT CRES",
-      "ts": "2026-08-16T11:49:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d04661d4fe4b",
-      "source": "police",
-      "lat": 43.75092022305602,
-      "lng": -79.31562657140621,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D33",
-      "location": "ROWENA DR - CASSANDRA BLVD",
-      "ts": "2026-08-16T11:47:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_69980daa93b8",
-      "source": "police",
-      "lat": 43.6385443776481,
-      "lng": -79.39213313595421,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D14",
-      "location": "LAKE SHORE BLVD W - SPADINA AVE",
-      "ts": "2026-08-16T11:46:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6789011dd597",
-      "source": "police",
-      "lat": 43.6487715878752,
-      "lng": -79.39626253563942,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "TAC8",
-      "location": "QUEEN ST W - SPADINA AVE",
-      "ts": "2026-08-16T11:43:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_379424e10489",
-      "source": "police",
-      "lat": 43.749625490081065,
-      "lng": -79.20589409685209,
-      "type": "SEEFI",
-      "type_plain": "SEEFI",
-      "severity": "low",
-      "division": "D43",
-      "location": "15 GUILDWOOD PKWY - PRINCE PHILIP BLVD",
-      "ts": "2026-08-16T11:42:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dc960573220c",
-      "source": "police",
-      "lat": 43.67404003302331,
-      "lng": -79.46316911638833,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D12",
-      "location": "TOWNSLEY ST - ED CLARK GDNS",
-      "ts": "2026-08-16T11:41:53+00:00",
-      "related": [
-        {
-          "id": "tps_2559cbb6262b",
-          "distance_m": 0,
-          "minutes_apart": 136
-        },
-        {
-          "id": "tps_691428b87aad",
-          "distance_m": 450,
-          "minutes_apart": 46
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D23",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.8,
-      "ratio": 2.8,
+      "ratio": 2.2,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_f02830df903a",
         "tps_2f2eaa358708",
         "tps_dd60f1b1bb12",
-        "tps_4c7dbbae4762",
-        "tps_1f035589593e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6bff507625e9",
-        "tps_d0c9e495f6a6",
-        "tps_acc3dc84f73c"
+        "tps_4c7dbbae4762"
       ]
     }
   ]
