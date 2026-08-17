@@ -1,11 +1,95 @@
 {
-  "generated": "2026-08-17T15:56:16.381305+00:00",
+  "generated": "2026-08-17T16:13:58.616317+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_f94f5512de7f",
+      "source": "police",
+      "lat": 43.64964698875063,
+      "lng": -79.3921049384829,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D52",
+      "location": "BEVERLEY ST - SOHO ST",
+      "ts": "2026-08-17T16:00:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_380ce7dc8c3a",
+      "source": "police",
+      "lat": 43.61621879575588,
+      "lng": -79.49838792754474,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D22",
+      "location": "METROLINX - JUDSON ST",
+      "ts": "2026-08-17T15:58:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0bc681ec5702",
+      "source": "police",
+      "lat": 43.68147619661608,
+      "lng": -79.33236832170581,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D55",
+      "location": "CAITHNESS AVE - GREENWOOD AVE",
+      "ts": "2026-08-17T15:55:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_57ace332033f",
+      "source": "police",
+      "lat": 43.664895420310195,
+      "lng": -79.4457321202746,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "LN N WALLACE E LANSDOWNE - LN S LAPPIN E LANSDOWNE",
+      "ts": "2026-08-17T15:52:02+00:00",
+      "related": [
+        {
+          "id": "tps_caebf135b28b",
+          "distance_m": 211,
+          "minutes_apart": 90
+        }
+      ]
+    },
+    {
+      "id": "tps_9beec6f68473",
+      "source": "police",
+      "lat": 43.731863842888544,
+      "lng": -79.30560296476823,
+      "type": "ATTBR",
+      "type_plain": "Attempt Break and Enter",
+      "severity": "high",
+      "division": "D41",
+      "location": "ARNCLIFFE CRES - DRAYCOTT DR",
+      "ts": "2026-08-17T15:50:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5560466eea3a",
+      "source": "police",
+      "lat": 43.73453770548281,
+      "lng": -79.35594159926632,
+      "type": "TAXAL",
+      "type_plain": "TAXAL",
+      "severity": "low",
+      "division": "D33",
+      "location": "LESLIE ST - LAWRENCE AVE E",
+      "ts": "2026-08-17T15:49:53+00:00",
+      "related": []
+    },
     {
       "id": "tps_2b2546d4fc7f",
       "source": "police",
@@ -475,7 +559,13 @@
       "division": "D11",
       "location": "ST CLARENS AVE - LANSDOWNE AVE",
       "ts": "2026-08-17T14:21:42+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_57ace332033f",
+          "distance_m": 211,
+          "minutes_apart": 90
+        }
+      ]
     },
     {
       "id": "tps_dfd31dbd2f30",
@@ -7669,13 +7759,7 @@
       "division": "D43",
       "location": "GOOD RD - PONYMEADOW TER",
       "ts": "2026-08-16T18:50:33+00:00",
-      "related": [
-        {
-          "id": "tps_33741b6f31d0",
-          "distance_m": 0,
-          "minutes_apart": 172
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f193ada9e4db",
@@ -7716,13 +7800,7 @@
       "division": "D14",
       "location": "OSSINGTON AVE - LAKEVIEW AVE",
       "ts": "2026-08-16T18:40:44+00:00",
-      "related": [
-        {
-          "id": "tps_6a110f2fbfda",
-          "distance_m": 0,
-          "minutes_apart": 153
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_fbb8d179caaf",
@@ -8702,125 +8780,31 @@
       "location": "TOPHAM PARK TRL - TIAGO AVE",
       "ts": "2026-08-16T16:17:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_e63874e3addd",
-      "source": "police",
-      "lat": 43.76940940056831,
-      "lng": -79.36417813169977,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D33",
-      "location": "ESTHER SHINER BLVD - OLD LESLIE NY HOSPITAL RAMP",
-      "ts": "2026-08-16T16:12:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6a110f2fbfda",
-      "source": "police",
-      "lat": 43.64938579398797,
-      "lng": -79.42268522577027,
-      "type": "DAM",
-      "type_plain": "Damage to Property",
-      "severity": "low",
-      "division": "D14",
-      "location": "OSSINGTON AVE - LAKEVIEW AVE",
-      "ts": "2026-08-16T16:07:28+00:00",
-      "related": [
-        {
-          "id": "tps_fb7c649d3c8c",
-          "distance_m": 0,
-          "minutes_apart": 153
-        }
-      ]
-    },
-    {
-      "id": "tps_33741b6f31d0",
-      "source": "police",
-      "lat": 43.795978794661025,
-      "lng": -79.18559057831774,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "GOOD RD - PONYMEADOW TER",
-      "ts": "2026-08-16T15:58:32+00:00",
-      "related": [
-        {
-          "id": "tps_2f10eaddb9de",
-          "distance_m": 0,
-          "minutes_apart": 172
-        }
-      ]
-    },
-    {
-      "id": "tps_25f232976f65",
-      "source": "police",
-      "lat": 43.77526402073118,
-      "lng": -79.32290286838588,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D42",
-      "location": "VICTORIA PARK AVE - COMMONS DR",
-      "ts": "2026-08-16T15:56:57+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0f885092e0ae",
-        "tps_caebf135b28b",
-        "tps_b918c7532c2c",
-        "tps_311b947d0b9a",
-        "tps_27aeec4d39fd"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D22",
-      "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.6,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0d88ec679477",
-        "tps_eed2a6afd5ff",
-        "tps_258c4fdfaa57",
-        "tps_788b2bb9610f",
-        "tps_ccf158c1aa47"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
+      "current_count": 7,
+      "baseline_avg": 1.5,
+      "ratio": 4.7,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_880aadd94e91",
-        "tps_e96111ad5c43",
-        "tps_b0b6c3c09297"
+        "tps_380ce7dc8c3a",
+        "tps_0d88ec679477",
+        "tps_eed2a6afd5ff",
+        "tps_258c4fdfaa57",
+        "tps_788b2bb9610f"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.5,
-      "ratio": 2.8,
+      "current_count": 6,
+      "baseline_avg": 1.8,
+      "ratio": 3.4,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -8833,18 +8817,33 @@
     },
     {
       "source": "police",
-      "division": "D51",
+      "division": "D55",
       "current_count": 5,
-      "baseline_avg": 2.4,
-      "ratio": 2.1,
+      "baseline_avg": 1.8,
+      "ratio": 2.9,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0bc681ec5702",
+        "tps_42f7554262be",
+        "tps_49f12c9c0314",
+        "tps_49d0ac639c42",
+        "tps_6fbdd719ad0c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_dfd31dbd2f30",
-        "tps_80aad36fb067",
-        "tps_da1b625b54d2",
-        "tps_adf4e82d321c",
-        "tps_7431a77abff8"
+        "tps_2b2546d4fc7f",
+        "tps_d0ef6ffa2c30",
+        "tps_4fe4449d6c1c",
+        "tps_1ce2fac5521d"
       ]
     }
   ]
