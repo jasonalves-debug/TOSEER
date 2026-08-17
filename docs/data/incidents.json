@@ -1,11 +1,76 @@
 {
-  "generated": "2026-08-17T13:51:32.449336+00:00",
+  "generated": "2026-08-17T14:14:39.373306+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_6fbdd719ad0c",
+      "source": "police",
+      "lat": 43.66022180085224,
+      "lng": -79.3515872701127,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D55",
+      "location": "THOMPSON ST - LN N THOMPSON E HAMILTON",
+      "ts": "2026-08-17T13:51:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ccf158c1aa47",
+      "source": "police",
+      "lat": 43.616490011056094,
+      "lng": -79.52105272933605,
+      "type": "DAMPR",
+      "type_plain": "Damage to Property (Priority)",
+      "severity": "low",
+      "division": "D22",
+      "location": "ARNOLD ST - EVANS AVE",
+      "ts": "2026-08-17T13:47:35+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_80aad36fb067",
+      "source": "police",
+      "lat": 43.65290919201284,
+      "lng": -79.3769330479008,
+      "type": "ROB",
+      "type_plain": "ROB",
+      "severity": "low",
+      "division": "D51",
+      "location": "BOND ST - QUEEN ST E",
+      "ts": "2026-08-17T13:45:37+00:00",
+      "related": [
+        {
+          "id": "tps_57f516f72719",
+          "distance_m": 215,
+          "minutes_apart": 92
+        },
+        {
+          "id": "tps_c613b84574d0",
+          "distance_m": 275,
+          "minutes_apart": 7
+        },
+        {
+          "id": "tps_adf4e82d321c",
+          "distance_m": 330,
+          "minutes_apart": 37
+        },
+        {
+          "id": "tps_f9adbc27725b",
+          "distance_m": 390,
+          "minutes_apart": 113
+        },
+        {
+          "id": "tps_9cb2c446d57b",
+          "distance_m": 497,
+          "minutes_apart": 18
+        }
+      ]
+    },
     {
       "id": "tps_93abefa56625",
       "source": "police",
@@ -59,6 +124,11 @@
           "id": "tps_9cb2c446d57b",
           "distance_m": 262,
           "minutes_apart": 11
+        },
+        {
+          "id": "tps_80aad36fb067",
+          "distance_m": 275,
+          "minutes_apart": 7
         },
         {
           "id": "tps_f9adbc27725b",
@@ -143,6 +213,11 @@
           "id": "tps_4455821a2b45",
           "distance_m": 472,
           "minutes_apart": 137
+        },
+        {
+          "id": "tps_80aad36fb067",
+          "distance_m": 497,
+          "minutes_apart": 18
         }
       ]
     },
@@ -216,6 +291,11 @@
       "location": "RICHMOND ST E - JARVIS ST",
       "ts": "2026-08-17T13:08:18+00:00",
       "related": [
+        {
+          "id": "tps_80aad36fb067",
+          "distance_m": 330,
+          "minutes_apart": 37
+        },
         {
           "id": "tps_7431a77abff8",
           "distance_m": 337,
@@ -513,6 +593,11 @@
           "minutes_apart": 85
         },
         {
+          "id": "tps_80aad36fb067",
+          "distance_m": 215,
+          "minutes_apart": 92
+        },
+        {
           "id": "tps_9cb2c446d57b",
           "distance_m": 283,
           "minutes_apart": 74
@@ -580,6 +665,11 @@
       "location": "YONGE ST - VICTORIA ST",
       "ts": "2026-08-17T11:53:04+00:00",
       "related": [
+        {
+          "id": "tps_80aad36fb067",
+          "distance_m": 390,
+          "minutes_apart": 113
+        },
         {
           "id": "tps_adf4e82d321c",
           "distance_m": 485,
@@ -8097,13 +8187,7 @@
       "division": "D33",
       "location": "ESTHER SHINER BLVD - OLD LESLIE NY HOSPITAL RAMP",
       "ts": "2026-08-16T16:12:33+00:00",
-      "related": [
-        {
-          "id": "tps_3f9ea47c3816",
-          "distance_m": 469,
-          "minutes_apart": 136
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6a110f2fbfda",
@@ -8332,11 +8416,6 @@
       "ts": "2026-08-16T15:45:51+00:00",
       "related": [
         {
-          "id": "tps_9587d0ae84b5",
-          "distance_m": 214,
-          "minutes_apart": 106
-        },
-        {
           "id": "tps_a10254613d05",
           "distance_m": 488,
           "minutes_apart": 45
@@ -8412,11 +8491,6 @@
       "location": "BLEECKER ST - ONTARIO ST",
       "ts": "2026-08-16T15:39:17+00:00",
       "related": [
-        {
-          "id": "tps_0a6793d74d45",
-          "distance_m": 436,
-          "minutes_apart": 97
-        },
         {
           "id": "tps_ef9731f486b2",
           "distance_m": 591,
@@ -8789,11 +8863,6 @@
           "id": "tps_f4c067958b5b",
           "distance_m": 352,
           "minutes_apart": 48
-        },
-        {
-          "id": "tps_4d0efbb76242",
-          "distance_m": 585,
-          "minutes_apart": 42
         }
       ]
     },
@@ -8904,187 +8973,6 @@
           "minutes_apart": 152
         }
       ]
-    },
-    {
-      "id": "tps_4905789d5e4b",
-      "source": "police",
-      "lat": 43.66922725561405,
-      "lng": -79.3355989008646,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "JONES AVE - GERRARD ST E",
-      "ts": "2026-08-16T14:14:39+00:00",
-      "related": [
-        {
-          "id": "tfs_F26127440",
-          "distance_m": 21,
-          "minutes_apart": 11
-        }
-      ]
-    },
-    {
-      "id": "tps_9154586693b9",
-      "source": "police",
-      "lat": 43.773644613108615,
-      "lng": -79.22989020274582,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D43",
-      "location": "BRIMORTON DR - ",
-      "ts": "2026-08-16T14:13:42+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4d0efbb76242",
-      "source": "police",
-      "lat": 43.65909819820201,
-      "lng": -79.38208824652705,
-      "type": "DAM",
-      "type_plain": "Damage to Property",
-      "severity": "low",
-      "division": "D52",
-      "location": "GERRARD ST E - COLLEGE ST",
-      "ts": "2026-08-16T14:09:23+00:00",
-      "related": [
-        {
-          "id": "tps_1c4853a38282",
-          "distance_m": 585,
-          "minutes_apart": 42
-        }
-      ]
-    },
-    {
-      "id": "tps_213bbc5fa4ab",
-      "source": "police",
-      "lat": 43.634412277679125,
-      "lng": -79.42807892397238,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": " - ",
-      "ts": "2026-08-16T14:05:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26127440",
-      "source": "fire",
-      "lat": 43.6693083,
-      "lng": -79.3353608,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "324",
-      "location": "JONES AVE & GERRARD ST E",
-      "approximate": false,
-      "units": "P324",
-      "ts": "2026-08-16T14:03:37+00:00",
-      "related": [
-        {
-          "id": "tps_4905789d5e4b",
-          "distance_m": 21,
-          "minutes_apart": 11
-        }
-      ]
-    },
-    {
-      "id": "tps_0a6793d74d45",
-      "source": "police",
-      "lat": 43.670779209882895,
-      "lng": -79.37622315570079,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D51",
-      "location": "ISABELLA ST - ST. JAMES TOWN WEST PARK TRL",
-      "ts": "2026-08-16T14:02:16+00:00",
-      "related": [
-        {
-          "id": "tps_b132712748a1",
-          "distance_m": 436,
-          "minutes_apart": 97
-        }
-      ]
-    },
-    {
-      "id": "tps_9587d0ae84b5",
-      "source": "police",
-      "lat": 43.639972478510614,
-      "lng": -79.37998664389616,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D52",
-      "location": "MARTIN GOODMAN TRL - ",
-      "ts": "2026-08-16T13:59:58+00:00",
-      "related": [
-        {
-          "id": "tps_f757e79113e9",
-          "distance_m": 214,
-          "minutes_apart": 106
-        }
-      ]
-    },
-    {
-      "id": "tps_2559cbb6262b",
-      "source": "police",
-      "lat": 43.67404003302331,
-      "lng": -79.46316911638833,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "TOWNSLEY ST - ED CLARK GDNS",
-      "ts": "2026-08-16T13:57:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3f9ea47c3816",
-      "source": "police",
-      "lat": 43.76612830360523,
-      "lng": -79.36050053632184,
-      "type": "TRAOB",
-      "type_plain": "TRAOB",
-      "severity": "low",
-      "division": "D33",
-      "location": "LESLIE ST - 401 HWY E",
-      "ts": "2026-08-16T13:56:59+00:00",
-      "related": [
-        {
-          "id": "tps_e63874e3addd",
-          "distance_m": 469,
-          "minutes_apart": 136
-        }
-      ]
-    },
-    {
-      "id": "tps_d266ec89f977",
-      "source": "police",
-      "lat": 43.69471547024857,
-      "lng": -79.50637176544511,
-      "type": "THE",
-      "type_plain": "THE",
-      "severity": "low",
-      "division": "D12",
-      "location": "EDMUND AVE - CLOUSTON AVE",
-      "ts": "2026-08-16T13:54:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_88c408607098",
-      "source": "police",
-      "lat": 43.650498294578696,
-      "lng": -79.41492972838988,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN N DUNDAS W GRACE - LN S COLLEGE E BEATRICE",
-      "ts": "2026-08-16T13:52:21+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -9092,9 +8980,9 @@
       "source": "police",
       "division": "D14",
       "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.6,
-      "sample_days": 6,
+      "baseline_avg": 1.0,
+      "ratio": 6.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_d839fd5eee06",
@@ -9106,48 +8994,46 @@
     },
     {
       "source": "police",
-      "division": "D11",
+      "division": "D22",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
-      "sample_days": 5,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_27aeec4d39fd",
-        "tps_01b25b5d7582",
-        "tps_6acf38efaa41"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.8,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_da1b625b54d2",
-        "tps_adf4e82d321c",
-        "tps_7431a77abff8",
-        "tps_e37949d52964",
-        "tps_57f516f72719"
+        "tps_ccf158c1aa47",
+        "tps_cb4eb6468888",
+        "tps_06056e48ac5b"
       ]
     },
     {
       "source": "police",
       "division": "D23",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.2,
-      "sample_days": 4,
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_e96111ad5c43",
         "tps_b0b6c3c09297",
         "tps_3ba2b719e681",
-        "tps_f02830df903a",
-        "tps_2f2eaa358708"
+        "tps_f02830df903a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_93abefa56625",
+        "tps_d8958f656bb8",
+        "tps_91d973dbbf05",
+        "tps_2d2e22a07a33"
       ]
     }
   ]
