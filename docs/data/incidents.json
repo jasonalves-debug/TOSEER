@@ -1,11 +1,109 @@
 {
-  "generated": "2026-08-17T10:46:00.260395+00:00",
+  "generated": "2026-08-17T11:13:03.108770+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_2f2eaa358708",
+      "source": "police",
+      "lat": 43.67683553661272,
+      "lng": -79.56420610024587,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D23",
+      "location": "MARTIN GROVE RD - RICHGROVE DR",
+      "ts": "2026-08-17T11:03:47+00:00",
+      "related": [
+        {
+          "id": "tfs_F26127910",
+          "distance_m": 43,
+          "minutes_apart": 20
+        }
+      ]
+    },
+    {
+      "id": "tps_6acf38efaa41",
+      "source": "police",
+      "lat": 43.666001856451324,
+      "lng": -79.4647941264355,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "KEELE ST - MAVETY ST",
+      "ts": "2026-08-17T11:01:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26127910",
+      "source": "fire",
+      "lat": 43.6772228,
+      "lng": -79.5642183,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "441",
+      "location": "RICHGROVE DR & MARTIN GROVE RD",
+      "approximate": false,
+      "units": "R441",
+      "ts": "2026-08-17T10:43:47+00:00",
+      "related": [
+        {
+          "id": "tps_2f2eaa358708",
+          "distance_m": 43,
+          "minutes_apart": 20
+        }
+      ]
+    },
+    {
+      "id": "tps_6bff507625e9",
+      "source": "police",
+      "lat": 43.70414812108522,
+      "lng": -79.24403070693886,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "SCARBORO CRES - UNDERCLIFF DR",
+      "ts": "2026-08-17T10:39:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_45aa6dac5b3d",
+      "source": "police",
+      "lat": 43.78886658494799,
+      "lng": -79.24009727624617,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D42",
+      "location": "SCUNTHORPE RD - MARKHAM RD",
+      "ts": "2026-08-17T10:37:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b72280b5e66f",
+      "source": "police",
+      "lat": 43.63898847742328,
+      "lng": -79.38542834026838,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D52",
+      "location": "REES STREET PARKETTE TRL - ROBERTSON CRES",
+      "ts": "2026-08-17T10:36:25+00:00",
+      "related": [
+        {
+          "id": "tps_d72ef5491a8b",
+          "distance_m": 314,
+          "minutes_apart": 77
+        }
+      ]
+    },
     {
       "id": "tps_dd60f1b1bb12",
       "source": "police",
@@ -151,7 +249,13 @@
       "division": "D14",
       "location": "REES ST - LOWER SPADINA AVE",
       "ts": "2026-08-17T09:19:19+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_b72280b5e66f",
+          "distance_m": 314,
+          "minutes_apart": 77
+        }
+      ]
     },
     {
       "id": "tps_1f035589593e",
@@ -8288,11 +8392,6 @@
           "minutes_apart": 136
         },
         {
-          "id": "tps_0b7c48b26846",
-          "distance_m": 317,
-          "minutes_apart": 171
-        },
-        {
           "id": "tps_691428b87aad",
           "distance_m": 450,
           "minutes_apart": 90
@@ -8329,13 +8428,7 @@
       "division": "D12",
       "location": "EDMUND AVE - CLOUSTON AVE",
       "ts": "2026-08-16T13:54:39+00:00",
-      "related": [
-        {
-          "id": "tps_8c4191cf580f",
-          "distance_m": 477,
-          "minutes_apart": 171
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_88c408607098",
@@ -8718,11 +8811,6 @@
       "ts": "2026-08-16T12:27:25+00:00",
       "related": [
         {
-          "id": "tps_0b7c48b26846",
-          "distance_m": 314,
-          "minutes_apart": 80
-        },
-        {
           "id": "tps_dc960573220c",
           "distance_m": 450,
           "minutes_apart": 46
@@ -8923,11 +9011,6 @@
           "minutes_apart": 136
         },
         {
-          "id": "tps_0b7c48b26846",
-          "distance_m": 317,
-          "minutes_apart": 35
-        },
-        {
           "id": "tps_691428b87aad",
           "distance_m": 450,
           "minutes_apart": 46
@@ -8978,144 +9061,34 @@
           "minutes_apart": 171
         }
       ]
-    },
-    {
-      "id": "tps_727463482f74",
-      "source": "police",
-      "lat": 43.70735320893923,
-      "lng": -79.39547074974986,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "SOUDAN AVE - LN S EGLINTON E HOLLY",
-      "ts": "2026-08-16T11:07:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0b7c48b26846",
-      "source": "police",
-      "lat": 43.67637612381247,
-      "lng": -79.46090261366076,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D23",
-      "location": "HEPC - HOWICK AVE",
-      "ts": "2026-08-16T11:06:57+00:00",
-      "related": [
-        {
-          "id": "tps_691428b87aad",
-          "distance_m": 314,
-          "minutes_apart": 80
-        },
-        {
-          "id": "tps_dc960573220c",
-          "distance_m": 317,
-          "minutes_apart": 35
-        },
-        {
-          "id": "tps_2559cbb6262b",
-          "distance_m": 317,
-          "minutes_apart": 171
-        }
-      ]
-    },
-    {
-      "id": "tps_8c4191cf580f",
-      "source": "police",
-      "lat": 43.69756446307183,
-      "lng": -79.50193545668895,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D12",
-      "location": "METROLINX / C P R - TRETHEWEY DR",
-      "ts": "2026-08-16T11:04:05+00:00",
-      "related": [
-        {
-          "id": "tps_d266ec89f977",
-          "distance_m": 477,
-          "minutes_apart": 171
-        }
-      ]
-    },
-    {
-      "id": "tps_7f852d917448",
-      "source": "police",
-      "lat": 43.66748149675699,
-      "lng": -79.31138382839757,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "LN 2 N QUEEN E KINGSTON - LARK ST",
-      "ts": "2026-08-16T10:59:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6a41c6c42d62",
-      "source": "police",
-      "lat": 43.76650299357238,
-      "lng": -79.19486880585487,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D43",
-      "location": "GALLOWAY RD - ANDOVER CRES",
-      "ts": "2026-08-16T10:59:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_09de1ecbc73c",
-      "source": "police",
-      "lat": 43.68941219925192,
-      "lng": -79.34881651519353,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D55",
-      "location": "PAPE AVE - TODMORDEN LANE",
-      "ts": "2026-08-16T10:59:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4e88c86d2f9b",
-      "source": "police",
-      "lat": 43.7272962290426,
-      "lng": -79.54932877220578,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D23",
-      "location": "SUMMERLEA PARK TRL - BYNG AVE",
-      "ts": "2026-08-16T10:51:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9f60e5e3f826",
-      "source": "police",
-      "lat": 43.63877549027512,
-      "lng": -79.44841411719405,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "BEATY BOULEVARD PARKETTE TRL - SUNNYSIDE AVE",
-      "ts": "2026-08-16T10:47:50+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.0,
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.3,
       "ratio": 3.0,
-      "sample_days": 4,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_6bff507625e9",
+        "tps_d0c9e495f6a6",
+        "tps_acc3dc84f73c",
+        "tps_4c74202d6d46"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_2f2eaa358708",
         "tps_dd60f1b1bb12",
         "tps_4c7dbbae4762",
         "tps_1f035589593e"
