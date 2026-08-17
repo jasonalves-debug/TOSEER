@@ -1,11 +1,24 @@
 {
-  "generated": "2026-08-17T08:57:17.377509+00:00",
+  "generated": "2026-08-17T09:32:31.608491+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_1f035589593e",
+      "source": "police",
+      "lat": 43.69366468707675,
+      "lng": -79.56427606339243,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D23",
+      "location": "CAMPERDOWN AVE - KINGSVIEW BLVD",
+      "ts": "2026-08-17T08:51:21+00:00",
+      "related": []
+    },
     {
       "id": "tps_29f6d13f310b",
       "source": "police",
@@ -9179,159 +9192,36 @@
       "location": "DON VALLEY PARKWAY S - QUEEN ST E",
       "ts": "2026-08-16T09:35:29+00:00",
       "related": []
-    },
-    {
-      "id": "tps_b63f39e1bed6",
-      "source": "police",
-      "lat": 43.721735013315154,
-      "lng": -79.37792337253975,
-      "type": "SHO",
-      "type_plain": "SHO",
-      "severity": "low",
-      "division": "D53",
-      "location": "STRATFORD PARK TRL - STRATFORD PARK TRL",
-      "ts": "2026-08-16T09:29:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_79c12095392f",
-      "source": "police",
-      "lat": 43.63029841002115,
-      "lng": -79.47693891425389,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D22",
-      "location": "HEPC - HIGH ST",
-      "ts": "2026-08-16T09:29:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f9cdb7f700a9",
-      "source": "police",
-      "lat": 43.73509528237715,
-      "lng": -79.25561782879113,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D41",
-      "location": "MIDLAND AVE - EGLINTON AVE E",
-      "ts": "2026-08-16T09:24:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_32c5bf0371fd",
-      "source": "police",
-      "lat": 43.64882760182542,
-      "lng": -79.45001531666036,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D11",
-      "location": "RONCESVALLES AVE - LN W RONCESVALLES N GRENADIER",
-      "ts": "2026-08-16T09:16:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5e4248bb12b2",
-      "source": "police",
-      "lat": 43.79899361329984,
-      "lng": -79.30596910122911,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D42",
-      "location": "BIRCHMOUNT RD - L'AMOREAUX SPORTS COMPLEX TRL",
-      "ts": "2026-08-16T09:14:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6293c161c68f",
-      "source": "police",
-      "lat": 43.67697560408868,
-      "lng": -79.52430648580521,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D22",
-      "location": "HUMBER RIVER TRIB - NORTH DR",
-      "ts": "2026-08-16T09:05:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cf613262248f",
-      "source": "police",
-      "lat": 43.674759789156944,
-      "lng": -79.32624021894753,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D55",
-      "location": "LN N GERRARD E WOODFIELD - WALPOLE AVE",
-      "ts": "2026-08-16T08:59:56+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D41",
-      "current_count": 7,
-      "baseline_avg": 1.6,
-      "ratio": 4.4,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_acc3dc84f73c",
-        "tps_4c74202d6d46",
-        "tps_edc7ad14daf1",
-        "tps_e6f2fa40e052",
-        "tps_a696b49a6b38"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.6,
-      "sample_days": 3,
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_80c7da30fcc0",
         "tps_7f8ca43efad3",
         "tps_6ac8dd365ac4",
-        "tps_0be03fe8da21",
-        "tps_1a5f23b195c7"
+        "tps_0be03fe8da21"
       ]
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_29f6d13f310b",
-        "tps_bfe14e78484d",
-        "tps_a51cc3134725",
-        "tps_1c960ee7492c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D13",
+      "division": "D51",
       "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 5,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_3e6d3f2d9b24",
-        "tps_312098ff35a3",
-        "tps_13c0122fdb70"
+        "tps_f93de847206f",
+        "tps_4c9e1a607add",
+        "tps_86ce0345e6a1"
       ]
     }
   ]
