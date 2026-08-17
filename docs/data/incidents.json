@@ -1,11 +1,74 @@
 {
-  "generated": "2026-08-17T11:13:03.108770+00:00",
+  "generated": "2026-08-17T11:37:34.678404+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_f02830df903a",
+      "source": "police",
+      "lat": 43.67807301822015,
+      "lng": -79.56882880238186,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D23",
+      "location": "CAVERLEY DR - BIRCHLEAF CRES",
+      "ts": "2026-08-17T11:27:48+00:00",
+      "related": [
+        {
+          "id": "tfs_F26127910",
+          "distance_m": 383,
+          "minutes_apart": 44
+        },
+        {
+          "id": "tps_2f2eaa358708",
+          "distance_m": 396,
+          "minutes_apart": 24
+        }
+      ]
+    },
+    {
+      "id": "tps_01b25b5d7582",
+      "source": "police",
+      "lat": 43.65158400403554,
+      "lng": -79.44679471773388,
+      "type": "THEPR",
+      "type_plain": "Theft (Priority)",
+      "severity": "medium",
+      "division": "D11",
+      "location": "COLUMBUS PARKETTE TRL - PARKWAY AVE",
+      "ts": "2026-08-17T11:21:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_14a12e43633b",
+      "source": "police",
+      "lat": 43.703234389898334,
+      "lng": -79.34661502162206,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D53",
+      "location": "R. V. BURGESS PARK TRL - WEST DON RIVER TRL",
+      "ts": "2026-08-17T11:19:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4455821a2b45",
+      "source": "police",
+      "lat": 43.65923739834116,
+      "lng": -79.38517394513003,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "HAYTER ST - COLLEGE ST",
+      "ts": "2026-08-17T11:11:25+00:00",
+      "related": []
+    },
     {
       "id": "tps_2f2eaa358708",
       "source": "police",
@@ -22,6 +85,11 @@
           "id": "tfs_F26127910",
           "distance_m": 43,
           "minutes_apart": 20
+        },
+        {
+          "id": "tps_f02830df903a",
+          "distance_m": 396,
+          "minutes_apart": 24
         }
       ]
     },
@@ -56,6 +124,11 @@
           "id": "tps_2f2eaa358708",
           "distance_m": 43,
           "minutes_apart": 20
+        },
+        {
+          "id": "tps_f02830df903a",
+          "distance_m": 383,
+          "minutes_apart": 44
         }
       ]
     },
@@ -8276,11 +8349,6 @@
       "ts": "2026-08-16T14:09:23+00:00",
       "related": [
         {
-          "id": "tps_be0ce75e8e4c",
-          "distance_m": 164,
-          "minutes_apart": 171
-        },
-        {
           "id": "tps_1c4853a38282",
           "distance_m": 585,
           "minutes_apart": 42
@@ -9016,82 +9084,37 @@
           "minutes_apart": 46
         }
       ]
-    },
-    {
-      "id": "tps_441fe990b0aa",
-      "source": "police",
-      "lat": 43.63265417439493,
-      "lng": -79.41983792694654,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D14",
-      "location": "ONTARIO DR - PRINCE EDWARD ISLAND CRES",
-      "ts": "2026-08-16T11:36:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_578d4e339a6b",
-      "source": "police",
-      "lat": 43.689208643704305,
-      "lng": -79.58225330540131,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D23",
-      "location": " - ",
-      "ts": "2026-08-16T11:30:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_be0ce75e8e4c",
-      "source": "police",
-      "lat": 43.66056979967357,
-      "lng": -79.38208704701839,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "GERRARD ST E - COLLEGE ST",
-      "ts": "2026-08-16T11:18:52+00:00",
-      "related": [
-        {
-          "id": "tps_4d0efbb76242",
-          "distance_m": 164,
-          "minutes_apart": 171
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D23",
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.8,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f02830df903a",
+        "tps_2f2eaa358708",
+        "tps_dd60f1b1bb12",
+        "tps_4c7dbbae4762",
+        "tps_1f035589593e"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
-      "current_count": 4,
+      "current_count": 3,
       "baseline_avg": 1.3,
-      "ratio": 3.0,
+      "ratio": 2.2,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_6bff507625e9",
         "tps_d0c9e495f6a6",
-        "tps_acc3dc84f73c",
-        "tps_4c74202d6d46"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2f2eaa358708",
-        "tps_dd60f1b1bb12",
-        "tps_4c7dbbae4762",
-        "tps_1f035589593e"
+        "tps_acc3dc84f73c"
       ]
     }
   ]
