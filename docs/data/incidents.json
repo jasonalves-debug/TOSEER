@@ -1,11 +1,61 @@
 {
-  "generated": "2026-08-17T09:32:31.608491+00:00",
+  "generated": "2026-08-17T10:08:01.681475+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_296f7103960b",
+      "source": "police",
+      "lat": 43.65130669404502,
+      "lng": -79.41090322999824,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D14",
+      "location": "DUNDAS ST W - LN N DUNDAS W EUCLID",
+      "ts": "2026-08-17T09:35:25+00:00",
+      "related": [
+        {
+          "id": "tps_bfe14e78484d",
+          "distance_m": 409,
+          "minutes_apart": 56
+        },
+        {
+          "id": "tps_a51cc3134725",
+          "distance_m": 596,
+          "minutes_apart": 149
+        }
+      ]
+    },
+    {
+      "id": "tps_914b2aeb235a",
+      "source": "police",
+      "lat": 43.65471921581434,
+      "lng": -79.45998111450979,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D11",
+      "location": "BLOOR ST W - KEELE ST",
+      "ts": "2026-08-17T09:31:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d72ef5491a8b",
+      "source": "police",
+      "lat": 43.640372979329406,
+      "lng": -79.3888255380036,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D14",
+      "location": "REES ST - LOWER SPADINA AVE",
+      "ts": "2026-08-17T09:19:19+00:00",
+      "related": []
+    },
     {
       "id": "tps_1f035589593e",
       "source": "police",
@@ -68,7 +118,13 @@
       "division": "D14",
       "location": "DUNDAS ST W - BATHURST ST",
       "ts": "2026-08-17T08:39:10+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_296f7103960b",
+          "distance_m": 409,
+          "minutes_apart": 56
+        }
+      ]
     },
     {
       "id": "tps_3e6d3f2d9b24",
@@ -387,6 +443,11 @@
           "id": "tps_29f6d13f310b",
           "distance_m": 503,
           "minutes_apart": 102
+        },
+        {
+          "id": "tps_296f7103960b",
+          "distance_m": 596,
+          "minutes_apart": 149
         }
       ]
     },
@@ -8513,13 +8574,7 @@
       "division": "D31",
       "location": "DAYSTROM DR - WW N LANYARD E LINDYLOU",
       "ts": "2026-08-16T12:38:33+00:00",
-      "related": [
-        {
-          "id": "tps_c5dd78ab1751",
-          "distance_m": 436,
-          "minutes_apart": 162
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f9ff50fe863d",
@@ -9023,13 +9078,7 @@
       "approximate": false,
       "units": "P426CA, R346",
       "ts": "2026-08-16T10:24:45+00:00",
-      "related": [
-        {
-          "id": "tfs_F26127361",
-          "distance_m": 189,
-          "minutes_apart": 22
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_7fb09670d4cc",
@@ -9052,11 +9101,6 @@
           "id": "tps_be0ce75e8e4c",
           "distance_m": 300,
           "minutes_apart": 59
-        },
-        {
-          "id": "tfs_F26127361",
-          "distance_m": 563,
-          "minutes_apart": 17
         }
       ]
     },
@@ -9081,147 +9125,23 @@
           "id": "tps_be0ce75e8e4c",
           "distance_m": 300,
           "minutes_apart": 64
-        },
-        {
-          "id": "tfs_F26127361",
-          "distance_m": 563,
-          "minutes_apart": 12
         }
       ]
-    },
-    {
-      "id": "tfs_F26127362",
-      "source": "fire",
-      "lat": 43.6415666,
-      "lng": -79.3754851,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "334",
-      "location": "Toronto - BAY ST & QUEENS QUAY W",
-      "approximate": false,
-      "units": "R346, T333",
-      "ts": "2026-08-16T10:02:35+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26127361",
-      "source": "fire",
-      "lat": 43.6562537,
-      "lng": -79.3881872,
-      "type": "Fire - Commercial/Industrial",
-      "type_plain": "Fire - Commercial/Industrial",
-      "severity": "critical",
-      "division": "314",
-      "location": "Toronto - YONGE ST & ELM ST",
-      "approximate": false,
-      "units": "A135, A135, A322, BOX12, C30, C31, C32, C33, C34, C8, CMD30, CMD30C, FI31, FI32, FI33, HR332, HR332, HZ323, L312, L325, LA325, LA421, P116, P135, P311, P312, P313, P314, P315, P323, P326, P331, P332, P343, P344, P345, P426CA, R227, R325, R341, R346, REHAB01, S313, T1, T333",
-      "ts": "2026-08-16T10:02:24+00:00",
-      "related": [
-        {
-          "id": "tfs_F26127370",
-          "distance_m": 189,
-          "minutes_apart": 22
-        },
-        {
-          "id": "tps_f83f32ba7318",
-          "distance_m": 563,
-          "minutes_apart": 12
-        },
-        {
-          "id": "tps_7fb09670d4cc",
-          "distance_m": 563,
-          "minutes_apart": 17
-        }
-      ]
-    },
-    {
-      "id": "tps_c5dd78ab1751",
-      "source": "police",
-      "lat": 43.750643884213034,
-      "lng": -79.54906549257699,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D31",
-      "location": "LINDYLOU PARK TRL - JAYZEL DR",
-      "ts": "2026-08-16T09:56:47+00:00",
-      "related": [
-        {
-          "id": "tps_d8e86c572b07",
-          "distance_m": 436,
-          "minutes_apart": 162
-        }
-      ]
-    },
-    {
-      "id": "tps_16b8489487fa",
-      "source": "police",
-      "lat": 43.7085872547147,
-      "lng": -79.46410255130654,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D13",
-      "location": "LANSDOWNE AVE - ",
-      "ts": "2026-08-16T09:54:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_123822eb0b0c",
-      "source": "police",
-      "lat": 43.65729849640226,
-      "lng": -79.37344165169152,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D51",
-      "location": "GEORGE ST - PEMBROKE ST",
-      "ts": "2026-08-16T09:51:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0af17213742a",
-      "source": "police",
-      "lat": 43.65809089719463,
-      "lng": -79.35332956703142,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D51",
-      "location": "DON VALLEY PARKWAY S - QUEEN ST E",
-      "ts": "2026-08-16T09:35:29+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_80c7da30fcc0",
         "tps_7f8ca43efad3",
-        "tps_6ac8dd365ac4",
-        "tps_0be03fe8da21"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f93de847206f",
-        "tps_4c9e1a607add",
-        "tps_86ce0345e6a1"
+        "tps_6ac8dd365ac4"
       ]
     }
   ]
