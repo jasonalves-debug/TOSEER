@@ -1,11 +1,155 @@
 {
-  "generated": "2026-08-18T20:36:43.441433+00:00",
+  "generated": "2026-08-18T20:56:27.206150+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26128753",
+      "source": "fire",
+      "lat": 43.7155112,
+      "lng": -79.3282316,
+      "type": "Rescue - Elevator",
+      "type_plain": "Rescue - Elevator",
+      "severity": "medium",
+      "division": "125",
+      "location": "GRENOBLE DR & GRENOBLE DR",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-18T20:48:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_712c0e27dea9",
+      "source": "police",
+      "lat": 43.66054764426484,
+      "lng": -79.32904119855883,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D55",
+      "location": "MOSLEY ST - LN S EASTERN W LESLIE",
+      "ts": "2026-08-18T20:38:44+00:00",
+      "related": [
+        {
+          "id": "tps_6e404c1b83c6",
+          "distance_m": 384,
+          "minutes_apart": 105
+        }
+      ]
+    },
+    {
+      "id": "tps_dd06ab559704",
+      "source": "police",
+      "lat": 43.71013684643956,
+      "lng": -79.50616924282167,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D12",
+      "location": " - ",
+      "ts": "2026-08-18T20:35:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3e945a2fd11b",
+      "source": "police",
+      "lat": 43.64882708946998,
+      "lng": -79.40461713179289,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "ROBINSON ST - BATHURST ST",
+      "ts": "2026-08-18T20:35:40+00:00",
+      "related": [
+        {
+          "id": "tfs_F26128658",
+          "distance_m": 386,
+          "minutes_apart": 150
+        },
+        {
+          "id": "tps_fba25e907e4b",
+          "distance_m": 406,
+          "minutes_apart": 88
+        },
+        {
+          "id": "tps_de53d58ab358",
+          "distance_m": 427,
+          "minutes_apart": 76
+        }
+      ]
+    },
+    {
+      "id": "tps_f49c860da36e",
+      "source": "police",
+      "lat": 43.723747405692954,
+      "lng": -79.61691889178557,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "KINGSPLATE CRES - CINRICKBAR DR",
+      "ts": "2026-08-18T20:31:20+00:00",
+      "related": [
+        {
+          "id": "tps_ba07128cec2e",
+          "distance_m": 0,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26128743",
+      "source": "fire",
+      "lat": 43.7423233,
+      "lng": -79.309603,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "233",
+      "location": "VICTORIA PARK AVE & LAWRENCE AVE E",
+      "approximate": false,
+      "units": "P233",
+      "ts": "2026-08-18T20:31:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_718856bd7790",
+      "source": "police",
+      "lat": 43.669367508803624,
+      "lng": -79.38641264866088,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D51",
+      "location": "YONGE ST - CHURCH ST",
+      "ts": "2026-08-18T20:29:42+00:00",
+      "related": [
+        {
+          "id": "tps_4f3d8b37d1a9",
+          "distance_m": 406,
+          "minutes_apart": 33
+        },
+        {
+          "id": "tps_c610b63da56b",
+          "distance_m": 445,
+          "minutes_apart": 33
+        },
+        {
+          "id": "tps_b822c752d2d7",
+          "distance_m": 504,
+          "minutes_apart": 145
+        },
+        {
+          "id": "tps_34ee95064631",
+          "distance_m": 516,
+          "minutes_apart": 106
+        }
+      ]
+    },
     {
       "id": "tps_dce0dd7fe359",
       "source": "police",
@@ -87,7 +231,13 @@
       "division": "D23",
       "location": "KINGSPLATE CRES - CINRICKBAR DR",
       "ts": "2026-08-18T20:18:13+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_f49c860da36e",
+          "distance_m": 0,
+          "minutes_apart": 13
+        }
+      ]
     },
     {
       "id": "tps_95e949984778",
@@ -349,7 +499,13 @@
       "division": "D53",
       "location": "CHURCH ST - FRICHOT AVE",
       "ts": "2026-08-18T19:56:24+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_718856bd7790",
+          "distance_m": 406,
+          "minutes_apart": 33
+        }
+      ]
     },
     {
       "id": "tps_c610b63da56b",
@@ -377,6 +533,11 @@
           "id": "tps_34ee95064631",
           "distance_m": 360,
           "minutes_apart": 72
+        },
+        {
+          "id": "tps_718856bd7790",
+          "distance_m": 445,
+          "minutes_apart": 33
         },
         {
           "id": "tps_fed3c03a8473",
@@ -727,6 +888,11 @@
           "minutes_apart": 11
         },
         {
+          "id": "tps_3e945a2fd11b",
+          "distance_m": 427,
+          "minutes_apart": 76
+        },
+        {
           "id": "tps_fc10fecefc66",
           "distance_m": 552,
           "minutes_apart": 28
@@ -740,11 +906,6 @@
           "id": "tps_18d4ee5affce",
           "distance_m": 563,
           "minutes_apart": 38
-        },
-        {
-          "id": "tfs_F26128672",
-          "distance_m": 565,
-          "minutes_apart": 49
         }
       ]
     },
@@ -814,6 +975,11 @@
           "id": "tps_de53d58ab358",
           "distance_m": 156,
           "minutes_apart": 11
+        },
+        {
+          "id": "tps_3e945a2fd11b",
+          "distance_m": 406,
+          "minutes_apart": 88
         },
         {
           "id": "tps_ef0b696d54d3",
@@ -910,6 +1076,11 @@
       "location": "QUEEN ST E - JONES AVE",
       "ts": "2026-08-18T18:53:47+00:00",
       "related": [
+        {
+          "id": "tps_712c0e27dea9",
+          "distance_m": 384,
+          "minutes_apart": 105
+        },
         {
           "id": "tps_7afb25bb666c",
           "distance_m": 409,
@@ -1125,6 +1296,11 @@
           "id": "tps_7b46e62fcc90",
           "distance_m": 483,
           "minutes_apart": 28
+        },
+        {
+          "id": "tps_718856bd7790",
+          "distance_m": 516,
+          "minutes_apart": 106
         },
         {
           "id": "tps_cf80c1eeb9f8",
@@ -1680,6 +1856,11 @@
           "minutes_apart": 74
         },
         {
+          "id": "tps_3e945a2fd11b",
+          "distance_m": 386,
+          "minutes_apart": 150
+        },
+        {
           "id": "tps_ef0b696d54d3",
           "distance_m": 482,
           "minutes_apart": 134
@@ -1717,6 +1898,11 @@
           "id": "tps_fd8bddf0c4c5",
           "distance_m": 377,
           "minutes_apart": 31
+        },
+        {
+          "id": "tps_718856bd7790",
+          "distance_m": 504,
+          "minutes_apart": 145
         },
         {
           "id": "tps_cf80c1eeb9f8",
@@ -10118,13 +10304,7 @@
       "division": "D55",
       "location": "LEE AVE - GLEN STEWART CRES",
       "ts": "2026-08-17T22:01:25+00:00",
-      "related": [
-        {
-          "id": "tps_24429e10bf56",
-          "distance_m": 109,
-          "minutes_apart": 73
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_99a3f5a38c64",
@@ -10176,11 +10356,6 @@
           "id": "tps_e2c945025400",
           "distance_m": 0,
           "minutes_apart": 58
-        },
-        {
-          "id": "tfs_F26128173",
-          "distance_m": 18,
-          "minutes_apart": 68
         }
       ]
     },
@@ -10228,11 +10403,6 @@
       "location": "TRENT AVE - KELVIN AVE",
       "ts": "2026-08-17T21:54:53+00:00",
       "related": [
-        {
-          "id": "tps_dc2edff809a7",
-          "distance_m": 154,
-          "minutes_apart": 75
-        },
         {
           "id": "tps_4f8f4b55e07e",
           "distance_m": 395,
@@ -10282,16 +10452,6 @@
           "id": "tps_02748a24e61e",
           "distance_m": 0,
           "minutes_apart": 16
-        },
-        {
-          "id": "tps_24b0af4d7038",
-          "distance_m": 285,
-          "minutes_apart": 64
-        },
-        {
-          "id": "tfs_F26128169",
-          "distance_m": 309,
-          "minutes_apart": 74
         }
       ]
     },
@@ -10508,16 +10668,6 @@
           "id": "tps_2b163dfe644d",
           "distance_m": 0,
           "minutes_apart": 16
-        },
-        {
-          "id": "tps_24b0af4d7038",
-          "distance_m": 285,
-          "minutes_apart": 48
-        },
-        {
-          "id": "tfs_F26128169",
-          "distance_m": 309,
-          "minutes_apart": 59
         }
       ]
     },
@@ -10848,228 +10998,8 @@
           "id": "tps_f03d72bc4c97",
           "distance_m": 0,
           "minutes_apart": 58
-        },
-        {
-          "id": "tfs_F26128173",
-          "distance_m": 18,
-          "minutes_apart": 9
         }
       ]
-    },
-    {
-      "id": "tps_0cfeddd30823",
-      "source": "police",
-      "lat": 43.70495988587213,
-      "lng": -79.34976931894406,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "OVERLEA BLVD - LEASIDE PARK TRL",
-      "ts": "2026-08-17T20:52:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26128173",
-      "source": "fire",
-      "lat": 43.7835832,
-      "lng": -79.2665666,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "243",
-      "location": "PITFIELD RD & BRIMLEY RD",
-      "approximate": false,
-      "units": "P242",
-      "ts": "2026-08-17T20:48:44+00:00",
-      "related": [
-        {
-          "id": "tps_e2c945025400",
-          "distance_m": 18,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_f03d72bc4c97",
-          "distance_m": 18,
-          "minutes_apart": 68
-        }
-      ]
-    },
-    {
-      "id": "tps_24b0af4d7038",
-      "source": "police",
-      "lat": 43.77456047184858,
-      "lng": -79.25215485725063,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D43",
-      "location": "MCCOWAN RD - BUSHBY DR",
-      "ts": "2026-08-17T20:48:31+00:00",
-      "related": [
-        {
-          "id": "tfs_F26128169",
-          "distance_m": 46,
-          "minutes_apart": 11
-        },
-        {
-          "id": "tps_02748a24e61e",
-          "distance_m": 285,
-          "minutes_apart": 48
-        },
-        {
-          "id": "tps_2b163dfe644d",
-          "distance_m": 285,
-          "minutes_apart": 64
-        }
-      ]
-    },
-    {
-      "id": "tps_24429e10bf56",
-      "source": "police",
-      "lat": 43.678153828084824,
-      "lng": -79.30115804677132,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D55",
-      "location": "LEE AVE - GLEN STEWART CRES",
-      "ts": "2026-08-17T20:48:19+00:00",
-      "related": [
-        {
-          "id": "tps_b639b604a637",
-          "distance_m": 109,
-          "minutes_apart": 73
-        }
-      ]
-    },
-    {
-      "id": "tps_1d76e0b37df2",
-      "source": "police",
-      "lat": 43.66221667969741,
-      "lng": -79.31480841846755,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D55",
-      "location": "COXWELL AVE - NORTHERN DANCER BLVD",
-      "ts": "2026-08-17T20:44:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7561fa253297",
-      "source": "police",
-      "lat": 43.63877549027512,
-      "lng": -79.44841411719405,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D11",
-      "location": "HUMBER RIVER - ONTARIO PLACE BRIDGE",
-      "ts": "2026-08-17T20:41:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_76ed204ad921",
-      "source": "police",
-      "lat": 43.65100869136317,
-      "lng": -79.34697697013733,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - LAKE SHORE BLVD E",
-      "ts": "2026-08-17T20:41:04+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_16bf31171779",
-      "source": "police",
-      "lat": 43.7473021817281,
-      "lng": -79.56441038215858,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "FINCH AVE W - MILADY RD",
-      "ts": "2026-08-17T20:41:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dc2edff809a7",
-      "source": "police",
-      "lat": 43.6890547238489,
-      "lng": -79.29789525430746,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D55",
-      "location": "BARRINGTON AVE - GUEST AVE",
-      "ts": "2026-08-17T20:39:59+00:00",
-      "related": [
-        {
-          "id": "tps_61a1fa222f02",
-          "distance_m": 154,
-          "minutes_apart": 75
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26128169",
-      "source": "fire",
-      "lat": 43.7746217,
-      "lng": -79.251584,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "243",
-      "location": "MCCOWAN RD & BUSHBY DR",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-17T20:37:50+00:00",
-      "related": [
-        {
-          "id": "tps_24b0af4d7038",
-          "distance_m": 46,
-          "minutes_apart": 11
-        },
-        {
-          "id": "tps_02748a24e61e",
-          "distance_m": 309,
-          "minutes_apart": 59
-        },
-        {
-          "id": "tps_2b163dfe644d",
-          "distance_m": 309,
-          "minutes_apart": 74
-        }
-      ]
-    },
-    {
-      "id": "tps_01dbf56667db",
-      "source": "police",
-      "lat": 43.79198493665511,
-      "lng": -79.36453443036578,
-      "type": "LOSEL",
-      "type_plain": "Lost/Found Property or Person",
-      "severity": "low",
-      "division": "D33",
-      "location": "WILLESDEN RD - LOTUS CRT",
-      "ts": "2026-08-17T20:37:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4fa06417756f",
-      "source": "police",
-      "lat": 43.69358287898297,
-      "lng": -79.51836487002564,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D23",
-      "location": "SCARLETT RD - ",
-      "ts": "2026-08-17T20:36:53+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11077,40 +11007,72 @@
       "source": "police",
       "division": "D14",
       "current_count": 12,
-      "baseline_avg": 2.0,
-      "ratio": 6.0,
+      "baseline_avg": 2.2,
+      "ratio": 5.5,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_3e945a2fd11b",
         "tps_ef0b696d54d3",
         "tps_3603b5cf629a",
         "tps_896720d89ed0",
-        "tps_61d6e7b5e55f",
-        "tps_de53d58ab358"
+        "tps_61d6e7b5e55f"
       ]
     },
     {
       "source": "police",
       "division": "D55",
       "current_count": 10,
-      "baseline_avg": 2.0,
-      "ratio": 5.0,
+      "baseline_avg": 2.2,
+      "ratio": 4.6,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_712c0e27dea9",
         "tps_d142827330b3",
         "tps_01f397ff9dca",
         "tps_6e404c1b83c6",
-        "tps_260888f025e5",
-        "tps_5741c4ca371c"
+        "tps_260888f025e5"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 10,
+      "baseline_avg": 2.2,
+      "ratio": 4.5,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_718856bd7790",
+        "tps_c610b63da56b",
+        "tps_5b2b7f19fcd7",
+        "tps_a5b3f792a5c4",
+        "tps_34ee95064631"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 11,
+      "baseline_avg": 2.7,
+      "ratio": 4.1,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f49c860da36e",
+        "tps_e745910e3ba4",
+        "tps_b871fa47cfbc",
+        "tps_fc10fecefc66",
+        "tps_cc1e8d4daef8"
       ]
     },
     {
       "source": "police",
       "division": "D23",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.5,
-      "ratio": 4.0,
+      "ratio": 3.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -11123,66 +11085,17 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 10,
-      "baseline_avg": 2.5,
-      "ratio": 4.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e745910e3ba4",
-        "tps_b871fa47cfbc",
-        "tps_fc10fecefc66",
-        "tps_cc1e8d4daef8",
-        "tps_2c50cc9c232c"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D42",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.2,
-      "ratio": 4.0,
+      "ratio": 3.2,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_7a9d6cda9e4a",
         "tps_1e584872380b",
         "tps_583de2d7fff1",
-        "tps_243033ba245c",
-        "tps_8a078a3ca13c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 9,
-      "baseline_avg": 2.5,
-      "ratio": 3.6,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c610b63da56b",
-        "tps_5b2b7f19fcd7",
-        "tps_a5b3f792a5c4",
-        "tps_34ee95064631",
-        "tps_fa1e2dd4cfdd"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.1,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6dc7934e7037",
-        "tps_1ad3eb151585",
-        "tps_d36361346d5d",
-        "tps_db53d762ab0f",
-        "tps_04d229e7360a"
+        "tps_243033ba245c"
       ]
     },
     {
@@ -11201,6 +11114,21 @@
     },
     {
       "source": "police",
+      "division": "D12",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_dd06ab559704",
+        "tps_e12075b6def6",
+        "tps_73cc939d4b49",
+        "tps_41ade89033c3"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D52",
       "current_count": 4,
       "baseline_avg": 1.4,
@@ -11212,22 +11140,6 @@
         "tps_37c9bd74a4cd",
         "tps_7b46e62fcc90",
         "tps_92c39270852d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.8,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_af30f5ea5b8d",
-        "tps_2b89e73a3b1a",
-        "tps_1258e811b2ce",
-        "tps_28925b8e8492",
-        "tps_13bbc92d8fbc"
       ]
     },
     {
@@ -11248,16 +11160,33 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 3,
-      "baseline_avg": 1.2,
+      "division": "D22",
+      "current_count": 4,
+      "baseline_avg": 1.6,
       "ratio": 2.5,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_e12075b6def6",
-        "tps_73cc939d4b49",
-        "tps_41ade89033c3"
+        "tps_6dc7934e7037",
+        "tps_1ad3eb151585",
+        "tps_d36361346d5d",
+        "tps_db53d762ab0f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_af30f5ea5b8d",
+        "tps_2b89e73a3b1a",
+        "tps_1258e811b2ce",
+        "tps_28925b8e8492",
+        "tps_13bbc92d8fbc"
       ]
     },
     {
