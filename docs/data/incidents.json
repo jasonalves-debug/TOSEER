@@ -1,11 +1,156 @@
 {
-  "generated": "2026-08-18T08:19:23.000023+00:00",
+  "generated": "2026-08-18T08:59:01.029150+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_0b8ebf2144c8",
+      "source": "police",
+      "lat": 43.66399210309582,
+      "lng": -79.38347994727954,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "GROSVENOR ST - BREADALBANE ST",
+      "ts": "2026-08-18T08:47:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_51d56fe07c4e",
+      "source": "police",
+      "lat": 43.76235458765221,
+      "lng": -79.41115599819281,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D32",
+      "location": "HARLANDALE AVE - ELMHURST AVE",
+      "ts": "2026-08-18T08:43:18+00:00",
+      "related": [
+        {
+          "id": "tps_5d3df63c2986",
+          "distance_m": 95,
+          "minutes_apart": 5
+        }
+      ]
+    },
+    {
+      "id": "tps_a5e9ee869c55",
+      "source": "police",
+      "lat": 43.66022180085224,
+      "lng": -79.3515872701127,
+      "type": "BREJU",
+      "type_plain": "BREJU",
+      "severity": "low",
+      "division": "D55",
+      "location": "THOMPSON ST - LN N THOMPSON E HAMILTON",
+      "ts": "2026-08-18T08:39:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5d3df63c2986",
+      "source": "police",
+      "lat": 43.761515587776984,
+      "lng": -79.41092000144481,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D32",
+      "location": "YONGE ST - DORIS AVE",
+      "ts": "2026-08-18T08:38:16+00:00",
+      "related": [
+        {
+          "id": "tps_51d56fe07c4e",
+          "distance_m": 95,
+          "minutes_apart": 5
+        }
+      ]
+    },
+    {
+      "id": "tps_e9d0ac3730ab",
+      "source": "police",
+      "lat": 43.65625839536214,
+      "lng": -79.37830414810317,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D51",
+      "location": "VICTORIA STREET LANE - BOND ST",
+      "ts": "2026-08-18T08:28:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4c20cbff1a23",
+      "source": "police",
+      "lat": 43.781893801681335,
+      "lng": -79.2264081376536,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D43",
+      "location": "MARKHAM RD - ",
+      "ts": "2026-08-18T08:26:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_79eba09a149a",
+      "source": "police",
+      "lat": 43.79745386822504,
+      "lng": -79.15487185029478,
+      "type": "DAMJU",
+      "type_plain": "DAMJU",
+      "severity": "low",
+      "division": "D42",
+      "location": "TIDESWELL BLVD - TIDESWELL BLVD",
+      "ts": "2026-08-18T08:20:26+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_805635fe41d5",
+      "source": "police",
+      "lat": 43.66633588572602,
+      "lng": -79.31656272024765,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "COXWELL AVE - QUEEN ST E",
+      "ts": "2026-08-18T08:18:55+00:00",
+      "related": [
+        {
+          "id": "tps_59f228de89d0",
+          "distance_m": 0,
+          "minutes_apart": 144
+        },
+        {
+          "id": "tps_0cc94470167e",
+          "distance_m": 306,
+          "minutes_apart": 135
+        },
+        {
+          "id": "tps_3c6a9787591a",
+          "distance_m": 436,
+          "minutes_apart": 84
+        }
+      ]
+    },
+    {
+      "id": "tps_5b25cd65ffe9",
+      "source": "police",
+      "lat": 43.66672392285862,
+      "lng": -79.44645392062525,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D11",
+      "location": "DUPONT ST - C P R",
+      "ts": "2026-08-18T08:15:38+00:00",
+      "related": []
+    },
     {
       "id": "tps_2f923bede4e8",
       "source": "police",
@@ -180,6 +325,11 @@
           "minutes_apart": 60
         },
         {
+          "id": "tps_805635fe41d5",
+          "distance_m": 436,
+          "minutes_apart": 84
+        },
+        {
           "id": "tps_0cc94470167e",
           "distance_m": 531,
           "minutes_apart": 50
@@ -333,6 +483,11 @@
           "minutes_apart": 9
         },
         {
+          "id": "tps_805635fe41d5",
+          "distance_m": 306,
+          "minutes_apart": 135
+        },
+        {
           "id": "tps_c37befe72460",
           "distance_m": 306,
           "minutes_apart": 138
@@ -410,6 +565,11 @@
           "id": "tps_c37befe72460",
           "distance_m": 0,
           "minutes_apart": 129
+        },
+        {
+          "id": "tps_805635fe41d5",
+          "distance_m": 0,
+          "minutes_apart": 144
         },
         {
           "id": "tps_0cc94470167e",
@@ -10410,11 +10570,6 @@
       "ts": "2026-08-17T09:54:24+00:00",
       "related": [
         {
-          "id": "tps_960ba515533e",
-          "distance_m": 0,
-          "minutes_apart": 90
-        },
-        {
           "id": "tps_06056e48ac5b",
           "distance_m": 292,
           "minutes_apart": 155
@@ -10484,13 +10639,7 @@
       "division": "D14",
       "location": "DUNDAS ST W - LN N DUNDAS W EUCLID",
       "ts": "2026-08-17T09:35:25+00:00",
-      "related": [
-        {
-          "id": "tps_bfe14e78484d",
-          "distance_m": 409,
-          "minutes_apart": 56
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_914b2aeb235a",
@@ -10523,152 +10672,23 @@
           "minutes_apart": 77
         }
       ]
-    },
-    {
-      "id": "tps_1f035589593e",
-      "source": "police",
-      "lat": 43.69366468707675,
-      "lng": -79.56427606339243,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D23",
-      "location": "CAMPERDOWN AVE - KINGSVIEW BLVD",
-      "ts": "2026-08-17T08:51:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_29f6d13f310b",
-      "source": "police",
-      "lat": 43.646464986808226,
-      "lng": -79.40371833209247,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "LN E BATHURST N RICHMOND - LN E BATHURST S RICHMOND",
-      "ts": "2026-08-17T08:49:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_acc3dc84f73c",
-      "source": "police",
-      "lat": 43.699122629167796,
-      "lng": -79.25435439165943,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D41",
-      "location": "ROSETTA MCCLAIN GARDENS TRL - WYNNVIEW CRT",
-      "ts": "2026-08-17T08:44:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bfe14e78484d",
-      "source": "police",
-      "lat": 43.652310093633126,
-      "lng": -79.40601573209595,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "DUNDAS ST W - BATHURST ST",
-      "ts": "2026-08-17T08:39:10+00:00",
-      "related": [
-        {
-          "id": "tps_296f7103960b",
-          "distance_m": 409,
-          "minutes_apart": 56
-        }
-      ]
-    },
-    {
-      "id": "tps_3e6d3f2d9b24",
-      "source": "police",
-      "lat": 43.67071132087026,
-      "lng": -79.43316532640213,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D13",
-      "location": "LN N GEARY E WESTMORELAND - LN S DAVENPORT E WESTMORELAND",
-      "ts": "2026-08-17T08:32:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_960ba515533e",
-      "source": "police",
-      "lat": 43.63732592854398,
-      "lng": -79.53666959221916,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": "DUNDAS E ST ALBANS RAMP - AUKLAND RD",
-      "ts": "2026-08-17T08:24:33+00:00",
-      "related": [
-        {
-          "id": "tps_b378d3314b35",
-          "distance_m": 0,
-          "minutes_apart": 90
-        }
-      ]
-    },
-    {
-      "id": "tps_e0f745c3facf",
-      "source": "police",
-      "lat": 43.67487701573222,
-      "lng": -79.38866815016283,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D53",
-      "location": "CHURCH ST - FRICHOT AVE",
-      "ts": "2026-08-17T08:20:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d8591fc1fc7b",
-      "source": "police",
-      "lat": 43.70382995719423,
-      "lng": -79.5239828465961,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D12",
-      "location": "WESTON RD - CROSS ST",
-      "ts": "2026-08-17T08:19:58+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 3,
+      "division": "D55",
+      "current_count": 7,
       "baseline_avg": 1.0,
-      "ratio": 3.0,
+      "ratio": 7.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_e937f1a029bb",
-        "tps_bdcea29d4d03",
-        "tps_fba96cf5b963"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4c38ad8486ee",
-        "tps_29eeaa71a29b",
-        "tps_b1c9e2828ced",
-        "tps_6814263e7b93"
+        "tps_a5e9ee869c55",
+        "tps_526aca0a0a93",
+        "tps_295d558a0296",
+        "tps_ee2ba76fe308",
+        "tps_3c6a9787591a"
       ]
     }
   ]
