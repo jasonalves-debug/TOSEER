@@ -1,11 +1,80 @@
 {
-  "generated": "2026-08-18T08:59:01.029150+00:00",
+  "generated": "2026-08-18T09:28:43.614563+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_14c0c6be2544",
+      "source": "police",
+      "lat": 43.66565180475552,
+      "lng": -79.38769484642785,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D52",
+      "location": "ST BASIL LANE - ST JOSEPH ST",
+      "ts": "2026-08-18T09:05:59+00:00",
+      "related": [
+        {
+          "id": "tps_0b8ebf2144c8",
+          "distance_m": 386,
+          "minutes_apart": 19
+        },
+        {
+          "id": "tps_2f923bede4e8",
+          "distance_m": 580,
+          "minutes_apart": 82
+        }
+      ]
+    },
+    {
+      "id": "tps_81e9239d7054",
+      "source": "police",
+      "lat": 43.71562496462034,
+      "lng": -79.3280755341621,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D55",
+      "location": "GRENOBLE DR - ",
+      "ts": "2026-08-18T09:00:12+00:00",
+      "related": [
+        {
+          "id": "tps_ee2ba76fe308",
+          "distance_m": 495,
+          "minutes_apart": 124
+        }
+      ]
+    },
+    {
+      "id": "tps_a0322d7a2507",
+      "source": "police",
+      "lat": 43.6799642081839,
+      "lng": -79.32145753107822,
+      "type": "MISVU",
+      "type_plain": "Missing Person (Vulnerable)",
+      "severity": "low",
+      "division": "D55",
+      "location": "HANSON ST - HILLINGDON AVE",
+      "ts": "2026-08-18T08:57:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b7d4129ff5e4",
+      "source": "police",
+      "lat": 43.674693119169596,
+      "lng": -79.36665166737524,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D51",
+      "location": "DRUMSNAB RD - PRINCE EDWARD VIADUCT",
+      "ts": "2026-08-18T08:52:02+00:00",
+      "related": []
+    },
     {
       "id": "tps_0b8ebf2144c8",
       "source": "police",
@@ -17,7 +86,13 @@
       "division": "D51",
       "location": "GROSVENOR ST - BREADALBANE ST",
       "ts": "2026-08-18T08:47:24+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_14c0c6be2544",
+          "distance_m": 386,
+          "minutes_apart": 19
+        }
+      ]
     },
     {
       "id": "tps_51d56fe07c4e",
@@ -162,7 +237,13 @@
       "division": "D53",
       "location": "BELLAIR ST - AVENUE RD",
       "ts": "2026-08-18T07:44:11+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_14c0c6be2544",
+          "distance_m": 580,
+          "minutes_apart": 82
+        }
+      ]
     },
     {
       "id": "tps_3060ac5ac6bd",
@@ -305,7 +386,13 @@
       "division": "D55",
       "location": "GATEWAY BLVD - FLEMINGDON PARK TRL",
       "ts": "2026-08-18T06:55:45+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_81e9239d7054",
+          "distance_m": 495,
+          "minutes_apart": 124
+        }
+      ]
     },
     {
       "id": "tps_3c6a9787591a",
@@ -10523,13 +10610,7 @@
       "division": "D52",
       "location": "REES STREET PARKETTE TRL - ROBERTSON CRES",
       "ts": "2026-08-17T10:36:25+00:00",
-      "related": [
-        {
-          "id": "tps_d72ef5491a8b",
-          "distance_m": 314,
-          "minutes_apart": 77
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_dd60f1b1bb12",
@@ -10653,42 +10734,37 @@
       "location": "BLOOR ST W - KEELE ST",
       "ts": "2026-08-17T09:31:15+00:00",
       "related": []
-    },
-    {
-      "id": "tps_d72ef5491a8b",
-      "source": "police",
-      "lat": 43.640372979329406,
-      "lng": -79.3888255380036,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D14",
-      "location": "REES ST - LOWER SPADINA AVE",
-      "ts": "2026-08-17T09:19:19+00:00",
-      "related": [
-        {
-          "id": "tps_b72280b5e66f",
-          "distance_m": 314,
-          "minutes_apart": 77
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 7,
+      "current_count": 8,
+      "baseline_avg": 1.5,
+      "ratio": 5.3,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_81e9239d7054",
+        "tps_a0322d7a2507",
+        "tps_a5e9ee869c55",
+        "tps_526aca0a0a93",
+        "tps_295d558a0296"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 3,
       "baseline_avg": 1.0,
-      "ratio": 7.0,
+      "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_a5e9ee869c55",
-        "tps_526aca0a0a93",
-        "tps_295d558a0296",
-        "tps_ee2ba76fe308",
-        "tps_3c6a9787591a"
+        "tps_51d56fe07c4e",
+        "tps_5d3df63c2986",
+        "tps_be4cf81ab601"
       ]
     }
   ]
