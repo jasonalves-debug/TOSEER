@@ -1,11 +1,81 @@
 {
-  "generated": "2026-08-18T09:57:30.671207+00:00",
+  "generated": "2026-08-18T10:20:20.555585+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_4dba4d7aa1db",
+      "source": "police",
+      "lat": 43.721794955019355,
+      "lng": -79.45641070770246,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D32",
+      "location": "DUFFERIN ST - BENTWORTH AVE",
+      "ts": "2026-08-18T09:45:37+00:00",
+      "related": [
+        {
+          "id": "tps_b5ba2fad8302",
+          "distance_m": 0,
+          "minutes_apart": 10
+        }
+      ]
+    },
+    {
+      "id": "tps_d82447fc0223",
+      "source": "police",
+      "lat": 43.73087856940539,
+      "lng": -79.59939966806567,
+      "type": "HOLTR",
+      "type_plain": "HOLTR",
+      "severity": "low",
+      "division": "D23",
+      "location": "WESTMORE DR - 27 HWY N",
+      "ts": "2026-08-18T09:44:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9815ae457912",
+      "source": "police",
+      "lat": 43.67493361636331,
+      "lng": -79.39036954905889,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D53",
+      "location": "MCMURRICH ST - LN E DAVENPORT N BELMONT",
+      "ts": "2026-08-18T09:40:46+00:00",
+      "related": [
+        {
+          "id": "tps_2f923bede4e8",
+          "distance_m": 515,
+          "minutes_apart": 117
+        }
+      ]
+    },
+    {
+      "id": "tps_b5ba2fad8302",
+      "source": "police",
+      "lat": 43.721794955019355,
+      "lng": -79.45641070770246,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "3GRP",
+      "location": "DUFFERIN ST - BENTWORTH AVE",
+      "ts": "2026-08-18T09:36:07+00:00",
+      "related": [
+        {
+          "id": "tps_4dba4d7aa1db",
+          "distance_m": 0,
+          "minutes_apart": 10
+        }
+      ]
+    },
     {
       "id": "tps_27a1c26f30de",
       "source": "police",
@@ -308,6 +378,11 @@
       "location": "BELLAIR ST - AVENUE RD",
       "ts": "2026-08-18T07:44:11+00:00",
       "related": [
+        {
+          "id": "tps_9815ae457912",
+          "distance_m": 515,
+          "minutes_apart": 117
+        },
         {
           "id": "tps_14c0c6be2544",
           "distance_m": 580,
@@ -10681,65 +10756,37 @@
       "location": "REES STREET PARKETTE TRL - ROBERTSON CRES",
       "ts": "2026-08-17T10:36:25+00:00",
       "related": []
-    },
-    {
-      "id": "tps_dd60f1b1bb12",
-      "source": "police",
-      "lat": 43.71681870555321,
-      "lng": -79.56297295506367,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D23",
-      "location": "REDWATER DR - STAVELY CRES",
-      "ts": "2026-08-17T10:20:15+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_81e9239d7054",
-        "tps_a0322d7a2507",
-        "tps_a5e9ee869c55",
-        "tps_526aca0a0a93",
-        "tps_295d558a0296"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_51d56fe07c4e",
-        "tps_5d3df63c2986",
-        "tps_be4cf81ab601"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
       "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_177d2454af9e",
         "tps_b7d4129ff5e4",
         "tps_0b8ebf2144c8",
         "tps_e9d0ac3730ab"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.3,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_81e9239d7054",
+        "tps_a0322d7a2507",
+        "tps_a5e9ee869c55",
+        "tps_526aca0a0a93"
       ]
     }
   ]
