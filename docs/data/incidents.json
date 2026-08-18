@@ -1,11 +1,26 @@
 {
-  "generated": "2026-08-18T20:56:27.206150+00:00",
+  "generated": "2026-08-18T21:13:37.648834+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26128756",
+      "source": "fire",
+      "lat": 43.6438174,
+      "lng": -79.4477753,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "426",
+      "location": "GARDEN AVE & RONCESVALLES AVE",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-18T20:56:18+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26128753",
       "source": "fire",
@@ -17,7 +32,7 @@
       "division": "125",
       "location": "GRENOBLE DR & GRENOBLE DR",
       "approximate": false,
-      "units": "",
+      "units": "P224, S313",
       "ts": "2026-08-18T20:48:47+00:00",
       "related": []
     },
@@ -9597,13 +9612,7 @@
       "division": "D14",
       "location": "COLLEGE ST - ULSTER ST",
       "ts": "2026-08-17T23:15:10+00:00",
-      "related": [
-        {
-          "id": "tps_061e3ba6754a",
-          "distance_m": 362,
-          "minutes_apart": 136
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26128263",
@@ -10351,13 +10360,7 @@
       "division": "HP",
       "location": "BRIMLEY RD - PITFIELD RD",
       "ts": "2026-08-17T21:56:19+00:00",
-      "related": [
-        {
-          "id": "tps_e2c945025400",
-          "distance_m": 0,
-          "minutes_apart": 58
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_b08b8b3c0104",
@@ -10726,11 +10729,6 @@
           "id": "tps_4c3c7eb0768d",
           "distance_m": 314,
           "minutes_apart": 129
-        },
-        {
-          "id": "tps_35f27a7e0ce3",
-          "distance_m": 322,
-          "minutes_apart": 27
         }
       ]
     },
@@ -10902,114 +10900,16 @@
           "minutes_apart": 85
         }
       ]
-    },
-    {
-      "id": "tps_90e0d13574a5",
-      "source": "police",
-      "lat": 43.76408215220628,
-      "lng": -79.48826730101463,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D31",
-      "location": "TORO RD - FINCH AVE W",
-      "ts": "2026-08-17T21:05:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_35f27a7e0ce3",
-      "source": "police",
-      "lat": 43.75250408148412,
-      "lng": -79.5164797123403,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D31",
-      "location": "CANE GRASSWAY - YEWTREE BLVD",
-      "ts": "2026-08-17T21:05:14+00:00",
-      "related": [
-        {
-          "id": "tps_3f2361d0aa89",
-          "distance_m": 322,
-          "minutes_apart": 27
-        }
-      ]
-    },
-    {
-      "id": "tps_9f09e5bb1dfb",
-      "source": "police",
-      "lat": 43.77874339614056,
-      "lng": -79.41529315076288,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "TOLMAN ST - FINCH AVE W",
-      "ts": "2026-08-17T21:03:18+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26128180",
-      "source": "fire",
-      "lat": 43.7042096,
-      "lng": -79.4094508,
-      "type": "Fire Alarm - Check Call",
-      "type_plain": "Fire Alarm - Check Call",
-      "severity": "medium",
-      "division": "135",
-      "location": "Toronto - EGLINTON AVE & BRAEMAR AVE",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-17T21:00:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_061e3ba6754a",
-      "source": "police",
-      "lat": 43.655969198455644,
-      "lng": -79.41014773150516,
-      "type": "THEPR",
-      "type_plain": "Theft (Priority)",
-      "severity": "medium",
-      "division": "D14",
-      "location": "MARKHAM ST - PALMERSTON BLVD",
-      "ts": "2026-08-17T20:59:18+00:00",
-      "related": [
-        {
-          "id": "tps_6d2a1b13ba33",
-          "distance_m": 362,
-          "minutes_apart": 136
-        }
-      ]
-    },
-    {
-      "id": "tps_e2c945025400",
-      "source": "police",
-      "lat": 43.78347795358452,
-      "lng": -79.26640230733226,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D42",
-      "location": "BRIMLEY RD - PITFIELD RD",
-      "ts": "2026-08-17T20:58:12+00:00",
-      "related": [
-        {
-          "id": "tps_f03d72bc4c97",
-          "distance_m": 0,
-          "minutes_apart": 58
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 12,
-      "baseline_avg": 2.2,
-      "ratio": 5.5,
-      "sample_days": 5,
+      "current_count": 11,
+      "baseline_avg": 2.3,
+      "ratio": 4.7,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_3e945a2fd11b",
@@ -11021,26 +10921,10 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 10,
-      "baseline_avg": 2.2,
-      "ratio": 4.6,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_712c0e27dea9",
-        "tps_d142827330b3",
-        "tps_01f397ff9dca",
-        "tps_6e404c1b83c6",
-        "tps_260888f025e5"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
-      "current_count": 10,
-      "baseline_avg": 2.2,
-      "ratio": 4.5,
+      "current_count": 8,
+      "baseline_avg": 1.8,
+      "ratio": 4.4,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -11053,27 +10937,43 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 11,
-      "baseline_avg": 2.7,
-      "ratio": 4.1,
-      "sample_days": 6,
+      "division": "D32",
+      "current_count": 5,
+      "baseline_avg": 1.4,
+      "ratio": 3.6,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_f49c860da36e",
-        "tps_e745910e3ba4",
-        "tps_b871fa47cfbc",
-        "tps_fc10fecefc66",
-        "tps_cc1e8d4daef8"
+        "tps_af30f5ea5b8d",
+        "tps_2b89e73a3b1a",
+        "tps_1258e811b2ce",
+        "tps_28925b8e8492",
+        "tps_13bbc92d8fbc"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 7,
+      "baseline_avg": 2.2,
+      "ratio": 3.2,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_712c0e27dea9",
+        "tps_d142827330b3",
+        "tps_01f397ff9dca",
+        "tps_6e404c1b83c6",
+        "tps_260888f025e5"
       ]
     },
     {
       "source": "police",
       "division": "D23",
       "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_ba07128cec2e",
@@ -11085,69 +10985,24 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7a9d6cda9e4a",
-        "tps_1e584872380b",
-        "tps_583de2d7fff1",
-        "tps_243033ba245c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
+      "division": "D33",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
-      "sample_days": 5,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_fed3c03a8473",
-        "tps_4f3d8b37d1a9",
-        "tps_5f4e832bca47"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_dd06ab559704",
-        "tps_e12075b6def6",
-        "tps_73cc939d4b49",
-        "tps_41ade89033c3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9475bdd2ffa4",
-        "tps_37c9bd74a4cd",
-        "tps_7b46e62fcc90",
-        "tps_92c39270852d"
+        "tps_019d0512b401",
+        "tps_3d21b134e94d",
+        "tps_ffbfe7996d41"
       ]
     },
     {
       "source": "police",
       "division": "D43",
-      "current_count": 6,
-      "baseline_avg": 2.4,
-      "ratio": 2.5,
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.8,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -11160,48 +11015,33 @@
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.6,
+      "division": "HP",
+      "current_count": 10,
+      "baseline_avg": 4.0,
       "ratio": 2.5,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_6dc7934e7037",
-        "tps_1ad3eb151585",
-        "tps_d36361346d5d",
-        "tps_db53d762ab0f"
+        "tps_f49c860da36e",
+        "tps_e745910e3ba4",
+        "tps_b871fa47cfbc",
+        "tps_fc10fecefc66",
+        "tps_cc1e8d4daef8"
       ]
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_af30f5ea5b8d",
-        "tps_2b89e73a3b1a",
-        "tps_1258e811b2ce",
-        "tps_28925b8e8492",
-        "tps_13bbc92d8fbc"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
+      "division": "D12",
       "current_count": 4,
       "baseline_avg": 1.8,
       "ratio": 2.2,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_dce0dd7fe359",
-        "tps_e177590279a4",
-        "tps_0be03a05a2a6",
-        "tps_ed06680d8efa"
+        "tps_dd06ab559704",
+        "tps_e12075b6def6",
+        "tps_73cc939d4b49",
+        "tps_41ade89033c3"
       ]
     }
   ]
