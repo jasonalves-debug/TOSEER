@@ -1,11 +1,68 @@
 {
-  "generated": "2026-08-19T10:43:17.729837+00:00",
+  "generated": "2026-08-19T11:00:47.008345+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26129019",
+      "source": "fire",
+      "lat": 43.7371613,
+      "lng": -79.5655364,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "413",
+      "location": "ISLINGTON AVE & ALBION RD",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-19T10:52:54+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_348a4c09de6a",
+      "source": "police",
+      "lat": 43.64573728809263,
+      "lng": -79.41124502958365,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "BELLWOODS AVE - WALNUT AVE",
+      "ts": "2026-08-19T10:41:10+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d0235f3363d9",
+      "source": "police",
+      "lat": 43.65132389042754,
+      "lng": -79.37752134698019,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "TEMPERANCE ST - RICHMOND ST W",
+      "ts": "2026-08-19T10:39:13+00:00",
+      "related": [
+        {
+          "id": "tps_4f084ddd335d",
+          "distance_m": 73,
+          "minutes_apart": 105
+        },
+        {
+          "id": "tps_d032e3a50faf",
+          "distance_m": 437,
+          "minutes_apart": 157
+        },
+        {
+          "id": "tps_4862d5d31560",
+          "distance_m": 538,
+          "minutes_apart": 78
+        }
+      ]
+    },
     {
       "id": "tps_c13c65871b17",
       "source": "police",
@@ -104,6 +161,11 @@
           "id": "tps_4f084ddd335d",
           "distance_m": 494,
           "minutes_apart": 27
+        },
+        {
+          "id": "tps_d0235f3363d9",
+          "distance_m": 538,
+          "minutes_apart": 78
         }
       ]
     },
@@ -171,6 +233,11 @@
       "location": "VICTORIA ST - RICHMOND ST E",
       "ts": "2026-08-19T08:54:15+00:00",
       "related": [
+        {
+          "id": "tps_d0235f3363d9",
+          "distance_m": 73,
+          "minutes_apart": 105
+        },
         {
           "id": "tps_688083407bd2",
           "distance_m": 312,
@@ -355,6 +422,11 @@
           "id": "tps_4f084ddd335d",
           "distance_m": 417,
           "minutes_apart": 52
+        },
+        {
+          "id": "tps_d0235f3363d9",
+          "distance_m": 437,
+          "minutes_apart": 157
         }
       ]
     },
@@ -9488,11 +9560,6 @@
       "ts": "2026-08-18T13:35:13+00:00",
       "related": [
         {
-          "id": "tps_9e7578852d0d",
-          "distance_m": 0,
-          "minutes_apart": 157
-        },
-        {
           "id": "tps_1928b5df1084",
           "distance_m": 290,
           "minutes_apart": 173
@@ -9631,13 +9698,7 @@
       "division": "D51",
       "location": "QUEEN ST E - GEORGE ST",
       "ts": "2026-08-18T13:15:06+00:00",
-      "related": [
-        {
-          "id": "tps_85c3a7788120",
-          "distance_m": 563,
-          "minutes_apart": 148
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_df2f6c33acdf",
@@ -10357,16 +10418,6 @@
       "ts": "2026-08-18T11:17:23+00:00",
       "related": [
         {
-          "id": "tps_85c3a7788120",
-          "distance_m": 198,
-          "minutes_apart": 30
-        },
-        {
-          "id": "tps_9e7578852d0d",
-          "distance_m": 529,
-          "minutes_apart": 19
-        },
-        {
           "id": "tps_4e4a9262a890",
           "distance_m": 529,
           "minutes_apart": 138
@@ -10530,124 +10581,7 @@
       "location": "BINGHAM AVE - VICTORIA PARK AVE",
       "ts": "2026-08-18T11:00:52+00:00",
       "related": []
-    },
-    {
-      "id": "tps_9e7578852d0d",
-      "source": "police",
-      "lat": 43.65923739834116,
-      "lng": -79.38517394513003,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "HAYTER ST - COLLEGE ST",
-      "ts": "2026-08-18T10:58:07+00:00",
-      "related": [
-        {
-          "id": "tps_4e4a9262a890",
-          "distance_m": 0,
-          "minutes_apart": 157
-        },
-        {
-          "id": "tps_ea11717cf36c",
-          "distance_m": 529,
-          "minutes_apart": 19
-        }
-      ]
-    },
-    {
-      "id": "tps_c038a634832a",
-      "source": "police",
-      "lat": 43.67532969893694,
-      "lng": -79.32028232710712,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D55",
-      "location": "GERRARD ST E - LN N GERRARD E COXWELL",
-      "ts": "2026-08-18T10:57:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_aff6aa8889d3",
-      "source": "police",
-      "lat": 43.72624468974345,
-      "lng": -79.26067731366841,
-      "type": "LOSEL",
-      "type_plain": "Lost/Found Property or Person",
-      "severity": "low",
-      "division": "D41",
-      "location": "BRENDA CRES - CORVETTE AVE",
-      "ts": "2026-08-18T10:55:31+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_99d60ccec303",
-      "source": "police",
-      "lat": 43.80026745985502,
-      "lng": -79.15073467225402,
-      "type": "DAMAU",
-      "type_plain": "DAMAU",
-      "severity": "low",
-      "division": "D42",
-      "location": "TALL PINES PARK TRL - DURNESS AVE",
-      "ts": "2026-08-18T10:49:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_85c3a7788120",
-      "source": "police",
-      "lat": 43.65625839536214,
-      "lng": -79.37830414810317,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "LN N DUNDAS E BOND - LN S GOULD W BOND",
-      "ts": "2026-08-18T10:47:17+00:00",
-      "related": [
-        {
-          "id": "tps_ea11717cf36c",
-          "distance_m": 198,
-          "minutes_apart": 30
-        },
-        {
-          "id": "tps_f012b5c751dd",
-          "distance_m": 563,
-          "minutes_apart": 148
-        }
-      ]
     }
   ],
-  "anomalies": [
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4862d5d31560",
-        "tps_8b4269b458c8",
-        "tps_32c84a5bf3a8",
-        "tps_d032e3a50faf"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8b93889f6b9b",
-        "tps_3043efeca790",
-        "tps_7ac9d4b60e22"
-      ]
-    }
-  ]
+  "anomalies": []
 }
