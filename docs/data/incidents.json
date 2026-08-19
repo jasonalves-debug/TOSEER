@@ -1,11 +1,32 @@
 {
-  "generated": "2026-08-19T07:51:05.596615+00:00",
+  "generated": "2026-08-19T08:19:31.439937+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26128990",
+      "source": "fire",
+      "lat": 43.6662938,
+      "lng": -79.3176392,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "227",
+      "location": "Toronto - QUEEN ST & RHODES AVE",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-19T08:07:28+00:00",
+      "related": [
+        {
+          "id": "tps_6726ee844090",
+          "distance_m": 353,
+          "minutes_apart": 134
+        }
+      ]
+    },
     {
       "id": "tps_62c908b39dab",
       "source": "police",
@@ -352,6 +373,11 @@
       "location": "WOODFIELD RD - HIAWATHA RD",
       "ts": "2026-08-19T05:53:03+00:00",
       "related": [
+        {
+          "id": "tfs_F26128990",
+          "distance_m": 353,
+          "minutes_apart": 134
+        },
         {
           "id": "tps_0ec1aabba1ea",
           "distance_m": 491,
@@ -10687,57 +10713,16 @@
           "minutes_apart": 149
         }
       ]
-    },
-    {
-      "id": "tps_805635fe41d5",
-      "source": "police",
-      "lat": 43.66633588572602,
-      "lng": -79.31656272024765,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "COXWELL AVE - QUEEN ST E",
-      "ts": "2026-08-18T08:18:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5b25cd65ffe9",
-      "source": "police",
-      "lat": 43.66672392285862,
-      "lng": -79.44645392062525,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D11",
-      "location": "DUPONT ST - C P R",
-      "ts": "2026-08-18T08:15:38+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f7672ee9767e",
-        "tps_b77114ab536c",
-        "tps_3a8f23b6ba30",
-        "tps_8adf25be8c55"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
       "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
+      "baseline_avg": 1.4,
+      "ratio": 3.6,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_11999ce44744",
@@ -10745,37 +10730,6 @@
         "tps_6726ee844090",
         "tps_0ec1aabba1ea",
         "tps_7308b93cbcfb"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3dcb9633a028",
-        "tps_ecdfdc7eb045",
-        "tps_c9f8f352a059",
-        "tps_4e7c5aed47d1",
-        "tps_88c8bce1d90c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_56e53059a6ab",
-        "tps_9162e3b494c6",
-        "tps_0175126a09b0",
-        "tps_0e25cad016e2"
       ]
     }
   ]
