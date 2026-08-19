@@ -1,11 +1,82 @@
 {
-  "generated": "2026-08-19T22:16:05.214287+00:00",
+  "generated": "2026-08-19T22:46:22.111416+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26129331",
+      "source": "fire",
+      "lat": 43.785043,
+      "lng": -79.1951614,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "212",
+      "location": "Scarborough - MORNELLE CRT & ELLESMERE RD",
+      "approximate": false,
+      "units": "A213, P212",
+      "ts": "2026-08-19T22:21:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_747f8a31070f",
+      "source": "police",
+      "lat": 43.64604768515132,
+      "lng": -79.37914544445697,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D52",
+      "location": "BAY ST - FRONT ST W",
+      "ts": "2026-08-19T22:21:05+00:00",
+      "related": [
+        {
+          "id": "tps_9cd505a10cbb",
+          "distance_m": 335,
+          "minutes_apart": 119
+        },
+        {
+          "id": "tfs_F26129306",
+          "distance_m": 432,
+          "minutes_apart": 52
+        }
+      ]
+    },
+    {
+      "id": "tps_2318af404dfb",
+      "source": "police",
+      "lat": 43.655469098776415,
+      "lng": -79.41261043001539,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "MANNING AVE - CLINTON ST",
+      "ts": "2026-08-19T22:18:54+00:00",
+      "related": [
+        {
+          "id": "tps_f10e83c4b1bf",
+          "distance_m": 513,
+          "minutes_apart": 119
+        }
+      ]
+    },
+    {
+      "id": "tps_aba46ab29dae",
+      "source": "police",
+      "lat": 43.69024141624902,
+      "lng": -79.57707169064537,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D23",
+      "location": "401 X W DIXON W RAMP - KELFIELD ST",
+      "ts": "2026-08-19T22:16:21+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26129324",
       "source": "fire",
@@ -320,7 +391,13 @@
       "approximate": false,
       "units": "",
       "ts": "2026-08-19T21:28:35+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_747f8a31070f",
+          "distance_m": 432,
+          "minutes_apart": 52
+        }
+      ]
     },
     {
       "id": "tps_345e575b799b",
@@ -759,6 +836,11 @@
       "ts": "2026-08-19T20:22:23+00:00",
       "related": [
         {
+          "id": "tps_747f8a31070f",
+          "distance_m": 335,
+          "minutes_apart": 119
+        },
+        {
           "id": "tps_923469b9f11b",
           "distance_m": 499,
           "minutes_apart": 148
@@ -837,6 +919,11 @@
           "id": "tps_8cabbf9c882b",
           "distance_m": 308,
           "minutes_apart": 0
+        },
+        {
+          "id": "tps_2318af404dfb",
+          "distance_m": 513,
+          "minutes_apart": 119
         },
         {
           "id": "tps_dbc004c90b9c",
@@ -8011,13 +8098,7 @@
       "division": "D55",
       "location": "ROYAL DR - BROADVIEW AVE",
       "ts": "2026-08-19T01:16:06+00:00",
-      "related": [
-        {
-          "id": "tps_4209691e4733",
-          "distance_m": 0,
-          "minutes_apart": 163
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_45fb1ca96420",
@@ -8324,11 +8405,6 @@
       "location": "RICHMOND ST E - JARVIS ST",
       "ts": "2026-08-19T00:50:04+00:00",
       "related": [
-        {
-          "id": "tps_72873eb4dba8",
-          "distance_m": 306,
-          "minutes_apart": 152
-        },
         {
           "id": "tps_6d72c76f4c38",
           "distance_m": 404,
@@ -9016,11 +9092,6 @@
       "ts": "2026-08-18T22:51:21+00:00",
       "related": [
         {
-          "id": "tps_df9f639779f0",
-          "distance_m": 387,
-          "minutes_apart": 20
-        },
-        {
           "id": "tps_5fe6b22a3115",
           "distance_m": 520,
           "minutes_apart": 21
@@ -9039,287 +9110,39 @@
       "location": "WILSON AVE - CLAYSON RD",
       "ts": "2026-08-18T22:48:44+00:00",
       "related": []
-    },
-    {
-      "id": "tps_3631a9c99aa8",
-      "source": "police",
-      "lat": 43.70777919781932,
-      "lng": -79.4008010393577,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "EGLINTON AVE W - ORCHARD VIEW BLVD",
-      "ts": "2026-08-18T22:33:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4209691e4733",
-      "source": "police",
-      "lat": 43.67591703393984,
-      "lng": -79.36038447787016,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - PRINCE EDWARD VIADUCT",
-      "ts": "2026-08-18T22:33:14+00:00",
-      "related": [
-        {
-          "id": "tps_9fd3d9ca3f9a",
-          "distance_m": 0,
-          "minutes_apart": 163
-        }
-      ]
-    },
-    {
-      "id": "tps_f83261c4e5f2",
-      "source": "police",
-      "lat": 43.7110599095656,
-      "lng": -79.24815331112401,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "KINGSTON RD - MIDLAND AVE",
-      "ts": "2026-08-18T22:31:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_df9f639779f0",
-      "source": "police",
-      "lat": 43.74213963181549,
-      "lng": -79.30978147425118,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "VICTORIA PARK AVE - LAWRENCE AVE E",
-      "ts": "2026-08-18T22:31:00+00:00",
-      "related": [
-        {
-          "id": "tps_240c0f0d68d8",
-          "distance_m": 387,
-          "minutes_apart": 20
-        }
-      ]
-    },
-    {
-      "id": "tps_816e822ed13f",
-      "source": "police",
-      "lat": 43.635700974804706,
-      "lng": -79.3983326338877,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D14",
-      "location": "LITTLE NORWAY PARK TRL - LITTLE NORWAY PARK TRL",
-      "ts": "2026-08-18T22:28:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c3c17eac0c80",
-      "source": "police",
-      "lat": 43.64597158507521,
-      "lng": -79.38276124204644,
-      "type": "DAM",
-      "type_plain": "Damage to Property",
-      "severity": "low",
-      "division": "HP",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-08-18T22:27:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0b75df8d4460",
-      "source": "police",
-      "lat": 43.65415230276473,
-      "lng": -79.3398348781227,
-      "type": "SEEFI",
-      "type_plain": "SEEFI",
-      "severity": "low",
-      "division": "D55",
-      "location": "LAKE SHORE BLVD EAST TRL - LN 2 S EASTERN E LOGAN",
-      "ts": "2026-08-18T22:22:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0f6063b14274",
-      "source": "police",
-      "lat": 43.76452472231742,
-      "lng": -79.31808577191093,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D33",
-      "location": " - ",
-      "ts": "2026-08-18T22:20:23+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e450841a83f5",
-      "source": "police",
-      "lat": 43.66356040880575,
-      "lng": -79.41842442893208,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D14",
-      "location": "CHRISTIE PITS PARK TRL - CRESTFALLEN LANE",
-      "ts": "2026-08-18T22:20:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_819467c9bc61",
-      "source": "police",
-      "lat": 43.71359862727907,
-      "lng": -79.55494962433102,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D23",
-      "location": "ISLINGTON AVE - REXDALE BLVD",
-      "ts": "2026-08-18T22:18:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_72873eb4dba8",
-      "source": "police",
-      "lat": 43.653374392478064,
-      "lng": -79.36913295325593,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "ADELAIDE ST E - RICHMOND ST E",
-      "ts": "2026-08-18T22:18:33+00:00",
-      "related": [
-        {
-          "id": "tps_048d83f032c1",
-          "distance_m": 306,
-          "minutes_apart": 152
-        }
-      ]
-    },
-    {
-      "id": "tps_31edbb61167e",
-      "source": "police",
-      "lat": 43.65127881935501,
-      "lng": -79.49548930346648,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D11",
-      "location": "OLD MILL RD - HOME SMITH PARK TRL",
-      "ts": "2026-08-18T22:18:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c9dd956332c8",
-      "source": "police",
-      "lat": 43.72589174681209,
-      "lng": -79.48547184389557,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D31",
-      "location": "WILSON AVE - MORTON SHULMAN AVE",
-      "ts": "2026-08-18T22:17:30+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 7,
-      "baseline_avg": 2.0,
-      "ratio": 3.5,
+      "division": "D23",
+      "current_count": 6,
+      "baseline_avg": 1.3,
+      "ratio": 4.5,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_359dd1c75a25",
-        "tps_345e575b799b",
-        "tps_b5657a4f341f",
-        "tps_102ecb2cbbf3",
-        "tps_1e2335e7fd06"
+        "tps_aba46ab29dae",
+        "tps_4a9437dabad3",
+        "tps_ee50a7f2708a",
+        "tps_a2dd74f06db5",
+        "tps_ef8c77a41cf7"
       ]
     },
     {
       "source": "police",
       "division": "D14",
       "current_count": 7,
-      "baseline_avg": 2.4,
-      "ratio": 2.9,
-      "sample_days": 5,
+      "baseline_avg": 2.2,
+      "ratio": 3.2,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_2318af404dfb",
         "tps_8e7253c34945",
         "tps_a408fa95a308",
         "tps_8cabbf9c882b",
-        "tps_f10e83c4b1bf",
-        "tps_3feb00555e4e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 11,
-      "baseline_avg": 4.2,
-      "ratio": 2.6,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c3f32f05f1a1",
-        "tps_a2fd98338d40",
-        "tps_e52c302ac618",
-        "tps_b52b76d75777",
-        "tps_0764cbf80341"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_42460afdb137",
-        "tps_cb916af34eee",
-        "tps_ae0314be5397",
-        "tps_184b714edcc8"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_033d83e01f5b",
-        "tps_911469eebf9c",
-        "tps_466a9c5a1e86",
-        "tps_fc89632ab4e0"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_1a8301792f0c",
-        "tps_5f16b95b64e8",
-        "tps_efd1ab8d2a8d",
-        "tps_96cae5f76898"
+        "tps_f10e83c4b1bf"
       ]
     },
     {
@@ -9334,6 +9157,22 @@
         "tps_bf03355e76be",
         "tps_b552211c549d",
         "tps_d8245e635bcb"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 9,
+      "baseline_avg": 4.2,
+      "ratio": 2.1,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c3f32f05f1a1",
+        "tps_a2fd98338d40",
+        "tps_e52c302ac618",
+        "tps_b52b76d75777",
+        "tps_0764cbf80341"
       ]
     }
   ]
