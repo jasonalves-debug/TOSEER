@@ -1,11 +1,104 @@
 {
-  "generated": "2026-08-19T08:19:31.439937+00:00",
+  "generated": "2026-08-19T09:01:46.130361+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_4733ddd229ee",
+      "source": "police",
+      "lat": 43.7455524424895,
+      "lng": -79.29611319418953,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D41",
+      "location": "WAYNE AVE - LILIAN DR",
+      "ts": "2026-08-19T08:47:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6c92ebc65a43",
+      "source": "police",
+      "lat": 43.64840308750672,
+      "lng": -79.39327793738313,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D52",
+      "location": "RICHMOND ST W - JACK COOPER LANE",
+      "ts": "2026-08-19T08:45:40+00:00",
+      "related": [
+        {
+          "id": "tps_5853f384afe5",
+          "distance_m": 166,
+          "minutes_apart": 84
+        }
+      ]
+    },
+    {
+      "id": "tps_32c84a5bf3a8",
+      "source": "police",
+      "lat": 43.65454819365188,
+      "lng": -79.35722566195439,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D51",
+      "location": "TROLLEY CRES - KING ST E",
+      "ts": "2026-08-19T08:43:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6db393de970b",
+      "source": "police",
+      "lat": 43.65088528998894,
+      "lng": -79.38644664092172,
+      "type": "ASSPR",
+      "type_plain": "Assault (Priority / In Progress)",
+      "severity": "high",
+      "division": "D52",
+      "location": "UNIVERSITY AVE - QUEEN ST W",
+      "ts": "2026-08-19T08:16:07+00:00",
+      "related": [
+        {
+          "id": "tps_5853f384afe5",
+          "distance_m": 552,
+          "minutes_apart": 54
+        },
+        {
+          "id": "tps_1eee39f5c10c",
+          "distance_m": 599,
+          "minutes_apart": 178
+        }
+      ]
+    },
+    {
+      "id": "tps_313320bc294d",
+      "source": "police",
+      "lat": 43.643918783916604,
+      "lng": -79.40268203243795,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "HP",
+      "location": "BATHURST ST - KING ST W",
+      "ts": "2026-08-19T08:15:20+00:00",
+      "related": [
+        {
+          "id": "tps_c9f8f352a059",
+          "distance_m": 0,
+          "minutes_apart": 135
+        },
+        {
+          "id": "tps_c838337997c4",
+          "distance_m": 0,
+          "minutes_apart": 154
+        }
+      ]
+    },
     {
       "id": "tfs_F26128990",
       "source": "fire",
@@ -26,6 +119,64 @@
           "minutes_apart": 134
         }
       ]
+    },
+    {
+      "id": "tps_3043efeca790",
+      "source": "police",
+      "lat": 43.68947012390586,
+      "lng": -79.29606255566777,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D55",
+      "location": "ICE CREAM LANE - LN S DANFORTH E DAWES",
+      "ts": "2026-08-19T08:04:46+00:00",
+      "related": [
+        {
+          "id": "tps_76e1ba293cfd",
+          "distance_m": 154,
+          "minutes_apart": 107
+        }
+      ]
+    },
+    {
+      "id": "tps_9e571a2ea901",
+      "source": "police",
+      "lat": 43.791833079680195,
+      "lng": -79.24850116078508,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D42",
+      "location": "HAVENVIEW RD - MASSIE ST",
+      "ts": "2026-08-19T08:02:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d032e3a50faf",
+      "source": "police",
+      "lat": 43.653724792828484,
+      "lng": -79.37322385064546,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": " - ",
+      "ts": "2026-08-19T08:02:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7ac9d4b60e22",
+      "source": "police",
+      "lat": 43.67893386959899,
+      "lng": -79.34486880328082,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D55",
+      "location": "PAPE AVE - LN E PAPE S DANFORTH",
+      "ts": "2026-08-19T07:54:49+00:00",
+      "related": []
     },
     {
       "id": "tps_62c908b39dab",
@@ -108,6 +259,16 @@
           "id": "tps_1eee39f5c10c",
           "distance_m": 52,
           "minutes_apart": 124
+        },
+        {
+          "id": "tps_6c92ebc65a43",
+          "distance_m": 166,
+          "minutes_apart": 84
+        },
+        {
+          "id": "tps_6db393de970b",
+          "distance_m": 552,
+          "minutes_apart": 54
         }
       ]
     },
@@ -264,7 +425,13 @@
       "division": "D55",
       "location": "BARRINGTON AVE - GUEST AVE",
       "ts": "2026-08-19T06:17:50+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_3043efeca790",
+          "distance_m": 154,
+          "minutes_apart": 107
+        }
+      ]
     },
     {
       "id": "tps_5c8413a2a212",
@@ -358,6 +525,11 @@
           "id": "tps_c838337997c4",
           "distance_m": 0,
           "minutes_apart": 19
+        },
+        {
+          "id": "tps_313320bc294d",
+          "distance_m": 0,
+          "minutes_apart": 135
         }
       ]
     },
@@ -444,6 +616,11 @@
           "id": "tps_c9f8f352a059",
           "distance_m": 0,
           "minutes_apart": 19
+        },
+        {
+          "id": "tps_313320bc294d",
+          "distance_m": 0,
+          "minutes_apart": 154
         }
       ]
     },
@@ -569,6 +746,11 @@
           "id": "tps_8db812ad701b",
           "distance_m": 138,
           "minutes_apart": 151
+        },
+        {
+          "id": "tps_6db393de970b",
+          "distance_m": 599,
+          "minutes_apart": 178
         }
       ]
     },
@@ -9982,11 +10164,6 @@
           "minutes_apart": 30
         },
         {
-          "id": "tps_e9d0ac3730ab",
-          "distance_m": 198,
-          "minutes_apart": 169
-        },
-        {
           "id": "tps_177d2454af9e",
           "distance_m": 356,
           "minutes_apart": 124
@@ -10157,18 +10334,7 @@
       "division": "D32",
       "location": "FLORENCE AVE - JOHNSTON AVE",
       "ts": "2026-08-18T11:01:07+00:00",
-      "related": [
-        {
-          "id": "tps_5d3df63c2986",
-          "distance_m": 278,
-          "minutes_apart": 143
-        },
-        {
-          "id": "tps_51d56fe07c4e",
-          "distance_m": 374,
-          "minutes_apart": 138
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_77802d73a18f",
@@ -10204,11 +10370,6 @@
           "id": "tps_ea11717cf36c",
           "distance_m": 529,
           "minutes_apart": 19
-        },
-        {
-          "id": "tps_0b8ebf2144c8",
-          "distance_m": 546,
-          "minutes_apart": 131
         }
       ]
     },
@@ -10223,13 +10384,7 @@
       "division": "D55",
       "location": "GERRARD ST E - LN N GERRARD E COXWELL",
       "ts": "2026-08-18T10:57:13+00:00",
-      "related": [
-        {
-          "id": "tps_a0322d7a2507",
-          "distance_m": 524,
-          "minutes_apart": 119
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_aff6aa8889d3",
@@ -10255,13 +10410,7 @@
       "division": "D42",
       "location": "TALL PINES PARK TRL - DURNESS AVE",
       "ts": "2026-08-18T10:49:51+00:00",
-      "related": [
-        {
-          "id": "tps_79eba09a149a",
-          "distance_m": 456,
-          "minutes_apart": 149
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_85c3a7788120",
@@ -10275,11 +10424,6 @@
       "location": "LN N DUNDAS E BOND - LN S GOULD W BOND",
       "ts": "2026-08-18T10:47:17+00:00",
       "related": [
-        {
-          "id": "tps_e9d0ac3730ab",
-          "distance_m": 0,
-          "minutes_apart": 139
-        },
         {
           "id": "tps_ea11717cf36c",
           "distance_m": 198,
@@ -10475,11 +10619,6 @@
       "ts": "2026-08-18T09:13:11+00:00",
       "related": [
         {
-          "id": "tps_e9d0ac3730ab",
-          "distance_m": 218,
-          "minutes_apart": 45
-        },
-        {
           "id": "tps_85c3a7788120",
           "distance_m": 218,
           "minutes_apart": 94
@@ -10515,221 +10654,23 @@
       "division": "D52",
       "location": "ST BASIL LANE - ST JOSEPH ST",
       "ts": "2026-08-18T09:05:59+00:00",
-      "related": [
-        {
-          "id": "tps_0b8ebf2144c8",
-          "distance_m": 386,
-          "minutes_apart": 19
-        }
-      ]
-    },
-    {
-      "id": "tps_81e9239d7054",
-      "source": "police",
-      "lat": 43.71562496462034,
-      "lng": -79.3280755341621,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D55",
-      "location": "GRENOBLE DR - ",
-      "ts": "2026-08-18T09:00:12+00:00",
       "related": []
-    },
-    {
-      "id": "tps_a0322d7a2507",
-      "source": "police",
-      "lat": 43.6799642081839,
-      "lng": -79.32145753107822,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D55",
-      "location": "HANSON ST - HILLINGDON AVE",
-      "ts": "2026-08-18T08:57:58+00:00",
-      "related": [
-        {
-          "id": "tps_c038a634832a",
-          "distance_m": 524,
-          "minutes_apart": 119
-        }
-      ]
-    },
-    {
-      "id": "tps_b7d4129ff5e4",
-      "source": "police",
-      "lat": 43.674693119169596,
-      "lng": -79.36665166737524,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "DRUMSNAB RD - PRINCE EDWARD VIADUCT",
-      "ts": "2026-08-18T08:52:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0b8ebf2144c8",
-      "source": "police",
-      "lat": 43.66399210309582,
-      "lng": -79.38347994727954,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "GROSVENOR ST - BREADALBANE ST",
-      "ts": "2026-08-18T08:47:24+00:00",
-      "related": [
-        {
-          "id": "tps_14c0c6be2544",
-          "distance_m": 386,
-          "minutes_apart": 19
-        },
-        {
-          "id": "tps_9e7578852d0d",
-          "distance_m": 546,
-          "minutes_apart": 131
-        }
-      ]
-    },
-    {
-      "id": "tps_51d56fe07c4e",
-      "source": "police",
-      "lat": 43.76235458765221,
-      "lng": -79.41115599819281,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D32",
-      "location": "HARLANDALE AVE - ELMHURST AVE",
-      "ts": "2026-08-18T08:43:18+00:00",
-      "related": [
-        {
-          "id": "tps_5d3df63c2986",
-          "distance_m": 95,
-          "minutes_apart": 5
-        },
-        {
-          "id": "tps_21822af0d031",
-          "distance_m": 374,
-          "minutes_apart": 138
-        }
-      ]
-    },
-    {
-      "id": "tps_a5e9ee869c55",
-      "source": "police",
-      "lat": 43.66022180085224,
-      "lng": -79.3515872701127,
-      "type": "BREJU",
-      "type_plain": "BREJU",
-      "severity": "low",
-      "division": "D55",
-      "location": "THOMPSON ST - LN N THOMPSON E HAMILTON",
-      "ts": "2026-08-18T08:39:00+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5d3df63c2986",
-      "source": "police",
-      "lat": 43.761515587776984,
-      "lng": -79.41092000144481,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D32",
-      "location": "YONGE ST - DORIS AVE",
-      "ts": "2026-08-18T08:38:16+00:00",
-      "related": [
-        {
-          "id": "tps_51d56fe07c4e",
-          "distance_m": 95,
-          "minutes_apart": 5
-        },
-        {
-          "id": "tps_21822af0d031",
-          "distance_m": 278,
-          "minutes_apart": 143
-        }
-      ]
-    },
-    {
-      "id": "tps_e9d0ac3730ab",
-      "source": "police",
-      "lat": 43.65625839536214,
-      "lng": -79.37830414810317,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D51",
-      "location": "VICTORIA STREET LANE - BOND ST",
-      "ts": "2026-08-18T08:28:00+00:00",
-      "related": [
-        {
-          "id": "tps_85c3a7788120",
-          "distance_m": 0,
-          "minutes_apart": 139
-        },
-        {
-          "id": "tps_ea11717cf36c",
-          "distance_m": 198,
-          "minutes_apart": 169
-        },
-        {
-          "id": "tps_177d2454af9e",
-          "distance_m": 218,
-          "minutes_apart": 45
-        }
-      ]
-    },
-    {
-      "id": "tps_4c20cbff1a23",
-      "source": "police",
-      "lat": 43.781893801681335,
-      "lng": -79.2264081376536,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D43",
-      "location": "MARKHAM RD - ",
-      "ts": "2026-08-18T08:26:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_79eba09a149a",
-      "source": "police",
-      "lat": 43.79745386822504,
-      "lng": -79.15487185029478,
-      "type": "DAMJU",
-      "type_plain": "DAMJU",
-      "severity": "low",
-      "division": "D42",
-      "location": "TIDESWELL BLVD - TIDESWELL BLVD",
-      "ts": "2026-08-18T08:20:26+00:00",
-      "related": [
-        {
-          "id": "tps_99d60ccec303",
-          "distance_m": 456,
-          "minutes_apart": 149
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 1.4,
-      "ratio": 3.6,
-      "sample_days": 5,
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_3043efeca790",
+        "tps_7ac9d4b60e22",
         "tps_11999ce44744",
-        "tps_76e1ba293cfd",
-        "tps_6726ee844090",
-        "tps_0ec1aabba1ea",
-        "tps_7308b93cbcfb"
+        "tps_76e1ba293cfd"
       ]
     }
   ]
