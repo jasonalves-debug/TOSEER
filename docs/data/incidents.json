@@ -1,11 +1,69 @@
 {
-  "generated": "2026-08-19T10:02:31.751366+00:00",
+  "generated": "2026-08-19T10:43:17.729837+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_c13c65871b17",
+      "source": "police",
+      "lat": 43.76263452987807,
+      "lng": -79.294724683269,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D41",
+      "location": "ELLESMERE PARK TRL - PRINCIPAL RD",
+      "ts": "2026-08-19T09:56:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_848b958c017c",
+      "source": "police",
+      "lat": 43.768947856507914,
+      "lng": -79.26648912923727,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D41",
+      "location": "OAKLEY BLVD - BIRKDALE RD",
+      "ts": "2026-08-19T09:52:33+00:00",
+      "related": [
+        {
+          "id": "tps_b5fe6565ad96",
+          "distance_m": 0,
+          "minutes_apart": 31
+        }
+      ]
+    },
+    {
+      "id": "tps_3efde84a90cc",
+      "source": "police",
+      "lat": 43.78852169109437,
+      "lng": -79.23345249044648,
+      "type": "MISCH",
+      "type_plain": "Mischief",
+      "severity": "medium",
+      "division": "D42",
+      "location": "MILNER AVE - PROGRESS AVE",
+      "ts": "2026-08-19T09:52:31+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c8e2b30acec3",
+      "source": "police",
+      "lat": 43.689898083611325,
+      "lng": -79.54128667686983,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D23",
+      "location": "ROWSE CRES - ROWSE CRES",
+      "ts": "2026-08-19T09:51:10+00:00",
+      "related": []
+    },
     {
       "id": "tps_b5fe6565ad96",
       "source": "police",
@@ -17,7 +75,13 @@
       "division": "D43",
       "location": "OAKLEY BLVD - BIRKDALE RD",
       "ts": "2026-08-19T09:22:02+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_848b958c017c",
+          "distance_m": 0,
+          "minutes_apart": 31
+        }
+      ]
     },
     {
       "id": "tps_4862d5d31560",
@@ -10553,71 +10617,6 @@
           "minutes_apart": 148
         }
       ]
-    },
-    {
-      "id": "tps_4f8726957ac5",
-      "source": "police",
-      "lat": 43.76254890783203,
-      "lng": -79.55609512634246,
-      "type": "BREJU",
-      "type_plain": "BREJU",
-      "severity": "low",
-      "division": "D31",
-      "location": "ORMONT DR - GARYRAY DR",
-      "ts": "2026-08-18T10:39:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_693c1b87478d",
-      "source": "police",
-      "lat": 43.7589449909249,
-      "lng": -79.19748340507857,
-      "type": "DAMPR",
-      "type_plain": "Damage to Property (Priority)",
-      "severity": "low",
-      "division": "D43",
-      "location": "OVERTURE RD - GALLOWAY RD",
-      "ts": "2026-08-18T10:35:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_425c127720ee",
-      "source": "police",
-      "lat": 43.71548878529832,
-      "lng": -79.40020893722412,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D53",
-      "location": "YONGE ST - CRAIGHURST AVE",
-      "ts": "2026-08-18T10:27:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9e1e5a3e22b2",
-      "source": "police",
-      "lat": 43.73996091770656,
-      "lng": -79.32964024221637,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - LAWRENCE AVE E",
-      "ts": "2026-08-18T10:09:00+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0f0652b8f5f5",
-      "source": "police",
-      "lat": 43.69498636771501,
-      "lng": -79.45348148440826,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "EGLINTON AVE W - ENNERDALE RD",
-      "ts": "2026-08-18T10:07:55+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10648,20 +10647,6 @@
         "tps_8b93889f6b9b",
         "tps_3043efeca790",
         "tps_7ac9d4b60e22"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6c92ebc65a43",
-        "tps_6db393de970b",
-        "tps_5853f384afe5"
       ]
     }
   ]
