@@ -1,11 +1,90 @@
 {
-  "generated": "2026-08-19T19:20:32.979435+00:00",
+  "generated": "2026-08-19T19:45:27.324105+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26129255",
+      "source": "fire",
+      "lat": 43.759324,
+      "lng": -79.589584,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "413",
+      "location": "STEELES AVE W & KIPLING AVE",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-19T19:36:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fc89632ab4e0",
+      "source": "police",
+      "lat": 43.78163299652674,
+      "lng": -79.4159903445941,
+      "type": "DAMAU",
+      "type_plain": "DAMAU",
+      "severity": "low",
+      "division": "D32",
+      "location": "BISHOP AVE - YONGE ST",
+      "ts": "2026-08-19T19:24:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f25305995db4",
+      "source": "police",
+      "lat": 43.68793603053567,
+      "lng": -79.28698796050745,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D55",
+      "location": "DENGATE RD - VICTORIA PARK AVE",
+      "ts": "2026-08-19T19:20:01+00:00",
+      "related": [
+        {
+          "id": "tps_93e5bf5cc152",
+          "distance_m": 0,
+          "minutes_apart": 173
+        }
+      ]
+    },
+    {
+      "id": "tps_4e27884efa4d",
+      "source": "police",
+      "lat": 43.70109754777674,
+      "lng": -79.38326577538058,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D53",
+      "location": "LN S DAVISVILLE E MT PLEASANT - FORSYTH RD",
+      "ts": "2026-08-19T19:16:23+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c9a2de25b3f2",
+      "source": "police",
+      "lat": 43.69568776612745,
+      "lng": -79.45026768449566,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D13",
+      "location": "DUFFERIN ST - EGLINTON AVE W",
+      "ts": "2026-08-19T19:12:09+00:00",
+      "related": [
+        {
+          "id": "tps_a063f8c8bcd8",
+          "distance_m": 255,
+          "minutes_apart": 93
+        }
+      ]
+    },
     {
       "id": "tps_32f70facde2b",
       "source": "police",
@@ -626,7 +705,13 @@
       "division": "HP",
       "location": " - ",
       "ts": "2026-08-19T17:38:47+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_c9a2de25b3f2",
+          "distance_m": 255,
+          "minutes_apart": 93
+        }
+      ]
     },
     {
       "id": "tps_b793aed9b1e9",
@@ -1124,7 +1209,13 @@
       "division": "D55",
       "location": "DENGATE RD - VICTORIA PARK AVE",
       "ts": "2026-08-19T16:26:53+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_f25305995db4",
+          "distance_m": 0,
+          "minutes_apart": 173
+        }
+      ]
     },
     {
       "id": "tps_0dce498bf4c2",
@@ -7685,11 +7776,6 @@
           "minutes_apart": 152
         },
         {
-          "id": "tps_5b2b7f19fcd7",
-          "distance_m": 320,
-          "minutes_apart": 162
-        },
-        {
           "id": "tps_cc655241370b",
           "distance_m": 593,
           "minutes_apart": 88
@@ -8327,11 +8413,6 @@
           "minutes_apart": 10
         },
         {
-          "id": "tps_61d6e7b5e55f",
-          "distance_m": 518,
-          "minutes_apart": 108
-        },
-        {
           "id": "tps_3603b5cf629a",
           "distance_m": 599,
           "minutes_apart": 84
@@ -8386,11 +8467,6 @@
           "id": "tps_c848e630960e",
           "distance_m": 246,
           "minutes_apart": 10
-        },
-        {
-          "id": "tps_61d6e7b5e55f",
-          "distance_m": 353,
-          "minutes_apart": 98
         }
       ]
     },
@@ -8602,11 +8678,6 @@
           "id": "tps_a216afdb7e17",
           "distance_m": 422,
           "minutes_apart": 120
-        },
-        {
-          "id": "tps_5b2b7f19fcd7",
-          "distance_m": 451,
-          "minutes_apart": 95
         }
       ]
     },
@@ -8774,13 +8845,7 @@
       "division": "D42",
       "location": "SHEPPARD AVE E - CASEBRIDGE CRT",
       "ts": "2026-08-18T20:53:17+00:00",
-      "related": [
-        {
-          "id": "tps_1e584872380b",
-          "distance_m": 0,
-          "minutes_apart": 78
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6539bbccc422",
@@ -8807,11 +8872,6 @@
       "location": "LN N DUNDAS W PEMBROKE - GLENHOLME PL",
       "ts": "2026-08-18T20:50:53+00:00",
       "related": [
-        {
-          "id": "tps_5b2b7f19fcd7",
-          "distance_m": 288,
-          "minutes_apart": 74
-        },
         {
           "id": "tps_5b5f83e7e5e4",
           "distance_m": 302,
@@ -9541,171 +9601,6 @@
           "minutes_apart": 116
         }
       ]
-    },
-    {
-      "id": "tps_5f4e832bca47",
-      "source": "police",
-      "lat": 43.709631313179315,
-      "lng": -79.39061815700558,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D53",
-      "location": "ROEHAMPTON AVE - MOUNT PLEASANT RD",
-      "ts": "2026-08-18T19:44:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_01f397ff9dca",
-      "source": "police",
-      "lat": 43.684210408408994,
-      "lng": -79.32785082938555,
-      "type": "MISEL",
-      "type_plain": "MISEL",
-      "severity": "low",
-      "division": "D55",
-      "location": "MONARCH PARK AVE - COXWELL AVE",
-      "ts": "2026-08-18T19:43:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ed06680d8efa",
-      "source": "police",
-      "lat": 43.756757586442376,
-      "lng": -79.52067441135122,
-      "type": "FOUPR",
-      "type_plain": "Found Property",
-      "severity": "low",
-      "division": "D31",
-      "location": "JANE ST - ELANA DR",
-      "ts": "2026-08-18T19:43:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_61d6e7b5e55f",
-      "source": "police",
-      "lat": 43.63409438059739,
-      "lng": -79.43810522063032,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "GARDINER XWY W - DOWLING AVE",
-      "ts": "2026-08-18T19:42:13+00:00",
-      "related": [
-        {
-          "id": "tps_6391fca1414a",
-          "distance_m": 353,
-          "minutes_apart": 98
-        },
-        {
-          "id": "tps_c848e630960e",
-          "distance_m": 518,
-          "minutes_apart": 108
-        }
-      ]
-    },
-    {
-      "id": "tps_f0ae3a7b4546",
-      "source": "police",
-      "lat": 43.753617382550246,
-      "lng": -79.58709009242014,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D23",
-      "location": "BEACONHILL RD - KIDRON VALLEY DR",
-      "ts": "2026-08-18T19:40:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5b2b7f19fcd7",
-      "source": "police",
-      "lat": 43.65616289526663,
-      "lng": -79.37009915354126,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
-      "ts": "2026-08-18T19:36:26+00:00",
-      "related": [
-        {
-          "id": "tps_cc655241370b",
-          "distance_m": 288,
-          "minutes_apart": 74
-        },
-        {
-          "id": "tps_72873eb4dba8",
-          "distance_m": 320,
-          "minutes_apart": 162
-        },
-        {
-          "id": "tps_5b5f83e7e5e4",
-          "distance_m": 451,
-          "minutes_apart": 95
-        }
-      ]
-    },
-    {
-      "id": "tps_1e584872380b",
-      "source": "police",
-      "lat": 43.80763019190021,
-      "lng": -79.19940457550722,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D42",
-      "location": "SHEPPARD AVE E - CASEBRIDGE CRT",
-      "ts": "2026-08-18T19:35:21+00:00",
-      "related": [
-        {
-          "id": "tps_61b556cd6867",
-          "distance_m": 0,
-          "minutes_apart": 78
-        }
-      ]
-    },
-    {
-      "id": "tps_1258e811b2ce",
-      "source": "police",
-      "lat": 43.723745071306475,
-      "lng": -79.41237852296328,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D32",
-      "location": "GREER RD - ELM RD",
-      "ts": "2026-08-18T19:34:04+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_623ad6a71820",
-      "source": "police",
-      "lat": 43.697004974109454,
-      "lng": -79.52189176188533,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D23",
-      "location": "SCARLETT RD - FREEMONT AVE",
-      "ts": "2026-08-18T19:26:18+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26128700",
-      "source": "fire",
-      "lat": 43.6505549,
-      "lng": -79.377042,
-      "type": "Fire - Grass/Rubbish",
-      "type_plain": "Fire - Grass/Rubbish",
-      "severity": "medium",
-      "division": "332",
-      "location": "YONGE ST & ADELAIDE ST E",
-      "approximate": false,
-      "units": "P332",
-      "ts": "2026-08-18T19:26:06+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -9727,65 +9622,33 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5ac4ec8557a0",
-        "tps_3f08f94c67f4",
-        "tps_be338c20e930",
-        "tps_6b97e892409f",
-        "tps_40b589656a72"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
       "current_count": 8,
-      "baseline_avg": 2.5,
-      "ratio": 3.2,
-      "sample_days": 4,
+      "baseline_avg": 2.2,
+      "ratio": 3.6,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_f25305995db4",
         "tps_55b098c92914",
         "tps_b10596578994",
         "tps_ae6401777ede",
-        "tps_dc635ce0a85a",
-        "tps_315dfd0c52dc"
+        "tps_dc635ce0a85a"
       ]
     },
     {
       "source": "police",
-      "division": "D51",
+      "division": "D32",
       "current_count": 4,
       "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
+      "ratio": 3.3,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_8a0a9e6e877e",
-        "tps_6e7970d924a5",
-        "tps_9f1413b7f7bc",
-        "tps_ab9bf64da5a5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_cda593c973e4",
-        "tps_91e83a95b3e6",
-        "tps_923469b9f11b",
-        "tps_b56cc975f6a4",
-        "tps_2aaf3076d7e9"
+        "tps_fc89632ab4e0",
+        "tps_5ac4ec8557a0",
+        "tps_3f08f94c67f4",
+        "tps_be338c20e930"
       ]
     },
     {
@@ -9821,6 +9684,20 @@
     },
     {
       "source": "police",
+      "division": "D51",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8a0a9e6e877e",
+        "tps_6e7970d924a5",
+        "tps_9f1413b7f7bc"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D11",
       "current_count": 3,
       "baseline_avg": 1.3,
@@ -9850,17 +9727,17 @@
     },
     {
       "source": "police",
-      "division": "D22",
+      "division": "D52",
       "current_count": 4,
       "baseline_avg": 2.0,
       "ratio": 2.0,
-      "sample_days": 4,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_d9220fc4858e",
-        "tps_fe4bcee117fc",
-        "tps_2556e5e97e0d",
-        "tps_0dce498bf4c2"
+        "tps_cda593c973e4",
+        "tps_91e83a95b3e6",
+        "tps_923469b9f11b",
+        "tps_b56cc975f6a4"
       ]
     }
   ]
