@@ -1,11 +1,24 @@
 {
-  "generated": "2026-08-19T23:11:07.234796+00:00",
+  "generated": "2026-08-19T23:33:33.862345+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_d87bbe447b50",
+      "source": "police",
+      "lat": 43.662679542171595,
+      "lng": -79.33280259638616,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D55",
+      "location": "JONES AVE - QUEEN ST E",
+      "ts": "2026-08-19T23:20:47+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26129345",
       "source": "fire",
@@ -20,6 +33,25 @@
       "units": "P232, S232",
       "ts": "2026-08-19T22:55:16+00:00",
       "related": []
+    },
+    {
+      "id": "tps_55fb0a42bce9",
+      "source": "police",
+      "lat": 43.729305168393665,
+      "lng": -79.28071939402564,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D41",
+      "location": "THERMOS RD - SINNOTT RD",
+      "ts": "2026-08-19T22:50:25+00:00",
+      "related": [
+        {
+          "id": "tps_1a8301792f0c",
+          "distance_m": 342,
+          "minutes_apart": 149
+        }
+      ]
     },
     {
       "id": "tps_bdd5b0cffc47",
@@ -1068,6 +1100,11 @@
       "location": "EGLINTON AVE E - ASHTONBEE RD",
       "ts": "2026-08-19T20:21:38+00:00",
       "related": [
+        {
+          "id": "tps_55fb0a42bce9",
+          "distance_m": 342,
+          "minutes_apart": 149
+        },
         {
           "id": "tps_ba2651c36067",
           "distance_m": 439,
@@ -8289,13 +8326,7 @@
       "division": "D32",
       "location": "JANE OSLER BLVD - 401 C E YORKDALE RD RAMP",
       "ts": "2026-08-19T01:18:02+00:00",
-      "related": [
-        {
-          "id": "tps_2552e5bc3ad4",
-          "distance_m": 0,
-          "minutes_apart": 121
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_9fd3d9ca3f9a",
@@ -8436,11 +8467,6 @@
           "id": "tps_048d83f032c1",
           "distance_m": 408,
           "minutes_apart": 15
-        },
-        {
-          "id": "tps_a216afdb7e17",
-          "distance_m": 484,
-          "minutes_apart": 113
         },
         {
           "id": "tps_6d72c76f4c38",
@@ -9034,167 +9060,9 @@
       "location": "WW E DALEMOUNT N FAIRHOLME - VARNA DR",
       "ts": "2026-08-18T23:42:30+00:00",
       "related": []
-    },
-    {
-      "id": "tps_32ce4e91f375",
-      "source": "police",
-      "lat": 43.61015060503421,
-      "lng": -79.55690958640538,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D22",
-      "location": "SHERWAY DR - HEPC",
-      "ts": "2026-08-18T23:32:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_89c570e63889",
-      "source": "police",
-      "lat": 43.80484788603842,
-      "lng": -79.17073030247197,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D42",
-      "location": "MEADOWVALE RD - BRAYMORE BLVD",
-      "ts": "2026-08-18T23:31:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_859713710a64",
-      "source": "police",
-      "lat": 43.73970237317062,
-      "lng": -79.58033607073926,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D23",
-      "location": "KIPLING AVE - FINCH AVE W",
-      "ts": "2026-08-18T23:30:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9ff59be655aa",
-      "source": "police",
-      "lat": 43.60069459785787,
-      "lng": -79.51801758549793,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "KIPLING AVE - BIRMINGHAM ST",
-      "ts": "2026-08-18T23:20:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2552e5bc3ad4",
-      "source": "police",
-      "lat": 43.723657055150866,
-      "lng": -79.45130621630454,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D32",
-      "location": "JANE OSLER BLVD - 401 C E YORKDALE RD RAMP",
-      "ts": "2026-08-18T23:17:30+00:00",
-      "related": [
-        {
-          "id": "tps_00725d4cf9a5",
-          "distance_m": 0,
-          "minutes_apart": 121
-        }
-      ]
-    },
-    {
-      "id": "tps_7b3df7bc100e",
-      "source": "police",
-      "lat": 43.7485166741116,
-      "lng": -79.49940192481044,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D31",
-      "location": " - LADYSHOT CRES",
-      "ts": "2026-08-18T23:17:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_902bec2dd6c4",
-      "source": "police",
-      "lat": 43.76263452987807,
-      "lng": -79.294724683269,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D41",
-      "location": "ELLESMERE PARK TRL - PRINCIPAL RD",
-      "ts": "2026-08-18T23:16:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6afbd5279790",
-      "source": "police",
-      "lat": 43.67177454421725,
-      "lng": -79.47110771721377,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D11",
-      "location": "WESTON RD - OLD STOCK YARDS RD",
-      "ts": "2026-08-18T23:12:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5fe6b22a3115",
-      "source": "police",
-      "lat": 43.737414641420116,
-      "lng": -79.30226737699508,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "PHARMACY AVE - SURREY AVE",
-      "ts": "2026-08-18T23:12:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a216afdb7e17",
-      "source": "police",
-      "lat": 43.655769894873615,
-      "lng": -79.38067524635963,
-      "type": "ASSPR",
-      "type_plain": "Assault (Priority / In Progress)",
-      "severity": "high",
-      "division": "D52",
-      "location": "YONGE ST - DUNDAS SQ",
-      "ts": "2026-08-18T23:11:58+00:00",
-      "related": [
-        {
-          "id": "tps_5e8e4e8eef4e",
-          "distance_m": 484,
-          "minutes_apart": 113
-        }
-      ]
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 7,
-      "baseline_avg": 1.6,
-      "ratio": 4.4,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3e2d8477938b",
-        "tps_2318af404dfb",
-        "tps_8e7253c34945",
-        "tps_a408fa95a308",
-        "tps_8cabbf9c882b"
-      ]
-    },
     {
       "source": "police",
       "division": "D12",
@@ -9228,18 +9096,17 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 9,
-      "baseline_avg": 3.2,
-      "ratio": 2.8,
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_0e0d6c76e965",
-        "tps_825ab045a778",
-        "tps_c3f32f05f1a1",
-        "tps_a2fd98338d40",
-        "tps_e52c302ac618"
+        "tps_3e2d8477938b",
+        "tps_2318af404dfb",
+        "tps_8e7253c34945",
+        "tps_a408fa95a308"
       ]
     }
   ]
