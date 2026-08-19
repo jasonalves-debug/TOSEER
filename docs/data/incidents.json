@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T09:32:54.699126+00:00",
+  "generated": "2026-08-19T10:02:31.751366+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -7,16 +7,53 @@
   "retention_hours": 24,
   "incidents": [
     {
-      "id": "tps_9c2267c3e16c",
+      "id": "tps_b5fe6565ad96",
       "source": "police",
-      "lat": 43.64943699408963,
-      "lng": -79.4247075250962,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "SKEY LANE - DOVERCOURT RD",
-      "ts": "2026-08-19T09:04:34+00:00",
+      "lat": 43.768947856507914,
+      "lng": -79.26648912923727,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D43",
+      "location": "OAKLEY BLVD - BIRKDALE RD",
+      "ts": "2026-08-19T09:22:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4862d5d31560",
+      "source": "police",
+      "lat": 43.655372194475895,
+      "lng": -79.37386715076576,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "JARVIS ST - SHUTER ST",
+      "ts": "2026-08-19T09:20:49+00:00",
+      "related": [
+        {
+          "id": "tps_d032e3a50faf",
+          "distance_m": 190,
+          "minutes_apart": 79
+        },
+        {
+          "id": "tps_4f084ddd335d",
+          "distance_m": 494,
+          "minutes_apart": 27
+        }
+      ]
+    },
+    {
+      "id": "tps_8b93889f6b9b",
+      "source": "police",
+      "lat": 43.671422931582654,
+      "lng": -79.29352914829644,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D55",
+      "location": "HAMMERSMITH AVE - SCARBORO BEACH BLVD",
+      "ts": "2026-08-19T09:07:16+00:00",
       "related": []
     },
     {
@@ -29,7 +66,20 @@
       "severity": "medium",
       "division": "D51",
       "location": "LN E CHURCH S ISABELLA - JARVIS ST",
-      "ts": "2026-08-19T09:03:20+00:00",
+      "ts": "2026-08-19T09:05:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9c2267c3e16c",
+      "source": "police",
+      "lat": 43.64943699408963,
+      "lng": -79.4247075250962,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "SKEY LANE - DOVERCOURT RD",
+      "ts": "2026-08-19T09:04:34+00:00",
       "related": []
     },
     {
@@ -66,6 +116,11 @@
           "id": "tps_d032e3a50faf",
           "distance_m": 417,
           "minutes_apart": 52
+        },
+        {
+          "id": "tps_4862d5d31560",
+          "distance_m": 494,
+          "minutes_apart": 27
         }
       ]
     },
@@ -227,6 +282,11 @@
       "location": " - ",
       "ts": "2026-08-19T08:02:00+00:00",
       "related": [
+        {
+          "id": "tps_4862d5d31560",
+          "distance_m": 190,
+          "minutes_apart": 79
+        },
         {
           "id": "tps_4f084ddd335d",
           "distance_m": 417,
@@ -10334,18 +10394,7 @@
       "division": "3GRP",
       "location": "DUFFERIN ST - BENTWORTH AVE",
       "ts": "2026-08-18T11:08:33+00:00",
-      "related": [
-        {
-          "id": "tps_4dba4d7aa1db",
-          "distance_m": 0,
-          "minutes_apart": 83
-        },
-        {
-          "id": "tps_b5ba2fad8302",
-          "distance_m": 0,
-          "minutes_apart": 92
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_a68eecadd8a4",
@@ -10569,106 +10618,19 @@
       "location": "EGLINTON AVE W - ENNERDALE RD",
       "ts": "2026-08-18T10:07:55+00:00",
       "related": []
-    },
-    {
-      "id": "tps_4dba4d7aa1db",
-      "source": "police",
-      "lat": 43.721794955019355,
-      "lng": -79.45641070770246,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D32",
-      "location": "DUFFERIN ST - BENTWORTH AVE",
-      "ts": "2026-08-18T09:45:37+00:00",
-      "related": [
-        {
-          "id": "tps_b5ba2fad8302",
-          "distance_m": 0,
-          "minutes_apart": 10
-        },
-        {
-          "id": "tps_fa571d0e8e82",
-          "distance_m": 0,
-          "minutes_apart": 83
-        }
-      ]
-    },
-    {
-      "id": "tps_d82447fc0223",
-      "source": "police",
-      "lat": 43.73087856940539,
-      "lng": -79.59939966806567,
-      "type": "HOLTR",
-      "type_plain": "HOLTR",
-      "severity": "low",
-      "division": "D23",
-      "location": "WESTMORE DR - 27 HWY N",
-      "ts": "2026-08-18T09:44:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9815ae457912",
-      "source": "police",
-      "lat": 43.67493361636331,
-      "lng": -79.39036954905889,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "MCMURRICH ST - LN E DAVENPORT N BELMONT",
-      "ts": "2026-08-18T09:40:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b5ba2fad8302",
-      "source": "police",
-      "lat": 43.721794955019355,
-      "lng": -79.45641070770246,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "3GRP",
-      "location": "DUFFERIN ST - BENTWORTH AVE",
-      "ts": "2026-08-18T09:36:07+00:00",
-      "related": [
-        {
-          "id": "tps_4dba4d7aa1db",
-          "distance_m": 0,
-          "minutes_apart": 10
-        },
-        {
-          "id": "tps_fa571d0e8e82",
-          "distance_m": 0,
-          "minutes_apart": 92
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 3,
-      "baseline_avg": 1.0,
+      "division": "D51",
+      "current_count": 4,
+      "baseline_avg": 1.3,
       "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_9c2267c3e16c",
-        "tps_3dcb9633a028",
-        "tps_ecdfdc7eb045"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
+        "tps_4862d5d31560",
         "tps_8b4269b458c8",
         "tps_32c84a5bf3a8",
         "tps_d032e3a50faf"
@@ -10676,16 +10638,30 @@
     },
     {
       "source": "police",
-      "division": "HP",
+      "division": "D55",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_4f084ddd335d",
-        "tps_313320bc294d",
-        "tps_688083407bd2"
+        "tps_8b93889f6b9b",
+        "tps_3043efeca790",
+        "tps_7ac9d4b60e22"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_6c92ebc65a43",
+        "tps_6db393de970b",
+        "tps_5853f384afe5"
       ]
     }
   ]
