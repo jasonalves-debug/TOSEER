@@ -1,11 +1,94 @@
 {
-  "generated": "2026-08-20T15:32:55.366576+00:00",
+  "generated": "2026-08-20T16:02:48.233776+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_8394b0be77c8",
+      "source": "police",
+      "lat": 43.65940351104009,
+      "lng": -79.43759812115529,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "BLOOR ST W - PAULINE AVE",
+      "ts": "2026-08-20T15:39:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b6305d2d0df9",
+      "source": "police",
+      "lat": 43.66888960799329,
+      "lng": -79.37943925229703,
+      "type": "ATTBR",
+      "type_plain": "Attempt Break and Enter",
+      "severity": "high",
+      "division": "D51",
+      "location": "JARVIS ST - HUNTLEY ST",
+      "ts": "2026-08-20T15:36:41+00:00",
+      "related": [
+        {
+          "id": "tps_2d338b9e277a",
+          "distance_m": 438,
+          "minutes_apart": 69
+        }
+      ]
+    },
+    {
+      "id": "tps_1c0da4ad4975",
+      "source": "police",
+      "lat": 43.661875500979264,
+      "lng": -79.37935794927299,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D51",
+      "location": "REVEREND PORTER LANE - CHURCH ST",
+      "ts": "2026-08-20T15:34:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e6580e62d9f2",
+      "source": "police",
+      "lat": 43.65467659378033,
+      "lng": -79.38921194126377,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "DUNDAS ST W - SIMCOE ST",
+      "ts": "2026-08-20T15:29:04+00:00",
+      "related": [
+        {
+          "id": "tps_ae6c38686006",
+          "distance_m": 552,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_e52f7793caf5",
+      "source": "police",
+      "lat": 43.656324795428525,
+      "lng": -79.38091294638609,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D52",
+      "location": "YONGE ST - VICTORIA ST",
+      "ts": "2026-08-20T15:27:01+00:00",
+      "related": [
+        {
+          "id": "tps_ae6c38686006",
+          "distance_m": 509,
+          "minutes_apart": 10
+        }
+      ]
+    },
     {
       "id": "tps_a012d8666d85",
       "source": "police",
@@ -32,9 +115,19 @@
       "ts": "2026-08-20T15:16:33+00:00",
       "related": [
         {
+          "id": "tps_e52f7793caf5",
+          "distance_m": 509,
+          "minutes_apart": 10
+        },
+        {
           "id": "tps_b2be419c25e9",
           "distance_m": 510,
           "minutes_apart": 172
+        },
+        {
+          "id": "tps_e6580e62d9f2",
+          "distance_m": 552,
+          "minutes_apart": 13
         }
       ]
     },
@@ -278,7 +371,13 @@
       "division": "D51",
       "location": "SELBY ST - BLOOR ST E",
       "ts": "2026-08-20T14:27:45+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_b6305d2d0df9",
+          "distance_m": 438,
+          "minutes_apart": 69
+        }
+      ]
     },
     {
       "id": "tps_e425337a4409",
@@ -7792,16 +7891,6 @@
       "ts": "2026-08-19T17:39:33+00:00",
       "related": [
         {
-          "id": "tps_46fb56adb474",
-          "distance_m": 0,
-          "minutes_apart": 126
-        },
-        {
-          "id": "tps_5603c5cd5291",
-          "distance_m": 260,
-          "minutes_apart": 103
-        },
-        {
           "id": "tps_f10e83c4b1bf",
           "distance_m": 570,
           "minutes_apart": 160
@@ -8179,11 +8268,6 @@
       "ts": "2026-08-19T16:52:33+00:00",
       "related": [
         {
-          "id": "tps_136bfa39fdd7",
-          "distance_m": 0,
-          "minutes_apart": 78
-        },
-        {
           "id": "tps_b2550014724b",
           "distance_m": 293,
           "minutes_apart": 111
@@ -8237,11 +8321,6 @@
           "id": "tps_a32a1c9197f9",
           "distance_m": 519,
           "minutes_apart": 2
-        },
-        {
-          "id": "tps_136bfa39fdd7",
-          "distance_m": 519,
-          "minutes_apart": 76
         }
       ]
     },
@@ -8504,254 +8583,47 @@
       "location": "MAIN ST - GERRARD ST E",
       "ts": "2026-08-19T16:06:19+00:00",
       "related": []
-    },
-    {
-      "id": "tps_89f4697a1580",
-      "source": "police",
-      "lat": 43.644650073693356,
-      "lng": -79.53078859553305,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D22",
-      "location": "CORDOVA AVE - DUNDAS ST W",
-      "ts": "2026-08-19T16:00:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5603c5cd5291",
-      "source": "police",
-      "lat": 43.651172194138994,
-      "lng": -79.41158872970664,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D14",
-      "location": "CLAREMONT ST - DUNDAS ST W",
-      "ts": "2026-08-19T15:56:26+00:00",
-      "related": [
-        {
-          "id": "tps_46fb56adb474",
-          "distance_m": 260,
-          "minutes_apart": 23
-        },
-        {
-          "id": "tps_dbc004c90b9c",
-          "distance_m": 260,
-          "minutes_apart": 103
-        }
-      ]
-    },
-    {
-      "id": "tps_c1daec8eb990",
-      "source": "police",
-      "lat": 43.76480928722044,
-      "lng": -79.4117529885046,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D32",
-      "location": "UPPER MADISON AVE - HOLLYWOOD AVE",
-      "ts": "2026-08-19T15:53:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e64539741f7c",
-      "source": "police",
-      "lat": 43.67177454421725,
-      "lng": -79.47110771721377,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D12",
-      "location": "WESTON RD - OLD STOCK YARDS RD",
-      "ts": "2026-08-19T15:48:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7b72a3a0a5db",
-      "source": "police",
-      "lat": 43.61510011344823,
-      "lng": -79.51801333857145,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D22",
-      "location": "HORNER AVENUE RAMP - ARNOLD ST",
-      "ts": "2026-08-19T15:45:31+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_eb572acd4de4",
-      "source": "police",
-      "lat": 43.74375203830712,
-      "lng": -79.30218758488657,
-      "type": "MISEL",
-      "type_plain": "MISEL",
-      "severity": "low",
-      "division": "D41",
-      "location": "PHARMACY AVE - GOODERHAM DR",
-      "ts": "2026-08-19T15:40:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_64410609894c",
-      "source": "police",
-      "lat": 43.697067130014396,
-      "lng": -79.26401548193634,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D41",
-      "location": "DANFORTH AVE - BIRCHMOUNT RD",
-      "ts": "2026-08-19T15:38:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d7aa611acf97",
-      "source": "police",
-      "lat": 43.77514141327232,
-      "lng": -79.34717545366877,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D33",
-      "location": "SHAUGHNESSY BLVD - DON MILLS RD",
-      "ts": "2026-08-19T15:36:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_388b96526ff1",
-      "source": "police",
-      "lat": 43.76470414813938,
-      "lng": -79.4855204022961,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D31",
-      "location": "METROLINX - ALEXDON RD",
-      "ts": "2026-08-19T15:35:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_136bfa39fdd7",
-      "source": "police",
-      "lat": 43.65144329676334,
-      "lng": -79.42554102481836,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D14",
-      "location": "CHURCHILL AVE - ST ANNES RD",
-      "ts": "2026-08-19T15:34:25+00:00",
-      "related": [
-        {
-          "id": "tps_a32a1c9197f9",
-          "distance_m": 0,
-          "minutes_apart": 78
-        },
-        {
-          "id": "tfs_F26129167",
-          "distance_m": 519,
-          "minutes_apart": 76
-        }
-      ]
-    },
-    {
-      "id": "tps_46fb56adb474",
-      "source": "police",
-      "lat": 43.65180179373149,
-      "lng": -79.40847743109553,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D14",
-      "location": "PALMERSTON AVE - LN W PALMERSTON S DUNDAS",
-      "ts": "2026-08-19T15:33:43+00:00",
-      "related": [
-        {
-          "id": "tps_dbc004c90b9c",
-          "distance_m": 0,
-          "minutes_apart": 126
-        },
-        {
-          "id": "tps_5603c5cd5291",
-          "distance_m": 260,
-          "minutes_apart": 23
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 4,
+      "division": "D11",
+      "current_count": 5,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ae6c38686006",
-        "tps_f891b7cd8e6b",
-        "tps_0f86c526e6d8",
-        "tps_f1b69d00fbf1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8b9e55923495",
-        "tps_10da9a799a1b",
-        "tps_3d2e279804b9",
-        "tps_668d60d14b79",
-        "tps_136591fa4f80"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 1.7,
-      "ratio": 3.0,
+      "ratio": 5.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_e5e2130a2d0b",
-        "tps_e425337a4409",
-        "tps_29ada608ebb0",
-        "tps_544dc61c1a06",
-        "tps_ef7436f1bf28"
+        "tps_8394b0be77c8",
+        "tps_a2dd644d9cd6",
+        "tps_37ad26c12b46",
+        "tps_0315828e77ee",
+        "tps_b81c57c652e1"
       ]
     },
     {
       "source": "police",
       "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.2,
-      "sample_days": 4,
+      "current_count": 7,
+      "baseline_avg": 2.3,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_b6305d2d0df9",
+        "tps_1c0da4ad4975",
         "tps_94b0af698f26",
         "tps_2d338b9e277a",
-        "tps_e4b38d9401b7",
-        "tps_01ce652de57a",
-        "tps_c81340652932"
+        "tps_e4b38d9401b7"
       ]
     },
     {
       "source": "police",
       "division": "D32",
       "current_count": 6,
-      "baseline_avg": 3.0,
-      "ratio": 2.0,
+      "baseline_avg": 2.3,
+      "ratio": 2.6,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
@@ -8760,6 +8632,21 @@
         "tps_0ae84f489492",
         "tps_eae8ccb9328b",
         "tps_4e246102c3f4"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8b9e55923495",
+        "tps_10da9a799a1b",
+        "tps_3d2e279804b9",
+        "tps_668d60d14b79"
       ]
     }
   ]
