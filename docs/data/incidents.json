@@ -1,11 +1,175 @@
 {
-  "generated": "2026-08-20T22:52:05.123842+00:00",
+  "generated": "2026-08-20T23:13:02.905224+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_a40177e44a33",
+      "source": "police",
+      "lat": 43.74914557826286,
+      "lng": -79.51562771192445,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D31",
+      "location": "JANE ST - EDDYSTONE AVE",
+      "ts": "2026-08-20T23:00:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ba6282a88765",
+      "source": "police",
+      "lat": 43.666453105556805,
+      "lng": -79.36885325780193,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "LANCASTER AVE - PROSPECT ST",
+      "ts": "2026-08-20T23:00:20+00:00",
+      "related": [
+        {
+          "id": "tps_e1cc30bb3828",
+          "distance_m": 0,
+          "minutes_apart": 33
+        },
+        {
+          "id": "tps_ba0ea60d439b",
+          "distance_m": 231,
+          "minutes_apart": 98
+        }
+      ]
+    },
+    {
+      "id": "tps_6434c93e6c21",
+      "source": "police",
+      "lat": 43.703957790054346,
+      "lng": -79.41163042672108,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D53",
+      "location": "CASTLE KNOCK RD - DUNCANNON DR",
+      "ts": "2026-08-20T22:58:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bf33dd459a6f",
+      "source": "police",
+      "lat": 43.71662078896895,
+      "lng": -79.59261549725936,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D23",
+      "location": "REXDALE BLVD - WW E QUEEN'S PLATE S HARNESS",
+      "ts": "2026-08-20T22:57:14+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c4a1396aeed8",
+      "source": "police",
+      "lat": 43.75092022305602,
+      "lng": -79.31562657140621,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D33",
+      "location": "ROWENA DR - CASSANDRA BLVD",
+      "ts": "2026-08-20T22:56:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26129895",
+      "source": "fire",
+      "lat": 43.7003678,
+      "lng": -79.5166505,
+      "type": "Vehicle - Spill Clean Up",
+      "type_plain": "Vehicle - Spill Clean Up",
+      "severity": "medium",
+      "division": "442",
+      "location": "LAWRENCE AVE W & WESTON RD",
+      "approximate": false,
+      "units": "P421, P442",
+      "ts": "2026-08-20T22:56:29+00:00",
+      "related": [
+        {
+          "id": "tps_60fb8e14395a",
+          "distance_m": 44,
+          "minutes_apart": 171
+        },
+        {
+          "id": "tps_e2c723f84cae",
+          "distance_m": 330,
+          "minutes_apart": 128
+        }
+      ]
+    },
+    {
+      "id": "tps_047a91d07f74",
+      "source": "police",
+      "lat": 43.68416231313227,
+      "lng": -79.32395643311366,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "COXWELL AVE - WOODINGTON AVE",
+      "ts": "2026-08-20T22:55:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26129894",
+      "source": "fire",
+      "lat": 43.7036668,
+      "lng": -79.3509848,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "322",
+      "location": "East York - LEASIDE PARK DR & OVERLEA BLVD",
+      "approximate": false,
+      "units": "A322, P322",
+      "ts": "2026-08-20T22:54:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_910397537cb5",
+      "source": "police",
+      "lat": 43.6385443776481,
+      "lng": -79.39213313595421,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D14",
+      "location": "SPADINA AVE - GARDINER XWY E",
+      "ts": "2026-08-20T22:50:16+00:00",
+      "related": [
+        {
+          "id": "tfs_F26129887",
+          "distance_m": 20,
+          "minutes_apart": 9
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26129890",
+      "source": "fire",
+      "lat": 43.6385395,
+      "lng": -79.557028,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "445",
+      "location": "Etobicoke - GIBBS RD & THE EAST MALL",
+      "approximate": false,
+      "units": "P432, P445",
+      "ts": "2026-08-20T22:46:15+00:00",
+      "related": []
+    },
     {
       "id": "tps_93fcdbde9c23",
       "source": "police",
@@ -38,7 +202,13 @@
       "approximate": false,
       "units": "",
       "ts": "2026-08-20T22:41:37+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_910397537cb5",
+          "distance_m": 20,
+          "minutes_apart": 9
+        }
+      ]
     },
     {
       "id": "tps_3b88ebb2ffa7",
@@ -168,6 +338,11 @@
       "location": "LANCASTER AVE - PROSPECT ST",
       "ts": "2026-08-20T22:27:31+00:00",
       "related": [
+        {
+          "id": "tps_ba6282a88765",
+          "distance_m": 0,
+          "minutes_apart": 33
+        },
         {
           "id": "tps_50a33fa74ea2",
           "distance_m": 199,
@@ -941,6 +1116,11 @@
           "minutes_apart": 65
         },
         {
+          "id": "tps_ba6282a88765",
+          "distance_m": 231,
+          "minutes_apart": 98
+        },
+        {
           "id": "tps_50a33fa74ea2",
           "distance_m": 430,
           "minutes_apart": 83
@@ -1138,6 +1318,11 @@
       "location": "GEORGE ST - METROLINX / C P R",
       "ts": "2026-08-20T20:48:40+00:00",
       "related": [
+        {
+          "id": "tfs_F26129895",
+          "distance_m": 330,
+          "minutes_apart": 128
+        },
         {
           "id": "tps_60fb8e14395a",
           "distance_m": 373,
@@ -1500,6 +1685,11 @@
       "location": "LAWRENCE AVE W - WESTON RD",
       "ts": "2026-08-20T20:05:54+00:00",
       "related": [
+        {
+          "id": "tfs_F26129895",
+          "distance_m": 44,
+          "minutes_apart": 171
+        },
         {
           "id": "tps_e2c723f84cae",
           "distance_m": 373,
@@ -9558,31 +9748,16 @@
           "minutes_apart": 170
         }
       ]
-    },
-    {
-      "id": "tfs_F26129345",
-      "source": "fire",
-      "lat": 43.7317511,
-      "lng": -79.2714561,
-      "type": "Rescue - Elevator",
-      "type_plain": "Rescue - Elevator",
-      "severity": "medium",
-      "division": "221",
-      "location": "Scarborough - EGLINTON AVE & IONVIEW RD",
-      "approximate": false,
-      "units": "P232, S232",
-      "ts": "2026-08-19T22:55:16+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D32",
-      "current_count": 9,
-      "baseline_avg": 1.4,
-      "ratio": 6.4,
-      "sample_days": 5,
+      "current_count": 7,
+      "baseline_avg": 1.3,
+      "ratio": 5.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_f72780fca001",
@@ -9594,58 +9769,27 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 7,
-      "baseline_avg": 1.2,
-      "ratio": 5.8,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f02f3e481872",
-        "tps_a4ece9734df8",
-        "tps_df7d0880db7b",
-        "tps_29e9c26cbab8",
-        "tps_7b39a95e181e"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
-      "current_count": 11,
-      "baseline_avg": 2.4,
-      "ratio": 4.6,
-      "sample_days": 5,
+      "current_count": 10,
+      "baseline_avg": 2.2,
+      "ratio": 4.4,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_ba6282a88765",
         "tps_93fcdbde9c23",
         "tps_154abb3caa73",
         "tps_be7c4ab3fb5f",
-        "tps_ed41e54fb45e",
-        "tps_542a8287c65f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D13",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_fc0f17dde9eb",
-        "tps_c4972a0ce9e0",
-        "tps_85bcdcad6d7e",
-        "tps_93f4190bced3"
+        "tps_ed41e54fb45e"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 10,
-      "baseline_avg": 3.5,
-      "ratio": 2.9,
-      "sample_days": 6,
+      "current_count": 8,
+      "baseline_avg": 2.0,
+      "ratio": 4.0,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_a9092009c783",
@@ -9657,13 +9801,44 @@
     },
     {
       "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
+      "division": "D55",
+      "current_count": 7,
+      "baseline_avg": 1.8,
+      "ratio": 3.9,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_047a91d07f74",
+        "tps_f02f3e481872",
+        "tps_a4ece9734df8",
+        "tps_df7d0880db7b",
+        "tps_29e9c26cbab8"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D13",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_fc0f17dde9eb",
+        "tps_c4972a0ce9e0",
+        "tps_85bcdcad6d7e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a40177e44a33",
         "tps_4675fbed531f",
         "tps_597ac0de448c",
         "tps_b5424a3b9aeb"
@@ -9671,32 +9846,32 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 4,
+      "division": "D41",
+      "current_count": 5,
       "baseline_avg": 1.8,
-      "ratio": 2.2,
+      "ratio": 2.8,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_3a324b585c3c",
-        "tps_e2c723f84cae",
-        "tps_a7157d379b86",
-        "tps_60fb8e14395a"
+        "tps_dffd90f3a840",
+        "tps_58bc688fa557",
+        "tps_35c0202b5251",
+        "tps_81e509b3fb45",
+        "tps_c75af44b9f8d"
       ]
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 2.0,
+      "division": "D53",
+      "current_count": 3,
+      "baseline_avg": 1.5,
       "ratio": 2.0,
-      "sample_days": 6,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_db41166df23c",
-        "tps_ebab5c826f4c",
-        "tps_663c4a712ab8",
-        "tps_7b0408fb2501"
+        "tps_6434c93e6c21",
+        "tps_def828b339fa",
+        "tps_03dc2c033975"
       ]
     },
     {
@@ -9708,10 +9883,10 @@
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_c4a1396aeed8",
         "tps_ec5aaca6e27d",
         "tps_ba06a51606a7",
-        "tps_d39eacc537f5",
-        "tps_d0a14aa6ad9d"
+        "tps_d39eacc537f5"
       ]
     }
   ]
