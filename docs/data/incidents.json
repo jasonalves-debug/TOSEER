@@ -1,11 +1,26 @@
 {
-  "generated": "2026-08-20T05:27:16.986722+00:00",
+  "generated": "2026-08-20T05:54:02.098034+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26129501",
+      "source": "fire",
+      "lat": 43.7003042,
+      "lng": -79.5159712,
+      "type": "Rescue - Elevator",
+      "type_plain": "Rescue - Elevator",
+      "severity": "medium",
+      "division": "442",
+      "location": "York - WESTON RD & LAWRENCE AVE W",
+      "approximate": false,
+      "units": "A421, P442",
+      "ts": "2026-08-20T05:16:46+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26129497",
       "source": "fire",
@@ -8792,11 +8807,6 @@
           "id": "tps_c9f8f352a059",
           "distance_m": 0,
           "minutes_apart": 135
-        },
-        {
-          "id": "tps_c838337997c4",
-          "distance_m": 0,
-          "minutes_apart": 154
         }
       ]
     },
@@ -8813,13 +8823,7 @@
       "approximate": false,
       "units": "",
       "ts": "2026-08-19T08:07:28+00:00",
-      "related": [
-        {
-          "id": "tps_6726ee844090",
-          "distance_m": 353,
-          "minutes_apart": 134
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_3043efeca790",
@@ -9217,141 +9221,14 @@
       "ts": "2026-08-19T06:00:31+00:00",
       "related": [
         {
-          "id": "tps_c838337997c4",
-          "distance_m": 0,
-          "minutes_apart": 19
-        },
-        {
           "id": "tps_313320bc294d",
           "distance_m": 0,
           "minutes_apart": 135
         }
       ]
-    },
-    {
-      "id": "tps_6726ee844090",
-      "source": "police",
-      "lat": 43.66807798046486,
-      "lng": -79.32126601746236,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "WOODFIELD RD - HIAWATHA RD",
-      "ts": "2026-08-19T05:53:03+00:00",
-      "related": [
-        {
-          "id": "tfs_F26128990",
-          "distance_m": 353,
-          "minutes_apart": 134
-        },
-        {
-          "id": "tps_0ec1aabba1ea",
-          "distance_m": 491,
-          "minutes_apart": 4
-        }
-      ]
-    },
-    {
-      "id": "tps_3a8f23b6ba30",
-      "source": "police",
-      "lat": 43.68839934636224,
-      "lng": -79.39263986497019,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D53",
-      "location": "TAMBLYN LANE - ALVIN AVE",
-      "ts": "2026-08-19T05:52:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0ec1aabba1ea",
-      "source": "police",
-      "lat": 43.67160718294766,
-      "lng": -79.32492611713559,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "HIGHFIELD RD - WOODFIELD RD",
-      "ts": "2026-08-19T05:48:45+00:00",
-      "related": [
-        {
-          "id": "tps_6726ee844090",
-          "distance_m": 491,
-          "minutes_apart": 4
-        }
-      ]
-    },
-    {
-      "id": "tps_c838337997c4",
-      "source": "police",
-      "lat": 43.643918783916604,
-      "lng": -79.40268203243795,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "HP",
-      "location": "BATHURST ST - KING ST W",
-      "ts": "2026-08-19T05:41:27+00:00",
-      "related": [
-        {
-          "id": "tps_c9f8f352a059",
-          "distance_m": 0,
-          "minutes_apart": 19
-        },
-        {
-          "id": "tps_313320bc294d",
-          "distance_m": 0,
-          "minutes_apart": 154
-        }
-      ]
-    },
-    {
-      "id": "tps_f90cb69dfe72",
-      "source": "police",
-      "lat": 43.64640918551277,
-      "lng": -79.3619677569087,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D51",
-      "location": "EDGEWATER DR - MARTIN GOODMAN TRL",
-      "ts": "2026-08-19T05:37:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_457f704acf62",
-      "source": "police",
-      "lat": 43.65898241133284,
-      "lng": -79.43973942030117,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "MARGUERETTA ST - MARGUERETTA ST",
-      "ts": "2026-08-19T05:27:31+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.0,
-      "ratio": 5.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d45aff370919",
-        "tps_6529e30ff903",
-        "tps_d21221ed063b",
-        "tps_f9c7a3215a0a",
-        "tps_fb21aa99043d"
-      ]
-    },
     {
       "source": "police",
       "division": "D42",
@@ -9365,21 +9242,6 @@
         "tps_a5da4e8f2c97",
         "tps_a75af8911cde",
         "tps_6f4c14696818"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_16ea03ace99f",
-        "tps_5bb04c3c5d49",
-        "tps_784a1bcd4af1",
-        "tps_14ef42d09d6c"
       ]
     },
     {
@@ -9400,16 +9262,30 @@
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "D32",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_4db047932948",
-        "tps_1df87d25ee62",
-        "tps_325f46784bc3"
+        "tps_d45aff370919",
+        "tps_6529e30ff903",
+        "tps_d21221ed063b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_16ea03ace99f",
+        "tps_5bb04c3c5d49",
+        "tps_784a1bcd4af1"
       ]
     },
     {
