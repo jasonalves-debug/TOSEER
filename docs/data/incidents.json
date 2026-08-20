@@ -1,11 +1,69 @@
 {
-  "generated": "2026-08-20T09:47:20.336362+00:00",
+  "generated": "2026-08-20T10:15:54.595055+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_3e9157d39d5c",
+      "source": "police",
+      "lat": 43.69760630194127,
+      "lng": -79.33636392953336,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY N - DON MILLS RD",
+      "ts": "2026-08-20T09:58:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_721a410143b5",
+      "source": "police",
+      "lat": 43.66085847984846,
+      "lng": -79.51733439060214,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D22",
+      "location": " - ROYAL YORK RD",
+      "ts": "2026-08-20T09:54:26+00:00",
+      "related": [
+        {
+          "id": "tps_28550ca4b596",
+          "distance_m": 362,
+          "minutes_apart": 136
+        }
+      ]
+    },
+    {
+      "id": "tps_0ac2dc1ff296",
+      "source": "police",
+      "lat": 43.68336521316597,
+      "lng": -79.32363123294031,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "COXWELL AVE - DANFORTH AVE",
+      "ts": "2026-08-20T09:49:53+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_28e49bc04804",
+      "source": "police",
+      "lat": 43.747514252332344,
+      "lng": -79.28482491055821,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D41",
+      "location": "BIRCHMOUNT RD - LAWRENCE AVE E",
+      "ts": "2026-08-20T09:40:09+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26129547",
       "source": "fire",
@@ -19,6 +77,32 @@
       "approximate": false,
       "units": "",
       "ts": "2026-08-20T09:37:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_20810d37c06f",
+      "source": "police",
+      "lat": 43.65121020304265,
+      "lng": -79.44531131822835,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "COLUMBUS PARKETTE TRL - PARKWAY AVE",
+      "ts": "2026-08-20T09:32:31+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1cead0c9933c",
+      "source": "police",
+      "lat": 43.649091588195176,
+      "lng": -79.35597976159933,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY E - CHERRY ST",
+      "ts": "2026-08-20T09:31:15+00:00",
       "related": []
     },
     {
@@ -314,7 +398,13 @@
       "division": "D22",
       "location": "DUNDAS ST W - ROYAL YORK RD",
       "ts": "2026-08-20T07:38:27+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_721a410143b5",
+          "distance_m": 362,
+          "minutes_apart": 136
+        }
+      ]
     },
     {
       "id": "tps_6887687dbafe",
@@ -9479,89 +9569,22 @@
           "minutes_apart": 40
         }
       ]
-    },
-    {
-      "id": "tps_c13c65871b17",
-      "source": "police",
-      "lat": 43.76263452987807,
-      "lng": -79.294724683269,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D41",
-      "location": "ELLESMERE PARK TRL - PRINCIPAL RD",
-      "ts": "2026-08-19T09:56:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_848b958c017c",
-      "source": "police",
-      "lat": 43.768947856507914,
-      "lng": -79.26648912923727,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D41",
-      "location": "OAKLEY BLVD - BIRKDALE RD",
-      "ts": "2026-08-19T09:52:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3efde84a90cc",
-      "source": "police",
-      "lat": 43.78852169109437,
-      "lng": -79.23345249044648,
-      "type": "MISCH",
-      "type_plain": "Mischief",
-      "severity": "medium",
-      "division": "D42",
-      "location": "MILNER AVE - PROGRESS AVE",
-      "ts": "2026-08-19T09:52:31+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c8e2b30acec3",
-      "source": "police",
-      "lat": 43.689898083611325,
-      "lng": -79.54128667686983,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D23",
-      "location": "ROWSE CRES - ROWSE CRES",
-      "ts": "2026-08-19T09:51:10+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 3.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d2e6a158f00a",
-        "tps_522d403e4f6f",
-        "tps_c78ebbc2ac28",
-        "tps_3a688a482fb0",
-        "tps_c51547172372"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 3,
+      "division": "HP",
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 3.0,
+      "ratio": 4.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_fdcead41e325",
-        "tps_617c81f48193",
-        "tps_db3db7169cb4"
+        "tps_3e9157d39d5c",
+        "tps_1cead0c9933c",
+        "tps_57b5c98b66db",
+        "tps_d6290689ba47"
       ]
     }
   ]
