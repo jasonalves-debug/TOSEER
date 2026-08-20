@@ -1,11 +1,173 @@
 {
-  "generated": "2026-08-20T08:20:53.103491+00:00",
+  "generated": "2026-08-20T09:01:15.833491+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_9105a17dc276",
+      "source": "police",
+      "lat": 43.790245404239,
+      "lng": -79.41812562129569,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D32",
+      "location": "CONNAUGHT AVE - PATRICIA AVE",
+      "ts": "2026-08-20T08:31:30+00:00",
+      "related": [
+        {
+          "id": "tps_57b5c98b66db",
+          "distance_m": 0,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_522d403e4f6f",
+      "source": "police",
+      "lat": 43.65194899105262,
+      "lng": -79.3777897470096,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D51",
+      "location": "YONGE ST - VICTORIA ST",
+      "ts": "2026-08-20T08:18:47+00:00",
+      "related": [
+        {
+          "id": "tps_51b858dd7379",
+          "distance_m": 312,
+          "minutes_apart": 63
+        },
+        {
+          "id": "tps_c51547172372",
+          "distance_m": 445,
+          "minutes_apart": 33
+        },
+        {
+          "id": "tps_3a688a482fb0",
+          "distance_m": 569,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_57b5c98b66db",
+      "source": "police",
+      "lat": 43.790245404239,
+      "lng": -79.41812562129569,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "CONNAUGHT AVE - PATRICIA AVE",
+      "ts": "2026-08-20T08:18:12+00:00",
+      "related": [
+        {
+          "id": "tps_9105a17dc276",
+          "distance_m": 0,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_2b2908695699",
+      "source": "police",
+      "lat": 43.77090336895533,
+      "lng": -79.49831070015816,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D31",
+      "location": "ASSINIBOINE RD - THE POND RD",
+      "ts": "2026-08-20T08:15:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c78ebbc2ac28",
+      "source": "police",
+      "lat": 43.67235631145995,
+      "lng": -79.37684305633893,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "MOUNT PLEASANT BLOOR RAMP - SHERBOURNE ST",
+      "ts": "2026-08-20T08:03:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3a688a482fb0",
+      "source": "police",
+      "lat": 43.65682249592621,
+      "lng": -79.37563685006934,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D51",
+      "location": "DALHOUSIE ST - MUTUAL ST",
+      "ts": "2026-08-20T07:58:04+00:00",
+      "related": [
+        {
+          "id": "tps_522d403e4f6f",
+          "distance_m": 569,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_8858e569aa36",
+      "source": "police",
+      "lat": 43.6548223939261,
+      "lng": -79.38814214166892,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D52",
+      "location": "DUNDAS ST W - EDWARD ST",
+      "ts": "2026-08-20T07:53:14+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1d83023fd239",
+      "source": "police",
+      "lat": 43.75182292097886,
+      "lng": -79.32104746638076,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D33",
+      "location": "BUTTERFIELD DR - AVONWICK GT",
+      "ts": "2026-08-20T07:52:35+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c51547172372",
+      "source": "police",
+      "lat": 43.648151387255,
+      "lng": -79.37603204653254,
+      "type": "EXPJU",
+      "type_plain": "EXPJU",
+      "severity": "low",
+      "division": "D51",
+      "location": "WELLINGTON ST E - SCOTT ST",
+      "ts": "2026-08-20T07:45:34+00:00",
+      "related": [
+        {
+          "id": "tps_51b858dd7379",
+          "distance_m": 186,
+          "minutes_apart": 30
+        },
+        {
+          "id": "tps_522d403e4f6f",
+          "distance_m": 445,
+          "minutes_apart": 33
+        }
+      ]
+    },
     {
       "id": "tps_46d8efdec281",
       "source": "police",
@@ -139,7 +301,18 @@
       "division": "D51",
       "location": "YONGE ST - VICTORIA ST",
       "ts": "2026-08-20T07:15:22+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_c51547172372",
+          "distance_m": 186,
+          "minutes_apart": 30
+        },
+        {
+          "id": "tps_522d403e4f6f",
+          "distance_m": 312,
+          "minutes_apart": 63
+        }
+      ]
     },
     {
       "id": "tps_61a52f0ebbc9",
@@ -8904,11 +9077,6 @@
           "minutes_apart": 40
         },
         {
-          "id": "tps_4f084ddd335d",
-          "distance_m": 413,
-          "minutes_apart": 145
-        },
-        {
           "id": "tps_86b2775f8ba0",
           "distance_m": 529,
           "minutes_apart": 86
@@ -8953,11 +9121,6 @@
       "location": "SPADINA AVE - QUEEN ST W",
       "ts": "2026-08-19T11:05:56+00:00",
       "related": [
-        {
-          "id": "tps_6c92ebc65a43",
-          "distance_m": 244,
-          "minutes_apart": 140
-        },
         {
           "id": "tps_29995ee9f9f6",
           "distance_m": 478,
@@ -9193,11 +9356,6 @@
       "ts": "2026-08-19T10:39:13+00:00",
       "related": [
         {
-          "id": "tps_4f084ddd335d",
-          "distance_m": 73,
-          "minutes_apart": 105
-        },
-        {
           "id": "tps_86b2775f8ba0",
           "distance_m": 187,
           "minutes_apart": 125
@@ -9314,11 +9472,6 @@
           "minutes_apart": 118
         },
         {
-          "id": "tps_4f084ddd335d",
-          "distance_m": 494,
-          "minutes_apart": 27
-        },
-        {
           "id": "tps_d0235f3363d9",
           "distance_m": 538,
           "minutes_apart": 78
@@ -9374,108 +9527,37 @@
       "location": "SKEY LANE - DOVERCOURT RD",
       "ts": "2026-08-19T09:04:34+00:00",
       "related": []
-    },
-    {
-      "id": "tps_5122316db32d",
-      "source": "police",
-      "lat": 43.70435231203435,
-      "lng": -79.39784144784346,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": " - ",
-      "ts": "2026-08-19T08:54:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4f084ddd335d",
-      "source": "police",
-      "lat": 43.65194899105262,
-      "lng": -79.3777897470096,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "VICTORIA ST - RICHMOND ST E",
-      "ts": "2026-08-19T08:54:15+00:00",
-      "related": [
-        {
-          "id": "tps_d0235f3363d9",
-          "distance_m": 73,
-          "minutes_apart": 105
-        },
-        {
-          "id": "tps_cbb47e75938b",
-          "distance_m": 413,
-          "minutes_apart": 145
-        },
-        {
-          "id": "tps_4862d5d31560",
-          "distance_m": 494,
-          "minutes_apart": 27
-        }
-      ]
-    },
-    {
-      "id": "tps_4733ddd229ee",
-      "source": "police",
-      "lat": 43.7455524424895,
-      "lng": -79.29611319418953,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D41",
-      "location": "WAYNE AVE - LILIAN DR",
-      "ts": "2026-08-19T08:47:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6c92ebc65a43",
-      "source": "police",
-      "lat": 43.64840308750672,
-      "lng": -79.39327793738313,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D52",
-      "location": "RICHMOND ST W - JACK COOPER LANE",
-      "ts": "2026-08-19T08:45:40+00:00",
-      "related": [
-        {
-          "id": "tps_fb173cfcfa44",
-          "distance_m": 244,
-          "minutes_apart": 140
-        }
-      ]
-    },
-    {
-      "id": "tps_32c84a5bf3a8",
-      "source": "police",
-      "lat": 43.65454819365188,
-      "lng": -79.35722566195439,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D51",
-      "location": "TROLLEY CRES - KING ST E",
-      "ts": "2026-08-19T08:43:06+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D41",
+      "division": "D51",
+      "current_count": 8,
+      "baseline_avg": 2.0,
+      "ratio": 4.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_522d403e4f6f",
+        "tps_c78ebbc2ac28",
+        "tps_3a688a482fb0",
+        "tps_c51547172372",
+        "tps_51b858dd7379"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
-      "sample_days": 5,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_3022d7af6896",
-        "tps_c2a775dfc053",
-        "tps_d35d71487f78"
+        "tps_fdcead41e325",
+        "tps_617c81f48193",
+        "tps_db3db7169cb4"
       ]
     }
   ]
