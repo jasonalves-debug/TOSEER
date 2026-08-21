@@ -1,11 +1,48 @@
 {
-  "generated": "2026-08-21T09:49:37.865040+00:00",
+  "generated": "2026-08-21T10:16:20.937854+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_68159313ebcd",
+      "source": "police",
+      "lat": 43.65202349236999,
+      "lng": -79.40225363325442,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "PKW",
+      "location": "DENISON AVE - DUNDAS ST W",
+      "ts": "2026-08-21T09:39:40+00:00",
+      "related": [
+        {
+          "id": "tps_d08493b0b4cb",
+          "distance_m": 445,
+          "minutes_apart": 65
+        },
+        {
+          "id": "tps_5d63162f0026",
+          "distance_m": 555,
+          "minutes_apart": 121
+        }
+      ]
+    },
+    {
+      "id": "tps_9e4361fa5dfe",
+      "source": "police",
+      "lat": 43.67825081429228,
+      "lng": -79.44195741875504,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "WESTMOUNT AVE - ST CLAIR AVE W",
+      "ts": "2026-08-21T09:34:36+00:00",
+      "related": []
+    },
     {
       "id": "tps_8c35bfa52d6f",
       "source": "police",
@@ -69,7 +106,13 @@
       "division": "D14",
       "location": "LN 2 S COLLEGE E PALMERSTON - WW S COLLEGE E MARKHAM",
       "ts": "2026-08-21T08:34:26+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_68159313ebcd",
+          "distance_m": 445,
+          "minutes_apart": 65
+        }
+      ]
     },
     {
       "id": "tps_5798dbe17592",
@@ -307,6 +350,11 @@
           "id": "tps_9e3603eeb18e",
           "distance_m": 534,
           "minutes_apart": 135
+        },
+        {
+          "id": "tps_68159313ebcd",
+          "distance_m": 555,
+          "minutes_apart": 121
         }
       ]
     },
@@ -10552,89 +10600,22 @@
           "minutes_apart": 4
         }
       ]
-    },
-    {
-      "id": "tps_fa3a3372c7c9",
-      "source": "police",
-      "lat": 43.807591857567445,
-      "lng": -79.256977754016,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D42",
-      "location": "CHARTWELL PARK TRL - CHARTWELL PARK TRL",
-      "ts": "2026-08-20T10:13:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3e9157d39d5c",
-      "source": "police",
-      "lat": 43.69760630194127,
-      "lng": -79.33636392953336,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - DON MILLS RD",
-      "ts": "2026-08-20T09:58:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_721a410143b5",
-      "source": "police",
-      "lat": 43.66085847984846,
-      "lng": -79.51733439060214,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": " - ROYAL YORK RD",
-      "ts": "2026-08-20T09:54:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0ac2dc1ff296",
-      "source": "police",
-      "lat": 43.68336521316597,
-      "lng": -79.32363123294031,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "COXWELL AVE - DANFORTH AVE",
-      "ts": "2026-08-20T09:49:53+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.2,
-      "sample_days": 5,
+      "current_count": 4,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_11ce99913be9",
         "tps_d08493b0b4cb",
         "tps_b4d160fa37de",
-        "tps_5d63162f0026",
-        "tps_bb65ee6132e5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5798dbe17592",
-        "tps_02da1e32da91",
-        "tps_2b3833319bd0"
+        "tps_5d63162f0026"
       ]
     }
   ]
