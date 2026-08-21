@@ -1,11 +1,153 @@
 {
-  "generated": "2026-08-21T22:41:12.299857+00:00",
+  "generated": "2026-08-21T22:58:03.041402+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26130466",
+      "source": "fire",
+      "lat": 43.6462885,
+      "lng": -79.3777197,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "332",
+      "location": "Toronto - BAY ST & FRONT ST W",
+      "approximate": false,
+      "units": "P333, T333",
+      "ts": "2026-08-21T22:42:05+00:00",
+      "related": [
+        {
+          "id": "tps_bf181b6b21fc",
+          "distance_m": 248,
+          "minutes_apart": 146
+        },
+        {
+          "id": "tfs_F26130359",
+          "distance_m": 262,
+          "minutes_apart": 157
+        },
+        {
+          "id": "tps_0658bc4a550b",
+          "distance_m": 407,
+          "minutes_apart": 57
+        }
+      ]
+    },
+    {
+      "id": "tps_00798ac67f8b",
+      "source": "police",
+      "lat": 43.72487803675659,
+      "lng": -79.55974397496641,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "ISLINGTON AVE - IRWIN RD",
+      "ts": "2026-08-21T22:41:04+00:00",
+      "related": [
+        {
+          "id": "tps_1f9512a1172f",
+          "distance_m": 0,
+          "minutes_apart": 78
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26130464",
+      "source": "fire",
+      "lat": 43.7154832,
+      "lng": -79.3281769,
+      "type": "Hazmat Level 1",
+      "type_plain": "Hazmat Level 1",
+      "severity": "medium",
+      "division": "125",
+      "location": "North York - VENDOME PL & GRENOBLE DR",
+      "approximate": false,
+      "units": "P125, P322",
+      "ts": "2026-08-21T22:37:59+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_712eedc647e7",
+      "source": "police",
+      "lat": 43.716814246413556,
+      "lng": -79.52707474127014,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "WILSON AVE - WENDELL AVE",
+      "ts": "2026-08-21T22:36:48+00:00",
+      "related": [
+        {
+          "id": "tps_33c9a540b714",
+          "distance_m": 0,
+          "minutes_apart": 106
+        }
+      ]
+    },
+    {
+      "id": "tps_70c455d46a00",
+      "source": "police",
+      "lat": 43.652310093633126,
+      "lng": -79.40601573209595,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "DUNDAS ST W - NASSAU ST",
+      "ts": "2026-08-21T22:33:16+00:00",
+      "related": [
+        {
+          "id": "tps_7397d196b19a",
+          "distance_m": 74,
+          "minutes_apart": 157
+        },
+        {
+          "id": "tps_3acf2d2e95ef",
+          "distance_m": 409,
+          "minutes_apart": 87
+        },
+        {
+          "id": "tps_6264913cd211",
+          "distance_m": 592,
+          "minutes_apart": 73
+        },
+        {
+          "id": "tps_31e8d9c1ff62",
+          "distance_m": 592,
+          "minutes_apart": 126
+        },
+        {
+          "id": "tps_d15b1507b702",
+          "distance_m": 592,
+          "minutes_apart": 175
+        }
+      ]
+    },
+    {
+      "id": "tps_48c09f9304b1",
+      "source": "police",
+      "lat": 43.66873451071916,
+      "lng": -79.4003094411357,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D53",
+      "location": "BLOOR ST W - PRINCE ARTHUR AVE",
+      "ts": "2026-08-21T22:29:07+00:00",
+      "related": [
+        {
+          "id": "tfs_F26130426",
+          "distance_m": 189,
+          "minutes_apart": 45
+        }
+      ]
+    },
     {
       "id": "tps_e9f806f235bf",
       "source": "police",
@@ -384,6 +526,11 @@
           "minutes_apart": 172
         },
         {
+          "id": "tfs_F26130466",
+          "distance_m": 407,
+          "minutes_apart": 57
+        },
+        {
           "id": "tps_f124ab87f290",
           "distance_m": 536,
           "minutes_apart": 156
@@ -408,7 +555,13 @@
       "approximate": false,
       "units": "L312, P312",
       "ts": "2026-08-21T21:44:34+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_48c09f9304b1",
+          "distance_m": 189,
+          "minutes_apart": 45
+        }
+      ]
     },
     {
       "id": "tps_05c3ac301020",
@@ -692,7 +845,13 @@
       "division": "D23",
       "location": "ISLINGTON AVE - IRWIN RD",
       "ts": "2026-08-21T21:22:58+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_00798ac67f8b",
+          "distance_m": 0,
+          "minutes_apart": 78
+        }
+      ]
     },
     {
       "id": "tps_6264913cd211",
@@ -725,6 +884,11 @@
           "id": "tps_7397d196b19a",
           "distance_m": 571,
           "minutes_apart": 84
+        },
+        {
+          "id": "tps_70c455d46a00",
+          "distance_m": 592,
+          "minutes_apart": 73
         }
       ]
     },
@@ -821,6 +985,11 @@
       "location": "MANNING AVE - CLAREMONT ST",
       "ts": "2026-08-21T21:05:49+00:00",
       "related": [
+        {
+          "id": "tps_70c455d46a00",
+          "distance_m": 409,
+          "minutes_apart": 87
+        },
         {
           "id": "tps_7397d196b19a",
           "distance_m": 479,
@@ -948,7 +1117,13 @@
       "division": "D31",
       "location": "WILSON AVE - WENDELL AVE",
       "ts": "2026-08-21T20:50:53+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_712eedc647e7",
+          "distance_m": 0,
+          "minutes_apart": 106
+        }
+      ]
     },
     {
       "id": "tps_34cbdc6d6049",
@@ -1129,6 +1304,11 @@
           "id": "tps_7397d196b19a",
           "distance_m": 571,
           "minutes_apart": 31
+        },
+        {
+          "id": "tps_70c455d46a00",
+          "distance_m": 592,
+          "minutes_apart": 126
         }
       ]
     },
@@ -1168,6 +1348,11 @@
           "minutes_apart": 178
         },
         {
+          "id": "tfs_F26130466",
+          "distance_m": 248,
+          "minutes_apart": 146
+        },
+        {
           "id": "tps_eea317c6d467",
           "distance_m": 282,
           "minutes_apart": 178
@@ -1181,11 +1366,6 @@
           "id": "tps_9395abfcf856",
           "distance_m": 420,
           "minutes_apart": 52
-        },
-        {
-          "id": "tps_03ae90c22287",
-          "distance_m": 538,
-          "minutes_apart": 147
         }
       ]
     },
@@ -1355,6 +1535,11 @@
           "minutes_apart": 167
         },
         {
+          "id": "tfs_F26130466",
+          "distance_m": 262,
+          "minutes_apart": 157
+        },
+        {
           "id": "tps_eea317c6d467",
           "distance_m": 268,
           "minutes_apart": 167
@@ -1368,11 +1553,6 @@
           "id": "tps_9395abfcf856",
           "distance_m": 405,
           "minutes_apart": 63
-        },
-        {
-          "id": "tps_03ae90c22287",
-          "distance_m": 529,
-          "minutes_apart": 136
         }
       ]
     },
@@ -1462,6 +1642,11 @@
       "location": "LN S DUNDAS W BATHURST - DUNDAS ST W",
       "ts": "2026-08-21T19:56:14+00:00",
       "related": [
+        {
+          "id": "tps_70c455d46a00",
+          "distance_m": 74,
+          "minutes_apart": 157
+        },
         {
           "id": "tps_3acf2d2e95ef",
           "distance_m": 479,
@@ -1676,6 +1861,11 @@
           "id": "tps_7397d196b19a",
           "distance_m": 571,
           "minutes_apart": 18
+        },
+        {
+          "id": "tps_70c455d46a00",
+          "distance_m": 592,
+          "minutes_apart": 175
         }
       ]
     },
@@ -9484,11 +9674,6 @@
           "id": "tps_8b0f7ca4e13d",
           "distance_m": 191,
           "minutes_apart": 97
-        },
-        {
-          "id": "tfs_F26129895",
-          "distance_m": 483,
-          "minutes_apart": 160
         }
       ]
     },
@@ -9561,11 +9746,6 @@
           "id": "tps_6fef40845cda",
           "distance_m": 558,
           "minutes_apart": 104
-        },
-        {
-          "id": "tps_93fcdbde9c23",
-          "distance_m": 584,
-          "minutes_apart": 162
         }
       ]
     },
@@ -9936,11 +10116,6 @@
           "id": "tps_73db18b5ec3e",
           "distance_m": 0,
           "minutes_apart": 96
-        },
-        {
-          "id": "tps_047a91d07f74",
-          "distance_m": 226,
-          "minutes_apart": 112
         }
       ]
     },
@@ -10279,13 +10454,7 @@
       "division": "D14",
       "location": "LITTLE NORWAY PARK TRL - LITTLE NORWAY PARK TRL",
       "ts": "2026-08-20T23:58:25+00:00",
-      "related": [
-        {
-          "id": "tps_910397537cb5",
-          "distance_m": 591,
-          "minutes_apart": 68
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_cd87ff6cd5d9",
@@ -10538,11 +10707,6 @@
           "id": "tps_c272c966b03d",
           "distance_m": 0,
           "minutes_apart": 96
-        },
-        {
-          "id": "tps_047a91d07f74",
-          "distance_m": 226,
-          "minutes_apart": 16
         }
       ]
     },
@@ -10583,18 +10747,7 @@
       "division": "D52",
       "location": "BLUE JAYS WAY - SPADINA AVE",
       "ts": "2026-08-20T23:03:58+00:00",
-      "related": [
-        {
-          "id": "tps_910397537cb5",
-          "distance_m": 546,
-          "minutes_apart": 14
-        },
-        {
-          "id": "tfs_F26129887",
-          "distance_m": 546,
-          "minutes_apart": 22
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_59a911e5085f",
@@ -10659,206 +10812,31 @@
       "location": "CASTLE KNOCK RD - DUNCANNON DR",
       "ts": "2026-08-20T22:58:37+00:00",
       "related": []
-    },
-    {
-      "id": "tps_bf33dd459a6f",
-      "source": "police",
-      "lat": 43.71662078896895,
-      "lng": -79.59261549725936,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D23",
-      "location": "REXDALE BLVD - WW E QUEEN'S PLATE S HARNESS",
-      "ts": "2026-08-20T22:57:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c4a1396aeed8",
-      "source": "police",
-      "lat": 43.75092022305602,
-      "lng": -79.31562657140621,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D33",
-      "location": "ROWENA DR - CASSANDRA BLVD",
-      "ts": "2026-08-20T22:56:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26129895",
-      "source": "fire",
-      "lat": 43.7003678,
-      "lng": -79.5166505,
-      "type": "Vehicle - Spill Clean Up",
-      "type_plain": "Vehicle - Spill Clean Up",
-      "severity": "medium",
-      "division": "442",
-      "location": "LAWRENCE AVE W & WESTON RD",
-      "approximate": false,
-      "units": "P421, P442",
-      "ts": "2026-08-20T22:56:29+00:00",
-      "related": [
-        {
-          "id": "tps_023a36a3fb8c",
-          "distance_m": 483,
-          "minutes_apart": 160
-        }
-      ]
-    },
-    {
-      "id": "tps_047a91d07f74",
-      "source": "police",
-      "lat": 43.68416231313227,
-      "lng": -79.32395643311366,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "COXWELL AVE - WOODINGTON AVE",
-      "ts": "2026-08-20T22:55:51+00:00",
-      "related": [
-        {
-          "id": "tps_73db18b5ec3e",
-          "distance_m": 226,
-          "minutes_apart": 16
-        },
-        {
-          "id": "tps_c272c966b03d",
-          "distance_m": 226,
-          "minutes_apart": 112
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26129894",
-      "source": "fire",
-      "lat": 43.7036668,
-      "lng": -79.3509848,
-      "type": "Fire -  Highrise Residential",
-      "type_plain": "Fire -  Highrise Residential",
-      "severity": "medium",
-      "division": "322",
-      "location": "East York - LEASIDE PARK DR & OVERLEA BLVD",
-      "approximate": false,
-      "units": "A125, A322, C31, C32, HR332, LA325, P125, P224, P321, P322, S331",
-      "ts": "2026-08-20T22:54:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_910397537cb5",
-      "source": "police",
-      "lat": 43.6385443776481,
-      "lng": -79.39213313595421,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D14",
-      "location": "SPADINA AVE - GARDINER XWY E",
-      "ts": "2026-08-20T22:50:16+00:00",
-      "related": [
-        {
-          "id": "tfs_F26129887",
-          "distance_m": 20,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_405523859436",
-          "distance_m": 546,
-          "minutes_apart": 14
-        },
-        {
-          "id": "tps_814b2638c6c1",
-          "distance_m": 591,
-          "minutes_apart": 68
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26129890",
-      "source": "fire",
-      "lat": 43.6385395,
-      "lng": -79.557028,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "445",
-      "location": "Etobicoke - GIBBS RD & THE EAST MALL",
-      "approximate": false,
-      "units": "P432, P445",
-      "ts": "2026-08-20T22:46:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_93fcdbde9c23",
-      "source": "police",
-      "lat": 43.64991988902346,
-      "lng": -79.37439714862246,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "KING ST E - CHURCH ST",
-      "ts": "2026-08-20T22:43:55+00:00",
-      "related": [
-        {
-          "id": "tps_6c12e2b94932",
-          "distance_m": 584,
-          "minutes_apart": 162
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26129887",
-      "source": "fire",
-      "lat": 43.6385229,
-      "lng": -79.3918819,
-      "type": "Fire - Grass/Rubbish",
-      "type_plain": "Fire - Grass/Rubbish",
-      "severity": "medium",
-      "division": "334",
-      "location": "SPADINA AVE & LAKE SHORE BLVD W",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-20T22:41:37+00:00",
-      "related": [
-        {
-          "id": "tps_910397537cb5",
-          "distance_m": 20,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_405523859436",
-          "distance_m": 546,
-          "minutes_apart": 22
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 9,
-      "baseline_avg": 1.2,
-      "ratio": 7.5,
+      "current_count": 8,
+      "baseline_avg": 1.4,
+      "ratio": 5.7,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_70c455d46a00",
         "tps_6b2ca8222501",
         "tps_87af61c8dbfc",
         "tps_3daea03e1055",
-        "tps_6264913cd211",
-        "tps_3acf2d2e95ef"
+        "tps_6264913cd211"
       ]
     },
     {
       "source": "police",
       "division": "D31",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 1.2,
-      "ratio": 6.4,
+      "ratio": 5.6,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -10887,18 +10865,18 @@
     },
     {
       "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
+      "division": "HP",
+      "current_count": 9,
+      "baseline_avg": 2.7,
+      "ratio": 3.4,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_300605de3891",
-        "tps_ecc0dceacee8",
-        "tps_a238fb0a5cf8",
-        "tps_db52d018b4ac",
-        "tps_e231d731c865"
+        "tps_00798ac67f8b",
+        "tps_712eedc647e7",
+        "tps_6437f1212ddb",
+        "tps_24f9bb912444",
+        "tps_7f80986a0b66"
       ]
     },
     {
@@ -10951,18 +10929,16 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.3,
-      "ratio": 3.0,
+      "division": "D43",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_6437f1212ddb",
-        "tps_24f9bb912444",
-        "tps_7f80986a0b66",
-        "tps_7c61ac2cb0df",
-        "tps_73b3bf6f99a7"
+        "tps_300605de3891",
+        "tps_ecc0dceacee8",
+        "tps_a238fb0a5cf8"
       ]
     },
     {
