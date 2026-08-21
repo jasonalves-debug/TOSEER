@@ -1,11 +1,145 @@
 {
-  "generated": "2026-08-21T19:33:51.203326+00:00",
+  "generated": "2026-08-21T19:53:26.696636+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_9859be49541e",
+      "source": "police",
+      "lat": 43.635349177390154,
+      "lng": -79.41864682711636,
+      "type": "ASSPC",
+      "type_plain": "ASSPC",
+      "severity": "low",
+      "division": "D14",
+      "location": "CANADA BLVD - NOVA SCOTIA AVE",
+      "ts": "2026-08-21T19:45:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_71f6dfbd18d3",
+      "source": "police",
+      "lat": 43.72771674766062,
+      "lng": -79.48624604513009,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D31",
+      "location": "WILSON AVE - VICTORY DR",
+      "ts": "2026-08-21T19:44:26+00:00",
+      "related": [
+        {
+          "id": "tfs_F26130346",
+          "distance_m": 223,
+          "minutes_apart": 1
+        },
+        {
+          "id": "tps_fc71753f1d82",
+          "distance_m": 520,
+          "minutes_apart": 40
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26130346",
+      "source": "fire",
+      "lat": 43.7257509,
+      "lng": -79.485688,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "144",
+      "location": "North York - AGATE RD & WILSON AVE",
+      "approximate": false,
+      "units": "P144",
+      "ts": "2026-08-21T19:42:59+00:00",
+      "related": [
+        {
+          "id": "tps_71f6dfbd18d3",
+          "distance_m": 223,
+          "minutes_apart": 1
+        },
+        {
+          "id": "tps_fc71753f1d82",
+          "distance_m": 453,
+          "minutes_apart": 39
+        }
+      ]
+    },
+    {
+      "id": "tps_849026074b1d",
+      "source": "police",
+      "lat": 43.79710700539699,
+      "lng": -79.30515179925845,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D41",
+      "location": "CHALDEAN ST - TIMBERBANK BLVD",
+      "ts": "2026-08-21T19:38:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d15b1507b702",
+      "source": "police",
+      "lat": 43.6471940876252,
+      "lng": -79.40398193200464,
+      "type": "ANICO",
+      "type_plain": "Animal Complaint",
+      "severity": "low",
+      "division": "MCIT1",
+      "location": "QUEEN ST W - BATHURST ST",
+      "ts": "2026-08-21T19:38:12+00:00",
+      "related": [
+        {
+          "id": "tps_22ea55de91e3",
+          "distance_m": 215,
+          "minutes_apart": 20
+        }
+      ]
+    },
+    {
+      "id": "tps_59618a981021",
+      "source": "police",
+      "lat": 43.73871947438929,
+      "lng": -79.5884871663062,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D23",
+      "location": "KENDLETON DR - ADELINE CRT",
+      "ts": "2026-08-21T19:34:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3416e05c86f0",
+      "source": "police",
+      "lat": 43.75250408148412,
+      "lng": -79.5164797123403,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D31",
+      "location": "CANE GRASSWAY - YEWTREE BLVD",
+      "ts": "2026-08-21T19:28:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6ec1a9ab1092",
+      "source": "police",
+      "lat": 43.66471917670041,
+      "lng": -79.5573639989364,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D22",
+      "location": "PENTLAND PL - DORNOCH DR",
+      "ts": "2026-08-21T19:23:48+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26130338",
       "source": "fire",
@@ -53,7 +187,13 @@
       "division": "D14",
       "location": "PORTLAND ST - RYERSON AVE",
       "ts": "2026-08-21T19:18:34+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_d15b1507b702",
+          "distance_m": 215,
+          "minutes_apart": 20
+        }
+      ]
     },
     {
       "id": "tps_6069f6f3f784",
@@ -282,7 +422,18 @@
       "division": "D31",
       "location": "AGATE RD - JULIAN RD",
       "ts": "2026-08-21T19:04:06+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26130346",
+          "distance_m": 453,
+          "minutes_apart": 39
+        },
+        {
+          "id": "tps_71f6dfbd18d3",
+          "distance_m": 520,
+          "minutes_apart": 40
+        }
+      ]
     },
     {
       "id": "tps_871972a16295",
@@ -9091,11 +9242,6 @@
       "ts": "2026-08-20T22:43:55+00:00",
       "related": [
         {
-          "id": "tps_200ce32e1105",
-          "distance_m": 572,
-          "minutes_apart": 178
-        },
-        {
           "id": "tps_6c12e2b94932",
           "distance_m": 584,
           "minutes_apart": 162
@@ -9348,13 +9494,7 @@
       "division": "D42",
       "location": "EAST HIGHLAND CREEK - 600 MIDDLEFIELD RD",
       "ts": "2026-08-20T22:24:27+00:00",
-      "related": [
-        {
-          "id": "tps_160bce5a5868",
-          "distance_m": 0,
-          "minutes_apart": 170
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_17b5385b7eaf",
@@ -9484,11 +9624,6 @@
           "id": "tps_bbfe919b886b",
           "distance_m": 316,
           "minutes_apart": 118
-        },
-        {
-          "id": "tps_e01e9da0f368",
-          "distance_m": 569,
-          "minutes_apart": 146
         }
       ]
     },
@@ -9518,11 +9653,6 @@
           "id": "tps_ed41e54fb45e",
           "distance_m": 432,
           "minutes_apart": 16
-        },
-        {
-          "id": "tps_8f6158b8f3cf",
-          "distance_m": 501,
-          "minutes_apart": 144
         }
       ]
     },
@@ -9981,11 +10111,6 @@
       "ts": "2026-08-20T21:33:13+00:00",
       "related": [
         {
-          "id": "tps_200ce32e1105",
-          "distance_m": 354,
-          "minutes_apart": 107
-        },
-        {
           "id": "tps_dbd909337ad1",
           "distance_m": 406,
           "minutes_apart": 87
@@ -10420,11 +10545,6 @@
           "id": "tps_c0ff950b753d",
           "distance_m": 482,
           "minutes_apart": 56
-        },
-        {
-          "id": "tps_200ce32e1105",
-          "distance_m": 557,
-          "minutes_apart": 51
         }
       ]
     },
@@ -10784,146 +10904,6 @@
       "location": "EMBRO DR - LN W WILSON HEIGHTS S SHEPPARD",
       "ts": "2026-08-20T19:53:32+00:00",
       "related": []
-    },
-    {
-      "id": "tps_ad6750112f1e",
-      "source": "police",
-      "lat": 43.64017758332071,
-      "lng": -79.42127612623997,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "ATLANTIC AVE - KING ST W",
-      "ts": "2026-08-20T19:50:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6288ec94a92b",
-      "source": "police",
-      "lat": 43.68081394106964,
-      "lng": -79.28406025817507,
-      "type": "ROB",
-      "type_plain": "ROB",
-      "severity": "low",
-      "division": "D55",
-      "location": "KINGSTON RD - VICTORIA PARK AVE",
-      "ts": "2026-08-20T19:46:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_200ce32e1105",
-      "source": "police",
-      "lat": 43.653374392478064,
-      "lng": -79.36913295325593,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D51",
-      "location": "RICHMOND ST E - SHERBOURNE ST",
-      "ts": "2026-08-20T19:45:46+00:00",
-      "related": [
-        {
-          "id": "tps_c0ff950b753d",
-          "distance_m": 354,
-          "minutes_apart": 107
-        },
-        {
-          "id": "tps_f9469cf2dbaf",
-          "distance_m": 557,
-          "minutes_apart": 51
-        },
-        {
-          "id": "tps_93fcdbde9c23",
-          "distance_m": 572,
-          "minutes_apart": 178
-        }
-      ]
-    },
-    {
-      "id": "tps_8f6158b8f3cf",
-      "source": "police",
-      "lat": 43.65267339177707,
-      "lng": -79.3780802470574,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "YONGE ST - VICTORIA ST",
-      "ts": "2026-08-20T19:42:18+00:00",
-      "related": [
-        {
-          "id": "tps_be7c4ab3fb5f",
-          "distance_m": 501,
-          "minutes_apart": 144
-        }
-      ]
-    },
-    {
-      "id": "tps_e01e9da0f368",
-      "source": "police",
-      "lat": 43.64591718502081,
-      "lng": -79.37908774449542,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-08-20T19:41:41+00:00",
-      "related": [
-        {
-          "id": "tfs_F26129876",
-          "distance_m": 569,
-          "minutes_apart": 146
-        }
-      ]
-    },
-    {
-      "id": "tps_36cabd030c6a",
-      "source": "police",
-      "lat": 43.709988375995394,
-      "lng": -79.33444422989193,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON MILLS RD - OVERLEA BLVD",
-      "ts": "2026-08-20T19:35:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26129789",
-      "source": "fire",
-      "lat": 43.6248712,
-      "lng": -79.5282469,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "432",
-      "location": "Etobicoke - NORTH QUEEN ST & KIPLING AVE",
-      "approximate": false,
-      "units": "P432, PL432",
-      "ts": "2026-08-20T19:34:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_160bce5a5868",
-      "source": "police",
-      "lat": 43.811829073076595,
-      "lng": -79.25852055227281,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D42",
-      "location": "EAST HIGHLAND CREEK - 600 MIDDLEFIELD RD",
-      "ts": "2026-08-20T19:34:10+00:00",
-      "related": [
-        {
-          "id": "tps_f7fb9eb80b7d",
-          "distance_m": 0,
-          "minutes_apart": 170
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -10991,32 +10971,30 @@
     },
     {
       "source": "police",
-      "division": "D13",
+      "division": "D41",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_b7ab1384a679",
-        "tps_003bc2dd88e2",
-        "tps_dc5778c2789e"
+        "tps_849026074b1d",
+        "tps_1c91b8c46741",
+        "tps_71b83500aa8c"
       ]
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 3.0,
+      "division": "D22",
+      "current_count": 3,
+      "baseline_avg": 1.5,
       "ratio": 2.0,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_88be2fb92879",
-        "tps_03ae90c22287",
-        "tps_e51f57abd36b",
-        "tps_9f9c3f2607c5",
-        "tps_eea317c6d467"
+        "tps_6ec1a9ab1092",
+        "tps_7c11278d7f2e",
+        "tps_737b36358f86"
       ]
     },
     {
