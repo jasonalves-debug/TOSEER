@@ -1,11 +1,132 @@
 {
-  "generated": "2026-08-21T15:54:34.279300+00:00",
+  "generated": "2026-08-21T16:16:40.610049+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26130231",
+      "source": "fire",
+      "lat": 43.7024476,
+      "lng": -79.6093163,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "441",
+      "location": "Etobicoke - DISCO RD & ATTWELL DR",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-21T16:06:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e39e2559dbef",
+      "source": "police",
+      "lat": 43.79195734157647,
+      "lng": -79.35806283641195,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D33",
+      "location": "LINUS RD - FINCH AVE E",
+      "ts": "2026-08-21T16:04:39+00:00",
+      "related": [
+        {
+          "id": "tfs_F26130228",
+          "distance_m": 28,
+          "minutes_apart": 3
+        }
+      ]
+    },
+    {
+      "id": "tps_c017f4850d4b",
+      "source": "police",
+      "lat": 43.65696579867384,
+      "lng": -79.40516713393073,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D14",
+      "location": "BORDEN ST - COLLEGE ST",
+      "ts": "2026-08-21T16:03:44+00:00",
+      "related": [
+        {
+          "id": "tps_92dd637a2ad5",
+          "distance_m": 580,
+          "minutes_apart": 110
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26130229",
+      "source": "fire",
+      "lat": 43.709737,
+      "lng": -79.3991175,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "134",
+      "location": "Toronto - MONTGOMERY AVE & YONGE ST",
+      "approximate": false,
+      "units": "A135, P135",
+      "ts": "2026-08-21T16:03:12+00:00",
+      "related": [
+        {
+          "id": "tps_e33e284a070d",
+          "distance_m": 388,
+          "minutes_apart": 49
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26130228",
+      "source": "fire",
+      "lat": 43.7919176,
+      "lng": -79.3577233,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "113",
+      "location": "LINUS RD & FINCH AVE E",
+      "approximate": false,
+      "units": "P113",
+      "ts": "2026-08-21T16:02:01+00:00",
+      "related": [
+        {
+          "id": "tps_e39e2559dbef",
+          "distance_m": 28,
+          "minutes_apart": 3
+        }
+      ]
+    },
+    {
+      "id": "tps_b31815243885",
+      "source": "police",
+      "lat": 43.65153449498586,
+      "lng": -79.41304242920658,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D14",
+      "location": "PLYMOUTH AVE - TREFORD PL",
+      "ts": "2026-08-21T15:54:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_368ec0169ce1",
+      "source": "police",
+      "lat": 43.79631651613332,
+      "lng": -79.4196186323514,
+      "type": "ASSPR",
+      "type_plain": "Assault (Priority / In Progress)",
+      "severity": "high",
+      "division": "D32",
+      "location": "ABITIBI AVE - NIPIGON AVE",
+      "ts": "2026-08-21T15:47:05+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26130221",
       "source": "fire",
@@ -24,6 +145,30 @@
           "id": "tps_4dc025576cde",
           "distance_m": 130,
           "minutes_apart": 13
+        },
+        {
+          "id": "tps_dad1d9981a5b",
+          "distance_m": 130,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_ae4bc0171797",
+      "source": "police",
+      "lat": 43.69444876903681,
+      "lng": -79.45586808449747,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D13",
+      "location": "NAIRN AVE - CHAMBERLAIN AVE",
+      "ts": "2026-08-21T15:44:27+00:00",
+      "related": [
+        {
+          "id": "tps_e1f726da1146",
+          "distance_m": 359,
+          "minutes_apart": 121
         }
       ]
     },
@@ -39,6 +184,35 @@
       "location": "TRETHEWEY DR - JANE ST",
       "ts": "2026-08-21T15:31:38+00:00",
       "related": [
+        {
+          "id": "tps_dad1d9981a5b",
+          "distance_m": 0,
+          "minutes_apart": 0
+        },
+        {
+          "id": "tfs_F26130221",
+          "distance_m": 130,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_dad1d9981a5b",
+      "source": "police",
+      "lat": 43.69758756315365,
+      "lng": -79.50231965666266,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D12",
+      "location": "TRETHEWEY DR - JANE ST",
+      "ts": "2026-08-21T15:31:38+00:00",
+      "related": [
+        {
+          "id": "tps_4dc025576cde",
+          "distance_m": 0,
+          "minutes_apart": 0
+        },
         {
           "id": "tfs_F26130221",
           "distance_m": 130,
@@ -237,7 +411,13 @@
       "division": "D53",
       "location": "YONGE ST - DUPLEX AVE",
       "ts": "2026-08-21T15:13:58+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26130229",
+          "distance_m": 388,
+          "minutes_apart": 49
+        }
+      ]
     },
     {
       "id": "tps_9144603e48b5",
@@ -688,7 +868,13 @@
       "division": "D52",
       "location": "ROSS ST - HURON ST",
       "ts": "2026-08-21T14:13:39+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_c017f4850d4b",
+          "distance_m": 580,
+          "minutes_apart": 110
+        }
+      ]
     },
     {
       "id": "tps_23032eb88cb2",
@@ -954,6 +1140,11 @@
       "location": "HUNTER AVE - LN S EGLINTON W DUFFERIN",
       "ts": "2026-08-21T13:43:04+00:00",
       "related": [
+        {
+          "id": "tps_ae4bc0171797",
+          "distance_m": 359,
+          "minutes_apart": 121
+        },
         {
           "id": "tps_1b59f454e15f",
           "distance_m": 472,
@@ -9839,13 +10030,7 @@
       "division": "D11",
       "location": "DUFFERIN GROVE PARK TRL - DUFFERIN GROVE PARK TRL",
       "ts": "2026-08-20T18:28:37+00:00",
-      "related": [
-        {
-          "id": "tps_2d0aeb1ad3f3",
-          "distance_m": 308,
-          "minutes_apart": 151
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_b1c99684c402",
@@ -9972,16 +10157,6 @@
           "id": "tps_195f192df398",
           "distance_m": 231,
           "minutes_apart": 38
-        },
-        {
-          "id": "tps_4bb3163d45f0",
-          "distance_m": 405,
-          "minutes_apart": 121
-        },
-        {
-          "id": "tps_1869e7a6ae30",
-          "distance_m": 406,
-          "minutes_apart": 117
         },
         {
           "id": "tps_50a33fa74ea2",
@@ -10201,11 +10376,6 @@
           "minutes_apart": 123
         },
         {
-          "id": "tps_b69ddb811567",
-          "distance_m": 288,
-          "minutes_apart": 92
-        },
-        {
           "id": "tps_494ea228fbb0",
           "distance_m": 336,
           "minutes_apart": 4
@@ -10369,11 +10539,6 @@
           "minutes_apart": 131
         },
         {
-          "id": "tps_b69ddb811567",
-          "distance_m": 296,
-          "minutes_apart": 83
-        },
-        {
           "id": "tfs_F26129720",
           "distance_m": 453,
           "minutes_apart": 9
@@ -10461,24 +10626,9 @@
       "ts": "2026-08-20T17:28:20+00:00",
       "related": [
         {
-          "id": "tps_1869e7a6ae30",
-          "distance_m": 182,
-          "minutes_apart": 78
-        },
-        {
-          "id": "tps_4bb3163d45f0",
-          "distance_m": 212,
-          "minutes_apart": 83
-        },
-        {
           "id": "tfs_F26129736",
           "distance_m": 231,
           "minutes_apart": 38
-        },
-        {
-          "id": "tps_0ce7132f2116",
-          "distance_m": 520,
-          "minutes_apart": 76
         }
       ]
     },
@@ -10831,11 +10981,6 @@
           "minutes_apart": 179
         },
         {
-          "id": "tps_b69ddb811567",
-          "distance_m": 351,
-          "minutes_apart": 36
-        },
-        {
           "id": "tfs_F26129720",
           "distance_m": 464,
           "minutes_apart": 56
@@ -11003,318 +11148,16 @@
           "minutes_apart": 175
         }
       ]
-    },
-    {
-      "id": "tps_2f904941cc76",
-      "source": "police",
-      "lat": 43.70064634161383,
-      "lng": -79.58113661375107,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D23",
-      "location": "C N R - IRON ST",
-      "ts": "2026-08-20T16:13:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7546235d4999",
-      "source": "police",
-      "lat": 43.750962184288625,
-      "lng": -79.54112219782257,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D31",
-      "location": " - ",
-      "ts": "2026-08-20T16:13:00+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0ce7132f2116",
-      "source": "police",
-      "lat": 43.67441101528086,
-      "lng": -79.37214796172185,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "MAPLE AVE - NANTON AVE",
-      "ts": "2026-08-20T16:12:21+00:00",
-      "related": [
-        {
-          "id": "tps_1869e7a6ae30",
-          "distance_m": 441,
-          "minutes_apart": 2
-        },
-        {
-          "id": "tps_195f192df398",
-          "distance_m": 520,
-          "minutes_apart": 76
-        }
-      ]
-    },
-    {
-      "id": "tps_1869e7a6ae30",
-      "source": "police",
-      "lat": 43.67235631145995,
-      "lng": -79.37684305633893,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "SHERBOURNE ST N - BLOOR ST E",
-      "ts": "2026-08-20T16:09:52+00:00",
-      "related": [
-        {
-          "id": "tps_195f192df398",
-          "distance_m": 182,
-          "minutes_apart": 78
-        },
-        {
-          "id": "tps_4bb3163d45f0",
-          "distance_m": 227,
-          "minutes_apart": 4
-        },
-        {
-          "id": "tfs_F26129736",
-          "distance_m": 406,
-          "minutes_apart": 117
-        },
-        {
-          "id": "tps_0ce7132f2116",
-          "distance_m": 441,
-          "minutes_apart": 2
-        }
-      ]
-    },
-    {
-      "id": "tps_b69ddb811567",
-      "source": "police",
-      "lat": 43.65104809015174,
-      "lng": -79.37869304510711,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D52",
-      "location": "TEMPERANCE ST - YONGE ST",
-      "ts": "2026-08-20T16:06:47+00:00",
-      "related": [
-        {
-          "id": "tfs_F26129720",
-          "distance_m": 288,
-          "minutes_apart": 92
-        },
-        {
-          "id": "tps_6584f518a952",
-          "distance_m": 296,
-          "minutes_apart": 83
-        },
-        {
-          "id": "tps_8985085c083a",
-          "distance_m": 351,
-          "minutes_apart": 36
-        }
-      ]
-    },
-    {
-      "id": "tps_4bb3163d45f0",
-      "source": "police",
-      "lat": 43.67092181002544,
-      "lng": -79.37885265404289,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "LN W SHERBOURNE N LINDEN - SHERBOURNE ST",
-      "ts": "2026-08-20T16:05:34+00:00",
-      "related": [
-        {
-          "id": "tps_195f192df398",
-          "distance_m": 212,
-          "minutes_apart": 83
-        },
-        {
-          "id": "tps_1869e7a6ae30",
-          "distance_m": 227,
-          "minutes_apart": 4
-        },
-        {
-          "id": "tfs_F26129736",
-          "distance_m": 405,
-          "minutes_apart": 121
-        }
-      ]
-    },
-    {
-      "id": "tps_99beda52230e",
-      "source": "police",
-      "lat": 43.77794177358845,
-      "lng": -79.46910035332401,
-      "type": "HOLAL",
-      "type_plain": "HOLAL",
-      "severity": "low",
-      "division": "D32",
-      "location": "MARTIN ROSS AVE - SUPERTEST RD",
-      "ts": "2026-08-20T16:05:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d3ea4e0754c2",
-      "source": "police",
-      "lat": 43.67071482937652,
-      "lng": -79.45324772003192,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D11",
-      "location": "SYMINGTON AVE - PERTH AVE",
-      "ts": "2026-08-20T16:04:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_56002b0efe49",
-      "source": "police",
-      "lat": 43.78163299652674,
-      "lng": -79.4159903445941,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D32",
-      "location": "BISHOP AVE - HEPC",
-      "ts": "2026-08-20T16:04:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3c755565b9aa",
-      "source": "police",
-      "lat": 43.771170798241,
-      "lng": -79.17393621304095,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D43",
-      "location": "WW E MANSE N LAWRENCE - ASTERFIELD DR",
-      "ts": "2026-08-20T16:04:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2d0aeb1ad3f3",
-      "source": "police",
-      "lat": 43.65712310725112,
-      "lng": -79.43428512190367,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D14",
-      "location": "DUFFERIN GROVE PARK TRL - DUFFERIN GROVE PARK TRL",
-      "ts": "2026-08-20T15:57:39+00:00",
-      "related": [
-        {
-          "id": "tps_692e324abe9f",
-          "distance_m": 308,
-          "minutes_apart": 151
-        }
-      ]
-    },
-    {
-      "id": "tps_09179e9d5955",
-      "source": "police",
-      "lat": 43.643702682806364,
-      "lng": -79.3899764377768,
-      "type": "HOLTR",
-      "type_plain": "HOLTR",
-      "severity": "low",
-      "division": "D52",
-      "location": "WINDSOR ST - BLUE JAYS WAY",
-      "ts": "2026-08-20T15:55:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_976ca1552782",
-      "source": "police",
-      "lat": 43.71917955364735,
-      "lng": -79.46170911744076,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D32",
-      "location": "DUFFERIN ST - PAUL DAVID ST",
-      "ts": "2026-08-20T15:55:15+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 7,
-      "baseline_avg": 1.5,
-      "ratio": 4.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9737fe7a943c",
-        "tps_619d5ae3c359",
-        "tps_218a70254ae1",
-        "tps_017282bdfd75",
-        "tps_eff4a67b11e7"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 7,
-      "baseline_avg": 1.7,
-      "ratio": 4.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_dd873959290f",
-        "tps_05e134ec72f7",
-        "tps_7509a4a9b355",
-        "tps_870fdab72622",
-        "tps_cb0c8b7cbbe0"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_173b387690a2",
-        "tps_c447c035eb48",
-        "tps_577c65e041c5",
-        "tps_abd0353252d8"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 3.8,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e64f81125e8b",
-        "tps_76dae56a6288",
-        "tps_cf294b9583f4",
-        "tps_e95425b1e679",
-        "tps_9bb791caa83c"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D52",
       "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
-      "sample_days": 6,
+      "baseline_avg": 1.2,
+      "ratio": 4.8,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_114de20357f3",
@@ -11326,27 +11169,57 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_33a9e9d1926f",
-        "tps_e33e284a070d",
-        "tps_c31c32e48564",
-        "tps_42b9c1b20405",
-        "tps_7f78b638271e"
+        "tps_50970c5f6c63",
+        "tps_34bb310a6a1c",
+        "tps_d4f56398d129",
+        "tps_4051e2e27e04"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 6,
+      "baseline_avg": 1.8,
+      "ratio": 3.3,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9737fe7a943c",
+        "tps_619d5ae3c359",
+        "tps_218a70254ae1",
+        "tps_017282bdfd75",
+        "tps_eff4a67b11e7"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0fa694abf5ca",
+        "tps_f81633bb39d4",
+        "tps_0e89e0e09d0a",
+        "tps_b2aa705c7f10"
       ]
     },
     {
       "source": "police",
       "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 2.8,
-      "ratio": 2.5,
-      "sample_days": 5,
+      "current_count": 6,
+      "baseline_avg": 2.2,
+      "ratio": 2.7,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_91a8013df5f6",
@@ -11358,33 +11231,34 @@
     },
     {
       "source": "police",
-      "division": "D31",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
+      "division": "D32",
+      "current_count": 8,
+      "baseline_avg": 3.4,
+      "ratio": 2.4,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_0fa694abf5ca",
-        "tps_f81633bb39d4",
-        "tps_0e89e0e09d0a",
-        "tps_b2aa705c7f10",
-        "tps_a2cfc5cf0e2a"
+        "tps_368ec0169ce1",
+        "tps_e64f81125e8b",
+        "tps_76dae56a6288",
+        "tps_cf294b9583f4",
+        "tps_e95425b1e679"
       ]
     },
     {
       "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "division": "D14",
+      "current_count": 5,
+      "baseline_avg": 2.4,
+      "ratio": 2.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_50970c5f6c63",
-        "tps_34bb310a6a1c",
-        "tps_d4f56398d129",
-        "tps_4051e2e27e04"
+        "tps_c017f4850d4b",
+        "tps_b31815243885",
+        "tps_9144603e48b5",
+        "tps_83305ba84ead",
+        "tps_fcfc9db99a18"
       ]
     }
   ]
