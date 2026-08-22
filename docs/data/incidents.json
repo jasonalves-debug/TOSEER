@@ -1,11 +1,26 @@
 {
-  "generated": "2026-08-22T09:13:58.335222+00:00",
+  "generated": "2026-08-22T09:41:05.387590+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26130704",
+      "source": "fire",
+      "lat": 43.7474487,
+      "lng": -79.4077035,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "121",
+      "location": "North York - WILLIAM CARSON CRES & YONGE ST",
+      "approximate": false,
+      "units": "P121, R122",
+      "ts": "2026-08-22T09:20:40+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26130701",
       "source": "fire",
@@ -17,7 +32,7 @@
       "division": "334",
       "location": "Toronto - YORK ST & HARBOUR ST",
       "approximate": false,
-      "units": "",
+      "units": "C33, P333, P334",
       "ts": "2026-08-22T09:02:22+00:00",
       "related": []
     },
@@ -11852,13 +11867,7 @@
       "division": "D14",
       "location": "ALEXANDRA PARK TRL - ALEXANDRA PARK TRL",
       "ts": "2026-08-21T11:00:24+00:00",
-      "related": [
-        {
-          "id": "tps_68159313ebcd",
-          "distance_m": 387,
-          "minutes_apart": 81
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_b1f9782a0c60",
@@ -12128,57 +12137,9 @@
       "location": "PAUL MARTEL PARK TRL - PAUL MARTEL PARK TRL",
       "ts": "2026-08-21T10:07:11+00:00",
       "related": []
-    },
-    {
-      "id": "tps_68159313ebcd",
-      "source": "police",
-      "lat": 43.65202349236999,
-      "lng": -79.40225363325442,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "PKW",
-      "location": "DENISON AVE - DUNDAS ST W",
-      "ts": "2026-08-21T09:39:40+00:00",
-      "related": [
-        {
-          "id": "tps_1ede018dabb6",
-          "distance_m": 387,
-          "minutes_apart": 81
-        }
-      ]
-    },
-    {
-      "id": "tps_9e4361fa5dfe",
-      "source": "police",
-      "lat": 43.67825081429228,
-      "lng": -79.44195741875504,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "WESTMOUNT AVE - ST CLAIR AVE W",
-      "ts": "2026-08-21T09:34:36+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f3b83b438cae",
-        "tps_f862e8017740",
-        "tps_daf9c4e69387",
-        "tps_da91cdadb11b",
-        "tps_bbe7d4fa253e"
-      ]
-    },
     {
       "source": "police",
       "division": "D23",
