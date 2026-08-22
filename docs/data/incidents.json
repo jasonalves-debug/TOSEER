@@ -1,11 +1,153 @@
 {
-  "generated": "2026-08-22T10:56:10.682215+00:00",
+  "generated": "2026-08-22T11:11:16.434468+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_ac92ef4bd3c0",
+      "source": "police",
+      "lat": 43.66748149675699,
+      "lng": -79.31138382839757,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "LN 2 N QUEEN E KINGSTON - LARK ST",
+      "ts": "2026-08-22T11:05:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9a8ba959236c",
+      "source": "police",
+      "lat": 43.73278018007117,
+      "lng": -79.26459391445606,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D41",
+      "location": "HEPC - LRTC LI",
+      "ts": "2026-08-22T11:04:59+00:00",
+      "related": [
+        {
+          "id": "tps_5ee3e7f8d2e4",
+          "distance_m": 278,
+          "minutes_apart": 75
+        }
+      ]
+    },
+    {
+      "id": "tps_ddf097a9746c",
+      "source": "police",
+      "lat": 43.77861480479139,
+      "lng": -79.36341742986536,
+      "type": "PRO",
+      "type_plain": "PRO",
+      "severity": "low",
+      "division": "D33",
+      "location": "CORNING RD - GLENTWORTH RD",
+      "ts": "2026-08-22T11:04:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a6f98baa20ff",
+      "source": "police",
+      "lat": 43.63700141340408,
+      "lng": -79.55673758598797,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D22",
+      "location": "TREMONT RD - THE EAST MALL",
+      "ts": "2026-08-22T10:58:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_874a6f9d8172",
+      "source": "police",
+      "lat": 43.71103682379188,
+      "lng": -79.38367216717668,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D53",
+      "location": "RAWLINSON AVE - CARDIFF RD",
+      "ts": "2026-08-22T10:58:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9785eacd5885",
+      "source": "police",
+      "lat": 43.652665893742046,
+      "lng": -79.4047819326258,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D11",
+      "location": "DUNDAS ST W - NASSAU ST",
+      "ts": "2026-08-22T10:54:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b0ff9042d4bb",
+      "source": "police",
+      "lat": 43.650861390159655,
+      "lng": -79.39733043539779,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "SULLIVAN ST - GRANGE AVE",
+      "ts": "2026-08-22T10:53:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_caa107142a4d",
+      "source": "police",
+      "lat": 43.63679552853584,
+      "lng": -79.50776480476186,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D22",
+      "location": "ROYAL YORK RD - LORAHILL RD",
+      "ts": "2026-08-22T10:50:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7c799c7b9816",
+      "source": "police",
+      "lat": 43.61935103021635,
+      "lng": -79.51601273074598,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY W - ISLINGTON AVE",
+      "ts": "2026-08-22T10:50:08+00:00",
+      "related": [
+        {
+          "id": "tps_ec45ab3382e2",
+          "distance_m": 0,
+          "minutes_apart": 140
+        }
+      ]
+    },
+    {
+      "id": "tps_b839d23825a4",
+      "source": "police",
+      "lat": 43.75734189317793,
+      "lng": -79.5311633106263,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D31",
+      "location": "FINCH AVE W - HEPC",
+      "ts": "2026-08-22T10:49:03+00:00",
+      "related": []
+    },
     {
       "id": "tps_1c938781dbd9",
       "source": "police",
@@ -185,7 +327,13 @@
       "division": "D41",
       "location": "IONVIEW RD - KENNEDY RD",
       "ts": "2026-08-22T09:49:51+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_9a8ba959236c",
+          "distance_m": 278,
+          "minutes_apart": 75
+        }
+      ]
     },
     {
       "id": "tfs_F26130712",
@@ -578,6 +726,11 @@
           "id": "tps_b3b9b644ab95",
           "distance_m": 0,
           "minutes_apart": 64
+        },
+        {
+          "id": "tps_7c799c7b9816",
+          "distance_m": 0,
+          "minutes_apart": 140
         }
       ]
     },
@@ -11085,11 +11238,6 @@
           "id": "tps_2e9a7bb36d18",
           "distance_m": 364,
           "minutes_apart": 42
-        },
-        {
-          "id": "tps_dfa3655e9e06",
-          "distance_m": 524,
-          "minutes_apart": 134
         }
       ]
     },
@@ -11405,11 +11553,6 @@
           "id": "tps_42b9c1b20405",
           "distance_m": 251,
           "minutes_apart": 23
-        },
-        {
-          "id": "tps_dfa3655e9e06",
-          "distance_m": 585,
-          "minutes_apart": 111
         }
       ]
     },
@@ -12156,97 +12299,19 @@
           "minutes_apart": 83
         }
       ]
-    },
-    {
-      "id": "tps_38bc2c448a63",
-      "source": "police",
-      "lat": 43.64067429012503,
-      "lng": -79.52171160079311,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "HP",
-      "location": "ISLINGTON AVE - SPRINGBROOK GDNS",
-      "ts": "2026-08-21T11:06:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dfa3655e9e06",
-      "source": "police",
-      "lat": 43.70091352752334,
-      "lng": -79.39395695760115,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "TULLIS DR - CUTHBERT CRES",
-      "ts": "2026-08-21T11:04:44+00:00",
-      "related": [
-        {
-          "id": "tps_42b9c1b20405",
-          "distance_m": 524,
-          "minutes_apart": 134
-        },
-        {
-          "id": "tps_7f78b638271e",
-          "distance_m": 585,
-          "minutes_apart": 111
-        }
-      ]
-    },
-    {
-      "id": "tps_1ede018dabb6",
-      "source": "police",
-      "lat": 43.65137819288401,
-      "lng": -79.40698283146293,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D14",
-      "location": "ALEXANDRA PARK TRL - ALEXANDRA PARK TRL",
-      "ts": "2026-08-21T11:00:24+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_1c938781dbd9",
-        "tps_35f39269fef6",
-        "tps_71b847e379b1",
-        "tps_1323cc901e9f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 3,
+      "division": "D41",
+      "current_count": 5,
       "baseline_avg": 1.0,
-      "ratio": 3.0,
+      "ratio": 5.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_fe81cc7f08d3",
-        "tps_b88194c5e882",
-        "tps_e653f417bec1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
+        "tps_9a8ba959236c",
         "tps_d546fba3684d",
         "tps_5ee3e7f8d2e4",
         "tps_55476be30e8e",
@@ -12255,11 +12320,58 @@
     },
     {
       "source": "police",
+      "division": "D33",
+      "current_count": 5,
+      "baseline_avg": 1.0,
+      "ratio": 5.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ddf097a9746c",
+        "tps_1c938781dbd9",
+        "tps_35f39269fef6",
+        "tps_71b847e379b1",
+        "tps_1323cc901e9f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7c799c7b9816",
+        "tps_475e963a403c",
+        "tps_7eebcb20d64f",
+        "tps_e25fc84abf67"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a6f98baa20ff",
+        "tps_caa107142a4d",
+        "tps_8e6c040cac35",
+        "tps_084850309376",
+        "tps_ec45ab3382e2"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D43",
       "current_count": 3,
       "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "ratio": 2.5,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_b76a9dc434e9",
@@ -12269,30 +12381,32 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.2,
+      "division": "D14",
+      "current_count": 6,
+      "baseline_avg": 2.5,
       "ratio": 2.4,
-      "sample_days": 4,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_d870afb16c7b",
-        "tps_08150687acb1",
-        "tps_fb8918c113ac"
+        "tps_b0ff9042d4bb",
+        "tps_76169ed51e5a",
+        "tps_1ff8620920e1",
+        "tps_5f2aa240aefe",
+        "tps_358ebff2d1cf"
       ]
     },
     {
       "source": "police",
-      "division": "HP",
+      "division": "D11",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 6,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_475e963a403c",
-        "tps_7eebcb20d64f",
-        "tps_e25fc84abf67"
+        "tps_9785eacd5885",
+        "tps_d870afb16c7b",
+        "tps_08150687acb1"
       ]
     }
   ]
