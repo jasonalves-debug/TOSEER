@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T15:32:50.393342+00:00",
+  "generated": "2026-08-22T15:54:02.583390+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -11010,13 +11010,7 @@
       "division": "HP",
       "location": "KITCHENER AVE - REDHILL AVE",
       "ts": "2026-08-21T18:14:06+00:00",
-      "related": [
-        {
-          "id": "tps_ae4bc0171797",
-          "distance_m": 488,
-          "minutes_apart": 150
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e59774f8aa03",
@@ -11431,11 +11425,6 @@
           "id": "tps_c7d72da09cd8",
           "distance_m": 237,
           "minutes_apart": 59
-        },
-        {
-          "id": "tfs_F26130221",
-          "distance_m": 313,
-          "minutes_apart": 94
         }
       ]
     },
@@ -11796,11 +11785,6 @@
       "ts": "2026-08-21T16:19:45+00:00",
       "related": [
         {
-          "id": "tfs_F26130221",
-          "distance_m": 130,
-          "minutes_apart": 35
-        },
-        {
           "id": "tfs_F26130277",
           "distance_m": 237,
           "minutes_apart": 59
@@ -11952,64 +11936,6 @@
       "location": "PLYMOUTH AVE - TREFORD PL",
       "ts": "2026-08-21T15:54:40+00:00",
       "related": []
-    },
-    {
-      "id": "tps_368ec0169ce1",
-      "source": "police",
-      "lat": 43.79631651613332,
-      "lng": -79.4196186323514,
-      "type": "ASSPR",
-      "type_plain": "Assault (Priority / In Progress)",
-      "severity": "high",
-      "division": "D32",
-      "location": "ABITIBI AVE - NIPIGON AVE",
-      "ts": "2026-08-21T15:47:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26130221",
-      "source": "fire",
-      "lat": 43.6973903,
-      "lng": -79.50073,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "442",
-      "location": "TRETHEWEY DR & JANE ST",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-08-21T15:44:36+00:00",
-      "related": [
-        {
-          "id": "tps_c7d72da09cd8",
-          "distance_m": 130,
-          "minutes_apart": 35
-        },
-        {
-          "id": "tfs_F26130277",
-          "distance_m": 313,
-          "minutes_apart": 94
-        }
-      ]
-    },
-    {
-      "id": "tps_ae4bc0171797",
-      "source": "police",
-      "lat": 43.69444876903681,
-      "lng": -79.45586808449747,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D13",
-      "location": "NAIRN AVE - CHAMBERLAIN AVE",
-      "ts": "2026-08-21T15:44:27+00:00",
-      "related": [
-        {
-          "id": "tps_5a034a6d30d9",
-          "distance_m": 488,
-          "minutes_apart": 150
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -12032,9 +11958,9 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 1.7,
-      "ratio": 4.7,
+      "ratio": 4.1,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
@@ -12043,22 +11969,6 @@
         "tps_08829f1be395",
         "tps_1f214605a6f2",
         "tps_643c75c80451"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 12,
-      "baseline_avg": 3.0,
-      "ratio": 4.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_574407ee89f8",
-        "tps_12fb645facf6",
-        "tps_6a1a2be35dfb",
-        "tps_1bdf86cbafed",
-        "tps_246d97cfed43"
       ]
     },
     {
@@ -12079,18 +11989,18 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 1.7,
+      "division": "D51",
+      "current_count": 9,
+      "baseline_avg": 3.0,
       "ratio": 3.0,
-      "sample_days": 6,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_d1b38ed5c58f",
-        "tps_f228d4c7db78",
-        "tps_9c88aa10931f",
-        "tps_2d5407ba95f9",
-        "tps_0ef37460d800"
+        "tps_574407ee89f8",
+        "tps_12fb645facf6",
+        "tps_6a1a2be35dfb",
+        "tps_1bdf86cbafed",
+        "tps_246d97cfed43"
       ]
     },
     {
