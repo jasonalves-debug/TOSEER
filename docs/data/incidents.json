@@ -1,11 +1,43 @@
 {
-  "generated": "2026-08-22T16:36:26.306407+00:00",
+  "generated": "2026-08-22T16:56:37.217913+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_b4151a7448a8",
+      "source": "police",
+      "lat": 43.69555487348367,
+      "lng": -79.46961007938206,
+      "type": "BREJU",
+      "type_plain": "BREJU",
+      "severity": "low",
+      "division": "D12",
+      "location": "ALYWARD ST - GLENHAVEN ST",
+      "ts": "2026-08-22T16:36:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_41cba21a2c48",
+      "source": "police",
+      "lat": 43.652310093633126,
+      "lng": -79.40601573209595,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D14",
+      "location": "BATHURST ST - DUNDAS ST W",
+      "ts": "2026-08-22T16:25:36+00:00",
+      "related": [
+        {
+          "id": "tps_43c9b6b22c38",
+          "distance_m": 74,
+          "minutes_apart": 24
+        }
+      ]
+    },
     {
       "id": "tps_f323c9ac2983",
       "source": "police",
@@ -126,6 +158,11 @@
       "location": "LN S DUNDAS W BATHURST - DUNDAS ST W",
       "ts": "2026-08-22T16:01:32+00:00",
       "related": [
+        {
+          "id": "tps_41cba21a2c48",
+          "distance_m": 74,
+          "minutes_apart": 24
+        },
         {
           "id": "tps_f228d4c7db78",
           "distance_m": 479,
@@ -11909,97 +11946,6 @@
       "location": " - ",
       "ts": "2026-08-21T16:59:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_ec70bb33d92f",
-      "source": "police",
-      "lat": 43.66981211194439,
-      "lng": -79.40075224163746,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D53",
-      "location": "LOWTHER AVE - BERNARD AVE",
-      "ts": "2026-08-21T16:55:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5a32e9238878",
-      "source": "police",
-      "lat": 43.670232809825116,
-      "lng": -79.3867607489655,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "TAC8",
-      "location": "YONGE ST - BLOOR ST E",
-      "ts": "2026-08-21T16:54:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f40949e5edfc",
-      "source": "police",
-      "lat": 43.66319520229896,
-      "lng": -79.37304255392313,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D51",
-      "location": "GERRARD ST E - CARLTON ST",
-      "ts": "2026-08-21T16:49:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_39a07673151d",
-      "source": "police",
-      "lat": 43.72051007309702,
-      "lng": -79.5944397874052,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D23",
-      "location": "HARNESS RD - 27 HWY N",
-      "ts": "2026-08-21T16:49:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ab8fb1477574",
-      "source": "police",
-      "lat": 43.70914828434291,
-      "lng": -79.56550534544353,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "KIPLING AVE - BETHRIDGE RD",
-      "ts": "2026-08-21T16:45:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dc5778c2789e",
-      "source": "police",
-      "lat": 43.70223925992143,
-      "lng": -79.44107938149152,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D13",
-      "location": "MARLEE AVE - HEPC",
-      "ts": "2026-08-21T16:42:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a7054b89fb59",
-      "source": "police",
-      "lat": 43.79325028671001,
-      "lng": -79.24168086764925,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D42",
-      "location": "SCUNTHORPE RD - MARKHAM RD",
-      "ts": "2026-08-21T16:36:33+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -12037,42 +11983,41 @@
     },
     {
       "source": "police",
-      "division": "D23",
+      "division": "D12",
       "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 6,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_70c5eaa58410",
-        "tps_9af7adf97ac6",
-        "tps_74918d6176ae",
-        "tps_2ec18996f2eb",
-        "tps_39b73bc62ab2"
+        "tps_b4151a7448a8",
+        "tps_8ead59efe476",
+        "tps_4fe01e67b45e",
+        "tps_c223bdfddb5e",
+        "tps_55ccd752551a"
       ]
     },
     {
       "source": "police",
       "division": "D41",
-      "current_count": 6,
+      "current_count": 4,
       "baseline_avg": 1.8,
-      "ratio": 3.4,
+      "ratio": 2.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_f323c9ac2983",
         "tps_b63cad4681df",
         "tps_74f546bb38c6",
-        "tps_f7c9ed175b56",
-        "tps_5cfbfdc99cd5"
+        "tps_f7c9ed175b56"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 8,
+      "current_count": 6,
       "baseline_avg": 2.7,
-      "ratio": 2.9,
+      "ratio": 2.2,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
@@ -12085,47 +12030,16 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8ead59efe476",
-        "tps_4fe01e67b45e",
-        "tps_c223bdfddb5e",
-        "tps_55ccd752551a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 2.6,
-      "ratio": 2.3,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_65da9982c1a0",
-        "tps_720b46becd67",
-        "tps_08af2c445b9a",
-        "tps_0868dd5a237a",
-        "tps_30031d642908"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
+      "division": "D23",
       "current_count": 3,
       "baseline_avg": 1.3,
       "ratio": 2.2,
-      "sample_days": 3,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_7cdcb188e9e2",
-        "tps_6c5f13fb8b28",
-        "tps_d61c7861cac4"
+        "tps_70c5eaa58410",
+        "tps_9af7adf97ac6",
+        "tps_74918d6176ae"
       ]
     },
     {
