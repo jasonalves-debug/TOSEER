@@ -1,11 +1,75 @@
 {
-  "generated": "2026-08-22T22:34:54.058087+00:00",
+  "generated": "2026-08-22T22:55:28.510936+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_02cc90f725ea",
+      "source": "police",
+      "lat": 43.80209089427005,
+      "lng": -79.2178563691596,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D42",
+      "location": "WICKSON TRL - NEILSON RD",
+      "ts": "2026-08-22T22:38:46+00:00",
+      "related": [
+        {
+          "id": "tps_53b1c32adfeb",
+          "distance_m": 533,
+          "minutes_apart": 117
+        }
+      ]
+    },
+    {
+      "id": "tps_1ebbb05435ff",
+      "source": "police",
+      "lat": 43.68176901263976,
+      "lng": -79.42576192637651,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D13",
+      "location": "ST CLAIR AVE W - CHRISTIE ST",
+      "ts": "2026-08-22T22:38:35+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7eb912a8006c",
+      "source": "police",
+      "lat": 43.672000843958095,
+      "lng": -79.47324111590952,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D11",
+      "location": "OLD STOCK YARDS RD - MONDOVI GT",
+      "ts": "2026-08-22T22:33:43+00:00",
+      "related": [
+        {
+          "id": "tps_97c08452e06c",
+          "distance_m": 173,
+          "minutes_apart": 65
+        }
+      ]
+    },
+    {
+      "id": "tps_f8cd329a23fb",
+      "source": "police",
+      "lat": 43.6312685122686,
+      "lng": -79.47555341439238,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY E - HUMBER RIVER",
+      "ts": "2026-08-22T22:30:13+00:00",
+      "related": []
+    },
     {
       "id": "tps_c3e0ac9a6405",
       "source": "police",
@@ -363,7 +427,13 @@
       "division": "D11",
       "location": "OLD STOCK YARDS RD - MONDOVI GT",
       "ts": "2026-08-22T21:29:08+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_7eb912a8006c",
+          "distance_m": 173,
+          "minutes_apart": 65
+        }
+      ]
     },
     {
       "id": "tps_49d9f8e8c211",
@@ -618,7 +688,13 @@
       "division": "D42",
       "location": "NAHANNI TER - WASHBURN WAY",
       "ts": "2026-08-22T20:42:06+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_02cc90f725ea",
+          "distance_m": 533,
+          "minutes_apart": 117
+        }
+      ]
     },
     {
       "id": "tps_748800ad7f17",
@@ -10283,19 +10359,9 @@
       "ts": "2026-08-22T01:06:18+00:00",
       "related": [
         {
-          "id": "tps_c87fb99a91ad",
-          "distance_m": 0,
-          "minutes_apart": 139
-        },
-        {
           "id": "tps_aff439f9f79e",
           "distance_m": 391,
           "minutes_apart": 120
-        },
-        {
-          "id": "tfs_F26130464",
-          "distance_m": 408,
-          "minutes_apart": 148
         }
       ]
     },
@@ -10449,11 +10515,6 @@
           "id": "tps_3e19a8dc5e71",
           "distance_m": 527,
           "minutes_apart": 114
-        },
-        {
-          "id": "tfs_F26130466",
-          "distance_m": 569,
-          "minutes_apart": 130
         }
       ]
     },
@@ -11145,13 +11206,7 @@
       "division": "D11",
       "location": "BROCK AVE - MARGUERETTA ST",
       "ts": "2026-08-21T23:09:06+00:00",
-      "related": [
-        {
-          "id": "tps_bb309fe0de15",
-          "distance_m": 463,
-          "minutes_apart": 22
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_5801ed6d5b25",
@@ -11210,16 +11265,6 @@
       "location": "GRENOBLE DR - ",
       "ts": "2026-08-21T23:06:35+00:00",
       "related": [
-        {
-          "id": "tfs_F26130464",
-          "distance_m": 18,
-          "minutes_apart": 29
-        },
-        {
-          "id": "tps_c87fb99a91ad",
-          "distance_m": 391,
-          "minutes_apart": 20
-        },
         {
           "id": "tps_d768a0c53c2e",
           "distance_m": 391,
@@ -11319,231 +11364,60 @@
           "minutes_apart": 152
         }
       ]
-    },
-    {
-      "id": "tps_0a9c4c6af329",
-      "source": "police",
-      "lat": 43.69954647936214,
-      "lng": -79.58582652526242,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D23",
-      "location": "CITY VIEW DR - BELFIELD RD",
-      "ts": "2026-08-21T22:51:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bb309fe0de15",
-      "source": "police",
-      "lat": 43.65521640563446,
-      "lng": -79.4370618209781,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D11",
-      "location": "DUFFERIN GROVE PARK TRL - DUFFERIN GROVE PARK TRL",
-      "ts": "2026-08-21T22:47:12+00:00",
-      "related": [
-        {
-          "id": "tps_188e657b2ce9",
-          "distance_m": 463,
-          "minutes_apart": 22
-        }
-      ]
-    },
-    {
-      "id": "tps_c87fb99a91ad",
-      "source": "police",
-      "lat": 43.71864005846295,
-      "lng": -79.32558053587167,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D55",
-      "location": "CLUB GOLFWAY - ",
-      "ts": "2026-08-21T22:46:55+00:00",
-      "related": [
-        {
-          "id": "tps_d768a0c53c2e",
-          "distance_m": 0,
-          "minutes_apart": 139
-        },
-        {
-          "id": "tps_aff439f9f79e",
-          "distance_m": 391,
-          "minutes_apart": 20
-        },
-        {
-          "id": "tfs_F26130464",
-          "distance_m": 408,
-          "minutes_apart": 9
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26130466",
-      "source": "fire",
-      "lat": 43.6462885,
-      "lng": -79.3777197,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "332",
-      "location": "Toronto - BAY ST & FRONT ST W",
-      "approximate": false,
-      "units": "P333, T333",
-      "ts": "2026-08-21T22:42:05+00:00",
-      "related": [
-        {
-          "id": "tps_f6030dfb9ba1",
-          "distance_m": 569,
-          "minutes_apart": 130
-        }
-      ]
-    },
-    {
-      "id": "tps_509e3417f529",
-      "source": "police",
-      "lat": 43.635349177390154,
-      "lng": -79.41864682711636,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D14",
-      "location": "CANADA BLVD - NOVA SCOTIA AVE",
-      "ts": "2026-08-21T22:41:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_00798ac67f8b",
-      "source": "police",
-      "lat": 43.72487803675659,
-      "lng": -79.55974397496641,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "ISLINGTON AVE - IRWIN RD",
-      "ts": "2026-08-21T22:41:04+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26130464",
-      "source": "fire",
-      "lat": 43.7154832,
-      "lng": -79.3281769,
-      "type": "Hazmat Level 1",
-      "type_plain": "Hazmat Level 1",
-      "severity": "medium",
-      "division": "125",
-      "location": "North York - VENDOME PL & GRENOBLE DR",
-      "approximate": false,
-      "units": "P125, P322",
-      "ts": "2026-08-21T22:37:59+00:00",
-      "related": [
-        {
-          "id": "tps_aff439f9f79e",
-          "distance_m": 18,
-          "minutes_apart": 29
-        },
-        {
-          "id": "tps_c87fb99a91ad",
-          "distance_m": 408,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_d768a0c53c2e",
-          "distance_m": 408,
-          "minutes_apart": 148
-        }
-      ]
-    },
-    {
-      "id": "tps_712eedc647e7",
-      "source": "police",
-      "lat": 43.716814246413556,
-      "lng": -79.52707474127014,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "WILSON AVE - WENDELL AVE",
-      "ts": "2026-08-21T22:36:48+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D41",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.2,
-      "ratio": 4.0,
+      "ratio": 3.2,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_e7da35ecbe07",
         "tps_49d9f8e8c211",
         "tps_f50f6bfa4246",
-        "tps_a2c25c7b6ad6",
-        "tps_8f3db154baa3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4f27f013ae45",
-        "tps_888133febbd6",
-        "tps_4698f4dd5ec8",
-        "tps_5a0191c853a0",
-        "tps_d208730e7617"
+        "tps_a2c25c7b6ad6"
       ]
     },
     {
       "source": "police",
       "division": "D53",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.5,
-      "ratio": 3.3,
+      "ratio": 2.7,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_351d91da1537",
         "tps_62a148216f21",
         "tps_3b31e15f2901",
-        "tps_9f895c721b72",
-        "tps_2b3ead27319a"
+        "tps_9f895c721b72"
       ]
     },
     {
       "source": "police",
-      "division": "D43",
-      "current_count": 7,
-      "baseline_avg": 2.2,
-      "ratio": 3.2,
-      "sample_days": 5,
+      "division": "D11",
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_5d5f50b95cf2",
-        "tps_8785cacdbea0",
-        "tps_b24cf57b84fd",
-        "tps_47857a0afffe",
-        "tps_5903f4a05af0"
+        "tps_7eb912a8006c",
+        "tps_a422cad30141",
+        "tps_97c08452e06c",
+        "tps_f51b445620ac"
       ]
     },
     {
       "source": "police",
       "division": "D55",
-      "current_count": 7,
+      "current_count": 6,
       "baseline_avg": 2.6,
-      "ratio": 2.7,
+      "ratio": 2.3,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
@@ -11556,47 +11430,32 @@
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.8,
+      "division": "D43",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5d5f50b95cf2",
+        "tps_8785cacdbea0",
+        "tps_b24cf57b84fd",
+        "tps_47857a0afffe",
+        "tps_5903f4a05af0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 3,
+      "baseline_avg": 1.3,
       "ratio": 2.2,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_8841373674dc",
-        "tps_552a4f59a33d",
-        "tps_d37cad069452",
-        "tps_ad460e78b4cd"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a422cad30141",
-        "tps_97c08452e06c",
-        "tps_f51b445620ac"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 3.0,
-      "ratio": 2.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b958a1dbd054",
-        "tps_9c7a6173da64",
-        "tps_06c35f944f6e",
-        "tps_a2714086c65a",
-        "tps_1925b59e63e3"
+        "tps_4f27f013ae45",
+        "tps_888133febbd6",
+        "tps_4698f4dd5ec8"
       ]
     }
   ]
