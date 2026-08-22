@@ -1,11 +1,74 @@
 {
-  "generated": "2026-08-22T10:12:06.792089+00:00",
+  "generated": "2026-08-22T10:37:23.959174+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_7eebcb20d64f",
+      "source": "police",
+      "lat": 43.79028073726748,
+      "lng": -79.35414903782264,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "SENECA HILL DR - DON MILLS RD",
+      "ts": "2026-08-22T10:24:41+00:00",
+      "related": [
+        {
+          "id": "tps_1323cc901e9f",
+          "distance_m": 0,
+          "minutes_apart": 114
+        },
+        {
+          "id": "tfs_F26130691",
+          "distance_m": 27,
+          "minutes_apart": 130
+        }
+      ]
+    },
+    {
+      "id": "tps_b76a9dc434e9",
+      "source": "police",
+      "lat": 43.72194969498359,
+      "lng": -79.23624403634537,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "ST CLAIR AVE E - KINGSTON RD",
+      "ts": "2026-08-22T10:17:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d546fba3684d",
+      "source": "police",
+      "lat": 43.70324281124357,
+      "lng": -79.27952567563452,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D41",
+      "location": "WARDEN AVE - FIRVALLEY CRT",
+      "ts": "2026-08-22T10:03:16+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_35f39269fef6",
+      "source": "police",
+      "lat": 43.79072234268794,
+      "lng": -79.38128742963704,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D33",
+      "location": "MANGO DR - SAWLEY DR",
+      "ts": "2026-08-22T09:59:20+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26130713",
       "source": "fire",
@@ -26,6 +89,19 @@
           "minutes_apart": 51
         }
       ]
+    },
+    {
+      "id": "tps_5ee3e7f8d2e4",
+      "source": "police",
+      "lat": 43.73231127802962,
+      "lng": -79.26799761004041,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "IONVIEW RD - KENNEDY RD",
+      "ts": "2026-08-22T09:49:51+00:00",
+      "related": []
     },
     {
       "id": "tfs_F26130712",
@@ -391,6 +467,11 @@
       "ts": "2026-08-22T08:30:30+00:00",
       "related": [
         {
+          "id": "tps_7eebcb20d64f",
+          "distance_m": 0,
+          "minutes_apart": 114
+        },
+        {
           "id": "tfs_F26130691",
           "distance_m": 27,
           "minutes_apart": 16
@@ -547,6 +628,11 @@
           "id": "tps_1323cc901e9f",
           "distance_m": 27,
           "minutes_apart": 16
+        },
+        {
+          "id": "tps_7eebcb20d64f",
+          "distance_m": 27,
+          "minutes_apart": 130
         }
       ]
     },
@@ -12298,50 +12384,36 @@
           "minutes_apart": 14
         }
       ]
-    },
-    {
-      "id": "tps_ebed78f2c423",
-      "source": "police",
-      "lat": 43.771170798241,
-      "lng": -79.17393621304095,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D43",
-      "location": "WW E MANSE N LAWRENCE - ASTERFIELD DR",
-      "ts": "2026-08-21T10:22:41+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 3,
-      "baseline_avg": 1.0,
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.3,
       "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_b88194c5e882",
-        "tps_e653f417bec1",
-        "tps_a610349b7062"
+        "tps_d546fba3684d",
+        "tps_5ee3e7f8d2e4",
+        "tps_55476be30e8e",
+        "tps_4cea7cc19f75"
       ]
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 11,
-      "baseline_avg": 3.8,
-      "ratio": 2.9,
+      "division": "D43",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_1ff8620920e1",
-        "tps_5f2aa240aefe",
-        "tps_358ebff2d1cf",
-        "tps_d61daa756cc8",
-        "tps_3b646f3526af"
+        "tps_b76a9dc434e9",
+        "tps_d94031e87476",
+        "tps_0243a183dc29"
       ]
     },
     {
@@ -12356,20 +12428,6 @@
         "tps_d870afb16c7b",
         "tps_08150687acb1",
         "tps_fb8918c113ac"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d94031e87476",
-        "tps_0243a183dc29",
-        "tps_54a145927740"
       ]
     }
   ]
