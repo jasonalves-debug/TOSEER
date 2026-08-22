@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T14:55:23.513978+00:00",
+  "generated": "2026-08-22T15:08:44.893386+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -11234,13 +11234,7 @@
       "division": "D55",
       "location": " - ",
       "ts": "2026-08-21T16:59:05+00:00",
-      "related": [
-        {
-          "id": "tps_218a70254ae1",
-          "distance_m": 13,
-          "minutes_apart": 120
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_ec70bb33d92f",
@@ -12052,93 +12046,16 @@
           "minutes_apart": 13
         }
       ]
-    },
-    {
-      "id": "tps_83305ba84ead",
-      "source": "police",
-      "lat": 43.6739617192478,
-      "lng": -79.41048173873504,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D14",
-      "location": "BERNARD AVE - DUPONT ST",
-      "ts": "2026-08-21T15:00:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_218a70254ae1",
-      "source": "police",
-      "lat": 43.66221667969741,
-      "lng": -79.31480841846755,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D55",
-      "location": "COXWELL AVE - NORTHERN DANCER BLVD",
-      "ts": "2026-08-21T14:59:00+00:00",
-      "related": [
-        {
-          "id": "tps_9319fa7357dd",
-          "distance_m": 13,
-          "minutes_apart": 120
-        }
-      ]
-    },
-    {
-      "id": "tps_dd873959290f",
-      "source": "police",
-      "lat": 43.65351336582891,
-      "lng": -79.51403069364338,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D22",
-      "location": "TREMAYNE AVE - KINGSGROVE BLVD",
-      "ts": "2026-08-21T14:55:55+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D31",
-      "current_count": 6,
-      "baseline_avg": 1.0,
-      "ratio": 6.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_88dcbbe953c0",
-        "tps_4b9b2fce5db7",
-        "tps_b0ecf184da93",
-        "tps_67cea4df65f7",
-        "tps_c9e85ab4a30f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 8,
-      "baseline_avg": 1.4,
-      "ratio": 5.6,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d1b38ed5c58f",
-        "tps_f228d4c7db78",
-        "tps_9c88aa10931f",
-        "tps_2d5407ba95f9",
-        "tps_0ef37460d800"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 9,
-      "baseline_avg": 2.4,
-      "ratio": 3.8,
-      "sample_days": 5,
+      "current_count": 8,
+      "baseline_avg": 1.7,
+      "ratio": 4.8,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_08829f1be395",
@@ -12150,27 +12067,43 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
+      "division": "D14",
+      "current_count": 7,
+      "baseline_avg": 1.7,
+      "ratio": 4.2,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_c223bdfddb5e",
-        "tps_55ccd752551a",
-        "tps_5f716f82a9fd",
-        "tps_55579d92568b",
-        "tps_4d18109ef9ca"
+        "tps_d1b38ed5c58f",
+        "tps_f228d4c7db78",
+        "tps_9c88aa10931f",
+        "tps_2d5407ba95f9",
+        "tps_0ef37460d800"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 7,
+      "baseline_avg": 1.8,
+      "ratio": 3.9,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_720b46becd67",
+        "tps_08af2c445b9a",
+        "tps_0868dd5a237a",
+        "tps_30031d642908",
+        "tps_5c7410b55bf4"
       ]
     },
     {
       "source": "police",
       "division": "D55",
       "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_3d34b39be990",
@@ -12184,8 +12117,8 @@
       "source": "police",
       "division": "D23",
       "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
+      "baseline_avg": 1.8,
+      "ratio": 2.9,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -12198,59 +12131,11 @@
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 7,
-      "baseline_avg": 2.2,
-      "ratio": 3.2,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_720b46becd67",
-        "tps_08af2c445b9a",
-        "tps_0868dd5a237a",
-        "tps_30031d642908",
-        "tps_5c7410b55bf4"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.7,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5cfbfdc99cd5",
-        "tps_90ab2f61848c",
-        "tps_db50e7a54a39",
-        "tps_6e58195dda7f",
-        "tps_8d4c7880fa0e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 9,
-      "baseline_avg": 3.1,
-      "ratio": 2.9,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_246d97cfed43",
-        "tps_f5d56af2dad1",
-        "tps_4d0f1072c287",
-        "tps_833892b22cf2",
-        "tps_e8de177f84f0"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D53",
       "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 6,
+      "baseline_avg": 1.8,
+      "ratio": 2.9,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_b7b8a6acb36d",
@@ -12262,16 +12147,78 @@
     },
     {
       "source": "police",
-      "division": "D43",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
+      "division": "D51",
+      "current_count": 8,
+      "baseline_avg": 2.8,
+      "ratio": 2.9,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_ab73045bde1b",
-        "tps_bad54033a80b",
-        "tps_87999966d652"
+        "tps_246d97cfed43",
+        "tps_f5d56af2dad1",
+        "tps_4d0f1072c287",
+        "tps_833892b22cf2",
+        "tps_e8de177f84f0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5cfbfdc99cd5",
+        "tps_90ab2f61848c",
+        "tps_db50e7a54a39",
+        "tps_6e58195dda7f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_63ced0de6f72",
+        "tps_3710c5c85d6d",
+        "tps_3205c5491e7b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 5,
+      "baseline_avg": 2.3,
+      "ratio": 2.1,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c223bdfddb5e",
+        "tps_55ccd752551a",
+        "tps_5f716f82a9fd",
+        "tps_55579d92568b",
+        "tps_4d18109ef9ca"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_88dcbbe953c0",
+        "tps_4b9b2fce5db7",
+        "tps_b0ecf184da93",
+        "tps_67cea4df65f7"
       ]
     }
   ]
