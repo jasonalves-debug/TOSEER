@@ -1,11 +1,32 @@
 {
-  "generated": "2026-08-22T09:56:12.206663+00:00",
+  "generated": "2026-08-22T10:12:06.792089+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26130713",
+      "source": "fire",
+      "lat": 43.6409954,
+      "lng": -79.3802222,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "334",
+      "location": "Toronto - YORK ST & HARBOUR ST",
+      "approximate": false,
+      "units": "C33, P333, P334",
+      "ts": "2026-08-22T09:53:20+00:00",
+      "related": [
+        {
+          "id": "tfs_F26130701",
+          "distance_m": 0,
+          "minutes_apart": 51
+        }
+      ]
+    },
     {
       "id": "tfs_F26130712",
       "source": "fire",
@@ -17,8 +38,92 @@
       "division": "324",
       "location": "Toronto - LOGAN AVE & GERRARD ST E",
       "approximate": false,
-      "units": "",
+      "units": "P323, P324",
       "ts": "2026-08-22T09:48:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c9983cbf194a",
+      "source": "police",
+      "lat": 43.67192891190004,
+      "lng": -79.38745604948559,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D53",
+      "location": "LN W YONGE N YORKVILLE - BAY ST",
+      "ts": "2026-08-22T09:41:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1ff8620920e1",
+      "source": "police",
+      "lat": 43.64372378742457,
+      "lng": -79.42118322627097,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "BROOKFIELD ST - FENNINGS ST",
+      "ts": "2026-08-22T09:34:54+00:00",
+      "related": [
+        {
+          "id": "tps_358ebff2d1cf",
+          "distance_m": 195,
+          "minutes_apart": 66
+        },
+        {
+          "id": "tps_d61daa756cc8",
+          "distance_m": 202,
+          "minutes_apart": 79
+        },
+        {
+          "id": "tps_81b6ff2078a3",
+          "distance_m": 372,
+          "minutes_apart": 128
+        }
+      ]
+    },
+    {
+      "id": "tps_e04d3b77bfc3",
+      "source": "police",
+      "lat": 43.64444038354406,
+      "lng": -79.39313083638304,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "BLUE JAYS WAY - CLARENCE SQ",
+      "ts": "2026-08-22T09:33:11+00:00",
+      "related": [
+        {
+          "id": "tps_93a708e5ddc7",
+          "distance_m": 186,
+          "minutes_apart": 167
+        },
+        {
+          "id": "tps_3b646f3526af",
+          "distance_m": 433,
+          "minutes_apart": 103
+        },
+        {
+          "id": "tps_30e52ec19092",
+          "distance_m": 558,
+          "minutes_apart": 112
+        }
+      ]
+    },
+    {
+      "id": "tps_d94031e87476",
+      "source": "police",
+      "lat": 43.779339556202565,
+      "lng": -79.26275211302406,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D43",
+      "location": "401 C E BRIMLEY S RAMP - 401 C E PROGRESS AV RAMP",
+      "ts": "2026-08-22T09:32:31+00:00",
       "related": []
     },
     {
@@ -49,7 +154,13 @@
       "approximate": false,
       "units": "C33, P333, P334",
       "ts": "2026-08-22T09:02:22+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26130713",
+          "distance_m": 0,
+          "minutes_apart": 51
+        }
+      ]
     },
     {
       "id": "tps_5f2aa240aefe",
@@ -318,6 +429,11 @@
       "ts": "2026-08-22T08:29:04+00:00",
       "related": [
         {
+          "id": "tps_1ff8620920e1",
+          "distance_m": 195,
+          "minutes_apart": 66
+        },
+        {
           "id": "tps_81b6ff2078a3",
           "distance_m": 316,
           "minutes_apart": 62
@@ -396,6 +512,11 @@
       "location": "SUDBURY ST - LN S QUEEN E LISGAR",
       "ts": "2026-08-22T08:15:42+00:00",
       "related": [
+        {
+          "id": "tps_1ff8620920e1",
+          "distance_m": 202,
+          "minutes_apart": 79
+        },
         {
           "id": "tps_358ebff2d1cf",
           "distance_m": 396,
@@ -673,6 +794,11 @@
           "id": "tps_358ebff2d1cf",
           "distance_m": 316,
           "minutes_apart": 62
+        },
+        {
+          "id": "tps_1ff8620920e1",
+          "distance_m": 372,
+          "minutes_apart": 128
         },
         {
           "id": "tps_d61daa756cc8",
@@ -1066,6 +1192,11 @@
           "minutes_apart": 133
         },
         {
+          "id": "tps_e04d3b77bfc3",
+          "distance_m": 186,
+          "minutes_apart": 167
+        },
+        {
           "id": "tps_5015ef12fe0d",
           "distance_m": 226,
           "minutes_apart": 60
@@ -1084,11 +1215,6 @@
           "id": "tps_0a45b43fcb5f",
           "distance_m": 298,
           "minutes_apart": 146
-        },
-        {
-          "id": "tps_b62e4a9d7fbc",
-          "distance_m": 332,
-          "minutes_apart": 147
         }
       ]
     },
@@ -12185,63 +12311,65 @@
       "location": "WW E MANSE N LAWRENCE - ASTERFIELD DR",
       "ts": "2026-08-21T10:22:41+00:00",
       "related": []
-    },
-    {
-      "id": "tps_a85a2c5accb7",
-      "source": "police",
-      "lat": 43.65471921581434,
-      "lng": -79.45998111450979,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "KEELE ST - BLOOR ST W",
-      "ts": "2026-08-21T10:10:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bcb9b4817931",
-      "source": "police",
-      "lat": 43.66690400968224,
-      "lng": -79.40268993912223,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D53",
-      "location": "PAUL MARTEL PARK TRL - PAUL MARTEL PARK TRL",
-      "ts": "2026-08-21T10:07:11+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 4,
+      "division": "D12",
+      "current_count": 3,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0914d4a4b183",
-        "tps_13267fffecdf",
-        "tps_3bde000b306b",
-        "tps_3b65fa0cb654"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.3,
       "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_55476be30e8e",
-        "tps_4cea7cc19f75",
-        "tps_09e23b87f3c4",
-        "tps_288c699c0afd"
+        "tps_b88194c5e882",
+        "tps_e653f417bec1",
+        "tps_a610349b7062"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 11,
+      "baseline_avg": 3.8,
+      "ratio": 2.9,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_1ff8620920e1",
+        "tps_5f2aa240aefe",
+        "tps_358ebff2d1cf",
+        "tps_d61daa756cc8",
+        "tps_3b646f3526af"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d870afb16c7b",
+        "tps_08150687acb1",
+        "tps_fb8918c113ac"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d94031e87476",
+        "tps_0243a183dc29",
+        "tps_54a145927740"
       ]
     }
   ]
