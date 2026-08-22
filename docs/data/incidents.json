@@ -1,11 +1,82 @@
 {
-  "generated": "2026-08-22T11:32:37.805906+00:00",
+  "generated": "2026-08-22T11:54:35.712401+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_8dd44be74507",
+      "source": "police",
+      "lat": 43.79150648617043,
+      "lng": -79.23781117204584,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D42",
+      "location": "20 KIMBERCROFT CRT - ",
+      "ts": "2026-08-22T11:45:10+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c5a8c028678c",
+      "source": "police",
+      "lat": 43.650861390159655,
+      "lng": -79.39733043539779,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "SULLIVAN ST - GRANGE AVE",
+      "ts": "2026-08-22T11:31:57+00:00",
+      "related": [
+        {
+          "id": "tps_b0ff9042d4bb",
+          "distance_m": 0,
+          "minutes_apart": 38
+        }
+      ]
+    },
+    {
+      "id": "tps_7a12b4bdddec",
+      "source": "police",
+      "lat": 43.63933679198577,
+      "lng": -79.45130081635324,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D14",
+      "location": "SUNNYSIDE AVE - GLENDALE AVE",
+      "ts": "2026-08-22T11:31:10+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_da57384a208f",
+      "source": "police",
+      "lat": 43.666698505802216,
+      "lng": -79.38134984956254,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "DUNDONALD ST - CHURCH ST",
+      "ts": "2026-08-22T11:29:27+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_afff876d6f4d",
+      "source": "police",
+      "lat": 43.635882181084035,
+      "lng": -79.51979670506132,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": " - ",
+      "ts": "2026-08-22T11:25:49+00:00",
+      "related": []
+    },
     {
       "id": "tps_473ea9e1140a",
       "source": "police",
@@ -37,19 +108,6 @@
           "minutes_apart": 3
         }
       ]
-    },
-    {
-      "id": "tps_afff876d6f4d",
-      "source": "police",
-      "lat": 43.635882181084035,
-      "lng": -79.51979670506132,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D22",
-      "location": " - ",
-      "ts": "2026-08-22T11:18:57+00:00",
-      "related": []
     },
     {
       "id": "tfs_F26130730",
@@ -180,7 +238,13 @@
       "division": "D14",
       "location": "SULLIVAN ST - GRANGE AVE",
       "ts": "2026-08-22T10:53:37+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_c5a8c028678c",
+          "distance_m": 0,
+          "minutes_apart": 38
+        }
+      ]
     },
     {
       "id": "tps_caa107142a4d",
@@ -12003,170 +12067,19 @@
       "location": "HASTINGS AVE - ALTON AVE",
       "ts": "2026-08-21T11:56:18+00:00",
       "related": []
-    },
-    {
-      "id": "tps_6a3d60f0ec3c",
-      "source": "police",
-      "lat": 43.67698894782373,
-      "lng": -79.59109735785799,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "427 HWY N - CARLINGVIEW DR",
-      "ts": "2026-08-21T11:53:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26130136",
-      "source": "fire",
-      "lat": 43.6824587,
-      "lng": -79.5937072,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "441",
-      "location": "DIXON RD & CARLINGVIEW DR",
-      "approximate": false,
-      "units": "R441",
-      "ts": "2026-08-21T11:45:24+00:00",
-      "related": [
-        {
-          "id": "tps_808ba68db87f",
-          "distance_m": 508,
-          "minutes_apart": 6
-        }
-      ]
-    },
-    {
-      "id": "tps_22dceac3f302",
-      "source": "police",
-      "lat": 43.77616369333877,
-      "lng": -79.39910297400777,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D32",
-      "location": "MCKEE AVE - DUNVIEW AVE",
-      "ts": "2026-08-21T11:43:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_98e767e399f7",
-      "source": "police",
-      "lat": 43.77201900319675,
-      "lng": -79.36161033690992,
-      "type": "THEPR",
-      "type_plain": "Theft (Priority)",
-      "severity": "medium",
-      "division": "D33",
-      "location": "BETTY SUTHERLAND TRL - MARIS SHEPWAY",
-      "ts": "2026-08-21T11:40:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_808ba68db87f",
-      "source": "police",
-      "lat": 43.68682323947545,
-      "lng": -79.59557072612607,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D23",
-      "location": "CARLINGVIEW DR - DIXON RD",
-      "ts": "2026-08-21T11:39:42+00:00",
-      "related": [
-        {
-          "id": "tfs_F26130136",
-          "distance_m": 508,
-          "minutes_apart": 6
-        }
-      ]
-    },
-    {
-      "id": "tps_558a8e777711",
-      "source": "police",
-      "lat": 43.759885968599335,
-      "lng": -79.25967615311887,
-      "type": "NOICO",
-      "type_plain": "NOICO",
-      "severity": "low",
-      "division": "D41",
-      "location": "THOMSON MEMORIAL PARK TRL - WEST HIGHLAND CREEK",
-      "ts": "2026-08-21T11:38:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f6c60727cd2b",
-      "source": "police",
-      "lat": 43.79315685324319,
-      "lng": -79.35227754800785,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "SKYMARK DR - FINCH AVE E",
-      "ts": "2026-08-21T11:33:53+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D41",
+      "division": "HP",
       "current_count": 4,
       "baseline_avg": 1.0,
       "ratio": 4.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_9a8ba959236c",
-        "tps_d546fba3684d",
-        "tps_5ee3e7f8d2e4",
-        "tps_55476be30e8e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_473ea9e1140a",
-        "tps_ddf097a9746c",
-        "tps_1c938781dbd9",
-        "tps_35f39269fef6",
-        "tps_71b847e379b1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
         "tps_afff876d6f4d",
-        "tps_a6f98baa20ff",
-        "tps_caa107142a4d",
-        "tps_8e6c040cac35",
-        "tps_084850309376"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
         "tps_7c799c7b9816",
         "tps_475e963a403c",
         "tps_7eebcb20d64f"
@@ -12174,30 +12087,61 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 3,
+      "division": "D33",
+      "current_count": 4,
       "baseline_avg": 1.3,
-      "ratio": 2.2,
+      "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_9b6f1311599c",
-        "tps_fe81cc7f08d3",
-        "tps_b88194c5e882"
+        "tps_473ea9e1140a",
+        "tps_ddf097a9746c",
+        "tps_1c938781dbd9",
+        "tps_35f39269fef6"
       ]
     },
     {
       "source": "police",
-      "division": "D11",
+      "division": "D41",
       "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_9785eacd5885",
-        "tps_d870afb16c7b",
-        "tps_08150687acb1"
+        "tps_9a8ba959236c",
+        "tps_d546fba3684d",
+        "tps_5ee3e7f8d2e4"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 6,
+      "baseline_avg": 2.4,
+      "ratio": 2.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c5a8c028678c",
+        "tps_7a12b4bdddec",
+        "tps_b0ff9042d4bb",
+        "tps_76169ed51e5a",
+        "tps_1ff8620920e1"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a6f98baa20ff",
+        "tps_caa107142a4d",
+        "tps_8e6c040cac35"
       ]
     }
   ]
