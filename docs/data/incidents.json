@@ -1,11 +1,102 @@
 {
-  "generated": "2026-08-23T09:58:03.707673+00:00",
+  "generated": "2026-08-23T10:17:16.657730+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_8086bb7267a1",
+      "source": "police",
+      "lat": 43.76289791606535,
+      "lng": -79.338757759483,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D33",
+      "location": "UNDERPASS GT - KAREN RD",
+      "ts": "2026-08-23T10:00:54+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0e0bd2ee618a",
+      "source": "police",
+      "lat": 43.73423106526313,
+      "lng": -79.60310536739733,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D23",
+      "location": "FINCH AVE W - 27 HWY N",
+      "ts": "2026-08-23T09:49:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5f1faa0e43fd",
+      "source": "police",
+      "lat": 43.78154039514747,
+      "lng": -79.23495132169018,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D43",
+      "location": "ESTATE DR - MARKHAM RD",
+      "ts": "2026-08-23T09:44:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a6e5385a3b92",
+      "source": "police",
+      "lat": 43.783289338571876,
+      "lng": -79.28826359326524,
+      "type": "DAMJU",
+      "type_plain": "DAMJU",
+      "severity": "low",
+      "division": "D42",
+      "location": "ALLANFORD RD - KENNEDY RD",
+      "ts": "2026-08-23T09:41:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d3f078c0ac41",
+      "source": "police",
+      "lat": 43.699122629167796,
+      "lng": -79.25435439165943,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "ROSETTA MCCLAIN GARDENS TRL - WYNNVIEW CRT",
+      "ts": "2026-08-23T09:38:36+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dcadcaad34fd",
+      "source": "police",
+      "lat": 43.73723237077289,
+      "lng": -79.5652952792044,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D23",
+      "location": "ALBION RD - ISLINGTON AVE",
+      "ts": "2026-08-23T09:33:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f20ce48ffb71",
+      "source": "police",
+      "lat": 43.76852203547369,
+      "lng": -79.28532019114809,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "KENNEDY RD - DUNDALK DR",
+      "ts": "2026-08-23T09:32:39+00:00",
+      "related": []
+    },
     {
       "id": "tps_25f8b7782eef",
       "source": "police",
@@ -10005,63 +10096,50 @@
       "location": "ST CLAIR AVE E - KINGSTON RD",
       "ts": "2026-08-22T10:17:20+00:00",
       "related": []
-    },
-    {
-      "id": "tps_d546fba3684d",
-      "source": "police",
-      "lat": 43.70324281124357,
-      "lng": -79.27952567563452,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D41",
-      "location": "WARDEN AVE - FIRVALLEY CRT",
-      "ts": "2026-08-22T10:03:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_35f39269fef6",
-      "source": "police",
-      "lat": 43.79072234268794,
-      "lng": -79.38128742963704,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D33",
-      "location": "MANGO DR - SAWLEY DR",
-      "ts": "2026-08-22T09:59:20+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D12",
+      "division": "D23",
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0e0bd2ee618a",
+        "tps_dcadcaad34fd",
+        "tps_25f8b7782eef",
+        "tps_0a51aebef51d"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_90ec27dd5dd4",
-        "tps_d7d9652ad1fb",
-        "tps_645b4d64392e"
+        "tps_a6e5385a3b92",
+        "tps_e1f98fba36fd",
+        "tps_f82e314dabba"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.9,
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_8bc538991a1b",
         "tps_4618df4cf3b9",
-        "tps_e95bec196127",
-        "tps_69189ef000d0",
-        "tps_dcde5313b72d"
+        "tps_e95bec196127"
       ]
     }
   ]
