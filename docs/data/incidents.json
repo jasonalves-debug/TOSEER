@@ -1,11 +1,81 @@
 {
-  "generated": "2026-08-23T08:14:00.881094+00:00",
+  "generated": "2026-08-23T08:47:58.367074+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_7a67ed3d5916",
+      "source": "police",
+      "lat": 43.664324603428305,
+      "lng": -79.3749262530438,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D51",
+      "location": "CARLTON ST - MONTAGUE PARKETTE TRL",
+      "ts": "2026-08-23T08:20:42+00:00",
+      "related": [
+        {
+          "id": "tps_c34527357a64",
+          "distance_m": 405,
+          "minutes_apart": 91
+        }
+      ]
+    },
+    {
+      "id": "tps_0a51aebef51d",
+      "source": "police",
+      "lat": 43.75960298346708,
+      "lng": -79.58990149950844,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D23",
+      "location": "KIPLING AVE BICYCLE TRL - STEELES AVE W",
+      "ts": "2026-08-23T08:19:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8d67786988de",
+      "source": "police",
+      "lat": 43.65328519238883,
+      "lng": -79.38117144520058,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D52",
+      "location": "JAMES ST - BAY ST",
+      "ts": "2026-08-23T08:11:19+00:00",
+      "related": [
+        {
+          "id": "tps_76c9b998708d",
+          "distance_m": 226,
+          "minutes_apart": 156
+        }
+      ]
+    },
+    {
+      "id": "tps_f82e314dabba",
+      "source": "police",
+      "lat": 43.80890875808744,
+      "lng": -79.3004565010265,
+      "type": "MISVU",
+      "type_plain": "Missing Person (Vulnerable)",
+      "severity": "low",
+      "division": "D42",
+      "location": "PERTHSHIRE ST - HEPC",
+      "ts": "2026-08-23T07:51:44+00:00",
+      "related": [
+        {
+          "id": "tps_61ee158cd386",
+          "distance_m": 0,
+          "minutes_apart": 138
+        }
+      ]
+    },
     {
       "id": "tps_4618df4cf3b9",
       "source": "police",
@@ -223,7 +293,13 @@
       "division": "D51",
       "location": "HORTICULTURAL AVE - PEMBROKE ST",
       "ts": "2026-08-23T06:49:36+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_7a67ed3d5916",
+          "distance_m": 405,
+          "minutes_apart": 91
+        }
+      ]
     },
     {
       "id": "tps_d58e97cd8f69",
@@ -720,6 +796,11 @@
       "ts": "2026-08-23T05:35:20+00:00",
       "related": [
         {
+          "id": "tps_8d67786988de",
+          "distance_m": 226,
+          "minutes_apart": 156
+        },
+        {
           "id": "tps_d0e88ddb9215",
           "distance_m": 429,
           "minutes_apart": 76
@@ -742,7 +823,13 @@
       "division": "D42",
       "location": "PERTHSHIRE ST - HEPC",
       "ts": "2026-08-23T05:33:43+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_f82e314dabba",
+          "distance_m": 0,
+          "minutes_apart": 138
+        }
+      ]
     },
     {
       "id": "tps_182afdf97b2e",
@@ -9603,11 +9690,6 @@
       "ts": "2026-08-22T10:50:08+00:00",
       "related": [
         {
-          "id": "tps_ec45ab3382e2",
-          "distance_m": 0,
-          "minutes_apart": 140
-        },
-        {
           "id": "tps_0e158867513a",
           "distance_m": 567,
           "minutes_apart": 60
@@ -9727,16 +9809,6 @@
           "id": "tps_d44886cdff34",
           "distance_m": 0,
           "minutes_apart": 101
-        },
-        {
-          "id": "tps_1323cc901e9f",
-          "distance_m": 0,
-          "minutes_apart": 114
-        },
-        {
-          "id": "tfs_F26130691",
-          "distance_m": 27,
-          "minutes_apart": 130
         }
       ]
     },
@@ -9858,18 +9930,7 @@
       "division": "D14",
       "location": "BROOKFIELD ST - FENNINGS ST",
       "ts": "2026-08-22T09:34:54+00:00",
-      "related": [
-        {
-          "id": "tps_358ebff2d1cf",
-          "distance_m": 195,
-          "minutes_apart": 66
-        },
-        {
-          "id": "tps_d61daa756cc8",
-          "distance_m": 202,
-          "minutes_apart": 79
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e04d3b77bfc3",
@@ -10061,197 +10122,15 @@
       "location": "SCARLETT RD - EILEEN AVE",
       "ts": "2026-08-22T08:48:58+00:00",
       "related": []
-    },
-    {
-      "id": "tps_084850309376",
-      "source": "police",
-      "lat": 43.62094188018773,
-      "lng": -79.48275561678737,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D22",
-      "location": "HUMBER BAY PARK RD W - LEGION RD",
-      "ts": "2026-08-22T08:39:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_71b847e379b1",
-      "source": "police",
-      "lat": 43.73401990599372,
-      "lng": -79.355823498774,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D33",
-      "location": "MARSHFIELD CRT - LESLIE ST",
-      "ts": "2026-08-22T08:33:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1323cc901e9f",
-      "source": "police",
-      "lat": 43.79028073726748,
-      "lng": -79.35414903782264,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D33",
-      "location": "SENECA HILL DR - DON MILLS RD",
-      "ts": "2026-08-22T08:30:30+00:00",
-      "related": [
-        {
-          "id": "tps_7eebcb20d64f",
-          "distance_m": 0,
-          "minutes_apart": 114
-        },
-        {
-          "id": "tfs_F26130691",
-          "distance_m": 27,
-          "minutes_apart": 16
-        }
-      ]
-    },
-    {
-      "id": "tps_ec45ab3382e2",
-      "source": "police",
-      "lat": 43.61935103021635,
-      "lng": -79.51601273074598,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D22",
-      "location": "GARDINER XWY W - ISLINGTON AVE",
-      "ts": "2026-08-22T08:29:38+00:00",
-      "related": [
-        {
-          "id": "tps_7c799c7b9816",
-          "distance_m": 0,
-          "minutes_apart": 140
-        }
-      ]
-    },
-    {
-      "id": "tps_358ebff2d1cf",
-      "source": "police",
-      "lat": 43.644169687393216,
-      "lng": -79.41884582705006,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": "QUEEN ST W - OSSINGTON AVE",
-      "ts": "2026-08-22T08:29:04+00:00",
-      "related": [
-        {
-          "id": "tps_1ff8620920e1",
-          "distance_m": 195,
-          "minutes_apart": 66
-        },
-        {
-          "id": "tps_d61daa756cc8",
-          "distance_m": 396,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tps_0243a183dc29",
-      "source": "police",
-      "lat": 43.74303048127377,
-      "lng": -79.2320400725878,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D43",
-      "location": "CEDAR BRAE BLVD - PORCHESTER DR",
-      "ts": "2026-08-22T08:23:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e25fc84abf67",
-      "source": "police",
-      "lat": 43.69041368626126,
-      "lng": -79.4738975885697,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "EGLINTON AVE W - KEELE ST",
-      "ts": "2026-08-22T08:23:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0914d4a4b183",
-      "source": "police",
-      "lat": 43.73690847026462,
-      "lng": -79.56462097936159,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D23",
-      "location": "THISTLE DOWN BLVD - ISLINGTON N ALBION E RAMP",
-      "ts": "2026-08-22T08:23:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d61daa756cc8",
-      "source": "police",
-      "lat": 43.643234487513844,
-      "lng": -79.42359602546665,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D14",
-      "location": "SUDBURY ST - LN S QUEEN E LISGAR",
-      "ts": "2026-08-22T08:15:42+00:00",
-      "related": [
-        {
-          "id": "tps_1ff8620920e1",
-          "distance_m": 202,
-          "minutes_apart": 79
-        },
-        {
-          "id": "tps_358ebff2d1cf",
-          "distance_m": 396,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26130691",
-      "source": "fire",
-      "lat": 43.7901077,
-      "lng": -79.3539051,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "113",
-      "location": "SENECA HILL DR & DON MILLS RD",
-      "approximate": false,
-      "units": "P113",
-      "ts": "2026-08-22T08:14:44+00:00",
-      "related": [
-        {
-          "id": "tps_1323cc901e9f",
-          "distance_m": 27,
-          "minutes_apart": 16
-        },
-        {
-          "id": "tps_7eebcb20d64f",
-          "distance_m": 27,
-          "minutes_apart": 130
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "HP",
-      "current_count": 12,
+      "current_count": 8,
       "baseline_avg": 1.3,
-      "ratio": 9.0,
+      "ratio": 6.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
@@ -10268,14 +10147,29 @@
       "current_count": 5,
       "baseline_avg": 1.0,
       "ratio": 5.0,
-      "sample_days": 3,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_0a51aebef51d",
         "tps_56182228448b",
         "tps_38109155e5cc",
         "tps_5a9320449855",
-        "tps_48ccd5b18c7a",
-        "tps_f7336d52cd82"
+        "tps_48ccd5b18c7a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8d67786988de",
+        "tps_ca14bb0ea681",
+        "tps_53861dfa803b",
+        "tps_62976c6ee904"
       ]
     },
     {
@@ -10294,16 +10188,16 @@
     },
     {
       "source": "police",
-      "division": "D42",
+      "division": "D51",
       "current_count": 3,
       "baseline_avg": 1.5,
       "ratio": 2.0,
-      "sample_days": 6,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_8a64d3db5218",
-        "tps_ee4af0923d6e",
-        "tps_61ee158cd386"
+        "tps_7a67ed3d5916",
+        "tps_c34527357a64",
+        "tps_e7cee95fb523"
       ]
     }
   ]
