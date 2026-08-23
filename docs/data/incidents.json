@@ -1,11 +1,74 @@
 {
-  "generated": "2026-08-23T17:34:01.936188+00:00",
+  "generated": "2026-08-23T17:53:13.982764+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_abce83a2feb6",
+      "source": "police",
+      "lat": 43.78935548773655,
+      "lng": -79.176728699453,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "WW S ELLESMERE W WATSON - GLENTHORNE DR",
+      "ts": "2026-08-23T17:39:32+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_defbf7147e05",
+      "source": "police",
+      "lat": 43.725743547822496,
+      "lng": -79.47992494222598,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "JAMES FINLAY WAY - GEORGE APPLETON WAY",
+      "ts": "2026-08-23T17:33:29+00:00",
+      "related": [
+        {
+          "id": "tps_4320bef46c82",
+          "distance_m": 0,
+          "minutes_apart": 10
+        },
+        {
+          "id": "tps_30bcf865012f",
+          "distance_m": 322,
+          "minutes_apart": 79
+        }
+      ]
+    },
+    {
+      "id": "tps_7b7c513b177f",
+      "source": "police",
+      "lat": 43.70103846459786,
+      "lng": -79.51938915173204,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D12",
+      "location": "JOHN ST - LITTLE AVE",
+      "ts": "2026-08-23T17:29:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a1283d4bc2f8",
+      "source": "police",
+      "lat": 43.678823720433904,
+      "lng": -79.47810600394415,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D12",
+      "location": "SENECA AVE - CAYUGA AVE",
+      "ts": "2026-08-23T17:29:12+00:00",
+      "related": []
+    },
     {
       "id": "tps_1d1dfec09b2d",
       "source": "police",
@@ -55,6 +118,11 @@
       "location": "JAMES FINLAY WAY - GEORGE APPLETON WAY",
       "ts": "2026-08-23T17:23:25+00:00",
       "related": [
+        {
+          "id": "tps_defbf7147e05",
+          "distance_m": 0,
+          "minutes_apart": 10
+        },
         {
           "id": "tps_30bcf865012f",
           "distance_m": 322,
@@ -557,6 +625,11 @@
           "id": "tps_4320bef46c82",
           "distance_m": 322,
           "minutes_apart": 69
+        },
+        {
+          "id": "tps_defbf7147e05",
+          "distance_m": 322,
+          "minutes_apart": 79
         }
       ]
     },
@@ -8245,13 +8318,7 @@
       "division": "D22",
       "location": "THE QUEENSWAY - NORTH QUEEN ST",
       "ts": "2026-08-22T19:43:43+00:00",
-      "related": [
-        {
-          "id": "tps_19da8804a240",
-          "distance_m": 468,
-          "minutes_apart": 112
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_a3b4b5c42b86",
@@ -8850,11 +8917,6 @@
           "minutes_apart": 6
         },
         {
-          "id": "tps_3957ba163bbd",
-          "distance_m": 321,
-          "minutes_apart": 65
-        },
-        {
           "id": "tps_204f42742b4f",
           "distance_m": 555,
           "minutes_apart": 46
@@ -8882,11 +8944,6 @@
           "id": "tps_8216bfeb0975",
           "distance_m": 233,
           "minutes_apart": 4
-        },
-        {
-          "id": "tps_3957ba163bbd",
-          "distance_m": 233,
-          "minutes_apart": 62
         },
         {
           "id": "tps_204f42742b4f",
@@ -8955,11 +9012,6 @@
       "location": "BAY ST - GERRARD ST W",
       "ts": "2026-08-22T18:35:33+00:00",
       "related": [
-        {
-          "id": "tps_3957ba163bbd",
-          "distance_m": 0,
-          "minutes_apart": 59
-        },
         {
           "id": "tps_913becc60586",
           "distance_m": 233,
@@ -9320,11 +9372,6 @@
       "ts": "2026-08-22T17:56:03+00:00",
       "related": [
         {
-          "id": "tps_3957ba163bbd",
-          "distance_m": 322,
-          "minutes_apart": 19
-        },
-        {
           "id": "tps_8216bfeb0975",
           "distance_m": 322,
           "minutes_apart": 40
@@ -9350,159 +9397,15 @@
           "minutes_apart": 46
         }
       ]
-    },
-    {
-      "id": "tps_19da8804a240",
-      "source": "police",
-      "lat": 43.61824241193362,
-      "lng": -79.55765719031051,
-      "type": "SEEFI",
-      "type_plain": "SEEFI",
-      "severity": "low",
-      "division": "D22",
-      "location": "HEPC - MANSTOR RD",
-      "ts": "2026-08-22T17:51:18+00:00",
-      "related": [
-        {
-          "id": "tps_ad460e78b4cd",
-          "distance_m": 468,
-          "minutes_apart": 112
-        }
-      ]
-    },
-    {
-      "id": "tps_af0406f2b57a",
-      "source": "police",
-      "lat": 43.738777855769875,
-      "lng": -79.44377699073488,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D32",
-      "location": "KING HIGH AVE - DE QUINCY BLVD",
-      "ts": "2026-08-22T17:44:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f3f9c38b3ebe",
-      "source": "police",
-      "lat": 43.639181189283555,
-      "lng": -79.44381651872663,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D11",
-      "location": "QUEEN ST W - TRILLER AVE",
-      "ts": "2026-08-22T17:43:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4daa89ba4faf",
-      "source": "police",
-      "lat": 43.74365542744411,
-      "lng": -79.49181799509242,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D31",
-      "location": "SHEPPARD AVE W - SENTINEL RD",
-      "ts": "2026-08-22T17:43:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_507ac7a460ed",
-      "source": "police",
-      "lat": 43.6563163410307,
-      "lng": -79.4681908194986,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D11",
-      "location": "BLOOR ST W - GLENLAKE AVE",
-      "ts": "2026-08-22T17:42:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_de5580cb0b92",
-      "source": "police",
-      "lat": 43.79205857251085,
-      "lng": -79.25980334085709,
-      "type": "CHETS",
-      "type_plain": "CHETS",
-      "severity": "low",
-      "division": "D42",
-      "location": "MCCOWAN RD - NUGGET AVE",
-      "ts": "2026-08-22T17:39:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3957ba163bbd",
-      "source": "police",
-      "lat": 43.65849859760236,
-      "lng": -79.38485864498885,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D52",
-      "location": "BAY ST - GERRARD ST W",
-      "ts": "2026-08-22T17:36:46+00:00",
-      "related": [
-        {
-          "id": "tps_8216bfeb0975",
-          "distance_m": 0,
-          "minutes_apart": 59
-        },
-        {
-          "id": "tps_913becc60586",
-          "distance_m": 233,
-          "minutes_apart": 62
-        },
-        {
-          "id": "tps_580e6195aeb1",
-          "distance_m": 321,
-          "minutes_apart": 65
-        },
-        {
-          "id": "tps_204f42742b4f",
-          "distance_m": 322,
-          "minutes_apart": 19
-        }
-      ]
-    },
-    {
-      "id": "tps_5d85f41a4395",
-      "source": "police",
-      "lat": 43.723380645970714,
-      "lng": -79.60421508776686,
-      "type": "FOUPR",
-      "type_plain": "Found Property",
-      "severity": "low",
-      "division": "D23",
-      "location": "TRIPLE CROWN AVE - STALLION PL",
-      "ts": "2026-08-22T17:36:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fb9064c61d8e",
-      "source": "police",
-      "lat": 43.622885435947325,
-      "lng": -79.51795742216738,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D22",
-      "location": "ISLINGTON AVE - DORCHESTER AVE",
-      "ts": "2026-08-22T17:34:04+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D31",
-      "current_count": 7,
+      "current_count": 6,
       "baseline_avg": 1.0,
-      "ratio": 7.0,
+      "ratio": 6.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -9515,50 +9418,18 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 6,
-      "baseline_avg": 1.5,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c8be14ac7962",
-        "tps_9f638d0b025a",
-        "tps_08dd0a0d5424",
-        "tps_90a4968c6484",
-        "tps_de09d6cb7a87"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.6,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9961496670b0",
-        "tps_1b1ba83f2e45",
-        "tps_f892836e9975",
-        "tps_1f806149a41e",
-        "tps_5e71c3a256f9"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.0,
-      "ratio": 3.5,
+      "current_count": 8,
+      "baseline_avg": 2.2,
+      "ratio": 3.7,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_defbf7147e05",
         "tps_60d851ff769b",
         "tps_e7cc007be2e4",
         "tps_d7fe1467d0a7",
-        "tps_283e25e74aef",
-        "tps_dba20072ceed"
+        "tps_283e25e74aef"
       ]
     },
     {
@@ -9579,6 +9450,22 @@
     },
     {
       "source": "police",
+      "division": "D33",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9961496670b0",
+        "tps_1b1ba83f2e45",
+        "tps_f892836e9975",
+        "tps_1f806149a41e",
+        "tps_5e71c3a256f9"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D14",
       "current_count": 4,
       "baseline_avg": 1.4,
@@ -9594,17 +9481,17 @@
     },
     {
       "source": "police",
-      "division": "D22",
+      "division": "D55",
       "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 6,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_1d1dfec09b2d",
-        "tps_ac67d54b5ea8",
-        "tps_2281320d80d0",
-        "tps_81201ab826e7"
+        "tps_c8be14ac7962",
+        "tps_9f638d0b025a",
+        "tps_08dd0a0d5424",
+        "tps_90a4968c6484"
       ]
     }
   ]
