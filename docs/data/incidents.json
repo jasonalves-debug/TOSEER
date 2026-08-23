@@ -1,11 +1,41 @@
 {
-  "generated": "2026-08-23T21:54:26.795064+00:00",
+  "generated": "2026-08-23T22:07:32.446236+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26131611",
+      "source": "fire",
+      "lat": 43.783021,
+      "lng": -79.2887,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "244",
+      "location": "Scarborough - KENNEDY RD & SHEPPARD AVE E",
+      "approximate": false,
+      "units": "P245, R243",
+      "ts": "2026-08-23T21:56:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26131608",
+      "source": "fire",
+      "lat": 43.6598852,
+      "lng": -79.3777239,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - YONGE ST & GERRARD ST E",
+      "approximate": false,
+      "units": "P314",
+      "ts": "2026-08-23T21:52:24+00:00",
+      "related": []
+    },
     {
       "id": "tps_a0dff985a848",
       "source": "police",
@@ -8291,11 +8321,6 @@
           "minutes_apart": 86
         },
         {
-          "id": "tps_b958a1dbd054",
-          "distance_m": 345,
-          "minutes_apart": 133
-        },
-        {
           "id": "tps_984bb866a168",
           "distance_m": 527,
           "minutes_apart": 142
@@ -8528,13 +8553,7 @@
       "division": "D55",
       "location": "GOWAN AVE - COSBURN AVE",
       "ts": "2026-08-22T23:43:29+00:00",
-      "related": [
-        {
-          "id": "tps_be1a211c9c18",
-          "distance_m": 493,
-          "minutes_apart": 99
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_d47e608bec75",
@@ -9018,153 +9037,16 @@
           "minutes_apart": 101
         }
       ]
-    },
-    {
-      "id": "tps_552a4f59a33d",
-      "source": "police",
-      "lat": 43.63735818458594,
-      "lng": -79.49391180588172,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": "BELL MANOR PARK TRL - BELL MANOR PARK TRL",
-      "ts": "2026-08-22T22:05:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3172d3269747",
-      "source": "police",
-      "lat": 43.63893309225537,
-      "lng": -79.45372441583162,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY E - PARKSIDE DR",
-      "ts": "2026-08-22T22:04:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bc9cfdc317c0",
-      "source": "police",
-      "lat": 43.74117732381475,
-      "lng": -79.31926165979324,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D33",
-      "location": "UNDERHILL DR - CURLEW DR",
-      "ts": "2026-08-22T22:04:42+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_328ed640a89d",
-      "source": "police",
-      "lat": 43.67540153558696,
-      "lng": -79.35806637992573,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D55",
-      "location": "FAIRVIEW BLVD - DEARBOURNE AVE",
-      "ts": "2026-08-22T22:04:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_be1a211c9c18",
-      "source": "police",
-      "lat": 43.68930959249507,
-      "lng": -79.35494530996873,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D55",
-      "location": "COSBURN AVE - GAMBLE AVE",
-      "ts": "2026-08-22T22:04:26+00:00",
-      "related": [
-        {
-          "id": "tps_96a85d40d0cb",
-          "distance_m": 493,
-          "minutes_apart": 99
-        }
-      ]
-    },
-    {
-      "id": "tps_b958a1dbd054",
-      "source": "police",
-      "lat": 43.646681487965736,
-      "lng": -79.40654123115154,
-      "type": "WOU",
-      "type_plain": "WOU",
-      "severity": "low",
-      "division": "D14",
-      "location": "QUEEN ST W - PALMERSTON AVE",
-      "ts": "2026-08-22T21:59:41+00:00",
-      "related": [
-        {
-          "id": "tps_58a1916181e1",
-          "distance_m": 345,
-          "minutes_apart": 133
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D31",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.3,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_73f81c3e280c",
-        "tps_6917827743d1",
-        "tps_30de7bc4bf36",
-        "tps_731d5b816c1a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_220c413a2bd0",
-        "tps_c7a79c96f44a",
-        "tps_514466d9cef7",
-        "tps_d2681a1c0773",
-        "tps_5229ee4590a6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 2.4,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a67cdcd099fb",
-        "tps_463f6eba0d63",
-        "tps_6d47f250cdcf",
-        "tps_fb817c84bc94",
-        "tps_4119f93e4169"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D12",
       "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.2,
-      "sample_days": 4,
+      "baseline_avg": 1.4,
+      "ratio": 3.6,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_f770ab8373c5",
@@ -9176,17 +9058,47 @@
     },
     {
       "source": "police",
+      "division": "D52",
+      "current_count": 6,
+      "baseline_avg": 2.3,
+      "ratio": 2.6,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a67cdcd099fb",
+        "tps_463f6eba0d63",
+        "tps_6d47f250cdcf",
+        "tps_fb817c84bc94",
+        "tps_4119f93e4169"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D55",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 7,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_a0dff985a848",
         "tps_1771b4404297",
         "tps_56d0f06839d8",
         "tps_4ae7b05f711e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_73f81c3e280c",
+        "tps_6917827743d1",
+        "tps_30de7bc4bf36"
       ]
     }
   ]
