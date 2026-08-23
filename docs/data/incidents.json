@@ -1,11 +1,24 @@
 {
-  "generated": "2026-08-23T10:17:16.657730+00:00",
+  "generated": "2026-08-23T10:46:01.010861+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_7eaef0126a53",
+      "source": "police",
+      "lat": 43.63851228099157,
+      "lng": -79.41955342681418,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": " - LIBERTY ST",
+      "ts": "2026-08-23T10:16:51+00:00",
+      "related": []
+    },
     {
       "id": "tps_8086bb7267a1",
       "source": "police",
@@ -9489,13 +9502,7 @@
       "division": "HP",
       "location": "SENECA HILL DR - DON MILLS RD",
       "ts": "2026-08-22T12:05:17+00:00",
-      "related": [
-        {
-          "id": "tps_7eebcb20d64f",
-          "distance_m": 0,
-          "minutes_apart": 101
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_abd636e864d4",
@@ -9986,116 +9993,6 @@
       "location": "FINCH AVE W - HEPC",
       "ts": "2026-08-22T10:49:03+00:00",
       "related": []
-    },
-    {
-      "id": "tps_1c938781dbd9",
-      "source": "police",
-      "lat": 43.7784708967074,
-      "lng": -79.38637959496224,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D33",
-      "location": "BAYVIEW AVE - BURBANK DR",
-      "ts": "2026-08-22T10:45:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_76169ed51e5a",
-      "source": "police",
-      "lat": 43.638731486278544,
-      "lng": -79.43660032113196,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D14",
-      "location": "KING ST W - QUEEN ST W",
-      "ts": "2026-08-22T10:43:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8e6c040cac35",
-      "source": "police",
-      "lat": 43.62956081510182,
-      "lng": -79.55175879214204,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D22",
-      "location": "DUNDAS ST W - THE EAST MALL",
-      "ts": "2026-08-22T10:38:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fe81cc7f08d3",
-      "source": "police",
-      "lat": 43.67032194723023,
-      "lng": -79.47763201559586,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D12",
-      "location": "ST CLAIR AVE W - SYMES RD",
-      "ts": "2026-08-22T10:35:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_475e963a403c",
-      "source": "police",
-      "lat": 43.74590389827582,
-      "lng": -79.62197279715447,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "HUDDERSFIELD RD - CLAIREVILLE DR",
-      "ts": "2026-08-22T10:34:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9e8bb9ffd9b5",
-      "source": "police",
-      "lat": 43.753617382550246,
-      "lng": -79.58709009242014,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D23",
-      "location": "HUMBER RIVER RECREATIONAL TRL - KIPLING AVE BICYCLE TRL",
-      "ts": "2026-08-22T10:32:00+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7eebcb20d64f",
-      "source": "police",
-      "lat": 43.79028073726748,
-      "lng": -79.35414903782264,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "SENECA HILL DR - DON MILLS RD",
-      "ts": "2026-08-22T10:24:41+00:00",
-      "related": [
-        {
-          "id": "tps_d44886cdff34",
-          "distance_m": 0,
-          "minutes_apart": 101
-        }
-      ]
-    },
-    {
-      "id": "tps_b76a9dc434e9",
-      "source": "police",
-      "lat": 43.72194969498359,
-      "lng": -79.23624403634537,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "ST CLAIR AVE E - KINGSTON RD",
-      "ts": "2026-08-22T10:17:20+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10126,20 +10023,6 @@
         "tps_a6e5385a3b92",
         "tps_e1f98fba36fd",
         "tps_f82e314dabba"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8bc538991a1b",
-        "tps_4618df4cf3b9",
-        "tps_e95bec196127"
       ]
     }
   ]
