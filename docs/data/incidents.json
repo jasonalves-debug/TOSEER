@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T15:54:53.829603+00:00",
+  "generated": "2026-08-23T16:09:19.230010+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -8275,11 +8275,6 @@
           "minutes_apart": 111
         },
         {
-          "id": "tps_43c9b6b22c38",
-          "distance_m": 181,
-          "minutes_apart": 135
-        },
-        {
           "id": "tps_1c2ece42b8c1",
           "distance_m": 523,
           "minutes_apart": 68
@@ -8492,11 +8487,6 @@
           "id": "tps_5d39aabced93",
           "distance_m": 569,
           "minutes_apart": 51
-        },
-        {
-          "id": "tps_43c9b6b22c38",
-          "distance_m": 571,
-          "minutes_apart": 116
         },
         {
           "id": "tps_41cba21a2c48",
@@ -8717,13 +8707,7 @@
       "division": "D12",
       "location": "DUVAL DR - KEELE ST",
       "ts": "2026-08-22T17:24:38+00:00",
-      "related": [
-        {
-          "id": "tps_8ead59efe476",
-          "distance_m": 506,
-          "minutes_apart": 86
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_75853c407416",
@@ -9174,11 +9158,6 @@
       "ts": "2026-08-22T16:25:36+00:00",
       "related": [
         {
-          "id": "tps_43c9b6b22c38",
-          "distance_m": 74,
-          "minutes_apart": 24
-        },
-        {
           "id": "tps_18747b1106d7",
           "distance_m": 130,
           "minutes_apart": 111
@@ -9290,89 +9269,15 @@
           "minutes_apart": 71
         }
       ]
-    },
-    {
-      "id": "tps_4b4b506af742",
-      "source": "police",
-      "lat": 43.620507777380844,
-      "lng": -79.48325661690977,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "LAKE SHORE BLVD W - LEGION RD",
-      "ts": "2026-08-22T16:01:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_43c9b6b22c38",
-      "source": "police",
-      "lat": 43.65226599336165,
-      "lng": -79.40509623238775,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN S DUNDAS W BATHURST - DUNDAS ST W",
-      "ts": "2026-08-22T16:01:32+00:00",
-      "related": [
-        {
-          "id": "tps_41cba21a2c48",
-          "distance_m": 74,
-          "minutes_apart": 24
-        },
-        {
-          "id": "tps_18747b1106d7",
-          "distance_m": 181,
-          "minutes_apart": 135
-        },
-        {
-          "id": "tps_e0c6c353eef7",
-          "distance_m": 571,
-          "minutes_apart": 116
-        }
-      ]
-    },
-    {
-      "id": "tps_7cdcb188e9e2",
-      "source": "police",
-      "lat": 43.66564045381549,
-      "lng": -79.48852871358918,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D11",
-      "location": "WILLARD AVE - PRISCILLA AVE",
-      "ts": "2026-08-22T15:58:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8ead59efe476",
-      "source": "police",
-      "lat": 43.7122331494182,
-      "lng": -79.47883253858168,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D12",
-      "location": "KEELE ST - NORTH PARK DR",
-      "ts": "2026-08-22T15:58:44+00:00",
-      "related": [
-        {
-          "id": "tps_08aaadee1c62",
-          "distance_m": 506,
-          "minutes_apart": 86
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 8,
-      "baseline_avg": 1.3,
-      "ratio": 6.0,
+      "current_count": 6,
+      "baseline_avg": 1.5,
+      "ratio": 4.0,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
@@ -9386,10 +9291,10 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 8,
-      "baseline_avg": 2.7,
-      "ratio": 3.0,
-      "sample_days": 3,
+      "current_count": 7,
+      "baseline_avg": 1.8,
+      "ratio": 3.9,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_1f00cf225198",
@@ -9401,25 +9306,11 @@
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5e71c3a256f9",
-        "tps_386b6a2eaa6a",
-        "tps_30f738ba888c"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.7,
-      "sample_days": 5,
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_9c5fa726d6fa",
@@ -9431,39 +9322,10 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b69b59a3d96b",
-        "tps_ec5d503915cd",
-        "tps_7673819709e3",
-        "tps_3a13d38262a8"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2281320d80d0",
-        "tps_81201ab826e7",
-        "tps_16a10d1e7f77"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D31",
       "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.3,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
@@ -9471,6 +9333,34 @@
         "tps_10e2bd21efb1",
         "tps_a64f72e560f0",
         "tps_da7f6a291193"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5b4976872dcd",
+        "tps_b87532002f17",
+        "tps_b3c5e7bb292e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_656740f25ae8",
+        "tps_e088541d5f48",
+        "tps_fb46a619a4ab"
       ]
     }
   ]
