@@ -1,11 +1,56 @@
 {
-  "generated": "2026-08-23T20:35:36.991116+00:00",
+  "generated": "2026-08-23T20:56:00.310647+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_e1451f2ddf05",
+      "source": "police",
+      "lat": 43.663201702305415,
+      "lng": -79.36752735760204,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D51",
+      "location": "GERRARD ST E - WOODWARD EVANS LANE",
+      "ts": "2026-08-23T20:45:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fd05560b664f",
+      "source": "police",
+      "lat": 43.74672575525525,
+      "lng": -79.28216481301489,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "2190 LAWRENCE AVE E - 10 CANLISH RD",
+      "ts": "2026-08-23T20:34:06+00:00",
+      "related": [
+        {
+          "id": "tps_eab29af1170d",
+          "distance_m": 231,
+          "minutes_apart": 103
+        }
+      ]
+    },
+    {
+      "id": "tps_fb817c84bc94",
+      "source": "police",
+      "lat": 43.656214595318346,
+      "lng": -79.38973884260079,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D52",
+      "location": "ELM ST - GERRARD ST W",
+      "ts": "2026-08-23T20:31:23+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26131570",
       "source": "fire",
@@ -17,7 +62,7 @@
       "division": "423",
       "location": "Toronto - HIGH PARK AVE & ANNETTE ST",
       "approximate": false,
-      "units": "A423, P423",
+      "units": "A423, P422, P423",
       "ts": "2026-08-23T20:24:42+00:00",
       "related": [
         {
@@ -700,7 +745,13 @@
       "division": "D41",
       "location": "MCGREGOR RD - LAWRENCE AVE E",
       "ts": "2026-08-23T18:50:40+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_fd05560b664f",
+          "distance_m": 231,
+          "minutes_apart": 103
+        }
+      ]
     },
     {
       "id": "tps_8f9a88d5c892",
@@ -8541,13 +8592,7 @@
       "division": "D42",
       "location": "WICKSON TRL - NEILSON RD",
       "ts": "2026-08-22T22:38:46+00:00",
-      "related": [
-        {
-          "id": "tps_53b1c32adfeb",
-          "distance_m": 533,
-          "minutes_apart": 117
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_1ebbb05435ff",
@@ -9181,169 +9226,38 @@
       "location": "CEDAR DR - SCARBOROUGH GOLF CLUB RD",
       "ts": "2026-08-22T20:56:41+00:00",
       "related": []
-    },
-    {
-      "id": "tps_1925b59e63e3",
-      "source": "police",
-      "lat": 43.635700974804706,
-      "lng": -79.3983326338877,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": "BATHURST ST - LITTLE NORWAY PARK TRL",
-      "ts": "2026-08-22T20:51:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_888133febbd6",
-      "source": "police",
-      "lat": 43.662332401436146,
-      "lng": -79.36717885754466,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "GERRARD ST E - WOODWARD EVANS LANE",
-      "ts": "2026-08-22T20:50:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5903f4a05af0",
-      "source": "police",
-      "lat": 43.76711139611559,
-      "lng": -79.18997480463405,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "DANZIG ST - ",
-      "ts": "2026-08-22T20:47:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1614c5322b5f",
-      "source": "police",
-      "lat": 43.79366470415284,
-      "lng": -79.40203293413394,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "NORTHWOOD DR - MAXOME AVE",
-      "ts": "2026-08-22T20:43:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_53b1c32adfeb",
-      "source": "police",
-      "lat": 43.802501696723255,
-      "lng": -79.22447097373573,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "NAHANNI TER - WASHBURN WAY",
-      "ts": "2026-08-22T20:42:06+00:00",
-      "related": [
-        {
-          "id": "tps_02cc90f725ea",
-          "distance_m": 533,
-          "minutes_apart": 117
-        }
-      ]
-    },
-    {
-      "id": "tps_748800ad7f17",
-      "source": "police",
-      "lat": 43.65407279317647,
-      "lng": -79.37995624627325,
-      "type": "ROB",
-      "type_plain": "ROB",
-      "severity": "low",
-      "division": "D52",
-      "location": "QUEEN ST W - SHUTER ST",
-      "ts": "2026-08-22T20:40:24+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.4,
-      "ratio": 3.6,
-      "sample_days": 5,
+      "current_count": 6,
+      "baseline_avg": 1.3,
+      "ratio": 4.5,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_fd05560b664f",
         "tps_dde579be1597",
         "tps_8fcf209f22fe",
         "tps_eab29af1170d",
-        "tps_8f9a88d5c892",
-        "tps_24549664b28f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.3,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6917827743d1",
-        "tps_30de7bc4bf36",
-        "tps_731d5b816c1a",
-        "tps_d20e42198f29"
+        "tps_8f9a88d5c892"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.5,
-      "ratio": 3.3,
+      "ratio": 2.7,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_6417280f86d3",
         "tps_04b6691a2aa8",
         "tps_69c9315e775a",
-        "tps_8ac3a37c0bb4",
-        "tps_60d438dac09f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_01eca2b0248d",
-        "tps_d6055276caa2",
-        "tps_cc0a6bb62a2e",
-        "tps_9fb52a774b9a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.8,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4119f93e4169",
-        "tps_72b8b1f19c0d",
-        "tps_73dd7f3671b6",
-        "tps_3159d9f4f07c",
-        "tps_45a4e950dcd6"
+        "tps_8ac3a37c0bb4"
       ]
     },
     {
@@ -9358,6 +9272,20 @@
         "tps_5896c4268d5c",
         "tps_9e8bcd1c46af",
         "tps_d96459399690"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_6917827743d1",
+        "tps_30de7bc4bf36",
+        "tps_731d5b816c1a"
       ]
     },
     {
@@ -9377,17 +9305,46 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 2.5,
-      "ratio": 2.4,
-      "sample_days": 6,
+      "current_count": 5,
+      "baseline_avg": 2.3,
+      "ratio": 2.2,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_e1451f2ddf05",
         "tps_c48f304d507d",
         "tps_95aad27ef735",
         "tps_20e571f9b5d6",
-        "tps_f9a47a7b8f92",
-        "tps_1c2edb681053"
+        "tps_f9a47a7b8f92"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_01eca2b0248d",
+        "tps_d6055276caa2",
+        "tps_cc0a6bb62a2e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_fb817c84bc94",
+        "tps_4119f93e4169",
+        "tps_72b8b1f19c0d",
+        "tps_73dd7f3671b6"
       ]
     }
   ]
