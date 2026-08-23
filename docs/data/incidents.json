@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T20:56:00.310647+00:00",
+  "generated": "2026-08-23T21:11:08.341818+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -7,17 +7,114 @@
   "retention_hours": 24,
   "incidents": [
     {
+      "id": "tps_bcdd51c6ff35",
+      "source": "police",
+      "lat": 43.78886658494799,
+      "lng": -79.24009727624617,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D42",
+      "location": "SCUNTHORPE RD - MARKHAM RD",
+      "ts": "2026-08-23T20:59:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e1f22b163de1",
+      "source": "police",
+      "lat": 43.635621918556645,
+      "lng": -79.57479568807013,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D22",
+      "location": "TOLEDO RD - MARKLAND DR",
+      "ts": "2026-08-23T20:54:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26131586",
+      "source": "fire",
+      "lat": 43.6842311,
+      "lng": -79.4838018,
+      "type": "Natural Gas Leak",
+      "type_plain": "Natural Gas Leak",
+      "severity": "medium",
+      "division": "421",
+      "location": "York - LAMBTON AVE & WESTON RD",
+      "approximate": false,
+      "units": "P421",
+      "ts": "2026-08-23T20:54:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_57d90ffa7248",
+      "source": "police",
+      "lat": 43.64019239158186,
+      "lng": -79.44666671777652,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D11",
+      "location": "GRAFTON AVE - HARVARD AVE",
+      "ts": "2026-08-23T20:53:32+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2a4158891f7b",
+      "source": "police",
+      "lat": 43.6385443776481,
+      "lng": -79.39213313595421,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY E - SPADINA AVE",
+      "ts": "2026-08-23T20:50:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6d47f250cdcf",
+      "source": "police",
+      "lat": 43.647915987019616,
+      "lng": -79.38356484156863,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "YORK ST - KING ST W",
+      "ts": "2026-08-23T20:50:19+00:00",
+      "related": [
+        {
+          "id": "tps_72b8b1f19c0d",
+          "distance_m": 423,
+          "minutes_apart": 75
+        },
+        {
+          "id": "tfs_F26131512",
+          "distance_m": 504,
+          "minutes_apart": 178
+        }
+      ]
+    },
+    {
       "id": "tps_e1451f2ddf05",
       "source": "police",
-      "lat": 43.663201702305415,
-      "lng": -79.36752735760204,
+      "lat": 43.662332401436146,
+      "lng": -79.36717885754466,
       "type": "ARR",
       "type_plain": "Arrest / Arrived at Scene",
       "severity": "low",
       "division": "D51",
       "location": "GERRARD ST E - WOODWARD EVANS LANE",
       "ts": "2026-08-23T20:45:29+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_20e571f9b5d6",
+          "distance_m": 544,
+          "minutes_apart": 120
+        }
+      ]
     },
     {
       "id": "tps_fd05560b664f",
@@ -534,14 +631,14 @@
           "minutes_apart": 113
         },
         {
+          "id": "tps_6d47f250cdcf",
+          "distance_m": 423,
+          "minutes_apart": 75
+        },
+        {
           "id": "tps_73dd7f3671b6",
           "distance_m": 507,
           "minutes_apart": 56
-        },
-        {
-          "id": "tps_f9a47a7b8f92",
-          "distance_m": 584,
-          "minutes_apart": 80
         }
       ]
     },
@@ -856,6 +953,11 @@
           "id": "tps_afe185c1d5b3",
           "distance_m": 539,
           "minutes_apart": 162
+        },
+        {
+          "id": "tps_e1451f2ddf05",
+          "distance_m": 544,
+          "minutes_apart": 120
         },
         {
           "id": "tps_5ba760a427fe",
@@ -8200,11 +8302,6 @@
           "id": "tps_5d5f50b95cf2",
           "distance_m": 338,
           "minutes_apart": 135
-        },
-        {
-          "id": "tps_b24cf57b84fd",
-          "distance_m": 338,
-          "minutes_apart": 161
         }
       ]
     },
@@ -8374,11 +8471,6 @@
           "id": "tps_c2d544d14a92",
           "distance_m": 0,
           "minutes_apart": 88
-        },
-        {
-          "id": "tps_a2714086c65a",
-          "distance_m": 563,
-          "minutes_apart": 138
         }
       ]
     },
@@ -8529,11 +8621,6 @@
           "id": "tps_5d5f50b95cf2",
           "distance_m": 13,
           "minutes_apart": 83
-        },
-        {
-          "id": "tps_b24cf57b84fd",
-          "distance_m": 13,
-          "minutes_apart": 108
         },
         {
           "id": "tps_1080c4adaf8c",
@@ -8887,11 +8974,6 @@
           "id": "tps_c2d544d14a92",
           "distance_m": 0,
           "minutes_apart": 174
-        },
-        {
-          "id": "tps_a2714086c65a",
-          "distance_m": 563,
-          "minutes_apart": 52
         }
       ]
     },
@@ -9024,11 +9106,6 @@
       "ts": "2026-08-22T21:30:18+00:00",
       "related": [
         {
-          "id": "tps_b24cf57b84fd",
-          "distance_m": 0,
-          "minutes_apart": 25
-        },
-        {
           "id": "tps_ac97511527eb",
           "distance_m": 13,
           "minutes_apart": 83
@@ -9147,95 +9224,30 @@
           "minutes_apart": 14
         }
       ]
-    },
-    {
-      "id": "tps_f50f6bfa4246",
-      "source": "police",
-      "lat": 43.76447813970978,
-      "lng": -79.28243999978267,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D41",
-      "location": "BRIGSTOCK RD - ELLESMERE RD",
-      "ts": "2026-08-22T21:07:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b24cf57b84fd",
-      "source": "police",
-      "lat": 43.759798304831214,
-      "lng": -79.22539057378039,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D43",
-      "location": "LAWRENCE AVE E - GREENHOLM CRCT",
-      "ts": "2026-08-22T21:05:02+00:00",
-      "related": [
-        {
-          "id": "tps_5d5f50b95cf2",
-          "distance_m": 0,
-          "minutes_apart": 25
-        },
-        {
-          "id": "tps_ac97511527eb",
-          "distance_m": 13,
-          "minutes_apart": 108
-        },
-        {
-          "id": "tps_1080c4adaf8c",
-          "distance_m": 338,
-          "minutes_apart": 161
-        }
-      ]
-    },
-    {
-      "id": "tps_a2714086c65a",
-      "source": "police",
-      "lat": 43.63917708053595,
-      "lng": -79.41142392952399,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D14",
-      "location": "GATEWAY PARK TRL - PIRANDELLO ST",
-      "ts": "2026-08-22T20:58:00+00:00",
-      "related": [
-        {
-          "id": "tps_9c7a6173da64",
-          "distance_m": 563,
-          "minutes_apart": 52
-        },
-        {
-          "id": "tps_788a7f7a96e8",
-          "distance_m": 563,
-          "minutes_apart": 138
-        }
-      ]
-    },
-    {
-      "id": "tps_47857a0afffe",
-      "source": "police",
-      "lat": 43.74671968630657,
-      "lng": -79.2168288932624,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D43",
-      "location": "CEDAR DR - SCARBOROUGH GOLF CLUB RD",
-      "ts": "2026-08-22T20:56:41+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D13",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d7cb2a03fe0b",
+        "tps_af1f3e5280b4",
+        "tps_47d30cae9071"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
-      "current_count": 6,
-      "baseline_avg": 1.3,
-      "ratio": 4.5,
-      "sample_days": 6,
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_fd05560b664f",
@@ -9247,26 +9259,11 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6417280f86d3",
-        "tps_04b6691a2aa8",
-        "tps_69c9315e775a",
-        "tps_8ac3a37c0bb4"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D23",
       "current_count": 3,
       "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
+      "ratio": 2.4,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_5896c4268d5c",
@@ -9279,8 +9276,8 @@
       "division": "D31",
       "current_count": 3,
       "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
+      "ratio": 2.4,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_6917827743d1",
@@ -9290,25 +9287,40 @@
     },
     {
       "source": "police",
-      "division": "D13",
+      "division": "D33",
       "current_count": 3,
       "baseline_avg": 1.2,
-      "ratio": 2.5,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_30c146476b15",
+        "tps_fb4722a4a5a1",
+        "tps_1893344b016f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_d7cb2a03fe0b",
-        "tps_af1f3e5280b4",
-        "tps_47d30cae9071"
+        "tps_514466d9cef7",
+        "tps_d2681a1c0773",
+        "tps_5229ee4590a6",
+        "tps_68f80ed0db9e"
       ]
     },
     {
       "source": "police",
       "division": "D51",
       "current_count": 5,
-      "baseline_avg": 2.3,
-      "ratio": 2.2,
-      "sample_days": 7,
+      "baseline_avg": 2.4,
+      "ratio": 2.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_e1451f2ddf05",
@@ -9320,27 +9332,14 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_01eca2b0248d",
-        "tps_d6055276caa2",
-        "tps_cc0a6bb62a2e"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 2.0,
+      "current_count": 5,
+      "baseline_avg": 2.5,
       "ratio": 2.0,
-      "sample_days": 5,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_6d47f250cdcf",
         "tps_fb817c84bc94",
         "tps_4119f93e4169",
         "tps_72b8b1f19c0d",
