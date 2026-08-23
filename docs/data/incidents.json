@@ -1,11 +1,113 @@
 {
-  "generated": "2026-08-23T05:41:07.750220+00:00",
+  "generated": "2026-08-23T05:59:38.157806+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_8a64d3db5218",
+      "source": "police",
+      "lat": 43.789644067640666,
+      "lng": -79.25881393594842,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D42",
+      "location": "SHEPPARD AVE E - MCCOWAN RD",
+      "ts": "2026-08-23T05:46:23+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ac7cef1437c7",
+      "source": "police",
+      "lat": 43.78164443511478,
+      "lng": -79.30471148021627,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "HP",
+      "location": "SHEPPARD AVE E - DAVISBROOK BLVD",
+      "ts": "2026-08-23T05:40:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_76c9b998708d",
+      "source": "police",
+      "lat": 43.65431769342137,
+      "lng": -79.37875654715465,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D51",
+      "location": "SHUTER ST - DUNDAS SQ",
+      "ts": "2026-08-23T05:35:20+00:00",
+      "related": [
+        {
+          "id": "tps_d0e88ddb9215",
+          "distance_m": 429,
+          "minutes_apart": 76
+        },
+        {
+          "id": "tps_3acb630c9f22",
+          "distance_m": 560,
+          "minutes_apart": 156
+        }
+      ]
+    },
+    {
+      "id": "tps_61ee158cd386",
+      "source": "police",
+      "lat": 43.80890875808744,
+      "lng": -79.3004565010265,
+      "type": "MISVU",
+      "type_plain": "Missing Person (Vulnerable)",
+      "severity": "low",
+      "division": "D42",
+      "location": "PERTHSHIRE ST - HEPC",
+      "ts": "2026-08-23T05:33:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_182afdf97b2e",
+      "source": "police",
+      "lat": 43.691168470377555,
+      "lng": -79.37959918562335,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D53",
+      "location": "ST CLAIR AVE E - WELLAND AVE",
+      "ts": "2026-08-23T05:32:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f62fad07e85a",
+      "source": "police",
+      "lat": 43.7283161802982,
+      "lng": -79.27105570349217,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "ASHWICK DR - EGLINTON RAVINE PARK TRL",
+      "ts": "2026-08-23T05:31:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f8853e50f9ae",
+      "source": "police",
+      "lat": 43.68447249140483,
+      "lng": -79.49881288466511,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D12",
+      "location": "EGLINTON AVE W - JANE ST",
+      "ts": "2026-08-23T05:25:42+00:00",
+      "related": []
+    },
     {
       "id": "tps_a40a98e1fce8",
       "source": "police",
@@ -336,7 +438,13 @@
       "division": "D52",
       "location": "BAY ST - ELIZABETH ST",
       "ts": "2026-08-23T04:19:32+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_76c9b998708d",
+          "distance_m": 429,
+          "minutes_apart": 76
+        }
+      ]
     },
     {
       "id": "tps_c01add637aaf",
@@ -930,6 +1038,11 @@
           "id": "tps_957e20bcf955",
           "distance_m": 507,
           "minutes_apart": 157
+        },
+        {
+          "id": "tps_76c9b998708d",
+          "distance_m": 560,
+          "minutes_apart": 156
         }
       ]
     },
@@ -9287,13 +9400,7 @@
       "division": "D51",
       "location": "GEORGE ST S - GEORGE ST S",
       "ts": "2026-08-22T08:49:20+00:00",
-      "related": [
-        {
-          "id": "tps_64010c619341",
-          "distance_m": 457,
-          "minutes_apart": 178
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_b88194c5e882",
@@ -9607,16 +9714,6 @@
       "ts": "2026-08-22T07:50:35+00:00",
       "related": [
         {
-          "id": "tps_146126175766",
-          "distance_m": 0,
-          "minutes_apart": 117
-        },
-        {
-          "id": "tps_5015ef12fe0d",
-          "distance_m": 72,
-          "minutes_apart": 124
-        },
-        {
           "id": "tps_30e52ec19092",
           "distance_m": 132,
           "minutes_apart": 9
@@ -9635,6 +9732,11 @@
           "id": "tps_8c225afee55c",
           "distance_m": 323,
           "minutes_apart": 77
+        },
+        {
+          "id": "tps_e04d3b77bfc3",
+          "distance_m": 433,
+          "minutes_apart": 103
         }
       ]
     },
@@ -9669,16 +9771,6 @@
           "minutes_apart": 9
         },
         {
-          "id": "tps_146126175766",
-          "distance_m": 132,
-          "minutes_apart": 108
-        },
-        {
-          "id": "tps_5015ef12fe0d",
-          "distance_m": 204,
-          "minutes_apart": 115
-        },
-        {
           "id": "tps_5a67fd1f6d80",
           "distance_m": 293,
           "minutes_apart": 25
@@ -9689,9 +9781,14 @@
           "minutes_apart": 68
         },
         {
-          "id": "tps_4b31d853b3b2",
-          "distance_m": 406,
-          "minutes_apart": 120
+          "id": "tps_93a708e5ddc7",
+          "distance_m": 430,
+          "minutes_apart": 56
+        },
+        {
+          "id": "tps_e04d3b77bfc3",
+          "distance_m": 558,
+          "minutes_apart": 112
         }
       ]
     },
@@ -9973,11 +10070,6 @@
           "minutes_apart": 43
         },
         {
-          "id": "tps_4b31d853b3b2",
-          "distance_m": 170,
-          "minutes_apart": 95
-        },
-        {
           "id": "tps_30e52ec19092",
           "distance_m": 293,
           "minutes_apart": 25
@@ -9988,14 +10080,9 @@
           "minutes_apart": 34
         },
         {
-          "id": "tps_146126175766",
-          "distance_m": 323,
-          "minutes_apart": 83
-        },
-        {
-          "id": "tps_5015ef12fe0d",
-          "distance_m": 359,
-          "minutes_apart": 90
+          "id": "tps_93a708e5ddc7",
+          "distance_m": 524,
+          "minutes_apart": 31
         }
       ]
     },
@@ -10145,16 +10232,6 @@
           "minutes_apart": 167
         },
         {
-          "id": "tps_5015ef12fe0d",
-          "distance_m": 226,
-          "minutes_apart": 60
-        },
-        {
-          "id": "tps_146126175766",
-          "distance_m": 298,
-          "minutes_apart": 53
-        },
-        {
           "id": "tps_3b646f3526af",
           "distance_m": 298,
           "minutes_apart": 65
@@ -10165,9 +10242,14 @@
           "minutes_apart": 56
         },
         {
-          "id": "tps_4b31d853b3b2",
-          "distance_m": 477,
-          "minutes_apart": 64
+          "id": "tps_8c225afee55c",
+          "distance_m": 524,
+          "minutes_apart": 13
+        },
+        {
+          "id": "tps_5a67fd1f6d80",
+          "distance_m": 524,
+          "minutes_apart": 31
         }
       ]
     },
@@ -10221,19 +10303,9 @@
           "minutes_apart": 43
         },
         {
-          "id": "tps_4b31d853b3b2",
-          "distance_m": 170,
-          "minutes_apart": 51
-        },
-        {
           "id": "tps_30e52ec19092",
           "distance_m": 293,
           "minutes_apart": 68
-        },
-        {
-          "id": "tps_146126175766",
-          "distance_m": 323,
-          "minutes_apart": 40
         },
         {
           "id": "tps_3b646f3526af",
@@ -10241,9 +10313,9 @@
           "minutes_apart": 77
         },
         {
-          "id": "tps_5015ef12fe0d",
-          "distance_m": 359,
-          "minutes_apart": 47
+          "id": "tps_93a708e5ddc7",
+          "distance_m": 524,
+          "minutes_apart": 13
         }
       ]
     },
@@ -10451,209 +10523,6 @@
       "location": "NEARCTIC DR - REXDALE BLVD",
       "ts": "2026-08-22T06:07:39+00:00",
       "related": []
-    },
-    {
-      "id": "tps_09441cc25296",
-      "source": "police",
-      "lat": 43.77355403934399,
-      "lng": -79.47654309747898,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D32",
-      "location": "ALNESS ST - BRISBANE RD",
-      "ts": "2026-08-22T05:56:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_146126175766",
-      "source": "police",
-      "lat": 43.64476698387067,
-      "lng": -79.39848733402353,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D14",
-      "location": "BRANT PL - PORTLAND ST",
-      "ts": "2026-08-22T05:53:24+00:00",
-      "related": [
-        {
-          "id": "tps_3b646f3526af",
-          "distance_m": 0,
-          "minutes_apart": 117
-        },
-        {
-          "id": "tps_5015ef12fe0d",
-          "distance_m": 72,
-          "minutes_apart": 7
-        },
-        {
-          "id": "tps_30e52ec19092",
-          "distance_m": 132,
-          "minutes_apart": 108
-        },
-        {
-          "id": "tps_93a708e5ddc7",
-          "distance_m": 298,
-          "minutes_apart": 53
-        },
-        {
-          "id": "tps_8c225afee55c",
-          "distance_m": 323,
-          "minutes_apart": 40
-        },
-        {
-          "id": "tps_5a67fd1f6d80",
-          "distance_m": 323,
-          "minutes_apart": 83
-        }
-      ]
-    },
-    {
-      "id": "tps_d3559c96fa46",
-      "source": "police",
-      "lat": 43.70674080495774,
-      "lng": -79.39831324474767,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "YONGE ST - EGLINTON AVE E",
-      "ts": "2026-08-22T05:53:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_64010c619341",
-      "source": "police",
-      "lat": 43.64434248344611,
-      "lng": -79.36780265201877,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "RICHARDSON ST - DOCKSIDE DR",
-      "ts": "2026-08-22T05:51:27+00:00",
-      "related": [
-        {
-          "id": "tps_f3b83b438cae",
-          "distance_m": 457,
-          "minutes_apart": 178
-        }
-      ]
-    },
-    {
-      "id": "tps_5015ef12fe0d",
-      "source": "police",
-      "lat": 43.64494468404835,
-      "lng": -79.39763053443214,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D14",
-      "location": "KING ST W - BRANT ST",
-      "ts": "2026-08-22T05:46:32+00:00",
-      "related": [
-        {
-          "id": "tps_146126175766",
-          "distance_m": 72,
-          "minutes_apart": 7
-        },
-        {
-          "id": "tps_3b646f3526af",
-          "distance_m": 72,
-          "minutes_apart": 124
-        },
-        {
-          "id": "tps_30e52ec19092",
-          "distance_m": 204,
-          "minutes_apart": 115
-        },
-        {
-          "id": "tps_93a708e5ddc7",
-          "distance_m": 226,
-          "minutes_apart": 60
-        },
-        {
-          "id": "tps_8c225afee55c",
-          "distance_m": 359,
-          "minutes_apart": 47
-        },
-        {
-          "id": "tps_5a67fd1f6d80",
-          "distance_m": 359,
-          "minutes_apart": 90
-        }
-      ]
-    },
-    {
-      "id": "tps_142a91d8f8bb",
-      "source": "police",
-      "lat": 43.768185189116764,
-      "lng": -79.38840431272321,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D33",
-      "location": "TEAGARDEN CRT - SPRING GARDEN AVE",
-      "ts": "2026-08-22T05:44:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4b31d853b3b2",
-      "source": "police",
-      "lat": 43.64807688718051,
-      "lng": -79.39965233353684,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "QUEEN ST W - AUGUSTA AVE",
-      "ts": "2026-08-22T05:42:05+00:00",
-      "related": [
-        {
-          "id": "tps_8c225afee55c",
-          "distance_m": 170,
-          "minutes_apart": 51
-        },
-        {
-          "id": "tps_5a67fd1f6d80",
-          "distance_m": 170,
-          "minutes_apart": 95
-        },
-        {
-          "id": "tps_146126175766",
-          "distance_m": 380,
-          "minutes_apart": 11
-        },
-        {
-          "id": "tps_3b646f3526af",
-          "distance_m": 380,
-          "minutes_apart": 128
-        },
-        {
-          "id": "tps_5015ef12fe0d",
-          "distance_m": 384,
-          "minutes_apart": 4
-        },
-        {
-          "id": "tps_30e52ec19092",
-          "distance_m": 406,
-          "minutes_apart": 120
-        }
-      ]
-    },
-    {
-      "id": "tps_433eadf187b9",
-      "source": "police",
-      "lat": 43.64591718502081,
-      "lng": -79.37908774449542,
-      "type": "THE",
-      "type_plain": "THE",
-      "severity": "low",
-      "division": "D52",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-08-22T05:41:51+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10661,16 +10530,16 @@
       "source": "police",
       "division": "D42",
       "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_8a64d3db5218",
+        "tps_61ee158cd386",
         "tps_0e14a15f979b",
         "tps_c142b71a9846",
-        "tps_583b9bdd7fd2",
-        "tps_3318f02579ee",
-        "tps_8b06c7f2def1"
+        "tps_583b9bdd7fd2"
       ]
     },
     {
@@ -10690,94 +10559,60 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_bde17313b455",
-        "tps_8bcb6a01c712",
-        "tps_ea193a2a8bc9",
-        "tps_06f9380f4ece"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
       "current_count": 9,
-      "baseline_avg": 3.4,
-      "ratio": 2.6,
+      "baseline_avg": 3.6,
+      "ratio": 2.5,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_ac7cef1437c7",
         "tps_a40a98e1fce8",
         "tps_22863a70e566",
         "tps_3a9d4471c413",
-        "tps_5bebfede1029",
-        "tps_9a7f036737d5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_fab28fc76013",
-        "tps_570a95e5c5e7",
-        "tps_c0fbdcec334e",
-        "tps_d0a7ff922788"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f7336d52cd82",
-        "tps_2800da155816",
-        "tps_c98ebc9dad0f",
-        "tps_18c770875abd",
-        "tps_8fd34d536832"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_50b225bf8c43",
-        "tps_00da11d3013e",
-        "tps_4906492b477f",
-        "tps_3f36d54d0f60",
-        "tps_f734ca15fab7"
+        "tps_5bebfede1029"
       ]
     },
     {
       "source": "police",
       "division": "D53",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_182afdf97b2e",
         "tps_43538fe5ab57",
-        "tps_65230d3786f0",
-        "tps_6110d2996c73"
+        "tps_65230d3786f0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f62fad07e85a",
+        "tps_e130d161de1d",
+        "tps_0ebb0380bbd8"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_bde17313b455",
+        "tps_8bcb6a01c712",
+        "tps_ea193a2a8bc9"
       ]
     }
   ]
