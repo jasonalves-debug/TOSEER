@@ -1,11 +1,88 @@
 {
-  "generated": "2026-08-23T19:12:17.454111+00:00",
+  "generated": "2026-08-23T19:32:18.227775+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26131545",
+      "source": "fire",
+      "lat": 43.7373004,
+      "lng": -79.4332789,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "132",
+      "location": "BATHURST ST & WILSON AVE",
+      "approximate": false,
+      "units": "P132",
+      "ts": "2026-08-23T19:21:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0d584cbc88b0",
+      "source": "police",
+      "lat": 43.77953670123865,
+      "lng": -79.23296484605089,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "MARKHAM RD - ",
+      "ts": "2026-08-23T19:16:36+00:00",
+      "related": [
+        {
+          "id": "tps_00edf86452de",
+          "distance_m": 0,
+          "minutes_apart": 127
+        }
+      ]
+    },
+    {
+      "id": "tps_4ae7b05f711e",
+      "source": "police",
+      "lat": 43.690794324537045,
+      "lng": -79.29026915992246,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D55",
+      "location": "THYRA AVE - DANFORTH AVE",
+      "ts": "2026-08-23T19:10:27+00:00",
+      "related": [
+        {
+          "id": "tps_9f638d0b025a",
+          "distance_m": 162,
+          "minutes_apart": 177
+        }
+      ]
+    },
+    {
+      "id": "tps_69c9315e775a",
+      "source": "police",
+      "lat": 43.72571815727201,
+      "lng": -79.29754597066602,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "EGLINTON AVE E - PHARMACY AVE",
+      "ts": "2026-08-23T19:07:10+00:00",
+      "related": [
+        {
+          "id": "tps_24549664b28f",
+          "distance_m": 0,
+          "minutes_apart": 65
+        },
+        {
+          "id": "tps_283e25e74aef",
+          "distance_m": 0,
+          "minutes_apart": 155
+        }
+      ]
+    },
     {
       "id": "tps_731d5b816c1a",
       "source": "police",
@@ -367,6 +444,11 @@
       "location": "EGLINTON AVE E - PHARMACY AVE",
       "ts": "2026-08-23T18:02:16+00:00",
       "related": [
+        {
+          "id": "tps_69c9315e775a",
+          "distance_m": 0,
+          "minutes_apart": 65
+        },
         {
           "id": "tps_283e25e74aef",
           "distance_m": 0,
@@ -929,7 +1011,13 @@
       "division": "D43",
       "location": "MARKHAM RD - ",
       "ts": "2026-08-23T17:09:33+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_0d584cbc88b0",
+          "distance_m": 0,
+          "minutes_apart": 127
+        }
+      ]
     },
     {
       "id": "tps_f29775f30c5c",
@@ -1211,6 +1299,11 @@
           "id": "tps_24549664b28f",
           "distance_m": 0,
           "minutes_apart": 91
+        },
+        {
+          "id": "tps_69c9315e775a",
+          "distance_m": 0,
+          "minutes_apart": 155
         }
       ]
     },
@@ -1361,6 +1454,11 @@
           "id": "tps_c9142cfbf2a4",
           "distance_m": 0,
           "minutes_apart": 88
+        },
+        {
+          "id": "tps_4ae7b05f711e",
+          "distance_m": 162,
+          "minutes_apart": 177
         }
       ]
     },
@@ -8085,11 +8183,6 @@
       "ts": "2026-08-22T21:59:41+00:00",
       "related": [
         {
-          "id": "tps_1c2ece42b8c1",
-          "distance_m": 0,
-          "minutes_apart": 155
-        },
-        {
           "id": "tps_58a1916181e1",
           "distance_m": 345,
           "minutes_apart": 133
@@ -8513,11 +8606,6 @@
       "ts": "2026-08-22T20:50:52+00:00",
       "related": [
         {
-          "id": "tps_cf36820ed37a",
-          "distance_m": 429,
-          "minutes_apart": 83
-        },
-        {
           "id": "tps_5a0191c853a0",
           "distance_m": 544,
           "minutes_apart": 62
@@ -8822,16 +8910,6 @@
           "minutes_apart": 4
         },
         {
-          "id": "tps_46007f16fa34",
-          "distance_m": 248,
-          "minutes_apart": 28
-        },
-        {
-          "id": "tps_cf36820ed37a",
-          "distance_m": 281,
-          "minutes_apart": 21
-        },
-        {
           "id": "tps_888133febbd6",
           "distance_m": 544,
           "minutes_apart": 62
@@ -8894,16 +8972,6 @@
           "minutes_apart": 4
         },
         {
-          "id": "tps_46007f16fa34",
-          "distance_m": 248,
-          "minutes_apart": 23
-        },
-        {
-          "id": "tps_cf36820ed37a",
-          "distance_m": 281,
-          "minutes_apart": 17
-        },
-        {
           "id": "tps_888133febbd6",
           "distance_m": 544,
           "minutes_apart": 66
@@ -8947,13 +9015,7 @@
       "division": "HP",
       "location": "CROW TRL - BRADSTONE SQ",
       "ts": "2026-08-22T19:42:59+00:00",
-      "related": [
-        {
-          "id": "tps_2189f4ec57ec",
-          "distance_m": 0,
-          "minutes_apart": 26
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_d5d2f8e2555b",
@@ -8979,218 +9041,23 @@
       "division": "D42",
       "location": "MILLIKEN BLVD - PASSMORE AVE",
       "ts": "2026-08-22T19:36:11+00:00",
-      "related": [
-        {
-          "id": "tps_f3d731e3d7db",
-          "distance_m": 0,
-          "minutes_apart": 19
-        }
-      ]
-    },
-    {
-      "id": "tps_91a37c11f0e1",
-      "source": "police",
-      "lat": 43.74178808353859,
-      "lng": -79.22515077616401,
-      "type": "ANICO",
-      "type_plain": "Animal Complaint",
-      "severity": "low",
-      "division": "D43",
-      "location": "EGLINTON AVE E - MASON RD",
-      "ts": "2026-08-22T19:28:39+00:00",
       "related": []
-    },
-    {
-      "id": "tps_cf36820ed37a",
-      "source": "police",
-      "lat": 43.660711899815674,
-      "lng": -79.37201355378139,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D55",
-      "location": "LN N DUNDAS W SHERBOURNE - GLENHOLME PL",
-      "ts": "2026-08-22T19:27:47+00:00",
-      "related": [
-        {
-          "id": "tps_d208730e7617",
-          "distance_m": 281,
-          "minutes_apart": 17
-        },
-        {
-          "id": "tps_5a0191c853a0",
-          "distance_m": 281,
-          "minutes_apart": 21
-        },
-        {
-          "id": "tps_888133febbd6",
-          "distance_m": 429,
-          "minutes_apart": 83
-        },
-        {
-          "id": "tps_46007f16fa34",
-          "distance_m": 529,
-          "minutes_apart": 6
-        }
-      ]
-    },
-    {
-      "id": "tps_00534069fa43",
-      "source": "police",
-      "lat": 43.776522091738705,
-      "lng": -79.18928640911118,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D43",
-      "location": "BEATH ST - HIGHLAND CREEK",
-      "ts": "2026-08-22T19:27:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_45adeac3df5c",
-      "source": "police",
-      "lat": 43.73812618158424,
-      "lng": -79.23798345621825,
-      "type": "ASSPR",
-      "type_plain": "Assault (Priority / In Progress)",
-      "severity": "high",
-      "division": "D43",
-      "location": "LANDMARK BLVD - EGLINTON AVE E",
-      "ts": "2026-08-22T19:25:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1c2ece42b8c1",
-      "source": "police",
-      "lat": 43.646681487965736,
-      "lng": -79.40654123115154,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "QUEEN ST W - PALMERSTON AVE",
-      "ts": "2026-08-22T19:24:16+00:00",
-      "related": [
-        {
-          "id": "tps_b958a1dbd054",
-          "distance_m": 0,
-          "minutes_apart": 155
-        }
-      ]
-    },
-    {
-      "id": "tps_46007f16fa34",
-      "source": "police",
-      "lat": 43.65616289526663,
-      "lng": -79.37009915354126,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": " - ",
-      "ts": "2026-08-22T19:21:33+00:00",
-      "related": [
-        {
-          "id": "tps_d208730e7617",
-          "distance_m": 248,
-          "minutes_apart": 23
-        },
-        {
-          "id": "tps_5a0191c853a0",
-          "distance_m": 248,
-          "minutes_apart": 28
-        },
-        {
-          "id": "tps_cf36820ed37a",
-          "distance_m": 529,
-          "minutes_apart": 6
-        }
-      ]
-    },
-    {
-      "id": "tps_63c8ec367009",
-      "source": "police",
-      "lat": 43.781056836166805,
-      "lng": -79.29810638446001,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "SHEPPARD AVE E - BIRCHMOUNT RD",
-      "ts": "2026-08-22T19:20:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f3d731e3d7db",
-      "source": "police",
-      "lat": 43.81903111080694,
-      "lng": -79.3022156030861,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "MILLIKEN BLVD - PASSMORE AVE",
-      "ts": "2026-08-22T19:16:56+00:00",
-      "related": [
-        {
-          "id": "tps_0f03a3c7269b",
-          "distance_m": 0,
-          "minutes_apart": 19
-        }
-      ]
-    },
-    {
-      "id": "tps_2189f4ec57ec",
-      "source": "police",
-      "lat": 43.811110647062414,
-      "lng": -79.23278197352336,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D42",
-      "location": "CROW TRL - BRADSTONE SQ",
-      "ts": "2026-08-22T19:16:32+00:00",
-      "related": [
-        {
-          "id": "tps_a3b4b5c42b86",
-          "distance_m": 0,
-          "minutes_apart": 26
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D33",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 5.0,
+      "ratio": 4.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_1893344b016f",
         "tps_9961496670b0",
         "tps_1b1ba83f2e45",
-        "tps_f892836e9975",
-        "tps_1f806149a41e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_731d5b816c1a",
-        "tps_d20e42198f29",
-        "tps_4320bef46c82",
-        "tps_2a92be9dd184",
-        "tps_30bcf865012f"
+        "tps_f892836e9975"
       ]
     },
     {
@@ -9211,9 +9078,9 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 11,
+      "current_count": 9,
       "baseline_avg": 3.2,
-      "ratio": 3.4,
+      "ratio": 2.8,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -9222,6 +9089,36 @@
         "tps_f9a47a7b8f92",
         "tps_1c2edb681053",
         "tps_f03bdc50581f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 7,
+      "baseline_avg": 2.7,
+      "ratio": 2.6,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_69c9315e775a",
+        "tps_8ac3a37c0bb4",
+        "tps_60d438dac09f",
+        "tps_defbf7147e05",
+        "tps_60d851ff769b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_731d5b816c1a",
+        "tps_d20e42198f29",
+        "tps_4320bef46c82"
       ]
     },
     {
@@ -9241,49 +9138,33 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 3.0,
-      "ratio": 2.3,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8ac3a37c0bb4",
-        "tps_60d438dac09f",
-        "tps_defbf7147e05",
-        "tps_60d851ff769b",
-        "tps_e7cc007be2e4"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
+      "division": "D43",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_eab29af1170d",
-        "tps_8f9a88d5c892",
-        "tps_24549664b28f",
-        "tps_4f1a294ebd55"
+        "tps_0d584cbc88b0",
+        "tps_abce83a2feb6",
+        "tps_b4e4c8a004f7",
+        "tps_00edf86452de"
       ]
     },
     {
       "source": "police",
       "division": "D55",
       "current_count": 5,
-      "baseline_avg": 2.5,
-      "ratio": 2.0,
-      "sample_days": 6,
+      "baseline_avg": 2.3,
+      "ratio": 2.2,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_4ae7b05f711e",
         "tps_f3a7ca857b2c",
         "tps_1264b99d5df5",
         "tps_53b8ffef4541",
-        "tps_c8be14ac7962",
-        "tps_9f638d0b025a"
+        "tps_c8be14ac7962"
       ]
     }
   ]
