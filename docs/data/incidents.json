@@ -1,11 +1,137 @@
 {
-  "generated": "2026-08-23T14:38:25.086892+00:00",
+  "generated": "2026-08-23T14:57:09.223799+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_c9142cfbf2a4",
+      "source": "police",
+      "lat": 43.69122472524528,
+      "lng": -79.28834606133788,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D55",
+      "location": "THYRA AVE - VICTORIA PARK AVE",
+      "ts": "2026-08-23T14:45:18+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_386b6a2eaa6a",
+      "source": "police",
+      "lat": 43.72684844443762,
+      "lng": -79.3128138518101,
+      "type": "FRA",
+      "type_plain": "Fraud",
+      "severity": "medium",
+      "division": "D33",
+      "location": "SLOANE AVE - HEPC",
+      "ts": "2026-08-23T14:39:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_224a36fc01a3",
+      "source": "police",
+      "lat": 43.71013684643956,
+      "lng": -79.50616924282167,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D12",
+      "location": "MAPLE LEAF DR - 400 S JANE ST RAMP",
+      "ts": "2026-08-23T14:39:10+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_81201ab826e7",
+      "source": "police",
+      "lat": 43.60566899463048,
+      "lng": -79.53823812462959,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D22",
+      "location": "HORNER AVE - RIMILTON AVE",
+      "ts": "2026-08-23T14:37:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_38d3e8646bd6",
+      "source": "police",
+      "lat": 43.67286831309028,
+      "lng": -79.38784294973205,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D53",
+      "location": "CHURCH ST - FRICHOT AVE",
+      "ts": "2026-08-23T14:32:40+00:00",
+      "related": [
+        {
+          "id": "tps_694ca6951bcb",
+          "distance_m": 233,
+          "minutes_apart": 27
+        }
+      ]
+    },
+    {
+      "id": "tps_fb46a619a4ab",
+      "source": "police",
+      "lat": 43.64840308750672,
+      "lng": -79.39327793738313,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D52",
+      "location": "RICHMOND ST W - PETER ST",
+      "ts": "2026-08-23T14:31:31+00:00",
+      "related": [
+        {
+          "id": "tps_97624cd363ea",
+          "distance_m": 295,
+          "minutes_apart": 118
+        },
+        {
+          "id": "tps_8ee617c3db01",
+          "distance_m": 413,
+          "minutes_apart": 26
+        },
+        {
+          "id": "tps_7c0f0654d9b1",
+          "distance_m": 413,
+          "minutes_apart": 139
+        }
+      ]
+    },
+    {
+      "id": "tps_b69b59a3d96b",
+      "source": "police",
+      "lat": 43.78758240064305,
+      "lng": -79.40995053852936,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D32",
+      "location": "WILLOWDALE AVE - BECKY CHEUNG CRT",
+      "ts": "2026-08-23T14:31:09+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_30f738ba888c",
+      "source": "police",
+      "lat": 43.723001037954745,
+      "lng": -79.33965841873807,
+      "type": "ANICO",
+      "type_plain": "Animal Complaint",
+      "severity": "low",
+      "division": "D33",
+      "location": "EGLINTON AVE E - WYNFORD DR",
+      "ts": "2026-08-23T14:30:32+00:00",
+      "related": []
+    },
     {
       "id": "tps_5e8c947f428b",
       "source": "police",
@@ -101,7 +227,13 @@
       "division": "D53",
       "location": "CHURCH ST - FRICHOT AVE",
       "ts": "2026-08-23T14:05:45+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_38d3e8646bd6",
+          "distance_m": 233,
+          "minutes_apart": 27
+        }
+      ]
     },
     {
       "id": "tps_8ee617c3db01",
@@ -119,6 +251,11 @@
           "id": "tps_7c0f0654d9b1",
           "distance_m": 0,
           "minutes_apart": 112
+        },
+        {
+          "id": "tps_fb46a619a4ab",
+          "distance_m": 413,
+          "minutes_apart": 26
         },
         {
           "id": "tps_9b7eb55d8a8e",
@@ -670,6 +807,11 @@
           "minutes_apart": 114
         },
         {
+          "id": "tps_fb46a619a4ab",
+          "distance_m": 295,
+          "minutes_apart": 118
+        },
+        {
           "id": "tps_7c0f0654d9b1",
           "distance_m": 479,
           "minutes_apart": 20
@@ -786,6 +928,11 @@
           "id": "tps_40dccd809124",
           "distance_m": 413,
           "minutes_apart": 94
+        },
+        {
+          "id": "tps_fb46a619a4ab",
+          "distance_m": 413,
+          "minutes_apart": 139
         },
         {
           "id": "tps_8ac891d8ff57",
@@ -8921,13 +9068,7 @@
       "division": "D23",
       "location": "HENLEY CRES - KIPLING AVE",
       "ts": "2026-08-22T15:40:01+00:00",
-      "related": [
-        {
-          "id": "tps_74918d6176ae",
-          "distance_m": 100,
-          "minutes_apart": 61
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f7c9ed175b56",
@@ -9036,13 +9177,7 @@
       "division": "D55",
       "location": "WESTLAKE AVE - CHISHOLM AVE",
       "ts": "2026-08-22T15:19:12+00:00",
-      "related": [
-        {
-          "id": "tps_d927b58a47a4",
-          "distance_m": 572,
-          "minutes_apart": 31
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6b66763e11c4",
@@ -9179,147 +9314,68 @@
           "minutes_apart": 11
         }
       ]
-    },
-    {
-      "id": "tps_1e1a7499c17f",
-      "source": "police",
-      "lat": 43.76050188910599,
-      "lng": -79.38822761603382,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "FIFESHIRE RD - FIFESHIRE RD",
-      "ts": "2026-08-22T14:50:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d927b58a47a4",
-      "source": "police",
-      "lat": 43.68747502442921,
-      "lng": -79.30497974905798,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D55",
-      "location": "WESTLAKE AVE - CHISHOLM AVE",
-      "ts": "2026-08-22T14:48:17+00:00",
-      "related": [
-        {
-          "id": "tps_649af2974a67",
-          "distance_m": 572,
-          "minutes_apart": 31
-        }
-      ]
-    },
-    {
-      "id": "tps_c32acc70fbb5",
-      "source": "police",
-      "lat": 43.79150648617043,
-      "lng": -79.23781117204584,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D42",
-      "location": "20 KIMBERCROFT CRT - ",
-      "ts": "2026-08-22T14:47:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_87eccf102386",
-      "source": "police",
-      "lat": 43.66527887363334,
-      "lng": -79.32126391419926,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "QUEEN ST E - WOODFIELD RD",
-      "ts": "2026-08-22T14:47:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_74918d6176ae",
-      "source": "police",
-      "lat": 43.730840070813215,
-      "lng": -79.5746408751189,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D23",
-      "location": "ELMHURST DR - WATERCLIFFE RD",
-      "ts": "2026-08-22T14:38:52+00:00",
-      "related": [
-        {
-          "id": "tps_9af7adf97ac6",
-          "distance_m": 100,
-          "minutes_apart": 61
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D32",
-      "current_count": 6,
+      "current_count": 7,
       "baseline_avg": 1.0,
-      "ratio": 6.0,
-      "sample_days": 3,
+      "ratio": 7.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_b69b59a3d96b",
         "tps_ec5d503915cd",
         "tps_7673819709e3",
         "tps_3a13d38262a8",
-        "tps_6e41c3779f5c",
-        "tps_e8de2c009d52"
+        "tps_6e41c3779f5c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.4,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_81201ab826e7",
+        "tps_16a10d1e7f77",
+        "tps_4bf02a4fcbf9",
+        "tps_e0df789945d3"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 7,
+      "baseline_avg": 2.2,
+      "ratio": 3.2,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c9142cfbf2a4",
+        "tps_d5cfdb8a3f04",
+        "tps_9a9f7f3cbd53",
+        "tps_69e23cc44683",
+        "tps_6ec667bdf5a9"
       ]
     },
     {
       "source": "police",
       "division": "D11",
-      "current_count": 4,
+      "current_count": 3,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
+      "ratio": 3.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_5e8c947f428b",
         "tps_0777a5e2fd29",
-        "tps_a5616acdfb95",
-        "tps_133a672b06a5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 2.1,
-      "ratio": 3.3,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0d0ea9b8ddc3",
-        "tps_9fc1ba8e20e0",
-        "tps_c81e51506a78",
-        "tps_898540a1330d",
-        "tps_394dd12955c3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 8,
-      "baseline_avg": 2.5,
-      "ratio": 3.2,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_39df261e721d",
-        "tps_8ee617c3db01",
-        "tps_cea1df5ab5fe",
-        "tps_ff4426b7ab61",
-        "tps_9b7eb55d8a8e"
+        "tps_a5616acdfb95"
       ]
     },
     {
@@ -9339,46 +9395,48 @@
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_16a10d1e7f77",
-        "tps_4bf02a4fcbf9",
-        "tps_e0df789945d3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
+      "division": "D51",
       "current_count": 6,
-      "baseline_avg": 2.5,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "baseline_avg": 2.1,
+      "ratio": 2.8,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
-        "tps_d5cfdb8a3f04",
-        "tps_9a9f7f3cbd53",
-        "tps_69e23cc44683",
-        "tps_6ec667bdf5a9",
-        "tps_56e0c87b363c"
+        "tps_0d0ea9b8ddc3",
+        "tps_9fc1ba8e20e0",
+        "tps_c81e51506a78",
+        "tps_898540a1330d",
+        "tps_394dd12955c3"
       ]
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
+      "division": "D14",
+      "current_count": 7,
+      "baseline_avg": 2.5,
+      "ratio": 2.8,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_bf52cef533ea",
-        "tps_c1218b0adb84",
-        "tps_4ab87afac865"
+        "tps_39df261e721d",
+        "tps_8ee617c3db01",
+        "tps_cea1df5ab5fe",
+        "tps_ff4426b7ab61",
+        "tps_9b7eb55d8a8e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_38d3e8646bd6",
+        "tps_694ca6951bcb",
+        "tps_70c8a810d46a"
       ]
     }
   ]
