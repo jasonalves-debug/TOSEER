@@ -1,11 +1,43 @@
 {
-  "generated": "2026-08-24T22:41:58.514420+00:00",
+  "generated": "2026-08-24T22:59:38.803186+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_40ba81732b45",
+      "source": "police",
+      "lat": 43.6748576191005,
+      "lng": -79.40708384066487,
+      "type": "LOSEL",
+      "type_plain": "Lost/Found Property or Person",
+      "severity": "low",
+      "division": "D14",
+      "location": "SPADINA RD - LN W SPADINA S DUPONT",
+      "ts": "2026-08-24T22:40:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2b9fbf5b0676",
+      "source": "police",
+      "lat": 43.676197817661105,
+      "lng": -79.49568559706543,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "D12",
+      "location": "JANE ST - ALLIANCE AVE",
+      "ts": "2026-08-24T22:35:57+00:00",
+      "related": [
+        {
+          "id": "tps_6fb9537d53c7",
+          "distance_m": 0,
+          "minutes_apart": 73
+        }
+      ]
+    },
     {
       "id": "tfs_F26132147",
       "source": "fire",
@@ -24,6 +56,70 @@
           "id": "tps_a922fd1bf207",
           "distance_m": 176,
           "minutes_apart": 75
+        }
+      ]
+    },
+    {
+      "id": "tps_488e5a6c70b5",
+      "source": "police",
+      "lat": 43.76769079627477,
+      "lng": -79.18943920519887,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "KINGSTON RD - FLORIST LANE",
+      "ts": "2026-08-24T22:28:56+00:00",
+      "related": [
+        {
+          "id": "tps_125a89cf70da",
+          "distance_m": 586,
+          "minutes_apart": 118
+        }
+      ]
+    },
+    {
+      "id": "tps_9d882ae680ce",
+      "source": "police",
+      "lat": 43.73669198131269,
+      "lng": -79.24807244137597,
+      "type": "ROB",
+      "type_plain": "ROB",
+      "severity": "low",
+      "division": "D43",
+      "location": "BRIMLEY RD - EGLINTON AVE E",
+      "ts": "2026-08-24T22:28:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7d3146ae2f5f",
+      "source": "police",
+      "lat": 43.69177249256794,
+      "lng": -79.55487827175557,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "HP",
+      "location": "KIPLING AVE - LONGFELLOW RD",
+      "ts": "2026-08-24T22:28:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_07143e9cd1a0",
+      "source": "police",
+      "lat": 43.6429579913681,
+      "lng": -79.43625192124807,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D11",
+      "location": "LN N QUEEN E LANSDOWNE - ",
+      "ts": "2026-08-24T22:27:00+00:00",
+      "related": [
+        {
+          "id": "tps_9e2d8953a45e",
+          "distance_m": 521,
+          "minutes_apart": 124
         }
       ]
     },
@@ -469,7 +565,13 @@
       "division": "D12",
       "location": "JANE ST - ALLIANCE AVE",
       "ts": "2026-08-24T21:22:46+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_2b9fbf5b0676",
+          "distance_m": 0,
+          "minutes_apart": 73
+        }
+      ]
     },
     {
       "id": "tps_d6534bb83fa8",
@@ -719,7 +821,13 @@
       "division": "D43",
       "location": "OVERTURE RD - GALLOWAY RD",
       "ts": "2026-08-24T20:31:02+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_488e5a6c70b5",
+          "distance_m": 586,
+          "minutes_apart": 118
+        }
+      ]
     },
     {
       "id": "tps_9e2d8953a45e",
@@ -737,6 +845,11 @@
           "id": "tps_3b771947156a",
           "distance_m": 239,
           "minutes_apart": 16
+        },
+        {
+          "id": "tps_07143e9cd1a0",
+          "distance_m": 521,
+          "minutes_apart": 124
         }
       ]
     },
@@ -9374,82 +9487,70 @@
       "location": " - ",
       "ts": "2026-08-23T22:59:51+00:00",
       "related": []
-    },
-    {
-      "id": "tps_263cf71e8336",
-      "source": "police",
-      "lat": 43.69737513125885,
-      "lng": -79.39641975681468,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "AL GREEN LANE - PAILTON CRES",
-      "ts": "2026-08-23T22:44:22+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 1.5,
-      "ratio": 4.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a33177ed843a",
-        "tps_720ab86e38c2",
-        "tps_c88d9b08cbe8",
-        "tps_3b771947156a",
-        "tps_9e2d8953a45e"
-      ]
-    },
     {
       "source": "police",
       "division": "D12",
       "current_count": 4,
       "baseline_avg": 1.0,
       "ratio": 4.0,
-      "sample_days": 3,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_2b9fbf5b0676",
         "tps_1faebd8e40a8",
         "tps_6fb9537d53c7",
-        "tps_ba2d2f443e8d",
-        "tps_5cb475c25203"
+        "tps_ba2d2f443e8d"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 6,
+      "baseline_avg": 1.7,
+      "ratio": 3.6,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_40ba81732b45",
+        "tps_a33177ed843a",
+        "tps_720ab86e38c2",
+        "tps_c88d9b08cbe8",
+        "tps_3b771947156a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 5,
+      "baseline_avg": 1.6,
+      "ratio": 3.2,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_07143e9cd1a0",
+        "tps_d3c0bb439840",
+        "tps_855e7620428b",
+        "tps_bb4ef15484e6",
+        "tps_786ba0e97222"
       ]
     },
     {
       "source": "police",
       "division": "HP",
       "current_count": 7,
-      "baseline_avg": 2.3,
-      "ratio": 3.1,
+      "baseline_avg": 2.4,
+      "ratio": 2.9,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_7d3146ae2f5f",
         "tps_1170321a3e4a",
         "tps_9601f3077fb6",
         "tps_5ee45061f420",
-        "tps_29ceb533afb5",
-        "tps_b6d04f634500"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.8,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d3c0bb439840",
-        "tps_855e7620428b",
-        "tps_bb4ef15484e6",
-        "tps_786ba0e97222"
+        "tps_29ceb533afb5"
       ]
     },
     {
