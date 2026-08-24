@@ -1,11 +1,77 @@
 {
-  "generated": "2026-08-24T21:16:03.458202+00:00",
+  "generated": "2026-08-24T21:49:34.337586+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_a922fd1bf207",
+      "source": "police",
+      "lat": 43.671285110402756,
+      "lng": -79.37496165688604,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "ST. JAMES TOWN WEST PARK TRL - ST. JAMES TOWN WEST PARK TRL",
+      "ts": "2026-08-24T21:17:36+00:00",
+      "related": [
+        {
+          "id": "tfs_F26132073",
+          "distance_m": 563,
+          "minutes_apart": 73
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26132107",
+      "source": "fire",
+      "lat": 43.6377565,
+      "lng": -79.4583087,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "426",
+      "location": "Toronto - COLBORNE LODGE DR & HIGH PARK TRL",
+      "approximate": false,
+      "units": "P426, P426CA",
+      "ts": "2026-08-24T21:13:07+00:00",
+      "related": [
+        {
+          "id": "tps_88446963e147",
+          "distance_m": 591,
+          "minutes_apart": 102
+        }
+      ]
+    },
+    {
+      "id": "tps_48b043ddde77",
+      "source": "police",
+      "lat": 43.69610671653836,
+      "lng": -79.2916339623115,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D55",
+      "location": "CRESCENT TOWN RD - CRESCENT TOWN RD",
+      "ts": "2026-08-24T21:08:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ec00f24fdee8",
+      "source": "police",
+      "lat": 43.67126272629903,
+      "lng": -79.35451997830364,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "D55",
+      "location": "SPARKHALL AVE - BROADVIEW AVE",
+      "ts": "2026-08-24T21:07:41+00:00",
+      "related": []
+    },
     {
       "id": "tps_1922cbcb181b",
       "source": "police",
@@ -355,7 +421,13 @@
       "approximate": false,
       "units": "C31, L315, L325, P313, P314, P333, R325, S313",
       "ts": "2026-08-24T20:04:34+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_a922fd1bf207",
+          "distance_m": 563,
+          "minutes_apart": 73
+        }
+      ]
     },
     {
       "id": "tps_f233a3e7ad0e",
@@ -577,7 +649,13 @@
       "division": "D11",
       "location": "SUNNYSIDE AVE - GLENDALE AVE",
       "ts": "2026-08-24T19:31:37+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26132107",
+          "distance_m": 591,
+          "minutes_apart": 102
+        }
+      ]
     },
     {
       "id": "tps_084f42d1d64f",
@@ -8574,11 +8652,6 @@
       "ts": "2026-08-23T23:10:28+00:00",
       "related": [
         {
-          "id": "tps_f770ab8373c5",
-          "distance_m": 0,
-          "minutes_apart": 95
-        },
-        {
           "id": "tps_803573fc11df",
           "distance_m": 208,
           "minutes_apart": 124
@@ -8907,13 +8980,7 @@
       "division": "D53",
       "location": "CHURCH ST - FRICHOT AVE",
       "ts": "2026-08-23T22:31:48+00:00",
-      "related": [
-        {
-          "id": "tps_a67cdcd099fb",
-          "distance_m": 302,
-          "minutes_apart": 71
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f29863a8014b",
@@ -9300,170 +9367,9 @@
           "minutes_apart": 159
         }
       ]
-    },
-    {
-      "id": "tps_a6401240ef64",
-      "source": "police",
-      "lat": 43.78382529025363,
-      "lng": -79.47014076550933,
-      "type": "THE",
-      "type_plain": "THE",
-      "severity": "low",
-      "division": "D32",
-      "location": "DUFFERIN ST - STEELES AVE W",
-      "ts": "2026-08-23T21:44:23+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a0dff985a848",
-      "source": "police",
-      "lat": 43.67742322431567,
-      "lng": -79.30474174389514,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D55",
-      "location": "CORLEY AVE - BURGESS AVE",
-      "ts": "2026-08-23T21:38:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9e3e7c1b4c88",
-      "source": "police",
-      "lat": 43.65521640563446,
-      "lng": -79.4370618209781,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D11",
-      "location": "DUFFERIN GROVE PARK TRL - DUFFERIN GROVE PARK TRL",
-      "ts": "2026-08-23T21:36:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f770ab8373c5",
-      "source": "police",
-      "lat": 43.70251136022851,
-      "lng": -79.51949764897076,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D12",
-      "location": "WESTON RD - GEORGE ST",
-      "ts": "2026-08-23T21:35:57+00:00",
-      "related": [
-        {
-          "id": "tps_3615078a1ee2",
-          "distance_m": 0,
-          "minutes_apart": 95
-        }
-      ]
-    },
-    {
-      "id": "tps_73f81c3e280c",
-      "source": "police",
-      "lat": 43.723961146439514,
-      "lng": -79.4941120451983,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D31",
-      "location": "JULIAN RD - RIDGE RD",
-      "ts": "2026-08-23T21:35:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1771b4404297",
-      "source": "police",
-      "lat": 43.695264417289806,
-      "lng": -79.29241196112409,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D55",
-      "location": "CRESCENT TOWN RD - CRESCENT TOWN RD",
-      "ts": "2026-08-23T21:28:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_56d0f06839d8",
-      "source": "police",
-      "lat": 43.68793603053567,
-      "lng": -79.28698796050745,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D55",
-      "location": "DENGATE RD - VICTORIA PARK AVE",
-      "ts": "2026-08-23T21:24:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a67cdcd099fb",
-      "source": "police",
-      "lat": 43.6705592106737,
-      "lng": -79.38982904763813,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D52",
-      "location": "CRITCHLEY LANE - CUMBERLAND ST",
-      "ts": "2026-08-23T21:21:03+00:00",
-      "related": [
-        {
-          "id": "tps_19461477d6ec",
-          "distance_m": 302,
-          "minutes_apart": 71
-        }
-      ]
-    },
-    {
-      "id": "tps_cb173c0adec5",
-      "source": "police",
-      "lat": 43.686162098771106,
-      "lng": -79.47780109373748,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D12",
-      "location": "BICKNELL AVE - WESTBURY CRES",
-      "ts": "2026-08-23T21:19:42+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 5,
-      "baseline_avg": 1.0,
-      "ratio": 5.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_683d84847aa9",
-        "tps_e20c2c1f2406",
-        "tps_5dc71fdf5ffe",
-        "tps_b2685332384b",
-        "tps_909fe4c3d37c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 7,
-      "baseline_avg": 2.0,
-      "ratio": 3.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9cdc5fa45fef",
-        "tps_8229827335d1",
-        "tps_e52d57d2c190",
-        "tps_674e85ca8851",
-        "tps_26c19b73178a"
-      ]
-    },
     {
       "source": "police",
       "division": "D22",
@@ -9481,18 +9387,49 @@
     },
     {
       "source": "police",
+      "division": "D31",
+      "current_count": 6,
+      "baseline_avg": 2.0,
+      "ratio": 3.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9cdc5fa45fef",
+        "tps_8229827335d1",
+        "tps_e52d57d2c190",
+        "tps_674e85ca8851",
+        "tps_26c19b73178a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 7,
+      "baseline_avg": 2.6,
+      "ratio": 2.7,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_48b043ddde77",
+        "tps_ec00f24fdee8",
+        "tps_8079fa37f52a",
+        "tps_f233a3e7ad0e",
+        "tps_a6c7dcccdf77"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D11",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.6,
-      "ratio": 3.1,
+      "ratio": 2.5,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_bb4ef15484e6",
         "tps_786ba0e97222",
         "tps_88446963e147",
-        "tps_77c4599b4846",
-        "tps_41627b3b17a0"
+        "tps_77c4599b4846"
       ]
     },
     {
@@ -9512,21 +9449,6 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3865363c1063",
-        "tps_6e74646cafad",
-        "tps_4e0e727b2987",
-        "tps_34061c239db0"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D14",
       "current_count": 4,
       "baseline_avg": 2.0,
@@ -9538,36 +9460,6 @@
         "tps_9e2d8953a45e",
         "tps_ec238e6e49d4",
         "tps_7d2c6832b004"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ba2d2f443e8d",
-        "tps_5cb475c25203",
-        "tps_084f42d1d64f",
-        "tps_4091796ab7a7"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c6c52bf6ed0e",
-        "tps_b00c580de6e9",
-        "tps_00f5d5e49848",
-        "tps_6805cb1df299"
       ]
     }
   ]
