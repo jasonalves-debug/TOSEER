@@ -1,11 +1,166 @@
 {
-  "generated": "2026-08-24T07:16:48.051256+00:00",
+  "generated": "2026-08-24T08:08:38.167538+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_5a40fe1a6961",
+      "source": "police",
+      "lat": 43.667288406453174,
+      "lng": -79.37376715504146,
+      "type": "PERLO",
+      "type_plain": "PERLO",
+      "severity": "low",
+      "division": "D51",
+      "location": "BLEECKER ST - ONTARIO ST",
+      "ts": "2026-08-24T07:42:27+00:00",
+      "related": [
+        {
+          "id": "tps_12d9ee40857e",
+          "distance_m": 396,
+          "minutes_apart": 172
+        },
+        {
+          "id": "tps_9f0351a0b70f",
+          "distance_m": 430,
+          "minutes_apart": 123
+        }
+      ]
+    },
+    {
+      "id": "tps_3976231b3891",
+      "source": "police",
+      "lat": 43.642995287592676,
+      "lng": -79.42477862507249,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D14",
+      "location": "QUEEN ST W - BEACONSFIELD AVE",
+      "ts": "2026-08-24T07:41:24+00:00",
+      "related": [
+        {
+          "id": "tps_dfafc1812e41",
+          "distance_m": 468,
+          "minutes_apart": 48
+        }
+      ]
+    },
+    {
+      "id": "tps_0e23caac38d9",
+      "source": "police",
+      "lat": 43.70512539040291,
+      "lng": -79.31537114566785,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D55",
+      "location": "DORIS DR - ST CLAIR AVE E",
+      "ts": "2026-08-24T07:40:35+00:00",
+      "related": [
+        {
+          "id": "tfs_F26131795",
+          "distance_m": 8,
+          "minutes_apart": 31
+        }
+      ]
+    },
+    {
+      "id": "tps_7f564bf91617",
+      "source": "police",
+      "lat": 43.64918408828771,
+      "lng": -79.38410124138403,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "ADELAIDE ST W - RICHMOND ST W",
+      "ts": "2026-08-24T07:32:18+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b166a7f966b6",
+      "source": "police",
+      "lat": 43.76488110191535,
+      "lng": -79.18489640543595,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D43",
+      "location": "MORNINGSIDE AVE - DEEKSHILL DR",
+      "ts": "2026-08-24T07:31:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26131800",
+      "source": "fire",
+      "lat": 43.7623454,
+      "lng": -79.408504,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "114",
+      "location": "DORIS AVE & DORIS AVE",
+      "approximate": false,
+      "units": "P114, T114",
+      "ts": "2026-08-24T07:30:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c0bb4c21d399",
+      "source": "police",
+      "lat": 43.714243364098735,
+      "lng": -79.35557161001216,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D53",
+      "location": "VANDERHOOF AVE - AERODROME CRES",
+      "ts": "2026-08-24T07:27:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ea097dff71a3",
+      "source": "police",
+      "lat": 43.716814246413556,
+      "lng": -79.52707474127014,
+      "type": "THEPR",
+      "type_plain": "Theft (Priority)",
+      "severity": "medium",
+      "division": "D31",
+      "location": "OAKLAND AVE - WENDELL AVE",
+      "ts": "2026-08-24T07:25:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0d6ef836de53",
+      "source": "police",
+      "lat": 43.73087856940539,
+      "lng": -79.59939966806567,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D23",
+      "location": "WESTMORE DR - 27 HWY N",
+      "ts": "2026-08-24T07:20:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9c98bb766134",
+      "source": "police",
+      "lat": 43.68796619243931,
+      "lng": -79.35086211079084,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D55",
+      "location": "CARLAW AVE - LN W PAPE S COSBURN",
+      "ts": "2026-08-24T07:14:16+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26131795",
       "source": "fire",
@@ -19,7 +174,13 @@
       "approximate": false,
       "units": "C32, P224, R227, S313",
       "ts": "2026-08-24T07:09:14+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_0e23caac38d9",
+          "distance_m": 8,
+          "minutes_apart": 31
+        }
+      ]
     },
     {
       "id": "tps_93cf325a5260",
@@ -71,7 +232,13 @@
       "division": "D14",
       "location": "LISGAR ST - LISGAR ST",
       "ts": "2026-08-24T06:53:42+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_3976231b3891",
+          "distance_m": 468,
+          "minutes_apart": 48
+        }
+      ]
     },
     {
       "id": "tps_abeeb1d887ca",
@@ -376,6 +543,11 @@
           "minutes_apart": 50
         },
         {
+          "id": "tps_5a40fe1a6961",
+          "distance_m": 430,
+          "minutes_apart": 123
+        },
+        {
           "id": "tps_a7e719bc1c80",
           "distance_m": 551,
           "minutes_apart": 129
@@ -615,6 +787,11 @@
           "id": "tps_9f0351a0b70f",
           "distance_m": 94,
           "minutes_apart": 50
+        },
+        {
+          "id": "tps_5a40fe1a6961",
+          "distance_m": 396,
+          "minutes_apart": 172
         },
         {
           "id": "tps_a7e719bc1c80",
@@ -9511,13 +9688,7 @@
       "division": "HP",
       "location": "LAKE SHORE BLVD W - STRACHAN AVE",
       "ts": "2026-08-23T08:52:23+00:00",
-      "related": [
-        {
-          "id": "tps_4618df4cf3b9",
-          "distance_m": 0,
-          "minutes_apart": 68
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e2c927d2c125",
@@ -9628,193 +9799,70 @@
       "location": "JAMES ST - BAY ST",
       "ts": "2026-08-23T08:11:19+00:00",
       "related": []
-    },
-    {
-      "id": "tps_f82e314dabba",
-      "source": "police",
-      "lat": 43.80890875808744,
-      "lng": -79.3004565010265,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D42",
-      "location": "PERTHSHIRE ST - HEPC",
-      "ts": "2026-08-23T07:51:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4618df4cf3b9",
-      "source": "police",
-      "lat": 43.63456097418865,
-      "lng": -79.40873903041899,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "LAKE SHORE BLVD W - STRACHAN AVE",
-      "ts": "2026-08-23T07:44:40+00:00",
-      "related": [
-        {
-          "id": "tps_8bc538991a1b",
-          "distance_m": 0,
-          "minutes_apart": 68
-        }
-      ]
-    },
-    {
-      "id": "tps_d7d9652ad1fb",
-      "source": "police",
-      "lat": 43.67129693455818,
-      "lng": -79.49482460341882,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D12",
-      "location": "JANE ST - HANDEL ST",
-      "ts": "2026-08-23T07:43:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ca14bb0ea681",
-      "source": "police",
-      "lat": 43.63898847742328,
-      "lng": -79.38542834026838,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "ROBERTSON CRES - REES ST",
-      "ts": "2026-08-23T07:41:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6119869892bb",
-      "source": "police",
-      "lat": 43.63877549027512,
-      "lng": -79.44841411719405,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "BEATY BOULEVARD PARKETTE TRL - SUNNYSIDE AVE",
-      "ts": "2026-08-23T07:36:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2e0bd8449724",
-      "source": "police",
-      "lat": 43.74479562250571,
-      "lng": -79.4864081970644,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D31",
-      "location": "SHEPPARD AVE W - KEELE ST",
-      "ts": "2026-08-23T07:35:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_45f53dabe82c",
-      "source": "police",
-      "lat": 43.723736982027354,
-      "lng": -79.27533689426176,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D41",
-      "location": "C N R - HEPC",
-      "ts": "2026-08-23T07:29:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e95bec196127",
-      "source": "police",
-      "lat": 43.72014064643956,
-      "lng": -79.51635244270943,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "HAYMARKET RD - KIRBY RD",
-      "ts": "2026-08-23T07:23:21+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 9,
-      "baseline_avg": 1.6,
-      "ratio": 5.6,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_dfafc1812e41",
-        "tps_3317de1e926c",
-        "tps_b8da56e3a4d7",
-        "tps_96f6f402a817",
-        "tps_726cdd404395"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
+      "current_count": 6,
+      "baseline_avg": 1.3,
+      "ratio": 4.5,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_0e23caac38d9",
+        "tps_9c98bb766134",
         "tps_fba82557332d",
         "tps_a9d037df22de",
-        "tps_d65e4941c275",
-        "tps_2ffaff1cd0c9"
+        "tps_d65e4941c275"
       ]
     },
     {
       "source": "police",
       "division": "D53",
       "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_c0bb4c21d399",
         "tps_abeeb1d887ca",
         "tps_fc73259958db",
-        "tps_a0b05e797e82",
-        "tps_d39f9e7ea279"
+        "tps_a0b05e797e82"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 6,
+      "baseline_avg": 1.7,
+      "ratio": 3.6,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_3976231b3891",
+        "tps_dfafc1812e41",
+        "tps_3317de1e926c",
+        "tps_b8da56e3a4d7",
+        "tps_96f6f402a817"
       ]
     },
     {
       "source": "police",
       "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 2.0,
+      "current_count": 5,
+      "baseline_avg": 1.7,
       "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_5a40fe1a6961",
         "tps_143308515761",
         "tps_9f0351a0b70f",
         "tps_d65f9914022e",
-        "tps_b3bc39a0422c",
-        "tps_12d9ee40857e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6f7318606b3e",
-        "tps_27670c5d8009",
-        "tps_bebdee91c3a0"
+        "tps_b3bc39a0422c"
       ]
     }
   ]
