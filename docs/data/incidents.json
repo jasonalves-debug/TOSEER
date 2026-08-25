@@ -1,11 +1,111 @@
 {
-  "generated": "2026-08-25T08:25:16.997118+00:00",
+  "generated": "2026-08-25T09:04:29.997956+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_d5b6b149097e",
+      "source": "police",
+      "lat": 43.75636504400246,
+      "lng": -79.28596280725208,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D41",
+      "location": "EXFORD DR - ELLENDALE DR",
+      "ts": "2026-08-25T08:45:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_831e1787de4e",
+      "source": "police",
+      "lat": 43.634896474720186,
+      "lng": -79.40907003030861,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D14",
+      "location": "PRINCES' BLVD - FLEET ST",
+      "ts": "2026-08-25T08:44:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dd73f0256dee",
+      "source": "police",
+      "lat": 43.76761436224862,
+      "lng": -79.49684599520292,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D31",
+      "location": "LN W EVELYN WIGGINS N SAYWELL - LEITCH AVE",
+      "ts": "2026-08-25T08:28:45+00:00",
+      "related": [
+        {
+          "id": "tps_65b9ab3f7f10",
+          "distance_m": 0,
+          "minutes_apart": 119
+        },
+        {
+          "id": "tps_76054d8d16cc",
+          "distance_m": 263,
+          "minutes_apart": 43
+        },
+        {
+          "id": "tps_3d1e6c2ce309",
+          "distance_m": 263,
+          "minutes_apart": 51
+        }
+      ]
+    },
+    {
+      "id": "tps_8f8c08e3432d",
+      "source": "police",
+      "lat": 43.757079559745264,
+      "lng": -79.60008528071282,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D23",
+      "location": "ALABASTER RD - MINGLEHAZE DR",
+      "ts": "2026-08-25T08:26:58+00:00",
+      "related": [
+        {
+          "id": "tps_39086c6ec13f",
+          "distance_m": 0,
+          "minutes_apart": 177
+        }
+      ]
+    },
+    {
+      "id": "tps_2e3592fbcbfe",
+      "source": "police",
+      "lat": 43.6881405920535,
+      "lng": -79.4673299945474,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D12",
+      "location": "EWART AVE - COMMODORE AVE",
+      "ts": "2026-08-25T08:12:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_cba13ddea7e5",
+      "source": "police",
+      "lat": 43.756031815096726,
+      "lng": -79.17985800371788,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D43",
+      "location": "FORDOVER DR - METROLINX",
+      "ts": "2026-08-25T08:07:57+00:00",
+      "related": []
+    },
     {
       "id": "tps_bab999819a98",
       "source": "police",
@@ -35,6 +135,11 @@
           "id": "tps_3d1e6c2ce309",
           "distance_m": 0,
           "minutes_apart": 8
+        },
+        {
+          "id": "tps_dd73f0256dee",
+          "distance_m": 263,
+          "minutes_apart": 43
         },
         {
           "id": "tps_65b9ab3f7f10",
@@ -72,6 +177,11 @@
           "id": "tps_76054d8d16cc",
           "distance_m": 0,
           "minutes_apart": 8
+        },
+        {
+          "id": "tps_dd73f0256dee",
+          "distance_m": 263,
+          "minutes_apart": 51
         },
         {
           "id": "tps_65b9ab3f7f10",
@@ -447,6 +557,11 @@
       "ts": "2026-08-25T06:29:21+00:00",
       "related": [
         {
+          "id": "tps_dd73f0256dee",
+          "distance_m": 0,
+          "minutes_apart": 119
+        },
+        {
           "id": "tps_3d1e6c2ce309",
           "distance_m": 263,
           "minutes_apart": 68
@@ -669,7 +784,13 @@
       "division": "HP",
       "location": "ALABASTER RD - MINGLEHAZE DR",
       "ts": "2026-08-25T05:29:43+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_8f8c08e3432d",
+          "distance_m": 0,
+          "minutes_apart": 177
+        }
+      ]
     },
     {
       "id": "tps_2533c9aa22ea",
@@ -885,19 +1006,6 @@
       "related": []
     },
     {
-      "id": "tps_8f6432138561",
-      "source": "police",
-      "lat": 43.759885388106,
-      "lng": -79.40648411104091,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "BALES AVE - TRADEWIND AVE",
-      "ts": "2026-08-25T05:10:30+00:00",
-      "related": []
-    },
-    {
       "id": "tps_5a4236caabca",
       "source": "police",
       "lat": 43.648587795966776,
@@ -915,6 +1023,19 @@
           "minutes_apart": 84
         }
       ]
+    },
+    {
+      "id": "tps_8f6432138561",
+      "source": "police",
+      "lat": 43.759885388106,
+      "lng": -79.40648411104091,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D32",
+      "location": "BALES AVE - TRADEWIND AVE",
+      "ts": "2026-08-25T05:02:38+00:00",
+      "related": []
     },
     {
       "id": "tps_182c98ee5bf3",
@@ -8140,13 +8261,7 @@
       "division": "D52",
       "location": "MC CAUL ST - GRANGE PARK TRL",
       "ts": "2026-08-24T11:25:33+00:00",
-      "related": [
-        {
-          "id": "tps_16f781e02ef2",
-          "distance_m": 573,
-          "minutes_apart": 157
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_63edadac426b",
@@ -8269,13 +8384,7 @@
       "division": "D52",
       "location": "HAYTER ST - COLLEGE ST",
       "ts": "2026-08-24T10:57:26+00:00",
-      "related": [
-        {
-          "id": "tps_16f781e02ef2",
-          "distance_m": 405,
-          "minutes_apart": 129
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_360618a8a666",
@@ -8454,158 +8563,23 @@
       "location": "AVON AVE - LN W AVON N CAYUGA",
       "ts": "2026-08-24T09:09:59+00:00",
       "related": []
-    },
-    {
-      "id": "tps_16f781e02ef2",
-      "source": "police",
-      "lat": 43.65751789662169,
-      "lng": -79.3896147430766,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D52",
-      "location": "GERRARD ST W - ORDE ST",
-      "ts": "2026-08-24T08:48:14+00:00",
-      "related": [
-        {
-          "id": "tps_bb8da02bf218",
-          "distance_m": 405,
-          "minutes_apart": 129
-        },
-        {
-          "id": "tps_af23ddb48225",
-          "distance_m": 573,
-          "minutes_apart": 157
-        }
-      ]
-    },
-    {
-      "id": "tps_775bea0ed923",
-      "source": "police",
-      "lat": 43.79023415659195,
-      "lng": -79.32907336476684,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "FERNCREST GT - CORTON GT",
-      "ts": "2026-08-24T08:47:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_26c353fb7703",
-      "source": "police",
-      "lat": 43.66981211194439,
-      "lng": -79.40075224163746,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "PRINCE ARTHUR AVE - LOWTHER AVE",
-      "ts": "2026-08-24T08:47:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e8bfbca5b554",
-      "source": "police",
-      "lat": 43.6869338321532,
-      "lng": -79.28656606018718,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "VICTORIA PARK AVE - BLANTYRE AVE",
-      "ts": "2026-08-24T08:42:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_89258b2f578e",
-      "source": "police",
-      "lat": 43.7357545395192,
-      "lng": -79.30567946967878,
-      "type": "DAMJU",
-      "type_plain": "DAMJU",
-      "severity": "low",
-      "division": "D41",
-      "location": "INNISMORE CRES - SURREY AVE",
-      "ts": "2026-08-24T08:30:03+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_bab999819a98",
-        "tps_815da7844c8b",
-        "tps_4120f6ce30e4",
-        "tps_aa6981b3f5fc"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d44c2f1b68c7",
-        "tps_a17681070816",
-        "tps_4577655124c6",
-        "tps_c6a79ad4a26a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_184932d0134f",
-        "tps_868618b90cfa",
-        "tps_c2032df27966",
-        "tps_2533c9aa22ea"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_57f668ba742d",
-        "tps_450da6a4ed3f",
-        "tps_0dcd69eaf1c7"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D14",
       "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
+      "baseline_avg": 1.0,
+      "ratio": 5.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_831e1787de4e",
         "tps_3b2aab917b7b",
         "tps_d05c7db10a9a",
         "tps_1e2daddbf206",
-        "tps_1b786c303be0",
-        "tps_d56f7dc54732"
+        "tps_1b786c303be0"
       ]
     }
   ]
