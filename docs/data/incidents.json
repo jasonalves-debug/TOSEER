@@ -1,11 +1,100 @@
 {
-  "generated": "2026-08-25T23:13:19.838443+00:00",
+  "generated": "2026-08-25T23:36:05.965172+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_09c69fc6d04a",
+      "source": "police",
+      "lat": 43.61935103021635,
+      "lng": -79.51601273074598,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D22",
+      "location": "GARDINER XWY W - ISLINGTON AVE",
+      "ts": "2026-08-25T23:19:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3a652685a328",
+      "source": "police",
+      "lat": 43.639972478510614,
+      "lng": -79.37998664389616,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D52",
+      "location": "YORK ST - MARTIN GOODMAN TRL",
+      "ts": "2026-08-25T23:19:14+00:00",
+      "related": [
+        {
+          "id": "tfs_F26132662",
+          "distance_m": 451,
+          "minutes_apart": 45
+        }
+      ]
+    },
+    {
+      "id": "tps_17a4c5840274",
+      "source": "police",
+      "lat": 43.668642107964544,
+      "lng": -79.3861045483936,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D52",
+      "location": "YONGE ST - CHARLES ST E",
+      "ts": "2026-08-25T23:13:27+00:00",
+      "related": [
+        {
+          "id": "tps_a537da9005d2",
+          "distance_m": 0,
+          "minutes_apart": 22
+        },
+        {
+          "id": "tps_27706ddfca42",
+          "distance_m": 185,
+          "minutes_apart": 48
+        },
+        {
+          "id": "tps_1ead7e39a089",
+          "distance_m": 287,
+          "minutes_apart": 85
+        },
+        {
+          "id": "tps_84601491a6db",
+          "distance_m": 296,
+          "minutes_apart": 84
+        },
+        {
+          "id": "tps_6a5da4dad45c",
+          "distance_m": 432,
+          "minutes_apart": 88
+        },
+        {
+          "id": "tps_cccb998f78d9",
+          "distance_m": 432,
+          "minutes_apart": 127
+        }
+      ]
+    },
+    {
+      "id": "tps_e245a5c7d36a",
+      "source": "police",
+      "lat": 43.66758696697571,
+      "lng": -79.32761430963714,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D55",
+      "location": "LN 2 E ALTON S DUNDAS - HILTZ AVE",
+      "ts": "2026-08-25T23:06:59+00:00",
+      "related": []
+    },
     {
       "id": "tps_07ba18a22b3d",
       "source": "police",
@@ -77,6 +166,11 @@
       "ts": "2026-08-25T22:51:08+00:00",
       "related": [
         {
+          "id": "tps_17a4c5840274",
+          "distance_m": 0,
+          "minutes_apart": 22
+        },
+        {
           "id": "tps_27706ddfca42",
           "distance_m": 185,
           "minutes_apart": 26
@@ -100,11 +194,6 @@
           "id": "tps_cccb998f78d9",
           "distance_m": 432,
           "minutes_apart": 105
-        },
-        {
-          "id": "tps_8219f7b25c3a",
-          "distance_m": 439,
-          "minutes_apart": 124
         }
       ]
     },
@@ -176,6 +265,11 @@
       "units": "HR332, P334",
       "ts": "2026-08-25T22:34:38+00:00",
       "related": [
+        {
+          "id": "tps_3a652685a328",
+          "distance_m": 451,
+          "minutes_apart": 45
+        },
         {
           "id": "tps_7a247cd3753e",
           "distance_m": 487,
@@ -267,6 +361,11 @@
           "id": "tps_a537da9005d2",
           "distance_m": 185,
           "minutes_apart": 26
+        },
+        {
+          "id": "tps_17a4c5840274",
+          "distance_m": 185,
+          "minutes_apart": 48
         },
         {
           "id": "tps_84601491a6db",
@@ -749,6 +848,11 @@
           "id": "tps_a537da9005d2",
           "distance_m": 296,
           "minutes_apart": 61
+        },
+        {
+          "id": "tps_17a4c5840274",
+          "distance_m": 296,
+          "minutes_apart": 84
         }
       ]
     },
@@ -778,6 +882,11 @@
           "id": "tps_a537da9005d2",
           "distance_m": 287,
           "minutes_apart": 62
+        },
+        {
+          "id": "tps_17a4c5840274",
+          "distance_m": 287,
+          "minutes_apart": 85
         }
       ]
     },
@@ -812,6 +921,11 @@
           "id": "tps_a537da9005d2",
           "distance_m": 432,
           "minutes_apart": 66
+        },
+        {
+          "id": "tps_17a4c5840274",
+          "distance_m": 432,
+          "minutes_apart": 88
         }
       ]
     },
@@ -1218,6 +1332,11 @@
           "id": "tps_a537da9005d2",
           "distance_m": 432,
           "minutes_apart": 105
+        },
+        {
+          "id": "tps_17a4c5840274",
+          "distance_m": 432,
+          "minutes_apart": 127
         }
       ]
     },
@@ -1310,6 +1429,11 @@
           "id": "tps_a537da9005d2",
           "distance_m": 439,
           "minutes_apart": 124
+        },
+        {
+          "id": "tps_17a4c5840274",
+          "distance_m": 439,
+          "minutes_apart": 147
         },
         {
           "id": "tps_27706ddfca42",
@@ -8927,13 +9051,7 @@
       "approximate": false,
       "units": "P112, P143",
       "ts": "2026-08-25T01:56:29+00:00",
-      "related": [
-        {
-          "id": "tps_da366e742c06",
-          "distance_m": 48,
-          "minutes_apart": 155
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26132223",
@@ -9116,13 +9234,7 @@
       "division": "HP",
       "location": "FALAISE RD - MORNINGSIDE AVE",
       "ts": "2026-08-25T01:35:08+00:00",
-      "related": [
-        {
-          "id": "tps_4b2e3695b5c4",
-          "distance_m": 203,
-          "minutes_apart": 138
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_0cd312c3f702",
@@ -9759,150 +9871,47 @@
       "location": "KEELE ST - WILSON AVE",
       "ts": "2026-08-24T23:40:32+00:00",
       "related": []
-    },
-    {
-      "id": "tps_7a67ce17a41d",
-      "source": "police",
-      "lat": 43.65707481201977,
-      "lng": -79.44878421707068,
-      "type": "DAM",
-      "type_plain": "Damage to Property",
-      "severity": "low",
-      "division": "D11",
-      "location": "BLOOR ST W - PERTH AVE",
-      "ts": "2026-08-24T23:25:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fb30335f8f32",
-      "source": "police",
-      "lat": 43.642692989361095,
-      "lng": -79.43102602299,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D11",
-      "location": "QUEEN ST W - STRICKLAND AVE",
-      "ts": "2026-08-24T23:25:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_da366e742c06",
-      "source": "police",
-      "lat": 43.755455974900755,
-      "lng": -79.43845112728326,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "SHEPPARD AVE W - BATHURST ST",
-      "ts": "2026-08-24T23:21:20+00:00",
-      "related": [
-        {
-          "id": "tfs_F26132224",
-          "distance_m": 48,
-          "minutes_apart": 155
-        }
-      ]
-    },
-    {
-      "id": "tps_d474703b0bd1",
-      "source": "police",
-      "lat": 43.68060391274556,
-      "lng": -79.48208659891681,
-      "type": "ASSPR",
-      "type_plain": "Assault (Priority / In Progress)",
-      "severity": "high",
-      "division": "D12",
-      "location": "AVON AVE - ALLIANCE AVE",
-      "ts": "2026-08-24T23:18:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7c787603d4a9",
-      "source": "police",
-      "lat": 43.689436122397865,
-      "lng": -79.30098755237307,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D55",
-      "location": "LN N DANFORTH W MAIN ST - STANLEY G. GRIZZLE PARK TRL",
-      "ts": "2026-08-24T23:18:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4b2e3695b5c4",
-      "source": "police",
-      "lat": 43.7684035984007,
-      "lng": -79.18621380674915,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "MORNINGSIDE AVE - COLLINSGROVE RD",
-      "ts": "2026-08-24T23:17:09+00:00",
-      "related": [
-        {
-          "id": "tps_ff81d0649d3f",
-          "distance_m": 203,
-          "minutes_apart": 138
-        }
-      ]
-    },
-    {
-      "id": "tps_2c946e9d0879",
-      "source": "police",
-      "lat": 43.73330654738157,
-      "lng": -79.45274806291962,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D32",
-      "location": "TRANSIT RD - DUFFERIN ST",
-      "ts": "2026-08-24T23:16:12+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D52",
-      "current_count": 11,
+      "current_count": 13,
       "baseline_avg": 1.8,
-      "ratio": 6.1,
-      "sample_days": 5,
+      "ratio": 7.1,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_3a652685a328",
+        "tps_17a4c5840274",
         "tps_a537da9005d2",
         "tps_d82d4b535e71",
-        "tps_3b5cdf747df3",
-        "tps_3be9938a5f26",
-        "tps_03d35cb0f6c4"
+        "tps_3b5cdf747df3"
       ]
     },
     {
       "source": "police",
       "division": "D55",
-      "current_count": 5,
+      "current_count": 6,
       "baseline_avg": 1.0,
-      "ratio": 5.0,
-      "sample_days": 4,
+      "ratio": 6.0,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_e245a5c7d36a",
         "tps_116d49bdac69",
         "tps_fcba9d81b4e6",
         "tps_b73850474ad1",
-        "tps_8fa900e37da9",
-        "tps_b8a6d0828d8d"
+        "tps_8fa900e37da9"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 9,
+      "current_count": 8,
       "baseline_avg": 2.0,
-      "ratio": 4.5,
+      "ratio": 4.0,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
@@ -9916,62 +9925,30 @@
     {
       "source": "police",
       "division": "D32",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.7,
-      "ratio": 3.0,
+      "ratio": 2.4,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_e06720d0a029",
         "tps_63ee632d8e9d",
         "tps_02584d5af52f",
-        "tps_483cec4e52b0",
-        "tps_7a3cbfab5530"
+        "tps_483cec4e52b0"
       ]
     },
     {
       "source": "police",
       "division": "D51",
-      "current_count": 4,
+      "current_count": 3,
       "baseline_avg": 1.5,
-      "ratio": 2.7,
+      "ratio": 2.0,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_171fbcbe34df",
         "tps_2e313d93f24a",
-        "tps_ec73ee889ea7",
-        "tps_4e404d72c579"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b704105efe5d",
-        "tps_13b09b072cd9",
-        "tps_2c439c46d667"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5ad9401246a7",
-        "tps_933abc37e1ff",
-        "tps_919b2b0d8a34",
-        "tps_9bd6bf43268e",
-        "tps_82f713f1a8d4"
+        "tps_ec73ee889ea7"
       ]
     }
   ]
