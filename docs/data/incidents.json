@@ -1,11 +1,74 @@
 {
-  "generated": "2026-08-25T15:40:06.335738+00:00",
+  "generated": "2026-08-25T16:17:21.910261+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26132457",
+      "source": "fire",
+      "lat": 43.7475925,
+      "lng": -79.5625422,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "411",
+      "location": "North York - ARDWICK BLVD & FINCH AVE W",
+      "approximate": false,
+      "units": "A411, P411",
+      "ts": "2026-08-25T15:39:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_457775deba46",
+      "source": "police",
+      "lat": 43.65923739834116,
+      "lng": -79.38517394513003,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D52",
+      "location": "HAYTER ST - COLLEGE ST",
+      "ts": "2026-08-25T15:37:52+00:00",
+      "related": [
+        {
+          "id": "tps_cdcf4bdfd2c8",
+          "distance_m": 525,
+          "minutes_apart": 91
+        },
+        {
+          "id": "tps_6168ab02736a",
+          "distance_m": 525,
+          "minutes_apart": 136
+        },
+        {
+          "id": "tps_6c47624ebc45",
+          "distance_m": 570,
+          "minutes_apart": 94
+        }
+      ]
+    },
+    {
+      "id": "tps_6479e8b2889d",
+      "source": "police",
+      "lat": 43.785556496016824,
+      "lng": -79.20628729624836,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "NEILSON RD - PURPLEDUSK TRL",
+      "ts": "2026-08-25T15:37:07+00:00",
+      "related": [
+        {
+          "id": "tps_c8857a44cdd8",
+          "distance_m": 0,
+          "minutes_apart": 103
+        }
+      ]
+    },
     {
       "id": "tfs_F26132454",
       "source": "fire",
@@ -515,6 +578,11 @@
           "id": "tps_1a58a01414cf",
           "distance_m": 294,
           "minutes_apart": 167
+        },
+        {
+          "id": "tps_457775deba46",
+          "distance_m": 525,
+          "minutes_apart": 91
         }
       ]
     },
@@ -553,6 +621,11 @@
           "id": "tps_a39181cca85a",
           "distance_m": 138,
           "minutes_apart": 27
+        },
+        {
+          "id": "tps_457775deba46",
+          "distance_m": 570,
+          "minutes_apart": 94
         },
         {
           "id": "tps_f665b25a45df",
@@ -691,7 +764,13 @@
       "division": "D43",
       "location": "NEILSON RD - PURPLEDUSK TRL",
       "ts": "2026-08-25T13:53:42+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_6479e8b2889d",
+          "distance_m": 0,
+          "minutes_apart": 103
+        }
+      ]
     },
     {
       "id": "tps_f410f115f722",
@@ -881,6 +960,11 @@
           "id": "tps_1a58a01414cf",
           "distance_m": 294,
           "minutes_apart": 122
+        },
+        {
+          "id": "tps_457775deba46",
+          "distance_m": 525,
+          "minutes_apart": 136
         }
       ]
     },
@@ -7290,11 +7374,6 @@
           "minutes_apart": 29
         },
         {
-          "id": "tps_17f2eefe2f39",
-          "distance_m": 316,
-          "minutes_apart": 156
-        },
-        {
           "id": "tps_4b16a76a5276",
           "distance_m": 335,
           "minutes_apart": 71
@@ -7450,11 +7529,6 @@
       "ts": "2026-08-24T18:12:35+00:00",
       "related": [
         {
-          "id": "tps_17f2eefe2f39",
-          "distance_m": 199,
-          "minutes_apart": 139
-        },
-        {
           "id": "tps_83482c1d89da",
           "distance_m": 491,
           "minutes_apart": 11
@@ -7563,11 +7637,6 @@
           "minutes_apart": 42
         },
         {
-          "id": "tps_17f2eefe2f39",
-          "distance_m": 319,
-          "minutes_apart": 128
-        },
-        {
           "id": "tps_f1f529ca9032",
           "distance_m": 491,
           "minutes_apart": 11
@@ -7665,11 +7734,6 @@
           "id": "tfs_F26131996",
           "distance_m": 473,
           "minutes_apart": 18
-        },
-        {
-          "id": "tps_6cf64172366f",
-          "distance_m": 483,
-          "minutes_apart": 99
         }
       ]
     },
@@ -7867,18 +7931,7 @@
       "division": "HP",
       "location": "YONGE ST - MOUNT PLEASANT RD",
       "ts": "2026-08-24T17:27:03+00:00",
-      "related": [
-        {
-          "id": "tps_5c0957ee726e",
-          "distance_m": 0,
-          "minutes_apart": 88
-        },
-        {
-          "id": "tps_b3a05d16854f",
-          "distance_m": 0,
-          "minutes_apart": 98
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_9ad526518bb6",
@@ -7928,13 +7981,7 @@
       "division": "D13",
       "location": "LOCKSLEY AVE - NORTHCLIFFE BLVD",
       "ts": "2026-08-24T17:23:50+00:00",
-      "related": [
-        {
-          "id": "tps_4bef574c1c37",
-          "distance_m": 287,
-          "minutes_apart": 101
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_2efeca0585d9",
@@ -7996,16 +8043,6 @@
           "minutes_apart": 71
         },
         {
-          "id": "tps_f822bcf82bec",
-          "distance_m": 393,
-          "minutes_apart": 63
-        },
-        {
-          "id": "tps_17f2eefe2f39",
-          "distance_m": 508,
-          "minutes_apart": 86
-        },
-        {
           "id": "tps_f1f529ca9032",
           "distance_m": 588,
           "minutes_apart": 53
@@ -8037,11 +8074,6 @@
       "location": "ED MIRVISH WAY - JOHN ST",
       "ts": "2026-08-24T17:09:12+00:00",
       "related": [
-        {
-          "id": "tps_d06b03e83faf",
-          "distance_m": 134,
-          "minutes_apart": 78
-        },
         {
           "id": "tps_559e57a0f98b",
           "distance_m": 255,
@@ -8215,11 +8247,6 @@
       "ts": "2026-08-24T16:31:16+00:00",
       "related": [
         {
-          "id": "tps_75822f9e631f",
-          "distance_m": 282,
-          "minutes_apart": 39
-        },
-        {
           "id": "tps_7d2c6832b004",
           "distance_m": 291,
           "minutes_apart": 161
@@ -8284,19 +8311,9 @@
       "ts": "2026-08-24T16:23:52+00:00",
       "related": [
         {
-          "id": "tps_d06b03e83faf",
-          "distance_m": 294,
-          "minutes_apart": 33
-        },
-        {
           "id": "tps_c7ccebc8003b",
           "distance_m": 321,
           "minutes_apart": 45
-        },
-        {
-          "id": "tps_75822f9e631f",
-          "distance_m": 546,
-          "minutes_apart": 32
         },
         {
           "id": "tps_7d2c6832b004",
@@ -8304,374 +8321,15 @@
           "minutes_apart": 169
         }
       ]
-    },
-    {
-      "id": "tps_f822bcf82bec",
-      "source": "police",
-      "lat": 43.639972478510614,
-      "lng": -79.37998664389616,
-      "type": "MARRE",
-      "type_plain": "MARRE",
-      "severity": "low",
-      "division": "MAR",
-      "location": "MARTIN GOODMAN TRL - ",
-      "ts": "2026-08-24T16:16:29+00:00",
-      "related": [
-        {
-          "id": "tps_4b16a76a5276",
-          "distance_m": 393,
-          "minutes_apart": 63
-        }
-      ]
-    },
-    {
-      "id": "tps_50001c8f1a47",
-      "source": "police",
-      "lat": 43.68258870663456,
-      "lng": -79.32716392839349,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D55",
-      "location": "GILLARD AVE - MONARCH PARK AVE",
-      "ts": "2026-08-24T16:12:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6cf64172366f",
-      "source": "police",
-      "lat": 43.66570230480603,
-      "lng": -79.37550795311523,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D51",
-      "location": "MAITLAND PL - HOMEWOOD AVE",
-      "ts": "2026-08-24T16:12:49+00:00",
-      "related": [
-        {
-          "id": "tps_8bb201a5a6bd",
-          "distance_m": 483,
-          "minutes_apart": 99
-        }
-      ]
-    },
-    {
-      "id": "tps_47b7fe35958c",
-      "source": "police",
-      "lat": 43.64746039398808,
-      "lng": -79.43060462313046,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "GORDON ST - STONEHOUSE CRES",
-      "ts": "2026-08-24T16:06:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2715d4de75d3",
-      "source": "police",
-      "lat": 43.70447355224308,
-      "lng": -79.50423324552794,
-      "type": "DAMJU",
-      "type_plain": "DAMJU",
-      "severity": "low",
-      "division": "D12",
-      "location": "LAWRENCE AVE W - MARSHLYNN AVE",
-      "ts": "2026-08-24T16:01:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1e39025583c0",
-      "source": "police",
-      "lat": 43.79228901528315,
-      "lng": -79.39358598475175,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D32",
-      "location": "BAYVIEW AVE - CUMMER AVE",
-      "ts": "2026-08-24T15:59:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5c0957ee726e",
-      "source": "police",
-      "lat": 43.72785347519304,
-      "lng": -79.40292313865461,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "YONGE ST - MOUNT PLEASANT RD",
-      "ts": "2026-08-24T15:59:21+00:00",
-      "related": [
-        {
-          "id": "tps_b3a05d16854f",
-          "distance_m": 0,
-          "minutes_apart": 10
-        },
-        {
-          "id": "tps_2cb01e61350f",
-          "distance_m": 0,
-          "minutes_apart": 88
-        }
-      ]
-    },
-    {
-      "id": "tps_d72781082fb8",
-      "source": "police",
-      "lat": 43.708655150871394,
-      "lng": -79.47805104137855,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D12",
-      "location": "KEELE ST - LAWRENCE AVE W",
-      "ts": "2026-08-24T15:57:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f9da4bf128d9",
-      "source": "police",
-      "lat": 43.69562541095898,
-      "lng": -79.3063260508772,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D55",
-      "location": "LUMSDEN AVE - WALLINGTON AVE",
-      "ts": "2026-08-24T15:56:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_256ccc3a2407",
-      "source": "police",
-      "lat": 43.69610671653836,
-      "lng": -79.2916339623115,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D55",
-      "location": "CRESCENT TOWN RD - CRESCENT TOWN RD",
-      "ts": "2026-08-24T15:56:53+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3e0a1900bade",
-      "source": "police",
-      "lat": 43.66730640109162,
-      "lng": -79.51668048909536,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D22",
-      "location": "EDGEVALLEY DR - COLWOOD RD",
-      "ts": "2026-08-24T15:56:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_17f2eefe2f39",
-      "source": "police",
-      "lat": 43.64745918656283,
-      "lng": -79.37574004672722,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D51",
-      "location": "FRONT ST E - SCOTT ST",
-      "ts": "2026-08-24T15:53:57+00:00",
-      "related": [
-        {
-          "id": "tps_f1f529ca9032",
-          "distance_m": 199,
-          "minutes_apart": 139
-        },
-        {
-          "id": "tps_6796539ad432",
-          "distance_m": 316,
-          "minutes_apart": 156
-        },
-        {
-          "id": "tps_83482c1d89da",
-          "distance_m": 319,
-          "minutes_apart": 128
-        },
-        {
-          "id": "tps_4b16a76a5276",
-          "distance_m": 508,
-          "minutes_apart": 86
-        }
-      ]
-    },
-    {
-      "id": "tps_75822f9e631f",
-      "source": "police",
-      "lat": 43.6509027902028,
-      "lng": -79.39711873555277,
-      "type": "SHO",
-      "type_plain": "SHO",
-      "severity": "low",
-      "division": "D52",
-      "location": "SULLIVAN ST - GRANGE AVE",
-      "ts": "2026-08-24T15:52:02+00:00",
-      "related": [
-        {
-          "id": "tps_77ab7918b6fc",
-          "distance_m": 282,
-          "minutes_apart": 39
-        },
-        {
-          "id": "tps_6bfda5cf4154",
-          "distance_m": 546,
-          "minutes_apart": 32
-        }
-      ]
-    },
-    {
-      "id": "tps_d06b03e83faf",
-      "source": "police",
-      "lat": 43.64659898570262,
-      "lng": -79.38972473866458,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "KING ST W - JOHN ST",
-      "ts": "2026-08-24T15:51:07+00:00",
-      "related": [
-        {
-          "id": "tps_c7ccebc8003b",
-          "distance_m": 134,
-          "minutes_apart": 78
-        },
-        {
-          "id": "tps_6bfda5cf4154",
-          "distance_m": 294,
-          "minutes_apart": 33
-        }
-      ]
-    },
-    {
-      "id": "tps_13e178dc4967",
-      "source": "police",
-      "lat": 43.67751354311641,
-      "lng": -79.3586593833633,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "DANFORTH AVE - LN N DANFORTH W BROADVIEW",
-      "ts": "2026-08-24T15:50:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b3a05d16854f",
-      "source": "police",
-      "lat": 43.72785347519304,
-      "lng": -79.40292313865461,
-      "type": "WIRDO",
-      "type_plain": "WIRDO",
-      "severity": "low",
-      "division": "D32",
-      "location": "YONGE ST - MOUNT PLEASANT RD",
-      "ts": "2026-08-24T15:49:18+00:00",
-      "related": [
-        {
-          "id": "tps_5c0957ee726e",
-          "distance_m": 0,
-          "minutes_apart": 10
-        },
-        {
-          "id": "tps_2cb01e61350f",
-          "distance_m": 0,
-          "minutes_apart": 98
-        }
-      ]
-    },
-    {
-      "id": "tps_e05cb07f76ce",
-      "source": "police",
-      "lat": 43.771910769525604,
-      "lng": -79.46765175395609,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D32",
-      "location": "HEPC - MARTIN ROSS AVE",
-      "ts": "2026-08-24T15:48:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_62e881d3bdd4",
-      "source": "police",
-      "lat": 43.66662311127349,
-      "lng": -79.41179143478892,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "LN 2 N BLOOR E BATHURST - LONDON ST",
-      "ts": "2026-08-24T15:46:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4bef574c1c37",
-      "source": "police",
-      "lat": 43.694432367818926,
-      "lng": -79.44971288736171,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D13",
-      "location": "KEYWEST AVE - HUNTER AVE",
-      "ts": "2026-08-24T15:42:58+00:00",
-      "related": [
-        {
-          "id": "tps_eb03fd60e30e",
-          "distance_m": 287,
-          "minutes_apart": 101
-        }
-      ]
-    },
-    {
-      "id": "tps_33b06742aea0",
-      "source": "police",
-      "lat": 43.72417845994635,
-      "lng": -79.60078308092827,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D23",
-      "location": "WEST HUMBER TRL - QUINELLA DR",
-      "ts": "2026-08-24T15:40:29+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 6,
-      "baseline_avg": 1.8,
-      "ratio": 3.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_31e12f664c9d",
-        "tps_3346238335fe",
-        "tps_ca02ac16df91",
-        "tps_adad792eb201",
-        "tps_e46aebc0c65c"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
       "current_count": 7,
-      "baseline_avg": 2.2,
-      "ratio": 3.2,
+      "baseline_avg": 2.0,
+      "ratio": 3.5,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
@@ -8684,26 +8342,27 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
+      "division": "D22",
+      "current_count": 5,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_58d6079c9a62",
-        "tps_bbef1ba582f7",
-        "tps_5c5ffd5171e4",
-        "tps_b588d91299db"
+        "tps_31e12f664c9d",
+        "tps_3346238335fe",
+        "tps_ca02ac16df91",
+        "tps_adad792eb201",
+        "tps_e46aebc0c65c"
       ]
     },
     {
       "source": "police",
       "division": "D14",
-      "current_count": 7,
-      "baseline_avg": 2.4,
-      "ratio": 2.9,
-      "sample_days": 7,
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_d99dea294763",
@@ -8715,46 +8374,32 @@
     },
     {
       "source": "police",
-      "division": "D13",
+      "division": "D53",
       "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_31df6653a249",
-        "tps_c55b981e5432",
-        "tps_fd59f832aff6",
-        "tps_b3f7e521acb4"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5a8e6c14ed29",
-        "tps_4f5e15290b0b",
-        "tps_1485e574919f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_e9d1da6a0de5",
-        "tps_6ca5deaaafec",
-        "tps_fec85f2bba1e",
-        "tps_411dea1bfe07"
+        "tps_58d6079c9a62",
+        "tps_bbef1ba582f7",
+        "tps_5c5ffd5171e4",
+        "tps_b588d91299db"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_457775deba46",
+        "tps_175d96d4b2d3",
+        "tps_0ca6678690a8",
+        "tps_a39181cca85a"
       ]
     }
   ]
