@@ -1,11 +1,186 @@
 {
-  "generated": "2026-08-25T11:49:35.974303+00:00",
+  "generated": "2026-08-25T12:19:22.112939+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_8fdf2f1674b3",
+      "source": "police",
+      "lat": 43.65485189395556,
+      "lng": -79.3679272545522,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D51",
+      "location": "MC FARRENS LANE - SEATON ST",
+      "ts": "2026-08-25T12:03:44+00:00",
+      "related": [
+        {
+          "id": "tps_de402b26f302",
+          "distance_m": 556,
+          "minutes_apart": 11
+        },
+        {
+          "id": "tps_93572ac30c30",
+          "distance_m": 556,
+          "minutes_apart": 100
+        },
+        {
+          "id": "tps_d9a608ae78ed",
+          "distance_m": 571,
+          "minutes_apart": 70
+        }
+      ]
+    },
+    {
+      "id": "tps_01e0bf4b91da",
+      "source": "police",
+      "lat": 43.671285110402756,
+      "lng": -79.37496165688604,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D51",
+      "location": "GLEN RD - ONTARIO ST",
+      "ts": "2026-08-25T12:02:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6957dc6d0fb7",
+      "source": "police",
+      "lat": 43.71662078896895,
+      "lng": -79.59261549725936,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "REXDALE BLVD - WW E QUEEN'S PLATE S HARNESS",
+      "ts": "2026-08-25T11:58:03+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3beb1d1b785d",
+      "source": "police",
+      "lat": 43.725419169659034,
+      "lng": -79.41687841841978,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "WOBURN AVE - AVENUE RD",
+      "ts": "2026-08-25T11:56:33+00:00",
+      "related": [
+        {
+          "id": "tps_536ce9c4617d",
+          "distance_m": 0,
+          "minutes_apart": 48
+        },
+        {
+          "id": "tfs_F26132348",
+          "distance_m": 31,
+          "minutes_apart": 55
+        }
+      ]
+    },
+    {
+      "id": "tps_a2a8f80d6c8f",
+      "source": "police",
+      "lat": 43.801599634535435,
+      "lng": -79.27385962952933,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D42",
+      "location": "BRIMLEY RD - HORNSHILL DR",
+      "ts": "2026-08-25T11:56:27+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_de402b26f302",
+      "source": "police",
+      "lat": 43.651562990666605,
+      "lng": -79.3627214569264,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D51",
+      "location": "FRONT ST E - DERBY ST",
+      "ts": "2026-08-25T11:52:15+00:00",
+      "related": [
+        {
+          "id": "tps_93572ac30c30",
+          "distance_m": 0,
+          "minutes_apart": 88
+        },
+        {
+          "id": "tps_fc8bac0ed443",
+          "distance_m": 485,
+          "minutes_apart": 169
+        },
+        {
+          "id": "tps_8fdf2f1674b3",
+          "distance_m": 556,
+          "minutes_apart": 11
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26132356",
+      "source": "fire",
+      "lat": 43.7003032,
+      "lng": -79.5169063,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "442",
+      "location": "York - LAWRENCE AVE & WESTON RD",
+      "approximate": false,
+      "units": "A133, P442",
+      "ts": "2026-08-25T11:44:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_52a1b0263f66",
+      "source": "police",
+      "lat": 43.72466198719436,
+      "lng": -79.2690318030915,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D41",
+      "location": "MAYWOOD PK - ARGATE PL",
+      "ts": "2026-08-25T11:44:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_507bca254219",
+      "source": "police",
+      "lat": 43.679890917419186,
+      "lng": -79.47765040282493,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D12",
+      "location": "SENECA AVE - CAYUGA AVE",
+      "ts": "2026-08-25T11:40:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e81e33b24cb8",
+      "source": "police",
+      "lat": 43.77344412244522,
+      "lng": -79.29950507339139,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D42",
+      "location": "MARLBANK RD - CORUNDUM CRES",
+      "ts": "2026-08-25T11:40:33+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26132351",
       "source": "fire",
@@ -103,6 +278,11 @@
       "ts": "2026-08-25T11:08:52+00:00",
       "related": [
         {
+          "id": "tps_3beb1d1b785d",
+          "distance_m": 0,
+          "minutes_apart": 48
+        },
+        {
           "id": "tfs_F26132348",
           "distance_m": 31,
           "minutes_apart": 7
@@ -153,6 +333,11 @@
           "id": "tps_536ce9c4617d",
           "distance_m": 31,
           "minutes_apart": 7
+        },
+        {
+          "id": "tps_3beb1d1b785d",
+          "distance_m": 31,
+          "minutes_apart": 55
         }
       ]
     },
@@ -211,6 +396,11 @@
           "id": "tps_fc8bac0ed443",
           "distance_m": 476,
           "minutes_apart": 110
+        },
+        {
+          "id": "tps_8fdf2f1674b3",
+          "distance_m": 571,
+          "minutes_apart": 70
         }
       ]
     },
@@ -315,9 +505,19 @@
       "ts": "2026-08-25T10:23:53+00:00",
       "related": [
         {
+          "id": "tps_de402b26f302",
+          "distance_m": 0,
+          "minutes_apart": 88
+        },
+        {
           "id": "tps_fc8bac0ed443",
           "distance_m": 485,
           "minutes_apart": 81
+        },
+        {
+          "id": "tps_8fdf2f1674b3",
+          "distance_m": 556,
+          "minutes_apart": 100
         }
       ]
     },
@@ -507,6 +707,11 @@
           "id": "tps_93572ac30c30",
           "distance_m": 485,
           "minutes_apart": 81
+        },
+        {
+          "id": "tps_de402b26f302",
+          "distance_m": 485,
+          "minutes_apart": 169
         }
       ]
     },
@@ -8251,13 +8456,7 @@
       "division": "1GRP",
       "location": "STEELES AVE E - WOODBINE-MK AVE",
       "ts": "2026-08-24T14:02:35+00:00",
-      "related": [
-        {
-          "id": "tps_04f154746e22",
-          "distance_m": 0,
-          "minutes_apart": 116
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_5a1593ce4bc9",
@@ -8599,109 +8798,54 @@
           "minutes_apart": 112
         }
       ]
-    },
-    {
-      "id": "tps_b9e6d2000dcb",
-      "source": "police",
-      "lat": 43.63698217608591,
-      "lng": -79.39987403337392,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D14",
-      "location": "DAN LECKIE WAY - BATHURST ST",
-      "ts": "2026-08-24T12:18:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6ffe63eaca7f",
-      "source": "police",
-      "lat": 43.80306070753101,
-      "lng": -79.23226467399499,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D42",
-      "location": "EAST HIGHLAND CREEK TRL - GREENSPIRE RD",
-      "ts": "2026-08-24T12:12:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_04f154746e22",
-      "source": "police",
-      "lat": -0.043078914685125244,
-      "lng": -131.2101175992135,
-      "type": "FOUPR",
-      "type_plain": "Found Property",
-      "severity": "low",
-      "division": "D14",
-      "location": " - ",
-      "ts": "2026-08-24T12:06:17+00:00",
-      "related": [
-        {
-          "id": "tps_2cd5eef0e475",
-          "distance_m": 0,
-          "minutes_apart": 116
-        }
-      ]
-    },
-    {
-      "id": "tps_966c797a6e98",
-      "source": "police",
-      "lat": 43.722783146439525,
-      "lng": -79.4993566453865,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D31",
-      "location": "LEXFIELD AVE - PRIVET RD",
-      "ts": "2026-08-24T11:58:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26131856",
-      "source": "fire",
-      "lat": 43.6890622,
-      "lng": -79.5004628,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "421",
-      "location": "York - GOLDWIN AVE & JANE ST",
-      "approximate": false,
-      "units": "A421, P421",
-      "ts": "2026-08-24T11:56:50+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
+      "division": "HP",
+      "current_count": 6,
+      "baseline_avg": 2.7,
+      "ratio": 2.2,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_d7e5f465ef28",
-        "tps_8efa8d1c620e",
-        "tps_8bad3a3ee27f"
+        "tps_6957dc6d0fb7",
+        "tps_3beb1d1b785d",
+        "tps_402d56939bc5",
+        "tps_aa8418388405",
+        "tps_bd5c9aea86cd"
       ]
     },
     {
       "source": "police",
-      "division": "HP",
+      "division": "D51",
+      "current_count": 5,
+      "baseline_avg": 2.4,
+      "ratio": 2.1,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8fdf2f1674b3",
+        "tps_01e0bf4b91da",
+        "tps_de402b26f302",
+        "tps_d9a608ae78ed",
+        "tps_93572ac30c30"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
       "current_count": 4,
       "baseline_avg": 2.0,
       "ratio": 2.0,
-      "sample_days": 6,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_402d56939bc5",
-        "tps_aa8418388405",
-        "tps_bd5c9aea86cd",
-        "tps_64979c8763de"
+        "tps_a2a8f80d6c8f",
+        "tps_e81e33b24cb8",
+        "tps_3855c159f84b",
+        "tps_354d75095172"
       ]
     }
   ]
