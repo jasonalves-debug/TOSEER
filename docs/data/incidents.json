@@ -1,11 +1,56 @@
 {
-  "generated": "2026-08-25T09:04:29.997956+00:00",
+  "generated": "2026-08-25T09:48:26.680274+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_8efa8d1c620e",
+      "source": "police",
+      "lat": 43.74167771878384,
+      "lng": -79.32631624925492,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D33",
+      "location": " - NORDIC PL",
+      "ts": "2026-08-25T09:19:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_28afeda72b75",
+      "source": "police",
+      "lat": 43.65923739834116,
+      "lng": -79.38517394513003,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D52",
+      "location": "HAYTER ST - COLLEGE ST",
+      "ts": "2026-08-25T09:10:54+00:00",
+      "related": [
+        {
+          "id": "tps_ea91991c7518",
+          "distance_m": 537,
+          "minutes_apart": 96
+        }
+      ]
+    },
+    {
+      "id": "tps_fc8bac0ed443",
+      "source": "police",
+      "lat": 43.6553338944376,
+      "lng": -79.36574395616843,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D51",
+      "location": "QUEEN ST E - BERKELEY ST",
+      "ts": "2026-08-25T09:03:12+00:00",
+      "related": []
+    },
     {
       "id": "tps_d5b6b149097e",
       "source": "police",
@@ -234,6 +279,11 @@
           "id": "tps_182c98ee5bf3",
           "distance_m": 501,
           "minutes_apart": 156
+        },
+        {
+          "id": "tps_28afeda72b75",
+          "distance_m": 537,
+          "minutes_apart": 96
         }
       ]
     },
@@ -8537,49 +8587,22 @@
       "location": "BISHOP AVE - HEPC",
       "ts": "2026-08-24T10:21:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_3236d9f013c9",
-      "source": "police",
-      "lat": 43.70512539040291,
-      "lng": -79.31537114566785,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DORIS DR - ST CLAIR AVE E",
-      "ts": "2026-08-24T09:32:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1ffa4b21bfd8",
-      "source": "police",
-      "lat": 43.6781455203916,
-      "lng": -79.48095740294747,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D12",
-      "location": "AVON AVE - LN W AVON N CAYUGA",
-      "ts": "2026-08-24T09:09:59+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 5.0,
+      "ratio": 4.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_831e1787de4e",
         "tps_3b2aab917b7b",
         "tps_d05c7db10a9a",
-        "tps_1e2daddbf206",
-        "tps_1b786c303be0"
+        "tps_1e2daddbf206"
       ]
     }
   ]
