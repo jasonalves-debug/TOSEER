@@ -1,11 +1,94 @@
 {
-  "generated": "2026-08-25T05:44:19.987771+00:00",
+  "generated": "2026-08-25T06:03:24.617840+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_62af84d38b1a",
+      "source": "police",
+      "lat": 43.66242040152412,
+      "lng": -79.37670375122408,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "JARVIS ST - CARLTON ST",
+      "ts": "2026-08-25T05:38:53+00:00",
+      "related": [
+        {
+          "id": "tps_f87b2b8fdcd2",
+          "distance_m": 540,
+          "minutes_apart": 13
+        }
+      ]
+    },
+    {
+      "id": "tps_aa6981b3f5fc",
+      "source": "police",
+      "lat": 43.63610561904843,
+      "lng": -79.54007868994643,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D22",
+      "location": "THOMAS RILEY RD - DUNDAS ST W",
+      "ts": "2026-08-25T05:38:25+00:00",
+      "related": [
+        {
+          "id": "tps_1f9979c0384d",
+          "distance_m": 0,
+          "minutes_apart": 166
+        }
+      ]
+    },
+    {
+      "id": "tps_39086c6ec13f",
+      "source": "police",
+      "lat": 43.757079559745264,
+      "lng": -79.60008528071282,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "ALABASTER RD - MINGLEHAZE DR",
+      "ts": "2026-08-25T05:29:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2533c9aa22ea",
+      "source": "police",
+      "lat": 43.7684035984007,
+      "lng": -79.18621380674915,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "MORNINGSIDE AVE - COLLINSGROVE RD",
+      "ts": "2026-08-25T05:29:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_de87a95a9ca6",
+      "source": "police",
+      "lat": 43.659102598206324,
+      "lng": -79.36423755850339,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D51",
+      "location": "ST DAVID ST - ST BARTHOLOMEW ST",
+      "ts": "2026-08-25T05:28:38+00:00",
+      "related": [
+        {
+          "id": "tps_a1c648a2dd3d",
+          "distance_m": 349,
+          "minutes_apart": 138
+        }
+      ]
+    },
     {
       "id": "tps_8c67d7a3c0e7",
       "source": "police",
@@ -59,6 +142,11 @@
           "id": "tps_182c98ee5bf3",
           "distance_m": 205,
           "minutes_apart": 27
+        },
+        {
+          "id": "tps_62af84d38b1a",
+          "distance_m": 540,
+          "minutes_apart": 13
         }
       ]
     },
@@ -815,7 +903,13 @@
       "division": "D51",
       "location": "SUMACH ST - TUBMAN AVE",
       "ts": "2026-08-25T03:10:53+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_de87a95a9ca6",
+          "distance_m": 349,
+          "minutes_apart": 138
+        }
+      ]
     },
     {
       "id": "tps_99819a38dbf0",
@@ -977,7 +1071,13 @@
       "division": "D22",
       "location": "THOMAS RILEY RD - DUNDAS ST W",
       "ts": "2026-08-25T02:51:55+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_aa6981b3f5fc",
+          "distance_m": 0,
+          "minutes_apart": 166
+        }
+      ]
     },
     {
       "id": "tps_80826e1491c1",
@@ -8314,45 +8414,32 @@
           "minutes_apart": 108
         }
       ]
-    },
-    {
-      "id": "tps_d5721fb8d0ca",
-      "source": "police",
-      "lat": 43.607295927907735,
-      "lng": -79.48883663248571,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D22",
-      "location": " - LAKE SHORE BLVD W",
-      "ts": "2026-08-24T05:52:24+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D22",
-      "current_count": 11,
+      "current_count": 9,
       "baseline_avg": 1.0,
-      "ratio": 11.0,
-      "sample_days": 6,
+      "ratio": 9.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_aa6981b3f5fc",
         "tps_7778f92c56ef",
         "tps_98d71b861c71",
         "tps_d5e2f8d712fe",
-        "tps_58810944319b",
-        "tps_a5223d789d67"
+        "tps_58810944319b"
       ]
     },
     {
       "source": "police",
       "division": "D14",
-      "current_count": 9,
-      "baseline_avg": 1.7,
-      "ratio": 5.4,
-      "sample_days": 6,
+      "current_count": 8,
+      "baseline_avg": 1.8,
+      "ratio": 4.4,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_d56f7dc54732",
@@ -8364,71 +8451,41 @@
     },
     {
       "source": "police",
-      "division": "D32",
+      "division": "HP",
       "current_count": 5,
       "baseline_avg": 1.5,
       "ratio": 3.3,
-      "sample_days": 6,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_c27f705ddc61",
-        "tps_45256977b69a",
-        "tps_5d4a2b0057fd",
-        "tps_fc571457c567",
-        "tps_075ca4435f36"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9f3cd5137ce1",
-        "tps_27198d9cd7f9",
-        "tps_91c346016f82"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
+        "tps_39086c6ec13f",
         "tps_f356b70908c0",
         "tps_8f6432138561",
         "tps_480acacd3ef3",
-        "tps_e9ce564b2097",
-        "tps_9b5b2e75d20b"
+        "tps_e9ce564b2097"
       ]
     },
     {
       "source": "police",
       "division": "D43",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_2533c9aa22ea",
         "tps_053599f7aed0",
-        "tps_0adf58244920",
-        "tps_31e85023f420"
+        "tps_0adf58244920"
       ]
     },
     {
       "source": "police",
       "division": "D53",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_8c67d7a3c0e7",
@@ -8438,16 +8495,48 @@
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
+      "division": "D51",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_62af84d38b1a",
+        "tps_de87a95a9ca6",
+        "tps_e2d5ebe74de7",
+        "tps_863338397b29",
+        "tps_a1c648a2dd3d"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.3,
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_b4f8d7b24f9f",
-        "tps_74186b7cc516",
-        "tps_8160da028813"
+        "tps_aa3a8eb75552",
+        "tps_3c31806ceb4d",
+        "tps_3dc733a24c9d",
+        "tps_485646653bc6"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c27f705ddc61",
+        "tps_45256977b69a",
+        "tps_5d4a2b0057fd",
+        "tps_fc571457c567"
       ]
     }
   ]
