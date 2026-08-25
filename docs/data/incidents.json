@@ -1,11 +1,91 @@
 {
-  "generated": "2026-08-25T09:48:26.680274+00:00",
+  "generated": "2026-08-25T10:18:01.522505+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26132335",
+      "source": "fire",
+      "lat": 43.7952489,
+      "lng": -79.2936788,
+      "type": "Vehicle Accident - Trapped",
+      "type_plain": "Vehicle Accident - Trapped",
+      "severity": "medium",
+      "division": "244",
+      "location": "HUNTINGWOOD DR & KENNEDY RD",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-08-25T10:09:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_055ff82fa9e8",
+      "source": "police",
+      "lat": 43.65144329676334,
+      "lng": -79.42554102481836,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D14",
+      "location": "CHURCHILL AVE - ST ANNES RD",
+      "ts": "2026-08-25T10:04:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_64979c8763de",
+      "source": "police",
+      "lat": 43.812132373386106,
+      "lng": -79.30193250132601,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "MCNICOLL AVE - KENNEDY RD",
+      "ts": "2026-08-25T10:00:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9180136c1d86",
+      "source": "police",
+      "lat": 43.7374665834124,
+      "lng": -79.23381816009508,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D43",
+      "location": "STOREBRIDGE DR - COLONIAL PARK TRL",
+      "ts": "2026-08-25T09:58:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bbe07b26ab36",
+      "source": "police",
+      "lat": 43.731684261862775,
+      "lng": -79.43077810241377,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D32",
+      "location": "SUNSHINE ST - BATHURST ST",
+      "ts": "2026-08-25T09:45:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3e30bbab7ae2",
+      "source": "police",
+      "lat": 43.68393424000106,
+      "lng": -79.39238005982368,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D53",
+      "location": "YONGE ST - WOODLAWN AVE E",
+      "ts": "2026-08-25T09:43:11+00:00",
+      "related": []
+    },
     {
       "id": "tps_8efa8d1c620e",
       "source": "police",
@@ -17,7 +97,32 @@
       "division": "D33",
       "location": " - NORDIC PL",
       "ts": "2026-08-25T09:19:11+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_8bad3a3ee27f",
+          "distance_m": 230,
+          "minutes_apart": 0
+        }
+      ]
+    },
+    {
+      "id": "tps_8bad3a3ee27f",
+      "source": "police",
+      "lat": 43.743554617976145,
+      "lng": -79.32752775033235,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D33",
+      "location": "ROANOKE RD - MONARCHWOOD CRES",
+      "ts": "2026-08-25T09:19:11+00:00",
+      "related": [
+        {
+          "id": "tps_8efa8d1c620e",
+          "distance_m": 230,
+          "minutes_apart": 0
+        }
+      ]
     },
     {
       "id": "tps_28afeda72b75",
@@ -8593,16 +8698,15 @@
     {
       "source": "police",
       "division": "D14",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_055ff82fa9e8",
         "tps_831e1787de4e",
-        "tps_3b2aab917b7b",
-        "tps_d05c7db10a9a",
-        "tps_1e2daddbf206"
+        "tps_3b2aab917b7b"
       ]
     }
   ]
