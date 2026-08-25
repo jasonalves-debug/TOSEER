@@ -1,11 +1,24 @@
 {
-  "generated": "2026-08-25T07:54:58.029979+00:00",
+  "generated": "2026-08-25T08:25:16.997118+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_bab999819a98",
+      "source": "police",
+      "lat": 43.63713210305944,
+      "lng": -79.4889258088127,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D22",
+      "location": "BELL MANOR DR - BERRY RD",
+      "ts": "2026-08-25T08:01:06+00:00",
+      "related": []
+    },
     {
       "id": "tps_76054d8d16cc",
       "source": "police",
@@ -8517,174 +8530,46 @@
       "location": "INNISMORE CRES - SURREY AVE",
       "ts": "2026-08-24T08:30:03+00:00",
       "related": []
-    },
-    {
-      "id": "tps_634332a359f1",
-      "source": "police",
-      "lat": 43.64476698387067,
-      "lng": -79.39848733402353,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D14",
-      "location": "BRANT PL - PORTLAND ST",
-      "ts": "2026-08-24T08:12:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_478b991ae22b",
-      "source": "police",
-      "lat": 43.721735013315154,
-      "lng": -79.37792337253975,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D32",
-      "location": "STRATFORD PARK TRL - STRATFORD PARK TRL",
-      "ts": "2026-08-24T08:10:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d6418bc66492",
-      "source": "police",
-      "lat": 43.71522790347376,
-      "lng": -79.23910182505048,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "BRIMLEY RD S - BARKDENE HILLS",
-      "ts": "2026-08-24T08:07:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b4683656788c",
-      "source": "police",
-      "lat": 43.73627855983707,
-      "lng": -79.47698715939906,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D31",
-      "location": "DOWNSVIEW PARK BLVD - THOMAS MULHOLLAND DR",
-      "ts": "2026-08-24T08:04:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7e988b6a3a77",
-      "source": "police",
-      "lat": 43.72851956493918,
-      "lng": -79.2848256886362,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "WARDEN AVE - PRUDHAM GT",
-      "ts": "2026-08-24T08:00:55+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ea91991c7518",
-        "tps_74b1532285f8",
-        "tps_62af84d38b1a",
-        "tps_de87a95a9ca6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_db12f1657c63",
-        "tps_7fdbfaf67b3a",
-        "tps_a39225cb182b",
-        "tps_5a4236caabca"
-      ]
-    },
     {
       "source": "police",
       "division": "D22",
       "current_count": 4,
       "baseline_avg": 1.0,
       "ratio": 4.0,
-      "sample_days": 6,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_bab999819a98",
         "tps_815da7844c8b",
         "tps_4120f6ce30e4",
-        "tps_aa6981b3f5fc",
-        "tps_7778f92c56ef"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_76054d8d16cc",
-        "tps_08ceddd974a3",
-        "tps_b3ed43631869",
-        "tps_fcf0525dc0a8",
-        "tps_65b9ab3f7f10"
+        "tps_aa6981b3f5fc"
       ]
     },
     {
       "source": "police",
       "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_d44c2f1b68c7",
         "tps_a17681070816",
         "tps_4577655124c6",
-        "tps_c6a79ad4a26a",
-        "tps_a1c2721e74b2"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 1.8,
-      "ratio": 3.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3b2aab917b7b",
-        "tps_d05c7db10a9a",
-        "tps_1e2daddbf206",
-        "tps_1b786c303be0",
-        "tps_d56f7dc54732"
+        "tps_c6a79ad4a26a"
       ]
     },
     {
       "source": "police",
       "division": "D43",
       "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 6,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_184932d0134f",
@@ -8695,31 +8580,32 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b4d830a8c063",
-        "tps_39086c6ec13f",
-        "tps_f356b70908c0",
-        "tps_8f6432138561"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D42",
       "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_57f668ba742d",
         "tps_450da6a4ed3f",
         "tps_0dcd69eaf1c7"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_3b2aab917b7b",
+        "tps_d05c7db10a9a",
+        "tps_1e2daddbf206",
+        "tps_1b786c303be0",
+        "tps_d56f7dc54732"
       ]
     }
   ]
