@@ -1,11 +1,141 @@
 {
-  "generated": "2026-08-26T11:16:51.223197+00:00",
+  "generated": "2026-08-26T11:51:58.600065+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_d1af36e8f546",
+      "source": "police",
+      "lat": 43.645199587876505,
+      "lng": -79.41396562867676,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "STRACHAN AVE - MASSEY ST",
+      "ts": "2026-08-26T11:47:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bf06bd203264",
+      "source": "police",
+      "lat": 43.720642146439545,
+      "lng": -79.51412794306921,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "JANE ST - DALLNER RD",
+      "ts": "2026-08-26T11:46:08+00:00",
+      "related": [
+        {
+          "id": "tfs_F26132917",
+          "distance_m": 441,
+          "minutes_apart": 7
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26132917",
+      "source": "fire",
+      "lat": 43.7204471,
+      "lng": -79.5086521,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "146",
+      "location": "North York - WILSON AVE & JANE ST",
+      "approximate": false,
+      "units": "P143, P146, S143",
+      "ts": "2026-08-26T11:39:31+00:00",
+      "related": [
+        {
+          "id": "tps_bf06bd203264",
+          "distance_m": 441,
+          "minutes_apart": 7
+        }
+      ]
+    },
+    {
+      "id": "tps_9cb403142fea",
+      "source": "police",
+      "lat": 43.65144329676334,
+      "lng": -79.42554102481836,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D14",
+      "location": "CHURCHILL AVE - ST ANNES RD",
+      "ts": "2026-08-26T11:32:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_83ecef234bb5",
+      "source": "police",
+      "lat": 43.752854773200326,
+      "lng": -79.25850554627566,
+      "type": "FOUCH",
+      "type_plain": "FOUCH",
+      "severity": "low",
+      "division": "D41",
+      "location": " - ",
+      "ts": "2026-08-26T11:32:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_06af4ed1e259",
+      "source": "police",
+      "lat": 43.72413075405031,
+      "lng": -79.57266137616128,
+      "type": "THE",
+      "type_plain": "THE",
+      "severity": "low",
+      "division": "D23",
+      "location": "REX GT - HINTON RD",
+      "ts": "2026-08-26T11:26:37+00:00",
+      "related": [
+        {
+          "id": "tps_c9c43204be62",
+          "distance_m": 333,
+          "minutes_apart": 70
+        }
+      ]
+    },
+    {
+      "id": "tps_7a4c7012a16f",
+      "source": "police",
+      "lat": 43.75604799370402,
+      "lng": -79.22904943055676,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D43",
+      "location": "DAPHNE RD - CEDARBROOK PARK TRL",
+      "ts": "2026-08-26T11:21:43+00:00",
+      "related": [
+        {
+          "id": "tps_a2070a2d01f1",
+          "distance_m": 510,
+          "minutes_apart": 39
+        }
+      ]
+    },
+    {
+      "id": "tps_27554976cd26",
+      "source": "police",
+      "lat": 43.69122472524528,
+      "lng": -79.28834606133788,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "VICTORIA PARK AVE - DANFORTH AVE",
+      "ts": "2026-08-26T11:21:13+00:00",
+      "related": []
+    },
     {
       "id": "tps_80b5c92caadb",
       "source": "police",
@@ -185,7 +315,13 @@
       "division": "D43",
       "location": "GREENBRAE CRCT - MARKHAM RD",
       "ts": "2026-08-26T10:42:57+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_7a4c7012a16f",
+          "distance_m": 510,
+          "minutes_apart": 39
+        }
+      ]
     },
     {
       "id": "tps_3a8d54227627",
@@ -318,7 +454,13 @@
       "division": "D23",
       "location": "HINTON RD - ",
       "ts": "2026-08-26T10:16:21+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_06af4ed1e259",
+          "distance_m": 333,
+          "minutes_apart": 70
+        }
+      ]
     },
     {
       "id": "tps_eaa248396101",
@@ -1245,7 +1387,7 @@
       "division": "141",
       "location": "North York - KEELE ST & ST REGIS CRES",
       "approximate": false,
-      "units": "A133, A142, A341, A411, A415, C10, C11, C13, C14, CMD10, HR114, HZ145, LA111, MPV341, P112, P141, P142, P142, P143, P144, P145, P411, R133, R341, REHAB01, S143, S445, T1, T333",
+      "units": "A133, A142, A341, A411, A415, C10, C11, C13, C14, C14, CMD10, HR114, HZ145, LA111, MPV341, P112, P141, P142, P142, P143, P144, P145, P411, R133, R341, REHAB01, S143, S445, T1, T333",
       "ts": "2026-08-26T05:34:36+00:00",
       "related": [
         {
@@ -9444,11 +9586,6 @@
           "minutes_apart": 131
         },
         {
-          "id": "tps_1a58a01414cf",
-          "distance_m": 294,
-          "minutes_apart": 167
-        },
-        {
           "id": "tps_457775deba46",
           "distance_m": 525,
           "minutes_apart": 91
@@ -9893,11 +10030,6 @@
           "id": "tps_3bb521813d3c",
           "distance_m": 205,
           "minutes_apart": 176
-        },
-        {
-          "id": "tps_1a58a01414cf",
-          "distance_m": 294,
-          "minutes_apart": 122
         },
         {
           "id": "tps_457775deba46",
@@ -10372,142 +10504,23 @@
           "minutes_apart": 11
         }
       ]
-    },
-    {
-      "id": "tfs_F26132356",
-      "source": "fire",
-      "lat": 43.7003032,
-      "lng": -79.5169063,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "442",
-      "location": "York - LAWRENCE AVE & WESTON RD",
-      "approximate": false,
-      "units": "A133, P442",
-      "ts": "2026-08-25T11:44:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_52a1b0263f66",
-      "source": "police",
-      "lat": 43.72466198719436,
-      "lng": -79.2690318030915,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D41",
-      "location": "MAYWOOD PK - ARGATE PL",
-      "ts": "2026-08-25T11:44:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_507bca254219",
-      "source": "police",
-      "lat": 43.679890917419186,
-      "lng": -79.47765040282493,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D12",
-      "location": "SENECA AVE - CAYUGA AVE",
-      "ts": "2026-08-25T11:40:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e81e33b24cb8",
-      "source": "police",
-      "lat": 43.77344412244522,
-      "lng": -79.29950507339139,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "MARLBANK RD - CORUNDUM CRES",
-      "ts": "2026-08-25T11:40:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26132351",
-      "source": "fire",
-      "lat": 43.7195573,
-      "lng": -79.6034306,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "415",
-      "location": "Etobicoke - QUEEN'S PLATE DR & REXDALE BLVD",
-      "approximate": false,
-      "units": "P415",
-      "ts": "2026-08-25T11:26:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_402d56939bc5",
-      "source": "police",
-      "lat": 43.71906269762392,
-      "lng": -79.38843465360695,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "SHERWOOD PARK TRL - STRATHGOWAN CRES",
-      "ts": "2026-08-25T11:23:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_eef15133c2fe",
-      "source": "police",
-      "lat": 43.69145821847367,
-      "lng": -79.30452155069115,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D55",
-      "location": "DONCASTER AVE - EPSOM AVE",
-      "ts": "2026-08-25T11:21:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1a58a01414cf",
-      "source": "police",
-      "lat": 43.66137010047386,
-      "lng": -79.38309224661504,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D52",
-      "location": "YONGE ST - ST LUKE LANE",
-      "ts": "2026-08-25T11:19:30+00:00",
-      "related": [
-        {
-          "id": "tps_6168ab02736a",
-          "distance_m": 294,
-          "minutes_apart": 122
-        },
-        {
-          "id": "tps_cdcf4bdfd2c8",
-          "distance_m": 294,
-          "minutes_apart": 167
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.8,
+      "current_count": 6,
+      "baseline_avg": 1.5,
+      "ratio": 4.0,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_7a4c7012a16f",
         "tps_80b5c92caadb",
         "tps_a2070a2d01f1",
         "tps_688de515a8b4",
-        "tps_4259d64cbbc4",
-        "tps_09dbfe9dd223"
+        "tps_4259d64cbbc4"
       ]
     },
     {
@@ -10516,7 +10529,7 @@
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
-      "sample_days": 5,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_90bb6a6a3856",
@@ -10538,6 +10551,36 @@
         "tps_3eaff819b436",
         "tps_eaa248396101",
         "tps_9132356a0f07"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d1af36e8f546",
+        "tps_9cb403142fea",
+        "tps_f3d1b29c0c78",
+        "tps_d97475a936fa",
+        "tps_0a947f1e7c92"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_83ecef234bb5",
+        "tps_27554976cd26",
+        "tps_2b08f1ed5db4"
       ]
     }
   ]
