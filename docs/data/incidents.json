@@ -1,11 +1,94 @@
 {
-  "generated": "2026-08-26T07:58:33.270026+00:00",
+  "generated": "2026-08-26T08:37:23.446950+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_6cd51b6fdfa4",
+      "source": "police",
+      "lat": 43.73038724525627,
+      "lng": -79.3050045645817,
+      "type": "BREJU",
+      "type_plain": "BREJU",
+      "severity": "low",
+      "division": "D33",
+      "location": "ELVASTON DR - ARNCLIFFE CRES",
+      "ts": "2026-08-26T08:17:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dd54ac60ff4b",
+      "source": "police",
+      "lat": 43.68447249140483,
+      "lng": -79.49881288466511,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "JANE ST - EGLINTON AVE W",
+      "ts": "2026-08-26T08:14:09+00:00",
+      "related": [
+        {
+          "id": "tps_7b392eac89b6",
+          "distance_m": 0,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_3e5fbf043a87",
+      "source": "police",
+      "lat": 43.676464846475525,
+      "lng": -79.59321155361619,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D23",
+      "location": "RENFORTH DR - SILVER DART DR",
+      "ts": "2026-08-26T08:04:41+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7b392eac89b6",
+      "source": "police",
+      "lat": 43.68447249140483,
+      "lng": -79.49881288466511,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "PK12",
+      "location": "JANE ST - EGLINTON AVE W",
+      "ts": "2026-08-26T07:52:40+00:00",
+      "related": [
+        {
+          "id": "tps_dd54ac60ff4b",
+          "distance_m": 0,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_e923c00990c5",
+      "source": "police",
+      "lat": 43.66886450806791,
+      "lng": -79.37443165566856,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D51",
+      "location": "ST JAMES AVE - ST. JAMES TOWN WEST PARK TRL",
+      "ts": "2026-08-26T07:46:20+00:00",
+      "related": [
+        {
+          "id": "tps_2134e8ac851d",
+          "distance_m": 0,
+          "minutes_apart": 36
+        }
+      ]
+    },
     {
       "id": "tps_64a71b4a80e3",
       "source": "police",
@@ -95,6 +178,11 @@
       "location": "ST JAMES AVE - ST. JAMES TOWN WEST PARK TRL",
       "ts": "2026-08-26T07:10:25+00:00",
       "related": [
+        {
+          "id": "tps_e923c00990c5",
+          "distance_m": 0,
+          "minutes_apart": 36
+        },
         {
           "id": "tps_37596831ac98",
           "distance_m": 400,
@@ -10425,97 +10513,16 @@
       "location": "PRINCES' BLVD - FLEET ST",
       "ts": "2026-08-25T08:44:07+00:00",
       "related": []
-    },
-    {
-      "id": "tps_dd73f0256dee",
-      "source": "police",
-      "lat": 43.76761436224862,
-      "lng": -79.49684599520292,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D31",
-      "location": "LN W EVELYN WIGGINS N SAYWELL - LEITCH AVE",
-      "ts": "2026-08-25T08:28:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8f8c08e3432d",
-      "source": "police",
-      "lat": 43.757079559745264,
-      "lng": -79.60008528071282,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D23",
-      "location": "ALABASTER RD - MINGLEHAZE DR",
-      "ts": "2026-08-25T08:26:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2e3592fbcbfe",
-      "source": "police",
-      "lat": 43.6881405920535,
-      "lng": -79.4673299945474,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D12",
-      "location": "EWART AVE - COMMODORE AVE",
-      "ts": "2026-08-25T08:12:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cba13ddea7e5",
-      "source": "police",
-      "lat": 43.756031815096726,
-      "lng": -79.17985800371788,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D43",
-      "location": "FORDOVER DR - METROLINX",
-      "ts": "2026-08-25T08:07:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bab999819a98",
-      "source": "police",
-      "lat": 43.63713210305944,
-      "lng": -79.4889258088127,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D22",
-      "location": "BELL MANOR DR - BERRY RD",
-      "ts": "2026-08-25T08:01:06+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 6,
-      "baseline_avg": 1.0,
-      "ratio": 6.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_795152deac3f",
-        "tps_fe265fe5bef2",
-        "tps_2445761ea8a9",
-        "tps_aec7d7feae50",
-        "tps_85a605855e9a"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
-      "current_count": 6,
-      "baseline_avg": 1.2,
-      "ratio": 5.0,
-      "sample_days": 5,
+      "current_count": 5,
+      "baseline_avg": 1.3,
+      "ratio": 3.8,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_77ec99dae40f",
@@ -10527,44 +10534,31 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0c772389c153",
-        "tps_e0752ca06b1e",
-        "tps_60687bb51e0d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 3,
+      "division": "HP",
+      "current_count": 4,
       "baseline_avg": 1.2,
-      "ratio": 2.5,
+      "ratio": 3.3,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_84804f42739d",
-        "tps_4ec17673bbfc",
-        "tps_ad7e3b21b440"
+        "tps_dd54ac60ff4b",
+        "tps_795152deac3f",
+        "tps_fe265fe5bef2",
+        "tps_2445761ea8a9"
       ]
     },
     {
       "source": "police",
-      "division": "D11",
+      "division": "D23",
       "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 6,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_8547a5cef282",
-        "tps_8dbf3155a3e4",
-        "tps_3efbb655fbab"
+        "tps_3e5fbf043a87",
+        "tps_154a0b09466c",
+        "tps_92153d7e4033"
       ]
     }
   ]
