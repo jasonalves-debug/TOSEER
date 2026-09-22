@@ -1,11 +1,583 @@
 {
-  "generated": "2026-09-22T06:08:30.171429+00:00",
+  "generated": "2026-09-22T11:30:04.304146+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26150200",
+      "source": "fire",
+      "lat": 43.645801,
+      "lng": -79.3789084,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "332",
+      "location": "Toronto - FRONT ST & BAY ST",
+      "approximate": false,
+      "units": "P333, T333",
+      "ts": "2026-09-22T11:08:33+00:00",
+      "related": [
+        {
+          "id": "tps_e831b8a2fe1f",
+          "distance_m": 182,
+          "minutes_apart": 40
+        },
+        {
+          "id": "tps_868d3f68382a",
+          "distance_m": 547,
+          "minutes_apart": 23
+        }
+      ]
+    },
+    {
+      "id": "tps_51e781a17b3d",
+      "source": "police",
+      "lat": 43.658089297193065,
+      "lng": -79.38468974490871,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D52",
+      "location": "YONGE ST - BAY ST",
+      "ts": "2026-09-22T10:59:31+00:00",
+      "related": [
+        {
+          "id": "tfs_F26150195",
+          "distance_m": 179,
+          "minutes_apart": 5
+        },
+        {
+          "id": "tps_3a60fadbcfca",
+          "distance_m": 566,
+          "minutes_apart": 83
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26150195",
+      "source": "fire",
+      "lat": 43.6588375,
+      "lng": -79.382713,
+      "type": "Fire -  Highrise Residential",
+      "type_plain": "Fire -  Highrise Residential",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - GERRARD ST & YONGE ST",
+      "approximate": false,
+      "units": "C31, C33, HR332, L315, L325, LA325, P312, P314, P332, R325, S313",
+      "ts": "2026-09-22T10:54:17+00:00",
+      "related": [
+        {
+          "id": "tps_51e781a17b3d",
+          "distance_m": 179,
+          "minutes_apart": 5
+        },
+        {
+          "id": "tps_3a60fadbcfca",
+          "distance_m": 469,
+          "minutes_apart": 77
+        }
+      ]
+    },
+    {
+      "id": "tps_1db63e154a00",
+      "source": "police",
+      "lat": 43.69676316525538,
+      "lng": -79.44530608656267,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D13",
+      "location": "GLENHOLME AVE - LOCKSLEY AVE",
+      "ts": "2026-09-22T10:52:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4fc09e18f7a2",
+      "source": "police",
+      "lat": 43.6890547238489,
+      "lng": -79.29789525430746,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D55",
+      "location": "DANFORTH AVE - GUEST AVE",
+      "ts": "2026-09-22T10:51:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_15fc0a3384fd",
+      "source": "police",
+      "lat": 43.668972589143436,
+      "lng": -79.31765302243647,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D55",
+      "location": "DUNDAS ST E - ROBBINS AVE",
+      "ts": "2026-09-22T10:49:10+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7d6cab669f18",
+      "source": "police",
+      "lat": 43.69082091609706,
+      "lng": -79.32550813618775,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D55",
+      "location": "SAMMON AVE - MORTIMER AVE",
+      "ts": "2026-09-22T10:48:30+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_868d3f68382a",
+      "source": "police",
+      "lat": 43.64195188105551,
+      "lng": -79.37468264743217,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "YONGE ST - QUEENS QUAY E",
+      "ts": "2026-09-22T10:45:38+00:00",
+      "related": [
+        {
+          "id": "tfs_F26150200",
+          "distance_m": 547,
+          "minutes_apart": 23
+        }
+      ]
+    },
+    {
+      "id": "tps_ec836f779c79",
+      "source": "police",
+      "lat": 43.60719729698625,
+      "lng": -79.5207393594055,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D22",
+      "location": "TOWNS RD - HORNER AVE",
+      "ts": "2026-09-22T10:42:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f09a1935eb83",
+      "source": "police",
+      "lat": 43.771170798241,
+      "lng": -79.17393621304095,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D43",
+      "location": "WW E MANSE N LAWRENCE - ASTERFIELD DR",
+      "ts": "2026-09-22T10:37:52+00:00",
+      "related": [
+        {
+          "id": "tps_018f097e7cb0",
+          "distance_m": 300,
+          "minutes_apart": 171
+        }
+      ]
+    },
+    {
+      "id": "tps_e831b8a2fe1f",
+      "source": "police",
+      "lat": 43.64733018643382,
+      "lng": -79.3797119440793,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "WELLINGTON ST W - KING ST W",
+      "ts": "2026-09-22T10:28:16+00:00",
+      "related": [
+        {
+          "id": "tfs_F26150200",
+          "distance_m": 182,
+          "minutes_apart": 40
+        }
+      ]
+    },
+    {
+      "id": "tps_941b27626b5b",
+      "source": "police",
+      "lat": 43.76698899726293,
+      "lng": -79.43401563870908,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D32",
+      "location": "BETTY ANN DR - ELLERSLIE AVE",
+      "ts": "2026-09-22T10:03:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fa63505a9e50",
+      "source": "police",
+      "lat": 43.73320063695477,
+      "lng": -79.31067705889399,
+      "type": "THEPR",
+      "type_plain": "Theft (Priority)",
+      "severity": "medium",
+      "division": "D33",
+      "location": "SWEETBRIAR CRT - SLOANE AVE",
+      "ts": "2026-09-22T09:54:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3a60fadbcfca",
+      "source": "police",
+      "lat": 43.66304470214845,
+      "lng": -79.38308454717834,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "GRENVILLE ST - ALEXANDER ST",
+      "ts": "2026-09-22T09:36:53+00:00",
+      "related": [
+        {
+          "id": "tfs_F26150195",
+          "distance_m": 469,
+          "minutes_apart": 77
+        },
+        {
+          "id": "tps_51e781a17b3d",
+          "distance_m": 566,
+          "minutes_apart": 83
+        }
+      ]
+    },
+    {
+      "id": "tps_ca38cd085ca4",
+      "source": "police",
+      "lat": 43.743455798528,
+      "lng": -79.19754428953834,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D43",
+      "location": " - SYLVAN AVE",
+      "ts": "2026-09-22T09:09:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e3c811677cdd",
+      "source": "police",
+      "lat": 43.635349177390154,
+      "lng": -79.41864682711636,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D14",
+      "location": "CANADA BLVD - NOVA SCOTIA AVE",
+      "ts": "2026-09-22T08:57:14+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7cc7f61880cc",
+      "source": "police",
+      "lat": 43.63717448400747,
+      "lng": -79.43601502132704,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D14",
+      "location": "KING ST W - LEOPOLD ST",
+      "ts": "2026-09-22T08:50:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bd7a035c0d88",
+      "source": "police",
+      "lat": 43.62520219727846,
+      "lng": -79.47999011493557,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "LAKE SHORE BLVD W - SILVER MOON DR",
+      "ts": "2026-09-22T08:48:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f5a10e31eb52",
+      "source": "police",
+      "lat": 43.792445192844674,
+      "lng": -79.44572541968851,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D32",
+      "location": "GREENWIN VILLAGE RD - STEELES AVE W",
+      "ts": "2026-09-22T08:46:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bd226cffd228",
+      "source": "police",
+      "lat": 43.7571600795253,
+      "lng": -79.59034830427271,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D23",
+      "location": "KIPLING AVE BICYCLE TRL - MARKBROOK LANE",
+      "ts": "2026-09-22T08:45:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d2ceb6d3e6d3",
+      "source": "police",
+      "lat": 43.71696275341367,
+      "lng": -79.5559811336446,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D23",
+      "location": "REXDALE BLVD - BERGAMOT AVE",
+      "ts": "2026-09-22T08:17:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_49dc7c099c1c",
+      "source": "police",
+      "lat": 43.65500050981459,
+      "lng": -79.33743028163565,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "LAKE SHORE BLVD E - CARLAW AVE",
+      "ts": "2026-09-22T08:17:08+00:00",
+      "related": [
+        {
+          "id": "tps_8e8c50619f52",
+          "distance_m": 0,
+          "minutes_apart": 4
+        }
+      ]
+    },
+    {
+      "id": "tps_02a690e66991",
+      "source": "police",
+      "lat": 43.665398052025864,
+      "lng": -79.46327772520391,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D11",
+      "location": "INDIAN GRV - HEINTZMAN ST",
+      "ts": "2026-09-22T08:13:31+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8e8c50619f52",
+      "source": "police",
+      "lat": 43.65500050981459,
+      "lng": -79.33743028163565,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D55",
+      "location": "LAKE SHORE BLVD E - CARLAW AVE",
+      "ts": "2026-09-22T08:13:24+00:00",
+      "related": [
+        {
+          "id": "tps_49dc7c099c1c",
+          "distance_m": 0,
+          "minutes_apart": 4
+        }
+      ]
+    },
+    {
+      "id": "tps_44ab4bebd467",
+      "source": "police",
+      "lat": 43.63444182691718,
+      "lng": -79.57744369188647,
+      "type": "PRO",
+      "type_plain": "PRO",
+      "severity": "low",
+      "division": "D11",
+      "location": "SILVERTHORNE BUSH DR - MILL RD",
+      "ts": "2026-09-22T08:09:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_431132a3a91f",
+      "source": "police",
+      "lat": 43.80769253968375,
+      "lng": -79.37227121950292,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D33",
+      "location": "BLUFFWOOD DR - LESLIE ST",
+      "ts": "2026-09-22T08:07:40+00:00",
+      "related": [
+        {
+          "id": "tps_ed7292e11ff9",
+          "distance_m": 0,
+          "minutes_apart": 49
+        }
+      ]
+    },
+    {
+      "id": "tps_49ae15e55b2a",
+      "source": "police",
+      "lat": 43.75142057992675,
+      "lng": -79.49868482977291,
+      "type": "DAMJU",
+      "type_plain": "DAMJU",
+      "severity": "low",
+      "division": "D31",
+      "location": "HUCKNALL RD - LAMBERTON BLVD",
+      "ts": "2026-09-22T07:50:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_018f097e7cb0",
+      "source": "police",
+      "lat": 43.770367799144275,
+      "lng": -79.17750021096306,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D43",
+      "location": "WEST HILL DR - ORCHARD PARK DR",
+      "ts": "2026-09-22T07:46:27+00:00",
+      "related": [
+        {
+          "id": "tps_f09a1935eb83",
+          "distance_m": 300,
+          "minutes_apart": 171
+        }
+      ]
+    },
+    {
+      "id": "tps_0fa98d6d3660",
+      "source": "police",
+      "lat": 43.674759789156944,
+      "lng": -79.32624021894753,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D55",
+      "location": "HIGHFIELD RD - WOODFIELD RD",
+      "ts": "2026-09-22T07:44:41+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5c51d2becbcb",
+      "source": "police",
+      "lat": 43.692228726710304,
+      "lng": -79.28387916489599,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D41",
+      "location": "KENWORTHY AVE - PHARMACY AVE",
+      "ts": "2026-09-22T07:44:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1cfe63ef06e9",
+      "source": "police",
+      "lat": 43.75776741515415,
+      "lng": -79.33795325846107,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY N - YORK MILLS RD",
+      "ts": "2026-09-22T07:27:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_455a009dc2be",
+      "source": "police",
+      "lat": 43.79033699278598,
+      "lng": -79.19797767456957,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D43",
+      "location": "ELLESMERE RD - ",
+      "ts": "2026-09-22T07:24:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ed7292e11ff9",
+      "source": "police",
+      "lat": 43.80769253968375,
+      "lng": -79.37227121950292,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D33",
+      "location": "BLUFFWOOD DR - LESLIE ST",
+      "ts": "2026-09-22T07:18:30+00:00",
+      "related": [
+        {
+          "id": "tps_431132a3a91f",
+          "distance_m": 0,
+          "minutes_apart": 49
+        }
+      ]
+    },
+    {
+      "id": "tps_c3accb4c5182",
+      "source": "police",
+      "lat": 43.69141448325852,
+      "lng": -79.46952948935774,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D12",
+      "location": "GABIAN WAY - VENN CRES",
+      "ts": "2026-09-22T07:17:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_db6a958ee3bf",
+      "source": "police",
+      "lat": 43.72266979438523,
+      "lng": -79.23515863833595,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D43",
+      "location": "HAREWOOD AVE - NEILSON AVE",
+      "ts": "2026-09-22T07:12:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26150154",
+      "source": "fire",
+      "lat": 43.7518399,
+      "lng": -79.4668782,
+      "type": "Fire - Commercial/Industrial",
+      "type_plain": "Fire - Commercial/Industrial",
+      "severity": "medium",
+      "division": "143",
+      "location": "North York - KODIAK CRES & SHEPPARD AVE W",
+      "approximate": false,
+      "units": "A142, C11, C14, HR114, LA111, P112, P141, P141, P142, P143, P144, S143, T114",
+      "ts": "2026-09-22T07:01:41+00:00",
+      "related": [
+        {
+          "id": "tps_5b376a2c64d8",
+          "distance_m": 365,
+          "minutes_apart": 95
+        }
+      ]
+    },
     {
       "id": "tps_de8ccef00be5",
       "source": "police",
@@ -119,7 +691,13 @@
       "division": "D32",
       "location": "DUFFERIN ST - WILLIAM R ALLEN RD",
       "ts": "2026-09-22T05:27:10+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26150154",
+          "distance_m": 365,
+          "minutes_apart": 95
+        }
+      ]
     },
     {
       "id": "tps_4a44645567c7",
@@ -6190,13 +6768,7 @@
       "division": "D22",
       "location": "SMITHFIELD DR - ALDGATE AVE",
       "ts": "2026-09-21T13:07:03+00:00",
-      "related": [
-        {
-          "id": "tps_85d1f7c7d51a",
-          "distance_m": 359,
-          "minutes_apart": 123
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_816d8a5a1447",
@@ -6257,13 +6829,7 @@
       "division": "HP",
       "location": "DON VALLEY PARKWAY N - EGLINTON AVE E",
       "ts": "2026-09-21T13:02:49+00:00",
-      "related": [
-        {
-          "id": "tps_05553c14a72b",
-          "distance_m": 0,
-          "minutes_apart": 174
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_42dcbadd5b46",
@@ -6397,13 +6963,7 @@
       "division": "D14",
       "location": "LAKE SHORE BLVD W - BATHURST ST",
       "ts": "2026-09-21T12:34:54+00:00",
-      "related": [
-        {
-          "id": "tps_997a9ebb6a25",
-          "distance_m": 0,
-          "minutes_apart": 73
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f4ddf7343337",
@@ -6442,13 +7002,7 @@
       "division": "HP",
       "location": "WILLIAM R ALLEN RD N - RANEE AVE",
       "ts": "2026-09-21T12:08:50+00:00",
-      "related": [
-        {
-          "id": "tps_73562700424d",
-          "distance_m": 0,
-          "minutes_apart": 77
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_ba1ce517ebae",
@@ -6461,13 +7015,7 @@
       "division": "HP",
       "location": "WESTON RD - DEE AVE",
       "ts": "2026-09-21T12:07:17+00:00",
-      "related": [
-        {
-          "id": "tps_5215d3879881",
-          "distance_m": 0,
-          "minutes_apart": 41
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_efdcf003a955",
@@ -6559,504 +7107,21 @@
       "location": "VICTORIA PARK AVE - BLANTYRE AVE",
       "ts": "2026-09-21T11:48:44+00:00",
       "related": []
-    },
-    {
-      "id": "tps_5215d3879881",
-      "source": "police",
-      "lat": 43.711212833488304,
-      "lng": -79.53512313250128,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D12",
-      "location": "WESTON RD - DEE AVE",
-      "ts": "2026-09-21T11:26:45+00:00",
-      "related": [
-        {
-          "id": "tps_ba1ce517ebae",
-          "distance_m": 0,
-          "minutes_apart": 41
-        }
-      ]
-    },
-    {
-      "id": "tps_997a9ebb6a25",
-      "source": "police",
-      "lat": 43.63648217558591,
-      "lng": -79.3996407334517,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "LAKE SHORE BLVD W - BATHURST ST",
-      "ts": "2026-09-21T11:21:38+00:00",
-      "related": [
-        {
-          "id": "tps_288d12678743",
-          "distance_m": 0,
-          "minutes_apart": 73
-        }
-      ]
-    },
-    {
-      "id": "tps_aed8ca39149c",
-      "source": "police",
-      "lat": 43.69511443023585,
-      "lng": -79.39957095382337,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D53",
-      "location": "WILBERTON RD - KILBARRY RD",
-      "ts": "2026-09-21T11:21:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_718c0eb270da",
-      "source": "police",
-      "lat": 43.67217015690084,
-      "lng": -79.33929389970994,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D55",
-      "location": "BOULTBEE AVE - LN N BOULTBEE E BLAKE ST",
-      "ts": "2026-09-21T11:16:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_96b4c60781a8",
-      "source": "police",
-      "lat": 43.69155440314358,
-      "lng": -79.57076417897187,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D23",
-      "location": "DIXON RD - MARTIN GROVE RD",
-      "ts": "2026-09-21T11:08:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_baea60333eeb",
-      "source": "police",
-      "lat": 43.64591718502081,
-      "lng": -79.37908774449542,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "YONGE ST - BAY ST",
-      "ts": "2026-09-21T11:06:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_85d1f7c7d51a",
-      "source": "police",
-      "lat": 43.63269689235244,
-      "lng": -79.4879788098932,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D22",
-      "location": "RINGLEY AVE - WANISKA AVE",
-      "ts": "2026-09-21T11:03:42+00:00",
-      "related": [
-        {
-          "id": "tps_d80431c24381",
-          "distance_m": 359,
-          "minutes_apart": 123
-        }
-      ]
-    },
-    {
-      "id": "tps_c0bb24742e10",
-      "source": "police",
-      "lat": 43.6942459837147,
-      "lng": -79.5586388586282,
-      "type": "THEAU",
-      "type_plain": "THEAU",
-      "severity": "low",
-      "division": "D23",
-      "location": "DIXON PARK TRL - KIPLING AVE",
-      "ts": "2026-09-21T10:58:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_73562700424d",
-      "source": "police",
-      "lat": 43.7236590552205,
-      "lng": -79.4468978305772,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D32",
-      "location": "WILLIAM R ALLEN RD N - RANEE AVE",
-      "ts": "2026-09-21T10:52:02+00:00",
-      "related": [
-        {
-          "id": "tps_ac7001649944",
-          "distance_m": 0,
-          "minutes_apart": 77
-        }
-      ]
-    },
-    {
-      "id": "tps_7df63fb72738",
-      "source": "police",
-      "lat": 43.76528521761879,
-      "lng": -79.34704015827556,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D33",
-      "location": "GRAYDON HALL DR - GRAYDON HALL PL",
-      "ts": "2026-09-21T10:49:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_183510c4348f",
-      "source": "police",
-      "lat": 43.71341335562603,
-      "lng": -79.5597516349048,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D23",
-      "location": "REXDALE BLVD - ISLINGTON AVE",
-      "ts": "2026-09-21T10:43:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cd2947ff5c23",
-      "source": "police",
-      "lat": 43.666731889495146,
-      "lng": -79.31484142295507,
-      "type": "DAMJU",
-      "type_plain": "DAMJU",
-      "severity": "low",
-      "division": "D55",
-      "location": "EASTERN AVE - ORCHARD PARK BLVD",
-      "ts": "2026-09-21T10:42:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_aed0a089a51f",
-      "source": "police",
-      "lat": 43.64788538718593,
-      "lng": -79.40059023313519,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D14",
-      "location": "QUEEN ST W - LN N QUEEN E DENISON",
-      "ts": "2026-09-21T10:40:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ad6ebf39e448",
-      "source": "police",
-      "lat": 43.6529287920324,
-      "lng": -79.3568166618236,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "CHERRY ST - COOPERAGE ST",
-      "ts": "2026-09-21T10:12:43+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_05553c14a72b",
-      "source": "police",
-      "lat": 43.720780848086626,
-      "lng": -79.3325817281569,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY S - EGLINTON AVE E",
-      "ts": "2026-09-21T10:08:27+00:00",
-      "related": [
-        {
-          "id": "tps_53fbf6082f82",
-          "distance_m": 0,
-          "minutes_apart": 174
-        }
-      ]
-    },
-    {
-      "id": "tps_c8afa0033da9",
-      "source": "police",
-      "lat": 43.65923739834116,
-      "lng": -79.38517394513003,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "HAYTER ST - COLLEGE ST",
-      "ts": "2026-09-21T10:01:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ae232d48dd1b",
-      "source": "police",
-      "lat": 43.65911949822321,
-      "lng": -79.3613021605596,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D51",
-      "location": "ST DAVID ST - DUNDAS ST E",
-      "ts": "2026-09-21T10:00:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0c045c45911c",
-      "source": "police",
-      "lat": 43.72489224643953,
-      "lng": -79.50959764499086,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D12",
-      "location": "MARLINGTON CRES - MARLINGTON CRES",
-      "ts": "2026-09-21T10:00:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6fec884f7575",
-      "source": "police",
-      "lat": 43.77643120722791,
-      "lng": -79.23174477443533,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D43",
-      "location": "MARKHAM RD - GANDER DR",
-      "ts": "2026-09-21T06:47:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_51deef6464c9",
-      "source": "police",
-      "lat": 43.7086965189237,
-      "lng": -79.38883656090968,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D53",
-      "location": "MOUNT PLEASANT RD - TAUNTON RD",
-      "ts": "2026-09-21T06:47:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7ece6d0039c5",
-      "source": "police",
-      "lat": 43.69148437706827,
-      "lng": -79.50725947489546,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D12",
-      "location": "PORTAGE GARDENS PARK TRL - WESTPOINT LANE",
-      "ts": "2026-09-21T06:47:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3324d96e4ab9",
-      "source": "police",
-      "lat": 43.64319248309248,
-      "lng": -79.40238853253578,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D14",
-      "location": "PORTLAND ST - BATHURST ST",
-      "ts": "2026-09-21T06:46:01+00:00",
-      "related": [
-        {
-          "id": "tps_9a8ae8b19140",
-          "distance_m": 233,
-          "minutes_apart": 16
-        }
-      ]
-    },
-    {
-      "id": "tps_ae7773544ad2",
-      "source": "police",
-      "lat": 43.74412467495701,
-      "lng": -79.58250687075332,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D23",
-      "location": "KIPLING AVE - ALBION RD",
-      "ts": "2026-09-21T06:41:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cd1819eede40",
-      "source": "police",
-      "lat": 43.669344714628224,
-      "lng": -79.41416503473792,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D14",
-      "location": "MARKHAM ST - KARMA LANE",
-      "ts": "2026-09-21T06:30:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9a8ae8b19140",
-      "source": "police",
-      "lat": 43.644440783567624,
-      "lng": -79.40006913330886,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "LN S KING E PORTLAND - KING ST W",
-      "ts": "2026-09-21T06:30:09+00:00",
-      "related": [
-        {
-          "id": "tps_3324d96e4ab9",
-          "distance_m": 233,
-          "minutes_apart": 16
-        }
-      ]
-    },
-    {
-      "id": "tps_241a07b9edc8",
-      "source": "police",
-      "lat": 43.659361128223615,
-      "lng": -79.56445788751915,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D22",
-      "location": "WEST DEANE PARK TRL - BEAVER BEND CRES",
-      "ts": "2026-09-21T06:28:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9fa94afdcc18",
-      "source": "police",
-      "lat": 43.65452239362609,
-      "lng": -79.36944905342786,
-      "type": "THE",
-      "type_plain": "THE",
-      "severity": "low",
-      "division": "D51",
-      "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
-      "ts": "2026-09-21T06:14:51+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 6,
+      "division": "D55",
+      "current_count": 3,
       "baseline_avg": 1.4,
-      "ratio": 4.3,
-      "sample_days": 5,
+      "ratio": 2.1,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
-        "tps_7cb0d318ac15",
-        "tps_9355d66a3342",
-        "tps_f3d7fd9b4616",
-        "tps_938524ecf10b",
-        "tps_d2624ea14af4"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 1.8,
-      "ratio": 3.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_de8ccef00be5",
-        "tps_06e21caa1e35",
-        "tps_17670f55aeca",
-        "tps_36d751b7a6ef",
-        "tps_f1990f55c4d0"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_721688c48101",
-        "tps_90837bb08cda",
-        "tps_3cbaa58b4c34"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4a44645567c7",
-        "tps_e18798e6b3b2",
-        "tps_ceaa61584549"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_064e38b27b19",
-        "tps_c25d3d5b1f24",
-        "tps_8bd177f5489f",
-        "tps_9edaa15e8076"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.6,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7c5ae8245183",
-        "tps_2e4febb6c9a9",
-        "tps_5281f22569cb"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b2fe59c601e7",
-        "tps_5b376a2c64d8",
-        "tps_f9cd678402fa",
-        "tps_ba62b0633c54"
+        "tps_4fc09e18f7a2",
+        "tps_15fc0a3384fd",
+        "tps_7d6cab669f18"
       ]
     }
   ]
