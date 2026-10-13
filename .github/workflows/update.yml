@@ -26,7 +26,7 @@ jobs:
         continue-on-error: true  # don't let this block the core incident pipeline
 
       - name: Build GRIDLOCK live feed (Scarborough traffic sim)
-        run: python scripts/build_gridlock_feed.py
+        run: python scripts/build_gridlock_feed.py live
         continue-on-error: true  # bonus layer for the GRIDLOCK game; never blocks the incident map
         env:
           ONTARIO511_KEY: ${{ secrets.ONTARIO511_KEY }}
@@ -42,8 +42,7 @@ jobs:
           git add docs/data/incidents.json docs/data/geocode_cache.json docs/data/history_stats.json \
                    docs/data/road_restrictions.json docs/data/road_geocode_cache.json \
                    docs/data/news.json docs/data/news_geocode_cache.json
-          git add docs/data/gridlock_live.json 2>/dev/null || true
-          git add docs/data/gridlock_static.json 2>/dev/null || true
+          git add docs/data/gridlock_live.json docs/data/gridlock_cache.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes — skipping commit"
           else
