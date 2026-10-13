@@ -14,6 +14,7 @@ Outputs (docs/data/):
 """
 
 import csv
+import re
 import io
 import json
 import os
@@ -131,7 +132,7 @@ def build_calls(status):
             act = fire_act(label)
         c = {"id": i["id"], "src": src, "code": code, "label": label, "act": act, "sev": sev,
              "lat": round(i["lat"], 6), "lng": round(i["lng"], 6), "ts": ts,
-             "loc": (i.get("location") or "").replace("Scarborough - ", "").title(),
+             "loc": re.sub(r"[A-Za-z]+('[A-Za-z]+)?", lambda m: m.group(0).capitalize(), (i.get("location") or "").replace("Scarborough - ", "").lower()),
              "div": i.get("division")}
         if src == "tfs" and i.get("units"):
             c["units"] = [u.strip() for u in str(i["units"]).split(",") if u.strip()][:6]
