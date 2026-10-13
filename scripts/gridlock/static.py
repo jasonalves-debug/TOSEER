@@ -187,9 +187,21 @@ def go_trains(days=8):
     return {"shapes": [{"line": s["line"], "cum": s["cum"]} for s in shapes], "trips": dict(by_date)}
 
 
+OVERPASS = ("https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
+            "https://overpass.private.coffee/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter")
+
+
 def level_crossings(go):
     q = '[out:json][timeout:90];node["railway"="level_crossing"](43.665,-79.345,43.87,-79.10);out;'
-    d = get("https://overpass-api.de/api/interpreter", data=("data=" + q).encode(), timeout=120)
+    d, last = None, None
+    for server in OVERPASS:  # the public Overpass servers are often busy: try the mirrors in turn
+        try:
+            d = get(server, data=("data=" + q).encode(), timeout=120, tries=1)
+            break
+        except Exception as e:  # noqa: BLE001
+            last = e
+    if d is None:
+        raise last
     out = []
     for n in d.get("elements", []):
         for si, sh in enumerate(go["shapes"]):
