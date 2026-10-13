@@ -159,14 +159,11 @@ def rates(st):
 def weather():
     d = get("https://api.open-meteo.com/v1/forecast", {
         "latitude": CENTER[0], "longitude": CENTER[1], "timezone": "America/Toronto",
-        "current": "temperature_2m,precipitation,rain,showers,snowfall,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,visibility,is_day",
-        "daily": "sunrise,sunset", "forecast_days": 2}, timeout=25)
+        "current": "temperature_2m,precipitation,rain,showers,snowfall,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,visibility,is_day"},
+        timeout=25)
     c = d.get("current", {})
-    wx = {k: c.get(k) for k in ("time", "temperature_2m", "precipitation", "rain", "showers", "snowfall", "weather_code", "cloud_cover",
-                                "wind_speed_10m", "wind_gusts_10m", "visibility", "is_day")}
-    daily = d.get("daily", {})
-    wx["sun"] = [[a, b] for a, b in zip(daily.get("sunrise", []), daily.get("sunset", []))]
-    return wx
+    return {k: c.get(k) for k in ("time", "temperature_2m", "precipitation", "rain", "showers", "snowfall", "weather_code", "cloud_cover",
+                                  "wind_speed_10m", "wind_gusts_10m", "visibility", "is_day")}
 
 
 def warnings():
@@ -323,7 +320,7 @@ def utility_cuts(cache, st):
             if not m:
                 continue
             items.append({"id": r.get("PERMIT_NUMBER"), "who": (r.get("CLIENT_NAME") or "").strip(), "what": (r.get("INSTALLATION_TYPE_DESC") or "").strip(),
-                          "num": m.group(1), "street": _title(m.group(2)), "a": _title(m.group(3)), "b": _title(m.group(4)),
+                          "num": m.group(1), "street": _title(re.sub(r"\[.*?\]|,", " ", m.group(2)).strip()), "a": _title(m.group(3)), "b": _title(m.group(4)),
                           "from": a.isoformat(), "to": b.isoformat()})
         cache["cuts"] = {"stamp": key, "day": t.isoformat(), "data": items}
     return cache["cuts"]["data"]

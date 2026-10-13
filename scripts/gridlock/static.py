@@ -159,12 +159,16 @@ def go_trains(days=8):
     for s in rows("shapes.txt"):
         if s["shape_id"] in shape_ids:
             raw[s["shape_id"]].append((int(s["shape_pt_sequence"]), float(s["shape_pt_lon"]), float(s["shape_pt_lat"])))
-    shapes, index = [], {}
+    shapes, index, same = [], {}, {}
     for sid, pts in raw.items():
-        line = simplify(clip_line([[x, y] for _, x, y in sorted(pts)], pad=0.05), tol=0.00005)
-        if len(line) >= 2:
-            index[sid] = len(shapes)
-            shapes.append({"id": sid, "line": [[round(x, 6), round(y, 6)] for x, y in line], "cum": _cum(line)})
+        line = [[round(x, 6), round(y, 6)] for x, y in simplify(clip_line([[x, y] for _, x, y in sorted(pts)], pad=0.05), tol=0.00005)]
+        if len(line) < 2:
+            continue
+        key = (tuple(line[0]), tuple(line[-1]), len(line))  # many shape_ids are the same track
+        if key not in same:
+            same[key] = len(shapes)
+            shapes.append({"line": line, "cum": _cum(line)})
+        index[sid] = same[key]
     by_date = defaultdict(list)
     for tid, t in trips.items():
         si = index.get(t["shape_id"])
@@ -184,7 +188,7 @@ def go_trains(days=8):
                 by_date[dt].append([si, pts])
     for v in by_date.values():
         v.sort(key=lambda tr: tr[1][0][0])
-    return {"shapes": [{"line": s["line"], "cum": s["cum"]} for s in shapes], "trips": dict(by_date)}
+    return {"shapes": shapes, "trips": dict(by_date)}
 
 
 OVERPASS = ("https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
