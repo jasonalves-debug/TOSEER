@@ -1,3289 +1,665 @@
 {
- "school-locations-all-types": {
-  "resources": [
-   {
-    "id": "02ef7447-54d9-4aa7-b76d-8ef8138ac546",
-    "name": "School locations-all types data",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": "2020-10-19T00:00:00"
-   },
-   {
-    "id": "f0655697-fa33-4851-9803-a1d1f046d254",
-    "name": "School locations-all types data - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 512000,
-    "last_modified": "2026-05-27T19:39:18.521109"
-   },
-   {
-    "id": "792b101f-4e5f-4995-8ba3-6f4026048ecd",
-    "name": "School locations-all types data - 2945.gpkg",
-    "format": "GPKG",
-    "datastore_active": false,
-    "size": 462848,
-    "last_modified": "2022-04-03T00:00:55.347015"
-   },
-   {
-    "id": "f2c12e37-f533-4ecd-ac93-3166022fadec",
-    "name": "School locations-all types data - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 366216,
-    "last_modified": "2026-05-27T19:39:16.389997"
-   },
-   {
-    "id": "baf43de2-498b-4ff3-8444-58c88d0afc66",
-    "name": "School locations-all types data - 2945.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 362072,
-    "last_modified": "2022-04-03T00:00:49.881690"
-   },
-   {
-    "id": "f1160f3f-a651-40ed-914e-07b670ac5aec",
-    "name": "School locations-all types data - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 913615,
-    "last_modified": "2026-05-27T19:39:19.402062"
-   },
-   {
-    "id": "8ac0789c-5370-4048-84e9-c15f9949c8e3",
-    "name": "School locations-all types data - 2945.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 1003342,
-    "last_modified": "2022-04-03T00:00:58.116122"
-   },
-   {
-    "id": "404a4bb7-498a-49fc-ae19-0673ed1e3f6f",
-    "name": "School locations-all types data - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 1700002,
-    "last_modified": "2026-05-27T19:39:17.631443"
-   },
-   {
-    "id": "d3ecfbf0-5e34-4153-8b47-e1299cd388d8",
-    "name": "School locations-all types data - 2945.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 2129550,
-    "last_modified": "2022-04-03T00:00:52.543005"
-   },
-   {
-    "id": "023746cd-3f88-44e2-9686-4f51c6a24ba6",
-    "name": "School locations-all types data - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 367973,
-    "last_modified": "2026-05-27T19:39:20.355481"
-   },
-   {
-    "id": "97c13b4f-9a31-4091-bdaa-5e037ad83600",
-    "name": "School locations-all types data - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 1700290,
-    "last_modified": "2026-05-27T19:39:21.314497"
-   },
-   {
-    "id": "75d83133-5a01-4059-88d7-987f43cd259f",
-    "name": "School locations-all types data - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 507904,
-    "last_modified": "2026-05-27T19:39:22.208508"
-   },
-   {
-    "id": "6cacd1c6-de23-4701-bd29-3f994132c806",
-    "name": "School locations-all types data - 2952.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 917846,
-    "last_modified": "2025-02-03T16:48:48.208729"
-   }
+ "s311": {
+  "file": "SR2026.csv",
+  "cols": [
+   "Creation Date",
+   "Status",
+   "First 3 Chars of Postal Code",
+   "Intersection Street 1",
+   "Intersection Street 2",
+   "Ward",
+   "Service Request Type",
+   "Division",
+   "Section"
   ],
-  "fields": [
-   "_id",
-   "OBJECTID",
-   "GEO_ID",
-   "NAME",
-   "SCHOOL_LEVEL",
-   "SCHOOL_TYPE",
-   "BOARD_NAME",
-   "SOURCE_ADDRESS",
-   "SCHOOL_TYPE_DESC",
-   "ADDRESS_POINT_ID",
-   "ADDRESS_NUMBER",
-   "LINEAR_NAME_FULL",
-   "ADDRESS_FULL",
-   "POSTAL_CODE",
-   "MUNICIPALITY",
-   "CITY",
-   "PLACE_NAME",
-   "GENERAL_USE_CODE",
-   "CENTRELINE_ID",
-   "LO_NUM",
-   "LO_NUM_SUF",
-   "HI_NUM",
-   "HI_NUM_SUF",
-   "LINEAR_NAME_ID",
-   "geometry"
+  "types": [
+   [
+    "Residential Bin Lid Damaged",
+    3469
+   ],
+   [
+    "Property Standards and Maintenance Violations",
+    2966
+   ],
+   [
+    "Driveway Blocked By Plowed Snowbank",
+    2464
+   ],
+   [
+    "General Pruning",
+    2391
+   ],
+   [
+    "Road Pothole / Road Damage",
+    2302
+   ],
+   [
+    "Long Grass and Prohibited Plants on Private Property",
+    2295
+   ],
+   [
+    "Injured - Wildlife",
+    1835
+   ],
+   [
+    "Pick up Dead Wildlife",
+    1516
+   ],
+   [
+    "Zoning Regulations Violations",
+    1460
+   ],
+   [
+    "Residential Oversized/Electronics Item Day Collection Not Picked Up",
+    1411
+   ],
+   [
+    "Residential - Garbage Day Collection - Not Picked Up",
+    1391
+   ],
+   [
+    "Waste or Illegal Dumping on Private Property",
+    1339
+   ],
+   [
+    "Residential Organics Not Picked Up",
+    1287
+   ],
+   [
+    "Tree Emergency Clean-Up",
+    1221
+   ],
+   [
+    "Road Plowing Request",
+    1192
+   ],
+   [
+    "Sewer Service Line-Blocked",
+    1081
+   ],
+   [
+    "Amplified or Musical Instrument Noise",
+    996
+   ],
+   [
+    "Boulevard Plow Damage",
+    971
+   ],
+   [
+    "Residential Bin Body or Handle Damaged",
+    929
+   ],
+   [
+    "Catch Basin - Blocked / Flooding",
+    854
+   ],
+   [
+    "Report an Encroachment on City Property",
+    852
+   ],
+   [
+    "Residential or Park Tree Removal",
+    816
+   ],
+   [
+    "Waste Set Out - Wrong Location / Time/ Day",
+    801
+   ],
+   [
+    "Sidewalk Snow Clearing Required",
+    724
+   ],
+   [
+    "Hazardous Waste Pick-up",
+    711
+   ],
+   [
+    "Outcome of Service - Complaint - Road Operations",
+    709
+   ],
+   [
+    "Res / Organic Green Bin / Not Picked Up",
+    646
+   ],
+   [
+    "Multi-residential Front End Loaded Oversized Items Not Picked Up",
+    625
+   ],
+   [
+    "Residential: Garbage Bin: Exchange to Medium",
+    595
+   ],
+   [
+    "Request Water Service Turn Off",
+    573
+   ],
+   [
+    "Water Service Line-Check Water Service Box",
+    567
+   ],
+   [
+    "Clean up Illegal Dumping on City Road Allowance",
+    566
+   ],
+   [
+    "Replace Missing Residential Organic Bin",
+    517
+   ],
+   [
+    "Residential / Yard Waste / Missed",
+    509
+   ],
+   [
+    "Clean up Debris on Road",
+    505
+   ],
+   [
+    "General Tree Maintenance",
+    505
+   ],
+   [
+    "Residential: Garbage Bin: Exchange to Large",
+    503
+   ],
+   [
+    "Illegal Off-Street Parking",
+    478
+   ],
+   [
+    "Res / Garbage / Not Picked Up",
+    475
+   ],
+   [
+    "Additional Residential Organic Bin",
+    461
+   ],
+   [
+    "Residential: Garbage Bin: Missing",
+    431
+   ],
+   [
+    "Request Water Service Turn On",
+    421
+   ],
+   [
+    "Publication Request - Solid Waste",
+    406
+   ],
+   [
+    "Damaged Concrete Sidewalk",
+    402
+   ],
+   [
+    "Unauthorized Tree Injury or Removal",
+    382
+   ],
+   [
+    "Boulevards - Damaged Asphalt",
+    381
+   ],
+   [
+    "Dangerous Private Tree Investigation",
+    377
+   ],
+   [
+    "Residential: Garbage Bin: Exchange to Small",
+    370
+   ],
+   [
+    "Unreasonable and Persistent Noise",
+    364
+   ],
+   [
+    "Timeliness - Complaint - Toronto Water",
+    358
+   ],
+   [
+    "Contractor Complaint",
+    357
+   ],
+   [
+    "Water Service Line-No Water",
+    327
+   ],
+   [
+    "Residential Bin Wheel Damaged",
+    324
+   ],
+   [
+    "Long Grass and Weeds on the Boulevard",
+    312
+   ],
+   [
+    "Road - Sinking",
+    306
+   ],
+   [
+    "Curb Day Collection Staff - Complaint - Solid Waste Management",
+    301
+   ],
+   [
+    "Residential: Garbage Bin: Exchange to Extra Large",
+    296
+   ],
+   [
+    "Water Service Line-Turn Off/Burst",
+    281
+   ],
+   [
+    "Construction Noise",
+    275
+   ],
+   [
+    "Driveway - Damaged / Ponding",
+    251
+   ],
+   [
+    "Boulevards-Grass Cutting",
+    241
+   ],
+   [
+    "Multi-Tenant Houses Licensing and Violations",
+    234
+   ],
+   [
+    "Water Service Line-Leaking",
+    220
+   ],
+   [
+    "Curb Day Collection - Complaint - Solid Waste Management",
+    217
+   ],
+   [
+    "Bees/Wasp",
+    216
+   ],
+   [
+    "Missing/Damaged/Faded/Relocating Street Name or Traffic Signs",
+    212
+   ],
+   [
+    "Animal Noise",
+    202
+   ],
+   [
+    "Watermain-Possible Break",
+    183
+   ],
+   [
+    "Residential: Bin: Wrong Delivery or Bin Return",
+    177
+   ],
+   [
+    "Walkway - Damaged or Uneven",
+    176
+   ],
+   [
+    "Residential Furniture / Not Picked Up",
+    174
+   ],
+   [
+    "Stray - Confined",
+    171
+   ],
+   [
+    "Illegal Dumping on City Property",
+    171
+   ],
+   [
+    "Injured - Domestic",
+    169
+   ],
+   [
+    "Park Litter and Garbage",
+    163
+   ],
+   [
+    "Residential Organic Bin Whole Street Not Picked Up",
+    160
+   ],
+   [
+    "Adequate Heat",
+    159
+   ],
+   [
+    "Residential Garbage Not Picked Up on the Whole Street",
+    159
+   ],
+   [
+    "Process and Procedures - Complaint - Road Operations",
+    158
+   ],
+   [
+    "Timeliness of Service - Complaint - Road Operations",
+    157
+   ],
+   [
+    "Bins - Complaint - Solid Waste Management",
+    155
+   ],
+   [
+    "Snow Removal - Sightline Problem",
+    155
+   ],
+   [
+    "Integrated Pest Management Inspection",
+    154
+   ],
+   [
+    "Curb - Damaged",
+    146
+   ],
+   [
+    "Illegal Snow Dumping & Failure to Clear Snow or Ice on Public Sidewalk",
+    145
+   ],
+   [
+    "Pick up Dead Domestic Animals",
+    143
+   ],
+   [
+    "Fence",
+    143
+   ],
+   [
+    "Sidewalk - Cleaning",
+    142
+   ],
+   [
+    "Process or Procedure - Complaint - Toronto Water",
+    141
+   ],
+   [
+    "Road Salting Request",
+    140
+   ]
   ],
-  "total": 1173,
-  "sample": [
-   {
-    "_id": "1",
-    "OBJECTID": "100",
-    "GEO_ID": "9085421",
-    "NAME": "BEHAVIOUR INNOVATIONS, CHILDREN'S COLLEGE",
-    "SCHOOL_LEVEL": "None",
-    "SCHOOL_TYPE": "PR",
-    "BOARD_NAME": "None",
-    "SOURCE_ADDRESS": "618 THE QUEENSWAY ",
-    "SCHOOL_TYPE_DESC": "Private",
-    "ADDRESS_POINT_ID": "9085421",
-    "ADDRESS_NUMBER": "618",
-    "LINEAR_NAME_FULL": "The Queensway",
-    "ADDRESS_FULL": "618 The Queensway",
-    "POSTAL_CODE": "M8Y 1K3",
-    "MUNICIPALITY": "ET",
-    "CITY": "ET",
-    "PLACE_NAME": "None",
-    "GENERAL_USE_CODE": "115001",
-    "CENTRELINE_ID": "9085417",
-    "LO_NUM": "618",
-    "LO_NUM_SUF": "None",
-    "HI_NUM": "None",
-    "HI_NUM_SUF": "None",
-    "LINEAR_NAME_ID": "2603",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.4954821417463, 43.6281819609662]}"
-   },
-   {
-    "_id": "2",
-    "OBJECTID": "101",
-    "GEO_ID": "6355204",
-    "NAME": "ST PATRICK CATHOLIC SECONDARY SCHOOL",
-    "SCHOOL_LEVEL": "None",
-    "SCHOOL_TYPE": "ES",
-    "BOARD_NAME": "Toronto Catholic District School Board",
-    "SOURCE_ADDRESS": "49 FELSTEAD AVE",
-    "SCHOOL_TYPE_DESC": "English Separate",
-    "ADDRESS_POINT_ID": "6355204",
-    "ADDRESS_NUMBER": "49",
-    "LINEAR_NAME_FULL": "Felstead Ave",
-    "ADDRESS_FULL": "49 Felstead Ave",
-    "POSTAL_CODE": "M4J 1G3",
-    "MUNICIPALITY": "TO",
-    "CITY": "TO",
-    "PLACE_NAME": "St. Patrick Catholic Secondary School",
-    "GENERAL_USE_CODE": "115001",
-    "CENTRELINE_ID": "60012444",
-    "LO_NUM": "49",
-    "LO_NUM_SUF": "None",
-    "HI_NUM": "None",
-    "HI_NUM_SUF": "None",
-    "LINEAR_NAME_ID": "3430",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.3276494865718, 43.6783223029713]}"
-   }
+  "status": [
+   [
+    "Completed",
+    49705
+   ],
+   [
+    "Cancelled",
+    6901
+   ],
+   [
+    "In Progress",
+    6556
+   ],
+   [
+    "New",
+    3170
+   ],
+   [
+    "Closed",
+    1297
+   ],
+   [
+    "Unknown",
+    384
+   ]
+  ],
+  "last": "2026-09-30 23:44:49.0000000",
+  "sample": []
+ },
+ "detour": {
+  "n": 112,
+  "keys": [
+   "id",
+   "shape",
+   "tripModifications"
+  ],
+  "samples": [
+   "{\"id\": \"detour_0_696:0_0_1217_113_Kennedy Station\", \"tripModifications\": {\"selectedTrips\": [{\"tripIds\": [\"100376070\", \"100771070\"], \"shapeId\": \"detour_0_696:0_0_1217_113_Kennedy Station_shape\"}], \"serviceDates\": [\"20261013\", \"20261014\", \"20261015\", \"20261016\", \"20261017\", \"20261018\", \"20261019\", \"20261020\"], \"modifications\": [{\"startStopSelector\": {\"stopSequence\": 2}, \"endStopSelector\": {\"stopSequence\": 5}, \"propagatedModificationDelay\": 0}]}}",
+   "{\"id\": \"detour_10_750:0_0_1571_300_Warden\", \"tripModifications\": {\"selectedTrips\": [{\"tripIds\": [\"27678010\", \"97022070\"], \"shapeId\": \"detour_10_750:0_0_1571_300_Warden_shape\"}], \"serviceDates\": [\"20261013\", \"20261014\", \"20261015\", \"20261016\", \"20261017\", \"20261018\", \"20261019\", \"20261020\"], \"modifications\": [{\"startStopSelector\": {\"stopSequence\": 63}, \"endStopSelector\": {\"stopSequence\": 66}, \"propagatedModificationDelay\": 0}]}}"
+  ],
+  "shape_sample": "[{\"id\": \"detour_0_696:0_0_1217_113_Kennedy Station_shape\", \"shape\": {\"shapeId\": \"detour_0_696:0_0_1217_113_Kennedy Station_shape\", \"encodedPolyline\": \"w_tiGtr_cNg@_AGQBYFIRUTFF@DNp@xDXC|Ai@?A`Bs@fUcHFAFAAQoBeOGc@sCaTAa@Mm@kH}i@{DjAMD{@X_Cp@YBoA`@UPgCt@SFyDjAqAcJWoCoBiNC_Bk@wB_@cCQyA?MQkACaBu@wFe@}D]aBM{@GQeF_Ei@MkAi@_G_EQ[yAQkCoAqBkBc@c@KMy@WyEaD{FmDMc@mDyA}EyDiCaAcB_Au@}@cAOsD}By@OcAe@uBaAaAi@cAc@_BaAy@m@u@u@kAaBm@gAk@mAQo@WkBu@w@o@kAgAcBWa@yA{AsAaA_@Qy@y@{@IYMWQaCuAeD}AuAk@aATcACqAn@sBVcAMi@l@gJvCYFqBVeEnBuGtBy@A{GtC}CbAcA\\\\qAHs@l@iGvByBTgAz@qBn@}HlBkLlDSCOQ{@_GKq@Jy@Hg@C_@Sg@aA{FQ{AQsABQj@WbAKLNl@xBTjBn@^fATRC`@aKo@FuBj@Gb@TxB\"}}]",
+  "ids": [
+   "detour_0_696:0_0_1217_113_Kennedy Station",
+   "detour_10_750:0_0_1571_300_Warden",
+   "detour_11_750:0_0_1572_300_Warden",
+   "detour_12_750:0_0_1573_300_Warden",
+   "detour_13_750:0_0_1574_300_Warden",
+   "detour_14_750:0_0_1575_300_Kennedy Station via Kipling Station",
+   "detour_15_750:0_0_1576_300_Kennedy Station via Kipling Station",
+   "detour_16_750:0_0_1577_300_Kennedy Station",
+   "detour_17_750:0_0_1578_300_Kennedy Station",
+   "detour_18_750:0_0_1580_300_Kennedy Station",
+   "detour_19_750:0_0_1581_300_Kennedy Station",
+   "detour_1_696:0_0_1220_113_Kennedy Station",
+   "detour_20_750:0_0_1582_300_Kennedy Station",
+   "detour_21_750:0_0_1584_300_Kennedy Station",
+   "detour_22_751:1_1_1620_301_Long Branch",
+   "detour_23_751:1_1_1621_301_Long Branch",
+   "detour_24_755:0_0_1661_306_Coxwell and Queen",
+   "detour_25_755:0_0_1662_306_Main Street Station",
+   "detour_26_755:0_0_1663_306_Main Street Station",
+   "detour_27_755:0_0_1665_306_Main Street Station",
+   "detour_28_755:0_0_1674_306_Coxwell and Queen",
+   "detour_29_755:1_1_1668_306_High Park",
+   "detour_2_723:0_0_112_16_Warden Station",
+   "detour_30_755:1_1_1669_306_High Park",
+   "detour_31_755:1_1_1670_306_High Park",
+   "detour_32_755:1_1_1671_306_High Park",
+   "detour_33_755:1_1_1672_306_High Park",
+   "detour_34_795:0_0_2053_501_Neville Park",
+   "detour_35_795:0_0_2055_501_Neville Park",
+   "detour_36_800:0_0_2103_506_Carlton Short Turn",
+   "detour_37_800:0_0_2104_506_Main Street Station",
+   "detour_38_800:0_0_2106_506_Main Street Station",
+   "detour_39_800:1_1_2109_506_High Park",
+   "detour_3_739:0_0_143_20_Kennedy Station",
+   "detour_40_800:1_1_2110_506_High Park",
+   "detour_41_800:1_1_2111_506_High Park",
+   "detour_42_800:1_1_2112_506_High Park",
+   "detour_43_800:1_1_2113_506_High Park",
+   "detour_44_824:0_0_686_68_Warden Station",
+   "detour_45_824:1_1_682_68_Major Mackenzie",
+   "detour_46_824:1_1_683_68_Major Mackenzie",
+   "detour_47_824:1_1_684_68_Major Mackenzie",
+   "detour_48_53870:0_0_1630_304_Broadview Station",
+   "detour_49_53870:0_0_1631_304_Broadview Station",
+   "detour_4_739:0_0_144_20_Kennedy Station",
+   "detour_50_53870:0_0_1633_304_Broadview Station",
+   "detour_51_197035:1_1_93_13_Eglinton Station",
+   "detour_52_197035:1_1_94_13_Eglinton Station",
+   "detour_53_290961:1_1_2116_506 Bus_Spadina Station",
+   "detour_54_290968:1_1_1677_306 Bus_Spadina Station",
+   "detour_55_290968:1_1_1678_306 Bus_Spadina Station",
+   "detour_5_750:0_0_1563_300_Warden via Kipling Station",
+   "detour_6_750:0_0_1564_300_Warden via Kipling Station",
+   "detour_7_750:0_0_1565_300_Warden",
+   "detour_8_750:0_0_1567_300_Warden",
+   "detour_9_750:0_0_1568_300_Warden",
+   "detour_0_696:0_0_1217_113_Kennedy Station_shape",
+   "detour_10_750:0_0_1571_300_Warden_shape",
+   "detour_11_750:0_0_1572_300_Warden_shape",
+   "detour_12_750:0_0_1573_300_Warden_shape"
   ]
  },
- "311-service-requests-customer-initiated": {
-  "resources": [
-   {
-    "id": "99b7f283-7345-4f5a-a126-d078ed4f3419",
-    "name": "311 Service Requests 2026",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 6361524,
-    "last_modified": "2026-10-08T20:00:18"
-   },
-   {
-    "id": "f3db05ab-2588-4159-89f7-56c74d1d8201",
-    "name": "311 Service Requests 2025",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 7141517,
-    "last_modified": "2026-01-08T21:00:18"
-   },
-   {
-    "id": "f46b640d-d465-4f8b-9db5-5000a08295cd",
-    "name": "311 Service Requests 2024",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 6125259,
-    "last_modified": "2025-01-08T21:00:16"
-   },
-   {
-    "id": "079766f3-815d-4257-8731-5ff6b0c84c13",
-    "name": "311 Service Requests 2023",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 5824653,
-    "last_modified": "2024-01-08T21:00:18"
-   },
-   {
-    "id": "f00a3313-f074-463e-89a7-26563084fbef",
-    "name": "311 Service Requests 2022",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 6160127,
-    "last_modified": "2023-02-08T21:00:13"
-   },
-   {
-    "id": "95145825-04b4-40d8-b883-9d114b5853c4",
-    "name": "311 Service Requests 2021",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 4287282,
-    "last_modified": "2025-10-16T19:31:44.253472"
-   },
-   {
-    "id": "04169bcc-860f-465d-b562-caab023b6f3c",
-    "name": "311 service requests 2020",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 4621632,
-    "last_modified": "2025-10-16T19:31:32.143472"
-   },
-   {
-    "id": "120c0545-0a03-4ab0-ab08-f149d4ca61fc",
-    "name": "311-service-requests-2019",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 1099454,
-    "last_modified": "2019-07-23T16:30:13.999061"
-   },
-   {
-    "id": "5cce361d-35af-4251-802e-1b1ea1306a07",
-    "name": "311-service-requests-2018",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 6026958,
-    "last_modified": "2019-07-23T16:30:12.172484"
-   },
-   {
-    "id": "0b45485e-690d-425b-a69b-8b8c4f039f2b",
-    "name": "311-service-requests-2017",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 5991416,
-    "last_modified": "2019-07-23T16:30:08.635236"
-   },
-   {
-    "id": "4c6f5bed-5e7f-41c9-95c0-7181e048cdcf",
-    "name": "311-service-requests-2016",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 6062050,
-    "last_modified": "2019-07-23T16:30:05.287481"
-   },
-   {
-    "id": "e33b6300-8899-4f73-8ed0-febe10cbce92",
-    "name": "311-service-requests-2015",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 6601990,
-    "last_modified": "2019-07-23T16:30:01.847306"
-   },
-   {
-    "id": "de039d83-15fe-4a22-ad84-b0389a8c04d9",
-    "name": "311-service-requests-2014",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 6521779,
-    "last_modified": "2019-07-23T16:29:58.395105"
-   },
-   {
-    "id": "ddd49c44-e32f-4b9c-8053-39e0398ae665",
-    "name": "311-service-requests-2013",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 5535986,
-    "last_modified": "2019-07-23T16:29:54.800765"
-   },
-   {
-    "id": "5f0fd6dc-401d-422d-965d-f55cc98ec3f1",
-    "name": "311-service-requests-2012",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 4321731,
-    "last_modified": "2019-07-23T16:29:51.559719"
-   },
-   {
-    "id": "c98df60e-530c-4e3d-a0c9-d21f0af350c9",
-    "name": "311-service-requests-2011",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 4010842,
-    "last_modified": "2019-07-23T16:29:48.613739"
-   },
-   {
-    "id": "e256aa93-1c8e-4b2e-ba63-a269081b3f55",
-    "name": "311-service-requests-2010",
-    "format": "ZIP",
-    "datastore_active": false,
-    "size": 3526598,
-    "last_modified": "2019-07-23T16:29:45.715180"
-   },
-   {
-    "id": "bb11ece8-a2b3-401a-92c0-fa115f867fff",
-    "name": "311-service-requests-readme",
-    "format": "XLSX",
-    "datastore_active": false,
-    "size": 13487,
-    "last_modified": "2019-07-23T16:30:17.086581"
-   }
+ "schools": {
+  "n_scarb": 286,
+  "levels": [
+   [
+    "None",
+    286
+   ]
+  ],
+  "types": [
+   [
+    "English Public",
+    165
+   ],
+   [
+    "English Separate",
+    57
+   ],
+   [
+    "Private",
+    56
+   ],
+   [
+    "College",
+    4
+   ],
+   [
+    "French Public",
+    2
+   ],
+   [
+    "French Separate",
+    2
+   ]
+  ],
+  "boards": [
+   [
+    "Toronto District School Board",
+    165
+   ],
+   [
+    "None",
+    60
+   ],
+   [
+    "Toronto Catholic District School Board",
+    57
+   ],
+   [
+    "Conseil scolaire Viamonde",
+    2
+   ],
+   [
+    "Conseil scolaire de district catholique Centre-Sud",
+    2
+   ]
   ]
  },
- "apartment-building-registration": {
-  "resources": [
-   {
-    "id": "3ad76a8c-0518-4df2-b94e-8c747d62f8c1",
-    "name": "Apartment Building Registration Data",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": "2026-07-05T08:30:33.000440"
-   },
-   {
-    "id": "97b8b7a4-baca-49c7-915d-335322dbcf95",
-    "name": "Apartment Building Registration Data.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 1562199,
-    "last_modified": "2026-07-05T09:00:19.147056"
-   },
-   {
-    "id": "b1b6df2c-2c7d-4467-aa00-b9b9e1ee5d99",
-    "name": "Apartment Building Registration Data.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 13260452,
-    "last_modified": "2026-07-05T09:00:21.234897"
-   },
-   {
-    "id": "005b39d2-4503-4f46-b1b6-39ad4d7388ea",
-    "name": "Apartment Building Registration Data.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 8609516,
-    "last_modified": "2026-07-05T09:00:23.054328"
-   }
+ "go": {
+  "trip_cols": [
+   "route_id",
+   "service_id",
+   "trip_id",
+   "trip_headsign",
+   "trip_short_name",
+   "direction_id",
+   "block_id",
+   "shape_id",
+   "wheelchair_accessible",
+   "bikes_allowed",
+   "route_variant"
   ],
-  "fields": [
-   "_id",
-   "AIR_CONDITIONING_TYPE",
-   "AMENITIES_AVAILABLE",
-   "ANNUAL_FIRE_ALARM_TEST_RECORDS",
-   "ANNUAL_FIRE_PUMP_FLOW_TEST_RECORDS",
-   "APPROVED_FIRE_SAFETY_PLAN",
-   "BALCONIES",
-   "BARRIER_FREE_ACCESSIBILTY_ENTR",
-   "BIKE_PARKING",
-   "CONFIRMED_STOREYS",
-   "CONFIRMED_UNITS",
-   "DATE_OF_LAST_INSPECTION_BY_TSSA",
-   "DESCRIPTION_OF_CHILD_PLAY_AREA",
-   "DESCRIPTION_OF_INDOOR_EXERCISE_ROOM",
-   "DESCRIPTION_OF_OUTDOOR_REC_FACILITIES",
-   "ELEVATOR_PARTS_REPLACED",
-   "ELEVATOR_STATUS",
-   "EMERG_POWER_SUPPLY_TEST_RECORDS",
-   "EXTERIOR_FIRE_ESCAPE",
-   "FACILITIES_AVAILABLE",
-   "FIRE_ALARM",
-   "GARBAGE_CHUTES",
-   "GREEN_BIN_LOCATION",
-   "HEATING_EQUIPMENT_STATUS",
-   "HEATING_EQUIPMENT_YEAR_INSTALLED",
-   "HEATING_TYPE",
-   "INDOOR_GARBAGE_STORAGE_AREA",
-   "INTERCOM",
-   "IS_THERE_A_COOLING_ROOM",
-   "IS_THERE_EMERGENCY_POWER",
-   "LAUNDRY_ROOM",
-   "LAUNDRY_ROOM_HOURS_OF_OPERATION",
-   "LAUNDRY_ROOM_LOCATION",
-   "LOCKER_OR_STORAGE_ROOM",
-   "NO_BARRIER_FREE_ACCESSBLE_UNITS",
-   "NO_OF_ACCESSIBLE_PARKING_SPACES",
-   "NO_OF_ELEVATORS",
-   "NO_OF_LAUNDRY_ROOM_MACHINES",
-   "NON_SMOKING_BUILDING",
-   "OUTDOOR_GARBAGE_STORAGE_AREA",
-   "PARKING_TYPE",
-   "PCODE",
-   "PET_RESTRICTIONS",
-   "PETS_ALLOWED",
-   "PROP_MANAGEMENT_COMPANY_NAME",
-   "PROPERTY_TYPE",
-   "RECYCLING_BINS_LOCATION",
-   "RSN",
-   "SEPARATE_GAS_METERS_EACH_UNIT",
-   "SEPARATE_HYDRO_METER_EACH_UNIT",
-   "SEPARATE_WATER_METERS_EA_UNIT",
-   "SITE_ADDRESS",
-   "SPRINKLER_SYSTEM",
-   "SPRINKLER_SYSTEM_TEST_RECORD",
-   "SPRINKLER_SYSTEM_YEAR_INSTALLED",
-   "TSSA_TEST_RECORDS",
-   "VISITOR_PARKING",
-   "WARD",
-   "WINDOW_TYPE",
-   "YEAR_BUILT",
-   "YEAR_OF_REPLACEMENT",
-   "YEAR_REGISTERED",
-   "NO_OF_STOREYS",
-   "IS_THERE_EMERGENCY_POWER?",
-   "NON-SMOKING_BUILDING",
-   "NO_OF_UNITS",
-   "NO_OF_ACCESSIBLEPARKING_SPACES",
-   "FACILITIES_AVAILABLE?",
-   "IS_THERE_A_COOLING_ROOM?",
-   "NO_BARRIERFREE_ACCESSBLE_UNITS"
-  ],
-  "total": 3611,
-  "sample": [
-   {
-    "_id": "192243",
-    "AIR_CONDITIONING_TYPE": "NONE",
-    "AMENITIES_AVAILABLE": "None",
-    "ANNUAL_FIRE_ALARM_TEST_RECORDS": "NO",
-    "ANNUAL_FIRE_PUMP_FLOW_TEST_RECORDS": "NO",
-    "APPROVED_FIRE_SAFETY_PLAN": "YES",
-    "BALCONIES": "YES",
-    "BARRIER_FREE_ACCESSIBILTY_ENTR": "NO",
-    "BIKE_PARKING": "20 indoor parking spots and 0 outdoor parking spots",
-    "CONFIRMED_STOREYS": "4",
-    "CONFIRMED_UNITS": "22",
-    "DATE_OF_LAST_INSPECTION_BY_TSSA": "OCT 18, 2021",
-    "DESCRIPTION_OF_CHILD_PLAY_AREA": "None",
-    "DESCRIPTION_OF_INDOOR_EXERCISE_ROOM": "None",
-    "DESCRIPTION_OF_OUTDOOR_REC_FACILITIES": "None",
-    "ELEVATOR_PARTS_REPLACED": "None",
-    "ELEVATOR_STATUS": "ORIGINAL",
-    "EMERG_POWER_SUPPLY_TEST_RECORDS": "NO",
-    "EXTERIOR_FIRE_ESCAPE": "YES",
-    "FACILITIES_AVAILABLE": "Green Bin / Organics",
-    "FIRE_ALARM": "YES",
-    "GARBAGE_CHUTES": "NO",
-    "GREEN_BIN_LOCATION": "FIRST FLOOR",
-    "HEATING_EQUIPMENT_STATUS": "ORIGINAL",
-    "HEATING_EQUIPMENT_YEAR_INSTALLED": "1960",
-    "HEATING_TYPE": "ELECTRIC",
-    "INDOOR_GARBAGE_STORAGE_AREA": "NO",
-    "INTERCOM": "YES",
-    "IS_THERE_A_COOLING_ROOM": "NO",
-    "IS_THERE_EMERGENCY_POWER": "NO",
-    "LAUNDRY_ROOM": "YES",
-    "LAUNDRY_ROOM_HOURS_OF_OPERATION": "24/7",
-    "LAUNDRY_ROOM_LOCATION": "BASEMENT",
-    "LOCKER_OR_STORAGE_ROOM": "NO",
-    "NO_BARRIER_FREE_ACCESSBLE_UNITS": "0",
-    "NO_OF_ACCESSIBLE_PARKING_SPACES": "5",
-    "NO_OF_ELEVATORS": "0",
-    "NO_OF_LAUNDRY_ROOM_MACHINES": "4",
-    "NON_SMOKING_BUILDING": "YES",
-    "OUTDOOR_GARBAGE_STORAGE_AREA": "YES",
-    "PARKING_TYPE": "None",
-    "PCODE": "M5A",
-    "PET_RESTRICTIONS": "NONE",
-    "PETS_ALLOWED": "YES",
-    "PROP_MANAGEMENT_COMPANY_NAME": "LANDLORD PROPERTY & RENTAL MANAGEMENT INC",
-    "PROPERTY_TYPE": "PRIVATE",
-    "RECYCLING_BINS_LOCATION": "FIRST FLOOR",
-    "RSN": "4153437",
-    "SEPARATE_GAS_METERS_EACH_UNIT": "NO",
-    "SEPARATE_HYDRO_METER_EACH_UNIT": "NO",
-    "SEPARATE_WATER_METERS_EA_UNIT": "NO",
-    "SITE_ADDRESS": "181-183  GERRARD ST E",
-    "SPRINKLER_SYSTEM": "NO",
-    "SPRINKLER_SYSTEM_TEST_RECORD": "NO",
-    "SPRINKLER_SYSTEM_YEAR_INSTALLED": "None",
-    "TSSA_TEST_RECORDS": "NO",
-    "VISITOR_PARKING": "PAID",
-    "WARD": "13",
-    "WINDOW_TYPE": "DOUBLE PANE",
-    "YEAR_BUILT": "1930",
-    "YEAR_OF_REPLACEMENT": "None",
-    "YEAR_REGISTERED": "2023",
-    "NO_OF_STOREYS": "None",
-    "IS_THERE_EMERGENCY_POWER?": "None",
-    "NON-SMOKING_BUILDING": "None",
-    "NO_OF_UNITS": "None",
-    "NO_OF_ACCESSIBLEPARKING_SPACES": "None",
-    "FACILITIES_AVAILABLE?": "None",
-    "IS_THERE_A_COOLING_ROOM?": "None",
-    "NO_BARRIERFREE_ACCESSBLE_UNITS": "None"
-   },
-   {
-    "_id": "192244",
-    "AIR_CONDITIONING_TYPE": "NONE",
-    "AMENITIES_AVAILABLE": "None",
-    "ANNUAL_FIRE_ALARM_TEST_RECORDS": "YES",
-    "ANNUAL_FIRE_PUMP_FLOW_TEST_RECORDS": "YES",
-    "APPROVED_FIRE_SAFETY_PLAN": "YES",
-    "BALCONIES": "NO",
-    "BARRIER_FREE_ACCESSIBILTY_ENTR": "NO",
-    "BIKE_PARKING": "Not Available",
-    "CONFIRMED_STOREYS": "4",
-    "CONFIRMED_UNITS": "10",
-    "DATE_OF_LAST_INSPECTION_BY_TSSA": "None",
-    "DESCRIPTION_OF_CHILD_PLAY_AREA": "None",
-    "DESCRIPTION_OF_INDOOR_EXERCISE_ROOM": "None",
-    "DESCRIPTION_OF_OUTDOOR_REC_FACILITIES": "None",
-    "ELEVATOR_PARTS_REPLACED": "None",
-    "ELEVATOR_STATUS": "None",
-    "EMERG_POWER_SUPPLY_TEST_RECORDS": "None",
-    "EXTERIOR_FIRE_ESCAPE": "YES",
-    "FACILITIES_AVAILABLE": "Green Bin / Organics",
-    "FIRE_ALARM": "YES",
-    "GARBAGE_CHUTES": "NO",
-    "GREEN_BIN_LOCATION": "OUTSIDE",
-    "HEATING_EQUIPMENT_STATUS": "REPLACED",
-    "HEATING_EQUIPMENT_YEAR_INSTALLED": "2016",
-    "HEATING_TYPE": "HOT WATER",
-    "INDOOR_GARBAGE_STORAGE_AREA": "NO",
-    "INTERCOM": "YES",
-    "IS_THERE_A_COOLING_ROOM": "NO",
-    "IS_THERE_EMERGENCY_POWER": "NO",
-    "LAUNDRY_ROOM": "NO",
-    "LAUNDRY_ROOM_HOURS_OF_OPERATION": "None",
-    "LAUNDRY_ROOM_LOCATION": "None",
-    "LOCKER_OR_STORAGE_ROOM": "NO",
-    "NO_BARRIER_FREE_ACCESSBLE_UNITS": "0",
-    "NO_OF_ACCESSIBLE_PARKING_SPACES": "4",
-    "NO_OF_ELEVATORS": "0",
-    "NO_OF_LAUNDRY_ROOM_MACHINES": "None",
-    "NON_SMOKING_BUILDING": "NO",
-    "OUTDOOR_GARBAGE_STORAGE_AREA": "YES",
-    "PARKING_TYPE": "Carport , Surface Parking",
-    "PCODE": "M5A",
-    "PET_RESTRICTIONS": "None",
-    "PETS_ALLOWED": "YES",
-    "PROP_MANAGEMENT_COMPANY_NAME": "None",
-    "PROPERTY_TYPE": "PRIVATE",
-    "RECYCLING_BINS_LOCATION": "OUTSIDE",
-    "RSN": "4153441",
-    "SEPARATE_GAS_METERS_EACH_UNIT": "NO",
-    "SEPARATE_HYDRO_METER_EACH_UNIT": "YES",
-    "SEPARATE_WATER_METERS_EA_UNIT": "NO",
-    "SITE_ADDRESS": "260  SHERBOURNE ST ",
-    "SPRINKLER_SYSTEM": "YES",
-    "SPRINKLER_SYSTEM_TEST_RECORD": "YES",
-    "SPRINKLER_SYSTEM_YEAR_INSTALLED": "2016",
-    "TSSA_TEST_RECORDS": "None",
-    "VISITOR_PARKING": "UNAVAILABLE",
-    "WARD": "13",
-    "WINDOW_TYPE": "DOUBLE PANE",
-    "YEAR_BUILT": "1809",
-    "YEAR_OF_REPLACEMENT": "None",
-    "YEAR_REGISTERED": "2017",
-    "NO_OF_STOREYS": "None",
-    "IS_THERE_EMERGENCY_POWER?": "None",
-    "NON-SMOKING_BUILDING": "None",
-    "NO_OF_UNITS": "None",
-    "NO_OF_ACCESSIBLEPARKING_SPACES": "None",
-    "FACILITIES_AVAILABLE?": "None",
-    "IS_THERE_A_COOLING_ROOM?": "None",
-    "NO_BARRIERFREE_ACCESSBLE_UNITS": "None"
-   }
-  ]
- },
- "apartment-building-evaluation": {
-  "resources": [
-   {
-    "id": "244f7a02-da5c-425b-b55f-fbdd133dd732",
-    "name": "Apartment Building Evaluations 2023 - current",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "7fa98ab2-7412-43cd-9270-cb44dd75b573",
-    "name": "Apartment Building Evaluations 2023 - current.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 1895932,
-    "last_modified": "2026-10-08T09:35:51.042746"
-   },
-   {
-    "id": "73e0b870-bb51-49d7-9aa7-dfc621a0ab08",
-    "name": "Apartment Building Evaluations 2023 - current.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 19406630,
-    "last_modified": "2026-10-08T09:35:52.527929"
-   },
-   {
-    "id": "34a7d090-d5c2-4fe4-9df6-3d1bfd4a7d6e",
-    "name": "Apartment Building Evaluations 2023 - current.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 13898578,
-    "last_modified": "2026-10-08T09:35:53.757372"
-   },
-   {
-    "id": "b987be09-0c62-4d7d-928c-4a1ecaeaf3f3",
-    "name": "Pre-2023 Apartment Building Evaluations",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": "2023-07-26T23:01:00.000730"
-   },
-   {
-    "id": "979fb513-5186-41e9-bb23-7b5cc6b89915",
-    "name": "Pre-2023 Apartment Building Evaluations.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 2842257,
-    "last_modified": "2026-02-20T17:41:23.374212"
-   },
-   {
-    "id": "c86721c4-35e3-44a5-9d64-feb6f9f54288",
-    "name": "Pre-2023 Apartment Building Evaluations.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 17825005,
-    "last_modified": "2026-02-20T17:41:24.737637"
-   },
-   {
-    "id": "e5b035b7-91aa-4040-a544-b102d806c6d0",
-    "name": "Pre-2023 Apartment Building Evaluations.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 12526217,
-    "last_modified": "2026-02-20T17:41:25.809910"
-   }
-  ],
-  "fields": [
-   "_id",
-   "RSN",
-   "YEAR REGISTERED",
-   "YEAR BUILT",
-   "YEAR EVALUATED",
-   "PROPERTY TYPE",
-   "WARD",
-   "WARDNAME",
-   "SITE ADDRESS",
-   "CONFIRMED STOREYS",
-   "CONFIRMED UNITS",
-   "EVALUATION COMPLETED ON",
-   "CURRENT BUILDING EVAL SCORE",
-   "PROACTIVE BUILDING SCORE",
-   "CURRENT REACTIVE SCORE",
-   "NO OF AREAS EVALUATED",
-   "NUMBERING OF PROPERTY",
-   "EXTERIOR GROUNDS",
-   "FENCING",
-   "RETAINING WALLS",
-   "CATCH BASINS / STORM DRAINAGE",
-   "BUILDING EXTERIOR",
-   "BALCONY GUARDS",
-   "WINDOWS",
-   "EXT. RECEPTACLE STORAGE AREA",
-   "EXTERIOR WALKWAYS",
-   "CLOTHING DROP BOXES",
-   "ACCESSORY BUILDINGS",
-   "INTERCOM",
-   "EMERGENCY CONTACT SIGN",
-   "LOBBY - WALLS AND CEILING",
-   "LOBBY FLOORS",
-   "LAUNDRY ROOM",
-   "INT. RECEPTACLE STORAGE AREA",
-   "MAIL RECEPTACLES",
-   "EXTERIOR DOORS",
-   "STORAGE AREAS/LOCKERS MAINT.",
-   "POOLS",
-   "OTHER AMENITIES",
-   "PARKING AREAS",
-   "ABANDONED EQUIP./DERELICT VEH.",
-   "GARBAGE/COMPACTOR ROOM",
-   "ELEVATOR MAINTENANCE",
-   "ELEVATOR COSMETICS",
-   "INT. HALLWAY - WALLS / CEILING",
-   "INTERIOR HALLWAY FLOORS",
-   "INT. LOBBY / HALLWAY LIGHTING",
-   "COMMON AREA VENTILATION",
-   "ELECTRICAL SERVICES / OUTLETS",
-   "CHUTE ROOMS - MAINTENANCE",
-   "STAIRWELL - WALLS AND CEILING",
-   "STAIRWELL - LANDING AND STEPS",
-   "STAIRWELL LIGHTING",
-   "INT. HANDRAIL / GUARD - SAFETY",
-   "INT. HANDRAIL / GUARD - MAINT.",
-   "GRAFFITI",
-   "BUILDING CLEANLINESS",
-   "COMMON AREA PESTS",
-   "TENANT NOTIFICATION BOARD",
-   "PEST CONTROL LOG",
-   "MAINTENANCE LOG",
-   "CLEANING LOG",
-   "VITAL SERVICE PLAN",
-   "ELECTRICAL SAFETY PLAN",
-   "STATE OF GOOD REPAIR PLAN",
-   "TENANT SERVICE REQUEST LOG",
-   "GRID",
-   "LATITUDE",
-   "LONGITUDE",
-   "X",
-   "Y"
-  ],
-  "total": 6902,
-  "sample": [
-   {
-    "_id": "1",
-    "RSN": "4167693",
-    "YEAR REGISTERED": "2017",
-    "YEAR BUILT": "1925",
-    "YEAR EVALUATED": "2023",
-    "PROPERTY TYPE": "PRIVATE",
-    "WARD": "12",
-    "WARDNAME": "Toronto-St. Paul's",
-    "SITE ADDRESS": "326 AVENUE RD",
-    "CONFIRMED STOREYS": "3",
-    "CONFIRMED UNITS": "18",
-    "EVALUATION COMPLETED ON": "2023-09-28",
-    "CURRENT BUILDING EVAL SCORE": "91",
-    "PROACTIVE BUILDING SCORE": "91",
-    "CURRENT REACTIVE SCORE": "0",
-    "NO OF AREAS EVALUATED": "36",
-    "NUMBERING OF PROPERTY": "3",
-    "EXTERIOR GROUNDS": "3",
-    "FENCING": "3",
-    "RETAINING WALLS": "N/A",
-    "CATCH BASINS / STORM DRAINAGE": "N/A",
-    "BUILDING EXTERIOR": "2",
-    "BALCONY GUARDS": "N/A",
-    "WINDOWS": "3",
-    "EXT. RECEPTACLE STORAGE AREA": "3",
-    "EXTERIOR WALKWAYS": "3",
-    "CLOTHING DROP BOXES": "N/A",
-    "ACCESSORY BUILDINGS": "N/A",
-    "INTERCOM": "3",
-    "EMERGENCY CONTACT SIGN": "3",
-    "LOBBY - WALLS AND CEILING": "2",
-    "LOBBY FLOORS": "2",
-    "LAUNDRY ROOM": "3",
-    "INT. RECEPTACLE STORAGE AREA": "N/A",
-    "MAIL RECEPTACLES": "2",
-    "EXTERIOR DOORS": "3",
-    "STORAGE AREAS/LOCKERS MAINT.": "N/A",
-    "POOLS": "N/A",
-    "OTHER AMENITIES": "N/A",
-    "PARKING AREAS": "N/A",
-    "ABANDONED EQUIP./DERELICT VEH.": "3",
-    "GARBAGE/COMPACTOR ROOM": "N/A",
-    "ELEVATOR MAINTENANCE": "N/A",
-    "ELEVATOR COSMETICS": "N/A",
-    "INT. HALLWAY - WALLS / CEILING": "3",
-    "INTERIOR HALLWAY FLOORS": "3",
-    "INT. LOBBY / HALLWAY LIGHTING": "2",
-    "COMMON AREA VENTILATION": "2",
-    "ELECTRICAL SERVICES / OUTLETS": "3",
-    "CHUTE ROOMS - MAINTENANCE": "N/A",
-    "STAIRWELL - WALLS AND CEILING": "3",
-    "STAIRWELL - LANDING AND STEPS": "2",
-    "STAIRWELL LIGHTING": "2",
-    "INT. HANDRAIL / GUARD - SAFETY": "3",
-    "INT. HANDRAIL / GUARD - MAINT.": "3",
-    "GRAFFITI": "3",
-    "BUILDING CLEANLINESS": "3",
-    "COMMON AREA PESTS": "3",
-    "TENANT NOTIFICATION BOARD": "3",
-    "PEST CONTROL LOG": "3",
-    "MAINTENANCE LOG": "3",
-    "CLEANING LOG": "3",
-    "VITAL SERVICE PLAN": "3",
-    "ELECTRICAL SAFETY PLAN": "3",
-    "STATE OF GOOD REPAIR PLAN": "3",
-    "TENANT SERVICE REQUEST LOG": "3",
-    "GRID": "S1237",
-    "LATITUDE": "43.680405146",
-    "LONGITUDE": "-79.399282271",
-    "X": "312904.833",
-    "Y": "4837611.481"
-   },
-   {
-    "_id": "2",
-    "RSN": "4167693",
-    "YEAR REGISTERED": "2017",
-    "YEAR BUILT": "1925",
-    "YEAR EVALUATED": "2025",
-    "PROPERTY TYPE": "PRIVATE",
-    "WARD": "12",
-    "WARDNAME": "Toronto-St. Paul's",
-    "SITE ADDRESS": "326 AVENUE RD",
-    "CONFIRMED STOREYS": "3",
-    "CONFIRMED UNITS": "18",
-    "EVALUATION COMPLETED ON": "2025-11-27",
-    "CURRENT BUILDING EVAL SCORE": "96",
-    "PROACTIVE BUILDING SCORE": "96",
-    "CURRENT REACTIVE SCORE": "0",
-    "NO OF AREAS EVALUATED": "38",
-    "NUMBERING OF PROPERTY": "3",
-    "EXTERIOR GROUNDS": "2",
-    "FENCING": "3",
-    "RETAINING WALLS": "N/A",
-    "CATCH BASINS / STORM DRAINAGE": "3",
-    "BUILDING EXTERIOR": "2",
-    "BALCONY GUARDS": "N/A",
-    "WINDOWS": "3",
-    "EXT. RECEPTACLE STORAGE AREA": "2",
-    "EXTERIOR WALKWAYS": "3",
-    "CLOTHING DROP BOXES": "N/A",
-    "ACCESSORY BUILDINGS": "N/A",
-    "INTERCOM": "3",
-    "EMERGENCY CONTACT SIGN": "3",
-    "LOBBY - WALLS AND CEILING": "3",
-    "LOBBY FLOORS": "3",
-    "LAUNDRY ROOM": "3",
-    "INT. RECEPTACLE STORAGE AREA": "N/A",
-    "MAIL RECEPTACLES": "3",
-    "EXTERIOR DOORS": "3",
-    "STORAGE AREAS/LOCKERS MAINT.": "N/A",
-    "POOLS": "N/A",
-    "OTHER AMENITIES": "N/A",
-    "PARKING AREAS": "3",
-    "ABANDONED EQUIP./DERELICT VEH.": "3",
-    "GARBAGE/COMPACTOR ROOM": "N/A",
-    "ELEVATOR MAINTENANCE": "3",
-    "ELEVATOR COSMETICS": "N/A",
-    "INT. HALLWAY - WALLS / CEILING": "2",
-    "INTERIOR HALLWAY FLOORS": "3",
-    "INT. LOBBY / HALLWAY LIGHTING": "3",
-    "COMMON AREA VENTILATION": "N/A",
-    "ELECTRICAL SERVICES / OUTLETS": "3",
-    "CHUTE ROOMS - MAINTENANCE": "N/A",
-    "STAIRWELL - WALLS AND CEILING": "2",
-    "STAIRWELL - LANDING AND STEPS": "3",
-    "STAIRWELL LIGHTING": "3",
-    "INT. HANDRAIL / GUARD - SAFETY": "3",
-    "INT. HANDRAIL / GUARD - MAINT.": "3",
-    "GRAFFITI": "3",
-    "BUILDING CLEANLINESS": "3",
-    "COMMON AREA PESTS": "3",
-    "TENANT NOTIFICATION BOARD": "3",
-    "PEST CONTROL LOG": "3",
-    "MAINTENANCE LOG": "3",
-    "CLEANING LOG": "3",
-    "VITAL SERVICE PLAN": "3",
-    "ELECTRICAL SAFETY PLAN": "3",
-    "STATE OF GOOD REPAIR PLAN": "3",
-    "TENANT SERVICE REQUEST LOG": "3",
-    "GRID": "S1237",
-    "LATITUDE": "43.680405146",
-    "LONGITUDE": "-79.399282271",
-    "X": "312904.833",
-    "Y": "4837611.481"
-   }
-  ]
- },
- "building-permits-active-permits": {
-  "resources": [
-   {
-    "id": "6d0229af-bc54-46de-9c2b-26759b01dd05",
-    "name": "building-permits-active-permits",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "dfce3b7b-4f17-4a9d-9155-5e390a5ffa97",
-    "name": "building-permits-active-permits.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 68461443,
-    "last_modified": "2026-10-13T10:23:56.427048"
-   },
-   {
-    "id": "02f9a3d6-4ea8-4f97-9f38-b39c8d11b608",
-    "name": "building-permits-active-permits.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 256814604,
-    "last_modified": "2026-10-13T10:23:58.373050"
-   },
-   {
-    "id": "aa1efc2e-dc1a-4666-95b6-cf3e1f79afcd",
-    "name": "building-permits-active-permits.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 188782492,
-    "last_modified": "2026-10-13T10:24:01.170362"
-   }
-  ],
-  "fields": [
-   "_id",
-   "PERMIT_NUM",
-   "REVISION_NUM",
-   "PERMIT_TYPE",
-   "STRUCTURE_TYPE",
-   "WORK",
-   "STREET_NUM",
-   "STREET_NAME",
-   "STREET_TYPE",
-   "STREET_DIRECTION",
-   "POSTAL",
-   "GEO_ID",
-   "WARD_GRID",
-   "APPLICATION_DATE",
-   "ISSUED_DATE",
-   "COMPLETED_DATE",
-   "STATUS",
-   "DESCRIPTION",
-   "CURRENT_USE",
-   "PROPOSED_USE",
-   "DWELLING_UNITS_CREATED",
-   "DWELLING_UNITS_LOST",
-   "EST_CONST_COST",
-   "ASSEMBLY",
-   "INSTITUTIONAL",
-   "RESIDENTIAL",
-   "BUSINESS_AND_PERSONAL_SERVICES",
-   "MERCANTILE",
-   "INDUSTRIAL",
-   "INTERIOR_ALTERATIONS",
-   "DEMOLITION",
-   "BUILDER_NAME"
-  ],
-  "total": 202293,
-  "sample": [
-   {
-    "_id": "1",
-    "PERMIT_NUM": "22 118267 BLD",
-    "REVISION_NUM": "00",
-    "PERMIT_TYPE": "Small Residential Projects",
-    "STRUCTURE_TYPE": "SFD - Detached",
-    "WORK": "Multiple Projects",
-    "STREET_NUM": "100",
-    "STREET_NAME": "BLAISDALE",
-    "STREET_TYPE": "RD",
-    "STREET_DIRECTION": " ",
-    "POSTAL": "M1P",
-    "GEO_ID": "309289",
-    "WARD_GRID": "E2128",
-    "APPLICATION_DATE": "2022-03-01",
-    "ISSUED_DATE": "2022-11-07",
-    "COMPLETED_DATE": "None",
-    "STATUS": "Inspection",
-    "DESCRIPTION": "Proposal to construct first storey rear addition and second storey addition to existing Single Family Dwelling, interior alterations to main floor.",
-    "CURRENT_USE": "Sfd",
-    "PROPOSED_USE": "Sfd",
-    "DWELLING_UNITS_CREATED": "0",
-    "DWELLING_UNITS_LOST": "0",
-    "EST_CONST_COST": "250000",
-    "ASSEMBLY": "0",
-    "INSTITUTIONAL": "0",
-    "RESIDENTIAL": "124",
-    "BUSINESS_AND_PERSONAL_SERVICES": "0",
-    "MERCANTILE": "0",
-    "INDUSTRIAL": "0",
-    "INTERIOR_ALTERATIONS": "88",
-    "DEMOLITION": "0",
-    "BUILDER_NAME": "JAMES BRISTOW"
-   },
-   {
-    "_id": "2",
-    "PERMIT_NUM": "22 118267 HVA",
-    "REVISION_NUM": "00",
-    "PERMIT_TYPE": "Mechanical(MS)",
-    "STRUCTURE_TYPE": "SFD - Detached",
-    "WORK": "Building Permit Related(MS)",
-    "STREET_NUM": "100",
-    "STREET_NAME": "BLAISDALE",
-    "STREET_TYPE": "RD",
-    "STREET_DIRECTION": " ",
-    "POSTAL": "M1P",
-    "GEO_ID": "309289",
-    "WARD_GRID": "E2128",
-    "APPLICATION_DATE": "2022-03-01",
-    "ISSUED_DATE": "2022-11-07",
-    "COMPLETED_DATE": "None",
-    "STATUS": "Inspection",
-    "DESCRIPTION": "HVAC - Proposal to construct first storey rear addition and second storey addition to existing Single Family Dwelling, interior alterations to main floor and ne",
-    "CURRENT_USE": "Sfd",
-    "PROPOSED_USE": "Sfd",
-    "DWELLING_UNITS_CREATED": "None",
-    "DWELLING_UNITS_LOST": "None",
-    "EST_CONST_COST": "DO NOT UPDATE OR DELETE THIS INFO FIELD",
-    "ASSEMBLY": "0",
-    "INSTITUTIONAL": "0",
-    "RESIDENTIAL": "0",
-    "BUSINESS_AND_PERSONAL_SERVICES": "0",
-    "MERCANTILE": "0",
-    "INDUSTRIAL": "0",
-    "INTERIOR_ALTERATIONS": "0",
-    "DEMOLITION": "0",
-    "BUILDER_NAME": "JAMES BRISTOW"
-   }
-  ]
- },
- "development-applications": {
-  "resources": [
-   {
-    "id": "8907d8ed-c515-4ce9-b674-9f8c6eefcf0d",
-    "name": "Development Applications",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "77f8a66a-bd43-40e6-b6c9-12a2b03a5032",
-    "name": "Development Applications.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 14085661,
-    "last_modified": "2026-10-13T07:25:29.126663"
-   },
-   {
-    "id": "dbf1d79e-e89b-41c3-89ff-81a38528c9c9",
-    "name": "Development Applications.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 34132706,
-    "last_modified": "2026-10-13T07:25:30.679129"
-   },
-   {
-    "id": "778b8927-2b7c-4d45-8037-8cb37a290b64",
-    "name": "Development Applications.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 27096142,
-    "last_modified": "2026-10-13T07:25:31.669527"
-   }
-  ],
-  "fields": [
-   "_id",
-   "APPLICATION_TYPE",
-   "APPLICATION#",
-   "STREET_NUM",
-   "STREET_NAME",
-   "STREET_TYPE",
-   "STREET_DIRECTION",
-   "POSTAL",
-   "DATE_SUBMITTED",
-   "STATUS",
-   "X",
-   "Y",
-   "DESCRIPTION",
-   "REFERENCE_FILE#",
-   "FOLDERRSN",
-   "WARD_NUMBER",
-   "WARD_NAME",
-   "COMMUNITY_MEETING_DATE",
-   "COMMUNITY_MEETING_TIME",
-   "COMMUNITY_MEETING_LOCATION",
-   "APPLICATION_URL",
-   "CONTACT_NAME",
-   "CONTACT_PHONE",
-   "CONTACT_EMAIL",
-   "PARENT_FOLDER_NUMBER"
-  ],
-  "total": 26648,
-  "sample": [
-   {
-    "_id": "1",
-    "APPLICATION_TYPE": "OZ",
-    "APPLICATION#": "22 242103 STE 13 OZ",
-    "STREET_NUM": "111",
-    "STREET_NAME": "BOND",
-    "STREET_TYPE": "ST",
-    "STREET_DIRECTION": " ",
-    "POSTAL": "M5B",
-    "DATE_SUBMITTED": "2022-12-23T00:00:00",
-    "STATUS": "Closed",
-    "X": "314596.621",
-    "Y": "4835025.186",
-    "DESCRIPTION": "This is an application that is to address two main objectives: 1) to bring the portion of the university's lands currently zoned under the former City of Toront",
-    "REFERENCE_FILE#": "None",
-    "FOLDERRSN": "5211462",
-    "WARD_NUMBER": "13",
-    "WARD_NAME": "Toronto Centre",
-    "COMMUNITY_MEETING_DATE": "2023-08-23T00:00:00",
-    "COMMUNITY_MEETING_TIME": "6:00pm",
-    "COMMUNITY_MEETING_LOCATION": "None",
-    "APPLICATION_URL": "http://app.toronto.ca/AIC/index.do?folderRsn=kxmc3iXFXerc3bV5TED%2Fsw%3D%3D",
-    "CONTACT_NAME": "None",
-    "CONTACT_PHONE": "None",
-    "CONTACT_EMAIL": "None",
-    "PARENT_FOLDER_NUMBER": "None"
-   },
-   {
-    "_id": "2",
-    "APPLICATION_TYPE": "OZ",
-    "APPLICATION#": "22 242103 STE 13 OZ",
-    "STREET_NUM": "112",
-    "STREET_NAME": "BOND",
-    "STREET_TYPE": "ST",
-    "STREET_DIRECTION": " ",
-    "POSTAL": "M5B",
-    "DATE_SUBMITTED": "2022-12-23T00:00:00",
-    "STATUS": "Closed",
-    "X": "314556.1",
-    "Y": "4834997.836",
-    "DESCRIPTION": "This is an application that is to address two main objectives: 1) to bring the portion of the university's lands currently zoned under the former City of Toront",
-    "REFERENCE_FILE#": "None",
-    "FOLDERRSN": "5211462",
-    "WARD_NUMBER": "13",
-    "WARD_NAME": "Toronto Centre",
-    "COMMUNITY_MEETING_DATE": "2023-08-23T00:00:00",
-    "COMMUNITY_MEETING_TIME": "6:00pm",
-    "COMMUNITY_MEETING_LOCATION": "None",
-    "APPLICATION_URL": "http://app.toronto.ca/AIC/index.do?folderRsn=kxmc3iXFXerc3bV5TED%2Fsw%3D%3D",
-    "CONTACT_NAME": "None",
-    "CONTACT_PHONE": "None",
-    "CONTACT_EMAIL": "None",
-    "PARENT_FOLDER_NUMBER": "None"
-   }
-  ]
- },
- "utility-cut-permits": {
-  "resources": [
-   {
-    "id": "ebdec599-4522-4473-b276-fa07d8638248",
-    "name": "Utility Cut Permits Data",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": "2026-07-10T21:03:38.000760"
-   },
-   {
-    "id": "0178185e-6549-44da-9e1e-db67a2ae0709",
-    "name": "Utility Cut Permits Data.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 22290622,
-    "last_modified": "2026-07-11T00:00:29.979662"
-   },
-   {
-    "id": "2d04510d-1aea-4751-9073-24edf1dc8565",
-    "name": "Utility Cut Permits Data.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 51767236,
-    "last_modified": "2026-07-11T00:00:31.547330"
-   },
-   {
-    "id": "3bf43fcc-6c50-441c-862e-afbdb31d9a53",
-    "name": "Utility Cut Permits Data.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 40613615,
-    "last_modified": "2026-07-11T00:00:33.142523"
-   },
-   {
-    "id": "2ed91301-a4d6-4082-9164-e82917b9e5fc",
-    "name": "Utility Cut Permits",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "e2d3c583-efeb-43e7-aeb1-273f4055847d",
-    "name": "Utility Cut Permits.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 22972578,
-    "last_modified": "2026-10-09T03:38:05.025125"
-   },
-   {
-    "id": "7e5973e5-34f0-4886-a26f-4f46929ee8e1",
-    "name": "Utility Cut Permits.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 53614162,
-    "last_modified": "2026-10-09T03:38:06.621517"
-   },
-   {
-    "id": "fb6057be-4ac1-4eaa-8652-938f4ef7431e",
-    "name": "Utility Cut Permits.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 42001168,
-    "last_modified": "2026-10-09T03:38:07.761238"
-   }
-  ],
-  "fields": [
-   "_id",
-   "PERMIT_NUMBER",
-   "PROPOSED_FROM_DATE",
-   "PROPOSED_TO_DATE",
-   "CLIENT_NAME",
-   "GEO_ID",
-   "DISPLAY_DESC",
-   "PERMIT_STATUS",
-   "INSTALLATION_TYPE_DESC",
-   "CITY_WARD",
-   "DISTRICT"
-  ],
-  "total": 89513,
-  "sample": [
-   {
-    "_id": "20105816",
-    "PERMIT_NUMBER": "999995001",
-    "PROPOSED_FROM_DATE": "2024-11-05",
-    "PROPOSED_TO_DATE": "2025-05-05",
-    "CLIENT_NAME": "Toronto Water - CSS",
-    "GEO_ID": "71568",
-    "DISPLAY_DESC": "154 ROBINA AVE (Between GLENHURST AVE AND EARLSDALE AVE)",
-    "PERMIT_STATUS": "PERMIT ISSUED",
-    "INSTALLATION_TYPE_DESC": "Water and Sewer Connection",
-    "CITY_WARD": "09",
-    "DISTRICT": "Toronto and East York"
-   },
-   {
-    "_id": "20105817",
-    "PERMIT_NUMBER": "999990001",
-    "PROPOSED_FROM_DATE": "2024-11-05",
-    "PROPOSED_TO_DATE": "2025-05-05",
-    "CLIENT_NAME": "Toronto Water - CSN",
-    "GEO_ID": "579373",
-    "DISPLAY_DESC": "98 YORKVIEW DR (NY) (Between ELGIN RD AND BEVDALE RD)",
-    "PERMIT_STATUS": "PERMIT ISSUED",
-    "INSTALLATION_TYPE_DESC": "Water and Sewer Connection",
-    "CITY_WARD": "18",
-    "DISTRICT": "North York"
-   }
-  ]
- },
- "places-of-worship": {
-  "resources": [
-   {
-    "id": "eafc9b0f-ba16-4be1-a196-304e35751b45",
-    "name": "Places of Worship",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "97ae282e-0478-4e9d-a986-2abe5f6dc02e",
-    "name": "Places of Worship - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 675840,
-    "last_modified": "2026-02-20T19:14:47.881496"
-   },
-   {
-    "id": "f51a536e-7006-46c7-b075-6f3a921843fc",
-    "name": "Places of Worship - 2945.gpkg",
-    "format": "GPKG",
-    "datastore_active": false,
-    "size": 610304,
-    "last_modified": "2022-03-10T19:40:20.602685"
-   },
-   {
-    "id": "d8b4528b-b480-4852-b027-05ea0cc8ea3d",
-    "name": "Places of Worship - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 509904,
-    "last_modified": "2026-02-20T19:14:45.445470"
-   },
-   {
-    "id": "be42bc32-8700-4c83-86a4-086fa32549c9",
-    "name": "Places of Worship - 2945.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 494136,
-    "last_modified": "2022-03-10T19:40:22.318846"
-   },
-   {
-    "id": "666b514c-04ae-4434-b682-64620cb87114",
-    "name": "Places of Worship - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 1731378,
-    "last_modified": "2026-02-20T19:14:49.005049"
-   },
-   {
-    "id": "f321a4e5-048e-4140-8efa-9a68de14daa8",
-    "name": "Places of Worship - 2945.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 1730434,
-    "last_modified": "2022-03-10T19:40:26.247272"
-   },
-   {
-    "id": "1983f27d-a89a-4628-a8bd-3652e4fee400",
-    "name": "Places of Worship - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 4054349,
-    "last_modified": "2026-02-20T19:14:46.701331"
-   },
-   {
-    "id": "53a42ade-3100-452d-9f8d-ed3fb72821da",
-    "name": "Places of Worship - 2945.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 4319011,
-    "last_modified": "2022-03-10T19:40:29.707390"
-   },
-   {
-    "id": "87fa0288-7f6e-44c3-bc89-058bd988c320",
-    "name": "Places of Worship - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 679936,
-    "last_modified": "2026-02-20T19:14:52.477463"
-   },
-   {
-    "id": "d3783ef4-e0c0-4251-8f78-c0139f5b7408",
-    "name": "Places of Worship - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 511779,
-    "last_modified": "2026-02-20T19:14:50.193066"
-   },
-   {
-    "id": "47ed4e81-d56c-4c89-a726-60c9114b2473",
-    "name": "Places of Worship - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 4054637,
-    "last_modified": "2026-02-20T19:14:51.278105"
-   },
-   {
-    "id": "e6f9cd91-2cba-4a0a-8457-0ac882627a8a",
-    "name": "Places of Worship - 2952.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 1686886,
-    "last_modified": "2024-10-15T18:12:40.095804"
-   },
-   {
-    "id": "7e36ad86-496c-45a1-87cb-6e7592aa2adc",
-    "name": "places-of-worship-data-wgs84",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 132789,
-    "last_modified": "2020-03-09T19:21:09.464124"
-   }
-  ],
-  "fields": [
-   "_id",
-   "ADDRESS_POINT_ID",
-   "ADDRESS_NUMBER",
-   "LINEAR_NAME_FULL",
-   "ADDRESS_FULL",
-   "POSTAL_CODE",
-   "MUNICIPALITY",
-   "CITY",
-   "PLACE_NAME",
-   "GENERAL_USE_CODE",
-   "CENTRELINE_ID",
-   "LO_NUM",
-   "LO_NUM_SUF",
-   "HI_NUM",
-   "HI_NUM_SUF",
-   "LINEAR_NAME_ID",
-   "X",
-   "Y",
-   "LONGITUDE",
-   "LATITUDE",
-   "OBJECTID",
-   "FTH_PRIORITY",
-   "FTH_ORGANIZATION",
-   "FTH_FAITH",
-   "FTH_DENOMINATION",
-   "FTH_GROUPING",
-   "FTH_PHONE",
-   "FTH_EXTENSION",
-   "FTH_FAX",
-   "FTH_CELL",
-   "FTH_HOME",
-   "FTH_SALUTATION",
-   "FTH_FIRST_NAME",
-   "FTH_LAST_NAME",
-   "FTH_POSITION",
-   "FTH_EMAIL",
-   "FTH_CONTACT",
-   "FTH_WEBSITE",
-   "FTH_FORUM",
-   "WARD_NAME",
-   "WARD_NUMBER",
-   "COMM_COUNCIL_NAME",
-   "COMM_COUNCIL_CODE",
-   "NEIGHBOURHOOD_NAME",
-   "geometry"
-  ],
-  "total": 1407,
-  "sample": [
-   {
-    "_id": "1",
-    "ADDRESS_POINT_ID": "850128",
-    "ADDRESS_NUMBER": "851",
-    "LINEAR_NAME_FULL": "Ossington Ave",
-    "ADDRESS_FULL": "851 Ossington Ave",
-    "POSTAL_CODE": "M6G3V2",
-    "MUNICIPALITY": "former TORONTO",
-    "CITY": "Toronto",
-    "PLACE_NAME": "Church Of Jesus Christ",
-    "GENERAL_USE_CODE": "109001",
-    "CENTRELINE_ID": "1143238",
-    "LO_NUM": "851",
-    "LO_NUM_SUF": "None",
-    "HI_NUM": "None",
-    "HI_NUM_SUF": "None",
-    "LINEAR_NAME_ID": "4125",
-    "X": "None",
-    "Y": "None",
-    "LONGITUDE": "None",
-    "LATITUDE": "None",
-    "OBJECTID": "1",
-    "FTH_PRIORITY": "None",
-    "FTH_ORGANIZATION": "Church Of Jesus Christ Of La",
-    "FTH_FAITH": "Christian",
-    "FTH_DENOMINATION": "None",
-    "FTH_GROUPING": "None",
-    "FTH_PHONE": "None",
-    "FTH_EXTENSION": "None",
-    "FTH_FAX": "None",
-    "FTH_CELL": "None",
-    "FTH_HOME": "None",
-    "FTH_SALUTATION": "None",
-    "FTH_FIRST_NAME": "None",
-    "FTH_LAST_NAME": "None",
-    "FTH_POSITION": "None",
-    "FTH_EMAIL": "None",
-    "FTH_CONTACT": "None",
-    "FTH_WEBSITE": "None",
-    "FTH_FORUM": "None",
-    "WARD_NAME": "University-Rosedale (11)",
-    "WARD_NUMBER": "11",
-    "COMM_COUNCIL_NAME": "TORONTO AND EAST YORK COMMUNITY COUNCIL",
-    "COMM_COUNCIL_CODE": "SO",
-    "NEIGHBOURHOOD_NAME": "Dovercourt-Wallace Emerson-Junction (93)",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.426130314028, 43.6650415640799]}"
-   },
-   {
-    "_id": "2",
-    "ADDRESS_POINT_ID": "10312972",
-    "ADDRESS_NUMBER": "1219",
-    "LINEAR_NAME_FULL": "Dufferin St",
-    "ADDRESS_FULL": "1219 Dufferin St",
-    "POSTAL_CODE": "M6H4C2",
-    "MUNICIPALITY": "former TORONTO",
-    "CITY": "Toronto",
-    "PLACE_NAME": "Dufferin St Baptist Church",
-    "GENERAL_USE_CODE": "109001",
-    "CENTRELINE_ID": "10312971",
-    "LO_NUM": "1219",
-    "LO_NUM_SUF": "None",
-    "HI_NUM": "None",
-    "HI_NUM_SUF": "None",
-    "LINEAR_NAME_ID": "557",
-    "X": "None",
-    "Y": "None",
-    "LONGITUDE": "None",
-    "LATITUDE": "None",
-    "OBJECTID": "2",
-    "FTH_PRIORITY": "None",
-    "FTH_ORGANIZATION": "Dufferin St Baptist Church",
-    "FTH_FAITH": "Christian",
-    "FTH_DENOMINATION": "None",
-    "FTH_GROUPING": "None",
-    "FTH_PHONE": "None",
-    "FTH_EXTENSION": "None",
-    "FTH_FAX": "None",
-    "FTH_CELL": "None",
-    "FTH_HOME": "None",
-    "FTH_SALUTATION": "None",
-    "FTH_FIRST_NAME": "None",
-    "FTH_LAST_NAME": "None",
-    "FTH_POSITION": "None",
-    "FTH_EMAIL": "None",
-    "FTH_CONTACT": "None",
-    "FTH_WEBSITE": "None",
-    "FTH_FORUM": "None",
-    "WARD_NAME": "Davenport (9)",
-    "WARD_NUMBER": "9",
-    "COMM_COUNCIL_NAME": "TORONTO AND EAST YORK COMMUNITY COUNCIL",
-    "COMM_COUNCIL_CODE": "SO",
-    "NEIGHBOURHOOD_NAME": "Dovercourt-Wallace Emerson-Junction (93)",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.43769286312, 43.6660815075536]}"
-   }
-  ]
- },
- "neighbourhood-profiles": {
-  "resources": [
-   {
-    "id": "19d4a806-7385-4889-acf2-256f1e079060",
-    "name": "neighbourhood-profiles-2021-158-model",
-    "format": "XLSX",
-    "datastore_active": false,
-    "size": 1763175,
-    "last_modified": "2023-10-06T19:10:25.000145"
-   },
-   {
-    "id": "7f8eee5e-85fb-415c-aef3-c3bd4998445f",
-    "name": "neighbourhood-profiles-2016-140-model",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "f07fe8f0-fa24-4d68-8cb4-326e280b0b05",
-    "name": "neighbourhood-profiles-2016-140-model.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 1509516,
-    "last_modified": "2026-05-27T18:49:51.334659"
-   },
-   {
-    "id": "46bec89b-90bc-4545-b5d9-4e1eb7337d87",
-    "name": "neighbourhood-profiles-2016-140-model.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 13607216,
-    "last_modified": "2026-05-27T18:49:52.765107"
-   },
-   {
-    "id": "fe8f49c5-b629-49b9-9453-7f41f0f3fdea",
-    "name": "neighbourhood-profiles-2016-140-model.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 9520035,
-    "last_modified": "2026-05-27T18:49:53.937535"
-   },
-   {
-    "id": "9a9e9cf1-6c73-426c-aa7d-d1261cb459ca",
-    "name": "neighbourhood-profiles-2011-140-model",
-    "format": "CSV",
-    "datastore_active": "True",
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "9d2474eb-46ed-4970-9a38-b635703ed5c6",
-    "name": "neighbourhood-profiles-2011-140-model.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 865244,
-    "last_modified": "2026-02-20T20:45:40.665109"
-   },
-   {
-    "id": "8b4813a5-d4d7-4f34-8614-dfc07c46949b",
-    "name": "neighbourhood-profiles-2011-140-model.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 8669509,
-    "last_modified": "2026-02-20T20:45:42.078876"
-   },
-   {
-    "id": "958619d7-7f51-49a2-aea6-51783de81500",
-    "name": "neighbourhood-profiles-2011-140-model.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 5627337,
-    "last_modified": "2026-02-20T20:45:43.517745"
-   },
-   {
-    "id": "5bbad0da-0d68-42ca-884b-d6551756c81a",
-    "name": "neighbourhood-profiles-2006-140-model",
-    "format": "CSV",
-    "datastore_active": "True",
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "dece8848-9529-4c36-8344-2d47fa152e79",
-    "name": "neighbourhood-profiles-2006-140-model.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 779639,
-    "last_modified": "2026-02-20T20:45:48.496047"
-   },
-   {
-    "id": "36f2d32e-f489-48fe-aaf2-74746fab8877",
-    "name": "neighbourhood-profiles-2006-140-model.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 8238512,
-    "last_modified": "2026-02-20T20:45:49.805334"
-   },
-   {
-    "id": "eeb1e79a-3118-45de-ac5a-d8481e8b9009",
-    "name": "neighbourhood-profiles-2006-140-model.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 5358688,
-    "last_modified": "2026-02-20T20:45:51.246859"
-   },
-   {
-    "id": "90787000-b8a7-4b21-aa59-5aed64973355",
-    "name": "neighbourhood-profiles-2001-140-model",
-    "format": "CSV",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "3e7072b4-76f4-4ac6-92d4-0e58b1560986",
-    "name": "neighbourhood-profiles-2001-140-model.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 414786,
-    "last_modified": "2026-05-27T18:48:20.051617"
-   },
-   {
-    "id": "690db08d-80ec-443f-b0ec-2d253055e178",
-    "name": "neighbourhood-profiles-2001-140-model.xml",
-    "format": "XML",
-    "datastore_active": false,
-    "size": 4338038,
-    "last_modified": "2026-05-27T18:48:21.338605"
-   },
-   {
-    "id": "d0daf57f-a1ae-4b93-9c98-b9c2f24e83f0",
-    "name": "neighbourhood-profiles-2001-140-model.json",
-    "format": "JSON",
-    "datastore_active": false,
-    "size": 2822184,
-    "last_modified": "2026-05-27T18:48:22.466176"
-   }
-  ],
-  "fields": [
-   "_id",
-   "Category",
-   "Topic",
-   "Data Source",
-   "Characteristic",
-   "City of Toronto",
-   "Agincourt North",
-   "Agincourt South-Malvern West",
-   "Alderwood",
-   "Annex",
-   "Banbury-Don Mills",
-   "Bathurst Manor",
-   "Bay Street Corridor",
-   "Bayview Village",
-   "Bayview Woods-Steeles",
-   "Bedford Park-Nortown",
-   "Beechborough-Greenbrook",
-   "Bendale",
-   "Birchcliffe-Cliffside",
-   "Black Creek",
-   "Blake-Jones",
-   "Briar Hill-Belgravia",
-   "Bridle Path-Sunnybrook-York Mills",
-   "Broadview North",
-   "Brookhaven-Amesbury",
-   "Cabbagetown-South St. James Town",
-   "Caledonia-Fairbank",
-   "Casa Loma",
-   "Centennial Scarborough",
-   "Church-Yonge Corridor",
-   "Clairlea-Birchmount",
-   "Clanton Park",
-   "Cliffcrest",
-   "Corso Italia-Davenport",
-   "Danforth",
-   "Danforth East York",
-   "Don Valley Village",
-   "Dorset Park",
-   "Dovercourt-Wallace Emerson-Junction",
-   "Downsview-Roding-CFB",
-   "Dufferin Grove",
-   "East End-Danforth",
-   "Edenbridge-Humber Valley",
-   "Eglinton East",
-   "Elms-Old Rexdale",
-   "Englemount-Lawrence",
-   "Eringate-Centennial-West Deane",
-   "Etobicoke West Mall",
-   "Flemingdon Park",
-   "Forest Hill North",
-   "Forest Hill South",
-   "Glenfield-Jane Heights",
-   "Greenwood-Coxwell",
-   "Guildwood",
-   "Henry Farm",
-   "High Park North",
-   "High Park-Swansea",
-   "Highland Creek",
-   "Hillcrest Village",
-   "Humber Heights-Westmount",
-   "Humber Summit",
-   "Humbermede",
-   "Humewood-Cedarvale",
-   "Ionview",
-   "Islington-City Centre West",
-   "Junction Area",
-   "Keelesdale-Eglinton West",
-   "Kennedy Park",
-   "Kensington-Chinatown",
-   "Kingsview Village-The Westway",
-   "Kingsway South",
-   "Lambton Baby Point",
-   "L'Amoreaux",
-   "Lansing-Westgate",
-   "Lawrence Park North",
-   "Lawrence Park South",
-   "Leaside-Bennington",
-   "Little Portugal",
-   "Long Branch",
-   "Malvern",
-   "Maple Leaf",
-   "Markland Wood",
-   "Milliken",
-   "Mimico (includes Humber Bay Shores)",
-   "Morningside",
-   "Moss Park",
-   "Mount Dennis",
-   "Mount Olive-Silverstone-Jamestown",
-   "Mount Pleasant East",
-   "Mount Pleasant West",
-   "New Toronto",
-   "Newtonbrook East",
-   "Newtonbrook West",
-   "Niagara",
-   "North Riverdale",
-   "North St. James Town",
-   "Oakridge",
-   "Oakwood Village",
-   "O'Connor-Parkview",
-   "Old East York",
-   "Palmerston-Little Italy",
-   "Parkwoods-Donalda",
-   "Pelmo Park-Humberlea",
-   "Playter Estates-Danforth",
-   "Pleasant View",
-   "Princess-Rosethorn",
-   "Regent Park",
-   "Rexdale-Kipling",
-   "Rockcliffe-Smythe",
-   "Roncesvalles",
-   "Rosedale-Moore Park",
-   "Rouge",
-   "Runnymede-Bloor West Village",
-   "Rustic",
-   "Scarborough Village",
-   "South Parkdale",
-   "South Riverdale",
-   "St.Andrew-Windfields",
-   "Steeles",
-   "Stonegate-Queensway",
-   "Tam O'Shanter-Sullivan",
-   "Taylor-Massey",
-   "The Beaches",
-   "Thistletown-Beaumond Heights",
-   "Thorncliffe Park",
-   "Trinity-Bellwoods",
-   "University",
-   "Victoria Village",
-   "Waterfront Communities-The Island",
-   "West Hill",
-   "West Humber-Clairville",
-   "Westminster-Branson",
-   "Weston",
-   "Weston-Pelham Park",
-   "Wexford/Maryvale",
-   "Willowdale East",
-   "Willowdale West",
-   "Willowridge-Martingrove-Richview",
-   "Woburn",
-   "Woodbine Corridor",
-   "Woodbine-Lumsden",
-   "Wychwood",
-   "Yonge-Eglinton",
-   "Yonge-St.Clair",
-   "York University Heights",
-   "Yorkdale-Glen Park"
-  ],
-  "total": 2383,
-  "sample": [
-   {
-    "_id": "1",
-    "Category": "Neighbourhood Information",
-    "Topic": "Neighbourhood Information",
-    "Data Source": "City of Toronto",
-    "Characteristic": "Neighbourhood Number",
-    "City of Toronto": "None",
-    "Agincourt North": "129",
-    "Agincourt South-Malvern West": "128",
-    "Alderwood": "20",
-    "Annex": "95",
-    "Banbury-Don Mills": "42",
-    "Bathurst Manor": "34",
-    "Bay Street Corridor": "76",
-    "Bayview Village": "52",
-    "Bayview Woods-Steeles": "49",
-    "Bedford Park-Nortown": "39",
-    "Beechborough-Greenbrook": "112",
-    "Bendale": "127",
-    "Birchcliffe-Cliffside": "122",
-    "Black Creek": "24",
-    "Blake-Jones": "69",
-    "Briar Hill-Belgravia": "108",
-    "Bridle Path-Sunnybrook-York Mills": "41",
-    "Broadview North": "57",
-    "Brookhaven-Amesbury": "30",
-    "Cabbagetown-South St. James Town": "71",
-    "Caledonia-Fairbank": "109",
-    "Casa Loma": "96",
-    "Centennial Scarborough": "133",
-    "Church-Yonge Corridor": "75",
-    "Clairlea-Birchmount": "120",
-    "Clanton Park": "33",
-    "Cliffcrest": "123",
-    "Corso Italia-Davenport": "92",
-    "Danforth": "66",
-    "Danforth East York": "59",
-    "Don Valley Village": "47",
-    "Dorset Park": "126",
-    "Dovercourt-Wallace Emerson-Junction": "93",
-    "Downsview-Roding-CFB": "26",
-    "Dufferin Grove": "83",
-    "East End-Danforth": "62",
-    "Edenbridge-Humber Valley": "9",
-    "Eglinton East": "138",
-    "Elms-Old Rexdale": "5",
-    "Englemount-Lawrence": "32",
-    "Eringate-Centennial-West Deane": "11",
-    "Etobicoke West Mall": "13",
-    "Flemingdon Park": "44",
-    "Forest Hill North": "102",
-    "Forest Hill South": "101",
-    "Glenfield-Jane Heights": "25",
-    "Greenwood-Coxwell": "65",
-    "Guildwood": "140",
-    "Henry Farm": "53",
-    "High Park North": "88",
-    "High Park-Swansea": "87",
-    "Highland Creek": "134",
-    "Hillcrest Village": "48",
-    "Humber Heights-Westmount": "8",
-    "Humber Summit": "21",
-    "Humbermede": "22",
-    "Humewood-Cedarvale": "106",
-    "Ionview": "125",
-    "Islington-City Centre West": "14",
-    "Junction Area": "90",
-    "Keelesdale-Eglinton West": "110",
-    "Kennedy Park": "124",
-    "Kensington-Chinatown": "78",
-    "Kingsview Village-The Westway": "6",
-    "Kingsway South": "15",
-    "Lambton Baby Point": "114",
-    "L'Amoreaux": "117",
-    "Lansing-Westgate": "38",
-    "Lawrence Park North": "105",
-    "Lawrence Park South": "103",
-    "Leaside-Bennington": "56",
-    "Little Portugal": "84",
-    "Long Branch": "19",
-    "Malvern": "132",
-    "Maple Leaf": "29",
-    "Markland Wood": "12",
-    "Milliken": "130",
-    "Mimico (includes Humber Bay Shores)": "17",
-    "Morningside": "135",
-    "Moss Park": "73",
-    "Mount Dennis": "115",
-    "Mount Olive-Silverstone-Jamestown": "2",
-    "Mount Pleasant East": "99",
-    "Mount Pleasant West": "104",
-    "New Toronto": "18",
-    "Newtonbrook East": "50",
-    "Newtonbrook West": "36",
-    "Niagara": "82",
-    "North Riverdale": "68",
-    "North St. James Town": "74",
-    "Oakridge": "121",
-    "Oakwood Village": "107",
-    "O'Connor-Parkview": "54",
-    "Old East York": "58",
-    "Palmerston-Little Italy": "80",
-    "Parkwoods-Donalda": "45",
-    "Pelmo Park-Humberlea": "23",
-    "Playter Estates-Danforth": "67",
-    "Pleasant View": "46",
-    "Princess-Rosethorn": "10",
-    "Regent Park": "72",
-    "Rexdale-Kipling": "4",
-    "Rockcliffe-Smythe": "111",
-    "Roncesvalles": "86",
-    "Rosedale-Moore Park": "98",
-    "Rouge": "131",
-    "Runnymede-Bloor West Village": "89",
-    "Rustic": "28",
-    "Scarborough Village": "139",
-    "South Parkdale": "85",
-    "South Riverdale": "70",
-    "St.Andrew-Windfields": "40",
-    "Steeles": "116",
-    "Stonegate-Queensway": "16",
-    "Tam O'Shanter-Sullivan": "118",
-    "Taylor-Massey": "61",
-    "The Beaches": "63",
-    "Thistletown-Beaumond Heights": "3",
-    "Thorncliffe Park": "55",
-    "Trinity-Bellwoods": "81",
-    "University": "79",
-    "Victoria Village": "43",
-    "Waterfront Communities-The Island": "77",
-    "West Hill": "136",
-    "West Humber-Clairville": "1",
-    "Westminster-Branson": "35",
-    "Weston": "113",
-    "Weston-Pelham Park": "91",
-    "Wexford/Maryvale": "119",
-    "Willowdale East": "51",
-    "Willowdale West": "37",
-    "Willowridge-Martingrove-Richview": "7",
-    "Woburn": "137",
-    "Woodbine Corridor": "64",
-    "Woodbine-Lumsden": "60",
-    "Wychwood": "94",
-    "Yonge-Eglinton": "100",
-    "Yonge-St.Clair": "97",
-    "York University Heights": "27",
-    "Yorkdale-Glen Park": "31"
-   },
-   {
-    "_id": "2",
-    "Category": "Neighbourhood Information",
-    "Topic": "Neighbourhood Information",
-    "Data Source": "City of Toronto",
-    "Characteristic": "TSNS2020 Designation",
-    "City of Toronto": "None",
-    "Agincourt North": "No Designation",
-    "Agincourt South-Malvern West": "No Designation",
-    "Alderwood": "No Designation",
-    "Annex": "No Designation",
-    "Banbury-Don Mills": "No Designation",
-    "Bathurst Manor": "No Designation",
-    "Bay Street Corridor": "No Designation",
-    "Bayview Village": "No Designation",
-    "Bayview Woods-Steeles": "No Designation",
-    "Bedford Park-Nortown": "No Designation",
-    "Beechborough-Greenbrook": "NIA",
-    "Bendale": "No Designation",
-    "Birchcliffe-Cliffside": "No Designation",
-    "Black Creek": "NIA",
-    "Blake-Jones": "No Designation",
-    "Briar Hill-Belgravia": "No Designation",
-    "Bridle Path-Sunnybrook-York Mills": "No Designation",
-    "Broadview North": "No Designation",
-    "Brookhaven-Amesbury": "No Designation",
-    "Cabbagetown-South St. James Town": "No Designation",
-    "Caledonia-Fairbank": "No Designation",
-    "Casa Loma": "No Designation",
-    "Centennial Scarborough": "No Designation",
-    "Church-Yonge Corridor": "No Designation",
-    "Clairlea-Birchmount": "No Designation",
-    "Clanton Park": "No Designation",
-    "Cliffcrest": "No Designation",
-    "Corso Italia-Davenport": "No Designation",
-    "Danforth": "No Designation",
-    "Danforth East York": "No Designation",
-    "Don Valley Village": "No Designation",
-    "Dorset Park": "Emerging Neighbourhood",
-    "Dovercourt-Wallace Emerson-Junction": "No Designation",
-    "Downsview-Roding-CFB": "NIA",
-    "Dufferin Grove": "No Designation",
-    "East End-Danforth": "No Designation",
-    "Edenbridge-Humber Valley": "No Designation",
-    "Eglinton East": "NIA",
-    "Elms-Old Rexdale": "NIA",
-    "Englemount-Lawrence": "Emerging Neighbourhood",
-    "Eringate-Centennial-West Deane": "No Designation",
-    "Etobicoke West Mall": "No Designation",
-    "Flemingdon Park": "NIA",
-    "Forest Hill North": "No Designation",
-    "Forest Hill South": "No Designation",
-    "Glenfield-Jane Heights": "NIA",
-    "Greenwood-Coxwell": "No Designation",
-    "Guildwood": "No Designation",
-    "Henry Farm": "No Designation",
-    "High Park North": "No Designation",
-    "High Park-Swansea": "No Designation",
-    "Highland Creek": "No Designation",
-    "Hillcrest Village": "No Designation",
-    "Humber Heights-Westmount": "Emerging Neighbourhood",
-    "Humber Summit": "NIA",
-    "Humbermede": "NIA",
-    "Humewood-Cedarvale": "No Designation",
-    "Ionview": "NIA",
-    "Islington-City Centre West": "No Designation",
-    "Junction Area": "No Designation",
-    "Keelesdale-Eglinton West": "NIA",
-    "Kennedy Park": "NIA",
-    "Kensington-Chinatown": "No Designation",
-    "Kingsview Village-The Westway": "NIA",
-    "Kingsway South": "No Designation",
-    "Lambton Baby Point": "No Designation",
-    "L'Amoreaux": "Emerging Neighbourhood",
-    "Lansing-Westgate": "No Designation",
-    "Lawrence Park North": "No Designation",
-    "Lawrence Park South": "No Designation",
-    "Leaside-Bennington": "No Designation",
-    "Little Portugal": "No Designation",
-    "Long Branch": "No Designation",
-    "Malvern": "Emerging Neighbourhood",
-    "Maple Leaf": "No Designation",
-    "Markland Wood": "No Designation",
-    "Milliken": "No Designation",
-    "Mimico (includes Humber Bay Shores)": "No Designation",
-    "Morningside": "NIA",
-    "Moss Park": "No Designation",
-    "Mount Dennis": "NIA",
-    "Mount Olive-Silverstone-Jamestown": "NIA",
-    "Mount Pleasant East": "No Designation",
-    "Mount Pleasant West": "No Designation",
-    "New Toronto": "No Designation",
-    "Newtonbrook East": "No Designation",
-    "Newtonbrook West": "No Designation",
-    "Niagara": "No Designation",
-    "North Riverdale": "No Designation",
-    "North St. James Town": "No Designation",
-    "Oakridge": "NIA",
-    "Oakwood Village": "No Designation",
-    "O'Connor-Parkview": "No Designation",
-    "Old East York": "No Designation",
-    "Palmerston-Little Italy": "No Designation",
-    "Parkwoods-Donalda": "No Designation",
-    "Pelmo Park-Humberlea": "No Designation",
-    "Playter Estates-Danforth": "No Designation",
-    "Pleasant View": "No Designation",
-    "Princess-Rosethorn": "No Designation",
-    "Regent Park": "NIA",
-    "Rexdale-Kipling": "No Designation",
-    "Rockcliffe-Smythe": "NIA",
-    "Roncesvalles": "No Designation",
-    "Rosedale-Moore Park": "No Designation",
-    "Rouge": "No Designation",
-    "Runnymede-Bloor West Village": "No Designation",
-    "Rustic": "NIA",
-    "Scarborough Village": "NIA",
-    "South Parkdale": "NIA",
-    "South Riverdale": "No Designation",
-    "St.Andrew-Windfields": "No Designation",
-    "Steeles": "Emerging Neighbourhood",
-    "Stonegate-Queensway": "No Designation",
-    "Tam O'Shanter-Sullivan": "No Designation",
-    "Taylor-Massey": "NIA",
-    "The Beaches": "No Designation",
-    "Thistletown-Beaumond Heights": "NIA",
-    "Thorncliffe Park": "NIA",
-    "Trinity-Bellwoods": "No Designation",
-    "University": "No Designation",
-    "Victoria Village": "NIA",
-    "Waterfront Communities-The Island": "No Designation",
-    "West Hill": "NIA",
-    "West Humber-Clairville": "No Designation",
-    "Westminster-Branson": "Emerging Neighbourhood",
-    "Weston": "NIA",
-    "Weston-Pelham Park": "NIA",
-    "Wexford/Maryvale": "No Designation",
-    "Willowdale East": "No Designation",
-    "Willowdale West": "No Designation",
-    "Willowridge-Martingrove-Richview": "No Designation",
-    "Woburn": "NIA",
-    "Woodbine Corridor": "No Designation",
-    "Woodbine-Lumsden": "No Designation",
-    "Wychwood": "No Designation",
-    "Yonge-Eglinton": "No Designation",
-    "Yonge-St.Clair": "No Designation",
-    "York University Heights": "NIA",
-    "Yorkdale-Glen Park": "Emerging Neighbourhood"
-   }
-  ]
- },
- "neighbourhoods": {
-  "resources": [
-   {
-    "id": "5e6095fc-1bef-4776-887c-28d37f722c51",
-    "name": "Neighbourhoods",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "7d3ae06b-0217-4cc9-92ed-97adafca2f7b",
-    "name": "Neighbourhoods - historical 140",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "7f7dc9c5-42bb-446e-ad79-dd4dd792c9db",
-    "name": "Neighbourhoods - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 1832961,
-    "last_modified": "2026-02-20T19:15:10.069437"
-   },
-   {
-    "id": "02ac940a-98b4-4b00-b04f-5899f24e1ef4",
-    "name": "Neighbourhoods - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 848076,
-    "last_modified": "2026-02-20T19:15:11.234104"
-   },
-   {
-    "id": "46536fa0-cdac-491c-a0b7-c1381e9accad",
-    "name": "Neighbourhoods - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 987136,
-    "last_modified": "2026-02-20T19:15:12.267621"
-   },
-   {
-    "id": "0719053b-28b7-48ea-b863-068823a93aaa",
-    "name": "Neighbourhoods - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 2141269,
-    "last_modified": "2026-02-20T19:15:13.551341"
-   },
-   {
-    "id": "f050cd75-697d-400b-8b36-2474847f7bc2",
-    "name": "Neighbourhoods - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 1903917,
-    "last_modified": "2026-02-20T19:15:14.956769"
-   },
-   {
-    "id": "f749734d-5f88-4c56-ae11-161eef80b8e3",
-    "name": "Neighbourhoods - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 848364,
-    "last_modified": "2026-02-20T19:15:16.509804"
-   },
-   {
-    "id": "bbd28fd8-73dc-4bf9-a310-e4c347230549",
-    "name": "Neighbourhoods - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 987136,
-    "last_modified": "2026-02-20T19:15:17.845927"
-   },
-   {
-    "id": "070019b4-6375-4c04-a4c0-602a3a5d930f",
-    "name": "Neighbourhoods - historical 140 - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 1720573,
-    "last_modified": "2026-02-20T19:15:24.505349"
-   },
-   {
-    "id": "ce0aba4e-fa57-4dac-a66d-e8f55b646fa7",
-    "name": "Neighbourhoods - historical 140 - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 791286,
-    "last_modified": "2026-02-20T19:15:25.616913"
-   },
-   {
-    "id": "639f83d0-845e-4fa1-8d7c-fb5ec460e471",
-    "name": "Neighbourhoods - historical 140 - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 942080,
-    "last_modified": "2026-02-20T19:15:26.738626"
-   },
-   {
-    "id": "9994da8e-5d35-438b-bfc4-eef14d09e035",
-    "name": "Neighbourhoods - historical 140 - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 2007772,
-    "last_modified": "2026-02-20T19:15:27.950096"
-   },
-   {
-    "id": "ae095ad9-fb6f-4403-97fe-68703ed65663",
-    "name": "Neighbourhoods - historical 140 - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 1787046,
-    "last_modified": "2026-02-20T19:15:29.083258"
-   },
-   {
-    "id": "d0aad401-e7f7-461a-86d9-6d56e2816879",
-    "name": "Neighbourhoods - historical 140 - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 791574,
-    "last_modified": "2026-02-20T19:15:30.290159"
-   },
-   {
-    "id": "739255d7-a7cc-4ab2-a2a8-b4d6cbb6d60d",
-    "name": "Neighbourhoods - historical 140 - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 942080,
-    "last_modified": "2026-02-20T19:15:31.440337"
-   }
-  ],
-  "fields": [
-   "_id",
-   "AREA_ID",
-   "AREA_ATTR_ID",
-   "PARENT_AREA_ID",
-   "AREA_SHORT_CODE",
-   "AREA_LONG_CODE",
-   "AREA_NAME",
-   "AREA_DESC",
-   "CLASSIFICATION",
-   "CLASSIFICATION_CODE",
-   "OBJECTID",
-   "geometry"
-  ],
-  "total": 158,
-  "sample": [
-   {
-    "_id": "1",
-    "AREA_ID": "2502366",
-    "AREA_ATTR_ID": "26022881",
-    "PARENT_AREA_ID": "None",
-    "AREA_SHORT_CODE": "174",
-    "AREA_LONG_CODE": "174",
-    "AREA_NAME": "South Eglinton-Davisville",
-    "AREA_DESC": "South Eglinton-Davisville (174)",
-    "CLASSIFICATION": "Not an NIA or Emerging Neighbourhood",
-    "CLASSIFICATION_CODE": "NA",
-    "OBJECTID": "17824737",
-    "geometry": "{\"type\": \"Polygon\", \"coordinates\": [[[-79.3863510515018, 43.6978312650188], [-79.3862291956072, 43.6975037220317], [-79.38638812454, 43.6975077326547], [-79.386"
-   },
-   {
-    "_id": "2",
-    "AREA_ID": "2502365",
-    "AREA_ATTR_ID": "26022880",
-    "PARENT_AREA_ID": "None",
-    "AREA_SHORT_CODE": "173",
-    "AREA_LONG_CODE": "173",
-    "AREA_NAME": "North Toronto",
-    "AREA_DESC": "North Toronto (173)",
-    "CLASSIFICATION": "Not an NIA or Emerging Neighbourhood",
-    "CLASSIFICATION_CODE": "NA",
-    "OBJECTID": "17824753",
-    "geometry": "{\"type\": \"Polygon\", \"coordinates\": [[[-79.3974366551459, 43.7069299169967], [-79.3983665000037, 43.7067319904649], [-79.3986278375596, 43.7079854694331], [-79.3"
-   }
-  ]
- },
- "address-points-municipal-toronto-one-address-repository": {
-  "resources": [
-   {
-    "id": "0b3756af-9caf-4f0f-ac28-9c6617adede4",
-    "name": "Address Points",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "64d4e54b-738f-4cd9-a9e7-8050fac8a52f",
-    "name": "Address Points - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 183482154,
-    "last_modified": "2026-10-13T11:42:42.362634"
-   },
-   {
-    "id": "1773fd12-6df9-40d4-9280-b3d2f46253c9",
-    "name": "Address Points - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 1151086745,
-    "last_modified": "2026-10-13T11:42:48.141547"
-   },
-   {
-    "id": "f9557b4f-724f-47ff-9326-c9d55050f648",
-    "name": "Address Points - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 208244736,
-    "last_modified": "2026-10-13T11:42:55.546961"
-   },
-   {
-    "id": "b1c2ab72-dfe7-4b29-8550-6d1cfaa61733",
-    "name": "Address Points - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 590189015,
-    "last_modified": "2026-10-13T11:42:58.941225"
-   },
-   {
-    "id": "7d5590f0-cfd5-4381-87d0-baf7dbf4921c",
-    "name": "Address Points - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 184283543,
-    "last_modified": "2026-10-13T11:43:03.884670"
-   },
-   {
-    "id": "b1f62401-c064-4080-a8e0-117f9d5b1920",
-    "name": "Address Points - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 1151087033,
-    "last_modified": "2026-10-13T11:43:09.089638"
-   },
-   {
-    "id": "9a7495b3-055c-4c9c-b3b3-e164c3cc6b03",
-    "name": "Address Points - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 208228352,
-    "last_modified": "2026-10-13T11:43:16.539070"
-   },
-   {
-    "id": "205a52a3-7c88-49ec-ab8a-cc4c71a99935",
-    "name": "Address Points - 2952.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 589734715,
-    "last_modified": "2025-01-21T11:51:58.521497"
-   },
-   {
-    "id": "921563fc-aeab-4e1f-82bd-c7bdae6dc26a",
-    "name": "readme-address-feature-codes",
-    "format": "TXT",
-    "datastore_active": false,
-    "size": 1931,
-    "last_modified": "2019-07-23T16:30:55.648995"
-   }
-  ],
-  "fields": [
-   "_id",
-   "ADDRESS_POINT_ID",
-   "ADDRESS_ID",
-   "ADDRESS_STRING_ID",
-   "LINEAR_NAME_ID",
-   "CENTRELINE_ID",
-   "MAINT_STAGE",
-   "ADDRESS_NUMBER",
-   "LINEAR_NAME_FULL",
-   "LO_NUM",
-   "LO_NUM_SUF",
-   "HI_NUM",
-   "HI_NUM_SUF",
-   "LINEAR_NAME",
-   "LINEAR_NAME_TYPE",
-   "LINEAR_NAME_DIR",
-   "LINEAR_NAME_DESC",
-   "CENTRELINE_SIDE",
-   "CENTRELINE_MEASURE",
-   "CENTRELINE_OFFSET",
-   "GENERAL_USE_CODE",
-   "GENERAL_USE",
-   "CLASS_FAMILY",
-   "CLASS_FAMILY_DESC",
-   "ADDRESS_CLASS",
-   "ADDRESS_CLASS_DESC",
-   "ADDRESS_POINT_ID_LINK",
-   "ADDRESS_ID_LINK",
-   "PLACE_NAME",
-   "PLACE_NAME_ALL",
-   "ADDRESS_STATUS",
-   "OBJECTID",
-   "MUNICIPALITY",
-   "MUNICIPALITY_NAME",
-   "WARD",
-   "WARD_NAME",
-   "ADDRESS_FULL",
-   "geometry"
-  ],
-  "total": 525369,
-  "sample": [
-   {
-    "_id": "1",
-    "ADDRESS_POINT_ID": "1020891",
-    "ADDRESS_ID": "3732",
-    "ADDRESS_STRING_ID": "3813",
-    "LINEAR_NAME_ID": "2178",
-    "CENTRELINE_ID": "914579",
-    "MAINT_STAGE": "REGULAR",
-    "ADDRESS_NUMBER": "32",
-    "LINEAR_NAME_FULL": "Nineteenth St",
-    "LO_NUM": "32",
-    "LO_NUM_SUF": "None",
-    "HI_NUM": "None",
-    "HI_NUM_SUF": "None",
-    "LINEAR_NAME": "Nineteenth",
-    "LINEAR_NAME_TYPE": "St",
-    "LINEAR_NAME_DIR": "None",
-    "LINEAR_NAME_DESC": "None",
-    "CENTRELINE_SIDE": "L",
-    "CENTRELINE_MEASURE": "205.44",
-    "CENTRELINE_OFFSET": "21.39",
-    "GENERAL_USE_CODE": "115001",
-    "GENERAL_USE": "Unknown",
-    "CLASS_FAMILY": "11011",
-    "CLASS_FAMILY_DESC": "Land, Structure, Structure Entrance",
-    "ADDRESS_CLASS": "L",
-    "ADDRESS_CLASS_DESC": "Land",
-    "ADDRESS_POINT_ID_LINK": "None",
-    "ADDRESS_ID_LINK": "None",
-    "PLACE_NAME": "None",
-    "PLACE_NAME_ALL": "None",
-    "ADDRESS_STATUS": "None",
-    "OBJECTID": "37627757",
-    "MUNICIPALITY": "ET",
-    "MUNICIPALITY_NAME": "Etobicoke",
-    "WARD": "03",
-    "WARD_NAME": "Etobicoke-Lakeshore",
-    "ADDRESS_FULL": "32 Nineteenth St",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.5190367341825, 43.5996761490216]}"
-   },
-   {
-    "_id": "2",
-    "ADDRESS_POINT_ID": "1020865",
-    "ADDRESS_ID": "3054",
-    "ADDRESS_STRING_ID": "3106",
-    "LINEAR_NAME_ID": "2178",
-    "CENTRELINE_ID": "914579",
-    "MAINT_STAGE": "REGULAR",
-    "ADDRESS_NUMBER": "5",
-    "LINEAR_NAME_FULL": "Nineteenth St",
-    "LO_NUM": "5",
-    "LO_NUM_SUF": "None",
-    "HI_NUM": "None",
-    "HI_NUM_SUF": "None",
-    "LINEAR_NAME": "Nineteenth",
-    "LINEAR_NAME_TYPE": "St",
-    "LINEAR_NAME_DIR": "None",
-    "LINEAR_NAME_DESC": "None",
-    "CENTRELINE_SIDE": "R",
-    "CENTRELINE_MEASURE": "85.81",
-    "CENTRELINE_OFFSET": "22.55",
-    "GENERAL_USE_CODE": "115001",
-    "GENERAL_USE": "Unknown",
-    "CLASS_FAMILY": "11011",
-    "CLASS_FAMILY_DESC": "Land, Structure, Structure Entrance",
-    "ADDRESS_CLASS": "L",
-    "ADDRESS_CLASS_DESC": "Land",
-    "ADDRESS_POINT_ID_LINK": "None",
-    "ADDRESS_ID_LINK": "None",
-    "PLACE_NAME": "None",
-    "PLACE_NAME_ALL": "None",
-    "ADDRESS_STATUS": "None",
-    "OBJECTID": "37627758",
-    "MUNICIPALITY": "ET",
-    "MUNICIPALITY_NAME": "Etobicoke",
-    "WARD": "03",
-    "WARD_NAME": "Etobicoke-Lakeshore",
-    "ADDRESS_FULL": "5 Nineteenth St",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.5180804246363, 43.5987633869987]}"
-   }
-  ]
- },
- "traffic-signals-tabular": {
-  "resources": [
-   {
-    "id": "3991b036-9fdc-4f59-a930-147b090be0c6",
-    "name": "Traffic Beacon",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "414721ad-2e13-4aca-a421-39ff75e4f5ea",
-    "name": "Pedestrian Crossover",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "139e5357-0caf-4c9a-a6be-ce94d38bcfeb",
-    "name": "Traffic Signal",
-    "format": "GeoJSON",
-    "datastore_active": true,
-    "size": null,
-    "last_modified": null
-   },
-   {
-    "id": "68690966-eb29-45ca-99e2-dc9ecf73aee1",
-    "name": "Traffic Beacon - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 148290,
-    "last_modified": "2026-10-03T00:07:37.928226"
-   },
-   {
-    "id": "160fd735-ddbe-4152-a6ca-3817d3fb81b2",
-    "name": "Traffic Beacon - 2952.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 150963,
-    "last_modified": "2024-12-28T00:09:36.864141"
-   },
-   {
-    "id": "b3e8157c-4aed-4844-ab95-e95b5f89f4d5",
-    "name": "Traffic Beacon - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 282830,
-    "last_modified": "2026-10-03T00:07:35.461604"
-   },
-   {
-    "id": "b70fd2c3-c10a-406f-98c0-9c791da3da63",
-    "name": "Traffic Beacon - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 283118,
-    "last_modified": "2026-10-03T00:07:40.332662"
-   },
-   {
-    "id": "97a0eb86-fd61-48f0-8ca8-a928acd88bb1",
-    "name": "Traffic Beacon - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 172032,
-    "last_modified": "2026-10-03T00:07:36.716390"
-   },
-   {
-    "id": "9320faca-4b24-47d3-b795-0da32beb147c",
-    "name": "Traffic Beacon - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 176128,
-    "last_modified": "2026-10-03T00:07:41.521715"
-   },
-   {
-    "id": "3daea1c8-40c4-45bc-98a5-00ae033ad59d",
-    "name": "Traffic Beacon - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 60732,
-    "last_modified": "2026-10-03T00:07:34.221821"
-   },
-   {
-    "id": "e40ad092-49ce-4e6c-9997-bb95d13d4cce",
-    "name": "Pedestrian Crossover - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 87976,
-    "last_modified": "2026-10-10T00:06:26.147865"
-   },
-   {
-    "id": "eba0c5ab-9089-4ee8-a51a-f85b4e17297a",
-    "name": "Pedestrian Crossover - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 87594,
-    "last_modified": "2026-10-10T00:06:32.283882"
-   },
-   {
-    "id": "e331c953-7e49-418b-9eab-594881c76f33",
-    "name": "Traffic Signal - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 2658524,
-    "last_modified": "2026-10-10T00:07:15.285374"
-   },
-   {
-    "id": "e5de4efa-dd1b-4b40-bc10-fa6b976e379a",
-    "name": "Traffic Signal - 2952.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 2605967,
-    "last_modified": "2025-03-15T00:08:25.958758"
-   },
-   {
-    "id": "2305ef1f-ea25-4440-b607-86f3c4a601ec",
-    "name": "Traffic Signal - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 5349831,
-    "last_modified": "2026-10-10T00:07:12.876980"
-   },
-   {
-    "id": "49fd2dd3-9e8e-4d36-905c-1ea87ae9d0ec",
-    "name": "Traffic Signal - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 5350119,
-    "last_modified": "2026-10-10T00:07:17.659698"
-   },
-   {
-    "id": "235ee346-cdd7-4e3b-a351-1a4800438896",
-    "name": "Traffic Signal - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 1097728,
-    "last_modified": "2026-10-10T00:07:14.101134"
-   },
-   {
-    "id": "c4017129-51c1-4846-b431-4a98df11aea8",
-    "name": "Traffic Signal - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 1097728,
-    "last_modified": "2026-10-10T00:07:18.858084"
-   },
-   {
-    "id": "aeda8fd7-e1d6-4d34-b62a-a7d6be10cc96",
-    "name": "Traffic Signal - 4326.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 879043,
-    "last_modified": "2026-10-10T00:07:11.640221"
-   },
-   {
-    "id": "9f5c257a-cb10-43cc-bab6-d71ba9f108dc",
-    "name": "Traffic Signal - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 876966,
-    "last_modified": "2026-10-10T00:07:16.499481"
-   },
-   {
-    "id": "cd681297-48cd-442b-93a3-0ec11711a67d",
-    "name": "Traffic Beacon - 2952.csv",
-    "format": "CSV",
-    "datastore_active": false,
-    "size": 60482,
-    "last_modified": "2026-10-03T00:07:39.203472"
-   },
-   {
-    "id": "414b8e5f-9f73-4ece-a8dc-a6f74d25662d",
-    "name": "Pedestrian Crossover - 4326.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 208689,
-    "last_modified": "2026-10-10T00:06:30.963200"
-   },
-   {
-    "id": "c47ca9d6-fdb1-45ed-a3d5-0683534e0a01",
-    "name": "Pedestrian Crossover - 2952.geojson",
-    "format": "GeoJSON",
-    "datastore_active": false,
-    "size": 209550,
-    "last_modified": "2024-12-28T00:08:22.803263"
-   },
-   {
-    "id": "c3992050-a637-4882-938f-aa36ce2d8216",
-    "name": "Pedestrian Crossover - 4326.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 391232,
-    "last_modified": "2026-10-10T00:06:28.141509"
-   },
-   {
-    "id": "d07e35c4-62d2-4ed5-b755-761667b89779",
-    "name": "Pedestrian Crossover - 2952.zip",
-    "format": "SHP",
-    "datastore_active": false,
-    "size": 391520,
-    "last_modified": "2026-10-10T00:06:33.538495"
-   },
-   {
-    "id": "fca93cae-ca80-43d3-b6a4-27d153776a90",
-    "name": "Pedestrian Crossover - 4326.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 217088,
-    "last_modified": "2026-10-10T00:06:29.675549"
-   },
-   {
-    "id": "465fcd16-a9a2-4ab0-b5c6-edcadfb4173f",
-    "name": "Pedestrian Crossover - 2952.gpkg",
-    "format": "gpkg",
-    "datastore_active": false,
-    "size": 212992,
-    "last_modified": "2026-10-10T00:06:34.802152"
-   },
-   {
-    "id": "8098ddfa-ec61-4c23-afd7-76830be73e4e",
-    "name": "Traffic Signal Tabular Readme",
-    "format": "XLSX",
-    "datastore_active": "False",
-    "size": 71927,
-    "last_modified": "2022-07-21T20:30:34.715766"
-   }
-  ],
-  "fields": [
-   "_id",
-   "PX",
-   "MAIN_STREET",
-   "MIDBLOCK_ROUTE",
-   "SIDE1_STREET",
-   "SIDE2_STREET",
-   "PRIVATE_ACCESS",
-   "ADDITIONAL_INFO",
-   "OBJECTID",
-   "GEO_ID",
-   "NODE_ID",
-   "MI_PRINX",
-   "geometry"
-  ],
-  "total": 358,
-  "sample": [
-   {
-    "_id": "1",
-    "PX": "7002",
-    "MAIN_STREET": "WILLIAM R ALLEN RD",
-    "MIDBLOCK_ROUTE": "150m NORTH OF",
-    "SIDE1_STREET": "TRANSIT RD",
-    "SIDE2_STREET": "None",
-    "PRIVATE_ACCESS": "None",
-    "ADDITIONAL_INFO": "None",
-    "OBJECTID": "3059",
-    "GEO_ID": "442309",
-    "NODE_ID": "None",
-    "MI_PRINX": "3059",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.45545999962326, 43.74286999921512]}"
-   },
-   {
-    "_id": "2",
-    "PX": "7003",
-    "MAIN_STREET": "ARROW RD",
-    "MIDBLOCK_ROUTE": "355m NORTH OF",
-    "SIDE1_STREET": "LIDO RD",
-    "SIDE2_STREET": "None",
-    "PRIVATE_ACCESS": "None",
-    "ADDITIONAL_INFO": "None",
-    "OBJECTID": "3060",
-    "GEO_ID": "11267778",
-    "NODE_ID": "None",
-    "MI_PRINX": "3060",
-    "geometry": "{\"type\": \"Point\", \"coordinates\": [-79.52922000492852, 43.74447000245013]}"
-   }
-  ]
- },
- "school-zones": {
-  "error": "HTTP Error 404: Not Found"
- },
- "sql_311_types": "error: ",
- "ttc_alerts/all": {
-  "len": 115208,
-  "head": "header {\r\n  gtfs_realtime_version: \"2.0\"\r\n  incrementality: FULL_DATASET\r\n  timestamp: 1791934712\r\n}\r\nentity {\r\n  id: \"78086\"\r\n  alert {\r\n    active_period {\r\n      start: 1792119600\r\n      end: 1792141200\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15661\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15660\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15656\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15657\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15666\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15667\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15659\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15658\"\r\n    }\r\n    cause: MAINTENANCE\r\n    effect: REDUCED_SERVICE\r\n    header_text {\r\n      translation {\r\n        text: \"Line 1 Yonge-University: There is limited subway service between Vaughan and Finch West stations for structural and signal maintenance.\"\r\n        language: \"en\"\r\n      }\r\n    }\r\n    description_text {\r\n      translation {\r\n        text: \"This will allow TTC crews to complete work on the opposite track while subway service continues on the other side of the tracks. Customers may experience delays of up to 15 minutes between Vaughan Metropolitan Centre and Finch West stations during this time. Trains entering Vaughan Metropolitan Centre and Finch West stations may enter on the opposite side they normally enter on. Customers will be required to transfer trains at Finch West Station to continue their northbound journey.\"\r\n        language: \"en\"\r\n      }\r\n    }\r\n  }\r\n}\r\nentity {\r\n  id: \"78085\"\r\n  alert {\r\n    active_period {\r\n      start: 1792033200\r\n      end: 1792054800\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15661\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15660\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15656\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15657\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15666\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15667\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15659\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15658\"\r\n    }\r\n    cause: MAINTENANCE\r\n    effect: REDUCED_SERVICE\r\n    header_text {\r\n      translation "
- },
- "ttc_alerts/subway": {
-  "len": 14294,
-  "head": "header {\r\n  gtfs_realtime_version: \"2.0\"\r\n  incrementality: FULL_DATASET\r\n  timestamp: 1791934712\r\n}\r\nentity {\r\n  id: \"78086\"\r\n  alert {\r\n    active_period {\r\n      start: 1792119600\r\n      end: 1792141200\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15661\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15660\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15656\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15657\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15666\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15667\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15659\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15658\"\r\n    }\r\n    cause: MAINTENANCE\r\n    effect: REDUCED_SERVICE\r\n    header_text {\r\n      translation {\r\n        text: \"Line 1 Yonge-University: There is limited subway service between Vaughan and Finch West stations for structural and signal maintenance.\"\r\n        language: \"en\"\r\n      }\r\n    }\r\n    description_text {\r\n      translation {\r\n        text: \"This will allow TTC crews to complete work on the opposite track while subway service continues on the other side of the tracks. Customers may experience delays of up to 15 minutes between Vaughan Metropolitan Centre and Finch West stations during this time. Trains entering Vaughan Metropolitan Centre and Finch West stations may enter on the opposite side they normally enter on. Customers will be required to transfer trains at Finch West Station to continue their northbound journey.\"\r\n        language: \"en\"\r\n      }\r\n    }\r\n  }\r\n}\r\nentity {\r\n  id: \"78085\"\r\n  alert {\r\n    active_period {\r\n      start: 1792033200\r\n      end: 1792054800\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15661\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15660\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15656\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15657\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15666\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15667\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15659\"\r\n    }\r\n    informed_entity {\r\n      route_id: \"1\"\r\n      stop_id: \"15658\"\r\n    }\r\n    cause: MAINTENANCE\r\n    effect: REDUCED_SERVICE\r\n    header_text {\r\n      translation "
- },
- "ttc_trips/detour": {
-  "len": 179372,
-  "head": "{\r\n  \"header\": {\r\n    \"gtfsRealtimeVersion\": \"2.0\"\r\n  },\r\n  \"entity\": [\r\n    {\r\n      \"id\": \"detour_0_696:0_0_1217_113_Kennedy Station\",\r\n      \"tripModifications\": {\r\n        \"selectedTrips\": [\r\n          {\r\n            \"tripIds\": [\r\n              \"100376070\",\r\n              \"100771070\",\r\n              \"100837010\",\r\n              \"10273080\",\r\n              \"103000070\",\r\n              \"103697020\",\r\n              \"103855010\",\r\n              \"105093010\",\r\n              \"105269070\",\r\n              \"105432020\",\r\n              \"106273010\",\r\n              \"109328010\",\r\n              \"109428070\",\r\n              \"111569070\",\r\n              \"111985020\",\r\n              \"112099010\",\r\n              \"114135020\",\r\n              \"114302010\",\r\n              \"114433020\",\r\n              \"114480070\",\r\n              \"115310010\",\r\n              \"115328070\",\r\n              \"115874010\",\r\n              \"11591020\",\r\n              \"115959010\",\r\n              \"116427020\",\r\n              \"117184070\",\r\n              \"118716020\",\r\n              \"119882020\",\r\n              \"120113070\",\r\n              \"12015070\",\r\n              \"120431070\",\r\n              \"12224010\",\r\n              \"122320010\",\r\n              \"123261010\",\r\n              \"12451020\",\r\n              \"125794010\",\r\n              \"12597070\",\r\n              \"127072070\",\r\n              \"127798010\",\r\n              \"128344070\",\r\n              \"129397070\",\r\n              \"131327010\",\r\n              \"131946020\",\r\n              \"131965020\",\r\n              \"132028070\",\r\n              \"132101010\",\r\n              \"133170070\",\r\n              \"13432010\",\r\n              \"13557020\",\r\n              \"13604020\",\r\n              \"13807070\",\r\n              \"14735010\",\r\n              \"15323010\",\r\n              \"1536070\",\r\n              \"16047020\",\r\n              \"16268070\",\r\n              \"17608070\",\r\n              \"19367010\",\r\n              \"2092010\",\r\n              \"22401020\",\r\n              \"22837010\",\r\n              \"23322010\",\r\n              \"24091070\",\r\n              \"2427020\",\r\n              \"24730020\",\r\n              \"25656020\",\r\n              \"2584070\",\r\n              \"26265070\",\r\n              \"28119070\",\r\n              \"2854070\",\r\n              \"29444020\",\r\n              \"3019070\",\r\n              \"31953070\",\r\n              \"32209070\",\r\n              \"32551020\",\r\n              \"3266010\",\r\n              \"32745010\",\r\n              \"33215010\",\r\n              \"33500010\",\r\n              \"33624070\",\r\n              \"33846020\",\r\n              \"3"
- },
- "ttc_alerts_binary_len": 60968,
- "go_gtfs": {
-  "files": [
-   "agency.txt",
-   "routes.txt",
-   "stops.txt",
-   "stop_times.txt",
-   "trips.txt",
-   "feed_info.txt",
-   "calendar_dates.txt",
-   "shapes.txt",
-   "fare_rules.txt",
-   "fare_attributes.txt",
-   "transfers.txt",
-   "stop_amenities.txt"
-  ],
-  "routes": [
-   {
-    "route_id": "09261126-ST",
-    "route_short_name": "ST",
-    "route_long_name": "Stouffville",
-    "route_type": "2"
-   },
-   {
-    "route_id": "09261126-RH",
-    "route_short_name": "RH",
-    "route_long_name": "Richmond Hill",
-    "route_type": "2"
-   },
-   {
-    "route_id": "09261126-MI",
-    "route_short_name": "MI",
-    "route_long_name": "Milton",
-    "route_type": "2"
-   },
-   {
-    "route_id": "09261126-LW",
-    "route_short_name": "LW",
-    "route_long_name": "Lakeshore West",
-    "route_type": "2"
+  "trip_sample": [
+   {
+    "route_id": "09261126-LE",
+    "service_id": "20261127",
+    "trip_id": "20261127-LE-9019",
+    "trip_headsign": "LE - Union Station GO",
+    "trip_short_name": "",
+    "direction_id": "1",
+    "block_id": "27A",
+    "shape_id": "OSUN",
+    "wheelchair_accessible": "1",
+    "bikes_allowed": "1",
+    "route_variant": ""
    },
    {
     "route_id": "09261126-LE",
-    "route_short_name": "LE",
-    "route_long_name": "Lakeshore East",
-    "route_type": "2"
-   },
-   {
-    "route_id": "09261126-GT",
-    "route_short_name": "KI",
-    "route_long_name": "Kitchener",
-    "route_type": "2"
-   },
-   {
-    "route_id": "09261126-BR",
-    "route_short_name": "BR",
-    "route_long_name": "Barrie",
-    "route_type": "2"
+    "service_id": "20261127",
+    "trip_id": "20261127-LE-9128",
+    "trip_headsign": "LE - Durham College Oshawa GO",
+    "trip_short_name": "",
+    "direction_id": "0",
+    "block_id": "18A",
+    "shape_id": "UNOS",
+    "wheelchair_accessible": "1",
+    "bikes_allowed": "2",
+    "route_variant": ""
    }
   ],
-  "stops_sample": [
+  "n_trips": 5872,
+  "cd_sample": [
    {
-    "stop_id": "SC",
-    "stop_name": "Scarborough GO",
-    "stop_lat": "43.716945",
-    "stop_lon": "-79.254722",
-    "zone_id": "06",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/SC/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": ""
+    "service_id": "20261127",
+    "date": "20261127",
+    "exception_type": "1"
    },
    {
-    "stop_id": "RO",
-    "stop_name": "Rouge Hill GO",
-    "stop_lat": "43.780375",
-    "stop_lon": "-79.130646",
-    "zone_id": "09",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/RO/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": ""
+    "service_id": "20261126",
+    "date": "20261126",
+    "exception_type": "1"
    },
    {
-    "stop_id": "MK",
-    "stop_name": "Milliken GO",
-    "stop_lat": "43.823227",
-    "stop_lon": "-79.301785",
-    "zone_id": "70",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/MK/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": ""
-   },
-   {
-    "stop_id": "KE",
-    "stop_name": "Kennedy GO",
-    "stop_lat": "43.733045",
-    "stop_lon": "-79.262706",
-    "zone_id": "77",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/KE/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": ""
-   },
-   {
-    "stop_id": "GU",
-    "stop_name": "Guildwood GO",
-    "stop_lat": "43.755272",
-    "stop_lon": "-79.198252",
-    "zone_id": "08",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/GU/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": ""
-   },
-   {
-    "stop_id": "EG",
-    "stop_name": "Eglinton GO",
-    "stop_lat": "43.739621",
-    "stop_lon": "-79.23231",
-    "zone_id": "08",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/EG/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": ""
-   },
-   {
-    "stop_id": "AG",
-    "stop_name": "Agincourt GO",
-    "stop_lat": "43.78611",
-    "stop_lon": "-79.284385",
-    "zone_id": "07",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/AG/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": ""
-   },
-   {
-    "stop_id": "02816",
-    "stop_name": "Scarborough Centre Bus Terminal",
-    "stop_lat": "43.77486",
-    "stop_lon": "-79.26088",
-    "zone_id": "07",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/02816/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "102816"
-   },
-   {
-    "stop_id": "02144",
-    "stop_name": "YMCA Blvd. @ Kennedy Rd.",
-    "stop_lat": "43.8535728",
-    "stop_lon": "-79.3085709",
-    "zone_id": "71",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/02144/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "102144"
-   },
-   {
-    "stop_id": "02141",
-    "stop_name": "YMCA Blvd. @ Kennedy Rd.",
-    "stop_lat": "43.8532639",
-    "stop_lon": "-79.3093185",
-    "zone_id": "71",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/02141/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "102141"
-   },
-   {
-    "stop_id": "01445",
-    "stop_name": "Eglinton Ave. W. @ Summersky Crt.",
-    "stop_lat": "43.5625381",
-    "stop_lon": "-79.7030792",
-    "zone_id": "21",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/01445/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "101445"
-   },
-   {
-    "stop_id": "01444",
-    "stop_name": "Eglinton Ave. W. @ Credit Valley Rd.",
-    "stop_lat": "43.5619164",
-    "stop_lon": "-79.7030182",
-    "zone_id": "21",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/01444/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "101444"
-   },
-   {
-    "stop_id": "01374",
-    "stop_name": "Steeles Ave. E. @ Kennedy Rd. S.",
-    "stop_lat": "43.6751747",
-    "stop_lon": "-79.7234573",
-    "zone_id": "33",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/01374/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "101374"
-   },
-   {
-    "stop_id": "01373",
-    "stop_name": "Steeles Ave. E. @ Kennedy Rd. S.",
-    "stop_lat": "43.6759148",
-    "stop_lon": "-79.7218475",
-    "zone_id": "33",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/01373/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "101373"
-   },
-   {
-    "stop_id": "01235",
-    "stop_name": "Eglinton Ave. W. @ Mississauga Rd.",
-    "stop_lat": "43.5688934",
-    "stop_lon": "-79.6957703",
-    "zone_id": "21",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/01235/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "101235"
-   },
-   {
-    "stop_id": "01234",
-    "stop_name": "Eglinton Ave. W. @ Mississauga Rd.",
-    "stop_lat": "43.5683022",
-    "stop_lon": "-79.695961",
-    "zone_id": "21",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/01234/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "101234"
-   },
-   {
-    "stop_id": "01191",
-    "stop_name": "Creditview Rd. @ Eglinton Ave.",
-    "stop_lat": "43.577282",
-    "stop_lon": "-79.6845093",
-    "zone_id": "40",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/01191/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "101191"
-   },
-   {
-    "stop_id": "00623",
-    "stop_name": "Kingston Rd. @ Rougemount Dr.",
-    "stop_lat": "43.80911",
-    "stop_lon": "-79.12996",
-    "zone_id": "91",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/00623/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "100623"
-   },
-   {
-    "stop_id": "00622",
-    "stop_name": "Kingston Rd. @ Rougemount Dr.",
-    "stop_lat": "43.8096542",
-    "stop_lon": "-79.129097",
-    "zone_id": "91",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/00622/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "100622"
-   },
-   {
-    "stop_id": "00144",
-    "stop_name": "University of Toronto Scarborough",
-    "stop_lat": "43.7843628",
-    "stop_lon": "-79.1851273",
-    "zone_id": "89",
-    "stop_url": "https://www.gotransit.com/find-a-station-or-stop/00144/station-details",
-    "location_type": "0",
-    "parent_station": "",
-    "wheelchair_boarding": "1",
-    "stop_code": "100144"
+    "service_id": "20261125",
+    "date": "20261125",
+    "exception_type": "1"
    }
   ],
-  "has_shapes": true
- },
- "overpass_crossings": {
-  "n": 211,
-  "sample": [
-   {
-    "type": "node",
-    "id": 32497946,
-    "lat": 43.7309777,
-    "lon": -79.267453,
-    "tags": {
-     "crossing:barrier": "no",
-     "crossing:light": "yes",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 38590919,
-    "lat": 43.7226561,
-    "lon": -79.2748579,
-    "tags": {
-     "crossing:barrier": "no",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 39461212,
-    "lat": 43.8339121,
-    "lon": -79.1718045,
-    "tags": {
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 44264890,
-    "lat": 43.7600998,
-    "lon": -79.1703034,
-    "tags": {
-     "crossing:barrier": "full",
-     "crossing:gates": "no",
-     "crossing:light": "no",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 48379973,
-    "lat": 43.7191849,
-    "lon": -79.2840423,
-    "tags": {
-     "crossing:barrier": "no",
-     "crossing:light": "yes",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 48380008,
-    "lat": 43.718818,
-    "lon": -79.2876208,
-    "tags": {
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 48380014,
-    "lat": 43.7191779,
-    "lon": -79.2918699,
-    "tags": {
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 48380037,
-    "lat": 43.7197876,
-    "lon": -79.2928937,
-    "tags": {
-     "crossing:barrier": "no",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 137437730,
-    "lat": 43.7511828,
-    "lon": -79.2113072,
-    "tags": {
-     "crossing:barrier": "yes",
-     "crossing:light": "yes",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 249642599,
-    "lat": 43.7600387,
-    "lon": -79.1718232,
-    "tags": {
-     "crossing:barrier": "yes",
-     "crossing:light": "yes",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 249642667,
-    "lat": 43.7646146,
-    "lon": -79.1519033,
-    "tags": {
-     "crossing:barrier": "yes",
-     "crossing:light": "yes",
-     "railway": "level_crossing"
-    }
-   },
-   {
-    "type": "node",
-    "id": 257892965,
-    "lat": 43.8211358,
-    "lon": -79.2302574,
-    "tags": {
-     "crossing:barrier": "yes",
-     "crossing:light": "yes",
-     "railway": "level_crossing"
-    }
-   }
+  "cd_dates": [
+   "20261005",
+   "20261006",
+   "20261007",
+   "20261125",
+   "20261126",
+   "20261127"
+  ],
+  "st_head": {
+   "trip_id": "20261127-56-56720",
+   "arrival_time": "22:40:00",
+   "departure_time": "22:40:00",
+   "stop_id": "00137",
+   "stop_sequence": "32",
+   "pickup_type": "0",
+   "drop_off_type": "0",
+   "stop_headsign": ""
+  },
+  "shape_head": {
+   "shape_id": "447270",
+   "shape_pt_lat": "43.8520170",
+   "shape_pt_lon": "-79.3145270",
+   "shape_pt_sequence": "2855"
+  },
+  "shapes_for": [
+   [
+    "OSUN",
+    2096
+   ],
+   [
+    "UNOS",
+    2096
+   ],
+   [
+    "UNMJ",
+    357
+   ],
+   [
+    "MJUN",
+    357
+   ],
+   [
+    "LIUN",
+    288
+   ],
+   [
+    "UNLI",
+    288
+   ]
   ]
  },
- "holidays": [
-  {
-   "id": 1,
-   "date": "2026-01-01",
-   "nameEn": "New Year\u2019s Day",
-   "nameFr": "Jour de l\u2019An",
-   "federal": 1,
-   "observedDate": "2026-01-01"
-  },
-  {
-   "id": 5,
-   "date": "2026-02-16",
-   "nameEn": "Family Day",
-   "nameFr": "F\u00eate de la famille",
-   "federal": 0,
-   "observedDate": "2026-02-16"
-  },
-  {
-   "id": 8,
-   "date": "2026-04-03",
-   "nameEn": "Good Friday",
-   "nameFr": "Vendredi saint",
-   "federal": 1,
-   "observedDate": "2026-04-03"
-  },
-  {
-   "id": 12,
-   "date": "2026-05-18",
-   "nameEn": "Victoria Day",
-   "nameFr": "F\u00eate de la Reine",
-   "federal": 1,
-   "observedDate": "2026-05-18"
-  },
-  {
-   "id": 16,
-   "date": "2026-07-01",
-   "nameEn": "Canada Day",
-   "nameFr": "F\u00eate du Canada",
-   "federal": 1,
-   "observedDate": "2026-07-01"
-  },
-  {
-   "id": 28,
-   "date": "2026-09-07",
-   "nameEn": "Labour Day",
-   "nameFr": "F\u00eate du travail",
-   "federal": 1,
-   "observedDate": "2026-09-07"
-  },
-  {
-   "id": 32,
-   "date": "2026-10-12",
-   "nameEn": "Thanksgiving",
-   "nameFr": "Action de gr\u00e2ce",
-   "federal": 1,
-   "observedDate": "2026-10-12"
-  },
-  {
-   "id": 34,
-   "date": "2026-12-25",
-   "nameEn": "Christmas Day",
-   "nameFr": "No\u00ebl",
-   "federal": 1,
-   "observedDate": "2026-12-25"
-  },
-  {
-   "id": 35,
-   "date": "2026-12-26",
-   "nameEn": "Boxing Day",
-   "nameFr": "Lendemain de No\u00ebl",
-   "federal": 1,
-   "observedDate": "2026-12-28"
-  }
- ]
+ "profiles": {
+  "files": [
+   "[Content_Types].xml",
+   "_rels/.rels",
+   "xl/workbook.xml",
+   "xl/_rels/workbook.xml.rels",
+   "xl/worksheets/sheet1.xml",
+   "xl/worksheets/sheet2.xml",
+   "xl/theme/theme1.xml",
+   "xl/styles.xml",
+   "xl/sharedStrings.xml",
+   "docProps/core.xml",
+   "docProps/app.xml"
+  ],
+  "size": 1763175
+ }
 }
