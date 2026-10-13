@@ -329,8 +329,31 @@ def ckan_resource(slug, want):
 
 def build_stations(status):
     try:
-        url = ckan_resource("fire-station-locations", ["geojson", "json"])
-        d = get(url, timeout=60)
+        pkg = get(f"{CKAN}/api/3/action/package_show", {"id": "fire-station-locations"})
+        res = pkg["result"]["resources"]
+        print("fire station resources:", [(r.get("format"), r.get("datastore_active"), (r.get("url") or "")[-60:]) for r in res])
+        d = None
+        for r in sorted(res, key=lambda r: {"geojson": 0, "json": 1}.get((r.get("format") or "").lower(), 9)):
+            fmt = (r.get("format") or "").lower()
+            if fmt not in ("geojson", "json") or not r.get("url"):
+                continue
+            raw = get(r["url"], timeout=60, raw=True)
+            try:
+                d = json.loads(raw.decode("utf-8-sig"))
+            except Exception:
+                print("not json from", r["url"][-60:], raw[:120])
+                continue
+            if isinstance(d, dict) and d.get("features"):
+                break
+        if not d and any(r.get("datastore_active") for r in res):  # fall back to the CKAN datastore API
+            rid = next(r["id"] for r in res if r.get("datastore_active"))
+            rows = get(f"{CKAN}/api/3/action/datastore_search", {"resource_id": rid, "limit": 500})["result"]["records"]
+            d = {"features": []}
+            for row in rows:
+                g = row.get("geometry")
+                g = json.loads(g) if isinstance(g, str) else g
+                d["features"].append({"properties": row, "geometry": g})
+        d = d or {}
         out = []
         for f in d.get("features", []):
             p = f.get("properties", {})
@@ -347,11 +370,12 @@ def build_stations(status):
             digits = "".join(ch for ch in sid if ch.isdigit())
             out.append({"id": digits or sid, "name": p.get("NAME") or sid, "lat": round(lat, 6), "lng": round(lng, 6)})
         if not out:
-            print("fire station sample props:", d.get("features", [{}])[0].get("properties"))
+            feats = d.get("features") or [{}]
+            raise RuntimeError(f"no Scarborough stations; resources {[(r.get('format'), r.get('datastore_active')) for r in res]}; first props {str(feats[0].get('properties'))[:200]}; geom {str(feats[0].get('geometry'))[:80]}")
         status["stations"] = f"live ({len(out)})"
         return out
     except Exception as e:
-        status["stations"] = f"down: {e}"
+        status["stations"] = f"down: {e}"[:600]
         return []
 
 
@@ -480,7 +504,7 @@ def main():
         st = load("gridlock_static.json")
         age = time.time() - iso_to_epoch(st.get("generated", ""))
         stale = age > 6.5 * 86400 or not st.get("ttc") or not st.get("stations")
-        stale = stale and age > 3600  # don't hammer if a source is down: retry hourly at most
+        stale = stale and age > 1200  # don't hammer if a source is down: retry every 20 min at most
     except Exception:
         st = None
     if stale or "--static" in sys.argv:
