@@ -1,11 +1,47 @@
 {
-  "generated": "2026-10-14T23:34:33.751286+00:00",
+  "generated": "2026-10-14T23:49:33.537621+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163952",
+      "source": "fire",
+      "lat": 43.6685917,
+      "lng": -79.3858894,
+      "type": "Fire - Grass/Rubbish",
+      "type_plain": "Fire - Grass/Rubbish",
+      "severity": "medium",
+      "division": "313",
+      "location": "JARVIS ST & WELLESLEY ST E",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-14T23:37:26+00:00",
+      "related": [
+        {
+          "id": "tps_2a56d1a04159",
+          "distance_m": 568,
+          "minutes_apart": 78
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26163948",
+      "source": "fire",
+      "lat": 43.7582794,
+      "lng": -79.3193035,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "233",
+      "location": "North York - COMBERMERE DR & PARKWOODS VILLAGE DR",
+      "approximate": false,
+      "units": "A233, P233",
+      "ts": "2026-10-14T23:26:45+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26163943",
       "source": "fire",
@@ -478,7 +514,13 @@
       "division": "D53",
       "location": "ROSEDALE VALLEY RD - PARK RD",
       "ts": "2026-10-14T22:19:37+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26163952",
+          "distance_m": 568,
+          "minutes_apart": 78
+        }
+      ]
     },
     {
       "id": "tps_6a7d0940df99",
@@ -9331,11 +9373,6 @@
           "id": "tps_a04e50edcf7e",
           "distance_m": 531,
           "minutes_apart": 161
-        },
-        {
-          "id": "tfs_F26163337",
-          "distance_m": 571,
-          "minutes_apart": 146
         }
       ]
     },
@@ -9394,11 +9431,6 @@
           "id": "tps_01225e7a1e7e",
           "distance_m": 228,
           "minutes_apart": 56
-        },
-        {
-          "id": "tps_90bde7f414da",
-          "distance_m": 374,
-          "minutes_apart": 129
         },
         {
           "id": "tps_d4713d3baf1d",
@@ -10104,11 +10136,6 @@
       "ts": "2026-10-13T23:53:23+00:00",
       "related": [
         {
-          "id": "tfs_F26163337",
-          "distance_m": 348,
-          "minutes_apart": 17
-        },
-        {
           "id": "tps_5556cad82b93",
           "distance_m": 525,
           "minutes_apart": 159
@@ -10133,122 +10160,9 @@
           "minutes_apart": 5
         }
       ]
-    },
-    {
-      "id": "tps_90bde7f414da",
-      "source": "police",
-      "lat": 43.649318288421924,
-      "lng": -79.39364443739493,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "PETER ST - SPADINA AVE",
-      "ts": "2026-10-13T23:44:18+00:00",
-      "related": [
-        {
-          "id": "tps_fb7b6d3849d6",
-          "distance_m": 374,
-          "minutes_apart": 129
-        }
-      ]
-    },
-    {
-      "id": "tps_bc95b2e69819",
-      "source": "police",
-      "lat": 43.6918622842442,
-      "lng": -79.53085307645426,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "D23",
-      "location": "ROYAL YORK RD - WESTON WOOD RD",
-      "ts": "2026-10-13T23:43:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1fa81cc001e2",
-      "source": "police",
-      "lat": 43.75894878634391,
-      "lng": -79.51809281227965,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D31",
-      "location": "FINCH AVE W - FINCH CORRIDOR TRL",
-      "ts": "2026-10-13T23:39:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2e0d375f241f",
-      "source": "police",
-      "lat": 43.7508304878708,
-      "lng": -79.5633796877265,
-      "type": "MISCH",
-      "type_plain": "Mischief",
-      "severity": "medium",
-      "division": "D31",
-      "location": "TOPEKA RD - DUNCANWOODS DR",
-      "ts": "2026-10-13T23:36:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26163337",
-      "source": "fire",
-      "lat": 43.6525616,
-      "lng": -79.3686984,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "333",
-      "location": "Toronto - ADELAIDE ST & SHERBOURNE ST",
-      "approximate": false,
-      "units": "P333, T333",
-      "ts": "2026-10-13T23:36:18+00:00",
-      "related": [
-        {
-          "id": "tps_82450490498e",
-          "distance_m": 348,
-          "minutes_apart": 17
-        },
-        {
-          "id": "tps_37e79be7f499",
-          "distance_m": 571,
-          "minutes_apart": 146
-        }
-      ]
-    },
-    {
-      "id": "tps_4e870fa5dee4",
-      "source": "police",
-      "lat": 43.665137009461795,
-      "lng": -79.41120693468322,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D14",
-      "location": "BATHURST ST - BLOOR ST W",
-      "ts": "2026-10-13T23:36:18+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 1.3,
-      "ratio": 4.5,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_dfa42d4f2733",
-        "tps_4dd2bf4e733d",
-        "tps_247d0caca9fa",
-        "tps_b92ce7d09a7d",
-        "tps_a37c82e7a9db"
-      ]
-    },
     {
       "source": "police",
       "division": "D51",
@@ -10267,26 +10181,26 @@
     },
     {
       "source": "police",
-      "division": "D23",
+      "division": "D52",
       "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.2,
+      "baseline_avg": 1.3,
+      "ratio": 3.8,
       "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_49627a93feda",
-        "tps_21993471a447",
-        "tps_5f165966aaa6",
-        "tps_f889a52af929",
-        "tps_515512db1e7b"
+        "tps_dfa42d4f2733",
+        "tps_4dd2bf4e733d",
+        "tps_247d0caca9fa",
+        "tps_b92ce7d09a7d",
+        "tps_a37c82e7a9db"
       ]
     },
     {
       "source": "police",
       "division": "D11",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.9,
-      "ratio": 3.2,
+      "ratio": 2.6,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
@@ -10299,25 +10213,10 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.1,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2b5bbc834ae9",
-        "tps_bf58577002fe",
-        "tps_1c60d0394e3b",
-        "tps_b9caf8ff3a57"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 2.7,
-      "ratio": 3.0,
+      "ratio": 2.6,
       "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
@@ -10330,17 +10229,17 @@
     },
     {
       "source": "police",
-      "division": "D22",
+      "division": "D23",
       "current_count": 4,
       "baseline_avg": 1.6,
       "ratio": 2.5,
-      "sample_days": 10,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_bb9817f150e4",
-        "tps_488d8ff72e1e",
-        "tps_50c3e98038b8",
-        "tps_0fe2978cf91f"
+        "tps_49627a93feda",
+        "tps_21993471a447",
+        "tps_5f165966aaa6",
+        "tps_f889a52af929"
       ]
     },
     {
@@ -10355,22 +10254,6 @@
         "tps_178f69e25836",
         "tps_659d0cf2c904",
         "tps_ccfbe6e1bc36"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.2,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_70a3227873bd",
-        "tps_bbf87ff3fc86",
-        "tps_0d14303f7631",
-        "tps_94bf7832a876",
-        "tps_7dc820cbad2d"
       ]
     },
     {
