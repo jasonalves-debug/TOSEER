@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T18:34:08.293339+00:00",
+  "generated": "2026-10-14T18:49:08.718223+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -9316,106 +9316,9 @@
           "minutes_apart": 59
         }
       ]
-    },
-    {
-      "id": "tps_8f5fc767e105",
-      "source": "police",
-      "lat": 43.771695191471466,
-      "lng": -79.41459646439912,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D32",
-      "location": "CANTERBURY PL - BEECROFT RD",
-      "ts": "2026-10-13T18:43:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_82ff2569e5a5",
-      "source": "police",
-      "lat": 43.70707870698027,
-      "lng": -79.39682544733333,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "HOLLY ST - EGLINTON AVE E",
-      "ts": "2026-10-13T18:40:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0e0f092e92ba",
-      "source": "police",
-      "lat": 43.732926676444706,
-      "lng": -79.40424144612284,
-      "type": "ROB",
-      "type_plain": "ROB",
-      "severity": "low",
-      "division": "D32",
-      "location": "GOLFDALE RD - MELROSE AVE",
-      "ts": "2026-10-13T18:40:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_51c09c18a35f",
-      "source": "police",
-      "lat": 43.64057798875763,
-      "lng": -79.43665162111486,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D11",
-      "location": "LN N QUEEN E LANSDOWNE - SEAFORTH AVE",
-      "ts": "2026-10-13T18:36:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c49ce76b0e82",
-      "source": "police",
-      "lat": 43.6557204948242,
-      "lng": -79.38372844443951,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D52",
-      "location": "YONGE ST - BAY ST",
-      "ts": "2026-10-13T18:35:34+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 9,
-      "baseline_avg": 1.9,
-      "ratio": 4.7,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b59741fb3049",
-        "tps_dac7b5611e78",
-        "tps_54d9e247dd3d",
-        "tps_2c8bef34c652",
-        "tps_bc52f523aac2"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 7,
-      "baseline_avg": 1.5,
-      "ratio": 4.7,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7765add60974",
-        "tps_c434f52691ff",
-        "tps_a60b3e9c7e41",
-        "tps_6eb9f74ca297",
-        "tps_5b5efa466021"
-      ]
-    },
     {
       "source": "police",
       "division": "D11",
@@ -9434,18 +9337,34 @@
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "D32",
       "current_count": 8,
       "baseline_avg": 1.9,
       "ratio": 4.2,
       "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_3a32a0a0078c",
-        "tps_428ed3f7f32f",
-        "tps_5e5d08d26d1f",
-        "tps_8952f8177bac",
-        "tps_28deb4638fb2"
+        "tps_b59741fb3049",
+        "tps_dac7b5611e78",
+        "tps_54d9e247dd3d",
+        "tps_2c8bef34c652",
+        "tps_bc52f523aac2"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 6,
+      "baseline_avg": 1.5,
+      "ratio": 4.0,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7765add60974",
+        "tps_c434f52691ff",
+        "tps_a60b3e9c7e41",
+        "tps_6eb9f74ca297",
+        "tps_5b5efa466021"
       ]
     },
     {
@@ -9466,18 +9385,18 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 5,
-      "baseline_avg": 1.4,
-      "ratio": 3.6,
-      "sample_days": 10,
+      "division": "D43",
+      "current_count": 7,
+      "baseline_avg": 1.9,
+      "ratio": 3.7,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_0adca998860c",
-        "tps_647fb21a0a6c",
-        "tps_ef5cbc4e0f80",
-        "tps_bd15eadb192c",
-        "tps_526eb03365b2"
+        "tps_3a32a0a0078c",
+        "tps_428ed3f7f32f",
+        "tps_5e5d08d26d1f",
+        "tps_8952f8177bac",
+        "tps_28deb4638fb2"
       ]
     },
     {
@@ -9541,6 +9460,21 @@
         "tps_8c7e10fe883f",
         "tps_ddc78900a60b",
         "tps_375fbb73cff2"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0adca998860c",
+        "tps_647fb21a0a6c",
+        "tps_ef5cbc4e0f80",
+        "tps_bd15eadb192c"
       ]
     },
     {
