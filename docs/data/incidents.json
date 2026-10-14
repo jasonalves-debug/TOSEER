@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T12:18:26.567427+00:00",
+  "generated": "2026-10-14T12:33:26.413141+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -7,18 +7,147 @@
   "retention_hours": 24,
   "incidents": [
     {
+      "id": "tps_117e99b1bec5",
+      "source": "police",
+      "lat": 43.70044942143736,
+      "lng": -79.27131727889996,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "MACK AVE - LILY CUP AVE",
+      "ts": "2026-10-14T12:04:16+00:00",
+      "related": []
+    },
+    {
       "id": "tfs_F26163586",
       "source": "fire",
       "lat": 43.6767996,
       "lng": -79.4153685,
-      "type": "Public Hazard",
-      "type_plain": "Public Hazard",
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
       "severity": "medium",
       "division": "344",
       "location": "BATHURST ST & DAVENPORT RD",
       "approximate": false,
       "units": "P344",
       "ts": "2026-10-14T12:04:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_58efe0a011b4",
+      "source": "police",
+      "lat": 43.765382276386816,
+      "lng": -79.50267180956561,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D31",
+      "location": "KIDD TER - LN W KIDD N DELABO",
+      "ts": "2026-10-14T12:01:55+00:00",
+      "related": [
+        {
+          "id": "tps_7043b82872df",
+          "distance_m": 517,
+          "minutes_apart": 114
+        }
+      ]
+    },
+    {
+      "id": "tps_59790930a63c",
+      "source": "police",
+      "lat": 43.65136641920623,
+      "lng": -79.5263819936097,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "D22",
+      "location": "ISLINGTON AVE - DUNDAS ST W",
+      "ts": "2026-10-14T12:01:41+00:00",
+      "related": [
+        {
+          "id": "tfs_F26163577",
+          "distance_m": 33,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_15fc586e2dba",
+      "source": "police",
+      "lat": -0.043078914685125244,
+      "lng": -131.2101175992135,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": " - ",
+      "ts": "2026-10-14T11:59:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4475f9efe213",
+      "source": "police",
+      "lat": 43.70327503247663,
+      "lng": -79.54956303001278,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D23",
+      "location": "ST GEORGES BLVD - LEMSFORD RD",
+      "ts": "2026-10-14T11:59:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bd844b2c8e92",
+      "source": "police",
+      "lat": 43.79279108838165,
+      "lng": -79.30009069687796,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D42",
+      "location": "HARFLEUR RD - COLINAYRE CRES",
+      "ts": "2026-10-14T11:55:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ffccb36c6222",
+      "source": "police",
+      "lat": 43.66660386119215,
+      "lng": -79.46728152730938,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D11",
+      "location": "LN E JACKSON PL S VINE - JACKSON PL",
+      "ts": "2026-10-14T11:55:09+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2607d876b92a",
+      "source": "police",
+      "lat": 43.67261684073444,
+      "lng": -79.46764061744608,
+      "type": "DAMJU",
+      "type_plain": "DAMJU",
+      "severity": "low",
+      "division": "D11",
+      "location": "KEELE ST - ST CLAIR AVE W",
+      "ts": "2026-10-14T11:54:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8daa46707535",
+      "source": "police",
+      "lat": 43.70156857694952,
+      "lng": -79.36559360197398,
+      "type": "TRAOB",
+      "type_plain": "TRAOB",
+      "severity": "low",
+      "division": "D53",
+      "location": "SUTHERLAND DR - HANNA RD",
+      "ts": "2026-10-14T11:54:10+00:00",
       "related": []
     },
     {
@@ -34,7 +163,13 @@
       "approximate": false,
       "units": "P443",
       "ts": "2026-10-14T11:41:01+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_59790930a63c",
+          "distance_m": 33,
+          "minutes_apart": 21
+        }
+      ]
     },
     {
       "id": "tps_cf32479d6695",
@@ -385,7 +520,13 @@
       "division": "D31",
       "location": "SENTINEL RD - ATKINSON RD",
       "ts": "2026-10-14T10:07:52+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_58efe0a011b4",
+          "distance_m": 517,
+          "minutes_apart": 114
+        }
+      ]
     },
     {
       "id": "tps_c7cd7d850e3e",
@@ -8209,6 +8350,35 @@
     },
     {
       "source": "police",
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ffccb36c6222",
+        "tps_2607d876b92a",
+        "tps_bc984357aa70"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_58efe0a011b4",
+        "tps_76d0104dabe1",
+        "tps_5a7ce24db2df",
+        "tps_7043b82872df"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D42",
       "current_count": 3,
       "baseline_avg": 1.5,
@@ -8216,9 +8386,9 @@
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_bd844b2c8e92",
         "tps_fecb90c49917",
-        "tps_9a649601b5ae",
-        "tps_e293594dfd08"
+        "tps_9a649601b5ae"
       ]
     }
   ]
