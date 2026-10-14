@@ -1,11 +1,161 @@
 {
-  "generated": "2026-10-14T11:48:30.262233+00:00",
+  "generated": "2026-10-14T12:03:31.474432+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163577",
+      "source": "fire",
+      "lat": 43.6515206,
+      "lng": -79.5260251,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "445",
+      "location": "ISLINGTON AVE & DUNDAS ST W",
+      "approximate": false,
+      "units": "P443",
+      "ts": "2026-10-14T11:41:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_cf32479d6695",
+      "source": "police",
+      "lat": 43.72744448810094,
+      "lng": -79.2526444235732,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D41",
+      "location": " - ",
+      "ts": "2026-10-14T11:33:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_176abef14e3c",
+      "source": "police",
+      "lat": 43.786273991320705,
+      "lng": -79.18452149622338,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D43",
+      "location": "1275 MILITARY TRL - CONLINS RD",
+      "ts": "2026-10-14T11:33:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fecb90c49917",
+      "source": "police",
+      "lat": 43.783289338571876,
+      "lng": -79.28826359326524,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D42",
+      "location": "SHEPPARD AVE E - CARDWELL AVE",
+      "ts": "2026-10-14T11:30:56+00:00",
+      "related": [
+        {
+          "id": "tps_e293594dfd08",
+          "distance_m": 437,
+          "minutes_apart": 121
+        }
+      ]
+    },
+    {
+      "id": "tps_45b95520e28c",
+      "source": "police",
+      "lat": 43.680475810391854,
+      "lng": -79.43123822309418,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D13",
+      "location": "HENDRICK AVE - WINONA DR",
+      "ts": "2026-10-14T11:30:41+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_76d0104dabe1",
+      "source": "police",
+      "lat": 43.73374245097268,
+      "lng": -79.53821838228862,
+      "type": "MISVU",
+      "type_plain": "Missing Person (Vulnerable)",
+      "severity": "low",
+      "division": "D31",
+      "location": "HUMBER RIVER RECREATIONAL TRL - SHEPPARD AVE W",
+      "ts": "2026-10-14T11:29:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bc984357aa70",
+      "source": "police",
+      "lat": 43.66717775010317,
+      "lng": -79.49175221037646,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D11",
+      "location": "JANE ST - ST CLAIR AVE W",
+      "ts": "2026-10-14T11:28:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_990d9ba0886a",
+      "source": "police",
+      "lat": 43.7545618779588,
+      "lng": -79.44313651991618,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "SHEPPARD AVE W - YEOMANS RD",
+      "ts": "2026-10-14T11:27:13+00:00",
+      "related": [
+        {
+          "id": "tps_d57c3258b1f3",
+          "distance_m": 0,
+          "minutes_apart": 21
+        }
+      ]
+    },
+    {
+      "id": "tps_13d72a0e71ca",
+      "source": "police",
+      "lat": 43.67235631145995,
+      "lng": -79.37684305633893,
+      "type": "LOSEL",
+      "type_plain": "Lost/Found Property or Person",
+      "severity": "low",
+      "division": "D51",
+      "location": "SELBY ST - BLOOR ST E",
+      "ts": "2026-10-14T11:26:58+00:00",
+      "related": [
+        {
+          "id": "tps_11005fd4df7d",
+          "distance_m": 182,
+          "minutes_apart": 35
+        }
+      ]
+    },
+    {
+      "id": "tps_23524496b8c4",
+      "source": "police",
+      "lat": 43.64394298304659,
+      "lng": -79.36896135124634,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D51",
+      "location": "QUEENS QUAY E - LAKE SHORE BLVD E",
+      "ts": "2026-10-14T11:25:12+00:00",
+      "related": []
+    },
     {
       "id": "tps_9a649601b5ae",
       "source": "police",
@@ -30,7 +180,13 @@
       "division": "D32",
       "location": "SHEPPARD AVE W - YEOMANS RD",
       "ts": "2026-10-14T11:06:31+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_990d9ba0886a",
+          "distance_m": 0,
+          "minutes_apart": 21
+        }
+      ]
     },
     {
       "id": "tps_4fb6fe81a695",
@@ -90,7 +246,13 @@
       "division": "D51",
       "location": "ISABELLA ST - ST. JAMES TOWN WEST PARK TRL",
       "ts": "2026-10-14T10:52:02+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_13d72a0e71ca",
+          "distance_m": 182,
+          "minutes_apart": 35
+        }
+      ]
     },
     {
       "id": "tps_e069cc67642b",
@@ -252,6 +414,11 @@
           "id": "tps_824c4b9cb28c",
           "distance_m": 322,
           "minutes_apart": 75
+        },
+        {
+          "id": "tps_fecb90c49917",
+          "distance_m": 437,
+          "minutes_apart": 121
         }
       ]
     },
@@ -8012,12 +8179,13 @@
     {
       "source": "police",
       "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 7,
+      "current_count": 4,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_fecb90c49917",
         "tps_9a649601b5ae",
         "tps_e293594dfd08",
         "tps_8d3ec9558df2"
@@ -8026,16 +8194,17 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 7,
+      "current_count": 6,
+      "baseline_avg": 2.3,
+      "ratio": 2.6,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
+        "tps_13d72a0e71ca",
+        "tps_23524496b8c4",
         "tps_4fb6fe81a695",
         "tps_717f07cfc79d",
-        "tps_11005fd4df7d",
-        "tps_cfc3f235bf9e"
+        "tps_11005fd4df7d"
       ]
     }
   ]
