@@ -1,11 +1,110 @@
 {
-  "generated": "2026-10-14T14:03:27.871717+00:00",
+  "generated": "2026-10-14T14:18:29.274253+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163637",
+      "source": "fire",
+      "lat": 43.7811571,
+      "lng": -79.2337919,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "213",
+      "location": "Scarborough - PROGRESS AVE & MARKHAM RD",
+      "approximate": false,
+      "units": "A213, P213",
+      "ts": "2026-10-14T14:04:59+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_138b569a791f",
+      "source": "police",
+      "lat": 43.7243799736957,
+      "lng": -79.40559543137475,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D32",
+      "location": "JEDBURGH RD - LAWRENCE AVE W",
+      "ts": "2026-10-14T13:54:21+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_97d26e928b5e",
+      "source": "police",
+      "lat": 43.66660386119215,
+      "lng": -79.46728152730938,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "LN E JACKSON PL S VINE - JACKSON PL",
+      "ts": "2026-10-14T13:54:17+00:00",
+      "related": [
+        {
+          "id": "tps_ba9b179b2ef0",
+          "distance_m": 0,
+          "minutes_apart": 35
+        },
+        {
+          "id": "tps_ffccb36c6222",
+          "distance_m": 0,
+          "minutes_apart": 119
+        }
+      ]
+    },
+    {
+      "id": "tps_fbaa95218d0b",
+      "source": "police",
+      "lat": 43.65729849640226,
+      "lng": -79.37344165169152,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "GEORGE ST - DUNDAS ST E",
+      "ts": "2026-10-14T13:52:04+00:00",
+      "related": [
+        {
+          "id": "tps_717f07cfc79d",
+          "distance_m": 91,
+          "minutes_apart": 179
+        },
+        {
+          "id": "tfs_F26163629",
+          "distance_m": 114,
+          "minutes_apart": 4
+        },
+        {
+          "id": "tps_35d912d4d90e",
+          "distance_m": 400,
+          "minutes_apart": 88
+        },
+        {
+          "id": "tps_2bcb9e6226f3",
+          "distance_m": 465,
+          "minutes_apart": 44
+        }
+      ]
+    },
+    {
+      "id": "tps_c8330a7c23b6",
+      "source": "police",
+      "lat": 43.66046680157169,
+      "lng": -79.35050747135584,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "THOMPSON ST - KINTYRE AVE",
+      "ts": "2026-10-14T13:50:05+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26163629",
       "source": "fire",
@@ -20,6 +119,11 @@
       "units": "C31, P314, P326, R325, S313",
       "ts": "2026-10-14T13:47:35+00:00",
       "related": [
+        {
+          "id": "tps_fbaa95218d0b",
+          "distance_m": 114,
+          "minutes_apart": 4
+        },
         {
           "id": "tps_717f07cfc79d",
           "distance_m": 192,
@@ -36,6 +140,19 @@
           "minutes_apart": 40
         }
       ]
+    },
+    {
+      "id": "tps_b32ba04dbada",
+      "source": "police",
+      "lat": 43.7118015624421,
+      "lng": -79.36407030103234,
+      "type": "HOLAL",
+      "type_plain": "HOLAL",
+      "severity": "low",
+      "division": "D53",
+      "location": "LAIRD DR - VAUGHAN ST",
+      "ts": "2026-10-14T13:45:24+00:00",
+      "related": []
     },
     {
       "id": "tps_8510f7b50cec",
@@ -220,6 +337,11 @@
       "ts": "2026-10-14T13:19:26+00:00",
       "related": [
         {
+          "id": "tps_97d26e928b5e",
+          "distance_m": 0,
+          "minutes_apart": 35
+        },
+        {
           "id": "tps_ffccb36c6222",
           "distance_m": 0,
           "minutes_apart": 84
@@ -334,6 +456,11 @@
           "id": "tps_717f07cfc79d",
           "distance_m": 421,
           "minutes_apart": 135
+        },
+        {
+          "id": "tps_fbaa95218d0b",
+          "distance_m": 465,
+          "minutes_apart": 44
         },
         {
           "id": "tps_cfc3f235bf9e",
@@ -510,6 +637,11 @@
           "id": "tps_717f07cfc79d",
           "distance_m": 390,
           "minutes_apart": 92
+        },
+        {
+          "id": "tps_fbaa95218d0b",
+          "distance_m": 400,
+          "minutes_apart": 88
         }
       ]
     },
@@ -750,6 +882,11 @@
           "id": "tps_ba9b179b2ef0",
           "distance_m": 0,
           "minutes_apart": 84
+        },
+        {
+          "id": "tps_97d26e928b5e",
+          "distance_m": 0,
+          "minutes_apart": 119
         }
       ]
     },
@@ -1010,6 +1147,11 @@
           "minutes_apart": 180
         },
         {
+          "id": "tps_fbaa95218d0b",
+          "distance_m": 91,
+          "minutes_apart": 179
+        },
+        {
           "id": "tfs_F26163629",
           "distance_m": 192,
           "minutes_apart": 175
@@ -1028,11 +1170,6 @@
           "id": "tps_35d912d4d90e",
           "distance_m": 390,
           "minutes_apart": 92
-        },
-        {
-          "id": "tps_2bcb9e6226f3",
-          "distance_m": 421,
-          "minutes_apart": 135
         }
       ]
     },
@@ -7184,11 +7321,6 @@
           "minutes_apart": 67
         },
         {
-          "id": "tps_aa53c2ded5e2",
-          "distance_m": 292,
-          "minutes_apart": 155
-        },
-        {
           "id": "tps_053349356758",
           "distance_m": 366,
           "minutes_apart": 141
@@ -7983,11 +8115,6 @@
           "id": "tps_955f0600bb62",
           "distance_m": 287,
           "minutes_apart": 67
-        },
-        {
-          "id": "tps_aa53c2ded5e2",
-          "distance_m": 453,
-          "minutes_apart": 88
         }
       ]
     },
@@ -8456,108 +8583,6 @@
       "location": "JOHN GARLAND BLVD - ALBION RD",
       "ts": "2026-10-13T14:25:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_aa53c2ded5e2",
-      "source": "police",
-      "lat": 43.650861390159655,
-      "lng": -79.39733043539779,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "SULLIVAN ST - GRANGE AVE",
-      "ts": "2026-10-13T14:18:27+00:00",
-      "related": [
-        {
-          "id": "tps_955f0600bb62",
-          "distance_m": 292,
-          "minutes_apart": 155
-        },
-        {
-          "id": "tps_c0c978100375",
-          "distance_m": 453,
-          "minutes_apart": 88
-        }
-      ]
-    },
-    {
-      "id": "tps_281b54f97ddb",
-      "source": "police",
-      "lat": 43.71217496902735,
-      "lng": -79.35381041256525,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "COPELAND ST - LESLIE ST",
-      "ts": "2026-10-13T14:12:35+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_61b5a29eb5d0",
-      "source": "police",
-      "lat": 43.69411778741394,
-      "lng": -79.42276011617139,
-      "type": "SEEFI",
-      "type_plain": "SEEFI",
-      "severity": "low",
-      "division": "D13",
-      "location": "BATHURST ST - CHILTERN HILL RD",
-      "ts": "2026-10-13T14:09:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bfd35f7fb48f",
-      "source": "police",
-      "lat": 43.73996091770656,
-      "lng": -79.32964024221637,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY S - LAWRENCE AVE E",
-      "ts": "2026-10-13T14:08:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7959bfcb8900",
-      "source": "police",
-      "lat": 43.749114069519,
-      "lng": -79.4369338325679,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D32",
-      "location": "BATHURST ST - DANBY AVE",
-      "ts": "2026-10-13T14:08:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a5598c19345d",
-      "source": "police",
-      "lat": 43.61590470427628,
-      "lng": -79.52467432505597,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY W - KIPLING AVE",
-      "ts": "2026-10-13T14:06:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_22e2bd8876de",
-      "source": "police",
-      "lat": 43.62296488969196,
-      "lng": -79.48120021595713,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "D22",
-      "location": "HUMBER BAY PARK EAST TRL - MIMICO CREEK",
-      "ts": "2026-10-13T14:05:05+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -8635,6 +8660,51 @@
         "tps_bd844b2c8e92",
         "tps_fecb90c49917",
         "tps_9a649601b5ae"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 6,
+      "baseline_avg": 2.7,
+      "ratio": 2.2,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_97d26e928b5e",
+        "tps_fbaa95218d0b",
+        "tps_9bdbd446e30b",
+        "tps_72a704e572f6",
+        "tps_ba9b179b2ef0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c8330a7c23b6",
+        "tps_85ac5917ab35",
+        "tps_c563051e2202"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b32ba04dbada",
+        "tps_6579781463c9",
+        "tps_a7df3535b3bd",
+        "tps_8daa46707535"
       ]
     },
     {
