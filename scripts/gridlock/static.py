@@ -265,6 +265,12 @@ def towers():
 CLOSED = {"Closed", "Cancelled", "Revoked", "Refused", "Application Withdrawn", "Abandoned", "Permit Revoked", "Work Not Started (Revoked)"}
 
 
+def _clip(text, n):
+    """First n characters, cut at a word boundary, with an ellipsis when shortened."""
+    text = " ".join(text.split())
+    return text if len(text) <= n else text[:n].rsplit(" ", 1)[0].rstrip(",;:-") + "…"
+
+
 def construction():
     rows = datastore("building-permits-active-permits", filters={"POSTAL": list(SCARB_FSA)})
     sites = {}
@@ -281,7 +287,7 @@ def construction():
         gid = str(r.get("GEO_ID") or "")
         if gid and (gid not in sites or cost > sites[gid]["cost"]):
             sites[gid] = {"addr": f"{r.get('STREET_NUM')} {r.get('STREET_NAME')} {r.get('STREET_TYPE')}".title().strip(), "units": units, "cost": cost,
-                          "use": (r.get("PROPOSED_USE") or "").title(), "desc": (r.get("DESCRIPTION") or "")[:120], "status": r.get("STATUS")}
+                          "use": (r.get("PROPOSED_USE") or "").title(), "desc": _clip(r.get("DESCRIPTION") or "", 160), "status": r.get("STATUS")}
     addr = ckan_resource("address-points-municipal-toronto-one-address-repository", lambda r: r.get("datastore_active") in (True, "True"))["id"]
     ids = [int(g) for g in sites if g.isdigit()]
     for i in range(0, len(ids), 80):

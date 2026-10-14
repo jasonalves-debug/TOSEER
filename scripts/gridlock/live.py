@@ -305,7 +305,7 @@ DESC = re.compile(r"^\s*(?:(\d+[A-Z]?)\s+)?(.+?)\s*\(\s*between\s+(.+?)\s+and\s+
 def utility_cuts(cache, st):
     res = ckan_resources("utility-cut-permits")
     ds = next(r for r in res if r.get("datastore_active") in (True, "True") and r["name"].strip() == "Utility Cut Permits")
-    key = max((r.get("last_modified") or "") for r in res if r["name"].startswith("Utility Cut Permits."))
+    key = "v2|" + max((r.get("last_modified") or "") for r in res if r["name"].startswith("Utility Cut Permits."))  # bump vN when parsing changes
     t = today()
     if cache.get("cuts", {}).get("stamp") != key or cache["cuts"].get("day") != t.isoformat():
         items = []
