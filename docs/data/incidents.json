@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-14T12:03:31.474432+00:00",
+  "generated": "2026-10-14T12:18:26.567427+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163586",
+      "source": "fire",
+      "lat": 43.6767996,
+      "lng": -79.4153685,
+      "type": "Public Hazard",
+      "type_plain": "Public Hazard",
+      "severity": "medium",
+      "division": "344",
+      "location": "BATHURST ST & DAVENPORT RD",
+      "approximate": false,
+      "units": "P344",
+      "ts": "2026-10-14T12:04:04+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26163577",
       "source": "fire",
@@ -8178,21 +8193,6 @@
   "anomalies": [
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_fecb90c49917",
-        "tps_9a649601b5ae",
-        "tps_e293594dfd08",
-        "tps_8d3ec9558df2"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
       "current_count": 6,
       "baseline_avg": 2.3,
@@ -8205,6 +8205,20 @@
         "tps_4fb6fe81a695",
         "tps_717f07cfc79d",
         "tps_11005fd4df7d"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_fecb90c49917",
+        "tps_9a649601b5ae",
+        "tps_e293594dfd08"
       ]
     }
   ]
