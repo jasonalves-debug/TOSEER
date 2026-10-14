@@ -1,11 +1,78 @@
 {
-  "generated": "2026-10-14T17:04:09.066904+00:00",
+  "generated": "2026-10-14T17:19:07.728723+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163727",
+      "source": "fire",
+      "lat": 43.6362013,
+      "lng": -79.5803536,
+      "type": "Check Call",
+      "type_plain": "Check Call",
+      "severity": "medium",
+      "division": "444",
+      "location": "Etobicoke - MILL RD & MARKLAND DR",
+      "approximate": false,
+      "units": "P444",
+      "ts": "2026-10-14T17:10:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8952f8177bac",
+      "source": "police",
+      "lat": 43.74629179538933,
+      "lng": -79.1987335919193,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D43",
+      "location": "LIVINGSTON RD - CHANCERY LANE",
+      "ts": "2026-10-14T16:53:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ef5cbc4e0f80",
+      "source": "police",
+      "lat": 43.822537934237346,
+      "lng": -79.29370000993205,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D42",
+      "location": "COPTHORNE AVE - WW S DUXBURY E MIDLAND",
+      "ts": "2026-10-14T16:44:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_28deb4638fb2",
+      "source": "police",
+      "lat": 43.737099481041014,
+      "lng": -79.24623024437557,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D43",
+      "location": "BRIMLEY RD - DANFORTH RD",
+      "ts": "2026-10-14T16:42:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fa5462bcae91",
+      "source": "police",
+      "lat": 43.65021825158196,
+      "lng": -79.48042021785243,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D11",
+      "location": "DURIE ST - WINDERMERE AVE",
+      "ts": "2026-10-14T16:40:37+00:00",
+      "related": []
+    },
     {
       "id": "tps_d47e98cc8824",
       "source": "police",
@@ -8735,10 +8802,26 @@
   "anomalies": [
     {
       "source": "police",
+      "division": "D43",
+      "current_count": 8,
+      "baseline_avg": 1.9,
+      "ratio": 4.2,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8952f8177bac",
+        "tps_28deb4638fb2",
+        "tps_5b8844e4f00e",
+        "tps_8d25ab4e3fc4",
+        "tps_9e596f916992"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D14",
-      "current_count": 9,
+      "current_count": 7,
       "baseline_avg": 1.8,
-      "ratio": 4.9,
+      "ratio": 3.8,
       "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
@@ -8779,22 +8862,6 @@
         "tps_375fbb73cff2",
         "tps_f71da6d33c2f",
         "tps_047facf7fb8a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 6,
-      "baseline_avg": 1.9,
-      "ratio": 3.1,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5b8844e4f00e",
-        "tps_8d25ab4e3fc4",
-        "tps_9e596f916992",
-        "tps_4e69b94660c9",
-        "tps_e96762b2f48e"
       ]
     },
     {
@@ -8847,6 +8914,21 @@
     },
     {
       "source": "police",
+      "division": "D11",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_fa5462bcae91",
+        "tps_4c08c8f8b9a6",
+        "tps_025607810b79",
+        "tps_a535dd7b2208"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D23",
       "current_count": 4,
       "baseline_avg": 1.5,
@@ -8862,46 +8944,17 @@
     },
     {
       "source": "police",
-      "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 2.1,
-      "ratio": 2.4,
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_99f2d9b77b5c",
-        "tps_5264250ab9dc",
-        "tps_171d735b1183",
-        "tps_9ed76a38dce0",
-        "tps_4f532f0e10a1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.2,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4c08c8f8b9a6",
-        "tps_025607810b79",
-        "tps_a535dd7b2208"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_69d3101cfbfb",
-        "tps_43df84876b8e",
-        "tps_941ba5b85fd2"
+        "tps_ef5cbc4e0f80",
+        "tps_bd15eadb192c",
+        "tps_526eb03365b2",
+        "tps_475d2baae81a"
       ]
     }
   ]
