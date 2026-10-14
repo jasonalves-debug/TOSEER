@@ -36,10 +36,16 @@ GEOCACHE_PATH = os.path.join(DATA_DIR, "road_geocode_cache.json")
 MAX_NEW_GEOCODES = 15  # per run, same rate-limit discipline as the fire intersection geocoding
 
 
-def http_get(url, headers=None):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=15) as res:
-        return res.read()
+def http_get(url, headers=None, tries=3):
+    for attempt in range(tries):  # the City's feed is slow at times; a timeout shouldn't cost a whole update
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
+            with urllib.request.urlopen(req, timeout=60) as res:
+                return res.read()
+        except Exception:  # noqa: BLE001 — retried, then re-raised
+            if attempt == tries - 1:
+                raise
+            time.sleep(5 * (attempt + 1))
 
 
 def http_get_json(url, params=None, headers=None):
@@ -250,10 +256,21 @@ def main():
         status = f"error: {e}"
         print(f"[road] FAILED: {e}", file=sys.stderr)
 
+    generated = datetime.now(timezone.utc).isoformat()
+    if status != "live":  # keep the last good list rather than wiping every closure off the map
+        try:
+            with open(OUTPUT_PATH) as f:
+                prev = json.load(f)
+            if prev.get("restrictions"):
+                out, generated = prev["restrictions"], prev.get("generated", generated)
+                status = f"stale ({status})"
+        except (OSError, ValueError):
+            pass
+
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump({
-            "generated": datetime.now(timezone.utc).isoformat(),
+            "generated": generated,
             "status": status,
             "restrictions": out,
         }, f, indent=2)

@@ -95,10 +95,12 @@ def calls(st):
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
-def roads():
+def roads(st):
     rr = load("road_restrictions.json")
     if not rr:
         raise RuntimeError("road_restrictions.json missing")
+    if rr.get("status") != "live":
+        st["roads"] = f"stale: City feed down, using list from {rr.get('generated', '?')[:16]}Z" if rr.get("restrictions") else f"down: {rr.get('status')}"
     now_ms, out = time.time() * 1000, []
     for r in rr.get("restrictions", []):
         raw = r.get("raw") or {}
@@ -333,7 +335,7 @@ def build():
     cache = load(CACHE, {}) or {}
     got = st.run("tps", calls, st) or ([], None)
     out = {"generated": stamp(), "incidents_generated": got[1], "calls": got[0]}
-    out["roads"] = st.run("roads", roads)
+    out["roads"] = st.run("roads", roads, st)
     out["rates"] = st.run("rates", rates, st)
     out["weather"] = st.run("weather", weather)
     out["alerts"] = st.run("alerts", warnings)

@@ -1,16 +1,24 @@
 name: Update emergency data
 
+# GitHub's scheduler only fires '*/15' every few hours in practice, so each run keeps itself busy:
+# it updates every 15 minutes for about 5.5 hours. The schedule and the concurrency queue start the next
+# run as soon as one finishes, so the data stays fresh around the clock.
 on:
   schedule:
-    - cron: '*/15 * * * *'  # every 15 min — GitHub's scheduler doesn't guarantee exact timing under load
+    - cron: '*/15 * * * *'
   workflow_dispatch: {}       # lets you trigger it manually from the Actions tab
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-data
+  cancel-in-progress: false   # one run at a time; the next one waits its turn
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -18,34 +26,28 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch TPS + TFS, compute intelligence, write incidents.json
-        run: python scripts/update_data.py
-
-      - name: Fetch road restrictions
-        run: python scripts/fetch_road_restrictions.py
-        continue-on-error: true  # don't let this block the core incident pipeline
-
-      - name: Build GRIDLOCK live feed (Scarborough traffic sim)
-        run: python scripts/build_gridlock_feed.py live
-        continue-on-error: true  # bonus layer for the GRIDLOCK game; never blocks the incident map
+      - name: Update every 15 minutes (22 rounds, about 5.5 hours)
         env:
           ONTARIO511_KEY: ${{ secrets.ONTARIO511_KEY }}
-
-      - name: Fetch news + politician mentions
-        run: python scripts/fetch_news.py
-        continue-on-error: true  # same — news is a bonus layer, not core
-
-      - name: Commit and push if data changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/incidents.json docs/data/geocode_cache.json docs/data/history_stats.json \
-                   docs/data/road_restrictions.json docs/data/road_geocode_cache.json \
-                   docs/data/news.json docs/data/news_geocode_cache.json
-          git add docs/data/gridlock_live.json docs/data/gridlock_cache.json 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "No changes — skipping commit"
-          else
-            git commit -m "Update data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            git push
-          fi
+          for round in $(seq 1 22); do
+            started=$(date +%s)
+            git pull --rebase --quiet || true
+            python scripts/update_data.py || echo "::warning::incidents update failed"   # TPS + TFS → incidents.json
+            python scripts/fetch_road_restrictions.py || true                             # City road restrictions
+            python scripts/build_gridlock_feed.py live || true                            # GRIDLOCK game feed
+            python scripts/fetch_news.py || true                                          # news + politician mentions
+            git add docs/data/incidents.json docs/data/geocode_cache.json docs/data/history_stats.json \
+                    docs/data/road_restrictions.json docs/data/road_geocode_cache.json \
+                    docs/data/news.json docs/data/news_geocode_cache.json 2>/dev/null || true
+            git add docs/data/gridlock_live.json docs/data/gridlock_cache.json 2>/dev/null || true
+            if ! git diff --staged --quiet; then
+              git commit --quiet -m "Update data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+              git pull --rebase --quiet && git push --quiet || echo "::warning::push failed, will retry next round"
+            fi
+            if [ "$round" -lt 22 ]; then
+              wait=$(( 900 - ($(date +%s) - started) )); [ "$wait" -gt 0 ] && sleep "$wait"
+            fi
+          done
