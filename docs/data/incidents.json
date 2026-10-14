@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T12:48:29.254950+00:00",
+  "generated": "2026-10-14T13:03:27.949549+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -7777,13 +7777,7 @@
       "division": "D13",
       "location": "WILLIAM R ALLEN RD S - WINNETT AVE",
       "ts": "2026-10-13T15:01:58+00:00",
-      "related": [
-        {
-          "id": "tps_33fec4d16e4d",
-          "distance_m": 0,
-          "minutes_apart": 124
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_648265d6a17b",
@@ -8009,13 +8003,7 @@
       "division": "HP",
       "location": "WOODBINE AVE - KINGSTON RD",
       "ts": "2026-10-13T14:28:57+00:00",
-      "related": [
-        {
-          "id": "tps_90cfaf3342fd",
-          "distance_m": 591,
-          "minutes_apart": 89
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_0d62900595d6",
@@ -8445,108 +8433,15 @@
           "minutes_apart": 70
         }
       ]
-    },
-    {
-      "id": "tps_701201bff53c",
-      "source": "police",
-      "lat": 43.60001282704165,
-      "lng": -79.50862107267997,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D22",
-      "location": "TENTH ST - LAKE SHORE BLVD W",
-      "ts": "2026-10-13T13:01:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_90cfaf3342fd",
-      "source": "police",
-      "lat": 43.6702052992441,
-      "lng": -79.31316012933665,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D55",
-      "location": "DUNDAS ST E - MAUGHAN CRES",
-      "ts": "2026-10-13T12:59:44+00:00",
-      "related": [
-        {
-          "id": "tps_85aa3f9cddc9",
-          "distance_m": 591,
-          "minutes_apart": 89
-        }
-      ]
-    },
-    {
-      "id": "tps_ce4b07b67f40",
-      "source": "police",
-      "lat": 43.751793007230766,
-      "lng": -79.34955554268718,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D33",
-      "location": "DYAS RD - ",
-      "ts": "2026-10-13T12:58:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8b2d2faf4050",
-      "source": "police",
-      "lat": 43.682277337116176,
-      "lng": -79.39012355939818,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "CHARLESWORTH LANE - SHAFTESBURY PL",
-      "ts": "2026-10-13T12:58:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_33fec4d16e4d",
-      "source": "police",
-      "lat": 43.69865616677329,
-      "lng": -79.4364423932597,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D13",
-      "location": "WILLIAM R ALLEN RD S - WINNETT AVE",
-      "ts": "2026-10-13T12:58:15+00:00",
-      "related": [
-        {
-          "id": "tps_4281f4e2b4c7",
-          "distance_m": 0,
-          "minutes_apart": 124
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.2,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4999b34e004d",
-        "tps_94f497c591c0",
-        "tps_2554340357cc",
-        "tps_34de280308a2",
-        "tps_15fc586e2dba"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
       "current_count": 7,
-      "baseline_avg": 2.2,
-      "ratio": 3.2,
+      "baseline_avg": 1.6,
+      "ratio": 4.4,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
@@ -8559,11 +8454,27 @@
     },
     {
       "source": "police",
+      "division": "D52",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_4999b34e004d",
+        "tps_94f497c591c0",
+        "tps_2554340357cc",
+        "tps_34de280308a2",
+        "tps_15fc586e2dba"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
       "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 10,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_025cd0a56ae2",
@@ -8576,9 +8487,9 @@
       "source": "police",
       "division": "D11",
       "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.2,
-      "sample_days": 8,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_ffccb36c6222",
@@ -8590,8 +8501,8 @@
       "source": "police",
       "division": "D31",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
@@ -8599,20 +8510,6 @@
         "tps_76d0104dabe1",
         "tps_5a7ce24db2df",
         "tps_7043b82872df"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_bd844b2c8e92",
-        "tps_fecb90c49917",
-        "tps_9a649601b5ae"
       ]
     }
   ]
