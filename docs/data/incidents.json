@@ -1,11 +1,117 @@
 {
-  "generated": "2026-10-14T16:48:26.801886+00:00",
+  "generated": "2026-10-14T17:03:28.419798+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_d47e98cc8824",
+      "source": "police",
+      "lat": 43.65144329676334,
+      "lng": -79.42554102481836,
+      "type": "MISEL",
+      "type_plain": "MISEL",
+      "severity": "low",
+      "division": "D14",
+      "location": "CHURCHILL AVE - ST ANNES RD",
+      "ts": "2026-10-14T16:37:52+00:00",
+      "related": [
+        {
+          "id": "tps_a535dd7b2208",
+          "distance_m": 515,
+          "minutes_apart": 112
+        },
+        {
+          "id": "tps_b3089c3a96a4",
+          "distance_m": 573,
+          "minutes_apart": 118
+        }
+      ]
+    },
+    {
+      "id": "tps_bced4e5f4b1f",
+      "source": "police",
+      "lat": 43.7312986746294,
+      "lng": -79.58510487200803,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D23",
+      "location": "MILKWOOD AVE - JOHN GARLAND BLVD",
+      "ts": "2026-10-14T16:35:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bd15eadb192c",
+      "source": "police",
+      "lat": 43.816558393453214,
+      "lng": -79.30611799968743,
+      "type": "ASSPC",
+      "type_plain": "ASSPC",
+      "severity": "low",
+      "division": "D42",
+      "location": "SHEPTON WAY PARK TRL - GOLD MEDAL RD",
+      "ts": "2026-10-14T16:35:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8c7e10fe883f",
+      "source": "police",
+      "lat": 43.632512777462566,
+      "lng": -79.43429962217311,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY E - JAMESON AVE",
+      "ts": "2026-10-14T16:35:18+00:00",
+      "related": [
+        {
+          "id": "tps_c89ff5687362",
+          "distance_m": 0,
+          "minutes_apart": 103
+        }
+      ]
+    },
+    {
+      "id": "tps_23c61f8dad4d",
+      "source": "police",
+      "lat": 43.65572189861826,
+      "lng": -79.41137753074943,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D14",
+      "location": "EUCLID AVE - MANNING AVE",
+      "ts": "2026-10-14T16:31:02+00:00",
+      "related": [
+        {
+          "id": "tps_910ad16f64ee",
+          "distance_m": 400,
+          "minutes_apart": 22
+        },
+        {
+          "id": "tfs_F26163652",
+          "distance_m": 597,
+          "minutes_apart": 120
+        }
+      ]
+    },
+    {
+      "id": "tps_93241cce827d",
+      "source": "police",
+      "lat": 43.66115701005856,
+      "lng": -79.42939312447476,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "BLOOR ST W - DOVERCOURT RD",
+      "ts": "2026-10-14T16:27:14+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26163711",
       "source": "fire",
@@ -19,6 +125,19 @@
       "approximate": false,
       "units": "",
       "ts": "2026-10-14T16:24:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4c08c8f8b9a6",
+      "source": "police",
+      "lat": 43.65885323930125,
+      "lng": -79.4961447053243,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D11",
+      "location": "SUN VALLEY DR - PASADENA GDNS",
+      "ts": "2026-10-14T16:24:34+00:00",
       "related": []
     },
     {
@@ -143,6 +262,11 @@
           "id": "tfs_F26163652",
           "distance_m": 247,
           "minutes_apart": 98
+        },
+        {
+          "id": "tps_23c61f8dad4d",
+          "distance_m": 400,
+          "minutes_apart": 22
         }
       ]
     },
@@ -846,7 +970,13 @@
       "division": "HP",
       "location": "GARDINER XWY E - JAMESON AVE",
       "ts": "2026-10-14T14:52:34+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_8c7e10fe883f",
+          "distance_m": 0,
+          "minutes_apart": 103
+        }
+      ]
     },
     {
       "id": "tfs_F26163665",
@@ -874,7 +1004,13 @@
       "division": "D11",
       "location": "DUFFERIN ST - LN E SHERIDAN N DUNDAS",
       "ts": "2026-10-14T14:45:58+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_d47e98cc8824",
+          "distance_m": 515,
+          "minutes_apart": 112
+        }
+      ]
     },
     {
       "id": "tps_897de100fc1f",
@@ -954,7 +1090,13 @@
       "division": "D14",
       "location": "CRAWFORD ST - SHAW ST",
       "ts": "2026-10-14T14:39:51+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_d47e98cc8824",
+          "distance_m": 573,
+          "minutes_apart": 118
+        }
+      ]
     },
     {
       "id": "tps_e96762b2f48e",
@@ -1054,6 +1196,11 @@
           "id": "tps_910ad16f64ee",
           "distance_m": 247,
           "minutes_apart": 98
+        },
+        {
+          "id": "tps_23c61f8dad4d",
+          "distance_m": 597,
+          "minutes_apart": 120
         }
       ]
     },
@@ -7496,11 +7643,6 @@
           "minutes_apart": 28
         },
         {
-          "id": "tps_955f0600bb62",
-          "distance_m": 418,
-          "minutes_apart": 169
-        },
-        {
           "id": "tps_bb65372ecf55",
           "distance_m": 527,
           "minutes_apart": 5
@@ -7904,11 +8046,6 @@
           "id": "tps_ad2dac5889b1",
           "distance_m": 140,
           "minutes_apart": 28
-        },
-        {
-          "id": "tps_955f0600bb62",
-          "distance_m": 366,
-          "minutes_apart": 141
         }
       ]
     },
@@ -8593,95 +8730,32 @@
       "location": "CLIFF ST - CASHMAN CRES",
       "ts": "2026-10-13T17:31:33+00:00",
       "related": []
-    },
-    {
-      "id": "tps_955f0600bb62",
-      "source": "police",
-      "lat": 43.64914468827404,
-      "lng": -79.40007663330634,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D14",
-      "location": "WOLSELEY ST - FELICIAN PL",
-      "ts": "2026-10-13T16:53:33+00:00",
-      "related": [
-        {
-          "id": "tps_053349356758",
-          "distance_m": 366,
-          "minutes_apart": 141
-        },
-        {
-          "id": "tps_ad2dac5889b1",
-          "distance_m": 418,
-          "minutes_apart": 169
-        }
-      ]
-    },
-    {
-      "id": "tps_8c10da33beda",
-      "source": "police",
-      "lat": 43.75387332246843,
-      "lng": -79.31658447049931,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D33",
-      "location": "WELSFORD GDNS - VICTORIA PARK AVE",
-      "ts": "2026-10-13T16:53:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_75eb832cf883",
-      "source": "police",
-      "lat": 43.722009586056174,
-      "lng": -79.27370659501669,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D41",
-      "location": "FOXRIDGE DR - MARTORINO DR",
-      "ts": "2026-10-13T16:51:42+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_559b8ec75151",
-      "source": "police",
-      "lat": 43.707557879810146,
-      "lng": -79.34364152216321,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D53",
-      "location": "THORNCLIFFE PARK DR - THORNCLIFFE PARK DR",
-      "ts": "2026-10-13T16:48:54+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 11,
-      "baseline_avg": 2.6,
-      "ratio": 4.2,
-      "sample_days": 11,
+      "division": "D14",
+      "current_count": 9,
+      "baseline_avg": 1.8,
+      "ratio": 4.9,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_ddc78900a60b",
-        "tps_375fbb73cff2",
-        "tps_f71da6d33c2f",
-        "tps_047facf7fb8a",
-        "tps_2ee46490ef83"
+        "tps_d47e98cc8824",
+        "tps_23c61f8dad4d",
+        "tps_93241cce827d",
+        "tps_910ad16f64ee",
+        "tps_ece62e41b928"
       ]
     },
     {
       "source": "police",
       "division": "D53",
       "current_count": 6,
-      "baseline_avg": 1.5,
-      "ratio": 3.9,
-      "sample_days": 11,
+      "baseline_avg": 1.7,
+      "ratio": 3.6,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_5b5efa466021",
@@ -8693,43 +8767,27 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 3.8,
-      "sample_days": 12,
+      "division": "HP",
+      "current_count": 10,
+      "baseline_avg": 2.8,
+      "ratio": 3.5,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
-        "tps_910ad16f64ee",
-        "tps_ece62e41b928",
-        "tps_5dcd61125a1f",
-        "tps_b3089c3a96a4",
-        "tps_ae4330fecd08"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 8,
-      "baseline_avg": 2.2,
-      "ratio": 3.7,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e39fbd74883c",
-        "tps_9aca22832812",
-        "tps_7f01a5cf0f7a",
-        "tps_833567fd4dfe",
-        "tps_77a8e58f4d64"
+        "tps_8c7e10fe883f",
+        "tps_ddc78900a60b",
+        "tps_375fbb73cff2",
+        "tps_f71da6d33c2f",
+        "tps_047facf7fb8a"
       ]
     },
     {
       "source": "police",
       "division": "D43",
       "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.5,
-      "sample_days": 7,
+      "baseline_avg": 1.9,
+      "ratio": 3.1,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_5b8844e4f00e",
@@ -8743,9 +8801,9 @@
       "source": "police",
       "division": "D13",
       "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 8,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_fe0cb55ca8f0",
@@ -8757,11 +8815,58 @@
     },
     {
       "source": "police",
+      "division": "D55",
+      "current_count": 7,
+      "baseline_avg": 2.3,
+      "ratio": 3.0,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e39fbd74883c",
+        "tps_9aca22832812",
+        "tps_7f01a5cf0f7a",
+        "tps_833567fd4dfe",
+        "tps_77a8e58f4d64"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_4b0f4efdb5d3",
+        "tps_98dc9e9f41d6",
+        "tps_d88e7822cf92",
+        "tps_4b977414a96a",
+        "tps_17c2ef2fdb05"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 4,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_bced4e5f4b1f",
+        "tps_11a071d62554",
+        "tps_2e9b63bb4e64",
+        "tps_4d41f1574beb"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
       "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 10,
+      "baseline_avg": 2.1,
+      "ratio": 2.4,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_99f2d9b77b5c",
@@ -8773,18 +8878,30 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 6,
-      "baseline_avg": 2.1,
-      "ratio": 2.9,
-      "sample_days": 13,
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_4b0f4efdb5d3",
-        "tps_98dc9e9f41d6",
-        "tps_d88e7822cf92",
-        "tps_4b977414a96a",
-        "tps_17c2ef2fdb05"
+        "tps_4c08c8f8b9a6",
+        "tps_025607810b79",
+        "tps_a535dd7b2208"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_69d3101cfbfb",
+        "tps_43df84876b8e",
+        "tps_941ba5b85fd2"
       ]
     }
   ]
