@@ -7,6 +7,7 @@ neighbourhood profiles, postal-area points (to place 311 requests), and the holi
 import csv
 import io
 import json
+import os
 import re
 import xml.etree.ElementTree as ET
 import zipfile
@@ -416,6 +417,28 @@ def calendar():
 
 
 # ───────────────────────── build ─────────────────────────
+def cameras():
+    """Traffic cameras: City of Toronto intersection cameras (live still, refreshed every few minutes) + Ontario 511 highway cameras."""
+    out = []
+    for r in datastore("traffic-cameras"):
+        p = point_of(r)
+        if p and inbox(*p) and r.get("IMAGEURL"):
+            out.append({"src": "city", "name": f"{_title(r.get('MAINROAD'))} & {_title(r.get('CROSSROAD'))}", "lat": round(p[0], 5), "lng": round(p[1], 5),
+                        "views": [["Live", r["IMAGEURL"].replace("http://", "https://")]]})
+    key = os.environ.get("ONTARIO511_KEY", "").strip()
+    if key:
+        for c in get("https://511on.ca/api/v2/get/cameras", {"format": "json", "lang": "en", "key": key}, timeout=60):
+            views = [[v.get("Description") or "View", v["Url"]] for v in c.get("Views") or [] if v.get("Status") == "Enabled" and v.get("Url")]
+            if views and inbox(c.get("Latitude"), c.get("Longitude")):
+                out.append({"src": "511", "name": c.get("Location") or c.get("Roadway") or "Highway camera", "lat": round(c["Latitude"], 5), "lng": round(c["Longitude"], 5), "views": views})
+    return out
+
+
+def _title(s):
+    """'SHEPPARD AVE E' → 'Sheppard Ave E'."""
+    return " ".join(w if len(w) == 1 else w.capitalize() for w in (s or "").split())
+
+
 def build():
     st = Status()
     prev = load(OUT, {}) or {}
@@ -436,6 +459,7 @@ def build():
     out["worship"] = st.run("worship", worship)
     out["hoods"] = st.run("hoods", neighbourhoods)
     out["calendar"] = st.run("calendar", calendar)
+    out["cameras"] = st.run("cameras", cameras)
     # anything that failed this week: keep last week's copy so the game never loses a layer
     for k in ("stations", "ttc", "subway", "go", "crossings", "schools", "towers", "sites", "worship", "hoods", "calendar"):
         if not out.get(k) and prev.get(k):
