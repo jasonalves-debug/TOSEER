@@ -1,11 +1,53 @@
 {
-  "generated": "2026-10-14T20:49:08.378614+00:00",
+  "generated": "2026-10-14T21:04:10.457076+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163847",
+      "source": "fire",
+      "lat": 43.6653644,
+      "lng": -79.3782284,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - JARVIS ST & MAITLAND ST",
+      "approximate": false,
+      "units": "P313, P314",
+      "ts": "2026-10-14T20:50:18+00:00",
+      "related": [
+        {
+          "id": "tps_b1e095d1e3ad",
+          "distance_m": 292,
+          "minutes_apart": 117
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26163843",
+      "source": "fire",
+      "lat": 43.6555395,
+      "lng": -79.3838982,
+      "type": "Fire - Grass/Rubbish",
+      "type_plain": "Fire - Grass/Rubbish",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - DUNDAS ST & BAY ST",
+      "approximate": false,
+      "units": "P332",
+      "ts": "2026-10-14T20:44:27+00:00",
+      "related": [
+        {
+          "id": "tps_ab1b36890132",
+          "distance_m": 566,
+          "minutes_apart": 131
+        }
+      ]
+    },
     {
       "id": "tfs_F26163841",
       "source": "fire",
@@ -17,8 +59,21 @@
       "division": "442",
       "location": "WESTON RD & ST PHILLIPS RD",
       "approximate": false,
-      "units": "",
+      "units": "P442",
       "ts": "2026-10-14T20:39:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_94bf7832a876",
+      "source": "police",
+      "lat": 43.78187908661461,
+      "lng": -79.17294711625482,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "MILITARY TRL - OLD KINGSTON RD",
+      "ts": "2026-10-14T20:38:01+00:00",
       "related": []
     },
     {
@@ -35,6 +90,153 @@
       "units": "",
       "ts": "2026-10-14T20:36:12+00:00",
       "related": []
+    },
+    {
+      "id": "tps_9dcfcb1fcbc6",
+      "source": "police",
+      "lat": 43.798515592107705,
+      "lng": -79.33172587929167,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D42",
+      "location": "180 CHESTER LE BLVD - MORECAMBE GT",
+      "ts": "2026-10-14T20:35:55+00:00",
+      "related": [
+        {
+          "id": "tfs_F26163791",
+          "distance_m": 416,
+          "minutes_apart": 82
+        },
+        {
+          "id": "tps_2402fa48ff86",
+          "distance_m": 435,
+          "minutes_apart": 62
+        },
+        {
+          "id": "tps_850340b11076",
+          "distance_m": 435,
+          "minutes_apart": 73
+        }
+      ]
+    },
+    {
+      "id": "tps_21e6632d848f",
+      "source": "police",
+      "lat": 43.67540153558696,
+      "lng": -79.35806637992573,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "PKE",
+      "location": "FAIRVIEW BLVD - DEARBOURNE AVE",
+      "ts": "2026-10-14T20:35:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_954e565b1c8c",
+      "source": "police",
+      "lat": 43.67893386959899,
+      "lng": -79.34486880328082,
+      "type": "DEMO",
+      "type_plain": "DEMO",
+      "severity": "low",
+      "division": "TAC8",
+      "location": "PAPE AVE - DANFORTH AVE",
+      "ts": "2026-10-14T20:33:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_068c11c5d58e",
+      "source": "police",
+      "lat": 43.71880249784702,
+      "lng": -79.25142361559634,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D41",
+      "location": "METROLINX - MIDLAND AVE",
+      "ts": "2026-10-14T20:32:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6ca15938933c",
+      "source": "police",
+      "lat": 43.77674017794915,
+      "lng": -79.49885050858727,
+      "type": "ASSPR",
+      "type_plain": "Assault (Priority / In Progress)",
+      "severity": "high",
+      "division": "D31",
+      "location": "IAN MACDONALD BLVD - ALBANY RD",
+      "ts": "2026-10-14T20:31:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_596ecba0331f",
+      "source": "police",
+      "lat": 43.73190247329126,
+      "lng": -79.5960321671447,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "HP",
+      "location": "HUMBER COLLEGE BLVD - LYNMONT RD",
+      "ts": "2026-10-14T20:31:32+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ce5b0ed39ac8",
+      "source": "police",
+      "lat": 43.644013483117135,
+      "lng": -79.39453943566413,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D14",
+      "location": "LN W SPADINA N WELLINGTON - DRAPER ST",
+      "ts": "2026-10-14T20:29:15+00:00",
+      "related": [
+        {
+          "id": "tps_51aeeb3d8e2f",
+          "distance_m": 315,
+          "minutes_apart": 131
+        },
+        {
+          "id": "tps_746c361fa564",
+          "distance_m": 523,
+          "minutes_apart": 67
+        },
+        {
+          "id": "tps_234f75e7e85d",
+          "distance_m": 547,
+          "minutes_apart": 95
+        },
+        {
+          "id": "tps_5db6e43b9c55",
+          "distance_m": 547,
+          "minutes_apart": 108
+        }
+      ]
+    },
+    {
+      "id": "tps_7703d3aa8175",
+      "source": "police",
+      "lat": 43.751793007230766,
+      "lng": -79.34955554268718,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D33",
+      "location": "DYAS RD - ",
+      "ts": "2026-10-14T20:22:53+00:00",
+      "related": [
+        {
+          "id": "tps_f271d97c8ca2",
+          "distance_m": 0,
+          "minutes_apart": 158
+        }
+      ]
     },
     {
       "id": "tps_8aa3f8e098fa",
@@ -416,6 +618,11 @@
           "id": "tfs_F26163791",
           "distance_m": 19,
           "minutes_apart": 20
+        },
+        {
+          "id": "tps_9dcfcb1fcbc6",
+          "distance_m": 435,
+          "minutes_apart": 62
         }
       ]
     },
@@ -561,6 +768,11 @@
           "id": "tfs_F26163791",
           "distance_m": 19,
           "minutes_apart": 9
+        },
+        {
+          "id": "tps_9dcfcb1fcbc6",
+          "distance_m": 435,
+          "minutes_apart": 73
         }
       ]
     },
@@ -595,6 +807,11 @@
           "id": "tps_5db6e43b9c55",
           "distance_m": 486,
           "minutes_apart": 41
+        },
+        {
+          "id": "tps_ce5b0ed39ac8",
+          "distance_m": 523,
+          "minutes_apart": 67
         }
       ]
     },
@@ -695,6 +912,11 @@
           "id": "tps_2402fa48ff86",
           "distance_m": 19,
           "minutes_apart": 20
+        },
+        {
+          "id": "tps_9dcfcb1fcbc6",
+          "distance_m": 416,
+          "minutes_apart": 82
         }
       ]
     },
@@ -883,6 +1105,11 @@
           "id": "tps_006159e6a9d2",
           "distance_m": 501,
           "minutes_apart": 101
+        },
+        {
+          "id": "tps_ce5b0ed39ac8",
+          "distance_m": 547,
+          "minutes_apart": 95
         }
       ]
     },
@@ -932,6 +1159,11 @@
       "location": "BARBARA HALL PARK TRL - BARBARA HALL PARK TRL",
       "ts": "2026-10-14T18:52:53+00:00",
       "related": [
+        {
+          "id": "tfs_F26163847",
+          "distance_m": 292,
+          "minutes_apart": 117
+        },
         {
           "id": "tps_fb689fbaab5f",
           "distance_m": 380,
@@ -1011,6 +1243,11 @@
           "id": "tps_006159e6a9d2",
           "distance_m": 501,
           "minutes_apart": 88
+        },
+        {
+          "id": "tps_ce5b0ed39ac8",
+          "distance_m": 547,
+          "minutes_apart": 108
         }
       ]
     },
@@ -1122,6 +1359,11 @@
           "id": "tfs_F26163809",
           "distance_m": 546,
           "minutes_apart": 64
+        },
+        {
+          "id": "tfs_F26163843",
+          "distance_m": 566,
+          "minutes_apart": 131
         }
       ]
     },
@@ -1227,6 +1469,11 @@
       "location": "FORT YORK BLVD - BLUE JAYS WAY",
       "ts": "2026-10-14T18:18:31+00:00",
       "related": [
+        {
+          "id": "tps_ce5b0ed39ac8",
+          "distance_m": 315,
+          "minutes_apart": 131
+        },
         {
           "id": "tps_006159e6a9d2",
           "distance_m": 577,
@@ -1585,7 +1832,13 @@
       "division": "D33",
       "location": "DYAS RD - ",
       "ts": "2026-10-14T17:44:38+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_7703d3aa8175",
+          "distance_m": 0,
+          "minutes_apart": 158
+        }
+      ]
     },
     {
       "id": "tps_8615a1224f9f",
@@ -8366,13 +8619,7 @@
       "division": "HP",
       "location": "DON VALLEY PARKWAY S - PRINCE EDWARD VIADUCT",
       "ts": "2026-10-13T23:11:52+00:00",
-      "related": [
-        {
-          "id": "tps_5660845a34cb",
-          "distance_m": 225,
-          "minutes_apart": 133
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e36ca159c1fe",
@@ -9069,13 +9316,7 @@
       "division": "HP",
       "location": "STEELES AVE W - GERRY FITZGERALD DR",
       "ts": "2026-10-13T21:44:09+00:00",
-      "related": [
-        {
-          "id": "tps_4ca87e45783b",
-          "distance_m": 0,
-          "minutes_apart": 42
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_4ebbcaab55ce",
@@ -9382,54 +9623,64 @@
       "location": "ARMADALE AVE - WILLARD GARDENS PARKETTE TRL",
       "ts": "2026-10-13T21:07:43+00:00",
       "related": []
-    },
-    {
-      "id": "tps_4ca87e45783b",
-      "source": "police",
-      "lat": 43.78382529025363,
-      "lng": -79.47014076550933,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D32",
-      "location": "STEELES AVE W - DUFFERIN ST",
-      "ts": "2026-10-13T21:01:53+00:00",
-      "related": [
-        {
-          "id": "tps_0998f7495749",
-          "distance_m": 0,
-          "minutes_apart": 42
-        }
-      ]
-    },
-    {
-      "id": "tps_5660845a34cb",
-      "source": "police",
-      "lat": 43.67751354311641,
-      "lng": -79.3586593833633,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "DANFORTH AVE - LN N DANFORTH W BROADVIEW",
-      "ts": "2026-10-13T20:58:45+00:00",
-      "related": [
-        {
-          "id": "tps_25d60182cfd0",
-          "distance_m": 225,
-          "minutes_apart": 133
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D32",
+      "division": "D41",
+      "current_count": 5,
+      "baseline_avg": 1.4,
+      "ratio": 3.6,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_068c11c5d58e",
+        "tps_a1c48160a04e",
+        "tps_929a30eee01c",
+        "tps_7958f07c2d8f",
+        "tps_981caafdd8b1"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 10,
+      "baseline_avg": 2.8,
+      "ratio": 3.5,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ce5b0ed39ac8",
+        "tps_2857cd194933",
+        "tps_746c361fa564",
+        "tps_490768673a3f",
+        "tps_234f75e7e85d"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
       "current_count": 9,
-      "baseline_avg": 1.7,
-      "ratio": 5.2,
-      "sample_days": 11,
+      "baseline_avg": 2.6,
+      "ratio": 3.4,
+      "sample_days": 13,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_596ecba0331f",
+        "tps_f2a926de329c",
+        "tps_2402fa48ff86",
+        "tps_97d6fec3befa",
+        "tps_b6f5b3fcd129"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 7,
+      "baseline_avg": 2.1,
+      "ratio": 3.3,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_fcc7d01c9403",
@@ -9441,120 +9692,11 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 9,
-      "baseline_avg": 1.8,
-      "ratio": 5.1,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2857cd194933",
-        "tps_746c361fa564",
-        "tps_490768673a3f",
-        "tps_234f75e7e85d",
-        "tps_bf62bb94e466"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7dc414c2b75c",
-        "tps_be254c3e1d8c",
-        "tps_b0cec4148d48",
-        "tps_1312ac3a6fe3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d69fe1c4af35",
-        "tps_ddeffd237d1d",
-        "tps_7338d3415131",
-        "tps_10523a6bbd7f",
-        "tps_cb2972680ddb"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 1.7,
-      "ratio": 3.0,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_08ea90f3f777",
-        "tps_d30e31778891",
-        "tps_5fbb897889e3",
-        "tps_9b1aed23cca2",
-        "tps_7dee80d07b74"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 8,
-      "baseline_avg": 2.8,
-      "ratio": 2.8,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f2a926de329c",
-        "tps_2402fa48ff86",
-        "tps_97d6fec3befa",
-        "tps_b6f5b3fcd129",
-        "tps_a9ac25bdb2c5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.8,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a1c48160a04e",
-        "tps_929a30eee01c",
-        "tps_7958f07c2d8f",
-        "tps_981caafdd8b1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.6,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8aa3f8e098fa",
-        "tps_09bf4ae9941e",
-        "tps_309f07fa57df",
-        "tps_0503e82d087d"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
       "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 12,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_ebe281e90a64",
@@ -9566,16 +9708,17 @@
     },
     {
       "source": "police",
-      "division": "D12",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 12,
+      "division": "D43",
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_5801d8fad275",
-        "tps_1d74e59ae071",
-        "tps_df636046ec6c"
+        "tps_94bf7832a876",
+        "tps_f9e68198a9bd",
+        "tps_00f9b37fc768",
+        "tps_c4d141adf03f"
       ]
     },
     {
@@ -9583,29 +9726,73 @@
       "division": "D42",
       "current_count": 4,
       "baseline_avg": 1.9,
-      "ratio": 2.1,
-      "sample_days": 9,
+      "ratio": 2.2,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_9dcfcb1fcbc6",
         "tps_d458c76ee46c",
         "tps_0bc0c21764b3",
-        "tps_850340b11076",
-        "tps_0adca998860c"
+        "tps_850340b11076"
       ]
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "D31",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 12,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_f9e68198a9bd",
-        "tps_00f9b37fc768",
-        "tps_c4d141adf03f",
-        "tps_3a32a0a0078c"
+        "tps_6ca15938933c",
+        "tps_1f9eff63b2a8",
+        "tps_a5f3b86d75f1",
+        "tps_0c922b972e3b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7703d3aa8175",
+        "tps_3f5f2cbd6173",
+        "tps_8e22bd1e55a9"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 2.3,
+      "ratio": 2.2,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d69fe1c4af35",
+        "tps_ddeffd237d1d",
+        "tps_7338d3415131",
+        "tps_10523a6bbd7f",
+        "tps_cb2972680ddb"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5801d8fad275",
+        "tps_1d74e59ae071",
+        "tps_df636046ec6c"
       ]
     }
   ]
