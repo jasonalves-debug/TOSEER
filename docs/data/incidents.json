@@ -1,11 +1,90 @@
 {
-  "generated": "2026-10-14T23:19:31.691742+00:00",
+  "generated": "2026-10-14T23:34:33.751286+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163943",
+      "source": "fire",
+      "lat": 43.6474176,
+      "lng": -79.5260509,
+      "type": "Hazmat Level 1",
+      "type_plain": "Hazmat Level 1",
+      "severity": "medium",
+      "division": "445",
+      "location": "Etobicoke - MABELLE AVE & CORDOVA AVE",
+      "approximate": false,
+      "units": "P445",
+      "ts": "2026-10-14T23:12:46+00:00",
+      "related": [
+        {
+          "id": "tps_50c3e98038b8",
+          "distance_m": 276,
+          "minutes_apart": 97
+        }
+      ]
+    },
+    {
+      "id": "tps_49627a93feda",
+      "source": "police",
+      "lat": 43.74325917379369,
+      "lng": -79.58210637015169,
+      "type": "HOLTR",
+      "type_plain": "HOLTR",
+      "severity": "low",
+      "division": "D23",
+      "location": "KIPLING AVE - FINCH AVE W",
+      "ts": "2026-10-14T23:04:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4a9358de651f",
+      "source": "police",
+      "lat": 43.63933679198577,
+      "lng": -79.45130081635324,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D11",
+      "location": "SUNNYSIDE AVE - GLENDALE AVE",
+      "ts": "2026-10-14T23:03:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_aadefcde487f",
+      "source": "police",
+      "lat": 43.647715743927876,
+      "lng": -79.51409919596799,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": " - ",
+      "ts": "2026-10-14T23:01:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b5f9d8d79614",
+      "source": "police",
+      "lat": 43.69041368626126,
+      "lng": -79.4738975885697,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "EGLINTON AVE W - KEELE ST",
+      "ts": "2026-10-14T23:00:13+00:00",
+      "related": [
+        {
+          "id": "tps_2b5bbc834ae9",
+          "distance_m": 0,
+          "minutes_apart": 27
+        }
+      ]
+    },
     {
       "id": "tfs_F26163932",
       "source": "fire",
@@ -66,6 +145,51 @@
           "minutes_apart": 13
         }
       ]
+    },
+    {
+      "id": "tps_92014493f6bd",
+      "source": "police",
+      "lat": 43.76823927457324,
+      "lng": -79.50179690590103,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D31",
+      "location": "SENTINEL RD - LN W SENTINEL N COOK",
+      "ts": "2026-10-14T22:56:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_33367b84fb29",
+      "source": "police",
+      "lat": 43.70569927015349,
+      "lng": -79.42394870640686,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D53",
+      "location": "BELTLINE TRL - ROSELAWN AVE",
+      "ts": "2026-10-14T22:53:47+00:00",
+      "related": [
+        {
+          "id": "tfs_F26163855",
+          "distance_m": 512,
+          "minutes_apart": 114
+        }
+      ]
+    },
+    {
+      "id": "tps_178f69e25836",
+      "source": "police",
+      "lat": 43.6970102181584,
+      "lng": -79.28539606707241,
+      "type": "DAMPR",
+      "type_plain": "Damage to Property (Priority)",
+      "severity": "low",
+      "division": "D41",
+      "location": "PHARMACY AVE - ",
+      "ts": "2026-10-14T22:51:34+00:00",
+      "related": []
     },
     {
       "id": "tps_3a811cfbad9b",
@@ -242,7 +366,13 @@
       "division": "D12",
       "location": "EGLINTON AVE W - KEELE ST",
       "ts": "2026-10-14T22:32:47+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_b5f9d8d79614",
+          "distance_m": 0,
+          "minutes_apart": 27
+        }
+      ]
     },
     {
       "id": "tps_67266dcebb96",
@@ -872,6 +1002,11 @@
           "id": "tps_eec47480b658",
           "distance_m": 102,
           "minutes_apart": 169
+        },
+        {
+          "id": "tfs_F26163943",
+          "distance_m": 276,
+          "minutes_apart": 97
         }
       ]
     },
@@ -1327,7 +1462,13 @@
       "approximate": false,
       "units": "P135",
       "ts": "2026-10-14T20:59:41+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_33367b84fb29",
+          "distance_m": 512,
+          "minutes_apart": 114
+        }
+      ]
     },
     {
       "id": "tps_cf90f46653f8",
@@ -10089,71 +10230,6 @@
       "location": "BATHURST ST - BLOOR ST W",
       "ts": "2026-10-13T23:36:18+00:00",
       "related": []
-    },
-    {
-      "id": "tps_160e5184df59",
-      "source": "police",
-      "lat": 43.80661209327724,
-      "lng": -79.20418147677336,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D42",
-      "location": "JOHN TABOR TRL - JOHN TABOR PARK TRL",
-      "ts": "2026-10-13T23:34:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_46faf64c8647",
-      "source": "police",
-      "lat": 43.74666587192305,
-      "lng": -79.51079861124025,
-      "type": "SHO",
-      "type_plain": "SHO",
-      "severity": "low",
-      "division": "D31",
-      "location": "DRIFTWOOD AVE - OAKDALE PARK TRL",
-      "ts": "2026-10-13T23:31:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_985688cd4f18",
-      "source": "police",
-      "lat": 43.71352863573385,
-      "lng": -79.53409083430556,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D12",
-      "location": "DEE AVE - 401 C E WESTON RD RAMP",
-      "ts": "2026-10-13T23:30:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_727fb6b71bd4",
-      "source": "police",
-      "lat": 43.841030425383366,
-      "lng": -79.23220490370129,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D42",
-      "location": "STEELES AVE E - STAINES RD",
-      "ts": "2026-10-13T23:22:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f6060c1d4b41",
-      "source": "police",
-      "lat": 43.75734189317793,
-      "lng": -79.5311633106263,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D31",
-      "location": "FINCH AVE W - HEPC",
-      "ts": "2026-10-13T23:21:12+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10194,15 +10270,31 @@
       "division": "D23",
       "current_count": 5,
       "baseline_avg": 1.6,
-      "ratio": 3.1,
-      "sample_days": 11,
+      "ratio": 3.2,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
+        "tps_49627a93feda",
         "tps_21993471a447",
         "tps_5f165966aaa6",
         "tps_f889a52af929",
-        "tps_515512db1e7b",
-        "tps_7dc414c2b75c"
+        "tps_515512db1e7b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 6,
+      "baseline_avg": 1.9,
+      "ratio": 3.2,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_4a9358de651f",
+        "tps_60cea50fed75",
+        "tps_64da86e8ca5b",
+        "tps_3e3be24084f5",
+        "tps_f12193739216"
       ]
     },
     {
@@ -10222,34 +10314,18 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_60cea50fed75",
-        "tps_64da86e8ca5b",
-        "tps_3e3be24084f5",
-        "tps_f12193739216",
-        "tps_f2598af37f58"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.8,
-      "ratio": 2.5,
-      "sample_days": 12,
+      "current_count": 8,
+      "baseline_avg": 2.7,
+      "ratio": 3.0,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_aadefcde487f",
+        "tps_b5f9d8d79614",
         "tps_3a811cfbad9b",
         "tps_6a7d0940df99",
-        "tps_807422e9ddf2",
-        "tps_fff4bb4c9ab0",
-        "tps_da4c5ec2faca"
+        "tps_807422e9ddf2"
       ]
     },
     {
@@ -10269,6 +10345,20 @@
     },
     {
       "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_178f69e25836",
+        "tps_659d0cf2c904",
+        "tps_ccfbe6e1bc36"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D43",
       "current_count": 5,
       "baseline_avg": 2.2,
@@ -10281,20 +10371,6 @@
         "tps_0d14303f7631",
         "tps_94bf7832a876",
         "tps_7dc820cbad2d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_659d0cf2c904",
-        "tps_ccfbe6e1bc36",
-        "tps_068c11c5d58e"
       ]
     },
     {
