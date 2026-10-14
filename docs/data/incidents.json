@@ -1,11 +1,32 @@
 {
-  "generated": "2026-10-14T15:33:30.295964+00:00",
+  "generated": "2026-10-14T15:48:32.466986+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163691",
+      "source": "fire",
+      "lat": 43.8019507,
+      "lng": -79.2004995,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "212",
+      "location": "MORNINGSIDE AVE & SHEPPARD AVE E",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-14T15:37:35+00:00",
+      "related": [
+        {
+          "id": "tps_475d2baae81a",
+          "distance_m": 555,
+          "minutes_apart": 25
+        }
+      ]
+    },
     {
       "id": "tfs_F26163681",
       "source": "fire",
@@ -77,7 +98,13 @@
       "division": "D42",
       "location": "WICKSON TRL - WICKSON TRL",
       "ts": "2026-10-14T15:12:28+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26163691",
+          "distance_m": 555,
+          "minutes_apart": 25
+        }
+      ]
     },
     {
       "id": "tps_171d735b1183",
@@ -8014,11 +8041,6 @@
       "ts": "2026-10-13T16:53:33+00:00",
       "related": [
         {
-          "id": "tps_c0c978100375",
-          "distance_m": 287,
-          "minutes_apart": 67
-        },
-        {
           "id": "tps_053349356758",
           "distance_m": 366,
           "minutes_apart": 141
@@ -8709,13 +8731,7 @@
       "division": "HP",
       "location": "BATHURST ST - CARMICHAEL AVE",
       "ts": "2026-10-13T15:51:24+00:00",
-      "related": [
-        {
-          "id": "tps_924e149af600",
-          "distance_m": 0,
-          "minutes_apart": 10
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_d222d0496af5",
@@ -8753,57 +8769,6 @@
       "location": "OLD STOCK YARDS RD - MONDOVI GT",
       "ts": "2026-10-13T15:48:42+00:00",
       "related": []
-    },
-    {
-      "id": "tps_c0c978100375",
-      "source": "police",
-      "lat": 43.64686428596794,
-      "lng": -79.39839783419882,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": " - ",
-      "ts": "2026-10-13T15:46:54+00:00",
-      "related": [
-        {
-          "id": "tps_955f0600bb62",
-          "distance_m": 287,
-          "minutes_apart": 67
-        }
-      ]
-    },
-    {
-      "id": "tps_924e149af600",
-      "source": "police",
-      "lat": 43.73471946120755,
-      "lng": -79.43336830275695,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D32",
-      "location": "BATHURST ST - CARMICHAEL AVE",
-      "ts": "2026-10-13T15:41:21+00:00",
-      "related": [
-        {
-          "id": "tps_61bf383b7830",
-          "distance_m": 0,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_3660ff63f312",
-      "source": "police",
-      "lat": 43.68780800290507,
-      "lng": -79.339314922781,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "MARLOW AVE - DONMORE AVE",
-      "ts": "2026-10-13T15:38:47+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -8821,22 +8786,6 @@
         "tps_34a765990e6e",
         "tps_97d26e928b5e",
         "tps_fbaa95218d0b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.0,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_69d3101cfbfb",
-        "tps_43df84876b8e",
-        "tps_941ba5b85fd2",
-        "tps_1cf219348a73",
-        "tps_4999b34e004d"
       ]
     },
     {
@@ -8869,6 +8818,21 @@
         "tps_21065f7cc730",
         "tps_caaceb1a68cc",
         "tps_0702b925a204"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_69d3101cfbfb",
+        "tps_43df84876b8e",
+        "tps_941ba5b85fd2",
+        "tps_1cf219348a73"
       ]
     },
     {
