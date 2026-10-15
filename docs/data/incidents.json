@@ -1,11 +1,24 @@
 {
-  "generated": "2026-10-15T06:49:52.469684+00:00",
+  "generated": "2026-10-15T07:04:50.738965+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_0cacbd668999",
+      "source": "police",
+      "lat": 43.74821865546189,
+      "lng": -79.28146051546638,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D41",
+      "location": "CANLISH RD - KENNEDY RD",
+      "ts": "2026-10-15T06:46:27+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164118",
       "source": "fire",
@@ -11729,11 +11742,6 @@
           "minutes_apart": 130
         },
         {
-          "id": "tps_6ed1d899bf02",
-          "distance_m": 414,
-          "minutes_apart": 78
-        },
-        {
           "id": "tps_6f379f9ab7cc",
           "distance_m": 598,
           "minutes_apart": 27
@@ -11860,11 +11868,6 @@
           "id": "tps_717f07cfc79d",
           "distance_m": 370,
           "minutes_apart": 180
-        },
-        {
-          "id": "tps_6ed1d899bf02",
-          "distance_m": 448,
-          "minutes_apart": 52
         }
       ]
     },
@@ -11894,11 +11897,6 @@
           "id": "tps_cfc3f235bf9e",
           "distance_m": 370,
           "minutes_apart": 157
-        },
-        {
-          "id": "tps_6ed1d899bf02",
-          "distance_m": 397,
-          "minutes_apart": 52
         },
         {
           "id": "tps_9bf74f0dc8cc",
@@ -12042,97 +12040,16 @@
       "location": "QUEEN'S PARK - BEDFORD RD",
       "ts": "2026-10-14T07:10:56+00:00",
       "related": []
-    },
-    {
-      "id": "tps_111b3d14879e",
-      "source": "police",
-      "lat": 43.67396424736338,
-      "lng": -79.28123115760883,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "NEVILLE PARK BLVD - NURSEWOOD RD",
-      "ts": "2026-10-14T07:01:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6ed1d899bf02",
-      "source": "police",
-      "lat": 43.65350169260534,
-      "lng": -79.37427574986982,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "QUEEN ST E - MUTUAL ST",
-      "ts": "2026-10-14T07:01:28+00:00",
-      "related": [
-        {
-          "id": "tps_6f379f9ab7cc",
-          "distance_m": 397,
-          "minutes_apart": 52
-        },
-        {
-          "id": "tps_9bf74f0dc8cc",
-          "distance_m": 414,
-          "minutes_apart": 78
-        },
-        {
-          "id": "tps_9b30a5326832",
-          "distance_m": 448,
-          "minutes_apart": 52
-        }
-      ]
-    },
-    {
-      "id": "tps_9ac74f0b92d2",
-      "source": "police",
-      "lat": 43.76769079627477,
-      "lng": -79.18943920519887,
-      "type": "PERLO",
-      "type_plain": "PERLO",
-      "severity": "low",
-      "division": "D43",
-      "location": "KINGSTON RD - FLORIST LANE",
-      "ts": "2026-10-14T07:00:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cd1a6178f487",
-      "source": "police",
-      "lat": 43.64884638795004,
-      "lng": -79.39207093825121,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "JOHN ST - WIDMER ST",
-      "ts": "2026-10-14T06:57:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_259649d181a8",
-      "source": "police",
-      "lat": 43.62346469880689,
-      "lng": -79.47822581661542,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": "HUMBER BAY PARK EAST TRL - HUMBER BAY PARK EAST TRL",
-      "ts": "2026-10-14T06:51:51+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 8,
-      "baseline_avg": 1.6,
-      "ratio": 5.1,
-      "sample_days": 7,
+      "current_count": 6,
+      "baseline_avg": 1.5,
+      "ratio": 4.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_1616e009fdd1",
@@ -12144,29 +12061,14 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 1.5,
-      "ratio": 4.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_32bd578ad798",
-        "tps_9eec6cb91261",
-        "tps_2304eae20a65",
-        "tps_718473854b33",
-        "tps_99b6d6d414fd"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.2,
+      "current_count": 5,
+      "baseline_avg": 1.5,
       "ratio": 3.3,
-      "sample_days": 5,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_0cacbd668999",
         "tps_b47cd982eebd",
         "tps_2d71a5e33f32",
         "tps_4a3d48766dec",
@@ -12175,31 +12077,31 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 9,
+      "division": "D31",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_a6a3c179da41",
-        "tps_3c24196a5155",
-        "tps_ed55d1cba709",
-        "tps_c588be903aec"
+        "tps_d65a1fc39cc2",
+        "tps_17b135a91831",
+        "tps_12e7ec955a40"
       ]
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 6,
+      "division": "D51",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_f139affa6e74",
-        "tps_a36001c847cd",
-        "tps_e0b02f0ad373"
+        "tps_32bd578ad798",
+        "tps_9eec6cb91261",
+        "tps_2304eae20a65",
+        "tps_718473854b33"
       ]
     }
   ]
