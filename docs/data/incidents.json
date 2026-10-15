@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T11:35:09.681769+00:00",
+  "generated": "2026-10-15T11:50:09.852212+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -12084,13 +12084,7 @@
       "division": "D22",
       "location": "ISLINGTON AVE - DUNDAS ST W",
       "ts": "2026-10-14T12:01:41+00:00",
-      "related": [
-        {
-          "id": "tfs_F26163577",
-          "distance_m": 33,
-          "minutes_apart": 21
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_15fc586e2dba",
@@ -12180,45 +12174,9 @@
       "location": "SUTHERLAND DR - HANNA RD",
       "ts": "2026-10-14T11:54:10+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26163577",
-      "source": "fire",
-      "lat": 43.6515206,
-      "lng": -79.5260251,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "445",
-      "location": "ISLINGTON AVE & DUNDAS ST W",
-      "approximate": false,
-      "units": "P443",
-      "ts": "2026-10-14T11:41:01+00:00",
-      "related": [
-        {
-          "id": "tps_59790930a63c",
-          "distance_m": 33,
-          "minutes_apart": 21
-        }
-      ]
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.3,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_02743d8e0268",
-        "tps_841134b07b8f",
-        "tps_edc858741825",
-        "tps_070f12d03f16"
-      ]
-    },
     {
       "source": "police",
       "division": "HP",
@@ -12276,6 +12234,20 @@
         "tps_b5f72623fe97",
         "tps_4201393c23e9",
         "tps_d4afb7dcafed"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_02743d8e0268",
+        "tps_841134b07b8f",
+        "tps_edc858741825"
       ]
     },
     {
