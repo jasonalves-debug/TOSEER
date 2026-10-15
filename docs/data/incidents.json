@@ -1,11 +1,37 @@
 {
-  "generated": "2026-10-15T09:05:12.739513+00:00",
+  "generated": "2026-10-15T09:20:10.047925+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_070f12d03f16",
+      "source": "police",
+      "lat": 43.77172130104448,
+      "lng": -79.3642588328927,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D33",
+      "location": "LESLIE ST - SHEPPARD AVE E",
+      "ts": "2026-10-15T08:49:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d414bdd28feb",
+      "source": "police",
+      "lat": 43.73243908996178,
+      "lng": -79.22430006140488,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "TOLLGATE MEWS - WHITECAP BLVD",
+      "ts": "2026-10-15T08:36:05+00:00",
+      "related": []
+    },
     {
       "id": "tps_99e4395d45a9",
       "source": "police",
@@ -12051,19 +12077,6 @@
       "location": "KENNEDY RD - PROGRESS AVE",
       "ts": "2026-10-14T09:29:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_8d3ec9558df2",
-      "source": "police",
-      "lat": 43.812132373386106,
-      "lng": -79.30193250132601,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D42",
-      "location": "MCNICOLL AVE - KENNEDY RD",
-      "ts": "2026-10-14T09:13:47+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -12076,10 +12089,10 @@
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
+        "tps_d414bdd28feb",
         "tps_99e4395d45a9",
         "tps_7bad9f70e4c6",
-        "tps_c0c2aea68954",
-        "tps_7facec323635"
+        "tps_c0c2aea68954"
       ]
     },
     {
@@ -12094,20 +12107,6 @@
         "tps_508884facb84",
         "tps_9efff555daa3",
         "tps_685416463603"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c34b13872f9a",
-        "tps_a39fffb5c76f",
-        "tps_8abb98b6f40a"
       ]
     }
   ]
