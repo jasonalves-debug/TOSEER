@@ -1,11 +1,32 @@
 {
-  "generated": "2026-10-15T15:20:35.828132+00:00",
+  "generated": "2026-10-15T15:35:35.822600+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164295",
+      "source": "fire",
+      "lat": 43.6642764,
+      "lng": -79.3904051,
+      "type": "Hazmat Level 1",
+      "type_plain": "Hazmat Level 1",
+      "severity": "medium",
+      "division": "312",
+      "location": "Toronto - BLOOR ST & BAY ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-15T15:24:23+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164201",
+          "distance_m": 116,
+          "minutes_apart": 151
+        }
+      ]
+    },
     {
       "id": "tfs_F26164276",
       "source": "fire",
@@ -396,7 +417,13 @@
       "approximate": false,
       "units": "P312",
       "ts": "2026-10-15T12:53:23+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26164295",
+          "distance_m": 116,
+          "minutes_apart": 151
+        }
+      ]
     },
     {
       "id": "tps_9459dd566f18",
@@ -9415,11 +9442,6 @@
       "ts": "2026-10-14T18:06:12+00:00",
       "related": [
         {
-          "id": "tps_4b977414a96a",
-          "distance_m": 0,
-          "minutes_apart": 159
-        },
-        {
           "id": "tps_a61dddbb4fb6",
           "distance_m": 409,
           "minutes_apart": 30
@@ -10653,13 +10675,7 @@
       "division": "HP",
       "location": "HAZELTON AVE - AVENUE RD",
       "ts": "2026-10-14T15:56:50+00:00",
-      "related": [
-        {
-          "id": "tfs_F26163681",
-          "distance_m": 125,
-          "minutes_apart": 33
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_98dc9e9f41d6",
@@ -10900,111 +10916,6 @@
           "id": "tps_bc52f523aac2",
           "distance_m": 0,
           "minutes_apart": 126
-        }
-      ]
-    },
-    {
-      "id": "tps_2e9b63bb4e64",
-      "source": "police",
-      "lat": 43.726549256380395,
-      "lng": -79.57022007659249,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D23",
-      "location": "HINTON RD - ",
-      "ts": "2026-10-14T15:33:53+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_77a8e58f4d64",
-      "source": "police",
-      "lat": 43.66244530499301,
-      "lng": -79.35134917183309,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "BROADVIEW AVE - DUNDAS ST E",
-      "ts": "2026-10-14T15:31:43+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4b977414a96a",
-      "source": "police",
-      "lat": 43.7688624887578,
-      "lng": -79.4190621617442,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D32",
-      "location": "BETTY ANN DR - ELLERSLIE AVE",
-      "ts": "2026-10-14T15:26:53+00:00",
-      "related": [
-        {
-          "id": "tps_b59741fb3049",
-          "distance_m": 0,
-          "minutes_apart": 159
-        }
-      ]
-    },
-    {
-      "id": "tps_2ee46490ef83",
-      "source": "police",
-      "lat": 43.7545618779588,
-      "lng": -79.44313651991618,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "SHEPPARD AVE W - YEOMANS RD",
-      "ts": "2026-10-14T15:26:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3d85dfed8d8e",
-      "source": "police",
-      "lat": 43.747130573028144,
-      "lng": -79.50873401425513,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D31",
-      "location": "ARLETA AVE - DRIFTWOOD AVE",
-      "ts": "2026-10-14T15:25:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3ed1dbbae900",
-      "source": "police",
-      "lat": 43.69574667013144,
-      "lng": -79.51027026308223,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D12",
-      "location": "SYKES AVE - LIPPINCOTT ST W",
-      "ts": "2026-10-14T15:24:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26163681",
-      "source": "fire",
-      "lat": 43.6748837,
-      "lng": -79.3963558,
-      "type": "Rescue - Elevator",
-      "type_plain": "Rescue - Elevator",
-      "severity": "medium",
-      "division": "312",
-      "location": "Toronto - DAVENPORT RD & AVENUE RD",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-10-14T15:24:14+00:00",
-      "related": [
-        {
-          "id": "tps_f71da6d33c2f",
-          "distance_m": 125,
-          "minutes_apart": 33
         }
       ]
     }
