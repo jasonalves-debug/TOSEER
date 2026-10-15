@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T14:50:39.193900+00:00",
+  "generated": "2026-10-15T15:05:35.095245+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -10385,13 +10385,7 @@
       "division": "HP",
       "location": "GARDINER XWY E - JAMESON AVE",
       "ts": "2026-10-14T16:35:18+00:00",
-      "related": [
-        {
-          "id": "tps_c89ff5687362",
-          "distance_m": 0,
-          "minutes_apart": 103
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_23c61f8dad4d",
@@ -10730,13 +10724,7 @@
       "approximate": false,
       "units": "P146, P442",
       "ts": "2026-10-14T15:55:00+00:00",
-      "related": [
-        {
-          "id": "tps_ac9bef3911e4",
-          "distance_m": 160,
-          "minutes_apart": 53
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_047facf7fb8a",
@@ -11188,152 +11176,52 @@
           "minutes_apart": 129
         }
       ]
-    },
-    {
-      "id": "tps_4d41f1574beb",
-      "source": "police",
-      "lat": 43.72051007309702,
-      "lng": -79.5944397874052,
-      "type": "THEPR",
-      "type_plain": "Theft (Priority)",
-      "severity": "medium",
-      "division": "D23",
-      "location": "HARNESS RD - 27 HWY N",
-      "ts": "2026-10-14T15:04:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dcd4b06a7fde",
-      "source": "police",
-      "lat": 43.65126649037012,
-      "lng": -79.36401905596256,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "THE ESPLANADE - NICHOLSON LANE",
-      "ts": "2026-10-14T15:02:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1740ecd94b12",
-      "source": "police",
-      "lat": 43.73885608095165,
-      "lng": -79.23842145676421,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "MCCOWAN RD - EGLINTON AVE E",
-      "ts": "2026-10-14T15:02:44+00:00",
-      "related": [
-        {
-          "id": "tps_4e69b94660c9",
-          "distance_m": 0,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_ac9bef3911e4",
-      "source": "police",
-      "lat": 43.70887743431757,
-      "lng": -79.53419823264774,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D12",
-      "location": "OAK ST - FAIRGLEN CRES",
-      "ts": "2026-10-14T15:01:39+00:00",
-      "related": [
-        {
-          "id": "tfs_F26163702",
-          "distance_m": 160,
-          "minutes_apart": 53
-        }
-      ]
-    },
-    {
-      "id": "tps_b402d0e08c4c",
-      "source": "police",
-      "lat": 43.695291184463706,
-      "lng": -79.42323941419914,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D13",
-      "location": "MARKDALE AVE - WARWICK AVE",
-      "ts": "2026-10-14T14:53:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4e69b94660c9",
-      "source": "police",
-      "lat": 43.73885608095165,
-      "lng": -79.23842145676421,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D43",
-      "location": "MCCOWAN RD - EGLINTON AVE E",
-      "ts": "2026-10-14T14:52:57+00:00",
-      "related": [
-        {
-          "id": "tps_1740ecd94b12",
-          "distance_m": 0,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_c89ff5687362",
-      "source": "police",
-      "lat": 43.632512777462566,
-      "lng": -79.43429962217311,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY E - JAMESON AVE",
-      "ts": "2026-10-14T14:52:34+00:00",
-      "related": [
-        {
-          "id": "tps_8c7e10fe883f",
-          "distance_m": 0,
-          "minutes_apart": 103
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26163665",
-      "source": "fire",
-      "lat": 43.6663414,
-      "lng": -79.3734414,
-      "type": "Alarm Highrise Residential",
-      "type_plain": "Alarm Highrise Residential",
-      "severity": "medium",
-      "division": "313",
-      "location": "Toronto - WELLESLEY ST & BLEECKER ST",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-10-14T14:51:31+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.9,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_1efb698cdde7",
+        "tps_c3e095eb9253",
+        "tps_65491684ad85",
+        "tps_99320d7de211",
+        "tps_f7d78872bfd3"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D55",
       "current_count": 4,
-      "baseline_avg": 1.9,
+      "baseline_avg": 1.8,
       "ratio": 2.2,
-      "sample_days": 7,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_f7638acb9a79",
         "tps_d708558ed435",
         "tps_f5789441a76d",
         "tps_9459dd566f18"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e6542869eb68",
+        "tps_d04c405bc6ad",
+        "tps_d696e4d14fa9"
       ]
     }
   ]
