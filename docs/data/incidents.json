@@ -1,11 +1,82 @@
 {
-  "generated": "2026-10-15T19:05:34.411396+00:00",
+  "generated": "2026-10-15T19:20:40.549134+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164419",
+      "source": "fire",
+      "lat": 43.6098302,
+      "lng": -79.5522897,
+      "type": "Vehicle - Spill Clean Up - Non Emergency",
+      "type_plain": "Vehicle - Spill Clean Up - Non Emergency",
+      "severity": "medium",
+      "division": "434",
+      "location": "Etobicoke - GAIR DR & EVANS AVE",
+      "approximate": false,
+      "units": "R434",
+      "ts": "2026-10-15T19:05:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26164418",
+      "source": "fire",
+      "lat": 43.6958793,
+      "lng": -79.290815,
+      "type": "Fire -  Highrise Residential",
+      "type_plain": "Fire -  Highrise Residential",
+      "severity": "medium",
+      "division": "226",
+      "location": "East York - CRESCENT PL & CRESCENT TOWN RD",
+      "approximate": false,
+      "units": "A221, C22, C32, HR332, L226, LA325, P224, P225, R227, R235, S313",
+      "ts": "2026-10-15T19:05:38+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164392",
+          "distance_m": 298,
+          "minutes_apart": 47
+        },
+        {
+          "id": "tfs_F26164375",
+          "distance_m": 298,
+          "minutes_apart": 79
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26164416",
+      "source": "fire",
+      "lat": 43.7613521,
+      "lng": -79.3009814,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "245",
+      "location": "ELLESMERE RD & WARDEN AVE",
+      "approximate": false,
+      "units": "P245",
+      "ts": "2026-10-15T19:04:54+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26164413",
+      "source": "fire",
+      "lat": 43.7024476,
+      "lng": -79.6093163,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "441",
+      "location": "Etobicoke - DISCO RD & ATTWELL DR",
+      "approximate": false,
+      "units": "A441, P415, P432",
+      "ts": "2026-10-15T18:56:45+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164403",
       "source": "fire",
@@ -234,6 +305,11 @@
           "id": "tfs_F26164375",
           "distance_m": 0,
           "minutes_apart": 32
+        },
+        {
+          "id": "tfs_F26164418",
+          "distance_m": 298,
+          "minutes_apart": 47
         }
       ]
     },
@@ -264,9 +340,9 @@
       "type": "PIACC",
       "type_plain": "Personal Injury Accident",
       "severity": "low",
-      "division": "D32",
+      "division": "HP",
       "location": "WILLIAM CARSON CRES - 401 C E YONGE ST S RAMP",
-      "ts": "2026-10-15T18:09:31+00:00",
+      "ts": "2026-10-15T18:10:38+00:00",
       "related": []
     },
     {
@@ -376,6 +452,11 @@
           "id": "tfs_F26164392",
           "distance_m": 0,
           "minutes_apart": 32
+        },
+        {
+          "id": "tfs_F26164418",
+          "distance_m": 298,
+          "minutes_apart": 79
         }
       ]
     },
@@ -9590,11 +9671,6 @@
       "ts": "2026-10-14T20:35:55+00:00",
       "related": [
         {
-          "id": "tfs_F26163791",
-          "distance_m": 416,
-          "minutes_apart": 82
-        },
-        {
           "id": "tps_2402fa48ff86",
           "distance_m": 435,
           "minutes_apart": 62
@@ -9988,13 +10064,7 @@
       "division": "D33",
       "location": "LAWRENCE AVE E - DON MILLS RD",
       "ts": "2026-10-14T19:41:03+00:00",
-      "related": [
-        {
-          "id": "tps_8e22bd1e55a9",
-          "distance_m": 240,
-          "minutes_apart": 30
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f2a926de329c",
@@ -10111,11 +10181,6 @@
           "id": "tps_850340b11076",
           "distance_m": 0,
           "minutes_apart": 11
-        },
-        {
-          "id": "tfs_F26163791",
-          "distance_m": 19,
-          "minutes_apart": 20
         },
         {
           "id": "tps_9dcfcb1fcbc6",
@@ -10266,11 +10331,6 @@
           "minutes_apart": 11
         },
         {
-          "id": "tfs_F26163791",
-          "distance_m": 19,
-          "minutes_apart": 9
-        },
-        {
           "id": "tps_9dcfcb1fcbc6",
           "distance_m": 435,
           "minutes_apart": 73
@@ -10344,144 +10404,53 @@
       "location": "BLOOR ST W - ANNEX LANE",
       "ts": "2026-10-14T19:21:10+00:00",
       "related": []
-    },
-    {
-      "id": "tps_dac01a236860",
-      "source": "police",
-      "lat": 43.752683686483515,
-      "lng": -79.4519068121856,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "SHEPPARD AVE W - FAYWOOD BLVD",
-      "ts": "2026-10-14T19:19:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26163791",
-      "source": "fire",
-      "lat": 43.7964601,
-      "lng": -79.3273904,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "241",
-      "location": "CHESTER LE BLVD & PHARMACY AVE",
-      "approximate": false,
-      "units": "A113",
-      "ts": "2026-10-14T19:13:29+00:00",
-      "related": [
-        {
-          "id": "tps_850340b11076",
-          "distance_m": 19,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_2402fa48ff86",
-          "distance_m": 19,
-          "minutes_apart": 20
-        },
-        {
-          "id": "tps_9dcfcb1fcbc6",
-          "distance_m": 416,
-          "minutes_apart": 82
-        }
-      ]
-    },
-    {
-      "id": "tps_5fbb897889e3",
-      "source": "police",
-      "lat": 43.59838070411865,
-      "lng": -79.51600798708965,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": "SEVENTEENTH ST - COLONEL SAMUEL SMITH PARK DR",
-      "ts": "2026-10-14T19:13:04+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8e22bd1e55a9",
-      "source": "police",
-      "lat": 43.73879271068488,
-      "lng": -79.34134092441619,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D33",
-      "location": "DON MILLS RD - THE DONWAY E",
-      "ts": "2026-10-14T19:10:59+00:00",
-      "related": [
-        {
-          "id": "tps_3f5f2cbd6173",
-          "distance_m": 240,
-          "minutes_apart": 30
-        }
-      ]
-    },
-    {
-      "id": "tps_b6f5b3fcd129",
-      "source": "police",
-      "lat": 43.78382529025363,
-      "lng": -79.47014076550933,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DUFFERIN ST - GERRY FITZGERALD DR",
-      "ts": "2026-10-14T19:09:31+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D53",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.3,
-      "ratio": 3.8,
+      "ratio": 3.0,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_909ece3a8095",
         "tps_881a0a12cca1",
         "tps_0a9aca74a35f",
-        "tps_11ec23060777",
-        "tps_a7025c60652d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.1,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_08c0327a871d",
-        "tps_bed66b2d7b8f",
-        "tps_bddf9113c563",
-        "tps_7215cd0d0101",
-        "tps_e12e70b441a8"
+        "tps_11ec23060777"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 9,
+      "current_count": 10,
       "baseline_avg": 3.6,
-      "ratio": 2.5,
+      "ratio": 2.8,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_8e2cd4cb7d05",
         "tps_e6a6de1bdaff",
         "tps_110dd8cb234e",
-        "tps_7519c117195c",
-        "tps_c66bf98deda5"
+        "tps_7215cd0d0101",
+        "tps_7519c117195c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_08c0327a871d",
+        "tps_bed66b2d7b8f",
+        "tps_bddf9113c563",
+        "tps_e12e70b441a8"
       ]
     },
     {
@@ -10497,21 +10466,6 @@
         "tps_251fbcacf48a",
         "tps_2cb83befd492",
         "tps_04c82f844cea"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.9,
-      "ratio": 2.1,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a35485c3375b",
-        "tps_09cff8483220",
-        "tps_1173572ec371",
-        "tps_5a4829259cf5"
       ]
     },
     {
