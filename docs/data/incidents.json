@@ -1,11 +1,155 @@
 {
-  "generated": "2026-10-15T03:19:31.938778+00:00",
+  "generated": "2026-10-15T03:34:33.396159+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164052",
+      "source": "fire",
+      "lat": 43.6464597,
+      "lng": -79.3911399,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "332",
+      "location": "Toronto - KING ST & WIDMER ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-15T03:24:40+00:00",
+      "related": [
+        {
+          "id": "tps_3c8467744e87",
+          "distance_m": 386,
+          "minutes_apart": 158
+        }
+      ]
+    },
+    {
+      "id": "tps_e744c00e85fe",
+      "source": "police",
+      "lat": 43.72704496144745,
+      "lng": -79.29157977815622,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D41",
+      "location": "PHARMACY AVE - LEBOVIC AVE",
+      "ts": "2026-10-15T03:09:31+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_921f75aba59c",
+      "source": "police",
+      "lat": 43.63524477434855,
+      "lng": -79.39920223359782,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D14",
+      "location": "QUEENS QUAY W - STADIUM RD",
+      "ts": "2026-10-15T03:08:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_581ef45f15fd",
+      "source": "police",
+      "lat": 43.724999130467296,
+      "lng": -79.55543587305144,
+      "type": "MISVU",
+      "type_plain": "Missing Person (Vulnerable)",
+      "severity": "low",
+      "division": "D23",
+      "location": "ELMHURST DR - NEWLOVE CRT",
+      "ts": "2026-10-15T03:05:51+00:00",
+      "related": [
+        {
+          "id": "tps_413fc2df4cbe",
+          "distance_m": 433,
+          "minutes_apart": 148
+        }
+      ]
+    },
+    {
+      "id": "tps_1d3416828c2c",
+      "source": "police",
+      "lat": 43.670232809825116,
+      "lng": -79.3867607489655,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D51",
+      "location": "YONGE ST - PARK RD",
+      "ts": "2026-10-15T03:01:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bd835341e4c5",
+      "source": "police",
+      "lat": 43.641922281650196,
+      "lng": -79.40187233270778,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D14",
+      "location": "FRONT ST W - LN S NIAGARA W BATHURST",
+      "ts": "2026-10-15T03:01:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3da965ca1581",
+      "source": "police",
+      "lat": 43.761515587776984,
+      "lng": -79.41092000144481,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D32",
+      "location": "YONGE ST - DORIS AVE",
+      "ts": "2026-10-15T03:01:21+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ee25fd126132",
+      "source": "police",
+      "lat": 43.668053626910556,
+      "lng": -79.45092261990541,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D11",
+      "location": "WILTSHIRE AVE - SYMINGTON AVE",
+      "ts": "2026-10-15T02:58:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2dbaaae35121",
+      "source": "police",
+      "lat": 43.64994345181255,
+      "lng": -79.48174171717642,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D11",
+      "location": "BLOOR ST W - WILLARD AVE",
+      "ts": "2026-10-15T02:57:26+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2da6ef05932e",
+      "source": "police",
+      "lat": 43.67027741748566,
+      "lng": -79.42378932955751,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "WILLOWVALE LANE - IVAAN KOTULSKY LANE",
+      "ts": "2026-10-15T02:53:49+00:00",
+      "related": []
+    },
     {
       "id": "tps_2bc5c12ebdc5",
       "source": "police",
@@ -1442,6 +1586,11 @@
           "id": "tps_247d0caca9fa",
           "distance_m": 251,
           "minutes_apart": 143
+        },
+        {
+          "id": "tfs_F26164052",
+          "distance_m": 386,
+          "minutes_apart": 158
         }
       ]
     },
@@ -1543,7 +1692,13 @@
       "division": "D23",
       "location": "ELMHURST DR - IRWIN RD",
       "ts": "2026-10-15T00:37:27+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_581ef45f15fd",
+          "distance_m": 433,
+          "minutes_apart": 148
+        }
+      ]
     },
     {
       "id": "tps_94a628d3d363",
@@ -11107,13 +11262,7 @@
       "division": "D55",
       "location": "BROOKLYN AVE - LN E BROOKLYN S DUNDAS",
       "ts": "2026-10-14T04:16:27+00:00",
-      "related": [
-        {
-          "id": "tps_becaf4e86261",
-          "distance_m": 478,
-          "minutes_apart": 53
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_667a4fbed313",
@@ -11290,13 +11439,7 @@
       "division": "D42",
       "location": "SHADLOCK-MK ST - MARYDALE-MK AVE",
       "ts": "2026-10-14T03:44:08+00:00",
-      "related": [
-        {
-          "id": "tps_d944f7b247d4",
-          "distance_m": 339,
-          "minutes_apart": 10
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_055944adf967",
@@ -11381,99 +11524,41 @@
       "location": "PRINCES' BLVD - FLEET ST",
       "ts": "2026-10-14T03:36:54+00:00",
       "related": []
-    },
-    {
-      "id": "tps_d944f7b247d4",
-      "source": "police",
-      "lat": 43.83412501897133,
-      "lng": -79.24698918572999,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D42",
-      "location": "MARKHAM RD - TAPSCOTT RD",
-      "ts": "2026-10-14T03:34:17+00:00",
-      "related": [
-        {
-          "id": "tps_bd9b9d072c6e",
-          "distance_m": 339,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_6d29ddc7acfa",
-      "source": "police",
-      "lat": 43.67965282928489,
-      "lng": -79.39750095247658,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "OAKLANDS AVE - SIDNEY ST",
-      "ts": "2026-10-14T03:32:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9d29fe24c12c",
-      "source": "police",
-      "lat": 43.76538788910599,
-      "lng": -79.38403601743099,
-      "type": "MISEL",
-      "type_plain": "MISEL",
-      "severity": "low",
-      "division": "D33",
-      "location": "BARBERRY PL - REAN PARK TRL",
-      "ts": "2026-10-14T03:23:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_72e20646254c",
-      "source": "police",
-      "lat": 43.655417494521224,
-      "lng": -79.3851928438504,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D52",
-      "location": "BAY ST - ELIZABETH ST",
-      "ts": "2026-10-14T03:23:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_becaf4e86261",
-      "source": "police",
-      "lat": 43.662679542171595,
-      "lng": -79.33280259638616,
-      "type": "MISEL",
-      "type_plain": "MISEL",
-      "severity": "low",
-      "division": "D55",
-      "location": "BERKSHIRE AVE - JONES AVE",
-      "ts": "2026-10-14T03:23:09+00:00",
-      "related": [
-        {
-          "id": "tps_e0d262fce80d",
-          "distance_m": 478,
-          "minutes_apart": 53
-        }
-      ]
-    },
-    {
-      "id": "tps_dc37e0d7678f",
-      "source": "police",
-      "lat": 43.66547995931753,
-      "lng": -79.47037452499738,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "HIGH PARK AVE - DUNDAS ST W",
-      "ts": "2026-10-14T03:20:33+00:00",
-      "related": []
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 10,
+      "baseline_avg": 1.8,
+      "ratio": 5.6,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_1d3416828c2c",
+        "tps_7dc6bbc567d6",
+        "tps_2fe8a014808b",
+        "tps_9080115e69d2",
+        "tps_572effc7685b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 11,
+      "baseline_avg": 2.1,
+      "ratio": 5.3,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_921f75aba59c",
+        "tps_bd835341e4c5",
+        "tps_2da6ef05932e",
+        "tps_d25993b5d9e9",
+        "tps_7868dce5cefa"
+      ]
+    },
     {
       "source": "police",
       "division": "D31",
@@ -11492,65 +11577,18 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 9,
-      "baseline_avg": 1.9,
-      "ratio": 4.8,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7dc6bbc567d6",
-        "tps_2fe8a014808b",
-        "tps_9080115e69d2",
-        "tps_572effc7685b",
-        "tps_cf00fff047f0"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 9,
-      "baseline_avg": 2.1,
-      "ratio": 4.3,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d25993b5d9e9",
-        "tps_7868dce5cefa",
-        "tps_f404fb80f343",
-        "tps_03c06815c7e0",
-        "tps_89305b3ac044"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D32",
-      "current_count": 11,
-      "baseline_avg": 2.6,
-      "ratio": 4.2,
-      "sample_days": 11,
+      "current_count": 12,
+      "baseline_avg": 2.5,
+      "ratio": 4.8,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
+        "tps_3da965ca1581",
         "tps_21227117d3c0",
         "tps_3f157b86e3e9",
         "tps_6fae17528265",
-        "tps_e44424c79995",
-        "tps_53363aaade47"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7134d049bbda",
-        "tps_3e72d1fbcf2d",
-        "tps_c67e41cd1e86",
-        "tps_77629e5702bb"
+        "tps_e44424c79995"
       ]
     },
     {
@@ -11571,6 +11609,36 @@
     },
     {
       "source": "police",
+      "division": "D23",
+      "current_count": 5,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_581ef45f15fd",
+        "tps_91845496a964",
+        "tps_dba6baec22e1",
+        "tps_1cdf9fd9174a",
+        "tps_413fc2df4cbe"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7134d049bbda",
+        "tps_3e72d1fbcf2d",
+        "tps_c67e41cd1e86"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D42",
       "current_count": 3,
       "baseline_avg": 1.2,
@@ -11581,21 +11649,6 @@
         "tps_b651ccff83a1",
         "tps_b947b35597f2",
         "tps_1f7a27173013"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_91845496a964",
-        "tps_dba6baec22e1",
-        "tps_1cdf9fd9174a",
-        "tps_413fc2df4cbe"
       ]
     },
     {
@@ -11611,21 +11664,6 @@
         "tps_759bf7c7b9f4",
         "tps_63a7417ab73b",
         "tps_59408678c6c9"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5da1003d185d",
-        "tps_6a6f901ec061",
-        "tps_aaeb3a41099e",
-        "tps_028b07a41cd9"
       ]
     },
     {
