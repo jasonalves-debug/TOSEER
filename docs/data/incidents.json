@@ -1,11 +1,74 @@
 {
-  "generated": "2026-10-15T08:19:50.223415+00:00",
+  "generated": "2026-10-15T08:34:51.356946+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_f2c44054aa1e",
+      "source": "police",
+      "lat": 43.733780758295445,
+      "lng": -79.60667567228501,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D23",
+      "location": "FINCH AVE W - CARRIER DR",
+      "ts": "2026-10-15T08:09:59+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9efff555daa3",
+      "source": "police",
+      "lat": 43.6471940876252,
+      "lng": -79.40398193200464,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "QUEEN ST W - BATHURST ST",
+      "ts": "2026-10-15T08:07:56+00:00",
+      "related": [
+        {
+          "id": "tps_a6a3c179da41",
+          "distance_m": 439,
+          "minutes_apart": 174
+        },
+        {
+          "id": "tps_685416463603",
+          "distance_m": 592,
+          "minutes_apart": 11
+        }
+      ]
+    },
+    {
+      "id": "tps_39857b0efb6d",
+      "source": "police",
+      "lat": 43.73087856940539,
+      "lng": -79.59939966806567,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D23",
+      "location": "WESTMORE DR - 27 HWY N",
+      "ts": "2026-10-15T08:05:35+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_779288cf070d",
+      "source": "police",
+      "lat": 43.77515229495186,
+      "lng": -79.41437285710154,
+      "type": "SOUGU",
+      "type_plain": "Sound of Gunshots",
+      "severity": "critical",
+      "division": "D31",
+      "location": "YONGE ST - DORIS AVE",
+      "ts": "2026-10-15T08:03:54+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164134",
       "source": "fire",
@@ -19,6 +82,38 @@
       "approximate": false,
       "units": "P231",
       "ts": "2026-10-15T08:00:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_685416463603",
+      "source": "police",
+      "lat": 43.652310093633126,
+      "lng": -79.40601573209595,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D14",
+      "location": "DUNDAS ST W - BATHURST ST",
+      "ts": "2026-10-15T07:57:15+00:00",
+      "related": [
+        {
+          "id": "tps_9efff555daa3",
+          "distance_m": 592,
+          "minutes_apart": 11
+        }
+      ]
+    },
+    {
+      "id": "tps_57f6d41522c4",
+      "source": "police",
+      "lat": 43.699122629167796,
+      "lng": -79.25435439165943,
+      "type": "DAMJU",
+      "type_plain": "DAMJU",
+      "severity": "low",
+      "division": "D41",
+      "location": "ROSETTA MCCLAIN GARDENS TRL - WYNNVIEW CRT",
+      "ts": "2026-10-15T07:55:47+00:00",
       "related": []
     },
     {
@@ -48,7 +143,7 @@
       "related": [
         {
           "id": "tfs_F26164129",
-          "distance_m": 29,
+          "distance_m": 32,
           "minutes_apart": 6
         }
       ]
@@ -69,20 +164,20 @@
     {
       "id": "tfs_F26164129",
       "source": "fire",
-      "lat": 43.6673425,
-      "lng": -79.4914662,
+      "lat": 43.6674664,
+      "lng": -79.4917581,
       "type": "Vehicle Fire",
       "type_plain": "Vehicle Fire",
       "severity": "medium",
       "division": "422",
-      "location": "JANE ST & ST CLAIR AVE W",
+      "location": "York - ST CLAIR AVE & JANE ST",
       "approximate": false,
       "units": "C42, P421, P422",
       "ts": "2026-10-15T07:38:51+00:00",
       "related": [
         {
           "id": "tps_c34b13872f9a",
-          "distance_m": 29,
+          "distance_m": 32,
           "minutes_apart": 6
         }
       ]
@@ -590,6 +685,11 @@
           "id": "tps_bd835341e4c5",
           "distance_m": 315,
           "minutes_apart": 132
+        },
+        {
+          "id": "tps_9efff555daa3",
+          "distance_m": 439,
+          "minutes_apart": 174
         }
       ]
     },
@@ -11683,11 +11783,6 @@
           "id": "tps_2bcb9e6226f3",
           "distance_m": 421,
           "minutes_apart": 135
-        },
-        {
-          "id": "tps_9bf74f0dc8cc",
-          "distance_m": 598,
-          "minutes_apart": 153
         }
       ]
     },
@@ -11767,11 +11862,6 @@
       "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
       "ts": "2026-10-14T10:29:40+00:00",
       "related": [
-        {
-          "id": "tps_9bf74f0dc8cc",
-          "distance_m": 320,
-          "minutes_apart": 130
-        },
         {
           "id": "tps_717f07cfc79d",
           "distance_m": 370,
@@ -11912,59 +12002,25 @@
       "location": "CASSANDRA PARK TRL - WELSFORD GDNS",
       "ts": "2026-10-14T09:03:47+00:00",
       "related": []
-    },
-    {
-      "id": "tps_a50ce8930645",
-      "source": "police",
-      "lat": 43.6577625968664,
-      "lng": -79.38616184430911,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D52",
-      "location": "ELM ST - WALTON ST",
-      "ts": "2026-10-14T08:24:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7e989aeadcc6",
-      "source": "police",
-      "lat": 43.638731486278544,
-      "lng": -79.43660032113196,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "LEOPOLD ST - LAXTON AVE",
-      "ts": "2026-10-14T08:21:00+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9bf74f0dc8cc",
-      "source": "police",
-      "lat": 43.653374392478064,
-      "lng": -79.36913295325593,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "SHERBOURNE ST - MC FARRENS LANE",
-      "ts": "2026-10-14T08:19:54+00:00",
-      "related": [
-        {
-          "id": "tps_cfc3f235bf9e",
-          "distance_m": 320,
-          "minutes_apart": 130
-        },
-        {
-          "id": "tps_717f07cfc79d",
-          "distance_m": 598,
-          "minutes_apart": 153
-        }
-      ]
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 5,
+      "baseline_avg": 1.2,
+      "ratio": 4.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f2c44054aa1e",
+        "tps_39857b0efb6d",
+        "tps_aa0ba856291b",
+        "tps_019350f57f24",
+        "tps_f139affa6e74"
+      ]
+    },
     {
       "source": "police",
       "division": "D55",
@@ -11978,6 +12034,20 @@
         "tps_1616e009fdd1",
         "tps_2195eae903d0",
         "tps_1c7d161d81ba"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_57f6d41522c4",
+        "tps_0cacbd668999",
+        "tps_b47cd982eebd"
       ]
     },
     {
@@ -11996,39 +12066,11 @@
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_aa0ba856291b",
-        "tps_019350f57f24",
-        "tps_f139affa6e74"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d65a1fc39cc2",
-        "tps_17b135a91831",
-        "tps_12e7ec955a40"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D32",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_4f1d8c963ba3",
