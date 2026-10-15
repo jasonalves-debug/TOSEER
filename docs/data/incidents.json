@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T02:19:31.068768+00:00",
+  "generated": "2026-10-15T02:34:33.291142+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -19,6 +19,71 @@
       "approximate": false,
       "units": "P221, P225",
       "ts": "2026-10-15T02:10:10+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6fae17528265",
+      "source": "police",
+      "lat": 43.71482725746414,
+      "lng": -79.44284045175752,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D32",
+      "location": "WILLIAM R ALLEN RD N - LAWRENCE AVE W",
+      "ts": "2026-10-15T02:08:30+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f94f4cea0124",
+      "source": "police",
+      "lat": 43.64591718502081,
+      "lng": -79.37908774449542,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D52",
+      "location": "BAY ST - YORK ST",
+      "ts": "2026-10-15T02:05:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_083d0dfc65a8",
+      "source": "police",
+      "lat": 43.741235257083886,
+      "lng": -79.51365309661826,
+      "type": "FRAPR",
+      "type_plain": "FRAPR",
+      "severity": "low",
+      "division": "D31",
+      "location": "SHEPPARD AVE W - SPENVALLEY DR",
+      "ts": "2026-10-15T01:56:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fbc589aa667d",
+      "source": "police",
+      "lat": 43.70392789069005,
+      "lng": -79.33002823375712,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON MILLS RD N DVP N RAMP - DON VALLEY PARKWAY N",
+      "ts": "2026-10-15T01:54:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e44424c79995",
+      "source": "police",
+      "lat": 43.77251559527955,
+      "lng": -79.41795566062264,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D32",
+      "location": "JOHNSON FARM LANE - CHURCHILL AVE",
+      "ts": "2026-10-15T01:51:28+00:00",
       "related": []
     },
     {
@@ -10770,13 +10835,7 @@
       "division": "D51",
       "location": "YONGE ST - WELLINGTON ST E",
       "ts": "2026-10-14T03:51:54+00:00",
-      "related": [
-        {
-          "id": "tps_5556cad82b93",
-          "distance_m": 0,
-          "minutes_apart": 80
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_5b024351671a",
@@ -11298,64 +11357,6 @@
           "minutes_apart": 128
         }
       ]
-    },
-    {
-      "id": "tps_5556cad82b93",
-      "source": "police",
-      "lat": 43.64785418695778,
-      "lng": -79.3773479456553,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D52",
-      "location": "YONGE ST - WELLINGTON ST E",
-      "ts": "2026-10-14T02:32:01+00:00",
-      "related": [
-        {
-          "id": "tps_b291438007f3",
-          "distance_m": 0,
-          "minutes_apart": 80
-        }
-      ]
-    },
-    {
-      "id": "tps_22bf505acac1",
-      "source": "police",
-      "lat": 43.64110028861815,
-      "lng": -79.4341441219507,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D14",
-      "location": "DUNN AVENUE PARKETTE TRL - QUEEN ST W",
-      "ts": "2026-10-14T02:27:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_de29c8ac4124",
-      "source": "police",
-      "lat": 43.7051141540347,
-      "lng": -79.37491838660462,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "MILLWOOD RD - BELSIZE DR",
-      "ts": "2026-10-14T02:24:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f6e18b85563f",
-      "source": "police",
-      "lat": 43.66303790214166,
-      "lng": -79.38377904686179,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "GROSVENOR ST - BREADALBANE ST",
-      "ts": "2026-10-14T02:22:23+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11377,50 +11378,49 @@
     },
     {
       "source": "police",
+      "division": "D31",
+      "current_count": 9,
+      "baseline_avg": 1.7,
+      "ratio": 5.4,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_083d0dfc65a8",
+        "tps_b5890e4b02da",
+        "tps_74f25f612b83",
+        "tps_97ae92e68e5e",
+        "tps_f595eeb709c6"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 10,
+      "baseline_avg": 2.3,
+      "ratio": 4.3,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_6fae17528265",
+        "tps_e44424c79995",
+        "tps_53363aaade47",
+        "tps_5e0ed168921b",
+        "tps_be2e591ea1c6"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D42",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 5.0,
+      "ratio": 4.0,
       "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_1f7a27173013",
         "tps_77d902bf98e1",
         "tps_2f6b7ac48611",
-        "tps_7bcf9cd439ac",
-        "tps_ca736f3102eb"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 8,
-      "baseline_avg": 1.7,
-      "ratio": 4.8,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b5890e4b02da",
-        "tps_74f25f612b83",
-        "tps_97ae92e68e5e",
-        "tps_f595eeb709c6",
-        "tps_1df099d6e28c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 6,
-      "baseline_avg": 1.6,
-      "ratio": 3.8,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_dc53edd67b47",
-        "tps_393b8ba643d5",
-        "tps_1151113d66fa",
-        "tps_4e5e623b3e4c",
-        "tps_a83da8e807f9"
+        "tps_7bcf9cd439ac"
       ]
     },
     {
@@ -11441,22 +11441,6 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.0,
-      "ratio": 3.5,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_aca763fe12a2",
-        "tps_4a067a248835",
-        "tps_4237938d71c3",
-        "tps_dec9760a7d82",
-        "tps_5c88d5722958"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
       "current_count": 9,
       "baseline_avg": 2.7,
@@ -11473,18 +11457,18 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 8,
-      "baseline_avg": 2.5,
-      "ratio": 3.2,
-      "sample_days": 8,
+      "division": "HP",
+      "current_count": 6,
+      "baseline_avg": 2.0,
+      "ratio": 3.0,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_53363aaade47",
-        "tps_5e0ed168921b",
-        "tps_be2e591ea1c6",
-        "tps_ab7972bab1a3",
-        "tps_625b9621d7c1"
+        "tps_fbc589aa667d",
+        "tps_aca763fe12a2",
+        "tps_4a067a248835",
+        "tps_4237938d71c3",
+        "tps_dec9760a7d82"
       ]
     },
     {
@@ -11505,21 +11489,6 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_817aa71e176e",
-        "tps_e9bb478e35fc",
-        "tps_52268341dce3",
-        "tps_fef6faed8a95"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D22",
       "current_count": 3,
       "baseline_avg": 1.2,
@@ -11534,18 +11503,31 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 2.5,
+      "division": "D12",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_dc53edd67b47",
+        "tps_393b8ba643d5",
+        "tps_1151113d66fa",
+        "tps_4e5e623b3e4c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.5,
       "ratio": 2.0,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_759bf7c7b9f4",
-        "tps_63a7417ab73b",
-        "tps_59408678c6c9",
-        "tps_68a9887bb5a4",
-        "tps_73583aff52e7"
+        "tps_817aa71e176e",
+        "tps_e9bb478e35fc",
+        "tps_52268341dce3"
       ]
     },
     {
