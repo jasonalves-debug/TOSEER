@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-15T04:19:49.739888+00:00",
+  "generated": "2026-10-15T04:34:51.366601+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164074",
+      "source": "fire",
+      "lat": 43.685766,
+      "lng": -79.5133419,
+      "type": "Vehicle Fire",
+      "type_plain": "Vehicle Fire",
+      "severity": "medium",
+      "division": "443",
+      "location": "Etobicoke - RICHVIEW RD & SCARLETT RD",
+      "approximate": false,
+      "units": "P443",
+      "ts": "2026-10-15T04:19:01+00:00",
+      "related": []
+    },
     {
       "id": "tps_4fca1f9911d3",
       "source": "police",
@@ -11718,80 +11733,9 @@
       "location": "GERRARD ST E - JARVIS ST",
       "ts": "2026-10-14T04:36:19+00:00",
       "related": []
-    },
-    {
-      "id": "tps_d663e5d535e7",
-      "source": "police",
-      "lat": 43.65306654974466,
-      "lng": -79.58017420090118,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D22",
-      "location": "CENTENNIAL PARK TRL - CENTENNIAL PARK TRL",
-      "ts": "2026-10-14T04:29:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fbf333335489",
-      "source": "police",
-      "lat": 43.77473709206803,
-      "lng": -79.1886471101604,
-      "type": "DAMPR",
-      "type_plain": "Damage to Property (Priority)",
-      "severity": "low",
-      "division": "D43",
-      "location": "BEATH ST - HIGHLAND CREEK",
-      "ts": "2026-10-14T04:24:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_24b75bb42d43",
-      "source": "police",
-      "lat": 43.62894386374745,
-      "lng": -79.51697901397398,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D22",
-      "location": "JUTLAND RD - ISLINGTON AVE",
-      "ts": "2026-10-14T04:20:07+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 7,
-      "baseline_avg": 1.3,
-      "ratio": 5.4,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6b40807ac4a7",
-        "tps_42916a8f4877",
-        "tps_c8e8bb708fef",
-        "tps_9b57678b6304",
-        "tps_083d0dfc65a8"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_baf8858de050",
-        "tps_e3e94f8d0429",
-        "tps_b847e23feb84",
-        "tps_5da1003d185d",
-        "tps_6a6f901ec061"
-      ]
-    },
     {
       "source": "police",
       "division": "HP",
@@ -11825,18 +11769,18 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 9,
-      "baseline_avg": 2.4,
-      "ratio": 3.7,
-      "sample_days": 9,
+      "division": "D31",
+      "current_count": 5,
+      "baseline_avg": 1.3,
+      "ratio": 3.9,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
-        "tps_97789af5dc53",
-        "tps_42141241f6bb",
-        "tps_3da965ca1581",
-        "tps_21227117d3c0",
-        "tps_3f157b86e3e9"
+        "tps_6b40807ac4a7",
+        "tps_42916a8f4877",
+        "tps_c8e8bb708fef",
+        "tps_9b57678b6304",
+        "tps_083d0dfc65a8"
       ]
     },
     {
@@ -11857,6 +11801,21 @@
     },
     {
       "source": "police",
+      "division": "D33",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.4,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_baf8858de050",
+        "tps_e3e94f8d0429",
+        "tps_b847e23feb84",
+        "tps_5da1003d185d"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D12",
       "current_count": 5,
       "baseline_avg": 1.5,
@@ -11869,6 +11828,22 @@
         "tps_1094ee4b44c3",
         "tps_b42d09acb784",
         "tps_dc53edd67b47"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 8,
+      "baseline_avg": 2.4,
+      "ratio": 3.3,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_97789af5dc53",
+        "tps_42141241f6bb",
+        "tps_3da965ca1581",
+        "tps_21227117d3c0",
+        "tps_3f157b86e3e9"
       ]
     },
     {
@@ -11888,22 +11863,6 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 8,
-      "baseline_avg": 2.8,
-      "ratio": 2.9,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ed55d1cba709",
-        "tps_c588be903aec",
-        "tps_921f75aba59c",
-        "tps_bd835341e4c5",
-        "tps_2da6ef05932e"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D13",
       "current_count": 3,
       "baseline_avg": 1.1,
@@ -11914,6 +11873,22 @@
         "tps_4fca1f9911d3",
         "tps_2bc5c12ebdc5",
         "tps_24cbf0b59688"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 7,
+      "baseline_avg": 2.8,
+      "ratio": 2.5,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ed55d1cba709",
+        "tps_c588be903aec",
+        "tps_921f75aba59c",
+        "tps_bd835341e4c5",
+        "tps_2da6ef05932e"
       ]
     },
     {
