@@ -1,11 +1,134 @@
 {
-  "generated": "2026-10-15T02:49:32.766829+00:00",
+  "generated": "2026-10-15T03:04:33.330719+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_b947b35597f2",
+      "source": "police",
+      "lat": 43.79842121786029,
+      "lng": -79.27336932892815,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D42",
+      "location": "BRIMLEY RD - HUNTINGWOOD DR",
+      "ts": "2026-10-15T02:29:26+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_91845496a964",
+      "source": "police",
+      "lat": 43.73385567158121,
+      "lng": -79.5996709638245,
+      "type": "BREJU",
+      "type_plain": "BREJU",
+      "severity": "low",
+      "division": "D23",
+      "location": "TAMARISK PARK TRL - WESTMORE DR",
+      "ts": "2026-10-15T02:26:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c8e8bb708fef",
+      "source": "police",
+      "lat": 43.74849928156567,
+      "lng": -79.55008038985632,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D31",
+      "location": "LANYARD RD - DAVELAYNE RD",
+      "ts": "2026-10-15T02:25:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_21227117d3c0",
+      "source": "police",
+      "lat": 43.73986697901201,
+      "lng": -79.42163566741885,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D32",
+      "location": "WILSON AVE - AVENUE RD",
+      "ts": "2026-10-15T02:23:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_795f49db4138",
+      "source": "police",
+      "lat": 43.632512777462566,
+      "lng": -79.43429962217311,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER JAMESON AV RAMP - JAMESON AVE",
+      "ts": "2026-10-15T02:23:31+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b42d09acb784",
+      "source": "police",
+      "lat": 43.693263772579826,
+      "lng": -79.50465526922366,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D12",
+      "location": "WESTON RD - SIDNEY BELSEY CRES",
+      "ts": "2026-10-15T02:23:15+00:00",
+      "related": [
+        {
+          "id": "tps_393b8ba643d5",
+          "distance_m": 492,
+          "minutes_apart": 72
+        }
+      ]
+    },
+    {
+      "id": "tps_d25993b5d9e9",
+      "source": "police",
+      "lat": 43.65130669404502,
+      "lng": -79.41090322999824,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "DUNDAS ST W - MANNING AVE",
+      "ts": "2026-10-15T02:17:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3f157b86e3e9",
+      "source": "police",
+      "lat": 43.72967196243134,
+      "lng": -79.4292896024309,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D32",
+      "location": "FALKIRK ST - DINAN ST",
+      "ts": "2026-10-15T02:17:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9b57678b6304",
+      "source": "police",
+      "lat": 43.75188328212797,
+      "lng": -79.50368262654496,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D31",
+      "location": "OLLERTON RD - OLLERTON RD",
+      "ts": "2026-10-15T02:14:09+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164020",
       "source": "fire",
@@ -729,7 +852,13 @@
       "division": "D12",
       "location": "VERONA AVE - HUMBER RIVER RECREATIONAL TRL",
       "ts": "2026-10-15T01:11:37+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_b42d09acb784",
+          "distance_m": 492,
+          "minutes_apart": 72
+        }
+      ]
     },
     {
       "id": "tps_f45efbb9156b",
@@ -11147,171 +11276,64 @@
       "location": "HENLEY CRES - ELMHURST DR",
       "ts": "2026-10-14T03:04:40+00:00",
       "related": []
-    },
-    {
-      "id": "tps_30322d3d5739",
-      "source": "police",
-      "lat": 43.75982960503854,
-      "lng": -79.22523617460678,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D43",
-      "location": "MARKHAM RD - LAWRENCE AVE E",
-      "ts": "2026-10-14T03:02:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_dacd498de81e",
-      "source": "police",
-      "lat": 43.70789121287966,
-      "lng": -79.39280825458692,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "LILLIAN ST - REDPATH AVE",
-      "ts": "2026-10-14T03:01:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_64608c253e9e",
-      "source": "police",
-      "lat": 43.68081394106964,
-      "lng": -79.28406025817507,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "VICTORIA PARK AVE - BLANTYRE AVE",
-      "ts": "2026-10-14T02:55:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_faa225d685f4",
-      "source": "police",
-      "lat": 43.77251559527955,
-      "lng": -79.41795566062264,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D32",
-      "location": "JOHNSON FARM LANE - CHURCHILL AVE",
-      "ts": "2026-10-14T02:55:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b5e9d0dd4c1a",
-      "source": "police",
-      "lat": 43.68223030966493,
-      "lng": -79.47028810304342,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D12",
-      "location": "REGENT ST - KEELE ST",
-      "ts": "2026-10-14T02:55:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_08853957e136",
-      "source": "police",
-      "lat": 43.73224285676646,
-      "lng": -79.49339255035697,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "RODING ST - EXBURY RD",
-      "ts": "2026-10-14T02:55:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5fd0bb1ff770",
-      "source": "police",
-      "lat": 43.71332112998865,
-      "lng": -79.53737493095227,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D12",
-      "location": "WESTON RD - 401 HWY E",
-      "ts": "2026-10-14T02:52:12+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D31",
-      "current_count": 8,
-      "baseline_avg": 1.7,
-      "ratio": 4.8,
-      "sample_days": 6,
+      "current_count": 10,
+      "baseline_avg": 1.6,
+      "ratio": 6.2,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_c8e8bb708fef",
+        "tps_9b57678b6304",
         "tps_083d0dfc65a8",
         "tps_b5890e4b02da",
-        "tps_74f25f612b83",
-        "tps_97ae92e68e5e",
-        "tps_f595eeb709c6"
+        "tps_74f25f612b83"
       ]
     },
     {
       "source": "police",
       "division": "D14",
-      "current_count": 8,
-      "baseline_avg": 1.7,
-      "ratio": 4.8,
-      "sample_days": 6,
+      "current_count": 9,
+      "baseline_avg": 2.1,
+      "ratio": 4.3,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
+        "tps_d25993b5d9e9",
         "tps_7868dce5cefa",
         "tps_f404fb80f343",
         "tps_03c06815c7e0",
-        "tps_89305b3ac044",
-        "tps_3c8467744e87"
+        "tps_89305b3ac044"
       ]
     },
     {
       "source": "police",
       "division": "D32",
-      "current_count": 9,
-      "baseline_avg": 2.3,
-      "ratio": 3.9,
-      "sample_days": 9,
+      "current_count": 11,
+      "baseline_avg": 2.6,
+      "ratio": 4.2,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
+        "tps_21227117d3c0",
+        "tps_3f157b86e3e9",
         "tps_6fae17528265",
         "tps_e44424c79995",
-        "tps_53363aaade47",
-        "tps_5e0ed168921b",
-        "tps_be2e591ea1c6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 5,
-      "baseline_avg": 1.4,
-      "ratio": 3.6,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5da1003d185d",
-        "tps_6a6f901ec061",
-        "tps_aaeb3a41099e",
-        "tps_028b07a41cd9",
-        "tps_d4917925dc56"
+        "tps_53363aaade47"
       ]
     },
     {
       "source": "police",
       "division": "D51",
-      "current_count": 9,
-      "baseline_avg": 2.7,
-      "ratio": 3.4,
-      "sample_days": 6,
+      "current_count": 8,
+      "baseline_avg": 1.9,
+      "ratio": 4.2,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_9080115e69d2",
@@ -11323,55 +11345,11 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_1f7a27173013",
-        "tps_77d902bf98e1",
-        "tps_2f6b7ac48611"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.6,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b41fd95b5173",
-        "tps_5bdab33159dc",
-        "tps_fe56e885956f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_fbc589aa667d",
-        "tps_aca763fe12a2",
-        "tps_4a067a248835",
-        "tps_4237938d71c3",
-        "tps_dec9760a7d82"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D43",
       "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.3,
-      "sample_days": 8,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_c67e41cd1e86",
@@ -11383,15 +11361,62 @@
     {
       "source": "police",
       "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 8,
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
+        "tps_91845496a964",
         "tps_dba6baec22e1",
         "tps_1cdf9fd9174a",
         "tps_413fc2df4cbe"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5da1003d185d",
+        "tps_6a6f901ec061",
+        "tps_aaeb3a41099e",
+        "tps_028b07a41cd9"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 2.4,
+      "ratio": 2.1,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_795f49db4138",
+        "tps_fbc589aa667d",
+        "tps_aca763fe12a2",
+        "tps_4a067a248835",
+        "tps_4237938d71c3"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b42d09acb784",
+        "tps_dc53edd67b47",
+        "tps_393b8ba643d5",
+        "tps_1151113d66fa"
       ]
     }
   ]
