@@ -1,11 +1,97 @@
 {
-  "generated": "2026-10-15T12:50:13.138417+00:00",
+  "generated": "2026-10-15T13:05:12.751903+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_f7d78872bfd3",
+      "source": "police",
+      "lat": 43.680749235632604,
+      "lng": -79.38234346424156,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "ROXBOROUGH DR - MOUNT PLEASANT RD",
+      "ts": "2026-10-15T12:38:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26164193",
+      "source": "fire",
+      "lat": 43.6926455,
+      "lng": -79.2887765,
+      "type": "Fire - Residential",
+      "type_plain": "Fire - Residential",
+      "severity": "medium",
+      "division": "225",
+      "location": "Scarborough - DENTON AVE & VICTORIA PARK AVE",
+      "approximate": false,
+      "units": "C22, C23, L226, LA231, P224, P225, P226, S313",
+      "ts": "2026-10-15T12:33:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f75e527817d7",
+      "source": "police",
+      "lat": 43.74130248382706,
+      "lng": -79.41523648810762,
+      "type": "ASSPR",
+      "type_plain": "Assault (Priority / In Progress)",
+      "severity": "high",
+      "division": "D32",
+      "location": "WILSON AVE - YONGE BLVD",
+      "ts": "2026-10-15T12:28:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3072fc0e8e7e",
+      "source": "police",
+      "lat": 43.643234487513844,
+      "lng": -79.42359602546665,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D14",
+      "location": "DOVERCOURT RD - LISGAR ST",
+      "ts": "2026-10-15T12:28:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_220f308fd77e",
+      "source": "police",
+      "lat": 43.752950001257084,
+      "lng": -79.35995853088932,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D33",
+      "location": "YORK MILLS RD - LESLIE ST",
+      "ts": "2026-10-15T12:26:20+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164188",
+          "distance_m": 30,
+          "minutes_apart": 8
+        }
+      ]
+    },
+    {
+      "id": "tps_cb3a29dee5fc",
+      "source": "police",
+      "lat": 43.69467467610093,
+      "lng": -79.48624827337376,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D12",
+      "location": "BLACK CREEK DR - TODD BAYLIS BLVD",
+      "ts": "2026-10-15T12:25:28+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164188",
       "source": "fire",
@@ -19,7 +105,13 @@
       "approximate": false,
       "units": "R122",
       "ts": "2026-10-15T12:17:57+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_220f308fd77e",
+          "distance_m": 30,
+          "minutes_apart": 8
+        }
+      ]
     },
     {
       "id": "tfs_F26164187",
@@ -11663,13 +11755,7 @@
       "division": "HP",
       "location": "MCCULLEY ST - ELKWOOD DR",
       "ts": "2026-10-14T13:20:02+00:00",
-      "related": [
-        {
-          "id": "tps_526dcd2e10cf",
-          "distance_m": 0,
-          "minutes_apart": 17
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_ba9b179b2ef0",
@@ -11811,118 +11897,15 @@
           "minutes_apart": 40
         }
       ]
-    },
-    {
-      "id": "tps_526dcd2e10cf",
-      "source": "police",
-      "lat": 43.7826485713086,
-      "lng": -79.1445480459392,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D43",
-      "location": "MCCULLEY ST - ELKWOOD DR",
-      "ts": "2026-10-14T13:03:03+00:00",
-      "related": [
-        {
-          "id": "tps_72a704e572f6",
-          "distance_m": 0,
-          "minutes_apart": 17
-        }
-      ]
-    },
-    {
-      "id": "tps_22cf4adaa5eb",
-      "source": "police",
-      "lat": 43.751793007230766,
-      "lng": -79.34955554268718,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D33",
-      "location": "DYAS RD - ",
-      "ts": "2026-10-14T13:02:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0702b925a204",
-      "source": "police",
-      "lat": 43.67445152466848,
-      "lng": -79.43342772753189,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D13",
-      "location": "LN N DAVENPORT W SOMERSET - DAVENPORT RD",
-      "ts": "2026-10-14T13:02:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b5bfe854f16e",
-      "source": "police",
-      "lat": 43.75598418741566,
-      "lng": -79.52430400995499,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D31",
-      "location": "FINCH AVE W - HEPC",
-      "ts": "2026-10-14T12:59:08+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.1,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b9cf392b6ffb",
-        "tps_e8c6cf9528e9",
-        "tps_6a8a3a4f863e",
-        "tps_c6f2316eaf47",
-        "tps_b0e08c496c5d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.2,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0d8d2705dc28",
-        "tps_c6e18e3bba39",
-        "tps_e92a8942e218"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.9,
-      "ratio": 2.1,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d04c405bc6ad",
-        "tps_d696e4d14fa9",
-        "tps_4a5780f32e95",
-        "tps_567d264bfae6"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
@@ -11930,6 +11913,20 @@
         "tps_94fd39cf5574",
         "tps_f84b2bea1a0a",
         "tps_c0813243c2b6"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_220f308fd77e",
+        "tps_02743d8e0268",
+        "tps_841134b07b8f"
       ]
     }
   ]
