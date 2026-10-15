@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-15T14:35:36.524336+00:00",
+  "generated": "2026-10-15T14:50:39.193900+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164276",
+      "source": "fire",
+      "lat": 43.7549569,
+      "lng": -79.3517944,
+      "type": "Fire Alarm - Check Call",
+      "type_plain": "Fire Alarm - Check Call",
+      "severity": "medium",
+      "division": "123",
+      "location": "North York - YORK MILLS RD & LESMILL RD",
+      "approximate": false,
+      "units": "P123",
+      "ts": "2026-10-15T14:39:31+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164256",
       "source": "fire",
@@ -10059,13 +10074,7 @@
       "division": "D43",
       "location": "FALAISE RD - MORNINGSIDE AVE",
       "ts": "2026-10-14T17:08:43+00:00",
-      "related": [
-        {
-          "id": "tps_e96762b2f48e",
-          "distance_m": 551,
-          "minutes_apart": 149
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_c98ac16e3c1d",
@@ -10333,19 +10342,9 @@
       "ts": "2026-10-14T16:37:52+00:00",
       "related": [
         {
-          "id": "tps_a535dd7b2208",
-          "distance_m": 515,
-          "minutes_apart": 112
-        },
-        {
           "id": "tps_8cf2cc18caea",
           "distance_m": 573,
           "minutes_apart": 109
-        },
-        {
-          "id": "tps_b3089c3a96a4",
-          "distance_m": 573,
-          "minutes_apart": 118
         }
       ]
     },
@@ -10545,13 +10544,7 @@
       "division": "HP",
       "location": "JEDBURGH RD - LAWRENCE AVE W",
       "ts": "2026-10-14T16:11:16+00:00",
-      "related": [
-        {
-          "id": "tps_34a765990e6e",
-          "distance_m": 0,
-          "minutes_apart": 86
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_4b0f4efdb5d3",
@@ -10770,11 +10763,6 @@
       "location": "BROOKFIELD ST - FENNINGS ST",
       "ts": "2026-10-14T15:53:28+00:00",
       "related": [
-        {
-          "id": "tps_5dcd61125a1f",
-          "distance_m": 0,
-          "minutes_apart": 69
-        },
         {
           "id": "tps_9dcbaeacd0ce",
           "distance_m": 95,
@@ -11027,13 +11015,7 @@
       "division": "D31",
       "location": "ARLETA AVE - DRIFTWOOD AVE",
       "ts": "2026-10-14T15:25:03+00:00",
-      "related": [
-        {
-          "id": "tps_897de100fc1f",
-          "distance_m": 580,
-          "minutes_apart": 40
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_3ed1dbbae900",
@@ -11336,150 +11318,22 @@
       "units": "",
       "ts": "2026-10-14T14:51:31+00:00",
       "related": []
-    },
-    {
-      "id": "tps_a535dd7b2208",
-      "source": "police",
-      "lat": 43.64964559645311,
-      "lng": -79.43144402285068,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "DUFFERIN ST - LN E SHERIDAN N DUNDAS",
-      "ts": "2026-10-14T14:45:58+00:00",
-      "related": [
-        {
-          "id": "tps_d47e98cc8824",
-          "distance_m": 515,
-          "minutes_apart": 112
-        }
-      ]
-    },
-    {
-      "id": "tps_897de100fc1f",
-      "source": "police",
-      "lat": 43.751475481834454,
-      "lng": -79.5127320171241,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D31",
-      "location": "YORKWOODS GT - LONDON GREEN CRT",
-      "ts": "2026-10-14T14:45:31+00:00",
-      "related": [
-        {
-          "id": "tps_3d85dfed8d8e",
-          "distance_m": 580,
-          "minutes_apart": 40
-        }
-      ]
-    },
-    {
-      "id": "tps_34a765990e6e",
-      "source": "police",
-      "lat": 43.7243799736957,
-      "lng": -79.40559543137475,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "JEDBURGH RD - LAWRENCE AVE W",
-      "ts": "2026-10-14T14:44:58+00:00",
-      "related": [
-        {
-          "id": "tps_375fbb73cff2",
-          "distance_m": 0,
-          "minutes_apart": 86
-        }
-      ]
-    },
-    {
-      "id": "tps_5dcd61125a1f",
-      "source": "police",
-      "lat": 43.643961487410905,
-      "lng": -79.41999282666772,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "LN W OSSINGTON N QUEEN - BROOKFIELD ST",
-      "ts": "2026-10-14T14:44:37+00:00",
-      "related": [
-        {
-          "id": "tps_ece62e41b928",
-          "distance_m": 0,
-          "minutes_apart": 69
-        }
-      ]
-    },
-    {
-      "id": "tps_b3089c3a96a4",
-      "source": "police",
-      "lat": 43.654902900266215,
-      "lng": -79.42025792657941,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "CRAWFORD ST - SHAW ST",
-      "ts": "2026-10-14T14:39:51+00:00",
-      "related": [
-        {
-          "id": "tps_d47e98cc8824",
-          "distance_m": 573,
-          "minutes_apart": 118
-        }
-      ]
-    },
-    {
-      "id": "tps_e96762b2f48e",
-      "source": "police",
-      "lat": 43.77262859456703,
-      "lng": -79.18502340996261,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D43",
-      "location": "MORNINGSIDE AVE - COLLINSGROVE RD",
-      "ts": "2026-10-14T14:39:51+00:00",
-      "related": [
-        {
-          "id": "tps_428ed3f7f32f",
-          "distance_m": 551,
-          "minutes_apart": 149
-        }
-      ]
-    },
-    {
-      "id": "tps_bfbac9cc5434",
-      "source": "police",
-      "lat": 43.76937042080875,
-      "lng": -79.22902553953348,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "MOUNTLAND DR - MOUNTLAND DR",
-      "ts": "2026-10-14T14:38:43+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.9,
-      "ratio": 2.7,
+      "ratio": 2.2,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
         "tps_f7638acb9a79",
         "tps_d708558ed435",
         "tps_f5789441a76d",
-        "tps_9459dd566f18",
-        "tps_633d4fcc124a"
+        "tps_9459dd566f18"
       ]
     }
   ]
