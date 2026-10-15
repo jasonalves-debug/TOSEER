@@ -1,11 +1,82 @@
 {
-  "generated": "2026-10-15T09:50:11.838042+00:00",
+  "generated": "2026-10-15T10:05:14.003459+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164153",
+      "source": "fire",
+      "lat": 43.6506511,
+      "lng": -79.3770093,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "333",
+      "location": "Toronto - ADELAIDE ST & YONGE ST",
+      "approximate": false,
+      "units": "P333, T333",
+      "ts": "2026-10-15T09:55:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d5e204646857",
+      "source": "police",
+      "lat": 43.598194701434075,
+      "lng": -79.51694178896726,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D22",
+      "location": "LAKE SHORE BLVD W - KIPLING AVE",
+      "ts": "2026-10-15T09:19:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4201393c23e9",
+      "source": "police",
+      "lat": 43.66628190538561,
+      "lng": -79.3783339514245,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D51",
+      "location": "MAITLAND ST - WELLESLEY ST E",
+      "ts": "2026-10-15T09:18:10+00:00",
+      "related": [
+        {
+          "id": "tps_6e2d9098431f",
+          "distance_m": 350,
+          "minutes_apart": 154
+        },
+        {
+          "id": "tps_cb7d5f00ba50",
+          "distance_m": 534,
+          "minutes_apart": 115
+        }
+      ]
+    },
+    {
+      "id": "tps_edc858741825",
+      "source": "police",
+      "lat": 43.801850013964604,
+      "lng": -79.39949664190625,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D33",
+      "location": "CONACHER DR - GOSSAMER AVE",
+      "ts": "2026-10-15T09:14:03+00:00",
+      "related": [
+        {
+          "id": "tps_4f1d8c963ba3",
+          "distance_m": 0,
+          "minutes_apart": 98
+        }
+      ]
+    },
     {
       "id": "tps_60da6e38a5a3",
       "source": "police",
@@ -340,7 +411,13 @@
       "division": "D32",
       "location": "CONACHER DR - GOSSAMER AVE",
       "ts": "2026-10-15T07:36:17+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_edc858741825",
+          "distance_m": 0,
+          "minutes_apart": 98
+        }
+      ]
     },
     {
       "id": "tps_cb7d5f00ba50",
@@ -358,6 +435,11 @@
           "id": "tps_3c2e31d76b43",
           "distance_m": 510,
           "minutes_apart": 176
+        },
+        {
+          "id": "tps_4201393c23e9",
+          "distance_m": 534,
+          "minutes_apart": 115
         }
       ]
     },
@@ -441,7 +523,13 @@
       "division": "D51",
       "location": "SIRMAN LANE - MAITLAND ST",
       "ts": "2026-10-15T06:44:38+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_4201393c23e9",
+          "distance_m": 350,
+          "minutes_apart": 154
+        }
+      ]
     },
     {
       "id": "tps_a39fffb5c76f",
@@ -12065,48 +12153,35 @@
           "minutes_apart": 114
         }
       ]
-    },
-    {
-      "id": "tps_c7cd7d850e3e",
-      "source": "police",
-      "lat": 43.74612917677479,
-      "lng": -79.24850435391659,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D43",
-      "location": "SEMINOLE AVE - SEMINOLE AVE",
-      "ts": "2026-10-14T09:56:43+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
+      "division": "D43",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_508884facb84",
-        "tps_9efff555daa3",
-        "tps_685416463603"
+        "tps_d414bdd28feb",
+        "tps_99e4395d45a9",
+        "tps_7bad9f70e4c6"
       ]
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "D14",
       "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_d414bdd28feb",
-        "tps_99e4395d45a9",
-        "tps_7bad9f70e4c6"
+        "tps_508884facb84",
+        "tps_9efff555daa3",
+        "tps_685416463603"
       ]
     }
   ]
