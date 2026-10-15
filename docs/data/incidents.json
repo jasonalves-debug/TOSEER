@@ -1,11 +1,114 @@
 {
-  "generated": "2026-10-15T13:50:12.659162+00:00",
+  "generated": "2026-10-15T14:05:10.317943+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164244",
+      "source": "fire",
+      "lat": 43.749526,
+      "lng": -79.2053747,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "234",
+      "location": "Scarborough - GUILDWOOD PKWY & KINGSTON RD",
+      "approximate": false,
+      "units": "P231, R223",
+      "ts": "2026-10-15T13:47:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f7638acb9a79",
+      "source": "police",
+      "lat": 43.67751354311641,
+      "lng": -79.3586593833633,
+      "type": "THEPR",
+      "type_plain": "Theft (Priority)",
+      "severity": "medium",
+      "division": "D55",
+      "location": "DANFORTH AVE - LN N DANFORTH W BROADVIEW",
+      "ts": "2026-10-15T13:42:05+00:00",
+      "related": [
+        {
+          "id": "tps_1efb698cdde7",
+          "distance_m": 225,
+          "minutes_apart": 14
+        }
+      ]
+    },
+    {
+      "id": "tps_ee1cc201b358",
+      "source": "police",
+      "lat": 43.66838911093921,
+      "lng": -79.40200554022768,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D53",
+      "location": "BLOOR ST W - PRINCE ARTHUR AVE",
+      "ts": "2026-10-15T13:40:26+00:00",
+      "related": [
+        {
+          "id": "tps_fd130e09087c",
+          "distance_m": 345,
+          "minutes_apart": 163
+        }
+      ]
+    },
+    {
+      "id": "tps_1017b8daf67d",
+      "source": "police",
+      "lat": 43.640999879880496,
+      "lng": -79.38067854343488,
+      "type": "DEMO",
+      "type_plain": "DEMO",
+      "severity": "low",
+      "division": "D52",
+      "location": "HARBOUR ST - LAKE SHORE BLVD W",
+      "ts": "2026-10-15T13:39:26+00:00",
+      "related": [
+        {
+          "id": "tps_c88dc1a76ba4",
+          "distance_m": 562,
+          "minutes_apart": 155
+        },
+        {
+          "id": "tps_c6ed7601280f",
+          "distance_m": 562,
+          "minutes_apart": 165
+        }
+      ]
+    },
+    {
+      "id": "tps_30c4ad754e2b",
+      "source": "police",
+      "lat": 43.6548223939261,
+      "lng": -79.38814214166892,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "D52",
+      "location": "DUNDAS ST W - UNIVERSITY AVE",
+      "ts": "2026-10-15T13:34:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_940e700fa611",
+      "source": "police",
+      "lat": 43.64098579134359,
+      "lng": -79.44277811907274,
+      "type": "FRA",
+      "type_plain": "Fraud",
+      "severity": "medium",
+      "division": "D11",
+      "location": "LN N QUEEN E TRILLER - HARVARD AVE",
+      "ts": "2026-10-15T13:34:34+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164236",
       "source": "fire",
@@ -19,6 +122,43 @@
       "approximate": false,
       "units": "P343",
       "ts": "2026-10-15T13:32:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1efb698cdde7",
+      "source": "police",
+      "lat": 43.67591703393984,
+      "lng": -79.36038447787016,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY S - PRINCE EDWARD VIADUCT",
+      "ts": "2026-10-15T13:28:04+00:00",
+      "related": [
+        {
+          "id": "tps_f7638acb9a79",
+          "distance_m": 225,
+          "minutes_apart": 14
+        },
+        {
+          "id": "tps_e8c6cf9528e9",
+          "distance_m": 598,
+          "minutes_apart": 170
+        }
+      ]
+    },
+    {
+      "id": "tps_d708558ed435",
+      "source": "police",
+      "lat": 43.65829659740034,
+      "lng": -79.37100285365003,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D55",
+      "location": "SHUTER ST - DUNDAS ST E",
+      "ts": "2026-10-15T13:24:39+00:00",
       "related": []
     },
     {
@@ -519,6 +659,11 @@
           "id": "tfs_F26164153",
           "distance_m": 552,
           "minutes_apart": 69
+        },
+        {
+          "id": "tps_1017b8daf67d",
+          "distance_m": 562,
+          "minutes_apart": 155
         }
       ]
     },
@@ -548,7 +693,13 @@
       "division": "D53",
       "location": "BLOOR ST W - PRINCE ARTHUR AVE",
       "ts": "2026-10-15T10:57:48+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_ee1cc201b358",
+          "distance_m": 345,
+          "minutes_apart": 163
+        }
+      ]
     },
     {
       "id": "tps_f84b2bea1a0a",
@@ -590,6 +741,11 @@
           "id": "tfs_F26164153",
           "distance_m": 552,
           "minutes_apart": 60
+        },
+        {
+          "id": "tps_1017b8daf67d",
+          "distance_m": 562,
+          "minutes_apart": 165
         }
       ]
     },
@@ -635,6 +791,11 @@
           "id": "tps_c0813243c2b6",
           "distance_m": 398,
           "minutes_apart": 2
+        },
+        {
+          "id": "tps_1efb698cdde7",
+          "distance_m": 598,
+          "minutes_apart": 170
         },
         {
           "id": "tps_60da6e38a5a3",
@@ -10367,11 +10528,6 @@
           "id": "tps_34a765990e6e",
           "distance_m": 0,
           "minutes_apart": 86
-        },
-        {
-          "id": "tps_138b569a791f",
-          "distance_m": 0,
-          "minutes_apart": 137
         }
       ]
     },
@@ -10701,13 +10857,7 @@
       "division": "D53",
       "location": "BERNARD AVE - DUPONT ST",
       "ts": "2026-10-14T15:44:47+00:00",
-      "related": [
-        {
-          "id": "tps_e1720dd0c5e0",
-          "distance_m": 420,
-          "minutes_apart": 100
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_526eb03365b2",
@@ -11247,11 +11397,6 @@
       "ts": "2026-10-14T14:44:58+00:00",
       "related": [
         {
-          "id": "tps_138b569a791f",
-          "distance_m": 0,
-          "minutes_apart": 51
-        },
-        {
           "id": "tps_375fbb73cff2",
           "distance_m": 0,
           "minutes_apart": 86
@@ -11615,172 +11760,32 @@
           "minutes_apart": 103
         }
       ]
-    },
-    {
-      "id": "tps_4f532f0e10a1",
-      "source": "police",
-      "lat": 43.7120170948085,
-      "lng": -79.28093218085318,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D41",
-      "location": "WARDEN AVE - ST CLAIR AVE E",
-      "ts": "2026-10-14T14:05:00+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26163637",
-      "source": "fire",
-      "lat": 43.7811571,
-      "lng": -79.2337919,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "213",
-      "location": "Scarborough - PROGRESS AVE & MARKHAM RD",
-      "approximate": false,
-      "units": "A213, P213",
-      "ts": "2026-10-14T14:04:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e1720dd0c5e0",
-      "source": "police",
-      "lat": 43.66841681242637,
-      "lng": -79.40638373847843,
-      "type": "PERLO",
-      "type_plain": "PERLO",
-      "severity": "low",
-      "division": "D14",
-      "location": "BLOOR ST W - LOWTHER AVE",
-      "ts": "2026-10-14T14:04:55+00:00",
-      "related": [
-        {
-          "id": "tps_e4a4b2fee76e",
-          "distance_m": 420,
-          "minutes_apart": 100
-        }
-      ]
-    },
-    {
-      "id": "tps_92fd721d6fb6",
-      "source": "police",
-      "lat": 43.648733187836804,
-      "lng": -79.39649573549008,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "QUEEN ST W - BULWER ST",
-      "ts": "2026-10-14T13:58:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_138b569a791f",
-      "source": "police",
-      "lat": 43.7243799736957,
-      "lng": -79.40559543137475,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D32",
-      "location": "JEDBURGH RD - LAWRENCE AVE W",
-      "ts": "2026-10-14T13:54:21+00:00",
-      "related": [
-        {
-          "id": "tps_34a765990e6e",
-          "distance_m": 0,
-          "minutes_apart": 51
-        },
-        {
-          "id": "tps_375fbb73cff2",
-          "distance_m": 0,
-          "minutes_apart": 137
-        }
-      ]
-    },
-    {
-      "id": "tps_97d26e928b5e",
-      "source": "police",
-      "lat": 43.66660386119215,
-      "lng": -79.46728152730938,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "LN E JACKSON PL S VINE - JACKSON PL",
-      "ts": "2026-10-14T13:54:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fbaa95218d0b",
-      "source": "police",
-      "lat": 43.65729849640226,
-      "lng": -79.37344165169152,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "GEORGE ST - DUNDAS ST E",
-      "ts": "2026-10-14T13:52:04+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.1,
-      "sample_days": 9,
+      "current_count": 6,
+      "baseline_avg": 1.9,
+      "ratio": 3.2,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_f7638acb9a79",
+        "tps_d708558ed435",
         "tps_f5789441a76d",
         "tps_9459dd566f18",
-        "tps_633d4fcc124a",
-        "tps_94fd39cf5574",
-        "tps_f84b2bea1a0a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.1,
-      "ratio": 2.7,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8113d74b30cd",
-        "tps_f75e527817d7",
-        "tps_2d0609006f8b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 2.4,
-      "ratio": 2.1,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c3e095eb9253",
-        "tps_65491684ad85",
-        "tps_99320d7de211",
-        "tps_f7d78872bfd3",
-        "tps_b9cf392b6ffb"
+        "tps_633d4fcc124a"
       ]
     },
     {
       "source": "police",
       "division": "D22",
       "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 9,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_e6542869eb68",
