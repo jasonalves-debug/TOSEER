@@ -1,11 +1,63 @@
 {
-  "generated": "2026-10-15T09:20:10.047925+00:00",
+  "generated": "2026-10-15T09:35:09.926969+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_60da6e38a5a3",
+      "source": "police",
+      "lat": 43.67619633749256,
+      "lng": -79.35886348045678,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "DEARBOURNE AVE - DANFORTH AVE",
+      "ts": "2026-10-15T09:08:41+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d4afb7dcafed",
+      "source": "police",
+      "lat": 43.64954468864824,
+      "lng": -79.36324745605559,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "LONGBOAT AVE - SCADDING AVE",
+      "ts": "2026-10-15T09:08:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2348429caccb",
+      "source": "police",
+      "lat": 43.705743018427135,
+      "lng": -79.25705339677437,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "KENNEDY RD - CRAIGLEE DR",
+      "ts": "2026-10-15T09:03:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_60f169bc567a",
+      "source": "police",
+      "lat": 43.727449975092924,
+      "lng": -79.40281993810522,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D32",
+      "location": "BEDFORD PARK AVE - RANLEIGH AVE",
+      "ts": "2026-10-15T08:57:43+00:00",
+      "related": []
+    },
     {
       "id": "tps_070f12d03f16",
       "source": "police",
@@ -11693,13 +11745,7 @@
       "division": "D42",
       "location": "SHEPPARD AVE E - CARDWELL AVE",
       "ts": "2026-10-14T11:30:56+00:00",
-      "related": [
-        {
-          "id": "tps_e293594dfd08",
-          "distance_m": 437,
-          "minutes_apart": 121
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_45b95520e28c",
@@ -12045,38 +12091,6 @@
       "location": "LADBROOKE RD - THE WESTWAY",
       "ts": "2026-10-14T09:44:16+00:00",
       "related": []
-    },
-    {
-      "id": "tps_e293594dfd08",
-      "source": "police",
-      "lat": 43.78211963627784,
-      "lng": -79.29346258821549,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "BONIS AVE - ",
-      "ts": "2026-10-14T09:30:19+00:00",
-      "related": [
-        {
-          "id": "tps_fecb90c49917",
-          "distance_m": 437,
-          "minutes_apart": 121
-        }
-      ]
-    },
-    {
-      "id": "tps_98e3de20dbec",
-      "source": "police",
-      "lat": 43.76942243842896,
-      "lng": -79.28227009559461,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D41",
-      "location": "KENNEDY RD - PROGRESS AVE",
-      "ts": "2026-10-14T09:29:05+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -12107,6 +12121,20 @@
         "tps_508884facb84",
         "tps_9efff555daa3",
         "tps_685416463603"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_2348429caccb",
+        "tps_57f6d41522c4",
+        "tps_0cacbd668999"
       ]
     }
   ]
