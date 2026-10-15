@@ -1,11 +1,75 @@
 {
-  "generated": "2026-10-15T10:20:10.392804+00:00",
+  "generated": "2026-10-15T10:35:10.076373+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_e680cc1ff334",
+      "source": "police",
+      "lat": 43.76210646964705,
+      "lng": -79.25834775751595,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D41",
+      "location": "BRIMLEY RD - TORDALE CRES",
+      "ts": "2026-10-15T10:13:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8995dc4aad97",
+      "source": "police",
+      "lat": 43.64857479289556,
+      "lng": -79.41907222697462,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D14",
+      "location": "LN W SHAW S HALTON - GIVINS ST",
+      "ts": "2026-10-15T10:10:34+00:00",
+      "related": [
+        {
+          "id": "tps_afd151cf97bb",
+          "distance_m": 515,
+          "minutes_apart": 26
+        }
+      ]
+    },
+    {
+      "id": "tps_07bafdb14936",
+      "source": "police",
+      "lat": 43.65923739834116,
+      "lng": -79.38517394513003,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "HAYTER ST - COLLEGE ST",
+      "ts": "2026-10-15T10:06:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e92a8942e218",
+      "source": "police",
+      "lat": 43.644662900814716,
+      "lng": -79.52335329800323,
+      "type": "DEMO",
+      "type_plain": "DEMO",
+      "severity": "low",
+      "division": "D11",
+      "location": "BLOOR ST W - ISLINGTON AVE",
+      "ts": "2026-10-15T09:59:43+00:00",
+      "related": [
+        {
+          "id": "tps_567d264bfae6",
+          "distance_m": 187,
+          "minutes_apart": 9
+        }
+      ]
+    },
     {
       "id": "tps_b0e08c496c5d",
       "source": "police",
@@ -70,7 +134,13 @@
       "division": "D22",
       "location": "LOTHIAN AVE - BLOOR ST W",
       "ts": "2026-10-15T09:50:51+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_e92a8942e218",
+          "distance_m": 187,
+          "minutes_apart": 9
+        }
+      ]
     },
     {
       "id": "tps_de6efbf6a6c8",
@@ -96,7 +166,13 @@
       "division": "D14",
       "location": " - ",
       "ts": "2026-10-15T09:44:14+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_8995dc4aad97",
+          "distance_m": 515,
+          "minutes_apart": 26
+        }
+      ]
     },
     {
       "id": "tps_df142e1f219a",
@@ -11396,11 +11472,6 @@
           "minutes_apart": 44
         },
         {
-          "id": "tps_cfc3f235bf9e",
-          "distance_m": 516,
-          "minutes_apart": 158
-        },
-        {
           "id": "tfs_F26163629",
           "distance_m": 576,
           "minutes_apart": 40
@@ -12089,11 +12160,6 @@
           "minutes_apart": 175
         },
         {
-          "id": "tps_cfc3f235bf9e",
-          "distance_m": 370,
-          "minutes_apart": 23
-        },
-        {
           "id": "tps_35d912d4d90e",
           "distance_m": 390,
           "minutes_apart": 92
@@ -12168,42 +12234,19 @@
           "minutes_apart": 143
         }
       ]
-    },
-    {
-      "id": "tps_cfc3f235bf9e",
-      "source": "police",
-      "lat": 43.65616289526663,
-      "lng": -79.37009915354126,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
-      "ts": "2026-10-14T10:29:40+00:00",
-      "related": [
-        {
-          "id": "tps_717f07cfc79d",
-          "distance_m": 370,
-          "minutes_apart": 23
-        },
-        {
-          "id": "tps_2bcb9e6226f3",
-          "distance_m": 516,
-          "minutes_apart": 158
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 4,
+      "current_count": 5,
       "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 8,
+      "ratio": 4.1,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
+        "tps_8995dc4aad97",
         "tps_afd151cf97bb",
         "tps_508884facb84",
         "tps_9efff555daa3",
@@ -12222,6 +12265,20 @@
         "tps_d414bdd28feb",
         "tps_99e4395d45a9",
         "tps_7bad9f70e4c6"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e680cc1ff334",
+        "tps_2348429caccb",
+        "tps_57f6d41522c4"
       ]
     }
   ]
