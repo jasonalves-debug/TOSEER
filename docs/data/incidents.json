@@ -1,11 +1,54 @@
 {
-  "generated": "2026-10-15T07:19:52.252543+00:00",
+  "generated": "2026-10-15T07:34:49.363041+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_087367d395ad",
+      "source": "police",
+      "lat": 43.668719909127,
+      "lng": -79.39413274468478,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D53",
+      "location": "QUEEN'S PARK - BEDFORD RD",
+      "ts": "2026-10-15T06:59:06+00:00",
+      "related": [
+        {
+          "id": "tps_3c2e31d76b43",
+          "distance_m": 493,
+          "minutes_apart": 152
+        }
+      ]
+    },
+    {
+      "id": "tps_aa0ba856291b",
+      "source": "police",
+      "lat": 43.68400239601657,
+      "lng": -79.51147868425664,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D23",
+      "location": "SCARLETT RD - ",
+      "ts": "2026-10-15T06:56:51+00:00",
+      "related": [
+        {
+          "id": "tps_a36001c847cd",
+          "distance_m": 0,
+          "minutes_apart": 146
+        },
+        {
+          "id": "tfs_F26164074",
+          "distance_m": 247,
+          "minutes_apart": 158
+        }
+      ]
+    },
     {
       "id": "tps_c0c2aea68954",
       "source": "police",
@@ -593,6 +636,11 @@
       "ts": "2026-10-15T04:30:52+00:00",
       "related": [
         {
+          "id": "tps_aa0ba856291b",
+          "distance_m": 0,
+          "minutes_apart": 146
+        },
+        {
           "id": "tfs_F26164074",
           "distance_m": 247,
           "minutes_apart": 12
@@ -615,6 +663,11 @@
           "id": "tps_1a4fac69d930",
           "distance_m": 458,
           "minutes_apart": 171
+        },
+        {
+          "id": "tps_087367d395ad",
+          "distance_m": 493,
+          "minutes_apart": 152
         },
         {
           "id": "tps_718473854b33",
@@ -693,6 +746,11 @@
           "id": "tps_a36001c847cd",
           "distance_m": 247,
           "minutes_apart": 12
+        },
+        {
+          "id": "tps_aa0ba856291b",
+          "distance_m": 247,
+          "minutes_apart": 158
         }
       ]
     },
@@ -12026,45 +12084,6 @@
       "division": "D12",
       "location": "MAIDSTONE ST - FLEETWOOD AVE",
       "ts": "2026-10-14T07:35:00+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a32926db5681",
-      "source": "police",
-      "lat": 43.75786462249319,
-      "lng": -79.31523357097439,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D41",
-      "location": "VICTORIA PARK AVE - POLLARD DR",
-      "ts": "2026-10-14T07:34:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_af1c1d049885",
-      "source": "police",
-      "lat": 43.68175149328182,
-      "lng": -79.33518931913423,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D55",
-      "location": "CAITHNESS AVE - GREENWOOD AVE",
-      "ts": "2026-10-14T07:32:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_989f4999b3be",
-      "source": "police",
-      "lat": 43.78163299652674,
-      "lng": -79.4159903445941,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D32",
-      "location": "BISHOP AVE - HEPC",
-      "ts": "2026-10-14T07:24:03+00:00",
       "related": []
     }
   ],
