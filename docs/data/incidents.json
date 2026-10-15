@@ -1,11 +1,168 @@
 {
-  "generated": "2026-10-15T00:19:31.038974+00:00",
+  "generated": "2026-10-15T00:34:32.126639+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26163977",
+      "source": "fire",
+      "lat": 43.739536,
+      "lng": -79.2454183,
+      "type": "Fire - Residential",
+      "type_plain": "Fire - Residential",
+      "severity": "medium",
+      "division": "221",
+      "location": "Scarborough - TRUDELLE ST & DANFORTH RD",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-15T00:16:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_98c0b08b7ce9",
+      "source": "police",
+      "lat": 43.65729849640226,
+      "lng": -79.37344165169152,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D51",
+      "location": "GEORGE ST - DUNDAS ST E",
+      "ts": "2026-10-15T00:09:19+00:00",
+      "related": [
+        {
+          "id": "tps_7f5cb37a4146",
+          "distance_m": 225,
+          "minutes_apart": 112
+        },
+        {
+          "id": "tps_fc4c5bbf4687",
+          "distance_m": 504,
+          "minutes_apart": 157
+        },
+        {
+          "id": "tps_c29f786f4185",
+          "distance_m": 575,
+          "minutes_apart": 177
+        }
+      ]
+    },
+    {
+      "id": "tps_a13a68997340",
+      "source": "police",
+      "lat": 43.71981314643954,
+      "lng": -79.51377244302977,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D31",
+      "location": "JANE ST - DALLNER RD",
+      "ts": "2026-10-15T00:07:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8c38a0edb8c7",
+      "source": "police",
+      "lat": 43.72087669467613,
+      "lng": -79.24145832907259,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D43",
+      "location": "ST CLAIR AVE E - BRIMLEY RD",
+      "ts": "2026-10-15T00:07:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_85809486a238",
+      "source": "police",
+      "lat": 43.66628190538561,
+      "lng": -79.3783339514245,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D51",
+      "location": "JARVIS ST - WELLESLEY ST E",
+      "ts": "2026-10-15T00:04:03+00:00",
+      "related": [
+        {
+          "id": "tfs_F26163878",
+          "distance_m": 102,
+          "minutes_apart": 130
+        },
+        {
+          "id": "tps_32607e66c039",
+          "distance_m": 384,
+          "minutes_apart": 131
+        }
+      ]
+    },
+    {
+      "id": "tps_77d902bf98e1",
+      "source": "police",
+      "lat": 43.78211963627784,
+      "lng": -79.29346258821549,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D42",
+      "location": "BONIS AVE - ",
+      "ts": "2026-10-15T00:03:30+00:00",
+      "related": [
+        {
+          "id": "tps_7bcf9cd439ac",
+          "distance_m": 0,
+          "minutes_apart": 22
+        },
+        {
+          "id": "tps_1b5a95a683a0",
+          "distance_m": 517,
+          "minutes_apart": 123
+        }
+      ]
+    },
+    {
+      "id": "tps_dec9760a7d82",
+      "source": "police",
+      "lat": 43.62545188019389,
+      "lng": -79.48568571369577,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY E - PARK LAWN RD",
+      "ts": "2026-10-14T23:58:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2f6b7ac48611",
+      "source": "police",
+      "lat": 43.81149362440756,
+      "lng": -79.21770038238006,
+      "type": "ATTBR",
+      "type_plain": "Attempt Break and Enter",
+      "severity": "high",
+      "division": "D42",
+      "location": "PARSONAGE DR - GREENLEAF TER",
+      "ts": "2026-10-14T23:57:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d4917925dc56",
+      "source": "police",
+      "lat": 43.774822519666785,
+      "lng": -79.32879896640394,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D33",
+      "location": "BRIAN DR - ATRIA BLVD",
+      "ts": "2026-10-14T23:53:57+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26163961",
       "source": "fire",
@@ -165,6 +322,11 @@
       "location": "ALLANFORD RD - KENNEDY RD",
       "ts": "2026-10-14T23:41:41+00:00",
       "related": [
+        {
+          "id": "tps_77d902bf98e1",
+          "distance_m": 0,
+          "minutes_apart": 22
+        },
         {
           "id": "tps_1b5a95a683a0",
           "distance_m": 517,
@@ -1040,6 +1202,11 @@
       "ts": "2026-10-14T22:17:20+00:00",
       "related": [
         {
+          "id": "tps_98c0b08b7ce9",
+          "distance_m": 225,
+          "minutes_apart": 112
+        },
+        {
           "id": "tps_b85eb614bc77",
           "distance_m": 539,
           "minutes_apart": 172
@@ -1253,6 +1420,11 @@
           "id": "tps_7bcf9cd439ac",
           "distance_m": 517,
           "minutes_apart": 101
+        },
+        {
+          "id": "tps_77d902bf98e1",
+          "distance_m": 517,
+          "minutes_apart": 123
         }
       ]
     },
@@ -1274,6 +1446,11 @@
           "id": "tfs_F26163847",
           "distance_m": 0,
           "minutes_apart": 63
+        },
+        {
+          "id": "tps_85809486a238",
+          "distance_m": 102,
+          "minutes_apart": 130
         },
         {
           "id": "tps_32607e66c039",
@@ -1299,6 +1476,11 @@
       "location": "BLEECKER ST - ONTARIO ST",
       "ts": "2026-10-14T21:53:26+00:00",
       "related": [
+        {
+          "id": "tps_85809486a238",
+          "distance_m": 384,
+          "minutes_apart": 131
+        },
         {
           "id": "tfs_F26163878",
           "distance_m": 418,
@@ -1710,9 +1892,9 @@
           "minutes_apart": 179
         },
         {
-          "id": "tps_c29f786f4185",
-          "distance_m": 518,
-          "minutes_apart": 20
+          "id": "tps_98c0b08b7ce9",
+          "distance_m": 504,
+          "minutes_apart": 157
         }
       ]
     },
@@ -1914,6 +2096,11 @@
           "id": "tfs_F26163878",
           "distance_m": 524,
           "minutes_apart": 41
+        },
+        {
+          "id": "tps_98c0b08b7ce9",
+          "distance_m": 575,
+          "minutes_apart": 177
         }
       ]
     },
@@ -10424,64 +10611,39 @@
           "minutes_apart": 51
         }
       ]
-    },
-    {
-      "id": "tfs_F26163362",
-      "source": "fire",
-      "lat": 43.6538725,
-      "lng": -79.4675647,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "425",
-      "location": "Toronto - QUEBEC AVE & GOTHIC AVE",
-      "approximate": false,
-      "units": "P423, R425",
-      "ts": "2026-10-14T00:27:18+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_42b56d7b0a5b",
-      "source": "police",
-      "lat": 43.61437580353578,
-      "lng": -79.54682138361925,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER X W BROWNS LI S RAMP - 427 X S GARDINER X E RAMP",
-      "ts": "2026-10-14T00:23:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_38f1919c805e",
-      "source": "police",
-      "lat": 43.73397804732846,
-      "lng": -79.45010506899399,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D32",
-      "location": "ALLEN S 401 RAMP - TRANSIT RD",
-      "ts": "2026-10-14T00:22:04+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 7,
-      "baseline_avg": 1.4,
-      "ratio": 4.8,
-      "sample_days": 9,
+      "division": "D42",
+      "current_count": 6,
+      "baseline_avg": 1.3,
+      "ratio": 4.6,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_52268341dce3",
-        "tps_fef6faed8a95",
-        "tps_4a9358de651f",
-        "tps_60cea50fed75",
-        "tps_64da86e8ca5b"
+        "tps_77d902bf98e1",
+        "tps_2f6b7ac48611",
+        "tps_7bcf9cd439ac",
+        "tps_ca736f3102eb",
+        "tps_f7688704dfdb"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 8,
+      "baseline_avg": 2.1,
+      "ratio": 3.8,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_98c0b08b7ce9",
+        "tps_85809486a238",
+        "tps_20a65e3bf769",
+        "tps_ac9a5b2d8bb6",
+        "tps_7f5cb37a4146"
       ]
     },
     {
@@ -10493,11 +10655,27 @@
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_dec9760a7d82",
         "tps_5c88d5722958",
         "tps_be860625d4c9",
         "tps_34d9f865a29f",
-        "tps_aadefcde487f",
-        "tps_b5f9d8d79614"
+        "tps_aadefcde487f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 5,
+      "baseline_avg": 1.4,
+      "ratio": 3.5,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_52268341dce3",
+        "tps_fef6faed8a95",
+        "tps_4a9358de651f",
+        "tps_60cea50fed75",
+        "tps_64da86e8ca5b"
       ]
     },
     {
@@ -10518,57 +10696,10 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 2.1,
-      "ratio": 3.3,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_20a65e3bf769",
-        "tps_ac9a5b2d8bb6",
-        "tps_7f5cb37a4146",
-        "tps_a9b5bcb82b16",
-        "tps_32607e66c039"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.1,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_dfa42d4f2733",
-        "tps_4dd2bf4e733d",
-        "tps_247d0caca9fa",
-        "tps_b92ce7d09a7d",
-        "tps_a37c82e7a9db"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7bcf9cd439ac",
-        "tps_ca736f3102eb",
-        "tps_f7688704dfdb",
-        "tps_1b5a95a683a0"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D53",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 2.4,
-      "ratio": 2.5,
+      "ratio": 2.1,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
