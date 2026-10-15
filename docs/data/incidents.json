@@ -1,11 +1,89 @@
 {
-  "generated": "2026-10-15T00:49:30.551852+00:00",
+  "generated": "2026-10-15T01:04:31.678176+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_dbe2dfc4f63c",
+      "source": "police",
+      "lat": 43.66662311127349,
+      "lng": -79.41179143478892,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "LN 2 N BLOOR E BATHURST - LONDON ST",
+      "ts": "2026-10-15T00:25:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e9bb478e35fc",
+      "source": "police",
+      "lat": 43.644541396989446,
+      "lng": -79.44836591721014,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D11",
+      "location": "LN 2 W SORAUREN S FERN - LN E RONCESVALLES N FERN",
+      "ts": "2026-10-15T00:22:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_aaeb3a41099e",
+      "source": "police",
+      "lat": 43.76375160271652,
+      "lng": -79.36138923515041,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D33",
+      "location": "DUNCAN MILL RD - LESLIE ST",
+      "ts": "2026-10-15T00:21:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_028b07a41cd9",
+      "source": "police",
+      "lat": 43.78649102600858,
+      "lng": -79.35208883841733,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D33",
+      "location": "DEERFORD RD - DON MILLS RD W",
+      "ts": "2026-10-15T00:20:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_77629e5702bb",
+      "source": "police",
+      "lat": 43.75691419494645,
+      "lng": -79.22935133513445,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D43",
+      "location": "GREENBRAE CRCT - MARKHAM RD",
+      "ts": "2026-10-15T00:20:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e4b507b3a5bc",
+      "source": "police",
+      "lat": 43.74237018222058,
+      "lng": -79.22932547354156,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D43",
+      "location": "CEDAR BRAE BLVD - PORCHESTER DR",
+      "ts": "2026-10-15T00:19:00+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26163977",
       "source": "fire",
@@ -19,6 +97,32 @@
       "approximate": false,
       "units": "",
       "ts": "2026-10-15T00:16:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b24ef4de06d0",
+      "source": "police",
+      "lat": 43.75300437048509,
+      "lng": -79.49170432678375,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D31",
+      "location": "GRANDRAVINE PARK TRL - FRANKTON CRES",
+      "ts": "2026-10-15T00:12:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1151113d66fa",
+      "source": "police",
+      "lat": 43.686588088008996,
+      "lng": -79.49419148338119,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D12",
+      "location": "PEAREN ST - JANE ST",
+      "ts": "2026-10-15T00:10:23+00:00",
       "related": []
     },
     {
@@ -10616,34 +10720,34 @@
   "anomalies": [
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 6,
-      "baseline_avg": 1.3,
-      "ratio": 4.6,
-      "sample_days": 10,
+      "division": "D12",
+      "current_count": 5,
+      "baseline_avg": 1.0,
+      "ratio": 5.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_77d902bf98e1",
-        "tps_2f6b7ac48611",
-        "tps_7bcf9cd439ac",
-        "tps_ca736f3102eb",
-        "tps_f7688704dfdb"
+        "tps_1151113d66fa",
+        "tps_4e5e623b3e4c",
+        "tps_a83da8e807f9",
+        "tps_14d291983174",
+        "tps_2b5bbc834ae9"
       ]
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 2.1,
-      "ratio": 3.4,
-      "sample_days": 12,
+      "division": "D31",
+      "current_count": 5,
+      "baseline_avg": 1.2,
+      "ratio": 4.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_98c0b08b7ce9",
-        "tps_85809486a238",
-        "tps_20a65e3bf769",
-        "tps_ac9a5b2d8bb6",
-        "tps_7f5cb37a4146"
+        "tps_b24ef4de06d0",
+        "tps_a13a68997340",
+        "tps_ad2db80532ca",
+        "tps_92014493f6bd",
+        "tps_3c20be5bdd81"
       ]
     },
     {
@@ -10664,41 +10768,11 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.8,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_52268341dce3",
-        "tps_fef6faed8a95",
-        "tps_4a9358de651f",
-        "tps_60cea50fed75"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.8,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4e5e623b3e4c",
-        "tps_a83da8e807f9",
-        "tps_14d291983174",
-        "tps_2b5bbc834ae9"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D53",
       "current_count": 5,
-      "baseline_avg": 2.4,
-      "ratio": 2.1,
-      "sample_days": 8,
+      "baseline_avg": 1.5,
+      "ratio": 3.2,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_68a9887bb5a4",
@@ -10706,6 +10780,83 @@
         "tps_33367b84fb29",
         "tps_67266dcebb96",
         "tps_2a56d1a04159"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.8,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e9bb478e35fc",
+        "tps_52268341dce3",
+        "tps_fef6faed8a95",
+        "tps_4a9358de651f"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
+      "current_count": 5,
+      "baseline_avg": 1.9,
+      "ratio": 2.7,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_77d902bf98e1",
+        "tps_2f6b7ac48611",
+        "tps_7bcf9cd439ac",
+        "tps_ca736f3102eb",
+        "tps_f7688704dfdb"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_aaeb3a41099e",
+        "tps_028b07a41cd9",
+        "tps_d4917925dc56",
+        "tps_84e1a311f63b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_77629e5702bb",
+        "tps_e4b507b3a5bc",
+        "tps_8c38a0edb8c7",
+        "tps_69e8c88d61ed"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.2,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_dbe2dfc4f63c",
+        "tps_80f609cdfeb3",
+        "tps_f21865a6a829",
+        "tps_dc6fd1c8ebac",
+        "tps_559241aa5807"
       ]
     }
   ]
