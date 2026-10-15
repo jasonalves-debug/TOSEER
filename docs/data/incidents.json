@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T05:49:51.410362+00:00",
+  "generated": "2026-10-15T06:04:49.869268+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -22,6 +22,19 @@
       "related": []
     },
     {
+      "id": "tps_17b135a91831",
+      "source": "police",
+      "lat": 43.77300697616342,
+      "lng": -79.52284060813406,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D31",
+      "location": "GOSFORD BLVD - JANE ST",
+      "ts": "2026-10-15T05:27:24+00:00",
+      "related": []
+    },
+    {
       "id": "tps_12e7ec955a40",
       "source": "police",
       "lat": 43.720642146439545,
@@ -33,6 +46,44 @@
       "location": "JANE ST - DALLNER RD",
       "ts": "2026-10-15T05:25:35+00:00",
       "related": []
+    },
+    {
+      "id": "tps_9eec6cb91261",
+      "source": "police",
+      "lat": 43.65829659740034,
+      "lng": -79.37100285365003,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D51",
+      "location": "SHERBOURNE ST - DUNDAS ST E",
+      "ts": "2026-10-15T05:21:34+00:00",
+      "related": [
+        {
+          "id": "tps_99b6d6d414fd",
+          "distance_m": 438,
+          "minutes_apart": 82
+        }
+      ]
+    },
+    {
+      "id": "tps_a6a3c179da41",
+      "source": "police",
+      "lat": 43.644440783567624,
+      "lng": -79.40006913330886,
+      "type": "PERGU",
+      "type_plain": "Person Guarding / Person Gone",
+      "severity": "low",
+      "division": "D14",
+      "location": "PORTLAND ST - WATERLOO TER",
+      "ts": "2026-10-15T05:13:51+00:00",
+      "related": [
+        {
+          "id": "tps_bd835341e4c5",
+          "distance_m": 315,
+          "minutes_apart": 132
+        }
+      ]
     },
     {
       "id": "tps_2d71a5e33f32",
@@ -437,6 +488,11 @@
           "id": "tps_cf00fff047f0",
           "distance_m": 316,
           "minutes_apart": 161
+        },
+        {
+          "id": "tps_9eec6cb91261",
+          "distance_m": 438,
+          "minutes_apart": 82
         }
       ]
     },
@@ -977,7 +1033,13 @@
       "division": "D14",
       "location": "FRONT ST W - LN S NIAGARA W BATHURST",
       "ts": "2026-10-15T03:01:38+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_a6a3c179da41",
+          "distance_m": 315,
+          "minutes_apart": 132
+        }
+      ]
     },
     {
       "id": "tps_3da965ca1581",
@@ -11931,27 +11993,11 @@
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 1.4,
-      "ratio": 4.2,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3c24196a5155",
-        "tps_ed55d1cba709",
-        "tps_c588be903aec",
-        "tps_921f75aba59c",
-        "tps_bd835341e4c5"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
       "current_count": 6,
-      "baseline_avg": 1.6,
-      "ratio": 3.8,
-      "sample_days": 7,
+      "baseline_avg": 1.5,
+      "ratio": 4.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_9b3bb532cd45",
@@ -11963,11 +12009,27 @@
     },
     {
       "source": "police",
+      "division": "D51",
+      "current_count": 6,
+      "baseline_avg": 1.6,
+      "ratio": 3.9,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9eec6cb91261",
+        "tps_2304eae20a65",
+        "tps_718473854b33",
+        "tps_99b6d6d414fd",
+        "tps_4e6162cd056c"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
       "current_count": 4,
       "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 8,
+      "ratio": 3.3,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_2d71a5e33f32",
@@ -11978,27 +12040,42 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 2.0,
+      "division": "D14",
+      "current_count": 5,
+      "baseline_avg": 1.7,
       "ratio": 3.0,
-      "sample_days": 10,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_2304eae20a65",
-        "tps_718473854b33",
-        "tps_99b6d6d414fd",
-        "tps_4e6162cd056c",
-        "tps_9ddb7b1c6508"
+        "tps_a6a3c179da41",
+        "tps_3c24196a5155",
+        "tps_ed55d1cba709",
+        "tps_c588be903aec",
+        "tps_921f75aba59c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_17b135a91831",
+        "tps_12e7ec955a40",
+        "tps_6b40807ac4a7",
+        "tps_42916a8f4877"
       ]
     },
     {
       "source": "police",
       "division": "D33",
       "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 6,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_baf8858de050",
@@ -12008,44 +12085,16 @@
     },
     {
       "source": "police",
-      "division": "D11",
+      "division": "D23",
       "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8f70a79ac4cd",
-        "tps_ee25fd126132",
-        "tps_2dbaaae35121"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.6,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_12e7ec955a40",
-        "tps_6b40807ac4a7",
-        "tps_42916a8f4877"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d7447600d2b3",
-        "tps_3c2e31d76b43",
-        "tps_69a9e6230b9f"
+        "tps_a36001c847cd",
+        "tps_e0b02f0ad373",
+        "tps_581ef45f15fd"
       ]
     },
     {
@@ -12053,27 +12102,13 @@
       "division": "D43",
       "current_count": 3,
       "baseline_avg": 1.4,
-      "ratio": 2.2,
-      "sample_days": 8,
+      "ratio": 2.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_5648dc90d4be",
         "tps_49219146e84e",
         "tps_53ce09f6c57a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_97789af5dc53",
-        "tps_42141241f6bb",
-        "tps_3da965ca1581"
       ]
     }
   ]
