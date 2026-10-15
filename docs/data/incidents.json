@@ -1,11 +1,32 @@
 {
-  "generated": "2026-10-15T16:20:35.182200+00:00",
+  "generated": "2026-10-15T16:35:40.828096+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164334",
+      "source": "fire",
+      "lat": 43.6459889,
+      "lng": -79.3778563,
+      "type": "Hazmat Level 1",
+      "type_plain": "Hazmat Level 1",
+      "severity": "medium",
+      "division": "332",
+      "location": "YORK ST & FRONT ST W",
+      "approximate": false,
+      "units": "P314",
+      "ts": "2026-10-15T16:20:05+00:00",
+      "related": [
+        {
+          "id": "tps_1017b8daf67d",
+          "distance_m": 599,
+          "minutes_apart": 161
+        }
+      ]
+    },
     {
       "id": "tfs_F26164295",
       "source": "fire",
@@ -152,6 +173,11 @@
           "id": "tps_c6ed7601280f",
           "distance_m": 562,
           "minutes_apart": 165
+        },
+        {
+          "id": "tfs_F26164334",
+          "distance_m": 599,
+          "minutes_apart": 161
         }
       ]
     },
@@ -9461,13 +9487,7 @@
       "division": "D32",
       "location": "BRENTHALL AVE - BRENTHALL AVE",
       "ts": "2026-10-14T18:03:41+00:00",
-      "related": [
-        {
-          "id": "tfs_F26163711",
-          "distance_m": 520,
-          "minutes_apart": 99
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_7dee80d07b74",
@@ -10294,118 +10314,6 @@
           "minutes_apart": 109
         }
       ]
-    },
-    {
-      "id": "tps_bced4e5f4b1f",
-      "source": "police",
-      "lat": 43.7312986746294,
-      "lng": -79.58510487200803,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D23",
-      "location": "MILKWOOD AVE - JOHN GARLAND BLVD",
-      "ts": "2026-10-14T16:35:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bd15eadb192c",
-      "source": "police",
-      "lat": 43.816558393453214,
-      "lng": -79.30611799968743,
-      "type": "ASSPC",
-      "type_plain": "ASSPC",
-      "severity": "low",
-      "division": "D42",
-      "location": "SHEPTON WAY PARK TRL - GOLD MEDAL RD",
-      "ts": "2026-10-14T16:35:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8c7e10fe883f",
-      "source": "police",
-      "lat": 43.632512777462566,
-      "lng": -79.43429962217311,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY E - JAMESON AVE",
-      "ts": "2026-10-14T16:35:18+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_23c61f8dad4d",
-      "source": "police",
-      "lat": 43.65572189861826,
-      "lng": -79.41137753074943,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D14",
-      "location": "EUCLID AVE - MANNING AVE",
-      "ts": "2026-10-14T16:31:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_93241cce827d",
-      "source": "police",
-      "lat": 43.66115701005856,
-      "lng": -79.42939312447476,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "BLOOR ST W - DOVERCOURT RD",
-      "ts": "2026-10-14T16:27:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26163711",
-      "source": "fire",
-      "lat": 43.7702555,
-      "lng": -79.4418841,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "112",
-      "location": "North York - BATHURST ST & STAFFORD RD",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-10-14T16:24:44+00:00",
-      "related": [
-        {
-          "id": "tps_54d9e247dd3d",
-          "distance_m": 520,
-          "minutes_apart": 99
-        }
-      ]
-    },
-    {
-      "id": "tps_4c08c8f8b9a6",
-      "source": "police",
-      "lat": 43.65885323930125,
-      "lng": -79.4961447053243,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D11",
-      "location": "SUN VALLEY DR - PASADENA GDNS",
-      "ts": "2026-10-14T16:24:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ddc78900a60b",
-      "source": "police",
-      "lat": 43.80196899194465,
-      "lng": -79.19975946977212,
-      "type": "FTRPI",
-      "type_plain": "FTRPI",
-      "severity": "low",
-      "division": "HP",
-      "location": "MORNINGSIDE AVE - SHEPPARD AVE E",
-      "ts": "2026-10-14T16:21:15+00:00",
-      "related": []
     }
   ],
   "anomalies": []
