@@ -1,11 +1,49 @@
 {
-  "generated": "2026-10-15T10:05:14.003459+00:00",
+  "generated": "2026-10-15T10:20:10.392804+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_b0e08c496c5d",
+      "source": "police",
+      "lat": 43.83344472486364,
+      "lng": -79.2511026746568,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "SHADLOCK-MK ST - MARYDALE-MK AVE",
+      "ts": "2026-10-15T09:57:47+00:00",
+      "related": [
+        {
+          "id": "tps_88e6d8d0fb11",
+          "distance_m": 0,
+          "minutes_apart": 2
+        }
+      ]
+    },
+    {
+      "id": "tps_88e6d8d0fb11",
+      "source": "police",
+      "lat": 43.83344472486364,
+      "lng": -79.2511026746568,
+      "type": "BREJU",
+      "type_plain": "BREJU",
+      "severity": "low",
+      "division": "D42",
+      "location": "SHADLOCK-MK ST - MARYDALE-MK AVE",
+      "ts": "2026-10-15T09:55:41+00:00",
+      "related": [
+        {
+          "id": "tps_b0e08c496c5d",
+          "distance_m": 0,
+          "minutes_apart": 2
+        }
+      ]
+    },
     {
       "id": "tfs_F26164153",
       "source": "fire",
@@ -19,6 +57,58 @@
       "approximate": false,
       "units": "P333, T333",
       "ts": "2026-10-15T09:55:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_567d264bfae6",
+      "source": "police",
+      "lat": 43.64519601010918,
+      "lng": -79.52115439764782,
+      "type": "DEMO",
+      "type_plain": "DEMO",
+      "severity": "low",
+      "division": "D22",
+      "location": "LOTHIAN AVE - BLOOR ST W",
+      "ts": "2026-10-15T09:50:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_de6efbf6a6c8",
+      "source": "police",
+      "lat": 43.69737513125885,
+      "lng": -79.39641975681468,
+      "type": "ASSPR",
+      "type_plain": "Assault (Priority / In Progress)",
+      "severity": "high",
+      "division": "D53",
+      "location": "AL GREEN LANE - PAILTON CRES",
+      "ts": "2026-10-15T09:47:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_afd151cf97bb",
+      "source": "police",
+      "lat": 43.65023309498776,
+      "lng": -79.42505512498033,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D14",
+      "location": " - ",
+      "ts": "2026-10-15T09:44:14+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_df142e1f219a",
+      "source": "police",
+      "lat": 43.677081818497655,
+      "lng": -79.43912152214504,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D13",
+      "location": "CLOVIS JOHN BROOKS LANE - ROSEMOUNT AVE",
+      "ts": "2026-10-15T09:40:48+00:00",
       "related": []
     },
     {
@@ -11659,13 +11749,7 @@
       "division": "D31",
       "location": "KIDD TER - LN W KIDD N DELABO",
       "ts": "2026-10-14T12:01:55+00:00",
-      "related": [
-        {
-          "id": "tps_7043b82872df",
-          "distance_m": 517,
-          "minutes_apart": 114
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_59790930a63c",
@@ -12108,54 +12192,24 @@
           "minutes_apart": 158
         }
       ]
-    },
-    {
-      "id": "tps_18cd22865c66",
-      "source": "police",
-      "lat": 43.68293056677421,
-      "lng": -79.35721309577056,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "NEALON AVE - LOWER DON RIVER TRL",
-      "ts": "2026-10-14T10:14:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d262d0dae85c",
-      "source": "police",
-      "lat": 43.771170798241,
-      "lng": -79.17393621304095,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D43",
-      "location": "WW E MANSE N LAWRENCE - ASTERFIELD DR",
-      "ts": "2026-10-14T10:12:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7043b82872df",
-      "source": "police",
-      "lat": 43.770031277286,
-      "lng": -79.50247150801111,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D31",
-      "location": "SENTINEL RD - ATKINSON RD",
-      "ts": "2026-10-14T10:07:52+00:00",
-      "related": [
-        {
-          "id": "tps_58efe0a011b4",
-          "distance_m": 517,
-          "minutes_apart": 114
-        }
-      ]
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_afd151cf97bb",
+        "tps_508884facb84",
+        "tps_9efff555daa3",
+        "tps_685416463603"
+      ]
+    },
     {
       "source": "police",
       "division": "D43",
@@ -12168,20 +12222,6 @@
         "tps_d414bdd28feb",
         "tps_99e4395d45a9",
         "tps_7bad9f70e4c6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_508884facb84",
-        "tps_9efff555daa3",
-        "tps_685416463603"
       ]
     }
   ]
