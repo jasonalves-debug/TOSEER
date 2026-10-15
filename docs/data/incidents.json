@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T04:34:51.366601+00:00",
+  "generated": "2026-10-15T04:49:49.915364+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -11361,11 +11361,6 @@
       "ts": "2026-10-14T07:01:28+00:00",
       "related": [
         {
-          "id": "tps_a04e50edcf7e",
-          "distance_m": 351,
-          "minutes_apart": 138
-        },
-        {
           "id": "tps_6f379f9ab7cc",
           "distance_m": 397,
           "minutes_apart": 52
@@ -11662,111 +11657,9 @@
       "location": "DIXON PARK TRL - KIPLING AVE",
       "ts": "2026-10-14T04:50:30+00:00",
       "related": []
-    },
-    {
-      "id": "tps_59f57a4a5fb9",
-      "source": "police",
-      "lat": 43.66690400968224,
-      "lng": -79.40268993912223,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D53",
-      "location": "MADISON AVE - BLOOR ST W",
-      "ts": "2026-10-14T04:47:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a04e50edcf7e",
-      "source": "police",
-      "lat": 43.655892294996,
-      "lng": -79.37143335256164,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "SHUTER ST - DUNDAS ST E",
-      "ts": "2026-10-14T04:43:14+00:00",
-      "related": [
-        {
-          "id": "tps_6ed1d899bf02",
-          "distance_m": 351,
-          "minutes_apart": 138
-        }
-      ]
-    },
-    {
-      "id": "tps_8975885742e2",
-      "source": "police",
-      "lat": 43.726225329514804,
-      "lng": -79.55160957291133,
-      "type": "BREJU",
-      "type_plain": "BREJU",
-      "severity": "low",
-      "division": "D23",
-      "location": "BEATTIE AVE - BYNG AVE",
-      "ts": "2026-10-14T04:40:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_639f84684e50",
-      "source": "police",
-      "lat": 43.7601415903825,
-      "lng": -79.19886420639797,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D43",
-      "location": "OVERTURE RD - GALLOWAY RD",
-      "ts": "2026-10-14T04:40:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bff8dffa91be",
-      "source": "police",
-      "lat": 43.66043659954038,
-      "lng": -79.37586205112396,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D51",
-      "location": "GERRARD ST E - JARVIS ST",
-      "ts": "2026-10-14T04:36:19+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 8,
-      "baseline_avg": 2.0,
-      "ratio": 4.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3719c58b19bb",
-        "tps_d3d426cddaed",
-        "tps_e39131fa078d",
-        "tps_7422bcc5eb88",
-        "tps_e3003ebc0387"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8f70a79ac4cd",
-        "tps_ee25fd126132",
-        "tps_2dbaaae35121",
-        "tps_817aa71e176e"
-      ]
-    },
     {
       "source": "police",
       "division": "D31",
@@ -11785,57 +11678,40 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 8,
-      "baseline_avg": 2.2,
-      "ratio": 3.6,
+      "division": "HP",
+      "current_count": 7,
+      "baseline_avg": 2.0,
+      "ratio": 3.5,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_99b6d6d414fd",
-        "tps_4e6162cd056c",
-        "tps_9ddb7b1c6508",
-        "tps_1d3416828c2c",
-        "tps_7dc6bbc567d6"
+        "tps_3719c58b19bb",
+        "tps_d3d426cddaed",
+        "tps_e39131fa078d",
+        "tps_7422bcc5eb88",
+        "tps_e3003ebc0387"
       ]
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.4,
-      "sample_days": 6,
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_baf8858de050",
-        "tps_e3e94f8d0429",
-        "tps_b847e23feb84",
-        "tps_5da1003d185d"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ed975f22973a",
-        "tps_f345e04beda1",
-        "tps_1094ee4b44c3",
-        "tps_b42d09acb784",
-        "tps_dc53edd67b47"
+        "tps_8f70a79ac4cd",
+        "tps_ee25fd126132",
+        "tps_2dbaaae35121"
       ]
     },
     {
       "source": "police",
       "division": "D32",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 2.4,
-      "ratio": 3.3,
+      "ratio": 2.9,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
@@ -11848,17 +11724,33 @@
     },
     {
       "source": "police",
-      "division": "D23",
+      "division": "D51",
+      "current_count": 6,
+      "baseline_avg": 2.2,
+      "ratio": 2.7,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_99b6d6d414fd",
+        "tps_4e6162cd056c",
+        "tps_9ddb7b1c6508",
+        "tps_1d3416828c2c",
+        "tps_7dc6bbc567d6"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
       "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_e0b02f0ad373",
-        "tps_581ef45f15fd",
-        "tps_91845496a964",
-        "tps_dba6baec22e1"
+        "tps_ed975f22973a",
+        "tps_f345e04beda1",
+        "tps_1094ee4b44c3",
+        "tps_b42d09acb784"
       ]
     },
     {
@@ -11877,10 +11769,38 @@
     },
     {
       "source": "police",
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.6,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_baf8858de050",
+        "tps_e3e94f8d0429",
+        "tps_b847e23feb84"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e0b02f0ad373",
+        "tps_581ef45f15fd",
+        "tps_91845496a964"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D14",
-      "current_count": 7,
+      "current_count": 6,
       "baseline_avg": 2.8,
-      "ratio": 2.5,
+      "ratio": 2.2,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
@@ -11889,49 +11809,6 @@
         "tps_921f75aba59c",
         "tps_bd835341e4c5",
         "tps_2da6ef05932e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_31f06a3386ae",
-        "tps_39f322ed9591",
-        "tps_08e208b534c7",
-        "tps_4015f8450b5b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.2,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_69a9e6230b9f",
-        "tps_f94f4cea0124",
-        "tps_1a4fac69d930"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3c62a8cf611d",
-        "tps_f1a9f64d7c56",
-        "tps_759bf7c7b9f4"
       ]
     },
     {
