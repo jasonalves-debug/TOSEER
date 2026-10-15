@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T07:49:51.395033+00:00",
+  "generated": "2026-10-15T08:04:51.304024+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -17,9 +17,28 @@
       "division": "422",
       "location": "JANE ST & ST CLAIR AVE W",
       "approximate": false,
-      "units": "",
+      "units": "C42, P421, P422",
       "ts": "2026-10-15T07:38:51+00:00",
       "related": []
+    },
+    {
+      "id": "tps_cb7d5f00ba50",
+      "source": "police",
+      "lat": 43.66583620493993,
+      "lng": -79.38494124740716,
+      "type": "PERGU",
+      "type_plain": "Person Guarding / Person Gone",
+      "severity": "low",
+      "division": "D51",
+      "location": "DUNDONALD ST - YONGE ST",
+      "ts": "2026-10-15T07:23:08+00:00",
+      "related": [
+        {
+          "id": "tps_3c2e31d76b43",
+          "distance_m": 510,
+          "minutes_apart": 176
+        }
+      ]
     },
     {
       "id": "tps_087367d395ad",
@@ -683,6 +702,11 @@
           "id": "tps_087367d395ad",
           "distance_m": 493,
           "minutes_apart": 152
+        },
+        {
+          "id": "tps_cb7d5f00ba50",
+          "distance_m": 510,
+          "minutes_apart": 176
         },
         {
           "id": "tps_718473854b33",
@@ -11557,11 +11581,6 @@
       "ts": "2026-10-14T10:52:43+00:00",
       "related": [
         {
-          "id": "tps_6f379f9ab7cc",
-          "distance_m": 0,
-          "minutes_apart": 180
-        },
-        {
           "id": "tps_fbaa95218d0b",
           "distance_m": 91,
           "minutes_apart": 179
@@ -11577,14 +11596,19 @@
           "minutes_apart": 23
         },
         {
-          "id": "tps_9b30a5326832",
-          "distance_m": 370,
-          "minutes_apart": 180
-        },
-        {
           "id": "tps_35d912d4d90e",
           "distance_m": 390,
           "minutes_apart": 92
+        },
+        {
+          "id": "tps_2bcb9e6226f3",
+          "distance_m": 421,
+          "minutes_apart": 135
+        },
+        {
+          "id": "tps_9bf74f0dc8cc",
+          "distance_m": 598,
+          "minutes_apart": 153
         }
       ]
     },
@@ -11618,13 +11642,7 @@
       "division": "D14",
       "location": "RICHMOND ST W - LN S QUEEN W BATHURST",
       "ts": "2026-10-14T10:43:48+00:00",
-      "related": [
-        {
-          "id": "tps_86df3e480417",
-          "distance_m": 148,
-          "minutes_apart": 172
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_66c242ceb3f5",
@@ -11671,11 +11689,6 @@
       "ts": "2026-10-14T10:29:40+00:00",
       "related": [
         {
-          "id": "tps_9b30a5326832",
-          "distance_m": 0,
-          "minutes_apart": 157
-        },
-        {
           "id": "tps_9bf74f0dc8cc",
           "distance_m": 320,
           "minutes_apart": 130
@@ -11684,11 +11697,6 @@
           "id": "tps_717f07cfc79d",
           "distance_m": 370,
           "minutes_apart": 23
-        },
-        {
-          "id": "tps_6f379f9ab7cc",
-          "distance_m": 370,
-          "minutes_apart": 157
         },
         {
           "id": "tps_2bcb9e6226f3",
@@ -11870,19 +11878,9 @@
       "ts": "2026-10-14T08:19:54+00:00",
       "related": [
         {
-          "id": "tps_9b30a5326832",
-          "distance_m": 320,
-          "minutes_apart": 27
-        },
-        {
           "id": "tps_cfc3f235bf9e",
           "distance_m": 320,
           "minutes_apart": 130
-        },
-        {
-          "id": "tps_6f379f9ab7cc",
-          "distance_m": 598,
-          "minutes_apart": 27
         },
         {
           "id": "tps_717f07cfc79d",
@@ -11948,159 +11946,45 @@
       "location": "BELLAMY RD N - GREENBRAE CRCT",
       "ts": "2026-10-14T08:06:40+00:00",
       "related": []
-    },
-    {
-      "id": "tps_9529940ab3b4",
-      "source": "police",
-      "lat": 43.79804788815728,
-      "lng": -79.33361597620318,
-      "type": "SOUGU",
-      "type_plain": "Sound of Gunshots",
-      "severity": "critical",
-      "division": "D42",
-      "location": "51 MORECAMBE GT - CHESTER LE BLVD",
-      "ts": "2026-10-14T08:02:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d8bb8743b106",
-      "source": "police",
-      "lat": 43.680141607325716,
-      "lng": -79.44394901513868,
-      "type": "ANICO",
-      "type_plain": "Animal Complaint",
-      "severity": "low",
-      "division": "D13",
-      "location": "DUFFERIN ST - ASCOT AVE",
-      "ts": "2026-10-14T08:00:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9b30a5326832",
-      "source": "police",
-      "lat": 43.65616289526663,
-      "lng": -79.37009915354126,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D53",
-      "location": "LN N QUEEN E SHERBOURNE - SHUTER ST",
-      "ts": "2026-10-14T07:53:09+00:00",
-      "related": [
-        {
-          "id": "tps_cfc3f235bf9e",
-          "distance_m": 0,
-          "minutes_apart": 157
-        },
-        {
-          "id": "tps_9bf74f0dc8cc",
-          "distance_m": 320,
-          "minutes_apart": 27
-        },
-        {
-          "id": "tps_6f379f9ab7cc",
-          "distance_m": 370,
-          "minutes_apart": 0
-        },
-        {
-          "id": "tps_717f07cfc79d",
-          "distance_m": 370,
-          "minutes_apart": 180
-        }
-      ]
-    },
-    {
-      "id": "tps_6f379f9ab7cc",
-      "source": "police",
-      "lat": 43.65706729617105,
-      "lng": -79.37453055088848,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "JARVIS ST - DUNDAS ST E",
-      "ts": "2026-10-14T07:52:58+00:00",
-      "related": [
-        {
-          "id": "tps_717f07cfc79d",
-          "distance_m": 0,
-          "minutes_apart": 180
-        },
-        {
-          "id": "tps_9b30a5326832",
-          "distance_m": 370,
-          "minutes_apart": 0
-        },
-        {
-          "id": "tps_cfc3f235bf9e",
-          "distance_m": 370,
-          "minutes_apart": 157
-        },
-        {
-          "id": "tps_9bf74f0dc8cc",
-          "distance_m": 598,
-          "minutes_apart": 27
-        }
-      ]
-    },
-    {
-      "id": "tps_86df3e480417",
-      "source": "police",
-      "lat": 43.64518838535745,
-      "lng": -79.40319573226671,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "BATHURST ST - ADELAIDE ST W",
-      "ts": "2026-10-14T07:51:25+00:00",
-      "related": [
-        {
-          "id": "tps_e069cc67642b",
-          "distance_m": 148,
-          "minutes_apart": 172
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 6,
+      "current_count": 4,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
         "tps_8fb7fac8c55d",
         "tps_1616e009fdd1",
         "tps_2195eae903d0",
-        "tps_1c7d161d81ba",
-        "tps_9b3bb532cd45"
+        "tps_1c7d161d81ba"
       ]
     },
     {
       "source": "police",
-      "division": "D31",
+      "division": "D23",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
-      "sample_days": 4,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_d65a1fc39cc2",
-        "tps_17b135a91831",
-        "tps_12e7ec955a40"
+        "tps_aa0ba856291b",
+        "tps_019350f57f24",
+        "tps_f139affa6e74"
       ]
     },
     {
       "source": "police",
       "division": "D41",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 6,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
         "tps_0cacbd668999",
@@ -12110,16 +11994,16 @@
     },
     {
       "source": "police",
-      "division": "D11",
+      "division": "D31",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 4,
+      "baseline_avg": 1.2,
+      "ratio": 2.5,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_a39fffb5c76f",
-        "tps_8abb98b6f40a",
-        "tps_9b0b86e686a0"
+        "tps_d65a1fc39cc2",
+        "tps_17b135a91831",
+        "tps_12e7ec955a40"
       ]
     }
   ]
