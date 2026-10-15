@@ -1,11 +1,74 @@
 {
-  "generated": "2026-10-15T11:20:10.121957+00:00",
+  "generated": "2026-10-15T11:35:09.681769+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_4a5780f32e95",
+      "source": "police",
+      "lat": 43.609856902376734,
+      "lng": -79.5410731876729,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D22",
+      "location": "VALERMO DR - LANOR AVE",
+      "ts": "2026-10-15T11:16:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_94fd39cf5574",
+      "source": "police",
+      "lat": 43.689436122397865,
+      "lng": -79.30098755237307,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D55",
+      "location": "LN N DANFORTH W MAIN ST - STANLEY G. GRIZZLE PARK TRL",
+      "ts": "2026-10-15T11:14:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_02743d8e0268",
+      "source": "police",
+      "lat": 43.77575411565061,
+      "lng": -79.3436993566754,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D33",
+      "location": "PARKWAY FOREST DR - FAIRVIEW MALL DR",
+      "ts": "2026-10-15T11:14:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c88dc1a76ba4",
+      "source": "police",
+      "lat": 43.64591718502081,
+      "lng": -79.37908774449542,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "BAY ST - YORK ST",
+      "ts": "2026-10-15T11:04:26+00:00",
+      "related": [
+        {
+          "id": "tps_c6ed7601280f",
+          "distance_m": 0,
+          "minutes_apart": 10
+        },
+        {
+          "id": "tfs_F26164153",
+          "distance_m": 552,
+          "minutes_apart": 69
+        }
+      ]
+    },
     {
       "id": "tfs_F26164166",
       "source": "fire",
@@ -59,6 +122,11 @@
       "location": "BAY ST - YORK ST",
       "ts": "2026-10-15T10:54:54+00:00",
       "related": [
+        {
+          "id": "tps_c88dc1a76ba4",
+          "distance_m": 0,
+          "minutes_apart": 10
+        },
         {
           "id": "tfs_F26164153",
           "distance_m": 552,
@@ -319,6 +387,11 @@
           "id": "tps_c6ed7601280f",
           "distance_m": 552,
           "minutes_apart": 60
+        },
+        {
+          "id": "tps_c88dc1a76ba4",
+          "distance_m": 552,
+          "minutes_apart": 69
         }
       ]
     },
@@ -11641,13 +11714,7 @@
       "division": "D31",
       "location": "HUMBER RIVER RECREATIONAL TRL - SHEPPARD AVE W",
       "ts": "2026-10-14T13:10:54+00:00",
-      "related": [
-        {
-          "id": "tps_76d0104dabe1",
-          "distance_m": 0,
-          "minutes_apart": 102
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_2bcb9e6226f3",
@@ -12134,145 +12201,24 @@
           "minutes_apart": 21
         }
       ]
-    },
-    {
-      "id": "tps_cf32479d6695",
-      "source": "police",
-      "lat": 43.72744448810094,
-      "lng": -79.2526444235732,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D41",
-      "location": " - ",
-      "ts": "2026-10-14T11:33:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_176abef14e3c",
-      "source": "police",
-      "lat": 43.786273991320705,
-      "lng": -79.18452149622338,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D43",
-      "location": "1275 MILITARY TRL - CONLINS RD",
-      "ts": "2026-10-14T11:33:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fecb90c49917",
-      "source": "police",
-      "lat": 43.783289338571876,
-      "lng": -79.28826359326524,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D42",
-      "location": "SHEPPARD AVE E - CARDWELL AVE",
-      "ts": "2026-10-14T11:30:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_45b95520e28c",
-      "source": "police",
-      "lat": 43.680475810391854,
-      "lng": -79.43123822309418,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D13",
-      "location": "HENDRICK AVE - WINONA DR",
-      "ts": "2026-10-14T11:30:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_76d0104dabe1",
-      "source": "police",
-      "lat": 43.73374245097268,
-      "lng": -79.53821838228862,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D31",
-      "location": "HUMBER RIVER RECREATIONAL TRL - SHEPPARD AVE W",
-      "ts": "2026-10-14T11:29:22+00:00",
-      "related": [
-        {
-          "id": "tps_bbf1ea1dff04",
-          "distance_m": 0,
-          "minutes_apart": 102
-        }
-      ]
-    },
-    {
-      "id": "tps_bc984357aa70",
-      "source": "police",
-      "lat": 43.66717775010317,
-      "lng": -79.49175221037646,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D11",
-      "location": "JANE ST - ST CLAIR AVE W",
-      "ts": "2026-10-14T11:28:45+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_990d9ba0886a",
-      "source": "police",
-      "lat": 43.7545618779588,
-      "lng": -79.44313651991618,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "SHEPPARD AVE W - YEOMANS RD",
-      "ts": "2026-10-14T11:27:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_13d72a0e71ca",
-      "source": "police",
-      "lat": 43.67235631145995,
-      "lng": -79.37684305633893,
-      "type": "LOSEL",
-      "type_plain": "Lost/Found Property or Person",
-      "severity": "low",
-      "division": "D51",
-      "location": "SELBY ST - BLOOR ST E",
-      "ts": "2026-10-14T11:26:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_23524496b8c4",
-      "source": "police",
-      "lat": 43.64394298304659,
-      "lng": -79.36896135124634,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D51",
-      "location": "QUEENS QUAY E - LAKE SHORE BLVD E",
-      "ts": "2026-10-14T11:25:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9a649601b5ae",
-      "source": "police",
-      "lat": 43.796757092861455,
-      "lng": -79.23580147352955,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D42",
-      "location": "75 MALVERN ST - MAMMOTH HALL TRL",
-      "ts": "2026-10-14T11:22:02+00:00",
-      "related": []
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.3,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_02743d8e0268",
+        "tps_841134b07b8f",
+        "tps_edc858741825",
+        "tps_070f12d03f16"
+      ]
+    },
     {
       "source": "police",
       "division": "HP",
@@ -12291,6 +12237,35 @@
     },
     {
       "source": "police",
+      "division": "D55",
+      "current_count": 4,
+      "baseline_avg": 1.5,
+      "ratio": 2.8,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_94fd39cf5574",
+        "tps_f84b2bea1a0a",
+        "tps_c0813243c2b6",
+        "tps_60da6e38a5a3"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 3,
+      "baseline_avg": 1.1,
+      "ratio": 2.6,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_4a5780f32e95",
+        "tps_567d264bfae6",
+        "tps_d5e204646857"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D51",
       "current_count": 3,
       "baseline_avg": 1.2,
@@ -12305,30 +12280,16 @@
     },
     {
       "source": "police",
-      "division": "D33",
+      "division": "D52",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_841134b07b8f",
-        "tps_edc858741825",
-        "tps_070f12d03f16"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f84b2bea1a0a",
-        "tps_c0813243c2b6",
-        "tps_60da6e38a5a3"
+        "tps_c88dc1a76ba4",
+        "tps_c6ed7601280f",
+        "tps_07bafdb14936"
       ]
     }
   ]
