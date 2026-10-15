@@ -1,11 +1,24 @@
 {
-  "generated": "2026-10-15T07:04:50.738965+00:00",
+  "generated": "2026-10-15T07:19:52.252543+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_c0c2aea68954",
+      "source": "police",
+      "lat": 43.770719195759774,
+      "lng": -79.18690250806333,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D43",
+      "location": "MORNINGSIDE AVE - KINGSTON RD",
+      "ts": "2026-10-15T06:46:32+00:00",
+      "related": []
+    },
     {
       "id": "tps_0cacbd668999",
       "source": "police",
@@ -17,6 +30,58 @@
       "division": "D41",
       "location": "CANLISH RD - KENNEDY RD",
       "ts": "2026-10-15T06:46:27+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6e2d9098431f",
+      "source": "police",
+      "lat": 43.664324603428305,
+      "lng": -79.3749262530438,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D51",
+      "location": "SIRMAN LANE - MAITLAND ST",
+      "ts": "2026-10-15T06:44:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a39fffb5c76f",
+      "source": "police",
+      "lat": 43.6549650134828,
+      "lng": -79.45880291407445,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D11",
+      "location": "INDIAN GRV - KEELE ST",
+      "ts": "2026-10-15T06:41:35+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8fb7fac8c55d",
+      "source": "police",
+      "lat": 43.67313044351579,
+      "lng": -79.2852414546574,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "QUEEN ST E - SILVER BIRCH AVE",
+      "ts": "2026-10-15T06:38:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_019350f57f24",
+      "source": "police",
+      "lat": 43.74680967781584,
+      "lng": -79.58379757246055,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D23",
+      "location": "KIPLING AVE BICYCLE TRL - ANNABELLE DR",
+      "ts": "2026-10-15T06:38:25+00:00",
       "related": []
     },
     {
@@ -12001,45 +12066,6 @@
       "location": "BISHOP AVE - HEPC",
       "ts": "2026-10-14T07:24:03+00:00",
       "related": []
-    },
-    {
-      "id": "tps_06d2e7691d3e",
-      "source": "police",
-      "lat": 43.6796591108028,
-      "lng": -79.4357185209773,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D13",
-      "location": "LN N ST CLAIR W OAKWOOD - GLENHURST AVE",
-      "ts": "2026-10-14T07:18:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5d0f3fa9315f",
-      "source": "police",
-      "lat": 43.80779429902346,
-      "lng": -79.21558327825753,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D42",
-      "location": "WICKSON TRAIL PARK TRL - BRENYON WAY",
-      "ts": "2026-10-14T07:16:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8a72162c1ba5",
-      "source": "police",
-      "lat": 43.668719909127,
-      "lng": -79.39413274468478,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "QUEEN'S PARK - BEDFORD RD",
-      "ts": "2026-10-14T07:10:56+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -12052,27 +12078,11 @@
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_8fb7fac8c55d",
         "tps_1616e009fdd1",
         "tps_2195eae903d0",
         "tps_1c7d161d81ba",
-        "tps_9b3bb532cd45",
-        "tps_fe36ce899c8f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0cacbd668999",
-        "tps_b47cd982eebd",
-        "tps_2d71a5e33f32",
-        "tps_4a3d48766dec",
-        "tps_5c860bdf33ab"
+        "tps_9b3bb532cd45"
       ]
     },
     {
@@ -12098,10 +12108,38 @@
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
+        "tps_6e2d9098431f",
         "tps_32bd578ad798",
         "tps_9eec6cb91261",
-        "tps_2304eae20a65",
-        "tps_718473854b33"
+        "tps_2304eae20a65"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0cacbd668999",
+        "tps_b47cd982eebd",
+        "tps_2d71a5e33f32"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a39fffb5c76f",
+        "tps_8abb98b6f40a",
+        "tps_9b0b86e686a0"
       ]
     }
   ]
