@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-15T07:34:49.363041+00:00",
+  "generated": "2026-10-15T07:49:51.395033+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164129",
+      "source": "fire",
+      "lat": 43.6673425,
+      "lng": -79.4914662,
+      "type": "Vehicle Fire",
+      "type_plain": "Vehicle Fire",
+      "severity": "medium",
+      "division": "422",
+      "location": "JANE ST & ST CLAIR AVE W",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-15T07:38:51+00:00",
+      "related": []
+    },
     {
       "id": "tps_087367d395ad",
       "source": "police",
@@ -12046,54 +12061,15 @@
           "minutes_apart": 172
         }
       ]
-    },
-    {
-      "id": "tps_1acad5160fef",
-      "source": "police",
-      "lat": 43.65919171117931,
-      "lng": -79.43865102073372,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D11",
-      "location": "PAULINE AVE - BROCK AVE",
-      "ts": "2026-10-14T07:43:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_649f43d6455f",
-      "source": "police",
-      "lat": 43.771025617317605,
-      "lng": -79.33917596059591,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D33",
-      "location": "SHINLEAF TER - YORKLAND RD",
-      "ts": "2026-10-14T07:37:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_34a49daf7cb7",
-      "source": "police",
-      "lat": 43.71493554643955,
-      "lng": -79.50439524370528,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D12",
-      "location": "MAIDSTONE ST - FLEETWOOD AVE",
-      "ts": "2026-10-14T07:35:00+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.5,
-      "ratio": 4.0,
+      "ratio": 3.3,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
@@ -12116,21 +12092,6 @@
         "tps_d65a1fc39cc2",
         "tps_17b135a91831",
         "tps_12e7ec955a40"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6e2d9098431f",
-        "tps_32bd578ad798",
-        "tps_9eec6cb91261",
-        "tps_2304eae20a65"
       ]
     },
     {
