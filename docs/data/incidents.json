@@ -1,11 +1,80 @@
 {
-  "generated": "2026-10-16T17:09:20.764245+00:00",
+  "generated": "2026-10-16T17:24:21.225746+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164979",
+      "source": "fire",
+      "lat": 43.7978989,
+      "lng": -79.419804,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "114",
+      "location": "STEELES AVE E & YONGE ST",
+      "approximate": false,
+      "units": "P111",
+      "ts": "2026-10-16T17:08:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ae39ac827d92",
+      "source": "police",
+      "lat": 43.64541631444168,
+      "lng": -79.52008269750092,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D22",
+      "location": "BLOOR ST W - TOM RILEY PARK TRL",
+      "ts": "2026-10-16T17:04:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26164978",
+      "source": "fire",
+      "lat": 43.7861661,
+      "lng": -79.400372,
+      "type": "Fire -  Highrise Residential",
+      "type_plain": "Fire -  Highrise Residential",
+      "severity": "medium",
+      "division": "143",
+      "location": "North York - FINCH AVE & FINCH CORRIDOR TRL",
+      "approximate": false,
+      "units": "A142, C11, C14, HR114, LA111, P112, P114, P141, R133, S331, T114",
+      "ts": "2026-10-16T17:03:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1e776a2ca920",
+      "source": "police",
+      "lat": 43.6471940876252,
+      "lng": -79.40398193200464,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "QUEEN ST W - BATHURST ST",
+      "ts": "2026-10-16T17:01:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_263e87335b3e",
+      "source": "police",
+      "lat": 43.762173863942536,
+      "lng": -79.26420634527459,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D41",
+      "location": "POMEROY ST - BROOKRIDGE DR",
+      "ts": "2026-10-16T17:00:13+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164975",
       "source": "fire",
@@ -9449,13 +9518,7 @@
       "division": "D33",
       "location": "ESTHER SHINER BLVD - ",
       "ts": "2026-10-15T20:01:03+00:00",
-      "related": [
-        {
-          "id": "tps_d4bdb15b2600",
-          "distance_m": 233,
-          "minutes_apart": 167
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6c14cdeed2f6",
@@ -10742,76 +10805,62 @@
       "location": "YORKVIEW DR - AMBLESIDE AVE",
       "ts": "2026-10-15T17:26:11+00:00",
       "related": []
-    },
-    {
-      "id": "tps_909ece3a8095",
-      "source": "police",
-      "lat": 43.70707870698027,
-      "lng": -79.39682544733333,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D53",
-      "location": "LN S EGLINTON E HOLLY - EGLINTON AVE E",
-      "ts": "2026-10-15T17:23:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2187269b8a54",
-      "source": "police",
-      "lat": 43.762017321346875,
-      "lng": -79.30924867195782,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "D41",
-      "location": "CHRISTINA CRES - CROSLAND DR",
-      "ts": "2026-10-15T17:15:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d4bdb15b2600",
-      "source": "police",
-      "lat": 43.77035309628378,
-      "lng": -79.37125652386442,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D33",
-      "location": "SHEPPARD AVE E - PROVOST DR",
-      "ts": "2026-10-15T17:14:16+00:00",
-      "related": [
-        {
-          "id": "tps_0869578fb467",
-          "distance_m": 233,
-          "minutes_apart": 167
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D33",
+      "division": "D22",
       "current_count": 5,
+      "baseline_avg": 1.4,
+      "ratio": 3.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ae39ac827d92",
+        "tps_98ea12d9f4dc",
+        "tps_d790e2d0c78c",
+        "tps_b3478630e3fb",
+        "tps_96385089d732"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 6,
+      "baseline_avg": 1.7,
+      "ratio": 3.5,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_263e87335b3e",
+        "tps_f7d03df40c66",
+        "tps_4129b326995d",
+        "tps_c8cc493916cf",
+        "tps_1b868ac568b8"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 4,
       "baseline_avg": 1.2,
-      "ratio": 4.2,
+      "ratio": 3.3,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_9fa5411f6f62",
         "tps_b879b69f761b",
         "tps_a47a02d876f3",
-        "tps_6277da42f40c",
-        "tps_37f13bcddffe"
+        "tps_6277da42f40c"
       ]
     },
     {
       "source": "police",
       "division": "D52",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 2.1,
-      "ratio": 3.8,
+      "ratio": 3.3,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
@@ -10825,9 +10874,9 @@
     {
       "source": "police",
       "division": "D32",
-      "current_count": 7,
+      "current_count": 6,
       "baseline_avg": 1.9,
-      "ratio": 3.7,
+      "ratio": 3.2,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
@@ -10836,22 +10885,6 @@
         "tps_9f6c48f89372",
         "tps_c33819f61d01",
         "tps_cd7d14c8bc3e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_98ea12d9f4dc",
-        "tps_d790e2d0c78c",
-        "tps_b3478630e3fb",
-        "tps_96385089d732",
-        "tps_59141bfd1008"
       ]
     },
     {
@@ -10867,22 +10900,6 @@
         "tps_ec635d09180f",
         "tps_7ea9c5e737ec",
         "tps_7d338fb45ed1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.8,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f7d03df40c66",
-        "tps_4129b326995d",
-        "tps_c8cc493916cf",
-        "tps_1b868ac568b8",
-        "tps_2313a7580ba2"
       ]
     },
     {
