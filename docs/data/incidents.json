@@ -1,11 +1,96 @@
 {
-  "generated": "2026-10-16T05:21:20.656385+00:00",
+  "generated": "2026-10-16T05:36:22.204958+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_aebe92357660",
+      "source": "police",
+      "lat": 43.647648386751975,
+      "lng": -79.37154664952278,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "CONGER COAL LANE - WILTON ST",
+      "ts": "2026-10-16T05:24:54+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164721",
+          "distance_m": 519,
+          "minutes_apart": 92
+        }
+      ]
+    },
+    {
+      "id": "tps_766950ab90dc",
+      "source": "police",
+      "lat": 43.698379065558946,
+      "lng": -79.51130865566778,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D12",
+      "location": "WRIGHT AVE - BELLEVUE CRES",
+      "ts": "2026-10-16T05:22:53+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_77998e5f1459",
+      "source": "police",
+      "lat": 43.71341335562603,
+      "lng": -79.5597516349048,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D23",
+      "location": "REXDALE BLVD - ISLINGTON AVE",
+      "ts": "2026-10-16T05:22:14+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164719",
+          "distance_m": 37,
+          "minutes_apart": 92
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26164741",
+      "source": "fire",
+      "lat": 43.6521992,
+      "lng": -79.4057703,
+      "type": "Check Call",
+      "type_plain": "Check Call",
+      "severity": "medium",
+      "division": "315",
+      "location": "BATHURST ST & DUNDAS ST W",
+      "approximate": false,
+      "units": "L315",
+      "ts": "2026-10-16T05:21:35+00:00",
+      "related": [
+        {
+          "id": "tps_e8f8b6791b10",
+          "distance_m": 483,
+          "minutes_apart": 122
+        }
+      ]
+    },
+    {
+      "id": "tps_fd54f24297c2",
+      "source": "police",
+      "lat": 43.6207467949703,
+      "lng": -79.50152692336886,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D22",
+      "location": "LN W ROYAL YORK N MELROSE - CREMORNE AVE",
+      "ts": "2026-10-16T05:16:03+00:00",
+      "related": []
+    },
     {
       "id": "tps_475562874245",
       "source": "police",
@@ -652,6 +737,11 @@
           "id": "tps_b22704201765",
           "distance_m": 407,
           "minutes_apart": 100
+        },
+        {
+          "id": "tps_aebe92357660",
+          "distance_m": 519,
+          "minutes_apart": 92
         }
       ]
     },
@@ -683,7 +773,13 @@
       "approximate": false,
       "units": "P415",
       "ts": "2026-10-16T03:50:44+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_77998e5f1459",
+          "distance_m": 37,
+          "minutes_apart": 92
+        }
+      ]
     },
     {
       "id": "tps_93c8eaa4de92",
@@ -983,6 +1079,11 @@
           "id": "tps_5c2f32199708",
           "distance_m": 433,
           "minutes_apart": 160
+        },
+        {
+          "id": "tfs_F26164741",
+          "distance_m": 483,
+          "minutes_apart": 122
         },
         {
           "id": "tps_910d6c3e8a7b",
@@ -9402,13 +9503,7 @@
       "division": "D31",
       "location": "WHEELWRIGHT CRES - PETER KAISER GT",
       "ts": "2026-10-15T08:22:56+00:00",
-      "related": [
-        {
-          "id": "tps_17b135a91831",
-          "distance_m": 282,
-          "minutes_apart": 176
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f2c44054aa1e",
@@ -9944,104 +10039,6 @@
       "division": "D31",
       "location": "JANE ST - DALLNER RD",
       "ts": "2026-10-15T05:38:35+00:00",
-      "related": [
-        {
-          "id": "tps_12e7ec955a40",
-          "distance_m": 0,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26164095",
-      "source": "fire",
-      "lat": 43.6589655,
-      "lng": -79.4883133,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "425",
-      "location": "Toronto - BLOOR ST & JANE ST",
-      "approximate": false,
-      "units": "P422, R425",
-      "ts": "2026-10-15T05:35:07+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9b0b86e686a0",
-      "source": "police",
-      "lat": 43.672467741215,
-      "lng": -79.46759501770863,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "KEELE - MULOCK PARKETTE TRL - ST CLAIR AVE W",
-      "ts": "2026-10-15T05:31:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7cc44d6ad0a2",
-      "source": "police",
-      "lat": 43.82497804288417,
-      "lng": -79.27251472848313,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D42",
-      "location": "FIELDWOOD DR - 10 ALTON TOWERS CRCL",
-      "ts": "2026-10-15T05:30:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_17b135a91831",
-      "source": "police",
-      "lat": 43.77300697616342,
-      "lng": -79.52284060813406,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D31",
-      "location": "GOSFORD BLVD - JANE ST",
-      "ts": "2026-10-15T05:27:24+00:00",
-      "related": [
-        {
-          "id": "tps_ac25798d3aa4",
-          "distance_m": 282,
-          "minutes_apart": 176
-        }
-      ]
-    },
-    {
-      "id": "tps_12e7ec955a40",
-      "source": "police",
-      "lat": 43.720642146439545,
-      "lng": -79.51412794306921,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D31",
-      "location": "JANE ST - DALLNER RD",
-      "ts": "2026-10-15T05:25:35+00:00",
-      "related": [
-        {
-          "id": "tps_d65a1fc39cc2",
-          "distance_m": 0,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tps_9eec6cb91261",
-      "source": "police",
-      "lat": 43.65829659740034,
-      "lng": -79.37100285365003,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "SHERBOURNE ST - DUNDAS ST E",
-      "ts": "2026-10-15T05:21:34+00:00",
       "related": []
     }
   ],
@@ -10049,9 +10046,9 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 9,
+      "current_count": 8,
       "baseline_avg": 1.7,
-      "ratio": 5.4,
+      "ratio": 4.8,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
@@ -10065,9 +10062,9 @@
     {
       "source": "police",
       "division": "D55",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 1.5,
-      "ratio": 5.3,
+      "ratio": 4.7,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
@@ -10076,22 +10073,6 @@
         "tps_56e5b0b9c0cd",
         "tps_685736c721d6",
         "tps_1e7747f68fcd"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.9,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_356c59e44bf3",
-        "tps_a8ffc99e81df",
-        "tps_0a2c4b21a253",
-        "tps_34b950ea3617",
-        "tps_9077e639bd55"
       ]
     },
     {
@@ -10113,17 +10094,32 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.1,
+      "current_count": 6,
+      "baseline_avg": 1.7,
+      "ratio": 3.5,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_aebe92357660",
         "tps_b76b003116d1",
         "tps_52abac2ef86b",
         "tps_93c8eaa4de92",
-        "tps_4addfdb06d4e",
-        "tps_53f613988e13"
+        "tps_4addfdb06d4e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.1,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_356c59e44bf3",
+        "tps_a8ffc99e81df",
+        "tps_0a2c4b21a253",
+        "tps_34b950ea3617"
       ]
     },
     {
@@ -10170,20 +10166,6 @@
         "tps_cffadff60973",
         "tps_57083607f308",
         "tps_b843e39916c1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.3,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f1608be4fe75",
-        "tps_0560f7b67ac7",
-        "tps_b32bb2d66919"
       ]
     }
   ]
