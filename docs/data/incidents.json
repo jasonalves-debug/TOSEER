@@ -1,11 +1,71 @@
 {
-  "generated": "2026-10-16T21:24:21.082426+00:00",
+  "generated": "2026-10-16T21:39:21.577936+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165119",
+      "source": "fire",
+      "lat": 43.7141504,
+      "lng": -79.271928,
+      "type": "Fire - Grass/Rubbish",
+      "type_plain": "Fire - Grass/Rubbish",
+      "severity": "medium",
+      "division": "222",
+      "location": "BIRCHMOUNT RD & ST CLAIR AVE E",
+      "approximate": false,
+      "units": "P225",
+      "ts": "2026-10-16T21:25:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26165116",
+      "source": "fire",
+      "lat": 43.7755721,
+      "lng": -79.3474358,
+      "type": "Fire Alarm - Check Call",
+      "type_plain": "Fire Alarm - Check Call",
+      "severity": "medium",
+      "division": "115",
+      "location": "North York - SHEPPARD AVE & DON MILLS RD",
+      "approximate": false,
+      "units": "R115",
+      "ts": "2026-10-16T21:24:39+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165087",
+          "distance_m": 0,
+          "minutes_apart": 38
+        },
+        {
+          "id": "tps_77aa72e38ef8",
+          "distance_m": 298,
+          "minutes_apart": 175
+        }
+      ]
+    },
+    {
+      "id": "tps_2cc4fbae55a9",
+      "source": "police",
+      "lat": 43.71530756444098,
+      "lng": -79.32964193272007,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D55",
+      "location": "DUFRESNE CRT - VENDOME PL",
+      "ts": "2026-10-16T21:15:49+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165028",
+          "distance_m": 326,
+          "minutes_apart": 140
+        }
+      ]
+    },
     {
       "id": "tfs_F26165108",
       "source": "fire",
@@ -24,6 +84,80 @@
           "id": "tps_07121a92fd46",
           "distance_m": 89,
           "minutes_apart": 89
+        }
+      ]
+    },
+    {
+      "id": "tps_c41a8af0cfe0",
+      "source": "police",
+      "lat": 43.72051007309702,
+      "lng": -79.5944397874052,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D23",
+      "location": "REXDALE BLVD - WW E QUEEN'S PLATE S HARNESS",
+      "ts": "2026-10-16T21:13:55+00:00",
+      "related": [
+        {
+          "id": "tps_e89bf9f028ba",
+          "distance_m": 0,
+          "minutes_apart": 175
+        }
+      ]
+    },
+    {
+      "id": "tps_98084fcf9f64",
+      "source": "police",
+      "lat": 43.772310580394475,
+      "lng": -79.44259739878474,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D32",
+      "location": "MUIRKIRK RD - BATHURST ST",
+      "ts": "2026-10-16T21:12:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8a606fe2ae68",
+      "source": "police",
+      "lat": 43.656290716791474,
+      "lng": -79.45934961439929,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D11",
+      "location": "LN 1 N BLOOR E KEELE - LN 2 N BLOOR E KEELE",
+      "ts": "2026-10-16T21:10:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_57269d4398a6",
+      "source": "police",
+      "lat": 43.658972907576185,
+      "lng": -79.42849822404497,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D14",
+      "location": "HEPBOURNE ST - LN S BLOOR W DOVERCOURT",
+      "ts": "2026-10-16T21:10:41+00:00",
+      "related": [
+        {
+          "id": "tps_71be61d292dd",
+          "distance_m": 475,
+          "minutes_apart": 137
+        },
+        {
+          "id": "tps_5f012ec2e635",
+          "distance_m": 475,
+          "minutes_apart": 179
+        },
+        {
+          "id": "tps_4ebe373264b9",
+          "distance_m": 559,
+          "minutes_apart": 37
         }
       ]
     },
@@ -185,6 +319,11 @@
       "ts": "2026-10-16T20:46:27+00:00",
       "related": [
         {
+          "id": "tfs_F26165116",
+          "distance_m": 0,
+          "minutes_apart": 38
+        },
+        {
           "id": "tps_77aa72e38ef8",
           "distance_m": 298,
           "minutes_apart": 137
@@ -267,7 +406,13 @@
       "division": "D11",
       "location": "BLOOR ST W - LN N BLOOR E DUFFERIN",
       "ts": "2026-10-16T20:33:32+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_57269d4398a6",
+          "distance_m": 559,
+          "minutes_apart": 37
+        }
+      ]
     },
     {
       "id": "tps_e40cf4fc4ffe",
@@ -1387,7 +1532,13 @@
       "approximate": false,
       "units": "A125, P125",
       "ts": "2026-10-16T18:55:33+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_2cc4fbae55a9",
+          "distance_m": 326,
+          "minutes_apart": 140
+        }
+      ]
     },
     {
       "id": "tps_10f721ea9d77",
@@ -1462,6 +1613,11 @@
           "id": "tps_5f012ec2e635",
           "distance_m": 0,
           "minutes_apart": 42
+        },
+        {
+          "id": "tps_57269d4398a6",
+          "distance_m": 475,
+          "minutes_apart": 137
         }
       ]
     },
@@ -1775,6 +1931,11 @@
           "id": "tfs_F26165087",
           "distance_m": 298,
           "minutes_apart": 137
+        },
+        {
+          "id": "tfs_F26165116",
+          "distance_m": 298,
+          "minutes_apart": 175
         }
       ]
     },
@@ -1873,7 +2034,13 @@
       "division": "D23",
       "location": "HARNESS RD - 27 HWY N",
       "ts": "2026-10-16T18:18:45+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_c41a8af0cfe0",
+          "distance_m": 0,
+          "minutes_apart": 175
+        }
+      ]
     },
     {
       "id": "tfs_F26165014",
@@ -1919,6 +2086,11 @@
           "id": "tps_71be61d292dd",
           "distance_m": 0,
           "minutes_apart": 42
+        },
+        {
+          "id": "tps_57269d4398a6",
+          "distance_m": 475,
+          "minutes_apart": 179
         }
       ]
     },
@@ -9623,13 +9795,7 @@
       "division": "D31",
       "location": "JANE ST - DALLNER RD",
       "ts": "2026-10-15T23:52:18+00:00",
-      "related": [
-        {
-          "id": "tps_de9aa10fda05",
-          "distance_m": 597,
-          "minutes_apart": 143
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6a201aaa928b",
@@ -10243,13 +10409,7 @@
       "approximate": false,
       "units": "A433, C44, P431, P445",
       "ts": "2026-10-15T22:46:40+00:00",
-      "related": [
-        {
-          "id": "tps_96febfa218f8",
-          "distance_m": 375,
-          "minutes_apart": 73
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_828b6e19c513",
@@ -10583,13 +10743,7 @@
       "division": "HP",
       "location": "LAKE SHORE BLVD W - COLONEL SAM SMITH PARK TRL",
       "ts": "2026-10-15T22:13:43+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164514",
-          "distance_m": 106,
-          "minutes_apart": 44
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_2f9369400e35",
@@ -10615,13 +10769,7 @@
       "division": "D55",
       "location": "CEDARVALE AVE - CEDARVALE AVE",
       "ts": "2026-10-15T22:09:56+00:00",
-      "related": [
-        {
-          "id": "tps_5168880e1700",
-          "distance_m": 179,
-          "minutes_apart": 38
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_5a7692154f65",
@@ -11027,140 +11175,39 @@
           "minutes_apart": 59
         }
       ]
-    },
-    {
-      "id": "tps_7bf260cf826f",
-      "source": "police",
-      "lat": 43.651562990666605,
-      "lng": -79.3627214569264,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "FRONT ST E - DERBY ST",
-      "ts": "2026-10-15T21:38:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b928a34b8b12",
-      "source": "police",
-      "lat": 43.779764396334784,
-      "lng": -79.4155662486542,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D32",
-      "location": "YONGE ST - FINCH AVE E",
-      "ts": "2026-10-15T21:37:35+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b2a0895197c7",
-      "source": "police",
-      "lat": 43.69865616677329,
-      "lng": -79.4364423932597,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D13",
-      "location": "WILLIAM R ALLEN RD S - WINNETT AVE",
-      "ts": "2026-10-15T21:34:23+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_96febfa218f8",
-      "source": "police",
-      "lat": 43.644662900814716,
-      "lng": -79.52335329800323,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": "BLOOR ST W - ISLINGTON AVE",
-      "ts": "2026-10-15T21:33:40+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164553",
-          "distance_m": 375,
-          "minutes_apart": 73
-        }
-      ]
-    },
-    {
-      "id": "tps_5168880e1700",
-      "source": "police",
-      "lat": 43.68568152367345,
-      "lng": -79.31277234326514,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D55",
-      "location": "WOODBINE AVE - DANFORTH AVE",
-      "ts": "2026-10-15T21:31:40+00:00",
-      "related": [
-        {
-          "id": "tps_9d72323449e7",
-          "distance_m": 179,
-          "minutes_apart": 38
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26164514",
-      "source": "fire",
-      "lat": 43.598129,
-      "lng": -79.517272,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "435",
-      "location": "Etobicoke - COLONEL SAMUEL SMITH PARK DR & LAKE SHORE BLVD W",
-      "approximate": false,
-      "units": "P435",
-      "ts": "2026-10-15T21:30:06+00:00",
-      "related": [
-        {
-          "id": "tps_4cfdbd040f8e",
-          "distance_m": 106,
-          "minutes_apart": 44
-        }
-      ]
-    },
-    {
-      "id": "tps_de9aa10fda05",
-      "source": "police",
-      "lat": 43.72489224643953,
-      "lng": -79.50959764499086,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D31",
-      "location": "HEATHROW PARK TRL - HEATHROW DR",
-      "ts": "2026-10-15T21:29:06+00:00",
-      "related": [
-        {
-          "id": "tps_9ecaaf3ce340",
-          "distance_m": 597,
-          "minutes_apart": 143
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 9,
-      "baseline_avg": 2.1,
-      "ratio": 4.3,
-      "sample_days": 9,
+      "current_count": 10,
+      "baseline_avg": 2.0,
+      "ratio": 5.0,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_57269d4398a6",
         "tps_7c2c797fd1ed",
         "tps_e7d5bcdb4706",
         "tps_2f8f275f9540",
-        "tps_51420bc63786",
-        "tps_45f1758e474b"
+        "tps_51420bc63786"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 6,
+      "baseline_avg": 1.5,
+      "ratio": 4.0,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_98084fcf9f64",
+        "tps_7d9a3c8d381a",
+        "tps_c15d70af93c0",
+        "tps_821ce6b4f1fc",
+        "tps_4950d14fff0b"
       ]
     },
     {
@@ -11197,34 +11244,18 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.2,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7d9a3c8d381a",
-        "tps_c15d70af93c0",
-        "tps_821ce6b4f1fc",
-        "tps_4950d14fff0b",
-        "tps_59396132019f"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
       "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.8,
-      "sample_days": 12,
+      "baseline_avg": 2.1,
+      "ratio": 2.9,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_2cc4fbae55a9",
         "tps_db28d6a0485f",
         "tps_1370107bb9c3",
         "tps_837638aff0af",
-        "tps_fcbd064c52c5",
-        "tps_09441d9bed18"
+        "tps_fcbd064c52c5"
       ]
     },
     {
@@ -11275,30 +11306,16 @@
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9b08acc67fd1",
-        "tps_a54807952366",
-        "tps_77aa72e38ef8"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D11",
       "current_count": 3,
       "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 9,
+      "ratio": 2.3,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_8a606fe2ae68",
         "tps_4ebe373264b9",
-        "tps_6fd4e0402e23",
-        "tps_9e07f9f54352"
+        "tps_6fd4e0402e23"
       ]
     },
     {
