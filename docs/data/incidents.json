@@ -1,11 +1,64 @@
 {
-  "generated": "2026-10-16T09:52:38.216215+00:00",
+  "generated": "2026-10-16T10:07:40.036340+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164815",
+      "source": "fire",
+      "lat": 43.836369,
+      "lng": -79.2515573,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "211",
+      "location": "MARKHAM RD & STEELES AVE E",
+      "approximate": false,
+      "units": "P211",
+      "ts": "2026-10-16T09:53:38+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_068324ade968",
+      "source": "police",
+      "lat": 43.77987543376286,
+      "lng": -79.30008798127834,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D42",
+      "location": "AMETHYST RD - BIRCHMOUNT RD",
+      "ts": "2026-10-16T09:44:48+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164786",
+          "distance_m": 172,
+          "minutes_apart": 113
+        }
+      ]
+    },
+    {
+      "id": "tps_54097416dbaa",
+      "source": "police",
+      "lat": 43.7530047237781,
+      "lng": -79.31352697282816,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D33",
+      "location": "IVORDALE CRES - CASSANDRA BLVD",
+      "ts": "2026-10-16T09:41:45+00:00",
+      "related": [
+        {
+          "id": "tps_dd172044dc6c",
+          "distance_m": 408,
+          "minutes_apart": 52
+        }
+      ]
+    },
     {
       "id": "tps_ad4ac2b007f3",
       "source": "police",
@@ -64,7 +117,32 @@
       "division": "D31",
       "location": "JANE ST - FINCH AVE W",
       "ts": "2026-10-16T09:18:17+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_a5cb6801de74",
+          "distance_m": 497,
+          "minutes_apart": 0
+        }
+      ]
+    },
+    {
+      "id": "tps_a5cb6801de74",
+      "source": "police",
+      "lat": 43.75288758228223,
+      "lng": -79.51920491045057,
+      "type": "SOUGU",
+      "type_plain": "Sound of Gunshots",
+      "severity": "critical",
+      "division": "D31",
+      "location": " - ",
+      "ts": "2026-10-16T09:18:17+00:00",
+      "related": [
+        {
+          "id": "tps_5cd28fa12953",
+          "distance_m": 497,
+          "minutes_apart": 0
+        }
+      ]
     },
     {
       "id": "tps_f4e22ae9bf72",
@@ -174,7 +252,13 @@
       "division": "D41",
       "location": "VICTORIA PARK AVE - POLLARD DR",
       "ts": "2026-10-16T08:49:31+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_54097416dbaa",
+          "distance_m": 408,
+          "minutes_apart": 52
+        }
+      ]
     },
     {
       "id": "tfs_F26164804",
@@ -461,7 +545,13 @@
       "approximate": false,
       "units": "P245, R243",
       "ts": "2026-10-16T07:51:49+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_068324ade968",
+          "distance_m": 172,
+          "minutes_apart": 113
+        }
+      ]
     },
     {
       "id": "tps_4d037976ec8b",
@@ -9962,11 +10052,6 @@
           "minutes_apart": 10
         },
         {
-          "id": "tfs_F26164153",
-          "distance_m": 552,
-          "minutes_apart": 69
-        },
-        {
           "id": "tps_1017b8daf67d",
           "distance_m": 562,
           "minutes_apart": 155
@@ -10042,11 +10127,6 @@
           "id": "tps_c88dc1a76ba4",
           "distance_m": 0,
           "minutes_apart": 10
-        },
-        {
-          "id": "tfs_F26164153",
-          "distance_m": 552,
-          "minutes_apart": 60
         },
         {
           "id": "tps_1017b8daf67d",
@@ -10201,106 +10281,16 @@
       "location": "LN W SHAW S HALTON - GIVINS ST",
       "ts": "2026-10-15T10:10:34+00:00",
       "related": []
-    },
-    {
-      "id": "tps_07bafdb14936",
-      "source": "police",
-      "lat": 43.65923739834116,
-      "lng": -79.38517394513003,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "HAYTER ST - COLLEGE ST",
-      "ts": "2026-10-15T10:06:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e92a8942e218",
-      "source": "police",
-      "lat": 43.644662900814716,
-      "lng": -79.52335329800323,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "D11",
-      "location": "BLOOR ST W - ISLINGTON AVE",
-      "ts": "2026-10-15T09:59:43+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b0e08c496c5d",
-      "source": "police",
-      "lat": 43.83344472486364,
-      "lng": -79.2511026746568,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "SHADLOCK-MK ST - MARYDALE-MK AVE",
-      "ts": "2026-10-15T09:57:47+00:00",
-      "related": [
-        {
-          "id": "tps_88e6d8d0fb11",
-          "distance_m": 0,
-          "minutes_apart": 2
-        }
-      ]
-    },
-    {
-      "id": "tps_88e6d8d0fb11",
-      "source": "police",
-      "lat": 43.83344472486364,
-      "lng": -79.2511026746568,
-      "type": "BREJU",
-      "type_plain": "BREJU",
-      "severity": "low",
-      "division": "D42",
-      "location": "SHADLOCK-MK ST - MARYDALE-MK AVE",
-      "ts": "2026-10-15T09:55:41+00:00",
-      "related": [
-        {
-          "id": "tps_b0e08c496c5d",
-          "distance_m": 0,
-          "minutes_apart": 2
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26164153",
-      "source": "fire",
-      "lat": 43.6506511,
-      "lng": -79.3770093,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "333",
-      "location": "Toronto - ADELAIDE ST & YONGE ST",
-      "approximate": false,
-      "units": "P333, T333",
-      "ts": "2026-10-15T09:55:19+00:00",
-      "related": [
-        {
-          "id": "tps_c6ed7601280f",
-          "distance_m": 552,
-          "minutes_apart": 60
-        },
-        {
-          "id": "tps_c88dc1a76ba4",
-          "distance_m": 552,
-          "minutes_apart": 69
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 1.3,
-      "ratio": 5.2,
-      "sample_days": 9,
+      "current_count": 6,
+      "baseline_avg": 1.2,
+      "ratio": 5.1,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_ad4ac2b007f3",
@@ -10312,40 +10302,25 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f4e22ae9bf72",
-        "tps_f83821ccc9ee",
-        "tps_48c5ff14eb12",
-        "tps_9b3cb8caac38"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
+      "division": "D41",
       "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
+      "baseline_avg": 1.1,
+      "ratio": 2.6,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
-        "tps_2ace7a36ceb6",
-        "tps_3146f1d53418",
-        "tps_81f59658ab52"
+        "tps_dd172044dc6c",
+        "tps_c8c3c5895b79",
+        "tps_9cfa3b646016"
       ]
     },
     {
       "source": "police",
       "division": "D52",
       "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_7f0c3dc5f57c",
@@ -10355,16 +10330,17 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_925ce7bdf6d2",
-        "tps_0e07d8b83168",
-        "tps_b93304ed53e8"
+        "tps_f4e22ae9bf72",
+        "tps_f83821ccc9ee",
+        "tps_48c5ff14eb12",
+        "tps_9b3cb8caac38"
       ]
     }
   ]
