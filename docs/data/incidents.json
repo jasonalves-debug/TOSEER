@@ -1,11 +1,106 @@
 {
-  "generated": "2026-10-16T14:08:47.556226+00:00",
+  "generated": "2026-10-16T14:23:47.004510+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_cdba4a7b289f",
+      "source": "police",
+      "lat": 43.66213090123467,
+      "lng": -79.38340674668358,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "GRENVILLE ST - ALEXANDER ST",
+      "ts": "2026-10-16T14:02:33+00:00",
+      "related": [
+        {
+          "id": "tps_fbed916722c2",
+          "distance_m": 88,
+          "minutes_apart": 42
+        },
+        {
+          "id": "tps_320cc9ec4302",
+          "distance_m": 400,
+          "minutes_apart": 74
+        }
+      ]
+    },
+    {
+      "id": "tps_87683c4723a7",
+      "source": "police",
+      "lat": 43.650667689771275,
+      "lng": -79.36666165400118,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D51",
+      "location": "PRINCESS ST - BERKELEY ST",
+      "ts": "2026-10-16T14:02:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_62c1a9a51989",
+      "source": "police",
+      "lat": 43.67034090315868,
+      "lng": -79.31097413209199,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D53",
+      "location": "TOMPKINS MEWS - LN N DIXON AVE E KINGSTON",
+      "ts": "2026-10-16T13:58:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_99978f382654",
+      "source": "police",
+      "lat": 43.67427843095755,
+      "lng": -79.46002251692427,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D12",
+      "location": "HOUNSLOW HEATH RD - LN E OSLER S ST CLAIR",
+      "ts": "2026-10-16T13:53:26+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_45ee4bda448f",
+      "source": "police",
+      "lat": 43.65137819288401,
+      "lng": -79.40698283146293,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D14",
+      "location": "ALEXANDRA PARK TRL - ALEXANDRA PARK TRL",
+      "ts": "2026-10-16T13:52:08+00:00",
+      "related": [
+        {
+          "id": "tps_a98eccc25c59",
+          "distance_m": 316,
+          "minutes_apart": 70
+        }
+      ]
+    },
+    {
+      "id": "tps_3931c54d2410",
+      "source": "police",
+      "lat": 43.688651915768766,
+      "lng": -79.41267233711893,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D53",
+      "location": "RUSSELL HILL RD - LALLIE HAYE LANE",
+      "ts": "2026-10-16T13:45:56+00:00",
+      "related": []
+    },
     {
       "id": "tps_5360e82d0847",
       "source": "police",
@@ -217,6 +312,11 @@
       "ts": "2026-10-16T13:20:29+00:00",
       "related": [
         {
+          "id": "tps_cdba4a7b289f",
+          "distance_m": 88,
+          "minutes_apart": 42
+        },
+        {
           "id": "tps_fd20782a4952",
           "distance_m": 290,
           "minutes_apart": 162
@@ -382,6 +482,11 @@
           "minutes_apart": 32
         },
         {
+          "id": "tps_cdba4a7b289f",
+          "distance_m": 400,
+          "minutes_apart": 74
+        },
+        {
           "id": "tps_fd20782a4952",
           "distance_m": 533,
           "minutes_apart": 130
@@ -444,7 +549,13 @@
       "division": "D14",
       "location": "MANNING AVE - CLAREMONT ST",
       "ts": "2026-10-16T12:41:42+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_45ee4bda448f",
+          "distance_m": 316,
+          "minutes_apart": 70
+        }
+      ]
     },
     {
       "id": "tps_681fd87a24af",
@@ -10528,21 +10639,6 @@
       "units": "P123",
       "ts": "2026-10-15T14:39:31+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26164256",
-      "source": "fire",
-      "lat": 43.6362013,
-      "lng": -79.5803536,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "444",
-      "location": "Etobicoke - MILL RD & MARKLAND DR",
-      "approximate": false,
-      "units": "P432, P445",
-      "ts": "2026-10-15T14:11:04+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10560,6 +10656,22 @@
         "tps_5040971aea36",
         "tps_8a3e0f5f09e7",
         "tps_4f9ae16c3ad0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 7,
+      "baseline_avg": 2.6,
+      "ratio": 2.6,
+      "sample_days": 14,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_87683c4723a7",
+        "tps_4fa0a18e4050",
+        "tps_73b1ecebc2a6",
+        "tps_fbed916722c2",
+        "tps_320cc9ec4302"
       ]
     },
     {
@@ -10593,50 +10705,32 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 2.1,
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.7,
       "ratio": 2.4,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_598d25378a50",
-        "tps_5a0d98bcac18",
-        "tps_88e1e182f92c",
-        "tps_0b983a52a559",
-        "tps_37bff84745fa"
+        "tps_62c1a9a51989",
+        "tps_3931c54d2410",
+        "tps_8af9718ef17f",
+        "tps_606c6ecd0a29"
       ]
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 5,
-      "baseline_avg": 2.3,
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 1.8,
       "ratio": 2.2,
-      "sample_days": 11,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_95271eee2293",
-        "tps_05b61b7eb288",
-        "tps_d9950d5e9f3c",
-        "tps_77cf5c6062fe",
-        "tps_a2d386749b08"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 2.8,
-      "ratio": 2.2,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4fa0a18e4050",
-        "tps_73b1ecebc2a6",
-        "tps_fbed916722c2",
-        "tps_320cc9ec4302",
-        "tps_e09c000d5aa5"
+        "tps_45ee4bda448f",
+        "tps_f86e505784f8",
+        "tps_70433ef27158",
+        "tps_a98eccc25c59"
       ]
     }
   ]
