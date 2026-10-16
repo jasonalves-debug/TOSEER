@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-16T08:52:36.888882+00:00",
+  "generated": "2026-10-16T09:07:36.657638+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164804",
+      "source": "fire",
+      "lat": 43.7670524,
+      "lng": -79.1904024,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "234",
+      "location": "Scarborough - LAWRENCE AVE & KINGSTON RD",
+      "approximate": false,
+      "units": "A215, P234",
+      "ts": "2026-10-16T08:49:05+00:00",
+      "related": []
+    },
     {
       "id": "tps_7f0c3dc5f57c",
       "source": "police",
@@ -10245,32 +10260,6 @@
       "location": "LONGBOAT AVE - SCADDING AVE",
       "ts": "2026-10-15T09:08:22+00:00",
       "related": []
-    },
-    {
-      "id": "tps_2348429caccb",
-      "source": "police",
-      "lat": 43.705743018427135,
-      "lng": -79.25705339677437,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D41",
-      "location": "KENNEDY RD - CRAIGLEE DR",
-      "ts": "2026-10-15T09:03:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_60f169bc567a",
-      "source": "police",
-      "lat": 43.727449975092924,
-      "lng": -79.40281993810522,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "BEDFORD PARK AVE - RANLEIGH AVE",
-      "ts": "2026-10-15T08:57:43+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10278,9 +10267,9 @@
       "source": "police",
       "division": "D51",
       "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 3.8,
-      "sample_days": 6,
+      "baseline_avg": 1.4,
+      "ratio": 5.1,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_23f7071b9dc0",
@@ -10292,11 +10281,25 @@
     },
     {
       "source": "police",
+      "division": "D52",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7f0c3dc5f57c",
+        "tps_3cd4f2dc878f",
+        "tps_4d037976ec8b"
+      ]
+    },
+    {
+      "source": "police",
       "division": "HP",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
-      "sample_days": 9,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
         "tps_f83821ccc9ee",
@@ -10308,29 +10311,14 @@
       "source": "police",
       "division": "D14",
       "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.2,
-      "sample_days": 11,
+      "baseline_avg": 1.2,
+      "ratio": 2.6,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_ca036afb2838",
         "tps_c824f5679a54",
         "tps_30fb0c2acfce"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.9,
-      "ratio": 2.2,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c8c3c5895b79",
-        "tps_9cfa3b646016",
-        "tps_48041f9f84aa",
-        "tps_a7c76d0ed893"
       ]
     }
   ]
