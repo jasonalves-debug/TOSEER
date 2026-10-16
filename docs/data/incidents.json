@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-16T07:52:37.426710+00:00",
+  "generated": "2026-10-16T08:07:36.736253+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164786",
+      "source": "fire",
+      "lat": 43.7808597,
+      "lng": -79.2984424,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "244",
+      "location": "Scarborough - BIRCHMOUNT RD & SHEPPARD AVE E",
+      "approximate": false,
+      "units": "P245, R243",
+      "ts": "2026-10-16T07:51:49+00:00",
+      "related": []
+    },
     {
       "id": "tps_2d7cb3a9ffcb",
       "source": "police",
@@ -10049,157 +10064,60 @@
           "id": "tps_508884facb84",
           "distance_m": 362,
           "minutes_apart": 17
-        },
-        {
-          "id": "tps_685416463603",
-          "distance_m": 592,
-          "minutes_apart": 11
         }
       ]
-    },
-    {
-      "id": "tps_39857b0efb6d",
-      "source": "police",
-      "lat": 43.73087856940539,
-      "lng": -79.59939966806567,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D23",
-      "location": "WESTMORE DR - 27 HWY N",
-      "ts": "2026-10-15T08:05:35+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_779288cf070d",
-      "source": "police",
-      "lat": 43.77515229495186,
-      "lng": -79.41437285710154,
-      "type": "SOUGU",
-      "type_plain": "Sound of Gunshots",
-      "severity": "critical",
-      "division": "D31",
-      "location": "YONGE ST - DORIS AVE",
-      "ts": "2026-10-15T08:03:54+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164134",
-      "source": "fire",
-      "lat": 43.7432091,
-      "lng": -79.2182486,
-      "type": "Check Call - Non Emergency",
-      "type_plain": "Check Call - Non Emergency",
-      "severity": "medium",
-      "division": "231",
-      "location": "Scarborough - MARKHAM RD & EGLINTON AVE E",
-      "approximate": false,
-      "units": "P231",
-      "ts": "2026-10-15T08:00:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_685416463603",
-      "source": "police",
-      "lat": 43.652310093633126,
-      "lng": -79.40601573209595,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "DUNDAS ST W - BATHURST ST",
-      "ts": "2026-10-15T07:57:15+00:00",
-      "related": [
-        {
-          "id": "tps_9efff555daa3",
-          "distance_m": 592,
-          "minutes_apart": 11
-        }
-      ]
-    },
-    {
-      "id": "tps_57f6d41522c4",
-      "source": "police",
-      "lat": 43.699122629167796,
-      "lng": -79.25435439165943,
-      "type": "DAMJU",
-      "type_plain": "DAMJU",
-      "severity": "low",
-      "division": "D41",
-      "location": "ROSETTA MCCLAIN GARDENS TRL - WYNNVIEW CRT",
-      "ts": "2026-10-15T07:55:47+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 1.2,
-      "ratio": 4.1,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8d46a981278b",
-        "tps_bdd99e2c8b3d",
-        "tps_61863087a49c",
-        "tps_f14c1711e70c",
-        "tps_a3ee12d98dbf"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.3,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c8c3c5895b79",
-        "tps_9cfa3b646016",
-        "tps_48041f9f84aa",
-        "tps_a7c76d0ed893",
-        "tps_f1608be4fe75"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
+      "division": "D22",
       "current_count": 3,
       "baseline_avg": 1.0,
       "ratio": 3.0,
-      "sample_days": 3,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_496e9186aa16",
-        "tps_7a40d2007573",
-        "tps_77998e5f1459"
+        "tps_81f59658ab52",
+        "tps_fc39c0057f97",
+        "tps_fd54f24297c2"
       ]
     },
     {
       "source": "police",
       "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 10,
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_48c5ff14eb12",
         "tps_9b3cb8caac38",
-        "tps_aebe92357660",
-        "tps_b76b003116d1"
+        "tps_aebe92357660"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.3,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_30fb0c2acfce",
+        "tps_a64d8e398ab3",
+        "tps_475562874245"
       ]
     },
     {
       "source": "police",
       "division": "D51",
       "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.8,
-      "sample_days": 7,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_2d7cb3a9ffcb",
@@ -10210,16 +10128,31 @@
     },
     {
       "source": "police",
-      "division": "D22",
+      "division": "D41",
+      "current_count": 4,
+      "baseline_avg": 1.9,
+      "ratio": 2.2,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c8c3c5895b79",
+        "tps_9cfa3b646016",
+        "tps_48041f9f84aa",
+        "tps_a7c76d0ed893"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_81f59658ab52",
-        "tps_fc39c0057f97",
-        "tps_fd54f24297c2"
+        "tps_496e9186aa16",
+        "tps_7a40d2007573",
+        "tps_77998e5f1459"
       ]
     }
   ]
