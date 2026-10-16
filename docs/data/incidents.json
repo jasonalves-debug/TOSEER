@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T12:53:47.923555+00:00",
+  "generated": "2026-10-16T13:08:47.430262+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -9592,13 +9592,7 @@
       "division": "D32",
       "location": "STEELES AVE W - ",
       "ts": "2026-10-15T15:51:01+00:00",
-      "related": [
-        {
-          "id": "tps_8113d74b30cd",
-          "distance_m": 0,
-          "minutes_apart": 163
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e9249d367928",
@@ -9655,11 +9649,6 @@
           "id": "tps_909ece3a8095",
           "distance_m": 269,
           "minutes_apart": 106
-        },
-        {
-          "id": "tfs_F26164207",
-          "distance_m": 399,
-          "minutes_apart": 154
         }
       ]
     },
@@ -10353,125 +10342,16 @@
       "location": "SAN VAROWAY - SAN ROCCOWAY",
       "ts": "2026-10-15T13:14:59+00:00",
       "related": []
-    },
-    {
-      "id": "tps_8113d74b30cd",
-      "source": "police",
-      "lat": 43.79666332613236,
-      "lng": -79.42638144456221,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D32",
-      "location": "STEELES AVE W - ",
-      "ts": "2026-10-15T13:08:29+00:00",
-      "related": [
-        {
-          "id": "tps_fb532b7c5ec0",
-          "distance_m": 0,
-          "minutes_apart": 163
-        }
-      ]
-    },
-    {
-      "id": "tps_e6542869eb68",
-      "source": "police",
-      "lat": 43.60629789651448,
-      "lng": -79.5459299067867,
-      "type": "ARS",
-      "type_plain": "ARS",
-      "severity": "low",
-      "division": "D22",
-      "location": "SHELDON AVE - LUNNESS RD",
-      "ts": "2026-10-15T13:07:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c3e095eb9253",
-      "source": "police",
-      "lat": 43.70654584766525,
-      "lng": -79.52315624063704,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "ROSEMOUNT AVE - KIRAH CRT",
-      "ts": "2026-10-15T13:05:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164211",
-      "source": "fire",
-      "lat": 43.6479872,
-      "lng": -79.5250275,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "445",
-      "location": "Etobicoke - CENTRAL PARK RDWY & ISLINGTON AVE",
-      "approximate": false,
-      "units": "P431, P433",
-      "ts": "2026-10-15T13:05:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164207",
-      "source": "fire",
-      "lat": 43.7062149,
-      "lng": -79.4004652,
-      "type": "Hazmat Level 1",
-      "type_plain": "Hazmat Level 1",
-      "severity": "medium",
-      "division": "134",
-      "location": "DUPLEX AVE & EGLINTON AVE W",
-      "approximate": false,
-      "units": "",
-      "ts": "2026-10-15T13:03:02+00:00",
-      "related": [
-        {
-          "id": "tps_e38549de65f8",
-          "distance_m": 399,
-          "minutes_apart": 154
-        }
-      ]
-    },
-    {
-      "id": "tps_65491684ad85",
-      "source": "police",
-      "lat": 43.61590470427628,
-      "lng": -79.52467432505597,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY E - KIPLING AVE",
-      "ts": "2026-10-15T12:59:49+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164203",
-      "source": "fire",
-      "lat": 43.6248712,
-      "lng": -79.5282469,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "432",
-      "location": "Etobicoke - NORTH QUEEN ST & KIPLING AVE",
-      "approximate": false,
-      "units": "A433, P445",
-      "ts": "2026-10-15T12:57:29+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 8,
-      "baseline_avg": 1.2,
-      "ratio": 6.5,
-      "sample_days": 9,
+      "current_count": 6,
+      "baseline_avg": 2.2,
+      "ratio": 2.8,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
         "tps_110bad2f7bcd",
@@ -10483,26 +10363,11 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d9950d5e9f3c",
-        "tps_77cf5c6062fe",
-        "tps_a2d386749b08",
-        "tps_cc860025cc97"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D23",
       "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.3,
-      "sample_days": 10,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_6037f71ffe7b",
@@ -10512,40 +10377,10 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 6,
-      "baseline_avg": 2.9,
-      "ratio": 2.1,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5a0d98bcac18",
-        "tps_88e1e182f92c",
-        "tps_0b983a52a559",
-        "tps_37bff84745fa",
-        "tps_176ef1610082"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_681fd87a24af",
-        "tps_5f29d18b98a9",
-        "tps_1e183855cf40"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D31",
       "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
