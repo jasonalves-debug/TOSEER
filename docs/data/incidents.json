@@ -1,11 +1,42 @@
 {
-  "generated": "2026-10-16T16:24:18.695123+00:00",
+  "generated": "2026-10-16T16:39:20.753729+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164949",
+      "source": "fire",
+      "lat": 43.6458956,
+      "lng": -79.395177,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "332",
+      "location": "Toronto - KING ST & SPADINA AVE",
+      "approximate": false,
+      "units": "P314, P334",
+      "ts": "2026-10-16T16:17:07+00:00",
+      "related": [
+        {
+          "id": "tps_f11f52609078",
+          "distance_m": 318,
+          "minutes_apart": 118
+        },
+        {
+          "id": "tps_082ab03b5018",
+          "distance_m": 409,
+          "minutes_apart": 93
+        },
+        {
+          "id": "tps_8ac3f31e9946",
+          "distance_m": 442,
+          "minutes_apart": 37
+        }
+      ]
+    },
     {
       "id": "tfs_F26164945",
       "source": "fire",
@@ -80,6 +111,11 @@
           "id": "tps_f11f52609078",
           "distance_m": 294,
           "minutes_apart": 81
+        },
+        {
+          "id": "tfs_F26164949",
+          "distance_m": 442,
+          "minutes_apart": 37
         },
         {
           "id": "tps_082ab03b5018",
@@ -468,6 +504,11 @@
           "minutes_apart": 36
         },
         {
+          "id": "tfs_F26164949",
+          "distance_m": 409,
+          "minutes_apart": 93
+        },
+        {
           "id": "tps_8ac3f31e9946",
           "distance_m": 581,
           "minutes_apart": 56
@@ -710,6 +751,11 @@
           "id": "tps_8ac3f31e9946",
           "distance_m": 294,
           "minutes_apart": 81
+        },
+        {
+          "id": "tfs_F26164949",
+          "distance_m": 318,
+          "minutes_apart": 118
         },
         {
           "id": "tps_5a603000e213",
@@ -9168,13 +9214,7 @@
       "division": "D43",
       "location": "MILITARY TRL - TAMS RD",
       "ts": "2026-10-15T19:18:19+00:00",
-      "related": [
-        {
-          "id": "tps_196f89acf991",
-          "distance_m": 445,
-          "minutes_apart": 169
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_eb997ca11097",
@@ -9763,11 +9803,6 @@
           "id": "tps_dbb96c6ae6af",
           "distance_m": 16,
           "minutes_apart": 91
-        },
-        {
-          "id": "tps_e2e07c7d9e60",
-          "distance_m": 299,
-          "minutes_apart": 105
         }
       ]
     },
@@ -10321,11 +10356,6 @@
           "id": "tfs_F26164393",
           "distance_m": 16,
           "minutes_apart": 91
-        },
-        {
-          "id": "tps_e2e07c7d9e60",
-          "distance_m": 308,
-          "minutes_apart": 13
         }
       ]
     },
@@ -10464,133 +10494,9 @@
           "minutes_apart": 145
         }
       ]
-    },
-    {
-      "id": "tps_1173572ec371",
-      "source": "police",
-      "lat": 43.64224723977661,
-      "lng": -79.50926569961366,
-      "type": "TRAOB",
-      "type_plain": "TRAOB",
-      "severity": "low",
-      "division": "D22",
-      "location": "ROYAL YORK RD - GLENROY AVE",
-      "ts": "2026-10-15T16:38:57+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e2e07c7d9e60",
-      "source": "police",
-      "lat": 43.68247951606518,
-      "lng": -79.42199443037066,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D13",
-      "location": "VAUGHAN RD - KENWOOD AVE",
-      "ts": "2026-10-15T16:38:26+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164393",
-          "distance_m": 299,
-          "minutes_apart": 105
-        },
-        {
-          "id": "tps_dbb96c6ae6af",
-          "distance_m": 308,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tps_251fbcacf48a",
-      "source": "police",
-      "lat": 43.73764437466234,
-      "lng": -79.57835067286854,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D23",
-      "location": "JOHN GARLAND BLVD - ALBION RD",
-      "ts": "2026-10-15T16:37:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ea80729880ba",
-      "source": "police",
-      "lat": 43.662332401436146,
-      "lng": -79.36717885754466,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "D51",
-      "location": "GERRARD ST E - GERRARD ST E",
-      "ts": "2026-10-15T16:32:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_196f89acf991",
-      "source": "police",
-      "lat": 43.785339392839056,
-      "lng": -79.19332999616228,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "ELLESMERE RD - MILITARY TRL",
-      "ts": "2026-10-15T16:29:47+00:00",
-      "related": [
-        {
-          "id": "tps_6d0cf6e575e3",
-          "distance_m": 445,
-          "minutes_apart": 169
-        }
-      ]
-    },
-    {
-      "id": "tps_99f4537cf73d",
-      "source": "police",
-      "lat": 43.68793603053567,
-      "lng": -79.28698796050745,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D55",
-      "location": "MUSGRAVE ST - VICTORIA PARK AVE",
-      "ts": "2026-10-15T16:28:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2cb83befd492",
-      "source": "police",
-      "lat": 43.748109314408325,
-      "lng": -79.62863329367465,
-      "type": "THE",
-      "type_plain": "THE",
-      "severity": "low",
-      "division": "D23",
-      "location": "C N R - STEINWAY BLVD",
-      "ts": "2026-10-15T16:25:04+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 1.6,
-      "ratio": 3.7,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8ac3f31e9946",
-        "tps_cb656d951db9",
-        "tps_082ab03b5018",
-        "tps_f11f52609078",
-        "tps_cdba4a7b289f"
-      ]
-    },
     {
       "source": "police",
       "division": "D41",
@@ -10608,33 +10514,18 @@
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
+      "division": "D52",
+      "current_count": 5,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_a47a02d876f3",
-        "tps_6277da42f40c",
-        "tps_37f13bcddffe",
-        "tps_3bfafd908696"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 7,
-      "baseline_avg": 2.9,
-      "ratio": 2.4,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_71d263385083",
-        "tps_9f6c48f89372",
-        "tps_c33819f61d01",
-        "tps_cd7d14c8bc3e",
-        "tps_6c31c9f6471b"
+        "tps_8ac3f31e9946",
+        "tps_cb656d951db9",
+        "tps_082ab03b5018",
+        "tps_f11f52609078",
+        "tps_cdba4a7b289f"
       ]
     },
     {
@@ -10654,6 +10545,20 @@
     },
     {
       "source": "police",
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a47a02d876f3",
+        "tps_6277da42f40c",
+        "tps_37f13bcddffe"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D31",
       "current_count": 3,
       "baseline_avg": 1.3,
@@ -10668,6 +10573,22 @@
     },
     {
       "source": "police",
+      "division": "D32",
+      "current_count": 6,
+      "baseline_avg": 2.9,
+      "ratio": 2.1,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_71d263385083",
+        "tps_9f6c48f89372",
+        "tps_c33819f61d01",
+        "tps_cd7d14c8bc3e",
+        "tps_6c31c9f6471b"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D23",
       "current_count": 3,
       "baseline_avg": 1.4,
@@ -10678,21 +10599,6 @@
         "tps_0e7853d2c6c9",
         "tps_72ed9c665fe6",
         "tps_436edc8ef112"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.9,
-      "ratio": 2.1,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b3478630e3fb",
-        "tps_96385089d732",
-        "tps_59141bfd1008",
-        "tps_25d8559adc2a"
       ]
     }
   ]
