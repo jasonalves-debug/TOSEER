@@ -1,11 +1,127 @@
 {
-  "generated": "2026-10-16T18:09:20.688853+00:00",
+  "generated": "2026-10-16T18:24:24.807224+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165014",
+      "source": "fire",
+      "lat": 43.7077648,
+      "lng": -79.3929424,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "134",
+      "location": "Toronto - REDPATH AVE & EGLINTON AVE E",
+      "approximate": false,
+      "units": "P132, P321",
+      "ts": "2026-10-16T18:14:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26165011",
+      "source": "fire",
+      "lat": 43.725453,
+      "lng": -79.264791,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "221",
+      "location": "Scarborough - KENNEDY RD & CORVETTE AVE",
+      "approximate": false,
+      "units": "A221, P221",
+      "ts": "2026-10-16T18:10:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26165008",
+      "source": "fire",
+      "lat": 43.7696835,
+      "lng": -79.2614648,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "243",
+      "location": "ELLESMERE RD & BRIMLEY RD",
+      "approximate": false,
+      "units": "R243",
+      "ts": "2026-10-16T18:06:59+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4cfcc7f647bc",
+      "source": "police",
+      "lat": 43.69325072300121,
+      "lng": -79.28724016333666,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D41",
+      "location": "LN N DANFORTH E VICTORIA PARK - DENTON AVE",
+      "ts": "2026-10-16T17:58:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_45533210b1e2",
+      "source": "police",
+      "lat": 43.70842724643954,
+      "lng": -79.50528464267695,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D12",
+      "location": "PINE ST - JANE ST",
+      "ts": "2026-10-16T17:54:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_26324b32d507",
+      "source": "police",
+      "lat": 43.77317423813503,
+      "lng": -79.28372299434183,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D41",
+      "location": "KENNEDY RD - WILLIAM KITCHEN RD",
+      "ts": "2026-10-16T17:54:01+00:00",
+      "related": [
+        {
+          "id": "tps_e773fd2d369c",
+          "distance_m": 0,
+          "minutes_apart": 11
+        }
+      ]
+    },
+    {
+      "id": "tps_8ea0f668fe77",
+      "source": "police",
+      "lat": 43.71408674764773,
+      "lng": -79.48229023927608,
+      "type": "SHO",
+      "type_plain": "SHO",
+      "severity": "low",
+      "division": "D12",
+      "location": "MAPLE LEAF DR - QUEEN'S GREENBELT TRL",
+      "ts": "2026-10-16T17:50:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4da04729b097",
+      "source": "police",
+      "lat": 43.69729606471763,
+      "lng": -79.44278558784455,
+      "type": "FRA",
+      "type_plain": "Fraud",
+      "severity": "medium",
+      "division": "D13",
+      "location": "ALAMEDA AVE - OAKWOOD AVE",
+      "ts": "2026-10-16T17:47:15+00:00",
+      "related": []
+    },
     {
       "id": "tps_e773fd2d369c",
       "source": "police",
@@ -17,7 +133,13 @@
       "division": "HP",
       "location": "KENNEDY RD - WILLIAM KITCHEN RD",
       "ts": "2026-10-16T17:43:28+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_26324b32d507",
+          "distance_m": 0,
+          "minutes_apart": 11
+        }
+      ]
     },
     {
       "id": "tps_21bc0556546b",
@@ -9358,13 +9480,7 @@
       "division": "D11",
       "location": "DUFFERIN GROVE PARK TRL - DUFFERIN GROVE PARK TRL",
       "ts": "2026-10-15T21:03:26+00:00",
-      "related": [
-        {
-          "id": "tps_f399278b5d26",
-          "distance_m": 0,
-          "minutes_apart": 163
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26164496",
@@ -9517,13 +9633,7 @@
       "division": "HP",
       "location": "YONGE ST - LN E YONGE S KINGSDALE",
       "ts": "2026-10-15T20:36:20+00:00",
-      "related": [
-        {
-          "id": "tps_bed66b2d7b8f",
-          "distance_m": 302,
-          "minutes_apart": 135
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26164474",
@@ -10421,13 +10531,7 @@
       "approximate": false,
       "units": "A221, C22, C32, HR332, L226, LA325, P224, P225, R227, R235, S313",
       "ts": "2026-10-15T19:05:38+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164392",
-          "distance_m": 298,
-          "minutes_apart": 47
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_17a9488fdf17",
@@ -10834,128 +10938,15 @@
       "location": "HORNER AVENUE RAMP - ARNOLD ST",
       "ts": "2026-10-15T18:30:25+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26164393",
-      "source": "fire",
-      "lat": 43.6833143,
-      "lng": -79.4184571,
-      "type": "Hazmat Level 1",
-      "type_plain": "Hazmat Level 1",
-      "severity": "medium",
-      "division": "343",
-      "location": "Toronto - ST CLAIR AVE & BATHURST ST",
-      "approximate": false,
-      "units": "P344",
-      "ts": "2026-10-15T18:22:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_bed66b2d7b8f",
-      "source": "police",
-      "lat": 43.771695191471466,
-      "lng": -79.41459646439912,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D32",
-      "location": "CANTERBURY PL - BEECROFT RD",
-      "ts": "2026-10-15T18:21:16+00:00",
-      "related": [
-        {
-          "id": "tps_ef5845973d08",
-          "distance_m": 302,
-          "minutes_apart": 135
-        }
-      ]
-    },
-    {
-      "id": "tps_bddf9113c563",
-      "source": "police",
-      "lat": 43.75101737885861,
-      "lng": -79.45429650535273,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "REINER RD - SHEPPARD AVE W",
-      "ts": "2026-10-15T18:20:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f399278b5d26",
-      "source": "police",
-      "lat": 43.65521640563446,
-      "lng": -79.4370618209781,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D11",
-      "location": "DUFFERIN GROVE PARK TRL - DUFFERIN GROVE PARK TRL",
-      "ts": "2026-10-15T18:20:01+00:00",
-      "related": [
-        {
-          "id": "tps_18c69be8cf8a",
-          "distance_m": 0,
-          "minutes_apart": 163
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26164392",
-      "source": "fire",
-      "lat": 43.6962252,
-      "lng": -79.2944902,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "226",
-      "location": "East York - MASSEY SQ & CRESCENT TOWN RD",
-      "approximate": false,
-      "units": "L226, P224",
-      "ts": "2026-10-15T18:18:45+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164418",
-          "distance_m": 298,
-          "minutes_apart": 47
-        }
-      ]
-    },
-    {
-      "id": "tps_f5511628277f",
-      "source": "police",
-      "lat": 43.655156000301155,
-      "lng": -79.41902352699081,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "COLLEGE ST - CRAWFORD ST",
-      "ts": "2026-10-15T18:15:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7215cd0d0101",
-      "source": "police",
-      "lat": 43.747298187077085,
-      "lng": -79.40743930287155,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "WILLIAM CARSON CRES - 401 C E YONGE ST S RAMP",
-      "ts": "2026-10-15T18:10:38+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D52",
-      "current_count": 9,
+      "current_count": 8,
       "baseline_avg": 1.7,
-      "ratio": 5.2,
+      "ratio": 4.6,
       "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
@@ -10969,49 +10960,64 @@
     {
       "source": "police",
       "division": "D13",
-      "current_count": 5,
+      "current_count": 6,
       "baseline_avg": 1.5,
-      "ratio": 3.3,
+      "ratio": 4.0,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
+        "tps_4da04729b097",
         "tps_c4c6a8024e4f",
         "tps_deef2a35f6bf",
         "tps_09f13f9a2220",
-        "tps_85d558713123",
-        "tps_c5092da28973"
+        "tps_85d558713123"
       ]
     },
     {
       "source": "police",
       "division": "D41",
-      "current_count": 5,
+      "current_count": 6,
       "baseline_avg": 1.7,
-      "ratio": 2.9,
+      "ratio": 3.5,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_4cfcc7f647bc",
+        "tps_26324b32d507",
         "tps_a147a77d5908",
         "tps_263e87335b3e",
-        "tps_f7d03df40c66",
-        "tps_4129b326995d",
-        "tps_c8cc493916cf"
+        "tps_f7d03df40c66"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 5,
+      "baseline_avg": 2.1,
+      "ratio": 2.4,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_45533210b1e2",
+        "tps_8ea0f668fe77",
+        "tps_9f60d1a90cb3",
+        "tps_66eb789a738d",
+        "tps_2f9511e6e366"
       ]
     },
     {
       "source": "police",
       "division": "D32",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.9,
-      "ratio": 2.7,
+      "ratio": 2.1,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_21bc0556546b",
         "tps_f8a538fa3db1",
         "tps_f0caeb1fde6c",
-        "tps_71d263385083",
-        "tps_9f6c48f89372"
+        "tps_71d263385083"
       ]
     },
     {
