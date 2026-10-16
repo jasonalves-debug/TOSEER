@@ -1,11 +1,111 @@
 {
-  "generated": "2026-10-16T07:07:36.432229+00:00",
+  "generated": "2026-10-16T07:22:39.884879+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_48c5ff14eb12",
+      "source": "police",
+      "lat": 43.6672168156034,
+      "lng": -79.42784832700961,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D14",
+      "location": "MANCHESTER AVE - LN S HALLAM E OSSINGTON",
+      "ts": "2026-10-16T07:06:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8d46a981278b",
+      "source": "police",
+      "lat": 43.688139424017734,
+      "lng": -79.30182185138466,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D55",
+      "location": "MAIN ST - DANFORTH AVE",
+      "ts": "2026-10-16T07:06:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b93304ed53e8",
+      "source": "police",
+      "lat": 43.67037191129492,
+      "lng": -79.39482514503938,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D53",
+      "location": "HAZELTON AVE - AVENUE RD",
+      "ts": "2026-10-16T07:03:03+00:00",
+      "related": [
+        {
+          "id": "tps_52abac2ef86b",
+          "distance_m": 328,
+          "minutes_apart": 174
+        }
+      ]
+    },
+    {
+      "id": "tps_5ce9b179b986",
+      "source": "police",
+      "lat": 43.80894065659092,
+      "lng": -79.35899923356956,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D33",
+      "location": "FRESHMEADOW DR - DON MILLS RD",
+      "ts": "2026-10-16T06:54:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bd3dfd8db804",
+      "source": "police",
+      "lat": 43.76579719672418,
+      "lng": -79.20812182685845,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D43",
+      "location": "ORTON PARK RD - LISA RD",
+      "ts": "2026-10-16T06:54:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_efc08aebca0e",
+      "source": "police",
+      "lat": 43.653044692148356,
+      "lng": -79.3729492506018,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "RICHMOND ST E - JARVIS ST RICHMOND ST E RAMP",
+      "ts": "2026-10-16T06:53:06+00:00",
+      "related": [
+        {
+          "id": "tps_62ad662ff2fc",
+          "distance_m": 79,
+          "minutes_apart": 154
+        },
+        {
+          "id": "tps_1afd2112a8c6",
+          "distance_m": 465,
+          "minutes_apart": 179
+        },
+        {
+          "id": "tps_14d5c8a34aa0",
+          "distance_m": 488,
+          "minutes_apart": 25
+        }
+      ]
+    },
     {
       "id": "tps_bdd99e2c8b3d",
       "source": "police",
@@ -56,6 +156,11 @@
           "id": "tps_1afd2112a8c6",
           "distance_m": 457,
           "minutes_apart": 154
+        },
+        {
+          "id": "tps_efc08aebca0e",
+          "distance_m": 488,
+          "minutes_apart": 25
         }
       ]
     },
@@ -655,6 +760,11 @@
       "ts": "2026-10-16T04:19:19+00:00",
       "related": [
         {
+          "id": "tps_efc08aebca0e",
+          "distance_m": 79,
+          "minutes_apart": 154
+        },
+        {
           "id": "tps_1afd2112a8c6",
           "distance_m": 386,
           "minutes_apart": 25
@@ -678,11 +788,6 @@
           "id": "tps_14d5c8a34aa0",
           "distance_m": 450,
           "minutes_apart": 129
-        },
-        {
-          "id": "tfs_F26164715",
-          "distance_m": 499,
-          "minutes_apart": 33
         }
       ]
     },
@@ -760,6 +865,11 @@
           "id": "tps_dcc4896d882c",
           "distance_m": 249,
           "minutes_apart": 43
+        },
+        {
+          "id": "tps_b93304ed53e8",
+          "distance_m": 328,
+          "minutes_apart": 174
         },
         {
           "id": "tps_b383e48ea3ef",
@@ -10017,29 +10127,44 @@
       "division": "D55",
       "current_count": 6,
       "baseline_avg": 1.2,
-      "ratio": 4.8,
-      "sample_days": 8,
+      "ratio": 4.9,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
+        "tps_8d46a981278b",
         "tps_bdd99e2c8b3d",
         "tps_61863087a49c",
         "tps_f14c1711e70c",
-        "tps_a3ee12d98dbf",
-        "tps_56e5b0b9c0cd"
+        "tps_a3ee12d98dbf"
       ]
     },
     {
       "source": "police",
       "division": "D53",
-      "current_count": 3,
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 5,
+      "ratio": 4.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_b93304ed53e8",
         "tps_9cd336aaee0a",
         "tps_566527307242",
         "tps_05ab22785460"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.1,
+      "ratio": 2.7,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5ce9b179b986",
+        "tps_63a6732d6ca4",
+        "tps_6f835fc5b51b"
       ]
     },
     {
@@ -10051,37 +10176,9 @@
       "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
+        "tps_bd3dfd8db804",
         "tps_ae095771a0a3",
-        "tps_356c59e44bf3",
-        "tps_a8ffc99e81df"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e849e66855f8",
-        "tps_cffadff60973",
-        "tps_4a22d39524e8"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_14d5c8a34aa0",
-        "tps_9659497ab557",
-        "tps_62ad662ff2fc"
+        "tps_356c59e44bf3"
       ]
     },
     {
@@ -10096,20 +10193,6 @@
         "tps_48041f9f84aa",
         "tps_a7c76d0ed893",
         "tps_f1608be4fe75"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_aebe92357660",
-        "tps_b76b003116d1",
-        "tps_52abac2ef86b"
       ]
     }
   ]
