@@ -1,11 +1,75 @@
 {
-  "generated": "2026-10-16T04:36:22.796926+00:00",
+  "generated": "2026-10-16T04:51:20.606608+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_e849e66855f8",
+      "source": "police",
+      "lat": 43.78933654639112,
+      "lng": -79.43929226776508,
+      "type": "INDEX",
+      "type_plain": "INDEX",
+      "severity": "low",
+      "division": "D32",
+      "location": "PECKHAM AVE - CHELMSFORD AVE",
+      "ts": "2026-10-16T04:44:02+00:00",
+      "related": [
+        {
+          "id": "tps_cffadff60973",
+          "distance_m": 581,
+          "minutes_apart": 20
+        }
+      ]
+    },
+    {
+      "id": "tps_05ab22785460",
+      "source": "police",
+      "lat": 43.69817164783117,
+      "lng": -79.38647167221784,
+      "type": "THEPR",
+      "type_plain": "Theft (Priority)",
+      "severity": "medium",
+      "division": "D53",
+      "location": "MERTON ST - BALLIOL ST",
+      "ts": "2026-10-16T04:37:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_56e5b0b9c0cd",
+      "source": "police",
+      "lat": 43.68244671517957,
+      "lng": -79.32055513497103,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D55",
+      "location": "HILLINGDON AVE - DRAYTON AVE",
+      "ts": "2026-10-16T04:29:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_356c59e44bf3",
+      "source": "police",
+      "lat": 43.77953670123865,
+      "lng": -79.23296484605089,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D43",
+      "location": "MARKHAM RD - TUXEDO CRT",
+      "ts": "2026-10-16T04:27:00+00:00",
+      "related": [
+        {
+          "id": "tps_a8ffc99e81df",
+          "distance_m": 274,
+          "minutes_apart": 13
+        }
+      ]
+    },
     {
       "id": "tps_3b74182d884c",
       "source": "police",
@@ -30,7 +94,13 @@
       "division": "D32",
       "location": "DEWLANE DR - CARPENTER RD",
       "ts": "2026-10-16T04:23:55+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_e849e66855f8",
+          "distance_m": 581,
+          "minutes_apart": 20
+        }
+      ]
     },
     {
       "id": "tps_9659497ab557",
@@ -114,7 +184,13 @@
       "division": "D43",
       "location": "MORNINGSIDE PARK TRL - EAST HIGHLAND CREEK",
       "ts": "2026-10-16T04:14:17+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_356c59e44bf3",
+          "distance_m": 274,
+          "minutes_apart": 13
+        }
+      ]
     },
     {
       "id": "tps_8dacbb74cbff",
@@ -9902,28 +9978,15 @@
       "location": "DENGATE RD - VICTORIA PARK AVE",
       "ts": "2026-10-15T04:52:21+00:00",
       "related": []
-    },
-    {
-      "id": "tps_2304eae20a65",
-      "source": "police",
-      "lat": 43.6624291015328,
-      "lng": -79.35868536454589,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "RIVER ST - ",
-      "ts": "2026-10-15T04:41:45+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D52",
-      "current_count": 10,
+      "current_count": 9,
       "baseline_avg": 2.0,
-      "ratio": 5.0,
+      "ratio": 4.5,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
@@ -9953,47 +10016,47 @@
     {
       "source": "police",
       "division": "D42",
-      "current_count": 4,
+      "current_count": 3,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
+      "ratio": 3.0,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_726ef4afbe3d",
         "tps_1e6d5c8252d1",
-        "tps_8c664abc39ec",
-        "tps_f3501dd708fe"
+        "tps_8c664abc39ec"
       ]
     },
     {
       "source": "police",
       "division": "D43",
-      "current_count": 6,
-      "baseline_avg": 1.6,
-      "ratio": 3.8,
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 2.9,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_356c59e44bf3",
         "tps_a8ffc99e81df",
         "tps_0a2c4b21a253",
         "tps_34b950ea3617",
-        "tps_9077e639bd55",
-        "tps_3cc759ad0510"
+        "tps_9077e639bd55"
       ]
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 4,
+      "division": "D55",
+      "current_count": 6,
+      "baseline_avg": 2.1,
+      "ratio": 2.8,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_672c7d07e478",
-        "tps_10cdabc5ec31",
-        "tps_86b9ab1bf43f",
-        "tps_da2e0b3ee6e2"
+        "tps_56e5b0b9c0cd",
+        "tps_685736c721d6",
+        "tps_1e7747f68fcd",
+        "tps_ac868041e728",
+        "tps_37b7f86dd917"
       ]
     },
     {
@@ -10012,18 +10075,16 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 9,
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.4,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_685736c721d6",
-        "tps_1e7747f68fcd",
-        "tps_ac868041e728",
-        "tps_37b7f86dd917",
-        "tps_d2a8e980c5b1"
+        "tps_672c7d07e478",
+        "tps_10cdabc5ec31",
+        "tps_86b9ab1bf43f"
       ]
     },
     {
@@ -10052,6 +10113,21 @@
         "tps_e8f8b6791b10",
         "tps_12650b4ac4a8",
         "tps_f0a13f3d9924"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 4,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e849e66855f8",
+        "tps_cffadff60973",
+        "tps_57083607f308",
+        "tps_b843e39916c1"
       ]
     }
   ]
