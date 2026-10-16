@@ -1,11 +1,45 @@
 {
-  "generated": "2026-10-16T02:06:20.501180+00:00",
+  "generated": "2026-10-16T02:21:21.930528+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164657",
+      "source": "fire",
+      "lat": 43.6108399,
+      "lng": -79.4900711,
+      "type": "Fire - Grass/Rubbish",
+      "type_plain": "Fire - Grass/Rubbish",
+      "severity": "medium",
+      "division": "435",
+      "location": "Etobicoke - NORRIS CRES & LAKE SHORE BLVD W",
+      "approximate": false,
+      "units": "P435",
+      "ts": "2026-10-16T02:02:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_86b9ab1bf43f",
+      "source": "police",
+      "lat": 43.77588191564331,
+      "lng": -79.34374645651901,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D33",
+      "location": "DON MILLS RD - PARKWAY FOREST DR",
+      "ts": "2026-10-16T02:01:50+00:00",
+      "related": [
+        {
+          "id": "tps_da2e0b3ee6e2",
+          "distance_m": 0,
+          "minutes_apart": 19
+        }
+      ]
+    },
     {
       "id": "tfs_F26164655",
       "source": "fire",
@@ -37,6 +71,68 @@
       "related": []
     },
     {
+      "id": "tps_a9d86a43f0ef",
+      "source": "police",
+      "lat": 43.65894639905455,
+      "lng": -79.39467944086014,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "KING'S COLLEGE RD - HENRY ST",
+      "ts": "2026-10-16T01:50:00+00:00",
+      "related": [
+        {
+          "id": "tps_ec0e3a2c4c19",
+          "distance_m": 553,
+          "minutes_apart": 56
+        },
+        {
+          "id": "tps_0172ef938121",
+          "distance_m": 553,
+          "minutes_apart": 76
+        }
+      ]
+    },
+    {
+      "id": "tps_3cc759ad0510",
+      "source": "police",
+      "lat": 43.77226786713801,
+      "lng": -79.25620904521907,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "BOROUGH DR - BOROUGH DR",
+      "ts": "2026-10-16T01:44:08+00:00",
+      "related": [
+        {
+          "id": "tps_f387bafdaf9c",
+          "distance_m": 383,
+          "minutes_apart": 123
+        }
+      ]
+    },
+    {
+      "id": "tps_da2e0b3ee6e2",
+      "source": "police",
+      "lat": 43.77588191564331,
+      "lng": -79.34374645651901,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D33",
+      "location": "DON MILLS RD - PARKWAY FOREST DR",
+      "ts": "2026-10-16T01:43:10+00:00",
+      "related": [
+        {
+          "id": "tps_86b9ab1bf43f",
+          "distance_m": 0,
+          "minutes_apart": 19
+        }
+      ]
+    },
+    {
       "id": "tps_f3501dd708fe",
       "source": "police",
       "lat": 43.80375553493239,
@@ -47,6 +143,19 @@
       "division": "D42",
       "location": "RAKEWOOD CRES - DANCY AVE",
       "ts": "2026-10-16T01:39:12+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_83a8ef487e9d",
+      "source": "police",
+      "lat": 43.784870968942386,
+      "lng": -79.14373555130892,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "CHARLOTTETOWN BLVD - COCKBURN DR",
+      "ts": "2026-10-16T01:38:21+00:00",
       "related": []
     },
     {
@@ -387,6 +496,11 @@
           "id": "tps_058e843fc3af",
           "distance_m": 434,
           "minutes_apart": 16
+        },
+        {
+          "id": "tps_a9d86a43f0ef",
+          "distance_m": 553,
+          "minutes_apart": 56
         }
       ]
     },
@@ -1085,7 +1199,13 @@
       "division": "D43",
       "location": "MCCOWAN RD - ELLESMERE RD",
       "ts": "2026-10-15T23:41:23+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_3cc759ad0510",
+          "distance_m": 383,
+          "minutes_apart": 123
+        }
+      ]
     },
     {
       "id": "tfs_F26164581",
@@ -8813,13 +8933,7 @@
       "division": "D32",
       "location": "MARLEE AVE - BLOSSOMFIELD DR",
       "ts": "2026-10-15T03:35:36+00:00",
-      "related": [
-        {
-          "id": "tps_6fae17528265",
-          "distance_m": 448,
-          "minutes_apart": 87
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e0ba1079f1b9",
@@ -9052,13 +9166,7 @@
       "division": "D31",
       "location": "SENTINEL RD - DERRYDOWNS PARK TRL",
       "ts": "2026-10-15T03:12:41+00:00",
-      "related": [
-        {
-          "id": "tps_9b57678b6304",
-          "distance_m": 458,
-          "minutes_apart": 59
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e744c00e85fe",
@@ -9469,88 +9577,25 @@
           "minutes_apart": 20
         }
       ]
-    },
-    {
-      "id": "tps_d25993b5d9e9",
-      "source": "police",
-      "lat": 43.65130669404502,
-      "lng": -79.41090322999824,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": "DUNDAS ST W - MANNING AVE",
-      "ts": "2026-10-15T02:17:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3f157b86e3e9",
-      "source": "police",
-      "lat": 43.72967196243134,
-      "lng": -79.4292896024309,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "FALKIRK ST - DINAN ST",
-      "ts": "2026-10-15T02:17:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9b57678b6304",
-      "source": "police",
-      "lat": 43.75188328212797,
-      "lng": -79.50368262654496,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D31",
-      "location": "OLLERTON RD - OLLERTON RD",
-      "ts": "2026-10-15T02:14:09+00:00",
-      "related": [
-        {
-          "id": "tps_42916a8f4877",
-          "distance_m": 458,
-          "minutes_apart": 59
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26164020",
-      "source": "fire",
-      "lat": 43.7273829,
-      "lng": -79.2657158,
-      "type": "Rescue - Elevator",
-      "type_plain": "Rescue - Elevator",
-      "severity": "medium",
-      "division": "221",
-      "location": "Scarborough - KENNEDY RD & MERRIAN RD",
-      "approximate": false,
-      "units": "P221, P225",
-      "ts": "2026-10-15T02:10:10+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6fae17528265",
-      "source": "police",
-      "lat": 43.71482725746414,
-      "lng": -79.44284045175752,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D32",
-      "location": "WILLIAM R ALLEN RD N - LAWRENCE AVE W",
-      "ts": "2026-10-15T02:08:30+00:00",
-      "related": [
-        {
-          "id": "tps_97789af5dc53",
-          "distance_m": 448,
-          "minutes_apart": 87
-        }
-      ]
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 7,
+      "baseline_avg": 1.5,
+      "ratio": 4.5,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_3cc759ad0510",
+        "tps_83a8ef487e9d",
+        "tps_0936870773c3",
+        "tps_fcc3be49c558",
+        "tps_a46568c83595"
+      ]
+    },
     {
       "source": "police",
       "division": "D11",
@@ -9576,43 +9621,11 @@
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_a9d86a43f0ef",
         "tps_9984094717b0",
         "tps_058e843fc3af",
         "tps_0172ef938121",
-        "tps_20e4693e9cdb",
-        "tps_8fdb0dcc7665"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 7,
-      "baseline_avg": 2.1,
-      "ratio": 3.3,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9c5732c61675",
-        "tps_eccd22ffe740",
-        "tps_696fca768e14",
-        "tps_6a201aaa928b",
-        "tps_b75882b2736e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.2,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0936870773c3",
-        "tps_fcc3be49c558",
-        "tps_a46568c83595",
-        "tps_f387bafdaf9c",
-        "tps_ee20d9cb0a7f"
+        "tps_20e4693e9cdb"
       ]
     },
     {
@@ -9633,10 +9646,42 @@
     },
     {
       "source": "police",
+      "division": "D33",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 3.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_86b9ab1bf43f",
+        "tps_da2e0b3ee6e2",
+        "tps_a23bbea6d9b4",
+        "tps_562158f369cb",
+        "tps_2dd59a2b2c6a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 6,
+      "baseline_avg": 2.1,
+      "ratio": 2.8,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9c5732c61675",
+        "tps_eccd22ffe740",
+        "tps_696fca768e14",
+        "tps_6a201aaa928b",
+        "tps_b75882b2736e"
+      ]
+    },
+    {
+      "source": "police",
       "division": "HP",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 2.6,
-      "ratio": 3.1,
+      "ratio": 2.7,
       "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
@@ -9650,30 +9695,15 @@
     {
       "source": "police",
       "division": "D22",
-      "current_count": 4,
+      "current_count": 3,
       "baseline_avg": 1.4,
-      "ratio": 2.9,
+      "ratio": 2.1,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_151aeab796fd",
         "tps_30ba35541f95",
-        "tps_84b97f37a25a",
-        "tps_a447646461d0"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5111ca88a230",
-        "tps_87907624769a",
-        "tps_796130bf3132"
+        "tps_84b97f37a25a"
       ]
     }
   ]
