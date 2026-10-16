@@ -1,11 +1,47 @@
 {
-  "generated": "2026-10-16T00:36:21.600969+00:00",
+  "generated": "2026-10-16T00:51:22.194601+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164618",
+      "source": "fire",
+      "lat": 43.6564639,
+      "lng": -79.3878214,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "314",
+      "location": "ELM ST & UNIVERSITY AVE",
+      "approximate": false,
+      "units": "P332",
+      "ts": "2026-10-16T00:35:39+00:00",
+      "related": [
+        {
+          "id": "tps_8fdb0dcc7665",
+          "distance_m": 298,
+          "minutes_apart": 38
+        },
+        {
+          "id": "tfs_F26164530",
+          "distance_m": 361,
+          "minutes_apart": 158
+        },
+        {
+          "id": "tps_75e1dc65c7b6",
+          "distance_m": 528,
+          "minutes_apart": 175
+        },
+        {
+          "id": "tps_9951b7c2826e",
+          "distance_m": 556,
+          "minutes_apart": 167
+        }
+      ]
+    },
     {
       "id": "tps_696fca768e14",
       "source": "police",
@@ -128,6 +164,11 @@
       "location": "SIMCOE ST - ST PATRICK ST",
       "ts": "2026-10-15T23:57:47+00:00",
       "related": [
+        {
+          "id": "tfs_F26164618",
+          "distance_m": 298,
+          "minutes_apart": 38
+        },
         {
           "id": "tps_3a4a55f52b24",
           "distance_m": 557,
@@ -1357,6 +1398,11 @@
           "minutes_apart": 49
         },
         {
+          "id": "tfs_F26164618",
+          "distance_m": 361,
+          "minutes_apart": 158
+        },
+        {
           "id": "tps_9951b7c2826e",
           "distance_m": 470,
           "minutes_apart": 9
@@ -1365,11 +1411,6 @@
           "id": "tps_d73c5180122a",
           "distance_m": 485,
           "minutes_apart": 131
-        },
-        {
-          "id": "tps_c7266408b61b",
-          "distance_m": 564,
-          "minutes_apart": 88
         }
       ]
     },
@@ -1617,6 +1658,11 @@
           "id": "tps_c8b4024aa578",
           "distance_m": 432,
           "minutes_apart": 70
+        },
+        {
+          "id": "tfs_F26164618",
+          "distance_m": 528,
+          "minutes_apart": 175
         },
         {
           "id": "tps_d73c5180122a",
@@ -8238,11 +8284,6 @@
           "id": "tps_d7447600d2b3",
           "distance_m": 317,
           "minutes_apart": 106
-        },
-        {
-          "id": "tps_3c8467744e87",
-          "distance_m": 386,
-          "minutes_apart": 158
         }
       ]
     },
@@ -8418,13 +8459,7 @@
       "division": "D23",
       "location": "ELMHURST DR - NEWLOVE CRT",
       "ts": "2026-10-15T03:05:51+00:00",
-      "related": [
-        {
-          "id": "tps_413fc2df4cbe",
-          "distance_m": 433,
-          "minutes_apart": 148
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_1d3416828c2c",
@@ -8706,13 +8741,7 @@
       "division": "HP",
       "location": "GARDINER XWY W - SPADINA AVE",
       "ts": "2026-10-15T02:36:50+00:00",
-      "related": [
-        {
-          "id": "tps_f5a988c7267d",
-          "distance_m": 17,
-          "minutes_apart": 111
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_3e72d1fbcf2d",
@@ -9435,13 +9464,7 @@
       "approximate": false,
       "units": "P313",
       "ts": "2026-10-15T01:16:04+00:00",
-      "related": [
-        {
-          "id": "tps_b65aa1a4d53b",
-          "distance_m": 243,
-          "minutes_apart": 30
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_be2e591ea1c6",
@@ -9819,146 +9842,15 @@
       "location": "EGLINTON AVE W - LIVINGSTONE AVE",
       "ts": "2026-10-15T00:51:33+00:00",
       "related": []
-    },
-    {
-      "id": "tps_3c8467744e87",
-      "source": "police",
-      "lat": 43.644013483117135,
-      "lng": -79.39453943566413,
-      "type": "EXPJU",
-      "type_plain": "EXPJU",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN W SPADINA N WELLINGTON - DRAPER ST",
-      "ts": "2026-10-15T00:46:11+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164052",
-          "distance_m": 386,
-          "minutes_apart": 158
-        }
-      ]
-    },
-    {
-      "id": "tps_b65aa1a4d53b",
-      "source": "police",
-      "lat": 43.671285110402756,
-      "lng": -79.37496165688604,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "ST. JAMES TOWN WEST PARK TRL - ST. JAMES TOWN WEST PARK TRL",
-      "ts": "2026-10-15T00:45:52+00:00",
-      "related": [
-        {
-          "id": "tfs_F26163998",
-          "distance_m": 243,
-          "minutes_apart": 30
-        }
-      ]
-    },
-    {
-      "id": "tps_f5a988c7267d",
-      "source": "police",
-      "lat": 43.6384861775899,
-      "lng": -79.39233023588848,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D14",
-      "location": "LAKE SHORE BLVD W - LOWER SPADINA AVE",
-      "ts": "2026-10-15T00:45:42+00:00",
-      "related": [
-        {
-          "id": "tps_e3003ebc0387",
-          "distance_m": 17,
-          "minutes_apart": 111
-        }
-      ]
-    },
-    {
-      "id": "tps_1cdf9fd9174a",
-      "source": "police",
-      "lat": 43.74624328073534,
-      "lng": -79.56861058007279,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D23",
-      "location": "ISLINGTON AVE - FINCH AVE W",
-      "ts": "2026-10-15T00:44:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_59408678c6c9",
-      "source": "police",
-      "lat": 43.713879330627194,
-      "lng": -79.37757647704655,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "BAYVIEW AVE - BROADWAY AVE",
-      "ts": "2026-10-15T00:43:53+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fe56e885956f",
-      "source": "police",
-      "lat": 43.63060930431278,
-      "lng": -79.483074912105,
-      "type": "THEPR",
-      "type_plain": "Theft (Priority)",
-      "severity": "medium",
-      "division": "D22",
-      "location": "HEPC - HIGH ST",
-      "ts": "2026-10-15T00:38:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_413fc2df4cbe",
-      "source": "police",
-      "lat": 43.72284552232614,
-      "lng": -79.55992926698099,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D23",
-      "location": "ELMHURST DR - IRWIN RD",
-      "ts": "2026-10-15T00:37:27+00:00",
-      "related": [
-        {
-          "id": "tps_581ef45f15fd",
-          "distance_m": 433,
-          "minutes_apart": 148
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 11,
-      "baseline_avg": 2.0,
-      "ratio": 5.5,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e1c8fe73eafb",
-        "tps_6a24ab0c7707",
-        "tps_25f2b72fd506",
-        "tps_94f40068543f",
-        "tps_51bb8b5e1a8e"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
-      "current_count": 10,
+      "current_count": 9,
       "baseline_avg": 2.4,
-      "ratio": 4.2,
+      "ratio": 3.8,
       "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
@@ -9971,34 +9863,18 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 6,
-      "baseline_avg": 1.7,
+      "division": "D51",
+      "current_count": 7,
+      "baseline_avg": 2.0,
       "ratio": 3.5,
-      "sample_days": 11,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_9c8d9462466a",
-        "tps_96266accb892",
-        "tps_5b2edf770b33",
-        "tps_5ce8d62f5848",
-        "tps_0fafac92d50c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 5,
-      "baseline_avg": 1.4,
-      "ratio": 3.5,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_796130bf3132",
-        "tps_af0cd8d0a34a",
-        "tps_5a320b3575bd",
-        "tps_38dd93f926c2",
-        "tps_d410cc6e8604"
+        "tps_e1c8fe73eafb",
+        "tps_6a24ab0c7707",
+        "tps_25f2b72fd506",
+        "tps_94f40068543f",
+        "tps_51bb8b5e1a8e"
       ]
     },
     {
@@ -10019,18 +9895,33 @@
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.8,
-      "sample_days": 12,
+      "division": "D42",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 2.9,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
-        "tps_8fdb0dcc7665",
-        "tps_c268605a1c95",
-        "tps_5efc1538b518",
-        "tps_3a4a55f52b24",
-        "tps_3c877558df25"
+        "tps_9c8d9462466a",
+        "tps_96266accb892",
+        "tps_5b2edf770b33",
+        "tps_5ce8d62f5848",
+        "tps_0fafac92d50c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.8,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_796130bf3132",
+        "tps_af0cd8d0a34a",
+        "tps_5a320b3575bd",
+        "tps_38dd93f926c2"
       ]
     },
     {
@@ -10062,6 +9953,22 @@
         "tps_ee20d9cb0a7f",
         "tps_d99ff53a3f02",
         "tps_59a172101c56"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8fdb0dcc7665",
+        "tps_c268605a1c95",
+        "tps_5efc1538b518",
+        "tps_3a4a55f52b24",
+        "tps_3c877558df25"
       ]
     }
   ]
