@@ -1,11 +1,61 @@
 {
-  "generated": "2026-10-16T15:38:48.112861+00:00",
+  "generated": "2026-10-16T15:53:45.357671+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_2f9511e6e366",
+      "source": "police",
+      "lat": 43.670861140642046,
+      "lng": -79.48364681086707,
+      "type": "FRA",
+      "type_plain": "Fraud",
+      "severity": "medium",
+      "division": "D12",
+      "location": "NORVAL ST - RUNNYMEDE RD",
+      "ts": "2026-10-16T15:40:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8ac3f31e9946",
+      "source": "police",
+      "lat": 43.647229986333606,
+      "lng": -79.39000153870295,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D52",
+      "location": "KING ST W - LN N KING W JOHN",
+      "ts": "2026-10-16T15:40:02+00:00",
+      "related": [
+        {
+          "id": "tps_f11f52609078",
+          "distance_m": 294,
+          "minutes_apart": 81
+        },
+        {
+          "id": "tps_082ab03b5018",
+          "distance_m": 581,
+          "minutes_apart": 56
+        }
+      ]
+    },
+    {
+      "id": "tps_71d263385083",
+      "source": "police",
+      "lat": 43.77602017116888,
+      "lng": -79.43648129919357,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D32",
+      "location": "CLARKHILL ST - MELTON GROVE ST",
+      "ts": "2026-10-16T15:35:52+00:00",
+      "related": []
+    },
     {
       "id": "tps_1e85c68d042b",
       "source": "police",
@@ -371,6 +421,11 @@
           "id": "tps_5a603000e213",
           "distance_m": 340,
           "minutes_apart": 36
+        },
+        {
+          "id": "tps_8ac3f31e9946",
+          "distance_m": 581,
+          "minutes_apart": 56
         }
       ]
     },
@@ -605,6 +660,11 @@
           "id": "tps_082ab03b5018",
           "distance_m": 287,
           "minutes_apart": 24
+        },
+        {
+          "id": "tps_8ac3f31e9946",
+          "distance_m": 294,
+          "minutes_apart": 81
         },
         {
           "id": "tps_5a603000e213",
@@ -10741,84 +10801,6 @@
       "location": "WARDEN AVE - BOEM AVE",
       "ts": "2026-10-15T16:01:31+00:00",
       "related": []
-    },
-    {
-      "id": "tps_06a3e4cc348a",
-      "source": "police",
-      "lat": 43.658748150963774,
-      "lng": -79.4692283222066,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D11",
-      "location": "LN N GLENLAKE W QUEBEC - PINE CREST RD",
-      "ts": "2026-10-15T15:53:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8c42fdef1702",
-      "source": "police",
-      "lat": 43.718424762575225,
-      "lng": -79.42956569181044,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "TAC8",
-      "location": "BATHURST ST - FAIRHOLME AVE",
-      "ts": "2026-10-15T15:51:34+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_615c3cbe2a05",
-      "source": "police",
-      "lat": 43.64531098441457,
-      "lng": -79.35246376409961,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "COMMISSIONERS ST - CHERRY ST",
-      "ts": "2026-10-15T15:51:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fb532b7c5ec0",
-      "source": "police",
-      "lat": 43.79666332613236,
-      "lng": -79.42638144456221,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D32",
-      "location": "STEELES AVE W - ",
-      "ts": "2026-10-15T15:51:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e9249d367928",
-      "source": "police",
-      "lat": 43.76432500905383,
-      "lng": -79.21644288070415,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D43",
-      "location": "LAWRENCE AVE E - PAR AVE",
-      "ts": "2026-10-15T15:47:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2128fd92c9a0",
-      "source": "police",
-      "lat": 43.66672392285862,
-      "lng": -79.44645392062525,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D11",
-      "location": "DUPONT ST - C P R",
-      "ts": "2026-10-15T15:40:50+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10840,6 +10822,22 @@
     },
     {
       "source": "police",
+      "division": "D32",
+      "current_count": 8,
+      "baseline_avg": 1.9,
+      "ratio": 4.2,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_71d263385083",
+        "tps_9f6c48f89372",
+        "tps_c33819f61d01",
+        "tps_cd7d14c8bc3e",
+        "tps_6c31c9f6471b"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D33",
       "current_count": 4,
       "baseline_avg": 1.0,
@@ -10855,26 +10853,26 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 3.9,
-      "sample_days": 10,
+      "division": "D52",
+      "current_count": 6,
+      "baseline_avg": 1.9,
+      "ratio": 3.1,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
-        "tps_9f6c48f89372",
-        "tps_c33819f61d01",
-        "tps_cd7d14c8bc3e",
-        "tps_6c31c9f6471b",
-        "tps_a84b135e0166"
+        "tps_8ac3f31e9946",
+        "tps_cb656d951db9",
+        "tps_082ab03b5018",
+        "tps_f11f52609078",
+        "tps_cdba4a7b289f"
       ]
     },
     {
       "source": "police",
       "division": "D22",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.6,
-      "ratio": 3.8,
+      "ratio": 3.1,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
@@ -10888,9 +10886,9 @@
     {
       "source": "police",
       "division": "D53",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.7,
-      "ratio": 3.6,
+      "ratio": 3.0,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
@@ -10904,9 +10902,9 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 2.1,
-      "ratio": 2.9,
+      "ratio": 2.4,
       "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
@@ -10915,54 +10913,6 @@
         "tps_4fa0a18e4050",
         "tps_73b1ecebc2a6",
         "tps_fbed916722c2"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 5,
-      "baseline_avg": 1.8,
-      "ratio": 2.7,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_cb656d951db9",
-        "tps_082ab03b5018",
-        "tps_f11f52609078",
-        "tps_cdba4a7b289f",
-        "tps_88fdd833be70"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 5,
-      "baseline_avg": 1.9,
-      "ratio": 2.6,
-      "sample_days": 14,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5a603000e213",
-        "tps_45ee4bda448f",
-        "tps_f86e505784f8",
-        "tps_70433ef27158",
-        "tps_a98eccc25c59"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 5,
-      "baseline_avg": 1.9,
-      "ratio": 2.6,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5e4d6ce5bb6c",
-        "tps_875a777a18c0",
-        "tps_f6894ae97333",
-        "tps_5bf847be69a6",
-        "tps_deb77d43f13c"
       ]
     },
     {
@@ -10992,6 +10942,21 @@
         "tps_0e7853d2c6c9",
         "tps_72ed9c665fe6",
         "tps_436edc8ef112"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5e4d6ce5bb6c",
+        "tps_875a777a18c0",
+        "tps_f6894ae97333",
+        "tps_5bf847be69a6"
       ]
     }
   ]
