@@ -1,11 +1,37 @@
 {
-  "generated": "2026-10-16T07:22:39.884879+00:00",
+  "generated": "2026-10-16T07:37:38.715717+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_9cfa3b646016",
+      "source": "police",
+      "lat": 43.69444142402066,
+      "lng": -79.28187806770521,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D41",
+      "location": "DANFORTH AVE - DENTON AVE",
+      "ts": "2026-10-16T07:14:21+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_81f59658ab52",
+      "source": "police",
+      "lat": 43.65264751494955,
+      "lng": -79.56322007726195,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D22",
+      "location": "KEANE AVE - CAPRI RD",
+      "ts": "2026-10-16T07:11:38+00:00",
+      "related": []
+    },
     {
       "id": "tps_48c5ff14eb12",
       "source": "police",
@@ -14,9 +40,35 @@
       "type": "PIACC",
       "type_plain": "Personal Injury Accident",
       "severity": "low",
-      "division": "D14",
+      "division": "HP",
       "location": "MANCHESTER AVE - LN S HALLAM E OSSINGTON",
-      "ts": "2026-10-16T07:06:15+00:00",
+      "ts": "2026-10-16T07:11:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6feb8f35bdf5",
+      "source": "police",
+      "lat": 43.751512271310396,
+      "lng": -79.43748923196529,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D32",
+      "location": "VERWOOD AVE - REINER RD",
+      "ts": "2026-10-16T07:10:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9b3cb8caac38",
+      "source": "police",
+      "lat": 43.685851699111836,
+      "lng": -79.48174619198697,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "BLACK CREEK DR - EGLINTON AVE W",
+      "ts": "2026-10-16T07:10:49+00:00",
       "related": []
     },
     {
@@ -9737,11 +9789,6 @@
           "id": "tps_b5f72623fe97",
           "distance_m": 0,
           "minutes_apart": 69
-        },
-        {
-          "id": "tps_cb7d5f00ba50",
-          "distance_m": 534,
-          "minutes_apart": 115
         }
       ]
     },
@@ -9756,13 +9803,7 @@
       "division": "D33",
       "location": "CONACHER DR - GOSSAMER AVE",
       "ts": "2026-10-15T09:14:03+00:00",
-      "related": [
-        {
-          "id": "tps_4f1d8c963ba3",
-          "distance_m": 0,
-          "minutes_apart": 98
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_60da6e38a5a3",
@@ -10081,53 +10122,15 @@
           "minutes_apart": 6
         }
       ]
-    },
-    {
-      "id": "tps_4f1d8c963ba3",
-      "source": "police",
-      "lat": 43.801850013964604,
-      "lng": -79.39949664190625,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D32",
-      "location": "CONACHER DR - GOSSAMER AVE",
-      "ts": "2026-10-15T07:36:17+00:00",
-      "related": [
-        {
-          "id": "tps_edc858741825",
-          "distance_m": 0,
-          "minutes_apart": 98
-        }
-      ]
-    },
-    {
-      "id": "tps_cb7d5f00ba50",
-      "source": "police",
-      "lat": 43.66583620493993,
-      "lng": -79.38494124740716,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D51",
-      "location": "DUNDONALD ST - YONGE ST",
-      "ts": "2026-10-15T07:23:08+00:00",
-      "related": [
-        {
-          "id": "tps_4201393c23e9",
-          "distance_m": 534,
-          "minutes_apart": 115
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.2,
-      "ratio": 4.9,
+      "ratio": 4.1,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
@@ -10140,17 +10143,46 @@
     },
     {
       "source": "police",
-      "division": "D53",
+      "division": "D41",
       "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9cfa3b646016",
+        "tps_48041f9f84aa",
+        "tps_a7c76d0ed893",
+        "tps_f1608be4fe75"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 3,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
+      "ratio": 3.0,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_b93304ed53e8",
         "tps_9cd336aaee0a",
-        "tps_566527307242",
-        "tps_05ab22785460"
+        "tps_566527307242"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_48c5ff14eb12",
+        "tps_9b3cb8caac38",
+        "tps_aebe92357660",
+        "tps_b76b003116d1"
       ]
     },
     {
@@ -10169,30 +10201,16 @@
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "D22",
       "current_count": 3,
       "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 4,
+      "ratio": 2.5,
+      "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
-        "tps_bd3dfd8db804",
-        "tps_ae095771a0a3",
-        "tps_356c59e44bf3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 3,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_48041f9f84aa",
-        "tps_a7c76d0ed893",
-        "tps_f1608be4fe75"
+        "tps_81f59658ab52",
+        "tps_fc39c0057f97",
+        "tps_fd54f24297c2"
       ]
     }
   ]
