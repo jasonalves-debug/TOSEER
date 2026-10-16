@@ -1,11 +1,75 @@
 {
-  "generated": "2026-10-16T10:07:40.036340+00:00",
+  "generated": "2026-10-16T10:22:37.400004+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_52d25ac6c493",
+      "source": "police",
+      "lat": 43.75745809870219,
+      "lng": -79.54374571331418,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D31",
+      "location": "C P R - FENMAR DR",
+      "ts": "2026-10-16T10:13:12+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164808",
+          "distance_m": 478,
+          "minutes_apart": 59
+        }
+      ]
+    },
+    {
+      "id": "tps_998b28ef12b9",
+      "source": "police",
+      "lat": 43.68575199281839,
+      "lng": -79.3440616151467,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D55",
+      "location": "KINGS PARK BLVD - WOODYCREST AVE",
+      "ts": "2026-10-16T10:01:11+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_67554c532c23",
+      "source": "police",
+      "lat": 43.8372369342981,
+      "lng": -79.24847747822174,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "MARKHAM RD - STEELES AVE E",
+      "ts": "2026-10-16T09:58:13+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164815",
+          "distance_m": 265,
+          "minutes_apart": 5
+        }
+      ]
+    },
+    {
+      "id": "tps_ee956a273ff3",
+      "source": "police",
+      "lat": 43.66748149675699,
+      "lng": -79.31138382839757,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "LN 2 N QUEEN E KINGSTON - LARK ST",
+      "ts": "2026-10-16T09:56:14+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164815",
       "source": "fire",
@@ -19,7 +83,13 @@
       "approximate": false,
       "units": "P211",
       "ts": "2026-10-16T09:53:38+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_67554c532c23",
+          "distance_m": 265,
+          "minutes_apart": 5
+        }
+      ]
     },
     {
       "id": "tps_068324ade968",
@@ -181,7 +251,13 @@
       "approximate": false,
       "units": "A142, A411, A415, C14, C40, C41, HR114, LA421, MPV341, P141, P142, P146, P411, R341, R413, S143",
       "ts": "2026-10-16T09:13:45+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_52d25ac6c493",
+          "distance_m": 478,
+          "minutes_apart": 59
+        }
+      ]
     },
     {
       "id": "tps_2ace7a36ceb6",
@@ -10242,45 +10318,6 @@
       "location": "YONGE ST - MERTON ST",
       "ts": "2026-10-15T10:24:16+00:00",
       "related": []
-    },
-    {
-      "id": "tps_c6f2316eaf47",
-      "source": "police",
-      "lat": 43.729732850823034,
-      "lng": -79.46385673923095,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "LADY YORK AVE - ANTHONY RD",
-      "ts": "2026-10-15T10:20:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e680cc1ff334",
-      "source": "police",
-      "lat": 43.76210646964705,
-      "lng": -79.25834775751595,
-      "type": "NOIPA",
-      "type_plain": "NOIPA",
-      "severity": "low",
-      "division": "D41",
-      "location": "BRIMLEY RD - TORDALE CRES",
-      "ts": "2026-10-15T10:13:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8995dc4aad97",
-      "source": "police",
-      "lat": 43.64857479289556,
-      "lng": -79.41907222697462,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN W SHAW S HALTON - GIVINS ST",
-      "ts": "2026-10-15T10:10:34+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10302,16 +10339,16 @@
     },
     {
       "source": "police",
-      "division": "D41",
+      "division": "D31",
       "current_count": 3,
-      "baseline_avg": 1.1,
-      "ratio": 2.6,
-      "sample_days": 7,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_dd172044dc6c",
-        "tps_c8c3c5895b79",
-        "tps_9cfa3b646016"
+        "tps_52d25ac6c493",
+        "tps_5cd28fa12953",
+        "tps_a5cb6801de74"
       ]
     },
     {
@@ -10326,21 +10363,6 @@
         "tps_7f0c3dc5f57c",
         "tps_3cd4f2dc878f",
         "tps_4d037976ec8b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f4e22ae9bf72",
-        "tps_f83821ccc9ee",
-        "tps_48c5ff14eb12",
-        "tps_9b3cb8caac38"
       ]
     }
   ]
