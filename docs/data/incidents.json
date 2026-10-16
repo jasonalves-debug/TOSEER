@@ -1,11 +1,63 @@
 {
-  "generated": "2026-10-16T14:23:47.004510+00:00",
+  "generated": "2026-10-16T14:38:51.008231+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_f11f52609078",
+      "source": "police",
+      "lat": 43.64840308750672,
+      "lng": -79.39327793738313,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D52",
+      "location": "RICHMOND ST W - JACK COOPER LANE",
+      "ts": "2026-10-16T14:19:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a84b135e0166",
+      "source": "police",
+      "lat": 43.749418072005206,
+      "lng": -79.45664969801928,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D32",
+      "location": "REINER RD - SHEPPARD AVE W",
+      "ts": "2026-10-16T14:14:16+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_59141bfd1008",
+      "source": "police",
+      "lat": 43.646340411303456,
+      "lng": -79.56001027688133,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D22",
+      "location": "THE EAST MALL - BURNHAMTHORPE RD",
+      "ts": "2026-10-16T14:09:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f6894ae97333",
+      "source": "police",
+      "lat": 43.720642146439545,
+      "lng": -79.51412794306921,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D31",
+      "location": "JANE ST - DALLNER RD",
+      "ts": "2026-10-16T14:08:32+00:00",
+      "related": []
+    },
     {
       "id": "tps_cdba4a7b289f",
       "source": "police",
@@ -10644,6 +10696,37 @@
   "anomalies": [
     {
       "source": "police",
+      "division": "D31",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.3,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f6894ae97333",
+        "tps_5bf847be69a6",
+        "tps_deb77d43f13c",
+        "tps_48c4b0820238"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 5,
+      "baseline_avg": 1.6,
+      "ratio": 3.2,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_59141bfd1008",
+        "tps_25d8559adc2a",
+        "tps_38db1c295444",
+        "tps_681fd87a24af",
+        "tps_5f29d18b98a9"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D41",
       "current_count": 5,
       "baseline_avg": 1.6,
@@ -10660,51 +10743,6 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 7,
-      "baseline_avg": 2.6,
-      "ratio": 2.6,
-      "sample_days": 14,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_87683c4723a7",
-        "tps_4fa0a18e4050",
-        "tps_73b1ecebc2a6",
-        "tps_fbed916722c2",
-        "tps_320cc9ec4302"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_25d8559adc2a",
-        "tps_38db1c295444",
-        "tps_681fd87a24af",
-        "tps_5f29d18b98a9"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5bf847be69a6",
-        "tps_deb77d43f13c",
-        "tps_48c4b0820238"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D53",
       "current_count": 4,
       "baseline_avg": 1.7,
@@ -10716,6 +10754,22 @@
         "tps_3931c54d2410",
         "tps_8af9718ef17f",
         "tps_606c6ecd0a29"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 5,
+      "baseline_avg": 2.2,
+      "ratio": 2.3,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a84b135e0166",
+        "tps_95271eee2293",
+        "tps_05b61b7eb288",
+        "tps_d9950d5e9f3c",
+        "tps_77cf5c6062fe"
       ]
     },
     {
