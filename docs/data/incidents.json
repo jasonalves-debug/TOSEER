@@ -1,11 +1,43 @@
 {
-  "generated": "2026-10-16T06:07:36.335529+00:00",
+  "generated": "2026-10-16T06:22:36.797922+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_89a8bfa76d57",
+      "source": "police",
+      "lat": 43.665398052025864,
+      "lng": -79.46327772520391,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D11",
+      "location": "INDIAN GRV - HEINTZMAN ST",
+      "ts": "2026-10-16T06:02:07+00:00",
+      "related": [
+        {
+          "id": "tps_93ff438a7bde",
+          "distance_m": 509,
+          "minutes_apart": 162
+        }
+      ]
+    },
+    {
+      "id": "tps_ae095771a0a3",
+      "source": "police",
+      "lat": 43.739977383704506,
+      "lng": -79.22792007025794,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D43",
+      "location": "BELLAMY RD S - MASON RD",
+      "ts": "2026-10-16T05:51:40+00:00",
+      "related": []
+    },
     {
       "id": "tps_61863087a49c",
       "source": "police",
@@ -1199,6 +1231,11 @@
           "id": "tps_8d1856bbec18",
           "distance_m": 502,
           "minutes_apart": 60
+        },
+        {
+          "id": "tps_89a8bfa76d57",
+          "distance_m": 509,
+          "minutes_apart": 162
         }
       ]
     },
@@ -9949,71 +9986,6 @@
       "units": "P212, P213",
       "ts": "2026-10-15T06:34:30+00:00",
       "related": []
-    },
-    {
-      "id": "tps_8abb98b6f40a",
-      "source": "police",
-      "lat": 43.63058310950477,
-      "lng": -79.47404131480543,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D11",
-      "location": " - ",
-      "ts": "2026-10-15T06:19:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_19b927af5ee7",
-      "source": "police",
-      "lat": 43.720576349952246,
-      "lng": -79.47279433555339,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D32",
-      "location": "CALEDONIA RD - ",
-      "ts": "2026-10-15T06:16:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7facec323635",
-      "source": "police",
-      "lat": 43.768459804575414,
-      "lng": -79.23773517647605,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D43",
-      "location": "ALBACORE CRES - AMBERJACK BLVD",
-      "ts": "2026-10-15T06:14:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1616e009fdd1",
-      "source": "police",
-      "lat": 43.69197460413465,
-      "lng": -79.35133231686225,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D55",
-      "location": "LIVINGSTONE PARK TRL - HASSARD AVE",
-      "ts": "2026-10-15T06:12:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_17ab6bcd709c",
-      "source": "police",
-      "lat": 43.61935103021635,
-      "lng": -79.51601273074598,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "HP",
-      "location": "GARDINER XWY W - ISLINGTON AVE",
-      "ts": "2026-10-15T06:12:21+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10051,48 +10023,33 @@
     },
     {
       "source": "police",
+      "division": "D43",
+      "current_count": 5,
+      "baseline_avg": 1.3,
+      "ratio": 3.8,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ae095771a0a3",
+        "tps_356c59e44bf3",
+        "tps_a8ffc99e81df",
+        "tps_0a2c4b21a253",
+        "tps_34b950ea3617"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D52",
-      "current_count": 6,
+      "current_count": 4,
       "baseline_avg": 1.6,
-      "ratio": 3.9,
+      "ratio": 2.6,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_8dacbb74cbff",
         "tps_a20585140961",
         "tps_dcc4896d882c",
-        "tps_27bdad2b9b13",
-        "tps_0f57d7410dee"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e849e66855f8",
-        "tps_cffadff60973",
-        "tps_4a22d39524e8",
-        "tps_57083607f308"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.0,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_356c59e44bf3",
-        "tps_a8ffc99e81df",
-        "tps_0a2c4b21a253",
-        "tps_34b950ea3617"
+        "tps_27bdad2b9b13"
       ]
     },
     {
@@ -10113,18 +10070,16 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 5,
-      "baseline_avg": 2.2,
+      "division": "D32",
+      "current_count": 3,
+      "baseline_avg": 1.3,
       "ratio": 2.2,
-      "sample_days": 9,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
-        "tps_aebe92357660",
-        "tps_b76b003116d1",
-        "tps_52abac2ef86b",
-        "tps_93c8eaa4de92",
-        "tps_4addfdb06d4e"
+        "tps_e849e66855f8",
+        "tps_cffadff60973",
+        "tps_4a22d39524e8"
       ]
     },
     {
