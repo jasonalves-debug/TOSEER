@@ -1,11 +1,90 @@
 {
-  "generated": "2026-10-16T06:22:36.797922+00:00",
+  "generated": "2026-10-16T06:37:40.091672+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_48041f9f84aa",
+      "source": "police",
+      "lat": 43.758159566504695,
+      "lng": -79.26324434702715,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D41",
+      "location": "MUNSON CRES - HIGHBROOK DR",
+      "ts": "2026-10-16T06:27:41+00:00",
+      "related": [
+        {
+          "id": "tps_f1608be4fe75",
+          "distance_m": 255,
+          "minutes_apart": 95
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26164762",
+      "source": "fire",
+      "lat": 43.6528828,
+      "lng": -79.3580952,
+      "type": "Check Call - Non Emergency",
+      "type_plain": "Check Call - Non Emergency",
+      "severity": "medium",
+      "division": "333",
+      "location": "FRONT ST E & CHERRY ST",
+      "approximate": false,
+      "units": "P324",
+      "ts": "2026-10-16T06:23:48+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_30fb0c2acfce",
+      "source": "police",
+      "lat": 43.65208579177259,
+      "lng": -79.39866383491702,
+      "type": "ATTBR",
+      "type_plain": "Attempt Break and Enter",
+      "severity": "high",
+      "division": "D14",
+      "location": "WILLISON SQ - ",
+      "ts": "2026-10-16T06:23:34+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164741",
+          "distance_m": 572,
+          "minutes_apart": 62
+        }
+      ]
+    },
+    {
+      "id": "tps_d32bd2daa0ba",
+      "source": "police",
+      "lat": 43.68693829028428,
+      "lng": -79.48941558558496,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D12",
+      "location": "METROLINX / C P R - LN E WESTON S EGLINTON",
+      "ts": "2026-10-16T06:09:16+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a7c76d0ed893",
+      "source": "police",
+      "lat": 43.7110599095656,
+      "lng": -79.24815331112401,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D41",
+      "location": "MIDLAND AVE - KINGSTON RD",
+      "ts": "2026-10-16T06:07:38+00:00",
+      "related": []
+    },
     {
       "id": "tps_89a8bfa76d57",
       "source": "police",
@@ -193,6 +272,11 @@
           "id": "tps_e8f8b6791b10",
           "distance_m": 483,
           "minutes_apart": 122
+        },
+        {
+          "id": "tps_30fb0c2acfce",
+          "distance_m": 572,
+          "minutes_apart": 62
         }
       ]
     },
@@ -343,7 +427,13 @@
       "division": "D41",
       "location": "RUSHLEY DR - MEDWAY CRES",
       "ts": "2026-10-16T04:52:39+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_48041f9f84aa",
+          "distance_m": 255,
+          "minutes_apart": 95
+        }
+      ]
     },
     {
       "id": "tps_6f835fc5b51b",
@@ -9971,21 +10061,6 @@
       "units": "P131, P134",
       "ts": "2026-10-15T06:37:46+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26164116",
-      "source": "fire",
-      "lat": 43.7855768,
-      "lng": -79.1930749,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "212",
-      "location": "Scarborough - MORNINGSIDE AVE & ELLESMERE RD",
-      "approximate": false,
-      "units": "P212, P213",
-      "ts": "2026-10-15T06:34:30+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10008,9 +10083,9 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 7,
+      "current_count": 5,
       "baseline_avg": 1.8,
-      "ratio": 3.9,
+      "ratio": 2.8,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
@@ -10023,49 +10098,30 @@
     },
     {
       "source": "police",
-      "division": "D43",
-      "current_count": 5,
+      "division": "D41",
+      "current_count": 3,
       "baseline_avg": 1.3,
-      "ratio": 3.8,
+      "ratio": 2.2,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_48041f9f84aa",
+        "tps_a7c76d0ed893",
+        "tps_f1608be4fe75"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
         "tps_ae095771a0a3",
         "tps_356c59e44bf3",
-        "tps_a8ffc99e81df",
-        "tps_0a2c4b21a253",
-        "tps_34b950ea3617"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.6,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8dacbb74cbff",
-        "tps_a20585140961",
-        "tps_dcc4896d882c",
-        "tps_27bdad2b9b13"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9cd336aaee0a",
-        "tps_566527307242",
-        "tps_05ab22785460",
-        "tps_f3b5e18c6b2c",
-        "tps_44da54af30c8"
+        "tps_a8ffc99e81df"
       ]
     },
     {
@@ -10080,6 +10136,21 @@
         "tps_e849e66855f8",
         "tps_cffadff60973",
         "tps_4a22d39524e8"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9cd336aaee0a",
+        "tps_566527307242",
+        "tps_05ab22785460",
+        "tps_f3b5e18c6b2c"
       ]
     },
     {
