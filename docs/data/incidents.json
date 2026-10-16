@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-16T12:23:46.069903+00:00",
+  "generated": "2026-10-16T12:38:45.897507+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164841",
+      "source": "fire",
+      "lat": 43.6713976,
+      "lng": -79.5711812,
+      "type": "Wires Down - Hydro",
+      "type_plain": "Wires Down - Hydro",
+      "severity": "medium",
+      "division": "445",
+      "location": "EGLINTON AVE W & THE EAST MALL",
+      "approximate": false,
+      "units": "P445",
+      "ts": "2026-10-16T12:28:42+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164831",
       "source": "fire",
@@ -19,6 +34,32 @@
       "approximate": false,
       "units": "A415, P415",
       "ts": "2026-10-16T11:54:34+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_73d0a2e48819",
+      "source": "police",
+      "lat": 43.71943975205952,
+      "lng": -79.33198682919883,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D55",
+      "location": "DON MILLS RD - DEAUVILLE LANE",
+      "ts": "2026-10-16T11:54:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5f29d18b98a9",
+      "source": "police",
+      "lat": 43.62025348421728,
+      "lng": -79.50373292566027,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D22",
+      "location": "CARNARVON AVE - ALAN AVE",
+      "ts": "2026-10-16T11:53:47+00:00",
       "related": []
     },
     {
@@ -10268,103 +10309,23 @@
       "location": "WINDERMERE AVE - COE HILL DR",
       "ts": "2026-10-15T12:48:40+00:00",
       "related": []
-    },
-    {
-      "id": "tps_f7d78872bfd3",
-      "source": "police",
-      "lat": 43.680749235632604,
-      "lng": -79.38234346424156,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "ROXBOROUGH DR - MOUNT PLEASANT RD",
-      "ts": "2026-10-15T12:38:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164193",
-      "source": "fire",
-      "lat": 43.6926455,
-      "lng": -79.2887765,
-      "type": "Fire - Residential",
-      "type_plain": "Fire - Residential",
-      "severity": "medium",
-      "division": "225",
-      "location": "Scarborough - DENTON AVE & VICTORIA PARK AVE",
-      "approximate": false,
-      "units": "C22, C23, L226, LA231, P224, P225, P226, S313",
-      "ts": "2026-10-15T12:33:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f75e527817d7",
-      "source": "police",
-      "lat": 43.74130248382706,
-      "lng": -79.41523648810762,
-      "type": "ASSPR",
-      "type_plain": "Assault (Priority / In Progress)",
-      "severity": "high",
-      "division": "D32",
-      "location": "WILSON AVE - YONGE BLVD",
-      "ts": "2026-10-15T12:28:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3072fc0e8e7e",
-      "source": "police",
-      "lat": 43.643234487513844,
-      "lng": -79.42359602546665,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D14",
-      "location": "DOVERCOURT RD - LISGAR ST",
-      "ts": "2026-10-15T12:28:39+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_220f308fd77e",
-      "source": "police",
-      "lat": 43.752950001257084,
-      "lng": -79.35995853088932,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D33",
-      "location": "YORK MILLS RD - LESLIE ST",
-      "ts": "2026-10-15T12:26:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cb3a29dee5fc",
-      "source": "police",
-      "lat": 43.69467467610093,
-      "lng": -79.48624827337376,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D12",
-      "location": "BLACK CREEK DR - TODD BAYLIS BLVD",
-      "ts": "2026-10-15T12:25:28+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D55",
-      "current_count": 5,
+      "current_count": 6,
       "baseline_avg": 1.2,
-      "ratio": 4.0,
+      "ratio": 4.8,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
+        "tps_73d0a2e48819",
         "tps_ab9889a00de3",
         "tps_419785bac2f9",
         "tps_3de0723f923d",
-        "tps_998b28ef12b9",
-        "tps_ee956a273ff3"
+        "tps_998b28ef12b9"
       ]
     },
     {
