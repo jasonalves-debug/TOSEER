@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-16T15:53:45.357671+00:00",
+  "generated": "2026-10-16T16:08:50.092561+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164939",
+      "source": "fire",
+      "lat": 43.6962252,
+      "lng": -79.2944902,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "226",
+      "location": "East York - MASSEY SQ & CRESCENT TOWN RD",
+      "approximate": false,
+      "units": "L226, P226",
+      "ts": "2026-10-16T15:55:26+00:00",
+      "related": []
+    },
     {
       "id": "tps_2f9511e6e366",
       "source": "police",
@@ -9391,13 +9406,7 @@
       "division": "D13",
       "location": "ST CLAIR AVE W - DUFFERIN ST",
       "ts": "2026-10-15T18:57:28+00:00",
-      "related": [
-        {
-          "id": "tps_350a1d54f267",
-          "distance_m": 0,
-          "minutes_apart": 172
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_e4c4cbbc5630",
@@ -10508,13 +10517,7 @@
       "division": "D51",
       "location": "GERRARD ST E - GERRARD ST E",
       "ts": "2026-10-15T16:32:33+00:00",
-      "related": [
-        {
-          "id": "tps_35f16403a1cc",
-          "distance_m": 226,
-          "minutes_apart": 30
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_196f89acf991",
@@ -10711,96 +10714,6 @@
       "location": "FINCH CORRIDOR TRL - MCNICOLL AVE",
       "ts": "2026-10-15T16:10:50+00:00",
       "related": []
-    },
-    {
-      "id": "tps_350a1d54f267",
-      "source": "police",
-      "lat": 43.67802091468211,
-      "lng": -79.4430868175514,
-      "type": "HOLAL",
-      "type_plain": "HOLAL",
-      "severity": "low",
-      "division": "D13",
-      "location": "WESTMOUNT AVE - DUFFERIN ST",
-      "ts": "2026-10-15T16:05:06+00:00",
-      "related": [
-        {
-          "id": "tps_5f5065e774ee",
-          "distance_m": 0,
-          "minutes_apart": 172
-        }
-      ]
-    },
-    {
-      "id": "tps_7710c8dec5d3",
-      "source": "police",
-      "lat": 43.78706430049283,
-      "lng": -79.41733932969692,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "YONGE ST - CUMMER AVE",
-      "ts": "2026-10-15T16:04:51+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_89f9632fc0bc",
-      "source": "police",
-      "lat": 43.77663626761306,
-      "lng": -79.25424114074588,
-      "type": "DAMJU",
-      "type_plain": "DAMJU",
-      "severity": "low",
-      "division": "D43",
-      "location": "PROGRESS AVE - TRITON RD",
-      "ts": "2026-10-15T16:03:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_35f16403a1cc",
-      "source": "police",
-      "lat": 43.661047800151536,
-      "lng": -79.36500175874838,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D51",
-      "location": "PARLIAMENT ST - REGENT ST",
-      "ts": "2026-10-15T16:02:29+00:00",
-      "related": [
-        {
-          "id": "tps_ea80729880ba",
-          "distance_m": 226,
-          "minutes_apart": 30
-        }
-      ]
-    },
-    {
-      "id": "tps_78ec8c4d1d24",
-      "source": "police",
-      "lat": 43.70059626494025,
-      "lng": -79.51774105209435,
-      "type": "DAMJU",
-      "type_plain": "DAMJU",
-      "severity": "low",
-      "division": "D12",
-      "location": "LAWRENCE AVE W - JOHN ST",
-      "ts": "2026-10-15T16:01:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f4eaa5c0c7ec",
-      "source": "police",
-      "lat": 43.74824474129277,
-      "lng": -79.29591999581397,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "WARDEN AVE - BOEM AVE",
-      "ts": "2026-10-15T16:01:31+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10808,9 +10721,9 @@
       "source": "police",
       "division": "D41",
       "current_count": 7,
-      "baseline_avg": 1.6,
-      "ratio": 4.5,
-      "sample_days": 9,
+      "baseline_avg": 1.1,
+      "ratio": 6.2,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_c8cc493916cf",
@@ -10822,42 +10735,11 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 8,
-      "baseline_avg": 1.9,
-      "ratio": 4.2,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_71d263385083",
-        "tps_9f6c48f89372",
-        "tps_c33819f61d01",
-        "tps_cd7d14c8bc3e",
-        "tps_6c31c9f6471b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a47a02d876f3",
-        "tps_6277da42f40c",
-        "tps_37f13bcddffe",
-        "tps_3bfafd908696"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D52",
       "current_count": 6,
-      "baseline_avg": 1.9,
-      "ratio": 3.1,
-      "sample_days": 13,
+      "baseline_avg": 1.6,
+      "ratio": 3.7,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_8ac3f31e9946",
@@ -10865,22 +10747,6 @@
         "tps_082ab03b5018",
         "tps_f11f52609078",
         "tps_cdba4a7b289f"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.1,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b3478630e3fb",
-        "tps_96385089d732",
-        "tps_59141bfd1008",
-        "tps_25d8559adc2a",
-        "tps_38db1c295444"
       ]
     },
     {
@@ -10901,33 +10767,47 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.1,
-      "ratio": 2.4,
-      "sample_days": 11,
+      "division": "D33",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_dc897c5fcd97",
-        "tps_87683c4723a7",
-        "tps_4fa0a18e4050",
-        "tps_73b1ecebc2a6",
-        "tps_fbed916722c2"
+        "tps_a47a02d876f3",
+        "tps_6277da42f40c",
+        "tps_37f13bcddffe",
+        "tps_3bfafd908696"
       ]
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 1.9,
-      "ratio": 2.1,
-      "sample_days": 11,
+      "division": "D32",
+      "current_count": 8,
+      "baseline_avg": 2.9,
+      "ratio": 2.8,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_f54a45b092fb",
-        "tps_1f4f25fdc06b",
-        "tps_c82f2d24d8d6",
-        "tps_599c817bbe59"
+        "tps_71d263385083",
+        "tps_9f6c48f89372",
+        "tps_c33819f61d01",
+        "tps_cd7d14c8bc3e",
+        "tps_6c31c9f6471b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5e4d6ce5bb6c",
+        "tps_875a777a18c0",
+        "tps_f6894ae97333"
       ]
     },
     {
@@ -10936,7 +10816,7 @@
       "current_count": 3,
       "baseline_avg": 1.4,
       "ratio": 2.1,
-      "sample_days": 9,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
         "tps_0e7853d2c6c9",
@@ -10946,17 +10826,17 @@
     },
     {
       "source": "police",
-      "division": "D31",
+      "division": "D22",
       "current_count": 4,
       "baseline_avg": 1.9,
       "ratio": 2.1,
-      "sample_days": 11,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_5e4d6ce5bb6c",
-        "tps_875a777a18c0",
-        "tps_f6894ae97333",
-        "tps_5bf847be69a6"
+        "tps_b3478630e3fb",
+        "tps_96385089d732",
+        "tps_59141bfd1008",
+        "tps_25d8559adc2a"
       ]
     }
   ]
