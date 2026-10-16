@@ -1,11 +1,50 @@
 {
-  "generated": "2026-10-16T11:38:45.837500+00:00",
+  "generated": "2026-10-16T11:53:47.238899+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_48c4b0820238",
+      "source": "police",
+      "lat": 43.76223977411964,
+      "lng": -79.50057711333972,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D31",
+      "location": "SENTINEL RD - ",
+      "ts": "2026-10-16T11:39:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e09c000d5aa5",
+      "source": "police",
+      "lat": 43.667124206227896,
+      "lng": -79.37868335162403,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D51",
+      "location": "CHURCH ST - JARVIS ST",
+      "ts": "2026-10-16T11:38:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_88e1e182f92c",
+      "source": "police",
+      "lat": 43.752950001257084,
+      "lng": -79.35995853088932,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "LESLIE ST - YORK MILLS RD",
+      "ts": "2026-10-16T11:32:14+00:00",
+      "related": []
+    },
     {
       "id": "tps_b8b94bad2535",
       "source": "police",
@@ -10414,36 +10453,39 @@
       "location": "C N R - STEINWAY BLVD",
       "ts": "2026-10-15T11:55:06+00:00",
       "related": []
-    },
-    {
-      "id": "tps_633d4fcc124a",
-      "source": "police",
-      "lat": 43.67320424441098,
-      "lng": -79.34769948995724,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D55",
-      "location": "ALBEMARLE AVE - GRANDVIEW AVE",
-      "ts": "2026-10-15T11:48:22+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D31",
+      "current_count": 5,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_48c4b0820238",
+        "tps_4a8fd5b1b2c6",
+        "tps_52d25ac6c493",
+        "tps_5cd28fa12953",
+        "tps_a5cb6801de74"
+      ]
+    },
+    {
+      "source": "police",
       "division": "HP",
       "current_count": 6,
-      "baseline_avg": 1.9,
-      "ratio": 3.1,
+      "baseline_avg": 2.0,
+      "ratio": 3.0,
       "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
+        "tps_88e1e182f92c",
         "tps_0b983a52a559",
         "tps_37bff84745fa",
         "tps_176ef1610082",
-        "tps_67554c532c23",
-        "tps_f4e22ae9bf72"
+        "tps_67554c532c23"
       ]
     },
     {
@@ -10464,17 +10506,17 @@
     },
     {
       "source": "police",
-      "division": "D31",
+      "division": "D51",
       "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 7,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_4a8fd5b1b2c6",
-        "tps_52d25ac6c493",
-        "tps_5cd28fa12953",
-        "tps_a5cb6801de74"
+        "tps_e09c000d5aa5",
+        "tps_b8b94bad2535",
+        "tps_e85e7e581c94",
+        "tps_ad4ac2b007f3"
       ]
     }
   ]
