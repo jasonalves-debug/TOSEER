@@ -1,11 +1,94 @@
 {
-  "generated": "2026-10-16T08:22:39.009454+00:00",
+  "generated": "2026-10-16T08:37:39.400465+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_ca036afb2838",
+      "source": "police",
+      "lat": 43.649478094406334,
+      "lng": -79.42580642472987,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "DOVERCOURT RD - COOLMINE RD",
+      "ts": "2026-10-16T08:20:09+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_3cd4f2dc878f",
+      "source": "police",
+      "lat": 43.65923739834116,
+      "lng": -79.38517394513003,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D52",
+      "location": "HAYTER ST - COLLEGE ST",
+      "ts": "2026-10-16T08:16:04+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_04e765850397",
+      "source": "police",
+      "lat": 43.70327503247663,
+      "lng": -79.54956303001278,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D23",
+      "location": "ST GEORGES BLVD - LEMSFORD RD",
+      "ts": "2026-10-16T08:15:54+00:00",
+      "related": [
+        {
+          "id": "tps_7a40d2007573",
+          "distance_m": 215,
+          "minutes_apart": 165
+        }
+      ]
+    },
+    {
+      "id": "tps_c824f5679a54",
+      "source": "police",
+      "lat": 43.64696528643929,
+      "lng": -79.40111063296169,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D14",
+      "location": "ADELAIDE ST W - RICHMOND ST W",
+      "ts": "2026-10-16T08:15:10+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164747",
+          "distance_m": 258,
+          "minutes_apart": 155
+        }
+      ]
+    },
+    {
+      "id": "tps_2db862c2acc3",
+      "source": "police",
+      "lat": 43.69729606471763,
+      "lng": -79.44278558784455,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "D13",
+      "location": "EGLINTON AVE W - OAKWOOD AVE",
+      "ts": "2026-10-16T08:10:34+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164790",
+          "distance_m": 79,
+          "minutes_apart": 2
+        }
+      ]
+    },
     {
       "id": "tfs_F26164790",
       "source": "fire",
@@ -19,7 +102,13 @@
       "approximate": false,
       "units": "A341, C34, R341, S331",
       "ts": "2026-10-16T08:08:13+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_2db862c2acc3",
+          "distance_m": 79,
+          "minutes_apart": 2
+        }
+      ]
     },
     {
       "id": "tps_c1615261fcf0",
@@ -522,6 +611,11 @@
       "ts": "2026-10-16T05:39:57+00:00",
       "related": [
         {
+          "id": "tps_c824f5679a54",
+          "distance_m": 258,
+          "minutes_apart": 155
+        },
+        {
           "id": "tps_e8f8b6791b10",
           "distance_m": 585,
           "minutes_apart": 140
@@ -552,7 +646,13 @@
       "division": "D23",
       "location": "MONOGRAM PL - METROLINX",
       "ts": "2026-10-16T05:30:42+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_04e765850397",
+          "distance_m": 215,
+          "minutes_apart": 165
+        }
+      ]
     },
     {
       "id": "tps_bfe2c8383c2d",
@@ -10040,88 +10140,9 @@
       "location": "LESLIE ST - SHEPPARD AVE E",
       "ts": "2026-10-15T08:49:43+00:00",
       "related": []
-    },
-    {
-      "id": "tps_d414bdd28feb",
-      "source": "police",
-      "lat": 43.73243908996178,
-      "lng": -79.22430006140488,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D43",
-      "location": "TOLLGATE MEWS - WHITECAP BLVD",
-      "ts": "2026-10-15T08:36:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_99e4395d45a9",
-      "source": "police",
-      "lat": 43.7797551705342,
-      "lng": -79.25117674189322,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D43",
-      "location": "CONSILIUM PL - EAST HIGHLAND CREEK",
-      "ts": "2026-10-15T08:25:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_508884facb84",
-      "source": "police",
-      "lat": 43.64807688718051,
-      "lng": -79.39965233353684,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "VANAULEY ST - AUGUSTA AVE",
-      "ts": "2026-10-15T08:25:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_515bedaf7349",
-      "source": "police",
-      "lat": 43.78548034731633,
-      "lng": -79.31095267943964,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D42",
-      "location": "WARDENCOURT DR - HUNTINGWOOD DR",
-      "ts": "2026-10-15T08:24:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ac25798d3aa4",
-      "source": "police",
-      "lat": 43.77311576867303,
-      "lng": -79.52634960367676,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D31",
-      "location": "WHEELWRIGHT CRES - PETER KAISER GT",
-      "ts": "2026-10-15T08:22:56+00:00",
-      "related": []
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_48c5ff14eb12",
-        "tps_9b3cb8caac38",
-        "tps_aebe92357660"
-      ]
-    },
     {
       "source": "police",
       "division": "D51",
@@ -10136,6 +10157,20 @@
         "tps_cb4baa7579c8",
         "tps_efc08aebca0e",
         "tps_14d5c8a34aa0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ca036afb2838",
+        "tps_c824f5679a54",
+        "tps_30fb0c2acfce"
       ]
     },
     {
