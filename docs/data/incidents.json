@@ -1,11 +1,113 @@
 {
-  "generated": "2026-10-16T05:06:22.262931+00:00",
+  "generated": "2026-10-16T05:21:20.656385+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_475562874245",
+      "source": "police",
+      "lat": 43.67009331541566,
+      "lng": -79.41317363568719,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D14",
+      "location": "BATHURST ST - WELLS ST",
+      "ts": "2026-10-16T05:08:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9cd336aaee0a",
+      "source": "police",
+      "lat": 43.67030781395319,
+      "lng": -79.40529133977932,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D53",
+      "location": "LOWTHER AVE - KENDAL AVE",
+      "ts": "2026-10-16T05:03:06+00:00",
+      "related": [
+        {
+          "id": "tps_f3b5e18c6b2c",
+          "distance_m": 0,
+          "minutes_apart": 60
+        }
+      ]
+    },
+    {
+      "id": "tps_b76b003116d1",
+      "source": "police",
+      "lat": 43.66191650293259,
+      "lng": -79.35388236894738,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY N - DUNDAS ST E",
+      "ts": "2026-10-16T05:01:46+00:00",
+      "related": [
+        {
+          "id": "tps_f14c1711e70c",
+          "distance_m": 590,
+          "minutes_apart": 3
+        }
+      ]
+    },
+    {
+      "id": "tps_f14c1711e70c",
+      "source": "police",
+      "lat": 43.65681309591681,
+      "lng": -79.35189136804368,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D55",
+      "location": "DON VALLEY PARKWAY N - EASTERN AV E DVP N RAMP",
+      "ts": "2026-10-16T04:58:53+00:00",
+      "related": [
+        {
+          "id": "tps_b76b003116d1",
+          "distance_m": 590,
+          "minutes_apart": 3
+        }
+      ]
+    },
+    {
+      "id": "tps_a3ee12d98dbf",
+      "source": "police",
+      "lat": 43.689501094579924,
+      "lng": -79.35364911130229,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D55",
+      "location": "BROADVIEW AVE - LN W PAPE N TORRENS",
+      "ts": "2026-10-16T04:56:25+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164737",
+          "distance_m": 134,
+          "minutes_apart": 4
+        }
+      ]
+    },
+    {
+      "id": "tps_63a6732d6ca4",
+      "source": "police",
+      "lat": 43.770201217146315,
+      "lng": -79.3398069602143,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D33",
+      "location": "LEPUS STARWAY - ",
+      "ts": "2026-10-16T04:54:09+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164737",
       "source": "fire",
@@ -19,6 +121,51 @@
       "approximate": false,
       "units": "A322, C31, C32, LA325, P224, P321, P323, S313",
       "ts": "2026-10-16T04:52:39+00:00",
+      "related": [
+        {
+          "id": "tps_a3ee12d98dbf",
+          "distance_m": 134,
+          "minutes_apart": 4
+        }
+      ]
+    },
+    {
+      "id": "tps_f1608be4fe75",
+      "source": "police",
+      "lat": 43.756576269085684,
+      "lng": -79.26095604811715,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D41",
+      "location": "RUSHLEY DR - MEDWAY CRES",
+      "ts": "2026-10-16T04:52:39+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6f835fc5b51b",
+      "source": "police",
+      "lat": 43.7780385200584,
+      "lng": -79.33468556196158,
+      "type": "ASSAM",
+      "type_plain": "ASSAM",
+      "severity": "low",
+      "division": "D33",
+      "location": "POETS WALKWAY - POETS WALKWAY",
+      "ts": "2026-10-16T04:51:52+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_566527307242",
+      "source": "police",
+      "lat": 43.69830142894629,
+      "lng": -79.39660845557383,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D53",
+      "location": "YONGE ST - DAVISVILLE AVE",
+      "ts": "2026-10-16T04:47:49+00:00",
       "related": []
     },
     {
@@ -330,7 +477,13 @@
       "division": "D53",
       "location": "LOWTHER AVE - KENDAL AVE",
       "ts": "2026-10-16T04:03:22+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_9cd336aaee0a",
+          "distance_m": 0,
+          "minutes_apart": 60
+        }
+      ]
     },
     {
       "id": "tps_672c7d07e478",
@@ -9288,11 +9441,6 @@
           "minutes_apart": 17
         },
         {
-          "id": "tps_a6a3c179da41",
-          "distance_m": 439,
-          "minutes_apart": 174
-        },
-        {
           "id": "tps_685416463603",
           "distance_m": 592,
           "minutes_apart": 11
@@ -9895,64 +10043,6 @@
       "location": "SHERBOURNE ST - DUNDAS ST E",
       "ts": "2026-10-15T05:21:34+00:00",
       "related": []
-    },
-    {
-      "id": "tps_a6a3c179da41",
-      "source": "police",
-      "lat": 43.644440783567624,
-      "lng": -79.40006913330886,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D14",
-      "location": "PORTLAND ST - WATERLOO TER",
-      "ts": "2026-10-15T05:13:51+00:00",
-      "related": [
-        {
-          "id": "tps_9efff555daa3",
-          "distance_m": 439,
-          "minutes_apart": 174
-        }
-      ]
-    },
-    {
-      "id": "tps_2d71a5e33f32",
-      "source": "police",
-      "lat": 43.71416850438462,
-      "lng": -79.24515321723268,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D41",
-      "location": "MIDLAND AVE - CHINE DR",
-      "ts": "2026-10-15T05:11:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_3c24196a5155",
-      "source": "police",
-      "lat": 43.6748576191005,
-      "lng": -79.40708384066487,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "SPADINA RD - LN W SPADINA S DUPONT",
-      "ts": "2026-10-15T05:11:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d7447600d2b3",
-      "source": "police",
-      "lat": 43.64881078791441,
-      "lng": -79.3889099395405,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D52",
-      "location": "LN S NELSON W SIMCOE - DUNCAN ST",
-      "ts": "2026-10-15T05:10:50+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -9974,34 +10064,18 @@
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 9,
-      "baseline_avg": 1.9,
-      "ratio": 4.8,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8dacbb74cbff",
-        "tps_a20585140961",
-        "tps_dcc4896d882c",
-        "tps_27bdad2b9b13",
-        "tps_0f57d7410dee"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
-      "current_count": 6,
+      "current_count": 8,
       "baseline_avg": 1.5,
-      "ratio": 4.0,
+      "ratio": 5.3,
       "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_f14c1711e70c",
+        "tps_a3ee12d98dbf",
         "tps_56e5b0b9c0cd",
         "tps_685736c721d6",
-        "tps_1e7747f68fcd",
-        "tps_ac868041e728",
-        "tps_37b7f86dd917"
+        "tps_1e7747f68fcd"
       ]
     },
     {
@@ -10022,6 +10096,69 @@
     },
     {
       "source": "police",
+      "division": "D52",
+      "current_count": 7,
+      "baseline_avg": 1.9,
+      "ratio": 3.7,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8dacbb74cbff",
+        "tps_a20585140961",
+        "tps_dcc4896d882c",
+        "tps_27bdad2b9b13",
+        "tps_0f57d7410dee"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b76b003116d1",
+        "tps_52abac2ef86b",
+        "tps_93c8eaa4de92",
+        "tps_4addfdb06d4e",
+        "tps_53f613988e13"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 6,
+      "baseline_avg": 2.0,
+      "ratio": 3.0,
+      "sample_days": 4,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9cd336aaee0a",
+        "tps_566527307242",
+        "tps_05ab22785460",
+        "tps_f3b5e18c6b2c",
+        "tps_44da54af30c8"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_63a6732d6ca4",
+        "tps_6f835fc5b51b",
+        "tps_672c7d07e478",
+        "tps_10cdabc5ec31"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D32",
       "current_count": 4,
       "baseline_avg": 1.6,
@@ -10037,31 +10174,16 @@
     },
     {
       "source": "police",
-      "division": "D11",
+      "division": "D41",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
+      "baseline_avg": 1.3,
+      "ratio": 2.3,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
-        "tps_93ff438a7bde",
-        "tps_66b945f508f1",
-        "tps_8d1856bbec18"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_52abac2ef86b",
-        "tps_93c8eaa4de92",
-        "tps_4addfdb06d4e",
-        "tps_53f613988e13"
+        "tps_f1608be4fe75",
+        "tps_0560f7b67ac7",
+        "tps_b32bb2d66919"
       ]
     }
   ]
