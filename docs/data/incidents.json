@@ -1,11 +1,97 @@
 {
-  "generated": "2026-10-16T05:36:22.204958+00:00",
+  "generated": "2026-10-16T05:51:25.103211+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_61863087a49c",
+      "source": "police",
+      "lat": 43.676192405400144,
+      "lng": -79.31694463238601,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D55",
+      "location": "BEATON AVE - FAIRMOUNT PARK TRL",
+      "ts": "2026-10-16T05:44:22+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fc39c0057f97",
+      "source": "police",
+      "lat": 43.62094188018773,
+      "lng": -79.48275561678737,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D22",
+      "location": "HUMBER BAY PARK RD W - LEGION RD",
+      "ts": "2026-10-16T05:42:07+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26164747",
+      "source": "fire",
+      "lat": 43.645334,
+      "lng": -79.4033821,
+      "type": "Check Call - Non Emergency",
+      "type_plain": "Check Call - Non Emergency",
+      "severity": "medium",
+      "division": "331",
+      "location": "KING ST W & BATHURST ST",
+      "approximate": false,
+      "units": "L331",
+      "ts": "2026-10-16T05:39:57+00:00",
+      "related": [
+        {
+          "id": "tps_e8f8b6791b10",
+          "distance_m": 585,
+          "minutes_apart": 140
+        }
+      ]
+    },
+    {
+      "id": "tps_a64d8e398ab3",
+      "source": "police",
+      "lat": 43.64251678787799,
+      "lng": -79.42710522429698,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D14",
+      "location": "QUEEN ST W - SUDBURY ST",
+      "ts": "2026-10-16T05:33:20+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_7a40d2007573",
+      "source": "police",
+      "lat": 43.705107312255635,
+      "lng": -79.55042602072535,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D23",
+      "location": "MONOGRAM PL - METROLINX",
+      "ts": "2026-10-16T05:30:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_bfe2c8383c2d",
+      "source": "police",
+      "lat": 43.80375553493239,
+      "lng": -79.30106210350309,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D42",
+      "location": "RAKEWOOD CRES - DANCY AVE",
+      "ts": "2026-10-16T05:30:13+00:00",
+      "related": []
+    },
     {
       "id": "tps_aebe92357660",
       "source": "police",
@@ -479,19 +565,6 @@
       ]
     },
     {
-      "id": "tps_4a22d39524e8",
-      "source": "police",
-      "lat": 43.714348256200424,
-      "lng": -79.45239691868379,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D13",
-      "location": "CORONA ST - DUFFERIN ST",
-      "ts": "2026-10-16T04:12:09+00:00",
-      "related": []
-    },
-    {
       "id": "tps_52abac2ef86b",
       "source": "police",
       "lat": 43.66938720932308,
@@ -524,6 +597,19 @@
           "minutes_apart": 74
         }
       ]
+    },
+    {
+      "id": "tps_4a22d39524e8",
+      "source": "police",
+      "lat": 43.714348256200424,
+      "lng": -79.45239691868379,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D32",
+      "location": "CORONA ST - DUFFERIN ST",
+      "ts": "2026-10-16T04:08:03+00:00",
+      "related": []
     },
     {
       "id": "tps_b1652d8e809a",
@@ -1084,6 +1170,11 @@
           "id": "tfs_F26164741",
           "distance_m": 483,
           "minutes_apart": 122
+        },
+        {
+          "id": "tfs_F26164747",
+          "distance_m": 585,
+          "minutes_apart": 140
         },
         {
           "id": "tps_910d6c3e8a7b",
@@ -10014,35 +10105,25 @@
       "location": "ESMOND CRES - ALLENBY AVE",
       "ts": "2026-10-15T05:51:52+00:00",
       "related": []
-    },
-    {
-      "id": "tps_b47cd982eebd",
-      "source": "police",
-      "lat": 43.76112082485148,
-      "lng": -79.30080677563272,
-      "type": "ASSPR",
-      "type_plain": "Assault (Priority / In Progress)",
-      "severity": "high",
-      "division": "D41",
-      "location": "DALECLIFF CRES - WARDEN AVE",
-      "ts": "2026-10-15T05:46:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d65a1fc39cc2",
-      "source": "police",
-      "lat": 43.720642146439545,
-      "lng": -79.51412794306921,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D31",
-      "location": "JANE ST - DALLNER RD",
-      "ts": "2026-10-15T05:38:35+00:00",
-      "related": []
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 8,
+      "baseline_avg": 1.4,
+      "ratio": 5.6,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_61863087a49c",
+        "tps_f14c1711e70c",
+        "tps_a3ee12d98dbf",
+        "tps_56e5b0b9c0cd",
+        "tps_685736c721d6"
+      ]
+    },
     {
       "source": "police",
       "division": "D51",
@@ -10061,38 +10142,6 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 7,
-      "baseline_avg": 1.5,
-      "ratio": 4.7,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_f14c1711e70c",
-        "tps_a3ee12d98dbf",
-        "tps_56e5b0b9c0cd",
-        "tps_685736c721d6",
-        "tps_1e7747f68fcd"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 7,
-      "baseline_avg": 1.9,
-      "ratio": 3.7,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_8dacbb74cbff",
-        "tps_a20585140961",
-        "tps_dcc4896d882c",
-        "tps_27bdad2b9b13",
-        "tps_0f57d7410dee"
-      ]
-    },
-    {
-      "source": "police",
       "division": "HP",
       "current_count": 6,
       "baseline_avg": 1.7,
@@ -10105,6 +10154,22 @@
         "tps_52abac2ef86b",
         "tps_93c8eaa4de92",
         "tps_4addfdb06d4e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 6,
+      "baseline_avg": 1.9,
+      "ratio": 3.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_8dacbb74cbff",
+        "tps_a20585140961",
+        "tps_dcc4896d882c",
+        "tps_27bdad2b9b13",
+        "tps_0f57d7410dee"
       ]
     },
     {
@@ -10140,21 +10205,6 @@
     },
     {
       "source": "police",
-      "division": "D33",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_63a6732d6ca4",
-        "tps_6f835fc5b51b",
-        "tps_672c7d07e478",
-        "tps_10cdabc5ec31"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D32",
       "current_count": 4,
       "baseline_avg": 1.6,
@@ -10164,8 +10214,52 @@
       "example_ids": [
         "tps_e849e66855f8",
         "tps_cffadff60973",
-        "tps_57083607f308",
-        "tps_b843e39916c1"
+        "tps_4a22d39524e8",
+        "tps_57083607f308"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 5,
+      "baseline_avg": 2.3,
+      "ratio": 2.2,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_a64d8e398ab3",
+        "tps_475562874245",
+        "tps_e8f8b6791b10",
+        "tps_12650b4ac4a8",
+        "tps_f0a13f3d9924"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_7a40d2007573",
+        "tps_77998e5f1459",
+        "tps_21a759e98e61"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D33",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_63a6732d6ca4",
+        "tps_6f835fc5b51b",
+        "tps_672c7d07e478"
       ]
     }
   ]
