@@ -1,11 +1,48 @@
 {
-  "generated": "2026-10-16T11:08:46.792662+00:00",
+  "generated": "2026-10-16T11:23:45.565231+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_ea6a24a951ba",
+      "source": "police",
+      "lat": 43.6729882238195,
+      "lng": -79.44098312262145,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D13",
+      "location": "DAVENPORT RD - DUFFERIN ST",
+      "ts": "2026-10-16T11:03:33+00:00",
+      "related": [
+        {
+          "id": "tps_176ef1610082",
+          "distance_m": 0,
+          "minutes_apart": 9
+        },
+        {
+          "id": "tfs_F26164819",
+          "distance_m": 21,
+          "minutes_apart": 18
+        }
+      ]
+    },
+    {
+      "id": "tps_6d5d047007b8",
+      "source": "police",
+      "lat": 43.69067643157503,
+      "lng": -79.27656336873825,
+      "type": "DAMAU",
+      "type_plain": "DAMAU",
+      "severity": "low",
+      "division": "D41",
+      "location": "KINGSTON RD - CLONMORE DR",
+      "ts": "2026-10-16T10:58:57+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164820",
       "source": "fire",
@@ -19,6 +56,69 @@
       "approximate": false,
       "units": "P121, R122",
       "ts": "2026-10-16T10:55:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_176ef1610082",
+      "source": "police",
+      "lat": 43.6729882238195,
+      "lng": -79.44098312262145,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "DAVENPORT RD - DUFFERIN ST",
+      "ts": "2026-10-16T10:55:02+00:00",
+      "related": [
+        {
+          "id": "tps_ea6a24a951ba",
+          "distance_m": 0,
+          "minutes_apart": 9
+        },
+        {
+          "id": "tfs_F26164819",
+          "distance_m": 21,
+          "minutes_apart": 9
+        }
+      ]
+    },
+    {
+      "id": "tps_313a61ffc6d6",
+      "source": "police",
+      "lat": 43.648643687747274,
+      "lng": -79.38027184370603,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D52",
+      "location": "KING ST W - LN S ADELAIDE E BAY",
+      "ts": "2026-10-16T10:55:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ab9889a00de3",
+      "source": "police",
+      "lat": 43.68974302004072,
+      "lng": -79.30856384742461,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D55",
+      "location": "KING EDWARD AVE - BURRELL AVE",
+      "ts": "2026-10-16T10:52:25+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_cc860025cc97",
+      "source": "police",
+      "lat": 43.77015548967409,
+      "lng": -79.41310506996221,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D32",
+      "location": "EMPRESS AVE - KINGSDALE AVE",
+      "ts": "2026-10-16T10:50:57+00:00",
       "related": []
     },
     {
@@ -60,7 +160,18 @@
       "approximate": false,
       "units": "P342",
       "ts": "2026-10-16T10:45:43+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_176ef1610082",
+          "distance_m": 21,
+          "minutes_apart": 9
+        },
+        {
+          "id": "tps_ea6a24a951ba",
+          "distance_m": 21,
+          "minutes_apart": 18
+        }
+      ]
     },
     {
       "id": "tps_e85e7e581c94",
@@ -9818,13 +9929,7 @@
       "division": "D22",
       "location": "SHELDON AVE - LUNNESS RD",
       "ts": "2026-10-15T13:07:21+00:00",
-      "related": [
-        {
-          "id": "tps_4a5780f32e95",
-          "distance_m": 556,
-          "minutes_apart": 111
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_c3e095eb9253",
@@ -10185,54 +10290,25 @@
       "location": "FINCH CORRIDOR TRL - MCNICOLL AVE",
       "ts": "2026-10-15T11:28:37+00:00",
       "related": []
-    },
-    {
-      "id": "tps_4a5780f32e95",
-      "source": "police",
-      "lat": 43.609856902376734,
-      "lng": -79.5410731876729,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": "VALERMO DR - LANOR AVE",
-      "ts": "2026-10-15T11:16:01+00:00",
-      "related": [
-        {
-          "id": "tps_e6542869eb68",
-          "distance_m": 556,
-          "minutes_apart": 111
-        }
-      ]
-    },
-    {
-      "id": "tps_94fd39cf5574",
-      "source": "police",
-      "lat": 43.689436122397865,
-      "lng": -79.30098755237307,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D55",
-      "location": "LN N DANFORTH W MAIN ST - STANLEY G. GRIZZLE PARK TRL",
-      "ts": "2026-10-15T11:14:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_02743d8e0268",
-      "source": "police",
-      "lat": 43.77575411565061,
-      "lng": -79.3436993566754,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D33",
-      "location": "PARKWAY FOREST DR - FAIRVIEW MALL DR",
-      "ts": "2026-10-15T11:14:44+00:00",
-      "related": []
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ab9889a00de3",
+        "tps_419785bac2f9",
+        "tps_3de0723f923d",
+        "tps_998b28ef12b9",
+        "tps_ee956a273ff3"
+      ]
+    },
     {
       "source": "police",
       "division": "D31",
@@ -10250,6 +10326,21 @@
     },
     {
       "source": "police",
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_176ef1610082",
+        "tps_67554c532c23",
+        "tps_f4e22ae9bf72",
+        "tps_f83821ccc9ee"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D51",
       "current_count": 4,
       "baseline_avg": 1.9,
@@ -10261,35 +10352,6 @@
         "tps_ad4ac2b007f3",
         "tps_23f7071b9dc0",
         "tps_9b16895c4b6e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_419785bac2f9",
-        "tps_3de0723f923d",
-        "tps_998b28ef12b9",
-        "tps_ee956a273ff3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_29625ec03e44",
-        "tps_ca036afb2838",
-        "tps_c824f5679a54"
       ]
     }
   ]
