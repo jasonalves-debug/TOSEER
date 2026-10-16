@@ -1,11 +1,84 @@
 {
-  "generated": "2026-10-16T09:07:36.657638+00:00",
+  "generated": "2026-10-16T09:22:37.881556+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164808",
+      "source": "fire",
+      "lat": 43.7531838,
+      "lng": -79.5431404,
+      "type": "Fire - Commercial/Industrial",
+      "type_plain": "Fire - Commercial/Industrial",
+      "severity": "medium",
+      "division": "411",
+      "location": "North York - WESTON RD & TORYORK DR",
+      "approximate": false,
+      "units": "A142, A411, C14, C41, HR114, LA421, P141, P142, P411, R413, S143",
+      "ts": "2026-10-16T09:13:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6bf057adbaab",
+      "source": "police",
+      "lat": 43.65374049284416,
+      "lng": -79.35610396280686,
+      "type": "TRAOB",
+      "type_plain": "TRAOB",
+      "severity": "low",
+      "division": "PK51",
+      "location": "COOPERAGE ST - ROLLING MILLS RD",
+      "ts": "2026-10-16T09:05:19+00:00",
+      "related": [
+        {
+          "id": "tfs_F26164762",
+          "distance_m": 186,
+          "minutes_apart": 162
+        }
+      ]
+    },
+    {
+      "id": "tps_07269a845c48",
+      "source": "police",
+      "lat": 43.730937950131356,
+      "lng": -79.46546784364472,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D32",
+      "location": "ANCASTER RD - GARRATT BLVD",
+      "ts": "2026-10-16T08:55:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_925ce7bdf6d2",
+      "source": "police",
+      "lat": 43.67299181558383,
+      "lng": -79.40213154285294,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D53",
+      "location": "LOWTHER AVE - BERNARD AVE",
+      "ts": "2026-10-16T08:50:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dd172044dc6c",
+      "source": "police",
+      "lat": 43.75636972325097,
+      "lng": -79.31150497297504,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D41",
+      "location": "VICTORIA PARK AVE - POLLARD DR",
+      "ts": "2026-10-16T08:49:31+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26164804",
       "source": "fire",
@@ -640,7 +713,13 @@
       "approximate": false,
       "units": "P324",
       "ts": "2026-10-16T06:23:48+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_6bf057adbaab",
+          "distance_m": 186,
+          "minutes_apart": 162
+        }
+      ]
     },
     {
       "id": "tps_30fb0c2acfce",
@@ -9895,11 +9974,6 @@
           "id": "tps_1efb698cdde7",
           "distance_m": 598,
           "minutes_apart": 170
-        },
-        {
-          "id": "tps_60da6e38a5a3",
-          "distance_m": 600,
-          "minutes_apart": 89
         }
       ]
     },
@@ -9946,13 +10020,7 @@
       "division": "D51",
       "location": "MAITLAND ST - WELLESLEY ST E",
       "ts": "2026-10-15T10:27:24+00:00",
-      "related": [
-        {
-          "id": "tps_4201393c23e9",
-          "distance_m": 0,
-          "minutes_apart": 69
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6a8a3a4f863e",
@@ -10183,83 +10251,6 @@
       "location": "CLOVIS JOHN BROOKS LANE - ROSEMOUNT AVE",
       "ts": "2026-10-15T09:40:48+00:00",
       "related": []
-    },
-    {
-      "id": "tps_d5e204646857",
-      "source": "police",
-      "lat": 43.598194701434075,
-      "lng": -79.51694178896726,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D22",
-      "location": "LAKE SHORE BLVD W - KIPLING AVE",
-      "ts": "2026-10-15T09:19:17+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4201393c23e9",
-      "source": "police",
-      "lat": 43.66628190538561,
-      "lng": -79.3783339514245,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D51",
-      "location": "MAITLAND ST - WELLESLEY ST E",
-      "ts": "2026-10-15T09:18:10+00:00",
-      "related": [
-        {
-          "id": "tps_b5f72623fe97",
-          "distance_m": 0,
-          "minutes_apart": 69
-        }
-      ]
-    },
-    {
-      "id": "tps_edc858741825",
-      "source": "police",
-      "lat": 43.801850013964604,
-      "lng": -79.39949664190625,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D33",
-      "location": "CONACHER DR - GOSSAMER AVE",
-      "ts": "2026-10-15T09:14:03+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_60da6e38a5a3",
-      "source": "police",
-      "lat": 43.67619633749256,
-      "lng": -79.35886348045678,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "DEARBOURNE AVE - DANFORTH AVE",
-      "ts": "2026-10-15T09:08:41+00:00",
-      "related": [
-        {
-          "id": "tps_e8c6cf9528e9",
-          "distance_m": 600,
-          "minutes_apart": 89
-        }
-      ]
-    },
-    {
-      "id": "tps_d4afb7dcafed",
-      "source": "police",
-      "lat": 43.64954468864824,
-      "lng": -79.36324745605559,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "LONGBOAT AVE - SCADDING AVE",
-      "ts": "2026-10-15T09:08:22+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10319,6 +10310,20 @@
         "tps_ca036afb2838",
         "tps_c824f5679a54",
         "tps_30fb0c2acfce"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 3,
+      "baseline_avg": 1.3,
+      "ratio": 2.2,
+      "sample_days": 3,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_925ce7bdf6d2",
+        "tps_0e07d8b83168",
+        "tps_b93304ed53e8"
       ]
     }
   ]
