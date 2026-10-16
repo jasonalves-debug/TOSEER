@@ -1,11 +1,41 @@
 {
-  "generated": "2026-10-16T01:51:19.975233+00:00",
+  "generated": "2026-10-16T02:06:20.501180+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26164655",
+      "source": "fire",
+      "lat": 43.7078508,
+      "lng": -79.5328109,
+      "type": "Water Problem - Level 1",
+      "type_plain": "Water Problem - Level 1",
+      "severity": "medium",
+      "division": "442",
+      "location": "York - WESTON RD & OAK ST",
+      "approximate": false,
+      "units": "P442",
+      "ts": "2026-10-16T01:59:56+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26164653",
+      "source": "fire",
+      "lat": 43.6748837,
+      "lng": -79.3963558,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "312",
+      "location": "Toronto - DAVENPORT RD & AVENUE RD",
+      "approximate": false,
+      "units": "L312, P311",
+      "ts": "2026-10-16T01:52:17+00:00",
+      "related": []
+    },
     {
       "id": "tps_f3501dd708fe",
       "source": "police",
@@ -8843,11 +8873,6 @@
       "ts": "2026-10-15T03:32:04+00:00",
       "related": [
         {
-          "id": "tps_f94f4cea0124",
-          "distance_m": 0,
-          "minutes_apart": 86
-        },
-        {
           "id": "tps_9ddb7b1c6508",
           "distance_m": 313,
           "minutes_apart": 15
@@ -8974,11 +8999,6 @@
           "id": "tps_69a9e6230b9f",
           "distance_m": 313,
           "minutes_apart": 15
-        },
-        {
-          "id": "tps_f94f4cea0124",
-          "distance_m": 313,
-          "minutes_apart": 71
         }
       ]
     },
@@ -9528,111 +9548,16 @@
           "minutes_apart": 87
         }
       ]
-    },
-    {
-      "id": "tps_f94f4cea0124",
-      "source": "police",
-      "lat": 43.64591718502081,
-      "lng": -79.37908774449542,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D52",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-10-15T02:05:50+00:00",
-      "related": [
-        {
-          "id": "tps_69a9e6230b9f",
-          "distance_m": 0,
-          "minutes_apart": 86
-        },
-        {
-          "id": "tps_9ddb7b1c6508",
-          "distance_m": 313,
-          "minutes_apart": 71
-        }
-      ]
-    },
-    {
-      "id": "tps_083d0dfc65a8",
-      "source": "police",
-      "lat": 43.741235257083886,
-      "lng": -79.51365309661826,
-      "type": "FRAPR",
-      "type_plain": "FRAPR",
-      "severity": "low",
-      "division": "D31",
-      "location": "SHEPPARD AVE W - SPENVALLEY DR",
-      "ts": "2026-10-15T01:56:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fbc589aa667d",
-      "source": "police",
-      "lat": 43.70392789069005,
-      "lng": -79.33002823375712,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON MILLS RD N DVP N RAMP - DON VALLEY PARKWAY N",
-      "ts": "2026-10-15T01:54:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e44424c79995",
-      "source": "police",
-      "lat": 43.77251559527955,
-      "lng": -79.41795566062264,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D32",
-      "location": "JOHNSON FARM LANE - CHURCHILL AVE",
-      "ts": "2026-10-15T01:51:28+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 8,
-      "baseline_avg": 2.1,
-      "ratio": 3.8,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9c5732c61675",
-        "tps_eccd22ffe740",
-        "tps_696fca768e14",
-        "tps_6a201aaa928b",
-        "tps_b75882b2736e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 10,
-      "baseline_avg": 2.8,
-      "ratio": 3.6,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ec0e3a2c4c19",
-        "tps_5c2f32199708",
-        "tps_328097c89a18",
-        "tps_920fb069345f",
-        "tps_8912c4a595f9"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D11",
       "current_count": 5,
-      "baseline_avg": 1.5,
-      "ratio": 3.2,
-      "sample_days": 11,
+      "baseline_avg": 1.3,
+      "ratio": 3.9,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
         "tps_fce6108a8c58",
@@ -9646,8 +9571,8 @@
       "source": "police",
       "division": "D52",
       "current_count": 7,
-      "baseline_avg": 2.2,
-      "ratio": 3.2,
+      "baseline_avg": 1.9,
+      "ratio": 3.7,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
@@ -9660,11 +9585,27 @@
     },
     {
       "source": "police",
+      "division": "D55",
+      "current_count": 7,
+      "baseline_avg": 2.1,
+      "ratio": 3.3,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9c5732c61675",
+        "tps_eccd22ffe740",
+        "tps_696fca768e14",
+        "tps_6a201aaa928b",
+        "tps_b75882b2736e"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D43",
       "current_count": 5,
-      "baseline_avg": 1.7,
-      "ratio": 3.0,
-      "sample_days": 9,
+      "baseline_avg": 1.5,
+      "ratio": 3.2,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_0936870773c3",
@@ -9676,26 +9617,11 @@
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 14,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5111ca88a230",
-        "tps_87907624769a",
-        "tps_796130bf3132",
-        "tps_af0cd8d0a34a"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D42",
       "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 8,
+      "baseline_avg": 1.6,
+      "ratio": 3.1,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_f3501dd708fe",
@@ -9707,17 +9633,47 @@
     },
     {
       "source": "police",
+      "division": "HP",
+      "current_count": 8,
+      "baseline_avg": 2.6,
+      "ratio": 3.1,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ec0e3a2c4c19",
+        "tps_5c2f32199708",
+        "tps_328097c89a18",
+        "tps_920fb069345f",
+        "tps_8912c4a595f9"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D22",
       "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 13,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_151aeab796fd",
         "tps_30ba35541f95",
         "tps_84b97f37a25a",
         "tps_a447646461d0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5111ca88a230",
+        "tps_87907624769a",
+        "tps_796130bf3132"
       ]
     }
   ]
