@@ -1,11 +1,54 @@
 {
-  "generated": "2026-10-17T17:26:05.459529+00:00",
+  "generated": "2026-10-17T17:41:05.200139+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165605",
+      "source": "fire",
+      "lat": 43.6882557,
+      "lng": -79.5870799,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "441",
+      "location": "Etobicoke - DIXON RD & ATTWELL DR",
+      "approximate": false,
+      "units": "P444, R441",
+      "ts": "2026-10-17T17:25:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26165604",
+      "source": "fire",
+      "lat": 43.6161708,
+      "lng": -79.4988472,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "433",
+      "location": "Etobicoke - ROYAL YORK RD & JUDSON ST",
+      "approximate": false,
+      "units": "A433, P435",
+      "ts": "2026-10-17T17:23:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f4b9aeb96ede",
+      "source": "police",
+      "lat": 43.72085664643957,
+      "lng": -79.50860954401533,
+      "type": "STA",
+      "type_plain": "STA",
+      "severity": "low",
+      "division": "D31",
+      "location": "JANE ST - DALLNER RD",
+      "ts": "2026-10-17T17:14:58+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165601",
       "source": "fire",
@@ -20,6 +63,75 @@
       "units": "A423, P415",
       "ts": "2026-10-17T17:14:30+00:00",
       "related": []
+    },
+    {
+      "id": "tps_7a9d2b31c65a",
+      "source": "police",
+      "lat": 43.671910411014075,
+      "lng": -79.37905065456997,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "MOUNT PLEASANT BLOOR RAMP - SHERBOURNE ST",
+      "ts": "2026-10-17T17:11:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_e7d8f493f3ac",
+      "source": "police",
+      "lat": 43.649318288421924,
+      "lng": -79.39364443739493,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D52",
+      "location": "PETER ST - SPADINA AVE",
+      "ts": "2026-10-17T17:10:57+00:00",
+      "related": [
+        {
+          "id": "tps_b5cd6a88b82f",
+          "distance_m": 399,
+          "minutes_apart": 98
+        }
+      ]
+    },
+    {
+      "id": "tps_4fbc1acba25a",
+      "source": "police",
+      "lat": 43.63469608117856,
+      "lng": -79.49277580744872,
+      "type": "FOUPR",
+      "type_plain": "Found Property",
+      "severity": "low",
+      "division": "D22",
+      "location": "KEYWELL CRT - KINSDALE BLVD",
+      "ts": "2026-10-17T17:10:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2b5f360c0c6b",
+      "source": "police",
+      "lat": 43.6374559839486,
+      "lng": -79.4347125217612,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D14",
+      "location": "KING ST W - CLOSE AVE",
+      "ts": "2026-10-17T17:06:33+00:00",
+      "related": [
+        {
+          "id": "tps_a5a999719be1",
+          "distance_m": 0,
+          "minutes_apart": 51
+        },
+        {
+          "id": "tps_daee2bc5e457",
+          "distance_m": 491,
+          "minutes_apart": 99
+        }
+      ]
     },
     {
       "id": "tps_263c3023e9da",
@@ -336,6 +448,11 @@
       "location": "KING ST W - CLOSE AVE",
       "ts": "2026-10-17T16:15:46+00:00",
       "related": [
+        {
+          "id": "tps_2b5f360c0c6b",
+          "distance_m": 0,
+          "minutes_apart": 51
+        },
         {
           "id": "tps_daee2bc5e457",
           "distance_m": 491,
@@ -758,6 +875,11 @@
           "minutes_apart": 166
         },
         {
+          "id": "tps_e7d8f493f3ac",
+          "distance_m": 399,
+          "minutes_apart": 98
+        },
+        {
           "id": "tps_4b7ad5f96b8c",
           "distance_m": 466,
           "minutes_apart": 23
@@ -847,6 +969,11 @@
           "id": "tps_a5a999719be1",
           "distance_m": 491,
           "minutes_apart": 48
+        },
+        {
+          "id": "tps_2b5f360c0c6b",
+          "distance_m": 491,
+          "minutes_apart": 99
         }
       ]
     },
@@ -9809,11 +9936,6 @@
           "id": "tps_cc8189fa4e65",
           "distance_m": 418,
           "minutes_apart": 18
-        },
-        {
-          "id": "tps_e650da399780",
-          "distance_m": 461,
-          "minutes_apart": 150
         }
       ]
     },
@@ -10280,11 +10402,6 @@
           "id": "tfs_F26165134",
           "distance_m": 406,
           "minutes_apart": 165
-        },
-        {
-          "id": "tps_8e70b6754f9f",
-          "distance_m": 569,
-          "minutes_apart": 113
         }
       ]
     },
@@ -10370,11 +10487,6 @@
           "id": "tfs_F26165134",
           "distance_m": 411,
           "minutes_apart": 169
-        },
-        {
-          "id": "tps_8e70b6754f9f",
-          "distance_m": 451,
-          "minutes_apart": 109
         }
       ]
     },
@@ -10537,18 +10649,7 @@
       "division": "D51",
       "location": "ADELAIDE ST E - LOMBARD ST",
       "ts": "2026-10-16T18:57:18+00:00",
-      "related": [
-        {
-          "id": "tps_8e70b6754f9f",
-          "distance_m": 360,
-          "minutes_apart": 89
-        },
-        {
-          "id": "tps_e650da399780",
-          "distance_m": 563,
-          "minutes_apart": 86
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_4c52787327bc",
@@ -10807,11 +10908,6 @@
           "minutes_apart": 36
         },
         {
-          "id": "tps_8e70b6754f9f",
-          "distance_m": 378,
-          "minutes_apart": 77
-        },
-        {
           "id": "tps_fb512567e124",
           "distance_m": 380,
           "minutes_apart": 55
@@ -10971,13 +11067,7 @@
       "approximate": false,
       "units": "L426, R346",
       "ts": "2026-10-16T18:27:35+00:00",
-      "related": [
-        {
-          "id": "tps_5a68cf08a829",
-          "distance_m": 160,
-          "minutes_apart": 60
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_0a09190c3618",
@@ -11302,183 +11392,6 @@
       "location": "DORIS AVE - BONNINGTON PL",
       "ts": "2026-10-16T17:41:07+00:00",
       "related": []
-    },
-    {
-      "id": "tps_a2f7002bb8ac",
-      "source": "police",
-      "lat": 43.64591718502081,
-      "lng": -79.37908774449542,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "C P R - FRONT ST W",
-      "ts": "2026-10-16T17:39:49+00:00",
-      "related": [
-        {
-          "id": "tps_335ba19f96bc",
-          "distance_m": 386,
-          "minutes_apart": 4
-        }
-      ]
-    },
-    {
-      "id": "tps_fdd9e2684f16",
-      "source": "police",
-      "lat": 43.72971154921712,
-      "lng": -79.47970904596248,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D31",
-      "location": "TILBURY DR - PAXTONIA BLVD",
-      "ts": "2026-10-16T17:39:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9f60d1a90cb3",
-      "source": "police",
-      "lat": 43.71352863573385,
-      "lng": -79.53409083430556,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D12",
-      "location": "DEE AVE - 401 C E WESTON RD RAMP",
-      "ts": "2026-10-16T17:39:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_335ba19f96bc",
-      "source": "police",
-      "lat": 43.64290718201088,
-      "lng": -79.38146754290888,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "BREMNER BLVD - METROLINX",
-      "ts": "2026-10-16T17:35:50+00:00",
-      "related": [
-        {
-          "id": "tps_a2f7002bb8ac",
-          "distance_m": 386,
-          "minutes_apart": 4
-        }
-      ]
-    },
-    {
-      "id": "tps_e650da399780",
-      "source": "police",
-      "lat": 43.65431899342268,
-      "lng": -79.38316094421884,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D52",
-      "location": "ALBERT ST - HAGERMAN ST",
-      "ts": "2026-10-16T17:30:48+00:00",
-      "related": [
-        {
-          "id": "tps_8e70b6754f9f",
-          "distance_m": 447,
-          "minutes_apart": 3
-        },
-        {
-          "id": "tps_25e3ca487ed8",
-          "distance_m": 461,
-          "minutes_apart": 150
-        },
-        {
-          "id": "tps_363319970b84",
-          "distance_m": 563,
-          "minutes_apart": 86
-        }
-      ]
-    },
-    {
-      "id": "tps_bf26453afb3b",
-      "source": "police",
-      "lat": 43.78216720530893,
-      "lng": -79.36619352024319,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "LESLIE ST - ",
-      "ts": "2026-10-16T17:29:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8e70b6754f9f",
-      "source": "police",
-      "lat": 43.65456039366406,
-      "lng": -79.37761274799806,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D51",
-      "location": "QUEEN ST E - SHUTER ST",
-      "ts": "2026-10-16T17:28:08+00:00",
-      "related": [
-        {
-          "id": "tps_363319970b84",
-          "distance_m": 360,
-          "minutes_apart": 89
-        },
-        {
-          "id": "tfs_F26165023",
-          "distance_m": 378,
-          "minutes_apart": 77
-        },
-        {
-          "id": "tps_e650da399780",
-          "distance_m": 447,
-          "minutes_apart": 3
-        },
-        {
-          "id": "tps_964e0f5a36f1",
-          "distance_m": 451,
-          "minutes_apart": 109
-        },
-        {
-          "id": "tfs_F26165043",
-          "distance_m": 569,
-          "minutes_apart": 113
-        }
-      ]
-    },
-    {
-      "id": "tps_5a68cf08a829",
-      "source": "police",
-      "lat": 43.64057888586853,
-      "lng": -79.42798082400508,
-      "type": "DEMO",
-      "type_plain": "DEMO",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN N KING W DUFFERIN - MELBOURNE AVE",
-      "ts": "2026-10-16T17:27:22+00:00",
-      "related": [
-        {
-          "id": "tfs_F26165018",
-          "distance_m": 160,
-          "minutes_apart": 60
-        }
-      ]
-    },
-    {
-      "id": "tps_0f0899c04eeb",
-      "source": "police",
-      "lat": 43.72284552232614,
-      "lng": -79.55992926698099,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D23",
-      "location": "ELMHURST DR - REDWATER DR",
-      "ts": "2026-10-16T17:27:05+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11516,6 +11429,22 @@
     },
     {
       "source": "police",
+      "division": "D22",
+      "current_count": 7,
+      "baseline_avg": 2.0,
+      "ratio": 3.5,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_4fbc1acba25a",
+        "tps_1176075875bb",
+        "tps_b124e2889d64",
+        "tps_f32e36d8529c",
+        "tps_2b543ce21fbc"
+      ]
+    },
+    {
+      "source": "police",
       "division": "HP",
       "current_count": 11,
       "baseline_avg": 3.2,
@@ -11532,34 +11461,18 @@
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 7,
-      "baseline_avg": 2.1,
-      "ratio": 3.3,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_1176075875bb",
-        "tps_b124e2889d64",
-        "tps_f32e36d8529c",
-        "tps_2b543ce21fbc",
-        "tps_e67edb8a835b"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D14",
       "current_count": 7,
-      "baseline_avg": 2.3,
-      "ratio": 3.0,
-      "sample_days": 12,
+      "baseline_avg": 2.2,
+      "ratio": 3.1,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_2b5f360c0c6b",
         "tps_f7e6c00cc678",
         "tps_bd10459dbc26",
         "tps_4b7ad5f96b8c",
-        "tps_b5cd6a88b82f",
-        "tps_daee2bc5e457"
+        "tps_b5cd6a88b82f"
       ]
     },
     {
@@ -11597,17 +11510,17 @@
     {
       "source": "police",
       "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.4,
-      "ratio": 2.1,
-      "sample_days": 12,
+      "current_count": 6,
+      "baseline_avg": 2.3,
+      "ratio": 2.6,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_7a9d2b31c65a",
         "tps_ece79c503603",
         "tps_232309ee7811",
         "tps_8b8fdaeac11d",
-        "tps_962c04545f26",
-        "tps_6cbd33bf219f"
+        "tps_962c04545f26"
       ]
     }
   ]
