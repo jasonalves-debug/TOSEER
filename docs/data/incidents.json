@@ -1,11 +1,56 @@
 {
-  "generated": "2026-10-17T00:09:46.841547+00:00",
+  "generated": "2026-10-17T00:24:46.284759+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_bc6dd844bfe7",
+      "source": "police",
+      "lat": 43.6702052992441,
+      "lng": -79.31316012933665,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D55",
+      "location": "DUNDAS ST E - MAUGHAN CRES",
+      "ts": "2026-10-17T00:00:46+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d1c77624a7ef",
+      "source": "police",
+      "lat": 43.72571815727201,
+      "lng": -79.29754597066602,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "PHARMACY AVE - EGLINTON AVE E",
+      "ts": "2026-10-16T23:56:24+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165193",
+          "distance_m": 51,
+          "minutes_apart": 7
+        }
+      ]
+    },
+    {
+      "id": "tps_5148ee82b82a",
+      "source": "police",
+      "lat": 43.734869043260765,
+      "lng": -79.30122177414653,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "INNISDALE DR - PHARMACY AVE",
+      "ts": "2026-10-16T23:53:01+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165195",
       "source": "fire",
@@ -40,6 +85,44 @@
       "approximate": false,
       "units": "P233",
       "ts": "2026-10-16T23:49:14+00:00",
+      "related": [
+        {
+          "id": "tps_d1c77624a7ef",
+          "distance_m": 51,
+          "minutes_apart": 7
+        }
+      ]
+    },
+    {
+      "id": "tps_9f6d2a0edb8a",
+      "source": "police",
+      "lat": 43.82070312429705,
+      "lng": -79.2949212085063,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "PASSMORE AVE - MIDLAND AVE",
+      "ts": "2026-10-16T23:47:50+00:00",
+      "related": [
+        {
+          "id": "tps_99e55adb38d0",
+          "distance_m": 0,
+          "minutes_apart": 27
+        }
+      ]
+    },
+    {
+      "id": "tps_c4494ed2b84e",
+      "source": "police",
+      "lat": 43.75959706573552,
+      "lng": -79.46367975332008,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D32",
+      "location": "KENNARD AVE - ",
+      "ts": "2026-10-16T23:46:31+00:00",
       "related": []
     },
     {
@@ -254,7 +337,13 @@
       "division": "D42",
       "location": "PASSMORE AVE - MIDLAND AVE",
       "ts": "2026-10-16T23:20:29+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_9f6d2a0edb8a",
+          "distance_m": 0,
+          "minutes_apart": 27
+        }
+      ]
     },
     {
       "id": "tps_76c64a2372f9",
@@ -9268,11 +9357,6 @@
           "minutes_apart": 157
         },
         {
-          "id": "tps_20e4693e9cdb",
-          "distance_m": 447,
-          "minutes_apart": 174
-        },
-        {
           "id": "tps_0636f69ea12e",
           "distance_m": 527,
           "minutes_apart": 61
@@ -9371,11 +9455,6 @@
           "id": "tps_62ad662ff2fc",
           "distance_m": 395,
           "minutes_apart": 75
-        },
-        {
-          "id": "tps_20e4693e9cdb",
-          "distance_m": 463,
-          "minutes_apart": 163
         }
       ]
     },
@@ -9448,11 +9527,6 @@
           "id": "tps_52abac2ef86b",
           "distance_m": 401,
           "minutes_apart": 74
-        },
-        {
-          "id": "tps_328097c89a18",
-          "distance_m": 401,
-          "minutes_apart": 152
         },
         {
           "id": "tps_6113d269afe0",
@@ -9661,11 +9735,6 @@
           "id": "tps_52abac2ef86b",
           "distance_m": 368,
           "minutes_apart": 102
-        },
-        {
-          "id": "tps_328097c89a18",
-          "distance_m": 368,
-          "minutes_apart": 124
         },
         {
           "id": "tps_6113d269afe0",
@@ -10603,106 +10672,6 @@
       "location": "C P R - RESURRECTION RD",
       "ts": "2026-10-16T00:25:25+00:00",
       "related": []
-    },
-    {
-      "id": "tps_328097c89a18",
-      "source": "police",
-      "lat": 43.66938720932308,
-      "lng": -79.39098694664952,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "BELLAIR ST - AVENUE RD",
-      "ts": "2026-10-16T00:23:44+00:00",
-      "related": [
-        {
-          "id": "tps_b383e48ea3ef",
-          "distance_m": 368,
-          "minutes_apart": 124
-        },
-        {
-          "id": "tps_9cf4adc32185",
-          "distance_m": 401,
-          "minutes_apart": 152
-        }
-      ]
-    },
-    {
-      "id": "tps_920fb069345f",
-      "source": "police",
-      "lat": 43.67683553661272,
-      "lng": -79.56420610024587,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "MARTIN GROVE RD - HEPC",
-      "ts": "2026-10-16T00:21:42+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1bec03382ccd",
-      "source": "police",
-      "lat": 43.68261950453891,
-      "lng": -79.43150702034175,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D13",
-      "location": "ATLAS AVE - ",
-      "ts": "2026-10-16T00:21:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_20e4693e9cdb",
-      "source": "police",
-      "lat": 43.65407279317647,
-      "lng": -79.37995624627325,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D52",
-      "location": "QUEEN ST W - SHUTER ST",
-      "ts": "2026-10-16T00:21:14+00:00",
-      "related": [
-        {
-          "id": "tps_0f57d7410dee",
-          "distance_m": 447,
-          "minutes_apart": 174
-        },
-        {
-          "id": "tps_fe0c4f39b9c8",
-          "distance_m": 463,
-          "minutes_apart": 163
-        }
-      ]
-    },
-    {
-      "id": "tps_696fca768e14",
-      "source": "police",
-      "lat": 43.67953807627558,
-      "lng": -79.3417816084041,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D55",
-      "location": "EATON AVE - WOODYCREST AVE",
-      "ts": "2026-10-16T00:18:31+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1d11fceb7566",
-      "source": "police",
-      "lat": 43.76573395125559,
-      "lng": -79.49151698892845,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D31",
-      "location": "FINCH AVE W - FOUR WINDS DR",
-      "ts": "2026-10-16T00:11:31+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10731,11 +10700,11 @@
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_c4494ed2b84e",
         "tps_e2216214386a",
         "tps_0d7d2f345d12",
         "tps_640b46f39726",
-        "tps_f942e905b04a",
-        "tps_4af462ea8a3a"
+        "tps_f942e905b04a"
       ]
     },
     {
@@ -10756,6 +10725,22 @@
     },
     {
       "source": "police",
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_bc6dd844bfe7",
+        "tps_9d67cafc2402",
+        "tps_2e2ba1a8cd4c",
+        "tps_5ccca5557509",
+        "tps_7dd715d34339"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D31",
       "current_count": 4,
       "baseline_avg": 1.6,
@@ -10771,18 +10756,18 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 2.1,
+      "division": "HP",
+      "current_count": 6,
+      "baseline_avg": 2.5,
       "ratio": 2.4,
-      "sample_days": 9,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
-        "tps_9d67cafc2402",
-        "tps_2e2ba1a8cd4c",
-        "tps_5ccca5557509",
-        "tps_7dd715d34339",
-        "tps_2cc4fbae55a9"
+        "tps_d1c77624a7ef",
+        "tps_5148ee82b82a",
+        "tps_9f6d2a0edb8a",
+        "tps_ba242f31997e",
+        "tps_76c64a2372f9"
       ]
     },
     {
@@ -10798,22 +10783,6 @@
         "tps_6824a893cd31",
         "tps_1b2efdef9f98",
         "tps_2f25e3f28e5a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 2.9,
-      "ratio": 2.1,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4d01c2e10b8e",
-        "tps_d17a640980f3",
-        "tps_24cd44cd742a",
-        "tps_c37efc66cfea",
-        "tps_741b17975a6e"
       ]
     },
     {
