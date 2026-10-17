@@ -1,11 +1,140 @@
 {
-  "generated": "2026-10-17T06:10:07.614343+00:00",
+  "generated": "2026-10-17T06:25:08.299783+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_c3b0bc732e9f",
+      "source": "police",
+      "lat": 43.650667689771275,
+      "lng": -79.36666165400118,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D51",
+      "location": "NICHOLSON LANE - FRONT ST E",
+      "ts": "2026-10-17T06:05:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_2c04d68aef8c",
+      "source": "police",
+      "lat": 43.635660006624356,
+      "lng": -79.51276000600812,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D22",
+      "location": "PLACID RD - CHARTWELL RD",
+      "ts": "2026-10-17T05:56:21+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b998adbef8de",
+      "source": "police",
+      "lat": 43.75870444075902,
+      "lng": -79.28691970309184,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D41",
+      "location": "ELLENDALE DR - BIRCHMOUNT RD",
+      "ts": "2026-10-17T05:53:46+00:00",
+      "related": [
+        {
+          "id": "tps_842981e38564",
+          "distance_m": 0,
+          "minutes_apart": 47
+        }
+      ]
+    },
+    {
+      "id": "tps_589cc2f44c66",
+      "source": "police",
+      "lat": 43.646464986808226,
+      "lng": -79.40371833209247,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "RICHMOND ST W - LN S QUEEN W BATHURST",
+      "ts": "2026-10-17T05:51:35+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165296",
+          "distance_m": 129,
+          "minutes_apart": 137
+        },
+        {
+          "id": "tps_5be8377d484c",
+          "distance_m": 518,
+          "minutes_apart": 0
+        }
+      ]
+    },
+    {
+      "id": "tps_5be8377d484c",
+      "source": "police",
+      "lat": 43.64494468404835,
+      "lng": -79.39763053443214,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D14",
+      "location": "KING ST W - BRANT ST",
+      "ts": "2026-10-17T05:51:32+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165353",
+          "distance_m": 224,
+          "minutes_apart": 43
+        },
+        {
+          "id": "tps_c7c3024f58ef",
+          "distance_m": 267,
+          "minutes_apart": 60
+        },
+        {
+          "id": "tfs_F26165296",
+          "distance_m": 465,
+          "minutes_apart": 137
+        },
+        {
+          "id": "tps_589cc2f44c66",
+          "distance_m": 518,
+          "minutes_apart": 0
+        }
+      ]
+    },
+    {
+      "id": "tps_49a9875a4ebb",
+      "source": "police",
+      "lat": 43.64878780062026,
+      "lng": -79.52872459489137,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D22",
+      "location": "BURNHAMTHORPE RD - DUNDAS ST W",
+      "ts": "2026-10-17T05:50:55+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_84994aba3903",
+      "source": "police",
+      "lat": 43.66683404564524,
+      "lng": -79.45779642448699,
+      "type": "FIR",
+      "type_plain": "Fire / Fire Report",
+      "severity": "low",
+      "division": "D11",
+      "location": "OSLER ST - CARIBOO AVE",
+      "ts": "2026-10-17T05:45:30+00:00",
+      "related": []
+    },
     {
       "id": "tps_7410a600ec6d",
       "source": "police",
@@ -321,6 +450,11 @@
           "id": "tps_c7c3024f58ef",
           "distance_m": 99,
           "minutes_apart": 17
+        },
+        {
+          "id": "tps_5be8377d484c",
+          "distance_m": 224,
+          "minutes_apart": 43
         }
       ]
     },
@@ -348,7 +482,13 @@
       "division": "HP",
       "location": "ELLENDALE DR - BIRCHMOUNT RD",
       "ts": "2026-10-17T05:06:33+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_b998adbef8de",
+          "distance_m": 0,
+          "minutes_apart": 47
+        }
+      ]
     },
     {
       "id": "tps_66bfefef96d6",
@@ -439,6 +579,11 @@
           "id": "tfs_F26165353",
           "distance_m": 99,
           "minutes_apart": 17
+        },
+        {
+          "id": "tps_5be8377d484c",
+          "distance_m": 267,
+          "minutes_apart": 60
         }
       ]
     },
@@ -1066,9 +1211,19 @@
       "ts": "2026-10-17T03:34:20+00:00",
       "related": [
         {
+          "id": "tps_589cc2f44c66",
+          "distance_m": 129,
+          "minutes_apart": 137
+        },
+        {
           "id": "tps_af0241ebe96e",
           "distance_m": 236,
           "minutes_apart": 112
+        },
+        {
+          "id": "tps_5be8377d484c",
+          "distance_m": 465,
+          "minutes_apart": 137
         }
       ]
     },
@@ -10415,13 +10570,7 @@
       "division": "PK51",
       "location": "COOPERAGE ST - ROLLING MILLS RD",
       "ts": "2026-10-16T09:05:19+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164762",
-          "distance_m": 186,
-          "minutes_apart": 162
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_07269a845c48",
@@ -10499,11 +10648,6 @@
           "id": "tps_4d037976ec8b",
           "distance_m": 0,
           "minutes_apart": 54
-        },
-        {
-          "id": "tps_30fb0c2acfce",
-          "distance_m": 508,
-          "minutes_apart": 139
         }
       ]
     },
@@ -10776,11 +10920,6 @@
           "id": "tps_7f0c3dc5f57c",
           "distance_m": 0,
           "minutes_apart": 54
-        },
-        {
-          "id": "tps_30fb0c2acfce",
-          "distance_m": 508,
-          "minutes_apart": 84
         }
       ]
     },
@@ -11072,51 +11211,6 @@
       "location": "MUNSON CRES - HIGHBROOK DR",
       "ts": "2026-10-16T06:27:41+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26164762",
-      "source": "fire",
-      "lat": 43.6528828,
-      "lng": -79.3580952,
-      "type": "Check Call - Non Emergency",
-      "type_plain": "Check Call - Non Emergency",
-      "severity": "medium",
-      "division": "333",
-      "location": "FRONT ST E & CHERRY ST",
-      "approximate": false,
-      "units": "P324",
-      "ts": "2026-10-16T06:23:48+00:00",
-      "related": [
-        {
-          "id": "tps_6bf057adbaab",
-          "distance_m": 186,
-          "minutes_apart": 162
-        }
-      ]
-    },
-    {
-      "id": "tps_30fb0c2acfce",
-      "source": "police",
-      "lat": 43.65208579177259,
-      "lng": -79.39866383491702,
-      "type": "ATTBR",
-      "type_plain": "Attempt Break and Enter",
-      "severity": "high",
-      "division": "D14",
-      "location": "WILLISON SQ - ",
-      "ts": "2026-10-16T06:23:34+00:00",
-      "related": [
-        {
-          "id": "tps_4d037976ec8b",
-          "distance_m": 508,
-          "minutes_apart": 84
-        },
-        {
-          "id": "tps_7f0c3dc5f57c",
-          "distance_m": 508,
-          "minutes_apart": 139
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11170,22 +11264,6 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 1.7,
-      "ratio": 4.1,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e47cb099d7ad",
-        "tps_842981e38564",
-        "tps_afa49b9d3fdc",
-        "tps_3fcd8ee4a2f7",
-        "tps_bba7ae51ff9a"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D12",
       "current_count": 4,
       "baseline_avg": 1.2,
@@ -11201,6 +11279,68 @@
     },
     {
       "source": "police",
+      "division": "D51",
+      "current_count": 5,
+      "baseline_avg": 1.5,
+      "ratio": 3.2,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c3b0bc732e9f",
+        "tps_bf975650a994",
+        "tps_25ecdf7bde99",
+        "tps_3231b2962b69",
+        "tps_a5dd291849db"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 8,
+      "baseline_avg": 2.6,
+      "ratio": 3.1,
+      "sample_days": 13,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_589cc2f44c66",
+        "tps_5be8377d484c",
+        "tps_86b95a01637a",
+        "tps_da2dfbf6252e",
+        "tps_0673033bb553"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 2.9,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e47cb099d7ad",
+        "tps_842981e38564",
+        "tps_afa49b9d3fdc",
+        "tps_3fcd8ee4a2f7",
+        "tps_bba7ae51ff9a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.1,
+      "ratio": 2.7,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b998adbef8de",
+        "tps_bc4cdda7e3df",
+        "tps_e9edd07da07e"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D13",
       "current_count": 3,
       "baseline_avg": 1.2,
@@ -11211,37 +11351,6 @@
         "tps_2c1e08501768",
         "tps_0470f9388178",
         "tps_b9b29f7df757"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_bf975650a994",
-        "tps_25ecdf7bde99",
-        "tps_3231b2962b69",
-        "tps_a5dd291849db"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 2.6,
-      "ratio": 2.3,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_86b95a01637a",
-        "tps_da2dfbf6252e",
-        "tps_0673033bb553",
-        "tps_66bfefef96d6",
-        "tps_7c23b5b79383"
       ]
     }
   ]
