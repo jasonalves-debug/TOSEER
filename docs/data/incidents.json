@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T22:11:31.404032+00:00",
+  "generated": "2026-10-17T22:26:26.805001+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -7,17 +7,43 @@
   "retention_hours": 24,
   "incidents": [
     {
+      "id": "tps_0281b8d24aec",
+      "source": "police",
+      "lat": 43.70518622699901,
+      "lng": -79.38889426327398,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "MOUNT PLEASANT RD - HILLSDALE AVE E",
+      "ts": "2026-10-17T22:01:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ebd3862a78d3",
+      "source": "police",
+      "lat": 43.67422765381123,
+      "lng": -79.55546869322022,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D22",
+      "location": "WARRENDER AVE - WINSLAND DR",
+      "ts": "2026-10-17T21:58:25+00:00",
+      "related": []
+    },
+    {
       "id": "tfs_F26165754",
       "source": "fire",
       "lat": 43.6898326,
       "lng": -79.293571,
-      "type": "Fire - Residential",
-      "type_plain": "Fire - Residential",
-      "severity": "medium",
+      "type": "Fire - Commercial/Industrial",
+      "type_plain": "Fire - Commercial/Industrial",
+      "severity": "high",
       "division": "226",
       "location": "East York - DANFORTH AVE & LUTTRELL AVE",
       "approximate": false,
-      "units": "P224, P226",
+      "units": "A125, A221, A322, C22, C32, HR114, LA325, P224, P225, P226, P323, P326, S313",
       "ts": "2026-10-17T21:55:05+00:00",
       "related": [
         {
@@ -26,6 +52,70 @@
           "minutes_apart": 167
         }
       ]
+    },
+    {
+      "id": "tps_7166caf244a8",
+      "source": "police",
+      "lat": 43.73723237077289,
+      "lng": -79.5652952792044,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D23",
+      "location": "ISLINGTON AVE - ALBION RD",
+      "ts": "2026-10-17T21:53:03+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c696f0a17d73",
+      "source": "police",
+      "lat": 43.72328645534472,
+      "lng": -79.44862072320674,
+      "type": "ROB",
+      "type_plain": "ROB",
+      "severity": "low",
+      "division": "D32",
+      "location": "HIGHLAND HILL - YORKDALE PARK TRL",
+      "ts": "2026-10-17T21:51:59+00:00",
+      "related": [
+        {
+          "id": "tps_308b42c0ce0d",
+          "distance_m": 220,
+          "minutes_apart": 172
+        }
+      ]
+    },
+    {
+      "id": "tps_99d7b637b685",
+      "source": "police",
+      "lat": 43.68636159758645,
+      "lng": -79.4708235963479,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D12",
+      "location": "TROWELL AVE - EWART AVE",
+      "ts": "2026-10-17T21:45:43+00:00",
+      "related": [
+        {
+          "id": "tps_fc12ecfbaf5e",
+          "distance_m": 0,
+          "minutes_apart": 88
+        }
+      ]
+    },
+    {
+      "id": "tps_d7185995ba68",
+      "source": "police",
+      "lat": 43.65355282468407,
+      "lng": -79.46527101585853,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D11",
+      "location": "COLBORNE LODGE DR - BLOOR ST W",
+      "ts": "2026-10-17T21:45:41+00:00",
+      "related": []
     },
     {
       "id": "tps_3a6a85b5f613",
@@ -673,7 +763,13 @@
       "division": "D13",
       "location": "TROWELL AVE - EWART AVE",
       "ts": "2026-10-17T20:18:03+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_99d7b637b685",
+          "distance_m": 0,
+          "minutes_apart": 88
+        }
+      ]
     },
     {
       "id": "tps_889070203096",
@@ -1382,7 +1478,13 @@
       "division": "D32",
       "location": "JANE OSLER BLVD - 401 C E YORKDALE RD RAMP",
       "ts": "2026-10-17T18:59:47+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_c696f0a17d73",
+          "distance_m": 220,
+          "minutes_apart": 172
+        }
+      ]
     },
     {
       "id": "tfs_F26165648",
@@ -9527,11 +9629,6 @@
       "ts": "2026-10-17T00:42:28+00:00",
       "related": [
         {
-          "id": "tps_654a3d3fd933",
-          "distance_m": 490,
-          "minutes_apart": 145
-        },
-        {
           "id": "tps_9f9fe01cf298",
           "distance_m": 557,
           "minutes_apart": 6
@@ -10200,11 +10297,6 @@
       "ts": "2026-10-16T23:45:47+00:00",
       "related": [
         {
-          "id": "tps_24cd44cd742a",
-          "distance_m": 212,
-          "minutes_apart": 80
-        },
-        {
           "id": "tps_af0241ebe96e",
           "distance_m": 236,
           "minutes_apart": 117
@@ -10353,13 +10445,7 @@
       "division": "HP",
       "location": "BATHURST ST - LAWRENCE AVE W",
       "ts": "2026-10-16T23:32:59+00:00",
-      "related": [
-        {
-          "id": "tps_640b46f39726",
-          "distance_m": 283,
-          "minutes_apart": 79
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_2a991bd6fd5d",
@@ -10608,11 +10694,6 @@
       "ts": "2026-10-16T22:52:01+00:00",
       "related": [
         {
-          "id": "tps_654a3d3fd933",
-          "distance_m": 244,
-          "minutes_apart": 34
-        },
-        {
           "id": "tps_7dd3cc95968a",
           "distance_m": 435,
           "minutes_apart": 14
@@ -10683,13 +10764,7 @@
       "division": "D31",
       "location": "STEELES AVE W - FENMAR DR",
       "ts": "2026-10-16T22:47:44+00:00",
-      "related": [
-        {
-          "id": "tps_4db885f154f0",
-          "distance_m": 0,
-          "minutes_apart": 22
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_3f7f885b4b67",
@@ -10799,207 +10874,6 @@
       "location": "O'CONNOR DR - ",
       "ts": "2026-10-16T22:29:32+00:00",
       "related": []
-    },
-    {
-      "id": "tps_b8866e3952cf",
-      "source": "police",
-      "lat": 43.59526007482443,
-      "lng": -79.53420861964452,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D22",
-      "location": "SYD COLE PARK TRL - ",
-      "ts": "2026-10-16T22:26:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_581fdd2e8828",
-      "source": "police",
-      "lat": 43.7414943277717,
-      "lng": -79.31422826784679,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D33",
-      "location": "CARNFORTH RD - VICTORIA PARK AVE",
-      "ts": "2026-10-16T22:26:10+00:00",
-      "related": [
-        {
-          "id": "tfs_F26165146",
-          "distance_m": 64,
-          "minutes_apart": 8
-        }
-      ]
-    },
-    {
-      "id": "tps_4db885f154f0",
-      "source": "police",
-      "lat": 43.76648401659636,
-      "lng": -79.5647097361969,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D23",
-      "location": "STEELES AVE W - FENMAR DR",
-      "ts": "2026-10-16T22:25:44+00:00",
-      "related": [
-        {
-          "id": "tps_7e5ea3028e71",
-          "distance_m": 0,
-          "minutes_apart": 22
-        }
-      ]
-    },
-    {
-      "id": "tps_24cd44cd742a",
-      "source": "police",
-      "lat": 43.6471940876252,
-      "lng": -79.40398193200464,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D14",
-      "location": "BATHURST ST - QUEEN ST W",
-      "ts": "2026-10-16T22:25:21+00:00",
-      "related": [
-        {
-          "id": "tfs_F26165191",
-          "distance_m": 212,
-          "minutes_apart": 80
-        }
-      ]
-    },
-    {
-      "id": "tps_0a90287d30df",
-      "source": "police",
-      "lat": 43.68328969801072,
-      "lng": -79.44040611301148,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D13",
-      "location": "EARNSCLIFFE RD - MILLERSON AVE",
-      "ts": "2026-10-16T22:19:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26165146",
-      "source": "fire",
-      "lat": 43.7409248,
-      "lng": -79.3141576,
-      "type": "Fire - Underground",
-      "type_plain": "Fire - Underground",
-      "severity": "medium",
-      "division": "233",
-      "location": "North York - LAWRENCE AVE & CARNFORTH RD",
-      "approximate": false,
-      "units": "A233, C22, C24, HZ323, LA231, P123, P233, P321, R235, S232",
-      "ts": "2026-10-16T22:18:35+00:00",
-      "related": [
-        {
-          "id": "tps_581fdd2e8828",
-          "distance_m": 64,
-          "minutes_apart": 8
-        }
-      ]
-    },
-    {
-      "id": "tps_d0cd2401a483",
-      "source": "police",
-      "lat": 43.72097784643953,
-      "lng": -79.50863794404951,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D31",
-      "location": "JANE ST - WILSON AVE",
-      "ts": "2026-10-16T22:17:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_654a3d3fd933",
-      "source": "police",
-      "lat": 43.66888960799329,
-      "lng": -79.37943925229703,
-      "type": "SEEFI",
-      "type_plain": "SEEFI",
-      "severity": "low",
-      "division": "D51",
-      "location": "LN E CHURCH S ISABELLA - JARVIS ST",
-      "ts": "2026-10-16T22:17:42+00:00",
-      "related": [
-        {
-          "id": "tps_da667349fea2",
-          "distance_m": 244,
-          "minutes_apart": 34
-        },
-        {
-          "id": "tps_bcb9697e476d",
-          "distance_m": 490,
-          "minutes_apart": 145
-        }
-      ]
-    },
-    {
-      "id": "tps_723a7053e816",
-      "source": "police",
-      "lat": 43.64500678411042,
-      "lng": -79.3905119378378,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "LN E JOHN S MERCER - LN S KING W JOHN",
-      "ts": "2026-10-16T22:15:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26165141",
-      "source": "fire",
-      "lat": 43.7342706,
-      "lng": -79.2218896,
-      "type": "Check Call - Non Emergency",
-      "type_plain": "Check Call - Non Emergency",
-      "severity": "medium",
-      "division": "223",
-      "location": "WHITECAP BLVD & KINGSTON RD",
-      "approximate": false,
-      "units": "R223",
-      "ts": "2026-10-16T22:13:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_640b46f39726",
-      "source": "police",
-      "lat": 43.719406160333115,
-      "lng": -79.43332428343889,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D32",
-      "location": "KIRKLAND BLVD - COVINGTON RD",
-      "ts": "2026-10-16T22:13:33+00:00",
-      "related": [
-        {
-          "id": "tps_ba242f31997e",
-          "distance_m": 283,
-          "minutes_apart": 79
-        }
-      ]
-    },
-    {
-      "id": "tps_38951089d818",
-      "source": "police",
-      "lat": 43.67561865942062,
-      "lng": -79.55766029341221,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D22",
-      "location": "EGLINTON AVE W - WIDDICOMBE HILL BLVD",
-      "ts": "2026-10-16T22:11:35+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11052,18 +10926,48 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 1.9,
-      "ratio": 2.6,
-      "sample_days": 13,
+      "division": "HP",
+      "current_count": 8,
+      "baseline_avg": 2.7,
+      "ratio": 2.9,
+      "sample_days": 15,
       "window_hours": 3,
       "example_ids": [
-        "tps_dfebc366af6b",
-        "tps_a1088946f122",
-        "tps_f5944206a3ea",
-        "tps_ac19cc055678",
-        "tps_e8b6d1cfc75b"
+        "tps_0281b8d24aec",
+        "tps_ba7fe878ff09",
+        "tps_fc4f2649506e",
+        "tps_151a01ec4f09",
+        "tps_cfc9562fdbc3"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.8,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d7185995ba68",
+        "tps_c192a98983e0",
+        "tps_3ba023a8ed24",
+        "tps_7d235aa2a1ff",
+        "tps_03fe2f86ec45"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 3,
+      "baseline_avg": 1.2,
+      "ratio": 2.6,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_99d7b637b685",
+        "tps_00d1b7b3143f",
+        "tps_3e06ade004f0"
       ]
     },
     {
@@ -11083,48 +10987,32 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.9,
+      "division": "D22",
+      "current_count": 4,
+      "baseline_avg": 1.7,
       "ratio": 2.4,
-      "sample_days": 14,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_ba7fe878ff09",
-        "tps_fc4f2649506e",
-        "tps_151a01ec4f09",
-        "tps_cfc9562fdbc3",
-        "tps_ed1f4d667725"
+        "tps_ebd3862a78d3",
+        "tps_5c2f7114c8c2",
+        "tps_b1fb26d6f8dc",
+        "tps_c52ddd452dca"
       ]
     },
     {
       "source": "police",
-      "division": "D11",
+      "division": "D51",
       "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 10,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
-        "tps_c192a98983e0",
-        "tps_3ba023a8ed24",
-        "tps_7d235aa2a1ff",
-        "tps_03fe2f86ec45"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_37043166b09c",
-        "tps_b93d41096919",
-        "tps_6357adfe2ef7",
-        "tps_86f6fcb85261"
+        "tps_dfebc366af6b",
+        "tps_a1088946f122",
+        "tps_f5944206a3ea",
+        "tps_ac19cc055678"
       ]
     }
   ]
