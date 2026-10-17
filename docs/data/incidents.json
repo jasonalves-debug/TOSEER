@@ -1,11 +1,86 @@
 {
-  "generated": "2026-10-17T23:26:31.874812+00:00",
+  "generated": "2026-10-17T23:41:31.000520+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165802",
+      "source": "fire",
+      "lat": 43.7650195,
+      "lng": -79.1850879,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "234",
+      "location": "Scarborough - DANZIG ST & MORNINGSIDE AVE",
+      "approximate": false,
+      "units": "A215, P231",
+      "ts": "2026-10-17T23:30:00+00:00",
+      "related": [
+        {
+          "id": "tps_2d2ee4266288",
+          "distance_m": 482,
+          "minutes_apart": 135
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26165799",
+      "source": "fire",
+      "lat": 43.7146783,
+      "lng": -79.2712557,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "222",
+      "location": "Scarborough - ST CLAIR AVE & BIRCHMOUNT RD",
+      "approximate": false,
+      "units": "P222, R223",
+      "ts": "2026-10-17T23:27:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_fe4c4d05be84",
+      "source": "police",
+      "lat": 43.6516352483264,
+      "lng": -79.4740368203716,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D11",
+      "location": "GLENDONWYNNE RD - KENNEDY AVE",
+      "ts": "2026-10-17T23:25:00+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ef455becc65d",
+      "source": "police",
+      "lat": 43.78886658494799,
+      "lng": -79.24009727624617,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D42",
+      "location": "SCUNTHORPE RD - MARKHAM RD",
+      "ts": "2026-10-17T23:22:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_ced3763a878a",
+      "source": "police",
+      "lat": 43.72489224643953,
+      "lng": -79.50959764499086,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D31",
+      "location": "MARLINGTON CRES - MARLINGTON CRES",
+      "ts": "2026-10-17T23:21:41+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165794",
       "source": "fire",
@@ -19,6 +94,51 @@
       "approximate": false,
       "units": "A231, P231",
       "ts": "2026-10-17T23:16:41+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_a7bf2144e701",
+      "source": "police",
+      "lat": 43.773381957539875,
+      "lng": -79.2623895218809,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D41",
+      "location": "BRIMLEY RD - TRITON RD",
+      "ts": "2026-10-17T23:16:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_77aa00901ec5",
+      "source": "police",
+      "lat": 43.70975224643955,
+      "lng": -79.50775354269862,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D12",
+      "location": "WOODWARD AVE - BOYLEN ST",
+      "ts": "2026-10-17T23:14:50+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165691",
+          "distance_m": 357,
+          "minutes_apart": 160
+        }
+      ]
+    },
+    {
+      "id": "tps_ac202b6912fd",
+      "source": "police",
+      "lat": 43.74687129931756,
+      "lng": -79.62201579977719,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "HP",
+      "location": "ALBION RD - HUMBERLINE DR",
+      "ts": "2026-10-17T23:08:18+00:00",
       "related": []
     },
     {
@@ -899,7 +1019,13 @@
       "division": "D43",
       "location": "FALAISE RD - MORNINGSIDE AVE",
       "ts": "2026-10-17T21:14:42+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26165802",
+          "distance_m": 482,
+          "minutes_apart": 135
+        }
+      ]
     },
     {
       "id": "tps_1d5c5cb0d147",
@@ -1210,7 +1336,13 @@
       "approximate": false,
       "units": "P415, P442",
       "ts": "2026-10-17T20:34:57+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_77aa00901ec5",
+          "distance_m": 357,
+          "minutes_apart": 160
+        }
+      ]
     },
     {
       "id": "tps_cfc9562fdbc3",
@@ -9347,11 +9479,6 @@
           "id": "tps_9d9485176fa0",
           "distance_m": 233,
           "minutes_apart": 42
-        },
-        {
-          "id": "tps_d17a640980f3",
-          "distance_m": 586,
-          "minutes_apart": 151
         }
       ]
     },
@@ -10884,77 +11011,6 @@
       "location": "LAWRENCE AVE E - GREENHOLM CRCT",
       "ts": "2026-10-16T23:42:10+00:00",
       "related": []
-    },
-    {
-      "id": "tps_4d01c2e10b8e",
-      "source": "police",
-      "lat": 43.66969891971414,
-      "lng": -79.43273422620841,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D14",
-      "location": "HALLAM ST - LN S DUPONT E DOVERCOURT",
-      "ts": "2026-10-16T23:41:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_00c07578c117",
-      "source": "police",
-      "lat": 43.75095019955581,
-      "lng": -79.36149372675955,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D33",
-      "location": "MOSSGROVE PARK TRL - LESLIE ST",
-      "ts": "2026-10-16T23:36:16+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d17a640980f3",
-      "source": "police",
-      "lat": 43.65797199973477,
-      "lng": -79.40017523593004,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D14",
-      "location": "LN S COLLEGE E SPADINA - COLLEGE ST",
-      "ts": "2026-10-16T23:33:45+00:00",
-      "related": [
-        {
-          "id": "tps_0b239198ce07",
-          "distance_m": 586,
-          "minutes_apart": 151
-        }
-      ]
-    },
-    {
-      "id": "tps_ba242f31997e",
-      "source": "police",
-      "lat": 43.71925486231584,
-      "lng": -79.4298041912576,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "BATHURST ST - LAWRENCE AVE W",
-      "ts": "2026-10-16T23:32:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_2a991bd6fd5d",
-      "source": "police",
-      "lat": 43.74666587192305,
-      "lng": -79.51079861124025,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D31",
-      "location": "DRIFTWOOD AVE - OAKDALE PARK TRL",
-      "ts": "2026-10-16T23:27:53+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10975,34 +11031,47 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 7,
-      "baseline_avg": 2.6,
-      "ratio": 2.7,
-      "sample_days": 14,
+      "division": "D12",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_2569b7ca5d22",
-        "tps_4c3492d53f01",
-        "tps_c11365d94296",
-        "tps_2f82ee11c04b",
-        "tps_801fba79bfdf"
+        "tps_77aa00901ec5",
+        "tps_d841fd43a653",
+        "tps_99d7b637b685"
       ]
     },
     {
       "source": "police",
       "division": "HP",
       "current_count": 7,
-      "baseline_avg": 2.6,
-      "ratio": 2.7,
-      "sample_days": 12,
+      "baseline_avg": 2.5,
+      "ratio": 2.8,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_ac202b6912fd",
         "tps_d47ac4d23988",
         "tps_2684ed54dcf7",
         "tps_0281b8d24aec",
-        "tps_ba7fe878ff09",
-        "tps_fc4f2649506e"
+        "tps_ba7fe878ff09"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 4,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 12,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_fe4c4d05be84",
+        "tps_d7185995ba68",
+        "tps_c192a98983e0",
+        "tps_3ba023a8ed24"
       ]
     },
     {
@@ -11022,6 +11091,36 @@
     },
     {
       "source": "police",
+      "division": "D14",
+      "current_count": 6,
+      "baseline_avg": 2.6,
+      "ratio": 2.3,
+      "sample_days": 14,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_2569b7ca5d22",
+        "tps_4c3492d53f01",
+        "tps_c11365d94296",
+        "tps_2f82ee11c04b",
+        "tps_801fba79bfdf"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D31",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.1,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ced3763a878a",
+        "tps_4c7689e1f411",
+        "tps_c4c0914181ee"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D23",
       "current_count": 4,
       "baseline_avg": 2.0,
@@ -11033,20 +11132,6 @@
         "tps_7166caf244a8",
         "tps_37043166b09c",
         "tps_b93d41096919"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D31",
-      "current_count": 3,
-      "baseline_avg": 1.5,
-      "ratio": 2.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_4c7689e1f411",
-        "tps_c4c0914181ee",
-        "tps_766c35605558"
       ]
     }
   ]
