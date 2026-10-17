@@ -1,11 +1,65 @@
 {
-  "generated": "2026-10-17T02:39:44.751469+00:00",
+  "generated": "2026-10-17T02:54:44.039454+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165266",
+      "source": "fire",
+      "lat": 43.6703553,
+      "lng": -79.3869414,
+      "type": "Water Problem - Level 1",
+      "type_plain": "Water Problem - Level 1",
+      "severity": "medium",
+      "division": "312",
+      "location": "Toronto - BLOOR ST & YONGE ST",
+      "approximate": false,
+      "units": "P312",
+      "ts": "2026-10-17T02:38:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6bf9f539dd2d",
+      "source": "police",
+      "lat": 43.747514252332344,
+      "lng": -79.28482491055821,
+      "type": "MISVU",
+      "type_plain": "Missing Person (Vulnerable)",
+      "severity": "low",
+      "division": "D41",
+      "location": "HOWDEN RD - BIRCHMOUNT RD",
+      "ts": "2026-10-17T02:38:27+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0696d847e9fa",
+      "source": "police",
+      "lat": 43.66672392285862,
+      "lng": -79.44645392062525,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D11",
+      "location": "DUPONT ST - C P R",
+      "ts": "2026-10-17T02:33:29+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_183d5123874c",
+      "source": "police",
+      "lat": 43.68146804163522,
+      "lng": -79.28134836003198,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "KINGSTON RD - BLANTYRE AVE",
+      "ts": "2026-10-17T02:26:24+00:00",
+      "related": []
+    },
     {
       "id": "tps_b52b1ed0ca99",
       "source": "police",
@@ -11003,116 +11057,55 @@
       "location": "EGLINTON AVE E - DON VALLEY PARKWAY N",
       "ts": "2026-10-16T02:55:25+00:00",
       "related": []
-    },
-    {
-      "id": "tps_726ef4afbe3d",
-      "source": "police",
-      "lat": 43.80778165860337,
-      "lng": -79.25938415151644,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "PLACENTIA BLVD - PLACENTIA BLVD",
-      "ts": "2026-10-16T02:53:34+00:00",
-      "related": [
-        {
-          "id": "tps_1e6d5c8252d1",
-          "distance_m": 0,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_21a759e98e61",
-      "source": "police",
-      "lat": 43.695127025275774,
-      "lng": -79.60614342506231,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D23",
-      "location": "CARLINGVIEW DR - ",
-      "ts": "2026-10-16T02:53:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1e6d5c8252d1",
-      "source": "police",
-      "lat": 43.80778165860337,
-      "lng": -79.25938415151644,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D42",
-      "location": "PLACENTIA BLVD - PLACENTIA BLVD",
-      "ts": "2026-10-16T02:43:34+00:00",
-      "related": [
-        {
-          "id": "tps_726ef4afbe3d",
-          "distance_m": 0,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_10cdabc5ec31",
-      "source": "police",
-      "lat": 43.808832554274176,
-      "lng": -79.36788932992451,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D33",
-      "location": " - STEELES AVE E",
-      "ts": "2026-10-16T02:43:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b843e39916c1",
-      "source": "police",
-      "lat": 43.776803245476245,
-      "lng": -79.47443510475604,
-      "type": "BREPR",
-      "type_plain": "Break and Enter (Priority)",
-      "severity": "high",
-      "division": "D32",
-      "location": "SUPERTEST RD - DOLOMITE DR",
-      "ts": "2026-10-16T02:43:01+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "HP",
-      "current_count": 11,
-      "baseline_avg": 2.0,
-      "ratio": 5.5,
+      "current_count": 10,
+      "baseline_avg": 2.1,
+      "ratio": 4.8,
       "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
+        "tps_183d5123874c",
         "tps_a307e017151a",
         "tps_0b239198ce07",
         "tps_496be617e156",
-        "tps_99d7b218e694",
-        "tps_902dea2b3a92"
+        "tps_99d7b218e694"
       ]
     },
     {
       "source": "police",
       "division": "D41",
-      "current_count": 5,
+      "current_count": 6,
       "baseline_avg": 1.4,
-      "ratio": 3.5,
-      "sample_days": 9,
+      "ratio": 4.3,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_6bf9f539dd2d",
         "tps_5dff32dd005c",
         "tps_bd1499c586e9",
         "tps_892acadbf0c8",
-        "tps_cbdf00d14298",
-        "tps_70cf962969bc"
+        "tps_cbdf00d14298"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 5,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0696d847e9fa",
+        "tps_b8cd6d1588b0",
+        "tps_aed704790024",
+        "tps_15d201dfb308",
+        "tps_7745aad323df"
       ]
     },
     {
@@ -11133,22 +11126,6 @@
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 6,
-      "baseline_avg": 1.9,
-      "ratio": 3.2,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_e25185d34550",
-        "tps_6832ace8a31f",
-        "tps_d18293b29de1",
-        "tps_657dddf4b0d2",
-        "tps_8eddedac8e32"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D53",
       "current_count": 5,
       "baseline_avg": 1.7,
@@ -11165,65 +11142,33 @@
     },
     {
       "source": "police",
-      "division": "D14",
+      "division": "D52",
       "current_count": 5,
+      "baseline_avg": 1.9,
+      "ratio": 2.7,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_e25185d34550",
+        "tps_6832ace8a31f",
+        "tps_d18293b29de1",
+        "tps_657dddf4b0d2",
+        "tps_8eddedac8e32"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 4,
       "baseline_avg": 1.8,
-      "ratio": 2.8,
+      "ratio": 2.2,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_784028af9275",
         "tps_af0241ebe96e",
         "tps_39088a09dc28",
-        "tps_10a0adf6a53b",
-        "tps_4d01c2e10b8e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 6,
-      "baseline_avg": 2.3,
-      "ratio": 2.6,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_344dbffd7709",
-        "tps_c5deec1bf074",
-        "tps_a322b6c0e812",
-        "tps_234ddba36cf3",
-        "tps_c4494ed2b84e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b8cd6d1588b0",
-        "tps_aed704790024",
-        "tps_15d201dfb308",
-        "tps_7745aad323df"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_9ce2f4e4ce34",
-        "tps_6849e0f32faf",
-        "tps_0f1bb204f8cf",
-        "tps_21adb6d71f2a",
-        "tps_928807c25b69"
+        "tps_10a0adf6a53b"
       ]
     },
     {
@@ -11269,6 +11214,21 @@
         "tps_bcb9697e476d",
         "tps_9f9fe01cf298",
         "tps_1d09b5ff70ba"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 4,
+      "baseline_avg": 2.0,
+      "ratio": 2.0,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9ce2f4e4ce34",
+        "tps_6849e0f32faf",
+        "tps_0f1bb204f8cf",
+        "tps_21adb6d71f2a"
       ]
     }
   ]
