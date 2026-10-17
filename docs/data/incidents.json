@@ -1,11 +1,37 @@
 {
-  "generated": "2026-10-17T07:40:06.793357+00:00",
+  "generated": "2026-10-17T07:55:08.224298+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_8784aac8454f",
+      "source": "police",
+      "lat": 43.78500070329029,
+      "lng": -79.39213598212983,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D33",
+      "location": "BAYVIEW AVE - FINCH AVE E",
+      "ts": "2026-10-17T07:43:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0c8735acdae1",
+      "source": "police",
+      "lat": 43.66198240963741,
+      "lng": -79.42565332599649,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "CARLING AVE - OSSINGTON AVE",
+      "ts": "2026-10-17T07:37:28+00:00",
+      "related": []
+    },
     {
       "id": "tps_0f4a97e41ef3",
       "source": "police",
@@ -10961,13 +10987,7 @@
       "division": "D42",
       "location": "AMETHYST RD - BIRCHMOUNT RD",
       "ts": "2026-10-16T09:44:48+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164786",
-          "distance_m": 172,
-          "minutes_apart": 113
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_54097416dbaa",
@@ -11004,11 +11024,6 @@
           "id": "tps_9b16895c4b6e",
           "distance_m": 497,
           "minutes_apart": 56
-        },
-        {
-          "id": "tps_0d21c9b54220",
-          "distance_m": 539,
-          "minutes_apart": 96
         }
       ]
     },
@@ -11205,13 +11220,7 @@
       "division": "D52",
       "location": "PETER ST - SPADINA AVE",
       "ts": "2026-10-16T08:42:16+00:00",
-      "related": [
-        {
-          "id": "tps_4d037976ec8b",
-          "distance_m": 0,
-          "minutes_apart": 54
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_f83821ccc9ee",
@@ -11415,110 +11424,23 @@
           "minutes_apart": 68
         }
       ]
-    },
-    {
-      "id": "tps_c1615261fcf0",
-      "source": "police",
-      "lat": 43.770201217146315,
-      "lng": -79.3398069602143,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D33",
-      "location": "LEPUS STARWAY - ",
-      "ts": "2026-10-16T07:53:09+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164786",
-      "source": "fire",
-      "lat": 43.7808597,
-      "lng": -79.2984424,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "244",
-      "location": "Scarborough - BIRCHMOUNT RD & SHEPPARD AVE E",
-      "approximate": false,
-      "units": "P245, R243",
-      "ts": "2026-10-16T07:51:49+00:00",
-      "related": [
-        {
-          "id": "tps_068324ade968",
-          "distance_m": 172,
-          "minutes_apart": 113
-        }
-      ]
-    },
-    {
-      "id": "tps_4d037976ec8b",
-      "source": "police",
-      "lat": 43.649318288421924,
-      "lng": -79.39364443739493,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D52",
-      "location": "PETER ST - SPADINA AVE",
-      "ts": "2026-10-16T07:47:49+00:00",
-      "related": [
-        {
-          "id": "tps_7f0c3dc5f57c",
-          "distance_m": 0,
-          "minutes_apart": 54
-        }
-      ]
-    },
-    {
-      "id": "tps_0d21c9b54220",
-      "source": "police",
-      "lat": 43.65829659740034,
-      "lng": -79.37100285365003,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D51",
-      "location": "SHERBOURNE ST - DUNDAS ST E",
-      "ts": "2026-10-16T07:45:42+00:00",
-      "related": [
-        {
-          "id": "tps_ad4ac2b007f3",
-          "distance_m": 539,
-          "minutes_apart": 96
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 12,
-      "baseline_avg": 2.3,
-      "ratio": 5.2,
+      "current_count": 13,
+      "baseline_avg": 2.4,
+      "ratio": 5.5,
       "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_0c8735acdae1",
         "tps_104195f8a56a",
         "tps_77528cec7325",
         "tps_a4cd08ca5f13",
-        "tps_fcdec5314993",
-        "tps_bdf2091ab59b"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 4,
-      "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6299a874d10c",
-        "tps_69a604590e7f",
-        "tps_b998adbef8de",
-        "tps_bc4cdda7e3df"
+        "tps_fcdec5314993"
       ]
     },
     {
@@ -11569,6 +11491,20 @@
     },
     {
       "source": "police",
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_6299a874d10c",
+        "tps_69a604590e7f",
+        "tps_b998adbef8de"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D51",
       "current_count": 5,
       "baseline_avg": 1.8,
@@ -11596,35 +11532,6 @@
         "tps_2c04d68aef8c",
         "tps_49a9875a4ebb",
         "tps_8d5b4fb69088"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_48050864d116",
-        "tps_20bcdc1ba4a1",
-        "tps_0186db603a7c"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0f4a97e41ef3",
-        "tps_6effe62333a6",
-        "tps_88bc161ceec5",
-        "tps_c7c3024f58ef"
       ]
     },
     {
