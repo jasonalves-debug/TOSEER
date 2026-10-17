@@ -1,11 +1,86 @@
 {
-  "generated": "2026-10-17T12:25:29.342135+00:00",
+  "generated": "2026-10-17T12:40:29.701262+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165465",
+      "source": "fire",
+      "lat": 43.6531388,
+      "lng": -79.376963,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "333",
+      "location": "Toronto - BOND ST & QUEEN ST E",
+      "approximate": false,
+      "units": "C33, P333, T333",
+      "ts": "2026-10-17T12:29:43+00:00",
+      "related": [
+        {
+          "id": "tps_ac5e2fa25263",
+          "distance_m": 479,
+          "minutes_apart": 96
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26165461",
+      "source": "fire",
+      "lat": 43.7508649,
+      "lng": -79.6239576,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "412",
+      "location": "Etobicoke - STEINWAY BLVD & SIGNAL HILL AVE",
+      "approximate": false,
+      "units": "P412, R413",
+      "ts": "2026-10-17T12:23:49+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_eceb9b97af0e",
+      "source": "police",
+      "lat": 43.6385443776481,
+      "lng": -79.39213313595421,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "SE1",
+      "location": "GARDINER XWY W - SPADINA AVE",
+      "ts": "2026-10-17T12:14:05+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9241b4fd9eb1",
+      "source": "police",
+      "lat": 43.63905178715339,
+      "lng": -79.49466290474297,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D22",
+      "location": "PARK LAWN RD - RIVERWOOD PKWY",
+      "ts": "2026-10-17T12:12:56+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_94b15026fbe8",
+      "source": "police",
+      "lat": 43.782727216858135,
+      "lng": -79.34219055333381,
+      "type": "ANICO",
+      "type_plain": "Animal Complaint",
+      "severity": "low",
+      "division": "D33",
+      "location": "GLENEAGLE CRES - KOVEN PL",
+      "ts": "2026-10-17T12:12:52+00:00",
+      "related": []
+    },
     {
       "id": "tps_904f15d1a024",
       "source": "police",
@@ -451,7 +526,13 @@
       "division": "D51",
       "location": "JARVIS ST - GEORGE ST",
       "ts": "2026-10-17T10:53:37+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26165465",
+          "distance_m": 479,
+          "minutes_apart": 96
+        }
+      ]
     },
     {
       "id": "tps_eaf31e30324f",
@@ -11078,11 +11159,6 @@
       "ts": "2026-10-16T13:30:00+00:00",
       "related": [
         {
-          "id": "tps_40487d1f1900",
-          "distance_m": 477,
-          "minutes_apart": 52
-        },
-        {
           "id": "tps_c8db0d14ad0e",
           "distance_m": 571,
           "minutes_apart": 173
@@ -11386,97 +11462,9 @@
           "minutes_apart": 70
         }
       ]
-    },
-    {
-      "id": "tps_681fd87a24af",
-      "source": "police",
-      "lat": 43.67179139172191,
-      "lng": -79.5712357208673,
-      "type": "WIRDO",
-      "type_plain": "WIRDO",
-      "severity": "low",
-      "division": "D22",
-      "location": "EGLINTON AVE W - THE EAST MALL",
-      "ts": "2026-10-16T12:38:55+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164841",
-          "distance_m": 44,
-          "minutes_apart": 10
-        }
-      ]
-    },
-    {
-      "id": "tps_40487d1f1900",
-      "source": "police",
-      "lat": 43.64960628870992,
-      "lng": -79.38211834247504,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-10-16T12:38:06+00:00",
-      "related": [
-        {
-          "id": "tps_88fdd833be70",
-          "distance_m": 477,
-          "minutes_apart": 52
-        }
-      ]
-    },
-    {
-      "id": "tps_d9950d5e9f3c",
-      "source": "police",
-      "lat": 43.754332258387024,
-      "lng": -79.48024162813907,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D32",
-      "location": " - ",
-      "ts": "2026-10-16T12:37:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164841",
-      "source": "fire",
-      "lat": 43.6713976,
-      "lng": -79.5711812,
-      "type": "Wires Down - Hydro",
-      "type_plain": "Wires Down - Hydro",
-      "severity": "medium",
-      "division": "445",
-      "location": "EGLINTON AVE W & THE EAST MALL",
-      "approximate": false,
-      "units": "P445",
-      "ts": "2026-10-16T12:28:42+00:00",
-      "related": [
-        {
-          "id": "tps_681fd87a24af",
-          "distance_m": 44,
-          "minutes_apart": 10
-        }
-      ]
     }
   ],
   "anomalies": [
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.2,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b143f05192a5",
-        "tps_97ff843e7cdc",
-        "tps_82179cdd82f7",
-        "tps_ca48143108c7",
-        "tps_5d9ed819cba6"
-      ]
-    },
     {
       "source": "police",
       "division": "HP",
@@ -11491,6 +11479,35 @@
         "tps_d8fab5396076",
         "tps_58fbf9ab962a",
         "tps_d6f1a51f3ac2"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D22",
+      "current_count": 3,
+      "baseline_avg": 1.1,
+      "ratio": 2.7,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9241b4fd9eb1",
+        "tps_88727d28e2b2",
+        "tps_814432ae641b"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b143f05192a5",
+        "tps_97ff843e7cdc",
+        "tps_82179cdd82f7",
+        "tps_ca48143108c7"
       ]
     }
   ]
