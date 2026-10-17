@@ -1,11 +1,39 @@
 {
-  "generated": "2026-10-17T15:26:10.081685+00:00",
+  "generated": "2026-10-17T15:41:04.611246+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165552",
+      "source": "fire",
+      "lat": 43.7614593,
+      "lng": -79.3003882,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "245",
+      "location": "WARDEN AVE & ELLESMERE RD",
+      "approximate": false,
+      "units": "C24, P244, P245",
+      "ts": "2026-10-17T15:24:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_f5d0af7bef07",
+      "source": "police",
+      "lat": 43.7639249880496,
+      "lng": -79.4085851976421,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D32",
+      "location": "LN E YONGE N GREENFIELD AVE - DORIS AVE",
+      "ts": "2026-10-17T15:20:48+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165548",
       "source": "fire",
@@ -17,7 +45,7 @@
       "division": "314",
       "location": "Toronto - CHURCH ST & GRANBY ST",
       "approximate": false,
-      "units": "",
+      "units": "L325, P314",
       "ts": "2026-10-17T15:19:06+00:00",
       "related": [
         {
@@ -53,6 +81,64 @@
       "related": []
     },
     {
+      "id": "tps_6cbd33bf219f",
+      "source": "police",
+      "lat": 43.667997507234325,
+      "lng": -79.3858379481384,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "ST MARY ST - CHARLES ST E",
+      "ts": "2026-10-17T15:13:05+00:00",
+      "related": [
+        {
+          "id": "tps_eff518a38fd3",
+          "distance_m": 85,
+          "minutes_apart": 147
+        }
+      ]
+    },
+    {
+      "id": "tps_4bbcdf58ccb2",
+      "source": "police",
+      "lat": 43.720780848086626,
+      "lng": -79.3325817281569,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "HP",
+      "location": "DON VALLEY PARKWAY N - EGLINTON AVE E",
+      "ts": "2026-10-17T15:12:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5c3d43f06135",
+      "source": "police",
+      "lat": 43.67783652445345,
+      "lng": -79.38988765338706,
+      "type": "DAM",
+      "type_plain": "Damage to Property",
+      "severity": "low",
+      "division": "D53",
+      "location": "YONGE ST - ROXBOROUGH ST E",
+      "ts": "2026-10-17T15:10:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c514205e9426",
+      "source": "police",
+      "lat": -0.043078914685125244,
+      "lng": -131.2101175992135,
+      "type": "DEMO",
+      "type_plain": "DEMO",
+      "severity": "low",
+      "division": "D52",
+      "location": " - ",
+      "ts": "2026-10-17T15:06:52+00:00",
+      "related": []
+    },
+    {
       "id": "tps_03469840bb32",
       "source": "police",
       "lat": 43.70979268906233,
@@ -70,6 +156,19 @@
           "minutes_apart": 6
         }
       ]
+    },
+    {
+      "id": "tps_eef740e76cea",
+      "source": "police",
+      "lat": 43.5931434699594,
+      "lng": -79.53936683550941,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D22",
+      "location": "THIRTY SEVENTH ST - BROWN'S LINE",
+      "ts": "2026-10-17T15:01:42+00:00",
+      "related": []
     },
     {
       "id": "tps_01e66650904a",
@@ -989,7 +1088,13 @@
       "division": "D51",
       "location": "CHARLES ST W - HAYDEN ST",
       "ts": "2026-10-17T12:45:47+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_6cbd33bf219f",
+          "distance_m": 85,
+          "minutes_apart": 147
+        }
+      ]
     },
     {
       "id": "tps_6c185f36db35",
@@ -11193,13 +11298,7 @@
       "approximate": false,
       "units": "P314, P334",
       "ts": "2026-10-16T16:17:07+00:00",
-      "related": [
-        {
-          "id": "tps_8ac3f31e9946",
-          "distance_m": 442,
-          "minutes_apart": 37
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_b1c0155159e2",
@@ -11335,51 +11434,6 @@
       "location": "YONGE ST - PARK RD",
       "ts": "2026-10-16T15:41:57+00:00",
       "related": []
-    },
-    {
-      "id": "tps_2f9511e6e366",
-      "source": "police",
-      "lat": 43.670861140642046,
-      "lng": -79.48364681086707,
-      "type": "FRA",
-      "type_plain": "Fraud",
-      "severity": "medium",
-      "division": "D12",
-      "location": "NORVAL ST - RUNNYMEDE RD",
-      "ts": "2026-10-16T15:40:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8ac3f31e9946",
-      "source": "police",
-      "lat": 43.647229986333606,
-      "lng": -79.39000153870295,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D52",
-      "location": "KING ST W - LN N KING W JOHN",
-      "ts": "2026-10-16T15:40:02+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164949",
-          "distance_m": 442,
-          "minutes_apart": 37
-        }
-      ]
-    },
-    {
-      "id": "tps_71d263385083",
-      "source": "police",
-      "lat": 43.77602017116888,
-      "lng": -79.43648129919357,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D32",
-      "location": "CLARKHILL ST - MELTON GROVE ST",
-      "ts": "2026-10-16T15:35:52+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11402,25 +11456,41 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 9,
+      "current_count": 8,
       "baseline_avg": 2.5,
-      "ratio": 3.7,
+      "ratio": 3.2,
       "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_4bbcdf58ccb2",
         "tps_03469840bb32",
         "tps_32a388248b5a",
         "tps_855758c94b71",
-        "tps_fb379155c715",
-        "tps_af7836feb55a"
+        "tps_fb379155c715"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 6,
+      "baseline_avg": 1.9,
+      "ratio": 3.2,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5c3d43f06135",
+        "tps_9adc8c43c828",
+        "tps_d5eae7ae625b",
+        "tps_0a63fe18d241",
+        "tps_5677489432bd"
       ]
     },
     {
       "source": "police",
       "division": "D41",
-      "current_count": 6,
+      "current_count": 5,
       "baseline_avg": 1.6,
-      "ratio": 3.7,
+      "ratio": 3.1,
       "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
@@ -11433,49 +11503,47 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.7,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_01e66650904a",
-        "tps_5f9bb02163aa",
-        "tps_55b89db6d6a3",
-        "tps_c33258d95193"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D43",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.9,
-      "ratio": 2.6,
+      "ratio": 2.1,
       "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_83b0c98adeed",
         "tps_c7550dfdbf13",
         "tps_09fa0604fc36",
-        "tps_29bee9bb9425",
-        "tps_63f34e57126b"
+        "tps_29bee9bb9425"
       ]
     },
     {
       "source": "police",
-      "division": "D53",
+      "division": "D51",
       "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 9,
+      "baseline_avg": 2.5,
+      "ratio": 2.0,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
-        "tps_9adc8c43c828",
-        "tps_d5eae7ae625b",
-        "tps_0a63fe18d241",
-        "tps_5677489432bd",
-        "tps_271f39e4f626"
+        "tps_6cbd33bf219f",
+        "tps_6d2182a560e1",
+        "tps_2f523ad60fe6",
+        "tps_9dbb632aba0e",
+        "tps_eff518a38fd3"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_01e66650904a",
+        "tps_5f9bb02163aa",
+        "tps_55b89db6d6a3"
       ]
     }
   ]
