@@ -1,11 +1,134 @@
 {
-  "generated": "2026-10-17T21:26:29.528412+00:00",
+  "generated": "2026-10-17T21:41:30.940268+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165736",
+      "source": "fire",
+      "lat": 43.7136898,
+      "lng": -79.354756,
+      "type": "Rescue - Elevator",
+      "type_plain": "Rescue - Elevator",
+      "severity": "medium",
+      "division": "321",
+      "location": "East York - BRIAN PECK CRES & VANDERHOOF AVE",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-17T21:34:19+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_37043166b09c",
+      "source": "police",
+      "lat": 43.693104288392405,
+      "lng": -79.56123686493264,
+      "type": "THE",
+      "type_plain": "THE",
+      "severity": "low",
+      "division": "D23",
+      "location": "TANGAMO RD - SABRINA DR",
+      "ts": "2026-10-17T21:19:30+00:00",
+      "related": [
+        {
+          "id": "tps_6357adfe2ef7",
+          "distance_m": 0,
+          "minutes_apart": 123
+        }
+      ]
+    },
+    {
+      "id": "tps_2d2ee4266288",
+      "source": "police",
+      "lat": 43.768461696357065,
+      "lng": -79.18874450594436,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D43",
+      "location": "FALAISE RD - MORNINGSIDE AVE",
+      "ts": "2026-10-17T21:14:42+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1d5c5cb0d147",
+      "source": "police",
+      "lat": 43.7118015624421,
+      "lng": -79.36407030103234,
+      "type": "HOLAL",
+      "type_plain": "HOLAL",
+      "severity": "low",
+      "division": "D53",
+      "location": "LAIRD DR - VAUGHAN ST",
+      "ts": "2026-10-17T21:13:53+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_06edf9eb0a58",
+      "source": "police",
+      "lat": 43.75786462249319,
+      "lng": -79.31523357097439,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D41",
+      "location": "VICTORIA PARK AVE - POLLARD DR",
+      "ts": "2026-10-17T21:10:18+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5c2f7114c8c2",
+      "source": "police",
+      "lat": 43.59643038479123,
+      "lng": -79.5249778067046,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D22",
+      "location": "TWENTY SEVENTH ST - TWENTY EIGHTH ST",
+      "ts": "2026-10-17T21:07:23+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c4c0914181ee",
+      "source": "police",
+      "lat": 43.74774968158096,
+      "lng": -79.55347548841624,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D31",
+      "location": " - ",
+      "ts": "2026-10-17T21:06:18+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_dfebc366af6b",
+      "source": "police",
+      "lat": 43.66068869979243,
+      "lng": -79.3747326519609,
+      "type": "EXPJU",
+      "type_plain": "EXPJU",
+      "severity": "low",
+      "division": "D51",
+      "location": "ALLAN GARDENS TRL - ALLAN GARDENS TRL",
+      "ts": "2026-10-17T21:05:33+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165714",
+          "distance_m": 198,
+          "minutes_apart": 5
+        },
+        {
+          "id": "tps_ac19cc055678",
+          "distance_m": 395,
+          "minutes_apart": 90
+        }
+      ]
+    },
     {
       "id": "tps_b93d41096919",
       "source": "police",
@@ -39,6 +162,11 @@
       "units": "P313, P314",
       "ts": "2026-10-17T21:00:53+00:00",
       "related": [
+        {
+          "id": "tps_dfebc366af6b",
+          "distance_m": 198,
+          "minutes_apart": 5
+        },
         {
           "id": "tps_ac19cc055678",
           "distance_m": 240,
@@ -670,6 +798,11 @@
           "minutes_apart": 85
         },
         {
+          "id": "tps_dfebc366af6b",
+          "distance_m": 395,
+          "minutes_apart": 90
+        },
+        {
           "id": "tps_f5944206a3ea",
           "distance_m": 446,
           "minutes_apart": 2
@@ -794,7 +927,13 @@
       "division": "D23",
       "location": "TANGAMO RD - SABRINA DR",
       "ts": "2026-10-17T19:16:41+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_37043166b09c",
+          "distance_m": 0,
+          "minutes_apart": 123
+        }
+      ]
     },
     {
       "id": "tps_86f6fcb85261",
@@ -10074,13 +10213,7 @@
       "division": "D41",
       "location": "BIRCHMOUNT RD - NORTH WOODROW BLVD",
       "ts": "2026-10-16T23:08:10+00:00",
-      "related": [
-        {
-          "id": "tps_2f25e3f28e5a",
-          "distance_m": 374,
-          "minutes_apart": 90
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_44e780ee68ce",
@@ -10800,73 +10933,15 @@
       "location": "PRINCE EDWARD DR N - DUNEDIN DR",
       "ts": "2026-10-16T21:42:21+00:00",
       "related": []
-    },
-    {
-      "id": "tps_2f25e3f28e5a",
-      "source": "police",
-      "lat": 43.71419039987332,
-      "lng": -79.27114129171035,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D41",
-      "location": "BIRCHMOUNT RD - ST CLAIR AVE E",
-      "ts": "2026-10-16T21:38:28+00:00",
-      "related": [
-        {
-          "id": "tps_02ff3030da1c",
-          "distance_m": 374,
-          "minutes_apart": 90
-        }
-      ]
-    },
-    {
-      "id": "tps_6c9ffa471ae1",
-      "source": "police",
-      "lat": 43.676354518290445,
-      "lng": -79.45058401699507,
-      "type": "MISCH",
-      "type_plain": "Mischief",
-      "severity": "medium",
-      "division": "D13",
-      "location": "LANSDOWNE AVE - LN W LANSDOWNE S ST CLAIR",
-      "ts": "2026-10-16T21:37:26+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ff261a3c0b2e",
-      "source": "police",
-      "lat": 43.604488103407654,
-      "lng": -79.49349323989708,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D22",
-      "location": "ALBANI ST - EASTBOURNE CRES",
-      "ts": "2026-10-16T21:34:38+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_741b17975a6e",
-      "source": "police",
-      "lat": 43.6615215047562,
-      "lng": -79.40974753345093,
-      "type": "SEEFI",
-      "type_plain": "SEEFI",
-      "severity": "low",
-      "division": "D14",
-      "location": "BATHURST ST - HARBORD ST",
-      "ts": "2026-10-16T21:32:44+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 7,
+      "current_count": 6,
       "baseline_avg": 1.8,
-      "ratio": 3.8,
+      "ratio": 3.3,
       "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
@@ -10879,18 +10954,18 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.1,
-      "ratio": 3.3,
-      "sample_days": 11,
+      "division": "D51",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 2.9,
+      "sample_days": 15,
       "window_hours": 3,
       "example_ids": [
-        "tps_151a01ec4f09",
-        "tps_cfc9562fdbc3",
-        "tps_ed1f4d667725",
-        "tps_05c72eeeaca6",
-        "tps_1fe38d47149e"
+        "tps_dfebc366af6b",
+        "tps_a1088946f122",
+        "tps_f5944206a3ea",
+        "tps_ac19cc055678",
+        "tps_e8b6d1cfc75b"
       ]
     },
     {
@@ -10911,18 +10986,49 @@
     },
     {
       "source": "police",
-      "division": "D43",
+      "division": "HP",
       "current_count": 6,
       "baseline_avg": 2.1,
-      "ratio": 2.8,
-      "sample_days": 9,
+      "ratio": 2.9,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
+        "tps_151a01ec4f09",
+        "tps_cfc9562fdbc3",
+        "tps_ed1f4d667725",
+        "tps_05c72eeeaca6",
+        "tps_1fe38d47149e"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D43",
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_2d2ee4266288",
         "tps_b29cc20841f3",
         "tps_889070203096",
         "tps_47952214bcac",
-        "tps_ccc9a2162774",
-        "tps_09320b2bd9e4"
+        "tps_ccc9a2162774"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_37043166b09c",
+        "tps_b93d41096919",
+        "tps_6357adfe2ef7",
+        "tps_86f6fcb85261"
       ]
     },
     {
@@ -10938,21 +11044,6 @@
         "tps_86aa6140fb72",
         "tps_308b42c0ce0d",
         "tps_6457191071aa"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 14,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_a1088946f122",
-        "tps_f5944206a3ea",
-        "tps_ac19cc055678",
-        "tps_e8b6d1cfc75b"
       ]
     },
     {
