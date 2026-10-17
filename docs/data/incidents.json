@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T04:55:05.587240+00:00",
+  "generated": "2026-10-17T05:10:07.620795+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -10854,109 +10854,16 @@
       "location": "LN W ROYAL YORK N MELROSE - CREMORNE AVE",
       "ts": "2026-10-16T05:16:03+00:00",
       "related": []
-    },
-    {
-      "id": "tps_475562874245",
-      "source": "police",
-      "lat": 43.67009331541566,
-      "lng": -79.41317363568719,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D14",
-      "location": "BATHURST ST - WELLS ST",
-      "ts": "2026-10-16T05:08:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_9cd336aaee0a",
-      "source": "police",
-      "lat": 43.67030781395319,
-      "lng": -79.40529133977932,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D53",
-      "location": "LOWTHER AVE - KENDAL AVE",
-      "ts": "2026-10-16T05:03:06+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b76b003116d1",
-      "source": "police",
-      "lat": 43.66191650293259,
-      "lng": -79.35388236894738,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "HP",
-      "location": "DON VALLEY PARKWAY N - DUNDAS ST E",
-      "ts": "2026-10-16T05:01:46+00:00",
-      "related": [
-        {
-          "id": "tps_f14c1711e70c",
-          "distance_m": 590,
-          "minutes_apart": 3
-        }
-      ]
-    },
-    {
-      "id": "tps_f14c1711e70c",
-      "source": "police",
-      "lat": 43.65681309591681,
-      "lng": -79.35189136804368,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D55",
-      "location": "DON VALLEY PARKWAY N - EASTERN AV E DVP N RAMP",
-      "ts": "2026-10-16T04:58:53+00:00",
-      "related": [
-        {
-          "id": "tps_b76b003116d1",
-          "distance_m": 590,
-          "minutes_apart": 3
-        }
-      ]
-    },
-    {
-      "id": "tps_a3ee12d98dbf",
-      "source": "police",
-      "lat": 43.689501094579924,
-      "lng": -79.35364911130229,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D55",
-      "location": "BROADVIEW AVE - LN W PAPE N TORRENS",
-      "ts": "2026-10-16T04:56:25+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 8,
-      "baseline_avg": 1.6,
-      "ratio": 5.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c55390437619",
-        "tps_76d0be22c2e1",
-        "tps_f9e334ec7a94",
-        "tps_e170fb78f6e0",
-        "tps_dcf238e11a2d"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D32",
       "current_count": 7,
-      "baseline_avg": 1.8,
-      "ratio": 3.8,
-      "sample_days": 12,
+      "baseline_avg": 1.5,
+      "ratio": 4.7,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_e4edfd58ac39",
@@ -10969,10 +10876,10 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 9,
-      "baseline_avg": 2.6,
+      "current_count": 8,
+      "baseline_avg": 2.3,
       "ratio": 3.4,
-      "sample_days": 14,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
         "tps_afa49b9d3fdc",
@@ -10984,11 +10891,42 @@
     },
     {
       "source": "police",
+      "division": "D53",
+      "current_count": 7,
+      "baseline_avg": 2.1,
+      "ratio": 3.3,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c55390437619",
+        "tps_76d0be22c2e1",
+        "tps_f9e334ec7a94",
+        "tps_e170fb78f6e0",
+        "tps_dcf238e11a2d"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D12",
+      "current_count": 4,
+      "baseline_avg": 1.5,
+      "ratio": 2.7,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5d0dbd3fea44",
+        "tps_33fe76ef057e",
+        "tps_68e013baf20c",
+        "tps_e0aeb319cd3a"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D51",
       "current_count": 5,
-      "baseline_avg": 2.0,
-      "ratio": 2.5,
-      "sample_days": 13,
+      "baseline_avg": 2.1,
+      "ratio": 2.4,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_3231b2962b69",
@@ -11001,46 +10939,15 @@
     {
       "source": "police",
       "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 8,
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
         "tps_69228d1df951",
         "tps_90054b6ac49e",
-        "tps_81d14a5eda55",
-        "tps_f66a0e0602c9"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.3,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3ab9bb84c702",
-        "tps_e25185d34550",
-        "tps_6832ace8a31f",
-        "tps_d18293b29de1"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D12",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5d0dbd3fea44",
-        "tps_33fe76ef057e",
-        "tps_68e013baf20c",
-        "tps_e0aeb319cd3a"
+        "tps_81d14a5eda55"
       ]
     }
   ]
