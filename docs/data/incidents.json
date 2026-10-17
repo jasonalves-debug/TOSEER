@@ -1,11 +1,71 @@
 {
-  "generated": "2026-10-17T05:25:07.833149+00:00",
+  "generated": "2026-10-17T05:40:10.252204+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165364",
+      "source": "fire",
+      "lat": 43.6439724,
+      "lng": -79.3693825,
+      "type": "Hazmat Level 1",
+      "type_plain": "Hazmat Level 1",
+      "severity": "medium",
+      "division": "333",
+      "location": "Toronto - QUEEN ST & JARVIS ST",
+      "approximate": false,
+      "units": "P333",
+      "ts": "2026-10-17T05:25:23+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_8d5b4fb69088",
+      "source": "police",
+      "lat": 43.592679070705756,
+      "lng": -79.53653053647145,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D22",
+      "location": "THIRTY FIFTH ST - THIRTY SIXTH ST",
+      "ts": "2026-10-17T05:24:24+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_0470f9388178",
+      "source": "police",
+      "lat": 43.689674704274495,
+      "lng": -79.4176120292701,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D13",
+      "location": "CEDARVALE RAVINE TRL - MILLBANK AVE",
+      "ts": "2026-10-17T05:18:16+00:00",
+      "related": [
+        {
+          "id": "tps_b52b1ed0ca99",
+          "distance_m": 467,
+          "minutes_apart": 174
+        }
+      ]
+    },
+    {
+      "id": "tps_ce8187f7f271",
+      "source": "police",
+      "lat": 43.66838911093921,
+      "lng": -79.40200554022768,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D53",
+      "location": "ST GEORGE ST - HURON ST",
+      "ts": "2026-10-17T05:16:52+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165353",
       "source": "fire",
@@ -26,6 +86,45 @@
           "minutes_apart": 17
         }
       ]
+    },
+    {
+      "id": "tps_3b17ee1548d5",
+      "source": "police",
+      "lat": 43.811979638988625,
+      "lng": -79.22674887751587,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D42",
+      "location": " - ",
+      "ts": "2026-10-17T05:06:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_842981e38564",
+      "source": "police",
+      "lat": 43.75870444075902,
+      "lng": -79.28691970309184,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "ELLENDALE DR - BIRCHMOUNT RD",
+      "ts": "2026-10-17T05:06:33+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_66bfefef96d6",
+      "source": "police",
+      "lat": 43.63462567879684,
+      "lng": -79.43057832313923,
+      "type": "ARR",
+      "type_plain": "Arrest / Arrived at Scene",
+      "severity": "low",
+      "division": "D14",
+      "location": "SPRINGHURST AVE - SPENCER COWAN PARKETTE TRL",
+      "ts": "2026-10-17T05:04:41+00:00",
+      "related": []
     },
     {
       "id": "tps_20bcdc1ba4a1",
@@ -1196,6 +1295,11 @@
           "id": "tps_0f2628ff2e47",
           "distance_m": 388,
           "minutes_apart": 46
+        },
+        {
+          "id": "tps_0470f9388178",
+          "distance_m": 467,
+          "minutes_apart": 174
         }
       ]
     },
@@ -10287,13 +10391,7 @@
       "division": "D23",
       "location": "ST GEORGES BLVD - LEMSFORD RD",
       "ts": "2026-10-16T08:15:54+00:00",
-      "related": [
-        {
-          "id": "tps_7a40d2007573",
-          "distance_m": 215,
-          "minutes_apart": 165
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_c824f5679a54",
@@ -10306,13 +10404,7 @@
       "division": "D14",
       "location": "ADELAIDE ST W - RICHMOND ST W",
       "ts": "2026-10-16T08:15:10+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164747",
-          "distance_m": 258,
-          "minutes_apart": 155
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_2db862c2acc3",
@@ -10833,72 +10925,6 @@
       "location": "HUMBER BAY PARK RD W - LEGION RD",
       "ts": "2026-10-16T05:42:07+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26164747",
-      "source": "fire",
-      "lat": 43.645334,
-      "lng": -79.4033821,
-      "type": "Check Call - Non Emergency",
-      "type_plain": "Check Call - Non Emergency",
-      "severity": "medium",
-      "division": "331",
-      "location": "KING ST W & BATHURST ST",
-      "approximate": false,
-      "units": "L331",
-      "ts": "2026-10-16T05:39:57+00:00",
-      "related": [
-        {
-          "id": "tps_c824f5679a54",
-          "distance_m": 258,
-          "minutes_apart": 155
-        }
-      ]
-    },
-    {
-      "id": "tps_a64d8e398ab3",
-      "source": "police",
-      "lat": 43.64251678787799,
-      "lng": -79.42710522429698,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D14",
-      "location": "QUEEN ST W - SUDBURY ST",
-      "ts": "2026-10-16T05:33:20+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7a40d2007573",
-      "source": "police",
-      "lat": 43.705107312255635,
-      "lng": -79.55042602072535,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D23",
-      "location": "MONOGRAM PL - METROLINX",
-      "ts": "2026-10-16T05:30:42+00:00",
-      "related": [
-        {
-          "id": "tps_04e765850397",
-          "distance_m": 215,
-          "minutes_apart": 165
-        }
-      ]
-    },
-    {
-      "id": "tps_bfe2c8383c2d",
-      "source": "police",
-      "lat": 43.80375553493239,
-      "lng": -79.30106210350309,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D42",
-      "location": "RAKEWOOD CRES - DANCY AVE",
-      "ts": "2026-10-16T05:30:13+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10920,18 +10946,34 @@
     },
     {
       "source": "police",
-      "division": "HP",
+      "division": "D53",
       "current_count": 7,
-      "baseline_avg": 2.3,
-      "ratio": 3.0,
-      "sample_days": 12,
+      "baseline_avg": 2.0,
+      "ratio": 3.5,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
+        "tps_ce8187f7f271",
+        "tps_c55390437619",
+        "tps_76d0be22c2e1",
+        "tps_f9e334ec7a94",
+        "tps_e170fb78f6e0"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 7,
+      "baseline_avg": 2.2,
+      "ratio": 3.1,
+      "sample_days": 13,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_842981e38564",
         "tps_afa49b9d3fdc",
         "tps_3fcd8ee4a2f7",
         "tps_bba7ae51ff9a",
-        "tps_3e5d4ad7f8d7",
-        "tps_f9d85ec83895"
+        "tps_3e5d4ad7f8d7"
       ]
     },
     {
@@ -10968,22 +11010,6 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 6,
-      "baseline_avg": 2.1,
-      "ratio": 2.8,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c55390437619",
-        "tps_76d0be22c2e1",
-        "tps_f9e334ec7a94",
-        "tps_e170fb78f6e0",
-        "tps_dcf238e11a2d"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D12",
       "current_count": 4,
       "baseline_avg": 1.5,
@@ -10995,20 +11021,6 @@
         "tps_33fe76ef057e",
         "tps_68e013baf20c",
         "tps_e0aeb319cd3a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_bc4cdda7e3df",
-        "tps_e9edd07da07e",
-        "tps_6bf9f539dd2d"
       ]
     },
     {
