@@ -1,11 +1,57 @@
 {
-  "generated": "2026-10-17T15:11:06.916988+00:00",
+  "generated": "2026-10-17T15:26:10.081685+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165548",
+      "source": "fire",
+      "lat": 43.6613834,
+      "lng": -79.3788736,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "314",
+      "location": "Toronto - CHURCH ST & GRANBY ST",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-17T15:19:06+00:00",
+      "related": [
+        {
+          "id": "tps_6d2182a560e1",
+          "distance_m": 274,
+          "minutes_apart": 71
+        },
+        {
+          "id": "tps_1a175dccea4c",
+          "distance_m": 586,
+          "minutes_apart": 43
+        },
+        {
+          "id": "tps_9dbb632aba0e",
+          "distance_m": 594,
+          "minutes_apart": 143
+        }
+      ]
+    },
+    {
+      "id": "tfs_F26165541",
+      "source": "fire",
+      "lat": 43.7585969,
+      "lng": -79.3615021,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "116",
+      "location": "LESLIE ST & BANNATYNE DR",
+      "approximate": false,
+      "units": "R122",
+      "ts": "2026-10-17T15:14:12+00:00",
+      "related": []
+    },
     {
       "id": "tps_03469840bb32",
       "source": "police",
@@ -233,6 +279,11 @@
           "id": "tps_9dbb632aba0e",
           "distance_m": 520,
           "minutes_apart": 100
+        },
+        {
+          "id": "tfs_F26165548",
+          "distance_m": 586,
+          "minutes_apart": 43
         }
       ]
     },
@@ -340,6 +391,11 @@
       "location": "GERRARD ST E - COLLEGE ST",
       "ts": "2026-10-17T14:08:15+00:00",
       "related": [
+        {
+          "id": "tfs_F26165548",
+          "distance_m": 274,
+          "minutes_apart": 71
+        },
         {
           "id": "tps_1a175dccea4c",
           "distance_m": 481,
@@ -790,6 +846,11 @@
           "id": "tps_1a175dccea4c",
           "distance_m": 520,
           "minutes_apart": 100
+        },
+        {
+          "id": "tfs_F26165548",
+          "distance_m": 594,
+          "minutes_apart": 143
         }
       ]
     },
@@ -10015,13 +10076,7 @@
       "division": "D52",
       "location": "DUNDAS ST W - GLEN BAILLIE PL",
       "ts": "2026-10-16T18:06:22+00:00",
-      "related": [
-        {
-          "id": "tps_5a603000e213",
-          "distance_m": 114,
-          "minutes_apart": 167
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_8c127ebd2af6",
@@ -10207,11 +10262,6 @@
       "location": "BREMNER BLVD - METROLINX",
       "ts": "2026-10-16T17:35:50+00:00",
       "related": [
-        {
-          "id": "tps_cb656d951db9",
-          "distance_m": 305,
-          "minutes_apart": 137
-        },
         {
           "id": "tps_a2f7002bb8ac",
           "distance_m": 386,
@@ -10952,13 +11002,7 @@
       "division": "D41",
       "location": "DODGE RD - CLONMORE DR",
       "ts": "2026-10-16T16:25:15+00:00",
-      "related": [
-        {
-          "id": "tps_c8cc493916cf",
-          "distance_m": 416,
-          "minutes_apart": 71
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_98ea12d9f4dc",
@@ -11336,102 +11380,6 @@
       "location": "CLARKHILL ST - MELTON GROVE ST",
       "ts": "2026-10-16T15:35:52+00:00",
       "related": []
-    },
-    {
-      "id": "tps_1e85c68d042b",
-      "source": "police",
-      "lat": 43.67177454421725,
-      "lng": -79.47110771721377,
-      "type": "TRE",
-      "type_plain": "Trespassing",
-      "severity": "low",
-      "division": "D11",
-      "location": "OLD STOCK YARDS RD - MONDOVI GT",
-      "ts": "2026-10-16T15:21:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5a603000e213",
-      "source": "police",
-      "lat": 43.65208579177259,
-      "lng": -79.39866383491702,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D14",
-      "location": "WILLISON SQ - DUNDAS ST W",
-      "ts": "2026-10-16T15:19:49+00:00",
-      "related": [
-        {
-          "id": "tps_2a601c69f97a",
-          "distance_m": 114,
-          "minutes_apart": 167
-        }
-      ]
-    },
-    {
-      "id": "tps_cb656d951db9",
-      "source": "police",
-      "lat": 43.64049657920943,
-      "lng": -79.38327024170712,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D52",
-      "location": "LAKE SHORE BLVD W - LOWER SIMCOE ST",
-      "ts": "2026-10-16T15:18:37+00:00",
-      "related": [
-        {
-          "id": "tps_335ba19f96bc",
-          "distance_m": 305,
-          "minutes_apart": 137
-        }
-      ]
-    },
-    {
-      "id": "tps_9f6c48f89372",
-      "source": "police",
-      "lat": 43.732926676444706,
-      "lng": -79.40424144612284,
-      "type": "THEPR",
-      "type_plain": "Theft (Priority)",
-      "severity": "medium",
-      "division": "D32",
-      "location": "GOLFDALE RD - MELROSE AVE",
-      "ts": "2026-10-16T15:15:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f54a45b092fb",
-      "source": "police",
-      "lat": 43.68244671517957,
-      "lng": -79.32055513497103,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D55",
-      "location": "HILLINGDON AVE - DRAYTON AVE",
-      "ts": "2026-10-16T15:14:22+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c8cc493916cf",
-      "source": "police",
-      "lat": 43.68819153473278,
-      "lng": -79.27702956677086,
-      "type": "DAMAU",
-      "type_plain": "DAMAU",
-      "severity": "low",
-      "division": "D41",
-      "location": "KINGSTON RD - CLONMORE DR",
-      "ts": "2026-10-16T15:13:56+00:00",
-      "related": [
-        {
-          "id": "tps_f7d03df40c66",
-          "distance_m": 416,
-          "minutes_apart": 71
-        }
-      ]
     }
   ],
   "anomalies": [
