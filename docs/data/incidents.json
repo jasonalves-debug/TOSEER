@@ -1,11 +1,129 @@
 {
-  "generated": "2026-10-17T09:40:28.077526+00:00",
+  "generated": "2026-10-17T09:55:27.707662+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_fa642d85a5a9",
+      "source": "police",
+      "lat": 43.648322592670645,
+      "lng": -79.42036842654258,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D14",
+      "location": " - ",
+      "ts": "2026-10-17T09:35:02+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26165421",
+      "source": "fire",
+      "lat": 43.7058216,
+      "lng": -79.2785805,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "222",
+      "location": "Scarborough - WARDEN AVE & 662 WARDEN AVE",
+      "approximate": false,
+      "units": "P222, P225",
+      "ts": "2026-10-17T09:32:18+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5d9ed819cba6",
+      "source": "police",
+      "lat": 43.666659509809364,
+      "lng": -79.40380913861458,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D53",
+      "location": "BLOOR ST W - ANNEX LANE",
+      "ts": "2026-10-17T09:32:10+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1581be01bd8c",
+      "source": "police",
+      "lat": 43.75481587438247,
+      "lng": -79.59129389085935,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D23",
+      "location": "HAIMER AVE - HAIMER AVE",
+      "ts": "2026-10-17T09:19:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_039d51a17461",
+      "source": "police",
+      "lat": 43.649888388992,
+      "lng": -79.38079734335568,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D52",
+      "location": "BAY ST - ",
+      "ts": "2026-10-17T09:14:42+00:00",
+      "related": [
+        {
+          "id": "tps_db4ce3c0a8af",
+          "distance_m": 333,
+          "minutes_apart": 153
+        }
+      ]
+    },
+    {
+      "id": "tps_0cf822363ff8",
+      "source": "police",
+      "lat": 43.7974712880144,
+      "lng": -79.33094577743309,
+      "type": "PERGU",
+      "type_plain": "Person Guarding / Person Gone",
+      "severity": "low",
+      "division": "D42",
+      "location": "PETTIBONE SQ - PETTIBONE SQ",
+      "ts": "2026-10-17T09:13:45+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_17f564d964a7",
+      "source": "police",
+      "lat": 43.698576081505166,
+      "lng": -79.53983126078289,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D23",
+      "location": "GOLFWOOD HTS - DIXINGTON CRES",
+      "ts": "2026-10-17T09:11:43+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_86a882dda8fb",
+      "source": "police",
+      "lat": 43.78706430049283,
+      "lng": -79.41733932969692,
+      "type": "SEEFI",
+      "type_plain": "SEEFI",
+      "severity": "low",
+      "division": "D32",
+      "location": "YONGE ST - RODEO CRT",
+      "ts": "2026-10-17T09:09:37+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165409",
+          "distance_m": 18,
+          "minutes_apart": 53
+        }
+      ]
+    },
     {
       "id": "tps_9fcade9a6850",
       "source": "police",
@@ -135,7 +253,13 @@
       "approximate": false,
       "units": "P114",
       "ts": "2026-10-17T08:16:23+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_86a882dda8fb",
+          "distance_m": 18,
+          "minutes_apart": 53
+        }
+      ]
     },
     {
       "id": "tps_d1831606ed66",
@@ -730,6 +854,11 @@
       "location": "VICTORIA ST - RICHMOND ST E",
       "ts": "2026-10-17T06:41:32+00:00",
       "related": [
+        {
+          "id": "tps_039d51a17461",
+          "distance_m": 333,
+          "minutes_apart": 153
+        },
         {
           "id": "tps_5e58129afb4f",
           "distance_m": 583,
@@ -11443,13 +11572,7 @@
       "division": "HP",
       "location": "MARKHAM RD - STEELES AVE E",
       "ts": "2026-10-16T09:58:13+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164815",
-          "distance_m": 265,
-          "minutes_apart": 5
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_ee956a273ff3",
@@ -11463,65 +11586,19 @@
       "location": "LN 2 N QUEEN E KINGSTON - LARK ST",
       "ts": "2026-10-16T09:56:14+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26164815",
-      "source": "fire",
-      "lat": 43.836369,
-      "lng": -79.2515573,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "211",
-      "location": "MARKHAM RD & STEELES AVE E",
-      "approximate": false,
-      "units": "P211",
-      "ts": "2026-10-16T09:53:38+00:00",
-      "related": [
-        {
-          "id": "tps_67554c532c23",
-          "distance_m": 265,
-          "minutes_apart": 5
-        }
-      ]
-    },
-    {
-      "id": "tps_068324ade968",
-      "source": "police",
-      "lat": 43.77987543376286,
-      "lng": -79.30008798127834,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D42",
-      "location": "AMETHYST RD - BIRCHMOUNT RD",
-      "ts": "2026-10-16T09:44:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_54097416dbaa",
-      "source": "police",
-      "lat": 43.7530047237781,
-      "lng": -79.31352697282816,
-      "type": "PERKN",
-      "type_plain": "PERKN",
-      "severity": "low",
-      "division": "D33",
-      "location": "IVORDALE CRES - CASSANDRA BLVD",
-      "ts": "2026-10-16T09:41:45+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D14",
-      "current_count": 4,
+      "current_count": 5,
       "baseline_avg": 1.0,
-      "ratio": 4.0,
-      "sample_days": 5,
+      "ratio": 5.0,
+      "sample_days": 6,
       "window_hours": 3,
       "example_ids": [
+        "tps_fa642d85a5a9",
         "tps_d1831606ed66",
         "tps_bb52c1353ce6",
         "tps_0c8735acdae1",
@@ -11531,12 +11608,13 @@
     {
       "source": "police",
       "division": "D53",
-      "current_count": 3,
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 7,
+      "ratio": 4.0,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
+        "tps_5d9ed819cba6",
         "tps_6fbd708da7b8",
         "tps_8dfac4618362",
         "tps_5e2f3fb9b108"
@@ -11544,17 +11622,45 @@
     },
     {
       "source": "police",
-      "division": "D51",
+      "division": "D52",
       "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.6,
-      "sample_days": 9,
+      "baseline_avg": 1.0,
+      "ratio": 4.0,
+      "sample_days": 3,
       "window_hours": 3,
       "example_ids": [
-        "tps_c2d845ffbce5",
-        "tps_96625cb4b1d6",
-        "tps_5e58129afb4f",
-        "tps_db4ce3c0a8af"
+        "tps_039d51a17461",
+        "tps_8478c5d264c1",
+        "tps_0f4a97e41ef3",
+        "tps_6effe62333a6"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 3,
+      "baseline_avg": 1.0,
+      "ratio": 3.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_86a882dda8fb",
+        "tps_9d7d5ed6b201",
+        "tps_1cbf68795fd3"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D23",
+      "current_count": 3,
+      "baseline_avg": 1.1,
+      "ratio": 2.6,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_1581be01bd8c",
+        "tps_17f564d964a7",
+        "tps_d19e5e2edf57"
       ]
     },
     {
@@ -11562,27 +11668,13 @@
       "division": "D42",
       "current_count": 3,
       "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 6,
+      "ratio": 2.3,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
+        "tps_0cf822363ff8",
         "tps_9fcade9a6850",
-        "tps_e74eed84637a",
-        "tps_ce65482aff8e"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D41",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.2,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_54e0f1389f99",
-        "tps_5a1c7c57bcfa",
-        "tps_6299a874d10c"
+        "tps_e74eed84637a"
       ]
     }
   ]
