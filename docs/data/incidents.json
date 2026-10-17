@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T02:09:47.390051+00:00",
+  "generated": "2026-10-17T02:24:43.982921+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -7,19 +7,124 @@
   "retention_hours": 24,
   "incidents": [
     {
+      "id": "tps_784028af9275",
+      "source": "police",
+      "lat": 43.65521049893544,
+      "lng": -79.4138633292948,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "MANNING AVE - CLINTON ST",
+      "ts": "2026-10-17T01:59:55+00:00",
+      "related": []
+    },
+    {
       "id": "tfs_F26165251",
       "source": "fire",
       "lat": 43.8131749,
       "lng": -79.2433838,
-      "type": "Fire -  Highrise Residential",
-      "type_plain": "Fire -  Highrise Residential",
+      "type": "Fire - Commercial/Industrial",
+      "type_plain": "Fire - Commercial/Industrial",
       "severity": "medium",
       "division": "211",
       "location": "Scarborough - FINCH AVE & MARKHAM RD",
       "approximate": false,
-      "units": "",
+      "units": "A213, A242, C21, C24, C24, HR114, LA231, P212, P231, R214, R241, S232",
       "ts": "2026-10-17T01:59:13+00:00",
       "related": []
+    },
+    {
+      "id": "tps_f66a0e0602c9",
+      "source": "police",
+      "lat": 43.723740251825625,
+      "lng": -79.57095737638441,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D23",
+      "location": "MONCRIEFF DR - WANSEY RD",
+      "ts": "2026-10-17T01:56:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_faf47c55fdf0",
+      "source": "police",
+      "lat": 43.76133302065415,
+      "lng": -79.32501386687734,
+      "type": "THEJU",
+      "type_plain": "Theft (Just Occurred)",
+      "severity": "medium",
+      "division": "D33",
+      "location": "FENSIDE DR - PARKWOODS VILLAGE DR",
+      "ts": "2026-10-17T01:56:56+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_496be617e156",
+      "source": "police",
+      "lat": 43.592610467770406,
+      "lng": -79.54174824184716,
+      "type": "PDACC",
+      "type_plain": "Property Damage Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "FORTIETH ST - BROWN'S LINE",
+      "ts": "2026-10-17T01:50:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4b07228d58eb",
+      "source": "police",
+      "lat": 43.67008402005883,
+      "lng": -79.2998287423113,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D55",
+      "location": "QUEEN ST E - NORWAY AVE",
+      "ts": "2026-10-17T01:49:18+00:00",
+      "related": [
+        {
+          "id": "tps_5dff32dd005c",
+          "distance_m": 0,
+          "minutes_apart": 11
+        }
+      ]
+    },
+    {
+      "id": "tps_ada436b005f7",
+      "source": "police",
+      "lat": 43.65418629328998,
+      "lng": -79.3793664467043,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "D51",
+      "location": "ST ENOCH'S SQ - SHUTER ST",
+      "ts": "2026-10-17T01:47:32+00:00",
+      "related": [
+        {
+          "id": "tps_d4ef0b45741d",
+          "distance_m": 195,
+          "minutes_apart": 179
+        },
+        {
+          "id": "tps_1d09b5ff70ba",
+          "distance_m": 205,
+          "minutes_apart": 86
+        },
+        {
+          "id": "tps_8eddedac8e32",
+          "distance_m": 268,
+          "minutes_apart": 66
+        },
+        {
+          "id": "tps_f0bd66625ef6",
+          "distance_m": 312,
+          "minutes_apart": 63
+        }
+      ]
     },
     {
       "id": "tps_1c7fc56b0136",
@@ -107,7 +212,13 @@
       "division": "D41",
       "location": "QUEEN ST E - NORWAY AVE",
       "ts": "2026-10-17T01:38:40+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_4b07228d58eb",
+          "distance_m": 0,
+          "minutes_apart": 11
+        }
+      ]
     },
     {
       "id": "tps_0f2628ff2e47",
@@ -567,6 +678,11 @@
           "minutes_apart": 116
         },
         {
+          "id": "tps_ada436b005f7",
+          "distance_m": 312,
+          "minutes_apart": 63
+        },
+        {
           "id": "tps_1d09b5ff70ba",
           "distance_m": 436,
           "minutes_apart": 23
@@ -631,6 +747,11 @@
           "id": "tps_1d09b5ff70ba",
           "distance_m": 121,
           "minutes_apart": 19
+        },
+        {
+          "id": "tps_ada436b005f7",
+          "distance_m": 268,
+          "minutes_apart": 66
         },
         {
           "id": "tps_d4ef0b45741d",
@@ -935,6 +1056,11 @@
           "id": "tps_8eddedac8e32",
           "distance_m": 121,
           "minutes_apart": 19
+        },
+        {
+          "id": "tps_ada436b005f7",
+          "distance_m": 205,
+          "minutes_apart": 86
         },
         {
           "id": "tfs_F26165134",
@@ -1686,6 +1812,11 @@
       "location": "QUEEN ST W - SHUTER ST",
       "ts": "2026-10-16T22:48:42+00:00",
       "related": [
+        {
+          "id": "tps_ada436b005f7",
+          "distance_m": 195,
+          "minutes_apart": 179
+        },
         {
           "id": "tps_f0bd66625ef6",
           "distance_m": 293,
@@ -10092,11 +10223,6 @@
       "ts": "2026-10-16T03:52:44+00:00",
       "related": [
         {
-          "id": "tps_b22704201765",
-          "distance_m": 407,
-          "minutes_apart": 100
-        },
-        {
           "id": "tps_aebe92357660",
           "distance_m": 519,
           "minutes_apart": 92
@@ -10441,11 +10567,6 @@
       "ts": "2026-10-16T03:19:39+00:00",
       "related": [
         {
-          "id": "tps_8d1856bbec18",
-          "distance_m": 502,
-          "minutes_apart": 60
-        },
-        {
           "id": "tps_89a8bfa76d57",
           "distance_m": 509,
           "minutes_apart": 162
@@ -10476,13 +10597,7 @@
       "division": "D52",
       "location": "BAY ST - ELIZABETH ST",
       "ts": "2026-10-16T03:15:06+00:00",
-      "related": [
-        {
-          "id": "tps_0636f69ea12e",
-          "distance_m": 527,
-          "minutes_apart": 61
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_4addfdb06d4e",
@@ -10848,158 +10963,6 @@
           "minutes_apart": 89
         }
       ]
-    },
-    {
-      "id": "tps_9077e639bd55",
-      "source": "police",
-      "lat": 43.7721101741036,
-      "lng": -79.25144716627295,
-      "type": "THEPR",
-      "type_plain": "Theft (Priority)",
-      "severity": "medium",
-      "division": "D43",
-      "location": "SARATOGA DR - MCCOWAN RD",
-      "ts": "2026-10-16T02:23:47+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d2a8e980c5b1",
-      "source": "police",
-      "lat": 43.69652971652109,
-      "lng": -79.29047506336607,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D55",
-      "location": "VICTORIA PARK AVE - CRESCENT TOWN RD",
-      "ts": "2026-10-16T02:23:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8c664abc39ec",
-      "source": "police",
-      "lat": 43.78886658494799,
-      "lng": -79.24009727624617,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D42",
-      "location": "SCUNTHORPE RD - MARKHAM RD",
-      "ts": "2026-10-16T02:22:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164672",
-      "source": "fire",
-      "lat": 43.7031639,
-      "lng": -79.5254213,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "442",
-      "location": "WESTON RD & CHURCH ST",
-      "approximate": false,
-      "units": "P442",
-      "ts": "2026-10-16T02:22:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_66b945f508f1",
-      "source": "police",
-      "lat": 43.656290716791474,
-      "lng": -79.45934961439929,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "LN 1 N BLOOR E KEELE - LN 2 N BLOOR E KEELE",
-      "ts": "2026-10-16T02:20:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8d1856bbec18",
-      "source": "police",
-      "lat": 43.67071482937652,
-      "lng": -79.45324772003192,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "SYMINGTON AVE - PERTH AVE",
-      "ts": "2026-10-16T02:19:38+00:00",
-      "related": [
-        {
-          "id": "tps_93ff438a7bde",
-          "distance_m": 502,
-          "minutes_apart": 60
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26164666",
-      "source": "fire",
-      "lat": 43.7163994,
-      "lng": -79.2426202,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "225",
-      "location": "KINGSTON RD & CLIFFSIDE DR",
-      "approximate": false,
-      "units": "P225",
-      "ts": "2026-10-16T02:18:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d5bd10433dd1",
-      "source": "police",
-      "lat": 43.72857214791406,
-      "lng": -79.48247884500479,
-      "type": "ASSPC",
-      "type_plain": "ASSPC",
-      "severity": "low",
-      "division": "D31",
-      "location": "INGLESIDE DR - JAMES FINLAY WAY",
-      "ts": "2026-10-16T02:16:56+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_0636f69ea12e",
-      "source": "police",
-      "lat": 43.65102649013013,
-      "lng": -79.3876619405637,
-      "type": "PERGU",
-      "type_plain": "Person Guarding / Person Gone",
-      "severity": "low",
-      "division": "D52",
-      "location": "QUEEN ST W - ARMOURY ST",
-      "ts": "2026-10-16T02:13:54+00:00",
-      "related": [
-        {
-          "id": "tps_0f57d7410dee",
-          "distance_m": 527,
-          "minutes_apart": 61
-        }
-      ]
-    },
-    {
-      "id": "tps_b22704201765",
-      "source": "police",
-      "lat": 43.64597158507521,
-      "lng": -79.38276124204644,
-      "type": "INDAC",
-      "type_plain": "INDAC",
-      "severity": "low",
-      "division": "D52",
-      "location": "BAY ST - YORK ST",
-      "ts": "2026-10-16T02:12:32+00:00",
-      "related": [
-        {
-          "id": "tfs_F26164721",
-          "distance_m": 407,
-          "minutes_apart": 100
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11012,27 +10975,11 @@
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
+        "tps_496be617e156",
         "tps_99d7b218e694",
         "tps_902dea2b3a92",
         "tps_b8883d9980d3",
-        "tps_3c087417066e",
-        "tps_4a8ab9f39177"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 6,
-      "baseline_avg": 1.5,
-      "ratio": 4.0,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0bc68cff840c",
-        "tps_8ae99264761b",
-        "tps_283f298d67e3",
-        "tps_a8ded874f413",
-        "tps_2c6026ed2e26"
+        "tps_3c087417066e"
       ]
     },
     {
@@ -11053,18 +11000,34 @@
     },
     {
       "source": "police",
-      "division": "D14",
+      "division": "D42",
       "current_count": 5,
-      "baseline_avg": 1.9,
-      "ratio": 2.7,
+      "baseline_avg": 1.5,
+      "ratio": 3.3,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
+        "tps_0bc68cff840c",
+        "tps_8ae99264761b",
+        "tps_283f298d67e3",
+        "tps_a8ded874f413",
+        "tps_2c6026ed2e26"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D14",
+      "current_count": 6,
+      "baseline_avg": 1.9,
+      "ratio": 3.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_784028af9275",
         "tps_af0241ebe96e",
         "tps_39088a09dc28",
         "tps_10a0adf6a53b",
-        "tps_4d01c2e10b8e",
-        "tps_d17a640980f3"
+        "tps_4d01c2e10b8e"
       ]
     },
     {
@@ -11112,6 +11075,22 @@
         "tps_0f1bb204f8cf",
         "tps_21adb6d71f2a",
         "tps_928807c25b69"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 5,
+      "baseline_avg": 2.5,
+      "ratio": 2.0,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_ada436b005f7",
+        "tps_f0bd66625ef6",
+        "tps_bcb9697e476d",
+        "tps_9f9fe01cf298",
+        "tps_1d09b5ff70ba"
       ]
     }
   ]
