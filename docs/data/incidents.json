@@ -1,11 +1,69 @@
 {
-  "generated": "2026-10-17T11:25:29.441469+00:00",
+  "generated": "2026-10-17T11:40:27.587672+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_4f31d340e74e",
+      "source": "police",
+      "lat": 43.74962584372624,
+      "lng": -79.29274340174616,
+      "type": "TRE",
+      "type_plain": "Trespassing",
+      "severity": "low",
+      "division": "D41",
+      "location": "AINSDALE RD - AINSDALE RD",
+      "ts": "2026-10-17T11:23:41+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_42240de5621d",
+      "source": "police",
+      "lat": 43.76884737138945,
+      "lng": -79.46691645682778,
+      "type": "BREEN",
+      "type_plain": "BREEN",
+      "severity": "low",
+      "division": "D32",
+      "location": "DUFFERIN ST - ALNESS ST",
+      "ts": "2026-10-17T11:22:44+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d8fab5396076",
+      "source": "police",
+      "lat": 43.73119653137002,
+      "lng": -79.62553218501928,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "HULLEN CRES - UPPER HUMBER DR",
+      "ts": "2026-10-17T11:18:20+00:00",
+      "related": [
+        {
+          "id": "tps_98758e77aaa3",
+          "distance_m": 0,
+          "minutes_apart": 78
+        }
+      ]
+    },
+    {
+      "id": "tps_58fbf9ab962a",
+      "source": "police",
+      "lat": 43.74532314038104,
+      "lng": -79.49235690443868,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "HP",
+      "location": "SENTINEL RD - FREDRICK MOWAT LANE",
+      "ts": "2026-10-17T11:13:54+00:00",
+      "related": []
+    },
     {
       "id": "tps_82179cdd82f7",
       "source": "police",
@@ -295,7 +353,13 @@
       "division": "D23",
       "location": "HULLEN CRES - UPPER HUMBER DR",
       "ts": "2026-10-17T10:00:17+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_d8fab5396076",
+          "distance_m": 0,
+          "minutes_apart": 78
+        }
+      ]
     },
     {
       "id": "tps_841fc8b695bc",
@@ -10312,11 +10376,6 @@
       "ts": "2026-10-16T14:29:30+00:00",
       "related": [
         {
-          "id": "tps_e09c000d5aa5",
-          "distance_m": 0,
-          "minutes_apart": 171
-        },
-        {
           "id": "tps_73b1ecebc2a6",
           "distance_m": 94,
           "minutes_apart": 66
@@ -10788,13 +10847,7 @@
       "division": "D51",
       "location": "SPRUCE ST - DOCTOR O LANE",
       "ts": "2026-10-16T13:24:14+00:00",
-      "related": [
-        {
-          "id": "tps_b8b94bad2535",
-          "distance_m": 359,
-          "minutes_apart": 116
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_73b1ecebc2a6",
@@ -10812,11 +10865,6 @@
           "id": "tps_dc897c5fcd97",
           "distance_m": 94,
           "minutes_apart": 66
-        },
-        {
-          "id": "tps_e09c000d5aa5",
-          "distance_m": 94,
-          "minutes_apart": 105
         },
         {
           "id": "tps_ec635d09180f",
@@ -11299,88 +11347,6 @@
       "location": "CARNARVON AVE - ALAN AVE",
       "ts": "2026-10-16T11:53:47+00:00",
       "related": []
-    },
-    {
-      "id": "tps_48c4b0820238",
-      "source": "police",
-      "lat": 43.76223977411964,
-      "lng": -79.50057711333972,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D31",
-      "location": "SENTINEL RD - ",
-      "ts": "2026-10-16T11:39:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e09c000d5aa5",
-      "source": "police",
-      "lat": 43.667124206227896,
-      "lng": -79.37868335162403,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D51",
-      "location": "CHURCH ST - JARVIS ST",
-      "ts": "2026-10-16T11:38:44+00:00",
-      "related": [
-        {
-          "id": "tps_dc897c5fcd97",
-          "distance_m": 0,
-          "minutes_apart": 171
-        },
-        {
-          "id": "tps_73b1ecebc2a6",
-          "distance_m": 94,
-          "minutes_apart": 105
-        }
-      ]
-    },
-    {
-      "id": "tps_88e1e182f92c",
-      "source": "police",
-      "lat": 43.752950001257084,
-      "lng": -79.35995853088932,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "LESLIE ST - YORK MILLS RD",
-      "ts": "2026-10-16T11:32:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_b8b94bad2535",
-      "source": "police",
-      "lat": 43.66010699921072,
-      "lng": -79.36627335743431,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D51",
-      "location": "PARLIAMENT ST - COLE ST",
-      "ts": "2026-10-16T11:28:20+00:00",
-      "related": [
-        {
-          "id": "tps_4fa0a18e4050",
-          "distance_m": 359,
-          "minutes_apart": 116
-        }
-      ]
-    },
-    {
-      "id": "tps_0b983a52a559",
-      "source": "police",
-      "lat": 43.65406760292229,
-      "lng": -79.33968757823129,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "LAKE SHORE BLVD E - LOGAN AVE",
-      "ts": "2026-10-16T11:26:28+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11401,6 +11367,36 @@
     },
     {
       "source": "police",
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.8,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_d8fab5396076",
+        "tps_58fbf9ab962a",
+        "tps_d6f1a51f3ac2",
+        "tps_f5b6796df760"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_42240de5621d",
+        "tps_247cee3dc6da",
+        "tps_86a882dda8fb",
+        "tps_9d7d5ed6b201"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D53",
       "current_count": 3,
       "baseline_avg": 1.3,
@@ -11411,20 +11407,6 @@
         "tps_82179cdd82f7",
         "tps_ca48143108c7",
         "tps_5d9ed819cba6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_247cee3dc6da",
-        "tps_86a882dda8fb",
-        "tps_9d7d5ed6b201"
       ]
     },
     {
