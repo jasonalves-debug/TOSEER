@@ -1,11 +1,76 @@
 {
-  "generated": "2026-10-17T13:10:28.681310+00:00",
+  "generated": "2026-10-17T13:25:28.906051+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165483",
+      "source": "fire",
+      "lat": 43.6461331,
+      "lng": -79.392449,
+      "type": "Rescue - Elevator",
+      "type_plain": "Rescue - Elevator",
+      "severity": "medium",
+      "division": "332",
+      "location": "Toronto - KING ST & PETER ST",
+      "approximate": false,
+      "units": "HR332, P331",
+      "ts": "2026-10-17T13:14:58+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_09fa0604fc36",
+      "source": "police",
+      "lat": 43.72003659880698,
+      "lng": -79.23242603842547,
+      "type": "FOUPR",
+      "type_plain": "Found Property",
+      "severity": "low",
+      "division": "D43",
+      "location": "SLOLEY RD - EARL RD",
+      "ts": "2026-10-17T12:59:15+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_9dbb632aba0e",
+      "source": "police",
+      "lat": 43.65706729617105,
+      "lng": -79.37453055088848,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D51",
+      "location": "DUNDAS ST E - GERRARD ST E",
+      "ts": "2026-10-17T12:56:22+00:00",
+      "related": [
+        {
+          "id": "tps_ac5e2fa25263",
+          "distance_m": 0,
+          "minutes_apart": 123
+        },
+        {
+          "id": "tfs_F26165465",
+          "distance_m": 479,
+          "minutes_apart": 27
+        }
+      ]
+    },
+    {
+      "id": "tps_29bee9bb9425",
+      "source": "police",
+      "lat": 43.79600488161923,
+      "lng": -79.1650213145517,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D43",
+      "location": "EUCLID AVE - 401 C E MEADOWVALE RD RAMP",
+      "ts": "2026-10-17T12:54:54+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165474",
       "source": "fire",
@@ -24,6 +89,56 @@
           "id": "tfs_F26165461",
           "distance_m": 0,
           "minutes_apart": 31
+        }
+      ]
+    },
+    {
+      "id": "tps_029281cb7962",
+      "source": "police",
+      "lat": 43.66825230384696,
+      "lng": -79.30804383340788,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D55",
+      "location": "BROOKMOUNT RD - RAINSFORD RD",
+      "ts": "2026-10-17T12:51:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_72617d6fd7af",
+      "source": "police",
+      "lat": 43.64926708875579,
+      "lng": -79.401154832947,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D14",
+      "location": " - ",
+      "ts": "2026-10-17T12:46:30+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_b7cd0876a2ee",
+      "source": "police",
+      "lat": 43.750324040547326,
+      "lng": -79.2954588970264,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D41",
+      "location": "BOEM AVE - MANHATTAN DR",
+      "ts": "2026-10-17T12:46:18+00:00",
+      "related": [
+        {
+          "id": "tps_8159539bceaf",
+          "distance_m": 0,
+          "minutes_apart": 4
+        },
+        {
+          "id": "tps_4f31d340e74e",
+          "distance_m": 232,
+          "minutes_apart": 83
         }
       ]
     },
@@ -65,6 +180,11 @@
       "location": "BOEM AVE - MANHATTAN DR",
       "ts": "2026-10-17T12:42:42+00:00",
       "related": [
+        {
+          "id": "tps_b7cd0876a2ee",
+          "distance_m": 0,
+          "minutes_apart": 4
+        },
         {
           "id": "tps_4f31d340e74e",
           "distance_m": 232,
@@ -163,6 +283,11 @@
       "units": "C33, P333, T333",
       "ts": "2026-10-17T12:29:43+00:00",
       "related": [
+        {
+          "id": "tps_9dbb632aba0e",
+          "distance_m": 479,
+          "minutes_apart": 27
+        },
         {
           "id": "tps_ac5e2fa25263",
           "distance_m": 479,
@@ -543,6 +668,11 @@
           "id": "tps_8159539bceaf",
           "distance_m": 232,
           "minutes_apart": 79
+        },
+        {
+          "id": "tps_b7cd0876a2ee",
+          "distance_m": 232,
+          "minutes_apart": 83
         }
       ]
     },
@@ -745,6 +875,11 @@
       "location": "JARVIS ST - GEORGE ST",
       "ts": "2026-10-17T10:53:37+00:00",
       "related": [
+        {
+          "id": "tps_9dbb632aba0e",
+          "distance_m": 0,
+          "minutes_apart": 123
+        },
         {
           "id": "tfs_F26165465",
           "distance_m": 479,
@@ -10362,11 +10497,6 @@
           "id": "tps_7d338fb45ed1",
           "distance_m": 310,
           "minutes_apart": 71
-        },
-        {
-          "id": "tps_73b1ecebc2a6",
-          "distance_m": 524,
-          "minutes_apart": 138
         }
       ]
     },
@@ -10653,13 +10783,7 @@
       "division": "D41",
       "location": "BIRCHMOUNT RD - MASSEY CREEK",
       "ts": "2026-10-16T14:53:13+00:00",
-      "related": [
-        {
-          "id": "tps_8c9e9fd2cfd9",
-          "distance_m": 15,
-          "minutes_apart": 100
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_c33819f61d01",
@@ -10923,11 +11047,6 @@
       "ts": "2026-10-16T14:29:30+00:00",
       "related": [
         {
-          "id": "tps_73b1ecebc2a6",
-          "distance_m": 94,
-          "minutes_apart": 66
-        },
-        {
           "id": "tps_eafd8e0f2918",
           "distance_m": 575,
           "minutes_apart": 163
@@ -11125,11 +11244,6 @@
       "location": "GRENVILLE ST - ALEXANDER ST",
       "ts": "2026-10-16T14:02:33+00:00",
       "related": [
-        {
-          "id": "tps_fbed916722c2",
-          "distance_m": 88,
-          "minutes_apart": 42
-        },
         {
           "id": "tps_3225f1a6d60c",
           "distance_m": 354,
@@ -11366,107 +11480,6 @@
           "minutes_apart": 173
         }
       ]
-    },
-    {
-      "id": "tps_4fa0a18e4050",
-      "source": "police",
-      "lat": 43.663201702305415,
-      "lng": -79.36752735760204,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D51",
-      "location": "SPRUCE ST - DOCTOR O LANE",
-      "ts": "2026-10-16T13:24:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_73b1ecebc2a6",
-      "source": "police",
-      "lat": 43.66793050703421,
-      "lng": -79.37903375192798,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "JARVIS ST - GLOUCESTER ST",
-      "ts": "2026-10-16T13:23:53+00:00",
-      "related": [
-        {
-          "id": "tps_dc897c5fcd97",
-          "distance_m": 94,
-          "minutes_apart": 66
-        },
-        {
-          "id": "tps_ec635d09180f",
-          "distance_m": 524,
-          "minutes_apart": 138
-        }
-      ]
-    },
-    {
-      "id": "tps_8af9718ef17f",
-      "source": "police",
-      "lat": 43.71676555321287,
-      "lng": -79.36336849976308,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D53",
-      "location": "LAIRD DR - DON AVON DR",
-      "ts": "2026-10-16T13:20:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_fbed916722c2",
-      "source": "police",
-      "lat": 43.66137010047386,
-      "lng": -79.38309224661504,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "YONGE ST - REVEREND PORTER LANE",
-      "ts": "2026-10-16T13:20:29+00:00",
-      "related": [
-        {
-          "id": "tps_cdba4a7b289f",
-          "distance_m": 88,
-          "minutes_apart": 42
-        }
-      ]
-    },
-    {
-      "id": "tps_05b61b7eb288",
-      "source": "police",
-      "lat": 43.792445192844674,
-      "lng": -79.44572541968851,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D32",
-      "location": "BATHURST ST - STEELES AVE W",
-      "ts": "2026-10-16T13:14:44+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8c9e9fd2cfd9",
-      "source": "police",
-      "lat": 43.72992377092435,
-      "lng": -79.27789139747219,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D41",
-      "location": "EGLINTON AVE E - BIRCHMOUNT RD",
-      "ts": "2026-10-16T13:12:45+00:00",
-      "related": [
-        {
-          "id": "tps_1b868ac568b8",
-          "distance_m": 15,
-          "minutes_apart": 100
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11503,6 +11516,38 @@
     },
     {
       "source": "police",
+      "division": "D43",
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.8,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_09fa0604fc36",
+        "tps_29bee9bb9425",
+        "tps_63f34e57126b",
+        "tps_a3ea473c04a9",
+        "tps_1deed95bf64c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 6,
+      "baseline_avg": 2.2,
+      "ratio": 2.8,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_9dbb632aba0e",
+        "tps_eff518a38fd3",
+        "tps_72bb918e27dc",
+        "tps_904f15d1a024",
+        "tps_411b29ca7f16"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D22",
       "current_count": 4,
       "baseline_avg": 1.5,
@@ -11529,22 +11574,6 @@
         "tps_97ff843e7cdc",
         "tps_82179cdd82f7",
         "tps_ca48143108c7"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_eff518a38fd3",
-        "tps_72bb918e27dc",
-        "tps_904f15d1a024",
-        "tps_411b29ca7f16",
-        "tps_ac5e2fa25263"
       ]
     },
     {
