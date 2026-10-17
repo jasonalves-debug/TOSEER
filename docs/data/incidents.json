@@ -1,11 +1,37 @@
 {
-  "generated": "2026-10-17T18:11:05.935655+00:00",
+  "generated": "2026-10-17T18:26:07.198034+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165627",
+      "source": "fire",
+      "lat": 43.645334,
+      "lng": -79.4033821,
+      "type": "Fire -  Highrise Residential",
+      "type_plain": "Fire -  Highrise Residential",
+      "severity": "medium",
+      "division": "331",
+      "location": "Toronto - KING ST & BATHURST ST",
+      "approximate": false,
+      "units": "P331, P332",
+      "ts": "2026-10-17T18:13:18+00:00",
+      "related": [
+        {
+          "id": "tps_4b7ad5f96b8c",
+          "distance_m": 212,
+          "minutes_apart": 138
+        },
+        {
+          "id": "tps_b5cd6a88b82f",
+          "distance_m": 520,
+          "minutes_apart": 161
+        }
+      ]
+    },
     {
       "id": "tps_47332a5f7662",
       "source": "police",
@@ -935,6 +961,11 @@
       "ts": "2026-10-17T15:55:05+00:00",
       "related": [
         {
+          "id": "tfs_F26165627",
+          "distance_m": 212,
+          "minutes_apart": 138
+        },
+        {
           "id": "tps_69b054022ee6",
           "distance_m": 214,
           "minutes_apart": 150
@@ -1143,6 +1174,11 @@
           "id": "tps_4b7ad5f96b8c",
           "distance_m": 466,
           "minutes_apart": 23
+        },
+        {
+          "id": "tfs_F26165627",
+          "distance_m": 520,
+          "minutes_apart": 161
         },
         {
           "id": "tfs_F26165483",
@@ -9561,13 +9597,7 @@
       "division": "D23",
       "location": "REXDALE BLVD - WW E QUEEN'S PLATE S HARNESS",
       "ts": "2026-10-16T21:13:55+00:00",
-      "related": [
-        {
-          "id": "tps_e89bf9f028ba",
-          "distance_m": 0,
-          "minutes_apart": 175
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_98084fcf9f64",
@@ -9611,11 +9641,6 @@
           "id": "tps_71be61d292dd",
           "distance_m": 475,
           "minutes_apart": 137
-        },
-        {
-          "id": "tps_5f012ec2e635",
-          "distance_m": 475,
-          "minutes_apart": 179
         },
         {
           "id": "tps_4ebe373264b9",
@@ -11028,11 +11053,6 @@
       "ts": "2026-10-16T18:53:41+00:00",
       "related": [
         {
-          "id": "tps_5f012ec2e635",
-          "distance_m": 0,
-          "minutes_apart": 42
-        },
-        {
           "id": "tps_57269d4398a6",
           "distance_m": 475,
           "minutes_apart": 137
@@ -11142,13 +11162,7 @@
       "division": "HP",
       "location": "ELLESMERE RD - BRIMLEY RD",
       "ts": "2026-10-16T18:45:41+00:00",
-      "related": [
-        {
-          "id": "tps_0a09190c3618",
-          "distance_m": 0,
-          "minutes_apart": 22
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26165023",
@@ -11289,13 +11303,7 @@
       "division": "D55",
       "location": "GILLARD AVE - MONARCH PARK TRL",
       "ts": "2026-10-16T18:33:56+00:00",
-      "related": [
-        {
-          "id": "tps_f7fda146f2e8",
-          "distance_m": 558,
-          "minutes_apart": 13
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_77aa72e38ef8",
@@ -11335,130 +11343,6 @@
       "units": "L426, R346",
       "ts": "2026-10-16T18:27:35+00:00",
       "related": []
-    },
-    {
-      "id": "tps_0a09190c3618",
-      "source": "police",
-      "lat": 43.77003316235188,
-      "lng": -79.26129213872775,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D41",
-      "location": "ELLESMERE RD - BRIMLEY RD",
-      "ts": "2026-10-16T18:23:21+00:00",
-      "related": [
-        {
-          "id": "tps_3a131e0493b7",
-          "distance_m": 0,
-          "minutes_apart": 22
-        }
-      ]
-    },
-    {
-      "id": "tps_f7fda146f2e8",
-      "source": "police",
-      "lat": 43.68244671517957,
-      "lng": -79.32055513497103,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D55",
-      "location": "HILLINGDON AVE - DRAYTON AVE",
-      "ts": "2026-10-16T18:21:19+00:00",
-      "related": [
-        {
-          "id": "tps_1cfb262987a8",
-          "distance_m": 558,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26165016",
-      "source": "fire",
-      "lat": 43.7695551,
-      "lng": -79.3432632,
-      "type": "Fire - Commercial/Industrial",
-      "type_plain": "Fire - Commercial/Industrial",
-      "severity": "medium",
-      "division": "115",
-      "location": "North York - FOREST MANOR RD & PARKWAY FOREST DR",
-      "approximate": false,
-      "units": "A113, C11, C24, HR114, LA111, P113, P116, R115, R122, S232, T114",
-      "ts": "2026-10-16T18:20:23+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e89bf9f028ba",
-      "source": "police",
-      "lat": 43.72051007309702,
-      "lng": -79.5944397874052,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D23",
-      "location": "HARNESS RD - 27 HWY N",
-      "ts": "2026-10-16T18:18:45+00:00",
-      "related": [
-        {
-          "id": "tps_c41a8af0cfe0",
-          "distance_m": 0,
-          "minutes_apart": 175
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26165014",
-      "source": "fire",
-      "lat": 43.7077648,
-      "lng": -79.3929424,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "134",
-      "location": "Toronto - REDPATH AVE & EGLINTON AVE E",
-      "approximate": false,
-      "units": "P132, P321",
-      "ts": "2026-10-16T18:14:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e29cc1f45f49",
-      "source": "police",
-      "lat": 43.723657055150866,
-      "lng": -79.45130621630454,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D32",
-      "location": "JANE OSLER BLVD - 401 C E YORKDALE RD RAMP",
-      "ts": "2026-10-16T18:12:31+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5f012ec2e635",
-      "source": "police",
-      "lat": 43.66220290951827,
-      "lng": -79.42463442640963,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "BLOOR ST W - CARLING AVE",
-      "ts": "2026-10-16T18:11:19+00:00",
-      "related": [
-        {
-          "id": "tps_71be61d292dd",
-          "distance_m": 0,
-          "minutes_apart": 42
-        },
-        {
-          "id": "tps_57269d4398a6",
-          "distance_m": 475,
-          "minutes_apart": 179
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11528,22 +11412,6 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 10,
-      "baseline_avg": 3.5,
-      "ratio": 2.8,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2a69fcb1153d",
-        "tps_263c3023e9da",
-        "tps_39e6d82a02d3",
-        "tps_0fdec0857f18",
-        "tps_dac4580b778a"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D14",
       "current_count": 7,
       "baseline_avg": 2.5,
@@ -11575,18 +11443,18 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 6,
-      "baseline_avg": 2.2,
-      "ratio": 2.7,
-      "sample_days": 14,
+      "division": "HP",
+      "current_count": 8,
+      "baseline_avg": 3.5,
+      "ratio": 2.3,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
-        "tps_7a9d2b31c65a",
-        "tps_ece79c503603",
-        "tps_232309ee7811",
-        "tps_8b8fdaeac11d",
-        "tps_962c04545f26"
+        "tps_2a69fcb1153d",
+        "tps_263c3023e9da",
+        "tps_39e6d82a02d3",
+        "tps_0fdec0857f18",
+        "tps_dac4580b778a"
       ]
     },
     {
