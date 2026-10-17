@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T11:55:30.595335+00:00",
+  "generated": "2026-10-17T12:10:30.196017+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -50,6 +50,21 @@
           "minutes_apart": 72
         }
       ]
+    },
+    {
+      "id": "tfs_F26165447",
+      "source": "fire",
+      "lat": 43.6608957,
+      "lng": -79.4358946,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "345",
+      "location": "Toronto - BLOOR ST & DUFFERIN ST",
+      "approximate": false,
+      "units": "P342, P345",
+      "ts": "2026-10-17T11:42:13+00:00",
+      "related": []
     },
     {
       "id": "tps_1deed95bf64c",
@@ -10129,13 +10144,7 @@
       "division": "D55",
       "location": "LN N BOULTBEE E BLAKE ST - KEMPTON HOWARD PARK TRL",
       "ts": "2026-10-16T15:04:08+00:00",
-      "related": [
-        {
-          "id": "tps_110bad2f7bcd",
-          "distance_m": 0,
-          "minutes_apart": 178
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_a47a02d876f3",
@@ -10177,11 +10186,6 @@
           "id": "tps_f0caeb1fde6c",
           "distance_m": 463,
           "minutes_apart": 112
-        },
-        {
-          "id": "tps_77cf5c6062fe",
-          "distance_m": 600,
-          "minutes_apart": 177
         }
       ]
     },
@@ -10283,11 +10287,6 @@
           "id": "tps_f0caeb1fde6c",
           "distance_m": 463,
           "minutes_apart": 123
-        },
-        {
-          "id": "tps_77cf5c6062fe",
-          "distance_m": 600,
-          "minutes_apart": 166
         }
       ]
     },
@@ -11352,85 +11351,31 @@
       "location": "LAWRENCE AVE W - MARLEE AVE",
       "ts": "2026-10-16T12:12:58+00:00",
       "related": []
-    },
-    {
-      "id": "tps_6037f71ffe7b",
-      "source": "police",
-      "lat": 43.74380087667061,
-      "lng": -79.57168487742572,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D23",
-      "location": "LAMELLA RD - MONTERREY DR",
-      "ts": "2026-10-16T12:07:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_110bad2f7bcd",
-      "source": "police",
-      "lat": 43.675140468804884,
-      "lng": -79.3381385059127,
-      "type": "LOSEL",
-      "type_plain": "Lost/Found Property or Person",
-      "severity": "low",
-      "division": "D55",
-      "location": "LN N BOULTBEE E BLAKE ST - KEMPTON HOWARD PARK TRL",
-      "ts": "2026-10-16T12:06:01+00:00",
-      "related": [
-        {
-          "id": "tps_1f4f25fdc06b",
-          "distance_m": 0,
-          "minutes_apart": 178
-        }
-      ]
-    },
-    {
-      "id": "tps_2280494bc06a",
-      "source": "police",
-      "lat": 43.666001856451324,
-      "lng": -79.4647941264355,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D11",
-      "location": "KEELE ST - MAVETY ST",
-      "ts": "2026-10-16T12:04:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_77cf5c6062fe",
-      "source": "police",
-      "lat": 43.771695191471466,
-      "lng": -79.41459646439912,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D32",
-      "location": "CANTERBURY PL - BEECROFT RD",
-      "ts": "2026-10-16T12:03:33+00:00",
-      "related": [
-        {
-          "id": "tps_cd7d14c8bc3e",
-          "distance_m": 600,
-          "minutes_apart": 166
-        },
-        {
-          "id": "tps_a1dc5ec952ce",
-          "distance_m": 600,
-          "minutes_apart": 177
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_97ff843e7cdc",
+        "tps_82179cdd82f7",
+        "tps_ca48143108c7",
+        "tps_5d9ed819cba6"
+      ]
+    },
+    {
+      "source": "police",
       "division": "HP",
       "current_count": 5,
-      "baseline_avg": 1.6,
-      "ratio": 3.2,
-      "sample_days": 9,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_b58dcae1452b",
@@ -11444,59 +11389,15 @@
       "source": "police",
       "division": "D23",
       "current_count": 4,
-      "baseline_avg": 1.3,
-      "ratio": 3.1,
-      "sample_days": 7,
+      "baseline_avg": 1.6,
+      "ratio": 2.4,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_eaf31e30324f",
         "tps_98758e77aaa3",
         "tps_1581be01bd8c",
         "tps_17f564d964a7"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.8,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_97ff843e7cdc",
-        "tps_82179cdd82f7",
-        "tps_ca48143108c7",
-        "tps_5d9ed819cba6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6790d61600bc",
-        "tps_15c00779e8a6",
-        "tps_0cf822363ff8",
-        "tps_9fcade9a6850"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5c00a79003d9",
-        "tps_d9a567df040a",
-        "tps_841fc8b695bc"
       ]
     }
   ]
