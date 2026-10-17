@@ -1,11 +1,53 @@
 {
-  "generated": "2026-10-17T07:25:07.321934+00:00",
+  "generated": "2026-10-17T07:40:06.793357+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_0f4a97e41ef3",
+      "source": "police",
+      "lat": 43.64594508504874,
+      "lng": -79.38946473862629,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D52",
+      "location": "LN E JOHN S MERCER - LN S KING W JOHN",
+      "ts": "2026-10-17T07:24:24+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165353",
+          "distance_m": 460,
+          "minutes_apart": 136
+        },
+        {
+          "id": "tps_104195f8a56a",
+          "distance_m": 490,
+          "minutes_apart": 21
+        },
+        {
+          "id": "tps_c7c3024f58ef",
+          "distance_m": 490,
+          "minutes_apart": 153
+        }
+      ]
+    },
+    {
+      "id": "tps_5e2f3fb9b108",
+      "source": "police",
+      "lat": 43.709227122932326,
+      "lng": -79.38621326475119,
+      "type": "ASS",
+      "type_plain": "Assault",
+      "severity": "high",
+      "division": "D53",
+      "location": "FALCON ST - FORMAN AVE",
+      "ts": "2026-10-17T07:09:22+00:00",
+      "related": []
+    },
     {
       "id": "tps_b9748e85b3b4",
       "source": "police",
@@ -63,6 +105,11 @@
           "id": "tps_5be8377d484c",
           "distance_m": 267,
           "minutes_apart": 71
+        },
+        {
+          "id": "tps_0f4a97e41ef3",
+          "distance_m": 490,
+          "minutes_apart": 21
         }
       ]
     },
@@ -923,6 +970,11 @@
           "id": "tps_a4cd08ca5f13",
           "distance_m": 344,
           "minutes_apart": 81
+        },
+        {
+          "id": "tps_0f4a97e41ef3",
+          "distance_m": 460,
+          "minutes_apart": 136
         }
       ]
     },
@@ -1074,6 +1126,11 @@
           "id": "tps_5be8377d484c",
           "distance_m": 267,
           "minutes_apart": 60
+        },
+        {
+          "id": "tps_0f4a97e41ef3",
+          "distance_m": 490,
+          "minutes_apart": 153
         }
       ]
     },
@@ -11430,58 +11487,6 @@
           "minutes_apart": 96
         }
       ]
-    },
-    {
-      "id": "tps_2d7cb3a9ffcb",
-      "source": "police",
-      "lat": 43.650667689771275,
-      "lng": -79.36666165400118,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "THE ESPLANADE - NICHOLSON LANE",
-      "ts": "2026-10-16T07:38:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cb4baa7579c8",
-      "source": "police",
-      "lat": 43.670779209882895,
-      "lng": -79.37622315570079,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D51",
-      "location": "LINDEN ST - HOWARD ST",
-      "ts": "2026-10-16T07:36:48+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_496e9186aa16",
-      "source": "police",
-      "lat": 43.68137367469746,
-      "lng": -79.55279558720328,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D23",
-      "location": "HUNTING RIDGE - HUNTING RIDGE",
-      "ts": "2026-10-16T07:35:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c8c3c5895b79",
-      "source": "police",
-      "lat": 43.74599576403216,
-      "lng": -79.27363122202438,
-      "type": "PRO",
-      "type_plain": "PRO",
-      "severity": "low",
-      "division": "D41",
-      "location": "RADNOR AVE - MIKE MYERS DR",
-      "ts": "2026-10-16T07:33:41+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11504,17 +11509,16 @@
     {
       "source": "police",
       "division": "D41",
-      "current_count": 5,
+      "current_count": 4,
       "baseline_avg": 1.0,
-      "ratio": 5.0,
+      "ratio": 4.0,
       "sample_days": 5,
       "window_hours": 3,
       "example_ids": [
         "tps_6299a874d10c",
         "tps_69a604590e7f",
         "tps_b998adbef8de",
-        "tps_bc4cdda7e3df",
-        "tps_e9edd07da07e"
+        "tps_bc4cdda7e3df"
       ]
     },
     {
@@ -11535,6 +11539,21 @@
     },
     {
       "source": "police",
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5e2f3fb9b108",
+        "tps_7410a600ec6d",
+        "tps_13186023eba9",
+        "tps_ce8187f7f271"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D42",
       "current_count": 4,
       "baseline_avg": 1.3,
@@ -11546,36 +11565,6 @@
         "tps_5ebc5a3370ef",
         "tps_c7533c6c519a",
         "tps_3b17ee1548d5"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D13",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 8,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b9748e85b3b4",
-        "tps_2c1e08501768",
-        "tps_0470f9388178",
-        "tps_b9b29f7df757"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_7410a600ec6d",
-        "tps_13186023eba9",
-        "tps_ce8187f7f271",
-        "tps_c55390437619"
       ]
     },
     {
@@ -11611,21 +11600,6 @@
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_6effe62333a6",
-        "tps_88bc161ceec5",
-        "tps_c7c3024f58ef",
-        "tps_3ab9bb84c702"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D55",
       "current_count": 3,
       "baseline_avg": 1.2,
@@ -11636,6 +11610,35 @@
         "tps_48050864d116",
         "tps_20bcdc1ba4a1",
         "tps_0186db603a7c"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 5,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_0f4a97e41ef3",
+        "tps_6effe62333a6",
+        "tps_88bc161ceec5",
+        "tps_c7c3024f58ef"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D13",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 8,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b9748e85b3b4",
+        "tps_2c1e08501768",
+        "tps_0470f9388178"
       ]
     }
   ]
