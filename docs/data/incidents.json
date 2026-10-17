@@ -1,11 +1,32 @@
 {
-  "generated": "2026-10-17T21:56:31.180127+00:00",
+  "generated": "2026-10-17T22:11:31.404032+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165754",
+      "source": "fire",
+      "lat": 43.6898326,
+      "lng": -79.293571,
+      "type": "Fire - Residential",
+      "type_plain": "Fire - Residential",
+      "severity": "medium",
+      "division": "226",
+      "location": "East York - DANFORTH AVE & LUTTRELL AVE",
+      "approximate": false,
+      "units": "P224, P226",
+      "ts": "2026-10-17T21:55:05+00:00",
+      "related": [
+        {
+          "id": "tps_70841ea9e65c",
+          "distance_m": 598,
+          "minutes_apart": 167
+        }
+      ]
+    },
     {
       "id": "tps_3a6a85b5f613",
       "source": "police",
@@ -1235,7 +1256,13 @@
       "division": "D55",
       "location": "LN N DANFORTH W MAIN ST - STANLEY G. GRIZZLE PARK TRL",
       "ts": "2026-10-17T19:08:23+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26165754",
+          "distance_m": 598,
+          "minutes_apart": 167
+        }
+      ]
     },
     {
       "id": "tps_4008b39be2c9",
@@ -9456,11 +9483,6 @@
       "ts": "2026-10-17T00:44:29+00:00",
       "related": [
         {
-          "id": "tfs_F26165134",
-          "distance_m": 209,
-          "minutes_apart": 159
-        },
-        {
           "id": "tps_d4ef0b45741d",
           "distance_m": 293,
           "minutes_apart": 116
@@ -9484,6 +9506,11 @@
           "id": "tps_1d09b5ff70ba",
           "distance_m": 436,
           "minutes_apart": 23
+        },
+        {
+          "id": "tps_8eddedac8e32",
+          "distance_m": 544,
+          "minutes_apart": 3
         }
       ]
     },
@@ -9562,9 +9589,9 @@
           "minutes_apart": 113
         },
         {
-          "id": "tfs_F26165134",
-          "distance_m": 501,
-          "minutes_apart": 155
+          "id": "tps_d18293b29de1",
+          "distance_m": 522,
+          "minutes_apart": 81
         }
       ]
     },
@@ -9876,14 +9903,14 @@
           "minutes_apart": 162
         },
         {
-          "id": "tfs_F26165134",
-          "distance_m": 380,
-          "minutes_apart": 136
-        },
-        {
           "id": "tps_d4ef0b45741d",
           "distance_m": 400,
           "minutes_apart": 93
+        },
+        {
+          "id": "tps_f0bd66625ef6",
+          "distance_m": 436,
+          "minutes_apart": 23
         }
       ]
     },
@@ -10620,11 +10647,6 @@
           "minutes_apart": 93
         },
         {
-          "id": "tfs_F26165134",
-          "distance_m": 444,
-          "minutes_apart": 43
-        },
-        {
           "id": "tps_8eddedac8e32",
           "distance_m": 452,
           "minutes_apart": 113
@@ -10978,148 +11000,30 @@
       "location": "EGLINTON AVE W - WIDDICOMBE HILL BLVD",
       "ts": "2026-10-16T22:11:35+00:00",
       "related": []
-    },
-    {
-      "id": "tps_3d056f3db14b",
-      "source": "police",
-      "lat": 43.67802601178916,
-      "lng": -79.49645799437039,
-      "type": "MISEL",
-      "type_plain": "MISEL",
-      "severity": "low",
-      "division": "D12",
-      "location": "GRANDVILLE AVE - OUTLOOK GARDEN BLVD",
-      "ts": "2026-10-16T22:07:29+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26165134",
-      "source": "fire",
-      "lat": 43.6549527,
-      "lng": -79.3749788,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "325",
-      "location": "Toronto - MUTUAL ST & SHUTER ST",
-      "approximate": false,
-      "units": "L325, P314",
-      "ts": "2026-10-16T22:05:50+00:00",
-      "related": [
-        {
-          "id": "tps_f0bd66625ef6",
-          "distance_m": 209,
-          "minutes_apart": 159
-        },
-        {
-          "id": "tps_1d09b5ff70ba",
-          "distance_m": 380,
-          "minutes_apart": 136
-        },
-        {
-          "id": "tps_d4ef0b45741d",
-          "distance_m": 444,
-          "minutes_apart": 43
-        },
-        {
-          "id": "tps_8eddedac8e32",
-          "distance_m": 501,
-          "minutes_apart": 155
-        }
-      ]
-    },
-    {
-      "id": "tps_bfedcd40d1f8",
-      "source": "police",
-      "lat": 43.77317291700344,
-      "lng": -79.34120595960502,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D33",
-      "location": "PARKWAY FOREST PARK TRL - CORVUS STARWAY",
-      "ts": "2026-10-16T22:01:19+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c37efc66cfea",
-      "source": "police",
-      "lat": 43.64370348577105,
-      "lng": -79.41062012979194,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D14",
-      "location": "WALNUT AVE - STANLEY TER",
-      "ts": "2026-10-16T21:59:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f942e905b04a",
-      "source": "police",
-      "lat": 43.75029159210206,
-      "lng": -79.46344660168288,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D32",
-      "location": "WILLIAM R ALLEN RD - SHEPPARD AVE W",
-      "ts": "2026-10-16T21:57:58+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_4b99b6d00653",
-      "source": "police",
-      "lat": 43.61275673046895,
-      "lng": -79.48980142652418,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D22",
-      "location": "ALLEN AVE - SUMMERHILL RD",
-      "ts": "2026-10-16T21:57:12+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 8,
-      "baseline_avg": 1.8,
-      "ratio": 4.3,
-      "sample_days": 13,
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_801fba79bfdf",
-        "tps_13ec1b31e950",
-        "tps_04767b3f8307",
-        "tps_1743e1e4eb0c",
-        "tps_0ce0f4452581"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 7,
-      "baseline_avg": 2.1,
-      "ratio": 3.4,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_ba7fe878ff09",
-        "tps_fc4f2649506e",
-        "tps_151a01ec4f09",
-        "tps_cfc9562fdbc3",
-        "tps_ed1f4d667725"
+        "tps_8300b7879d4d",
+        "tps_1d5c5cb0d147",
+        "tps_39369b656b45",
+        "tps_57af0cf3e9f6"
       ]
     },
     {
       "source": "police",
       "division": "D43",
-      "current_count": 7,
-      "baseline_avg": 2.2,
-      "ratio": 3.2,
+      "current_count": 6,
+      "baseline_avg": 2.0,
+      "ratio": 3.0,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
@@ -11132,11 +11036,27 @@
     },
     {
       "source": "police",
+      "division": "D14",
+      "current_count": 7,
+      "baseline_avg": 2.4,
+      "ratio": 3.0,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_801fba79bfdf",
+        "tps_13ec1b31e950",
+        "tps_04767b3f8307",
+        "tps_1743e1e4eb0c",
+        "tps_0ce0f4452581"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D51",
       "current_count": 5,
-      "baseline_avg": 1.7,
-      "ratio": 2.9,
-      "sample_days": 15,
+      "baseline_avg": 1.9,
+      "ratio": 2.6,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
         "tps_dfebc366af6b",
@@ -11148,42 +11068,42 @@
     },
     {
       "source": "police",
-      "division": "D55",
-      "current_count": 5,
-      "baseline_avg": 2.2,
-      "ratio": 2.3,
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_c7671282e141",
-        "tps_997b004eec10",
-        "tps_eac5ecf1add3",
-        "tps_70841ea9e65c",
-        "tps_657684700599"
+        "tps_bad6ece4c359",
+        "tps_652c9012c784",
+        "tps_04e3982346b8",
+        "tps_454177ba0731"
       ]
     },
     {
       "source": "police",
-      "division": "D23",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 10,
+      "division": "HP",
+      "current_count": 7,
+      "baseline_avg": 2.9,
+      "ratio": 2.4,
+      "sample_days": 14,
       "window_hours": 3,
       "example_ids": [
-        "tps_37043166b09c",
-        "tps_b93d41096919",
-        "tps_6357adfe2ef7",
-        "tps_86f6fcb85261"
+        "tps_ba7fe878ff09",
+        "tps_fc4f2649506e",
+        "tps_151a01ec4f09",
+        "tps_cfc9562fdbc3",
+        "tps_ed1f4d667725"
       ]
     },
     {
       "source": "police",
       "division": "D11",
       "current_count": 4,
-      "baseline_avg": 1.9,
-      "ratio": 2.1,
-      "sample_days": 8,
+      "baseline_avg": 1.8,
+      "ratio": 2.2,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_c192a98983e0",
@@ -11194,32 +11114,17 @@
     },
     {
       "source": "police",
-      "division": "D53",
+      "division": "D23",
       "current_count": 4,
       "baseline_avg": 2.0,
       "ratio": 2.0,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_8300b7879d4d",
-        "tps_1d5c5cb0d147",
-        "tps_39369b656b45",
-        "tps_57af0cf3e9f6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 14,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_bad6ece4c359",
-        "tps_652c9012c784",
-        "tps_04e3982346b8",
-        "tps_454177ba0731"
+        "tps_37043166b09c",
+        "tps_b93d41096919",
+        "tps_6357adfe2ef7",
+        "tps_86f6fcb85261"
       ]
     }
   ]
