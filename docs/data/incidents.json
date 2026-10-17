@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T15:56:10.322418+00:00",
+  "generated": "2026-10-17T16:11:05.250561+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
@@ -11140,11 +11140,6 @@
       "ts": "2026-10-16T16:53:09+00:00",
       "related": [
         {
-          "id": "tps_c5092da28973",
-          "distance_m": 99,
-          "minutes_apart": 54
-        },
-        {
           "id": "tps_64a7778eded1",
           "distance_m": 426,
           "minutes_apart": 174
@@ -11616,11 +11611,6 @@
       "ts": "2026-10-16T16:19:28+00:00",
       "related": [
         {
-          "id": "tfs_F26164942",
-          "distance_m": 186,
-          "minutes_apart": 13
-        },
-        {
           "id": "tps_72e63bc14420",
           "distance_m": 587,
           "minutes_apart": 6
@@ -11654,96 +11644,31 @@
       "location": "BAY MILLS BLVD - RON WATSON PARK TRL",
       "ts": "2026-10-16T16:14:50+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26164945",
-      "source": "fire",
-      "lat": 43.6971407,
-      "lng": -79.4053718,
-      "type": "Fire - Residential",
-      "type_plain": "Fire - Residential",
-      "severity": "medium",
-      "division": "135",
-      "location": "Toronto - AVENUE RD & OXTON AVE",
-      "approximate": false,
-      "units": "A133, A341, C31, C42, LA421, P311, P312, P343, S331, S445",
-      "ts": "2026-10-16T16:09:46+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164942",
-      "source": "fire",
-      "lat": 43.6256863,
-      "lng": -79.5134418,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "433",
-      "location": "PARKER AVE & THE QUEENSWAY",
-      "approximate": false,
-      "units": "A433",
-      "ts": "2026-10-16T16:06:39+00:00",
-      "related": [
-        {
-          "id": "tps_daf87e94af2b",
-          "distance_m": 186,
-          "minutes_apart": 13
-        }
-      ]
-    },
-    {
-      "id": "tps_d790e2d0c78c",
-      "source": "police",
-      "lat": 43.63937118745223,
-      "lng": -79.52121050187927,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D22",
-      "location": "ISLINGTON AVE - BERING AVE",
-      "ts": "2026-10-16T16:00:30+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c5092da28973",
-      "source": "police",
-      "lat": 43.69314536986304,
-      "lng": -79.45142858915217,
-      "type": "GASLE",
-      "type_plain": "Gas Leak",
-      "severity": "low",
-      "division": "D13",
-      "location": "ROWAN AVE - HUNTER AVE",
-      "ts": "2026-10-16T15:59:34+00:00",
-      "related": [
-        {
-          "id": "tps_09f13f9a2220",
-          "distance_m": 99,
-          "minutes_apart": 54
-        }
-      ]
-    },
-    {
-      "id": "tps_29e550d241c8",
-      "source": "police",
-      "lat": 43.7735145128066,
-      "lng": -79.2306685014517,
-      "type": "FIR",
-      "type_plain": "Fire / Fire Report",
-      "severity": "low",
-      "division": "D43",
-      "location": "BRIMORTON DR - ELLESMERE RD",
-      "ts": "2026-10-16T15:59:14+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D53",
+      "current_count": 7,
+      "baseline_avg": 1.4,
+      "ratio": 4.8,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_c165ac0ba4fe",
+        "tps_5c3d43f06135",
+        "tps_9adc8c43c828",
+        "tps_d5eae7ae625b",
+        "tps_0a63fe18d241"
+      ]
+    },
+    {
+      "source": "police",
       "division": "HP",
       "current_count": 12,
-      "baseline_avg": 2.9,
-      "ratio": 4.1,
+      "baseline_avg": 2.7,
+      "ratio": 4.5,
       "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
@@ -11756,27 +11681,26 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 7,
-      "baseline_avg": 2.0,
-      "ratio": 3.5,
-      "sample_days": 10,
+      "division": "D11",
+      "current_count": 4,
+      "baseline_avg": 1.2,
+      "ratio": 3.2,
+      "sample_days": 4,
       "window_hours": 3,
       "example_ids": [
-        "tps_c165ac0ba4fe",
-        "tps_5c3d43f06135",
-        "tps_9adc8c43c828",
-        "tps_d5eae7ae625b",
-        "tps_0a63fe18d241"
+        "tps_96f400df9d21",
+        "tps_01e66650904a",
+        "tps_5f9bb02163aa",
+        "tps_55b89db6d6a3"
       ]
     },
     {
       "source": "police",
       "division": "D55",
       "current_count": 5,
-      "baseline_avg": 1.4,
-      "ratio": 3.5,
-      "sample_days": 12,
+      "baseline_avg": 1.9,
+      "ratio": 2.6,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_d07a5df5e0c4",
@@ -11788,26 +11712,11 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.5,
-      "ratio": 2.8,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_96f400df9d21",
-        "tps_01e66650904a",
-        "tps_5f9bb02163aa",
-        "tps_55b89db6d6a3"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D41",
       "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 12,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
         "tps_28914baa10ff",
@@ -11820,9 +11729,9 @@
       "source": "police",
       "division": "D14",
       "current_count": 5,
-      "baseline_avg": 2.1,
-      "ratio": 2.3,
-      "sample_days": 14,
+      "baseline_avg": 2.5,
+      "ratio": 2.0,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
         "tps_b5cd6a88b82f",
@@ -11830,52 +11739,6 @@
         "tps_7c1ded61577f",
         "tps_0567ef86dcc5",
         "tps_69b054022ee6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_698bc1a859b2",
-        "tps_c514205e9426",
-        "tps_1a175dccea4c",
-        "tps_83789bd9dfb8"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.2,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c3e509c4ef75",
-        "tps_83b0c98adeed",
-        "tps_c7550dfdbf13",
-        "tps_09fa0604fc36"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D22",
-      "current_count": 5,
-      "baseline_avg": 2.3,
-      "ratio": 2.1,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_2b543ce21fbc",
-        "tps_e67edb8a835b",
-        "tps_eef740e76cea",
-        "tps_68c0242ed6b6",
-        "tps_89b079def3ce"
       ]
     }
   ]
