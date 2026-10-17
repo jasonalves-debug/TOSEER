@@ -1,11 +1,124 @@
 {
-  "generated": "2026-10-17T05:10:07.620795+00:00",
+  "generated": "2026-10-17T05:25:07.833149+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165353",
+      "source": "fire",
+      "lat": 43.6458956,
+      "lng": -79.395177,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "332",
+      "location": "Toronto - KING ST & SPADINA AVE",
+      "approximate": false,
+      "units": "P314, P332",
+      "ts": "2026-10-17T05:08:18+00:00",
+      "related": [
+        {
+          "id": "tps_c7c3024f58ef",
+          "distance_m": 99,
+          "minutes_apart": 17
+        }
+      ]
+    },
+    {
+      "id": "tps_20bcdc1ba4a1",
+      "source": "police",
+      "lat": 43.68652422249497,
+      "lng": -79.31313334330537,
+      "type": "LOSEL",
+      "type_plain": "Lost/Found Property or Person",
+      "severity": "low",
+      "division": "D55",
+      "location": "PAUL ESTRELA LANE - STRATHMORE BLVD",
+      "ts": "2026-10-17T05:00:01+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_25ecdf7bde99",
+      "source": "police",
+      "lat": 43.669367508803624,
+      "lng": -79.38641264866088,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D51",
+      "location": "CHARLES ST W - HAYDEN ST",
+      "ts": "2026-10-17T04:57:54+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165266",
+          "distance_m": 118,
+          "minutes_apart": 139
+        },
+        {
+          "id": "tps_f9e334ec7a94",
+          "distance_m": 240,
+          "minutes_apart": 55
+        },
+        {
+          "id": "tps_dcf238e11a2d",
+          "distance_m": 240,
+          "minutes_apart": 83
+        },
+        {
+          "id": "tps_3231b2962b69",
+          "distance_m": 599,
+          "minutes_apart": 39
+        }
+      ]
+    },
+    {
+      "id": "tps_bc4cdda7e3df",
+      "source": "police",
+      "lat": 43.699122629167796,
+      "lng": -79.25435439165943,
+      "type": "PERKN",
+      "type_plain": "PERKN",
+      "severity": "low",
+      "division": "D41",
+      "location": "ROSETTA MCCLAIN GARDENS TRL - WYNNVIEW CRT",
+      "ts": "2026-10-17T04:54:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_c7c3024f58ef",
+      "source": "police",
+      "lat": 43.646759885863545,
+      "lng": -79.39544963577522,
+      "type": "BREPR",
+      "type_plain": "Break and Enter (Priority)",
+      "severity": "high",
+      "division": "D52",
+      "location": "SPADINA AVE - ADELAIDE ST W",
+      "ts": "2026-10-17T04:51:28+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165353",
+          "distance_m": 99,
+          "minutes_apart": 17
+        }
+      ]
+    },
+    {
+      "id": "tps_0186db603a7c",
+      "source": "police",
+      "lat": 43.684210408408994,
+      "lng": -79.32785082938555,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D55",
+      "location": "MONARCH PARK AVE - COXWELL AVE",
+      "ts": "2026-10-17T04:47:57+00:00",
+      "related": []
+    },
     {
       "id": "tps_e9edd07da07e",
       "source": "police",
@@ -179,7 +292,13 @@
       "division": "D51",
       "location": "CHURCH ST - JARVIS ST",
       "ts": "2026-10-17T04:18:47+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_25ecdf7bde99",
+          "distance_m": 599,
+          "minutes_apart": 39
+        }
+      ]
     },
     {
       "id": "tps_835f7fb551cd",
@@ -331,6 +450,11 @@
           "id": "tfs_F26165266",
           "distance_m": 227,
           "minutes_apart": 84
+        },
+        {
+          "id": "tps_25ecdf7bde99",
+          "distance_m": 240,
+          "minutes_apart": 55
         }
       ]
     },
@@ -519,6 +643,11 @@
           "id": "tfs_F26165266",
           "distance_m": 227,
           "minutes_apart": 56
+        },
+        {
+          "id": "tps_25ecdf7bde99",
+          "distance_m": 240,
+          "minutes_apart": 83
         }
       ]
     },
@@ -990,6 +1119,11 @@
       "units": "L312, L315, L325, P312, R325",
       "ts": "2026-10-17T02:38:50+00:00",
       "related": [
+        {
+          "id": "tps_25ecdf7bde99",
+          "distance_m": 118,
+          "minutes_apart": 139
+        },
         {
           "id": "tps_dcf238e11a2d",
           "distance_m": 227,
@@ -10320,11 +10454,6 @@
       "ts": "2026-10-16T07:38:50+00:00",
       "related": [
         {
-          "id": "tps_aebe92357660",
-          "distance_m": 517,
-          "minutes_apart": 134
-        },
-        {
           "id": "tps_efc08aebca0e",
           "distance_m": 571,
           "minutes_apart": 46
@@ -10624,11 +10753,6 @@
           "id": "tps_7f0c3dc5f57c",
           "distance_m": 508,
           "minutes_apart": 139
-        },
-        {
-          "id": "tfs_F26164741",
-          "distance_m": 572,
-          "minutes_apart": 62
         }
       ]
     },
@@ -10775,85 +10899,6 @@
       "location": "RAKEWOOD CRES - DANCY AVE",
       "ts": "2026-10-16T05:30:13+00:00",
       "related": []
-    },
-    {
-      "id": "tps_aebe92357660",
-      "source": "police",
-      "lat": 43.647648386751975,
-      "lng": -79.37154664952278,
-      "type": "FTRPD",
-      "type_plain": "FTRPD",
-      "severity": "low",
-      "division": "HP",
-      "location": "CONGER COAL LANE - WILTON ST",
-      "ts": "2026-10-16T05:24:54+00:00",
-      "related": [
-        {
-          "id": "tps_2d7cb3a9ffcb",
-          "distance_m": 517,
-          "minutes_apart": 134
-        }
-      ]
-    },
-    {
-      "id": "tps_766950ab90dc",
-      "source": "police",
-      "lat": 43.698379065558946,
-      "lng": -79.51130865566778,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D12",
-      "location": "WRIGHT AVE - BELLEVUE CRES",
-      "ts": "2026-10-16T05:22:53+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_77998e5f1459",
-      "source": "police",
-      "lat": 43.71341335562603,
-      "lng": -79.5597516349048,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D23",
-      "location": "REXDALE BLVD - ISLINGTON AVE",
-      "ts": "2026-10-16T05:22:14+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164741",
-      "source": "fire",
-      "lat": 43.6521992,
-      "lng": -79.4057703,
-      "type": "Check Call",
-      "type_plain": "Check Call",
-      "severity": "medium",
-      "division": "315",
-      "location": "BATHURST ST & DUNDAS ST W",
-      "approximate": false,
-      "units": "L315",
-      "ts": "2026-10-16T05:21:35+00:00",
-      "related": [
-        {
-          "id": "tps_30fb0c2acfce",
-          "distance_m": 572,
-          "minutes_apart": 62
-        }
-      ]
-    },
-    {
-      "id": "tps_fd54f24297c2",
-      "source": "police",
-      "lat": 43.6207467949703,
-      "lng": -79.50152692336886,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D22",
-      "location": "LN W ROYAL YORK N MELROSE - CREMORNE AVE",
-      "ts": "2026-10-16T05:16:03+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10876,9 +10921,9 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 2.3,
-      "ratio": 3.4,
+      "ratio": 3.0,
       "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
@@ -10891,10 +10936,42 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 7,
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 1.8,
+      "ratio": 2.8,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_20bcdc1ba4a1",
+        "tps_0186db603a7c",
+        "tps_835f7fb551cd",
+        "tps_749b92f2fb26",
+        "tps_a7352f1636d9"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 6,
       "baseline_avg": 2.1,
-      "ratio": 3.3,
+      "ratio": 2.8,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_25ecdf7bde99",
+        "tps_3231b2962b69",
+        "tps_a5dd291849db",
+        "tps_b2d02bf8cd44",
+        "tps_358845be3915"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 6,
+      "baseline_avg": 2.1,
+      "ratio": 2.8,
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
@@ -10922,18 +10999,16 @@
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 5,
-      "baseline_avg": 2.1,
-      "ratio": 2.4,
-      "sample_days": 9,
+      "division": "D41",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
-        "tps_3231b2962b69",
-        "tps_a5dd291849db",
-        "tps_b2d02bf8cd44",
-        "tps_358845be3915",
-        "tps_64c95624330e"
+        "tps_bc4cdda7e3df",
+        "tps_e9edd07da07e",
+        "tps_6bf9f539dd2d"
       ]
     },
     {
