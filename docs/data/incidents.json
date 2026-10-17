@@ -1,11 +1,52 @@
 {
-  "generated": "2026-10-17T22:26:26.805001+00:00",
+  "generated": "2026-10-17T22:41:27.852245+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165762",
+      "source": "fire",
+      "lat": 43.7457046,
+      "lng": -79.3953093,
+      "type": "Vehicle Accident with Fire",
+      "type_plain": "Vehicle Accident with Fire",
+      "severity": "medium",
+      "division": "123",
+      "location": "YORK MILLS RD & DON VALLEY N",
+      "approximate": false,
+      "units": "HZ145, P123, R115",
+      "ts": "2026-10-17T22:24:08+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d522a6dc516a",
+      "source": "police",
+      "lat": 43.652196713576416,
+      "lng": -79.5668677754517,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D22",
+      "location": "HOLIDAY DR - CAMBRIAN RD",
+      "ts": "2026-10-17T22:17:27+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_4c7689e1f411",
+      "source": "police",
+      "lat": 43.7656966515457,
+      "lng": -79.49169348891878,
+      "type": "FTRPI",
+      "type_plain": "FTRPI",
+      "severity": "low",
+      "division": "D31",
+      "location": "FOUR WINDS DR - KEELE ST",
+      "ts": "2026-10-17T22:16:39+00:00",
+      "related": []
+    },
     {
       "id": "tps_0281b8d24aec",
       "source": "police",
@@ -14,10 +55,34 @@
       "type": "PIACC",
       "type_plain": "Personal Injury Accident",
       "severity": "low",
-      "division": "HP",
+      "division": "D53",
       "location": "MOUNT PLEASANT RD - HILLSDALE AVE E",
-      "ts": "2026-10-17T22:01:01+00:00",
+      "ts": "2026-10-17T22:08:55+00:00",
       "related": []
+    },
+    {
+      "id": "tps_2f82ee11c04b",
+      "source": "police",
+      "lat": 43.63839109146473,
+      "lng": -79.45352051595364,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D14",
+      "location": "LAKE SHORE BLVD W - PARKSIDE DR",
+      "ts": "2026-10-17T22:06:30+00:00",
+      "related": [
+        {
+          "id": "tps_c192a98983e0",
+          "distance_m": 418,
+          "minutes_apart": 25
+        },
+        {
+          "id": "tps_03fe2f86ec45",
+          "distance_m": 587,
+          "minutes_apart": 143
+        }
+      ]
     },
     {
       "id": "tps_ebd3862a78d3",
@@ -170,6 +235,11 @@
       "location": "RIDLEY GDNS - INDIAN RD",
       "ts": "2026-10-17T21:41:50+00:00",
       "related": [
+        {
+          "id": "tps_2f82ee11c04b",
+          "distance_m": 418,
+          "minutes_apart": 25
+        },
         {
           "id": "tps_03fe2f86ec45",
           "distance_m": 521,
@@ -1040,6 +1110,11 @@
           "id": "tps_c192a98983e0",
           "distance_m": 521,
           "minutes_apart": 119
+        },
+        {
+          "id": "tps_2f82ee11c04b",
+          "distance_m": 587,
+          "minutes_apart": 143
         }
       ]
     },
@@ -9442,11 +9517,6 @@
           "id": "tfs_F26165195",
           "distance_m": 449,
           "minutes_apart": 82
-        },
-        {
-          "id": "tfs_F26165156",
-          "distance_m": 568,
-          "minutes_apart": 157
         }
       ]
     },
@@ -10193,11 +10263,6 @@
       "ts": "2026-10-16T23:50:47+00:00",
       "related": [
         {
-          "id": "tfs_F26165156",
-          "distance_m": 255,
-          "minutes_apart": 75
-        },
-        {
           "id": "tps_029a7b4c00f0",
           "distance_m": 449,
           "minutes_apart": 82
@@ -10692,13 +10757,7 @@
       "division": "D51",
       "location": "WABENOSE LANE - CHURCH ST",
       "ts": "2026-10-16T22:52:01+00:00",
-      "related": [
-        {
-          "id": "tps_7dd3cc95968a",
-          "distance_m": 435,
-          "minutes_apart": 14
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_d4ef0b45741d",
@@ -10803,77 +10862,6 @@
           "minutes_apart": 95
         }
       ]
-    },
-    {
-      "id": "tps_7dd3cc95968a",
-      "source": "police",
-      "lat": 43.66389920300295,
-      "lng": -79.38413704702955,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D51",
-      "location": "BREADALBANE ST - WELLESLEY ST E",
-      "ts": "2026-10-16T22:37:57+00:00",
-      "related": [
-        {
-          "id": "tps_da667349fea2",
-          "distance_m": 435,
-          "minutes_apart": 14
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26165156",
-      "source": "fire",
-      "lat": 43.7117452,
-      "lng": -79.3993027,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "134",
-      "location": "Toronto - CASTLEFIELD AVE & YONGE ST",
-      "approximate": false,
-      "units": "P131, P134",
-      "ts": "2026-10-16T22:35:30+00:00",
-      "related": [
-        {
-          "id": "tfs_F26165195",
-          "distance_m": 255,
-          "minutes_apart": 75
-        },
-        {
-          "id": "tps_029a7b4c00f0",
-          "distance_m": 568,
-          "minutes_apart": 157
-        }
-      ]
-    },
-    {
-      "id": "tps_0d7d2f345d12",
-      "source": "police",
-      "lat": 43.73166116912802,
-      "lng": -79.41929613033865,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D32",
-      "location": "AVENUE RD - OLD ORCHARD GRV",
-      "ts": "2026-10-16T22:33:01+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7dd715d34339",
-      "source": "police",
-      "lat": 43.71484117363892,
-      "lng": -79.30413795766441,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D55",
-      "location": "O'CONNOR DR - ",
-      "ts": "2026-10-16T22:29:32+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -10886,58 +10874,26 @@
       "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
+        "tps_0281b8d24aec",
         "tps_8300b7879d4d",
         "tps_1d5c5cb0d147",
-        "tps_39369b656b45",
-        "tps_57af0cf3e9f6"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 6,
-      "baseline_avg": 2.0,
-      "ratio": 3.0,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3a6a85b5f613",
-        "tps_7a69f35afeef",
-        "tps_2d2ee4266288",
-        "tps_b29cc20841f3",
-        "tps_889070203096"
+        "tps_39369b656b45"
       ]
     },
     {
       "source": "police",
       "division": "D14",
       "current_count": 7,
-      "baseline_avg": 2.4,
-      "ratio": 3.0,
-      "sample_days": 11,
+      "baseline_avg": 2.2,
+      "ratio": 3.1,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
+        "tps_2f82ee11c04b",
         "tps_801fba79bfdf",
         "tps_13ec1b31e950",
         "tps_04767b3f8307",
-        "tps_1743e1e4eb0c",
-        "tps_0ce0f4452581"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "HP",
-      "current_count": 8,
-      "baseline_avg": 2.7,
-      "ratio": 2.9,
-      "sample_days": 15,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0281b8d24aec",
-        "tps_ba7fe878ff09",
-        "tps_fc4f2649506e",
-        "tps_151a01ec4f09",
-        "tps_cfc9562fdbc3"
+        "tps_1743e1e4eb0c"
       ]
     },
     {
@@ -10972,47 +10928,49 @@
     },
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 10,
+      "division": "HP",
+      "current_count": 7,
+      "baseline_avg": 2.7,
+      "ratio": 2.6,
+      "sample_days": 15,
       "window_hours": 3,
       "example_ids": [
-        "tps_bad6ece4c359",
-        "tps_652c9012c784",
-        "tps_04e3982346b8",
-        "tps_454177ba0731"
+        "tps_ba7fe878ff09",
+        "tps_fc4f2649506e",
+        "tps_151a01ec4f09",
+        "tps_cfc9562fdbc3",
+        "tps_ed1f4d667725"
       ]
     },
     {
       "source": "police",
       "division": "D22",
       "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 12,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
+        "tps_d522a6dc516a",
         "tps_ebd3862a78d3",
         "tps_5c2f7114c8c2",
-        "tps_b1fb26d6f8dc",
-        "tps_c52ddd452dca"
+        "tps_b1fb26d6f8dc"
       ]
     },
     {
       "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 1.9,
-      "ratio": 2.1,
-      "sample_days": 13,
+      "division": "D43",
+      "current_count": 5,
+      "baseline_avg": 2.0,
+      "ratio": 2.5,
+      "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
-        "tps_dfebc366af6b",
-        "tps_a1088946f122",
-        "tps_f5944206a3ea",
-        "tps_ac19cc055678"
+        "tps_3a6a85b5f613",
+        "tps_7a69f35afeef",
+        "tps_2d2ee4266288",
+        "tps_b29cc20841f3",
+        "tps_889070203096"
       ]
     }
   ]
