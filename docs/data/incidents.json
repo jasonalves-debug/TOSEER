@@ -1,11 +1,139 @@
 {
-  "generated": "2026-10-17T04:25:09.557880+00:00",
+  "generated": "2026-10-17T04:40:05.832571+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_7c23b5b79383",
+      "source": "police",
+      "lat": 43.66220290951827,
+      "lng": -79.42463442640963,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "CARLING AVE - OSSINGTON AVE",
+      "ts": "2026-10-17T04:22:59+00:00",
+      "related": [
+        {
+          "id": "tps_10a0adf6a53b",
+          "distance_m": 86,
+          "minutes_apart": 177
+        }
+      ]
+    },
+    {
+      "id": "tps_4e3fe8301603",
+      "source": "police",
+      "lat": 43.74685114817225,
+      "lng": -79.49105091160972,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D31",
+      "location": "DOWNSVIEW PARK TRL - DOVEHOUSE AVE",
+      "ts": "2026-10-17T04:21:01+00:00",
+      "related": [
+        {
+          "id": "tps_67ee879f6dd8",
+          "distance_m": 0,
+          "minutes_apart": 4
+        }
+      ]
+    },
+    {
+      "id": "tps_3231b2962b69",
+      "source": "police",
+      "lat": 43.66571560481933,
+      "lng": -79.3809414494974,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D51",
+      "location": "CHURCH ST - JARVIS ST",
+      "ts": "2026-10-17T04:18:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_835f7fb551cd",
+      "source": "police",
+      "lat": 43.689436122397865,
+      "lng": -79.30098755237307,
+      "type": "ASSJU",
+      "type_plain": "Assault (Just Occurred)",
+      "severity": "high",
+      "division": "D55",
+      "location": "LN N DANFORTH W MAIN ST - STANLEY G. GRIZZLE PARK TRL",
+      "ts": "2026-10-17T04:17:28+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_67ee879f6dd8",
+      "source": "police",
+      "lat": 43.74685114817225,
+      "lng": -79.49105091160972,
+      "type": "ATTBR",
+      "type_plain": "Attempt Break and Enter",
+      "severity": "high",
+      "division": "D31",
+      "location": "DOWNSVIEW PARK TRL - DOVEHOUSE AVE",
+      "ts": "2026-10-17T04:16:37+00:00",
+      "related": [
+        {
+          "id": "tps_4e3fe8301603",
+          "distance_m": 0,
+          "minutes_apart": 4
+        }
+      ]
+    },
+    {
+      "id": "tps_a5dd291849db",
+      "source": "police",
+      "lat": 43.66338470248842,
+      "lng": -79.37214865458222,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D51",
+      "location": "SHERBOURNE ST - CENTRAL HOSPITAL LANE",
+      "ts": "2026-10-17T04:12:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_5ea752588d62",
+      "source": "police",
+      "lat": 43.73092505079466,
+      "lng": -79.45863964026697,
+      "type": "FIG",
+      "type_plain": "FIG",
+      "severity": "low",
+      "division": "D32",
+      "location": "ANTHONY RD - WILSON AVE",
+      "ts": "2026-10-17T04:09:25+00:00",
+      "related": [
+        {
+          "id": "tps_e248a1ed54b2",
+          "distance_m": 132,
+          "minutes_apart": 86
+        }
+      ]
+    },
+    {
+      "id": "tps_9927804310ed",
+      "source": "police",
+      "lat": 43.76974608913171,
+      "lng": -79.40210409083923,
+      "type": "NOIPA",
+      "type_plain": "NOIPA",
+      "severity": "low",
+      "division": "D32",
+      "location": "HILLCREST AVE - WILLOWDALE AVE",
+      "ts": "2026-10-17T04:09:17+00:00",
+      "related": []
+    },
     {
       "id": "tps_afa49b9d3fdc",
       "source": "police",
@@ -701,7 +829,13 @@
       "division": "D32",
       "location": "TRANSIT RD - DUFFERIN ST",
       "ts": "2026-10-17T02:43:13+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_5ea752588d62",
+          "distance_m": 132,
+          "minutes_apart": 86
+        }
+      ]
     },
     {
       "id": "tfs_F26165266",
@@ -714,7 +848,7 @@
       "division": "312",
       "location": "Toronto - BLOOR ST & YONGE ST",
       "approximate": false,
-      "units": "L312, L325, P312",
+      "units": "L312, L315, L325, P312, R325",
       "ts": "2026-10-17T02:38:50+00:00",
       "related": [
         {
@@ -1363,7 +1497,13 @@
       "division": "D14",
       "location": "CARLING AVE - OSSINGTON AVE",
       "ts": "2026-10-17T01:26:10+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_7c23b5b79383",
+          "distance_m": 86,
+          "minutes_apart": 177
+        }
+      ]
     },
     {
       "id": "tps_902dea2b3a92",
@@ -10743,54 +10883,15 @@
       "location": "PECKHAM AVE - CHELMSFORD AVE",
       "ts": "2026-10-16T04:44:02+00:00",
       "related": []
-    },
-    {
-      "id": "tps_05ab22785460",
-      "source": "police",
-      "lat": 43.69817164783117,
-      "lng": -79.38647167221784,
-      "type": "THEPR",
-      "type_plain": "Theft (Priority)",
-      "severity": "medium",
-      "division": "D53",
-      "location": "MERTON ST - BALLIOL ST",
-      "ts": "2026-10-16T04:37:28+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_56e5b0b9c0cd",
-      "source": "police",
-      "lat": 43.68244671517957,
-      "lng": -79.32055513497103,
-      "type": "ASS",
-      "type_plain": "Assault",
-      "severity": "high",
-      "division": "D55",
-      "location": "HILLINGDON AVE - DRAYTON AVE",
-      "ts": "2026-10-16T04:29:40+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_356c59e44bf3",
-      "source": "police",
-      "lat": 43.77953670123865,
-      "lng": -79.23296484605089,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D43",
-      "location": "MARKHAM RD - TUXEDO CRT",
-      "ts": "2026-10-16T04:27:00+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
       "division": "D53",
-      "current_count": 8,
+      "current_count": 7,
       "baseline_avg": 1.5,
-      "ratio": 5.3,
+      "ratio": 4.7,
       "sample_days": 10,
       "window_hours": 3,
       "example_ids": [
@@ -10804,9 +10905,9 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 11,
+      "current_count": 10,
       "baseline_avg": 2.6,
-      "ratio": 4.2,
+      "ratio": 3.8,
       "sample_days": 14,
       "window_hours": 3,
       "example_ids": [
@@ -10819,16 +10920,34 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 10,
+      "division": "D32",
+      "current_count": 6,
+      "baseline_avg": 1.8,
+      "ratio": 3.4,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_6080e7c2db45",
-        "tps_0696d847e9fa",
-        "tps_b8cd6d1588b0"
+        "tps_5ea752588d62",
+        "tps_9927804310ed",
+        "tps_707bd3973a60",
+        "tps_c6c07ecc7c5a",
+        "tps_389219be4b99"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D51",
+      "current_count": 6,
+      "baseline_avg": 2.0,
+      "ratio": 3.0,
+      "sample_days": 13,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_3231b2962b69",
+        "tps_a5dd291849db",
+        "tps_b2d02bf8cd44",
+        "tps_358845be3915",
+        "tps_64c95624330e"
       ]
     },
     {
@@ -10848,17 +10967,18 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.7,
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 2.2,
       "ratio": 2.3,
-      "sample_days": 11,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_707bd3973a60",
-        "tps_c6c07ecc7c5a",
-        "tps_389219be4b99",
-        "tps_e248a1ed54b2"
+        "tps_835f7fb551cd",
+        "tps_749b92f2fb26",
+        "tps_a7352f1636d9",
+        "tps_0a434fd29f0e",
+        "tps_4b07228d58eb"
       ]
     },
     {
@@ -10878,22 +10998,6 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 6,
-      "baseline_avg": 2.7,
-      "ratio": 2.2,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_324196f96ae5",
-        "tps_9d9485176fa0",
-        "tps_784028af9275",
-        "tps_af0241ebe96e",
-        "tps_39088a09dc28"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D52",
       "current_count": 4,
       "baseline_avg": 1.8,
@@ -10905,21 +11009,6 @@
         "tps_6832ace8a31f",
         "tps_d18293b29de1",
         "tps_657dddf4b0d2"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D51",
-      "current_count": 4,
-      "baseline_avg": 2.0,
-      "ratio": 2.0,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_b2d02bf8cd44",
-        "tps_358845be3915",
-        "tps_64c95624330e",
-        "tps_ada436b005f7"
       ]
     }
   ]
