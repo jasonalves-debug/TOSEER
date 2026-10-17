@@ -191,7 +191,13 @@ def ontario511(st):
     return [{"id": v.get("ID"), "road": v.get("RoadwayName"), "dir": v.get("DirectionOfTravel"), "lat": v.get("Latitude"), "lng": v.get("Longitude"),
              "type": v.get("EventType"), "sub": v.get("EventSubType"), "full": bool(v.get("IsFullClosure")), "lanes": v.get("LanesAffected"),
              "start": v.get("StartDate"), "end": v.get("PlannedEndDate"), "desc": (v.get("Description") or "")[:200]}
-            for v in (d if isinstance(d, list) else []) if inbox(v.get("Latitude"), v.get("Longitude"))]
+            for v in (d if isinstance(d, list) else []) if inbox(v.get("Latitude"), v.get("Longitude")) or _feeder(v)]
+
+
+def _feeder(v):  # DVP / 404 just west of the map: when they close, drivers bail onto Victoria Park, Pharmacy and Warden
+    lat, lng = v.get("Latitude"), v.get("Longitude")
+    return (lat is not None and lng is not None and 43.68 <= lat <= 43.86 and -79.40 <= lng <= -79.30
+            and re.search(r"\b(DVP|Don Valley|404)\b", v.get("RoadwayName") or "", re.I) is not None)
 
 
 # ───────────────────────── TTC: service alerts (GTFS-RT) → subway shuttles, route notices ─────────────────────────

@@ -7,6 +7,7 @@ neighbourhood profiles, postal-area points (to place 311 requests), and the holi
 import csv
 import io
 import json
+import math
 import os
 import re
 import xml.etree.ElementTree as ET
@@ -67,6 +68,10 @@ def ttc():
     trips = {t["trip_id"]: (t["route_id"], t.get("direction_id", "0"), t.get("shape_id"), t["service_id"])
              for t in rows("trips.txt") if t["route_id"] in bus or t["route_id"] in subway}
     first, subway_stops = {}, set()
+    allstops = {s["stop_id"]: s for s in rows("stops.txt")}
+    here = {sid: (float(s["stop_lat"]), float(s["stop_lon"])) for sid, s in allstops.items()
+            if inbox(float(s["stop_lat"]), float(s["stop_lon"]), 0.01)}
+    timed = defaultdict(list)  # weekday bus trips: (seq, stop, departure s) at Scarborough stops → scheduled bus speeds
     for st in rows("stop_times.txt"):
         tr = trips.get(st["trip_id"])
         if not tr:
@@ -77,11 +82,15 @@ def ttc():
         seq = int(st["stop_sequence"])
         if st["trip_id"] not in first or seq < first[st["trip_id"]][0]:
             first[st["trip_id"]] = (seq, st["departure_time"])
+        if st["stop_id"] in here and "wd" in svc_kind.get(tr[3], {"wd"}) and st["departure_time"]:
+            timed[st["trip_id"]].append((seq, st["stop_id"], secs(st["departure_time"])))
     stations = {}
-    for s in rows("stops.txt"):
-        if s["stop_id"] in subway_stops:
+    for sid in subway_stops:
+        s = allstops.get(sid)
+        if s:
             base = re.split(r"\s+station\b", s["stop_name"], flags=re.I)[0].strip().title()
-            stations[s["stop_id"]] = [base, round(float(s["stop_lat"]), 6), round(float(s["stop_lon"]), 6)]
+            stations[sid] = [base, round(float(s["stop_lat"]), 6), round(float(s["stop_lon"]), 6)]
+    sched = bus_sched(timed, here)
     shapes = defaultdict(list)
     for s in rows("shapes.txt"):
         shapes[s["shape_id"]].append((int(s["shape_pt_sequence"]), float(s["shape_pt_lon"]), float(s["shape_pt_lat"])))
@@ -110,7 +119,48 @@ def ttc():
         r = routes[rid]
         out.append({"rid": rid, "route": r.get("route_short_name"), "name": (r.get("route_long_name") or "").title(), "dir": d,
                     "line": [[round(x, 6), round(y, 6)] for x, y in simplify(clip_line(pts))], "tph": h})
-    return {"routes": out, "subway": stations}
+    return {"routes": out, "subway": stations, "bsched": sched}
+
+
+def _metres(a, b):
+    dy = (b[0] - a[0]) * 111320
+    dx = (b[1] - a[1]) * 111320 * math.cos(math.radians(a[0]))
+    return math.hypot(dx, dy)
+
+
+def bus_sched(timed, here):
+    """Scheduled weekday bus speed (stops included) on ~600 m stretches between stops, by time of day.
+    The TTC timetable already allows for normal rush-hour traffic, so a bus well behind this pace is stuck in something
+    unusual. Output: [latA, lngA, latB, lngB, [m/s before 7, 7-9:30, 9:30-15, 15-19, after 19]] (0 = no trips)."""
+    def period(t):
+        h = (t / 3600) % 24
+        return 0 if 5 <= h < 7 else 1 if h < 9.5 and h >= 7 else 2 if 9.5 <= h < 15 else 3 if 15 <= h < 19 else 4
+    agg = defaultdict(lambda: [[] for _ in range(5)])
+    for seq in timed.values():
+        seq.sort()
+        i = 0
+        while i < len(seq) - 1:
+            a, d, j = seq[i], 0.0, i
+            while j < len(seq) - 1 and d < 600:
+                if seq[j + 1][0] - seq[j][0] > 3:  # left the area and came back: don't bridge the gap
+                    break
+                d += _metres(here[seq[j][1]], here[seq[j + 1][1]])
+                j += 1
+            b = seq[j]
+            if j == i:
+                i += 1
+                continue
+            dt = b[2] - a[2]
+            if d >= 400 and dt > 0 and 1 < d / dt < 25:
+                agg[(a[1], b[1])][period(a[2])].append(d / dt)
+            i = j
+    out = []
+    for (sa, sb), per in agg.items():
+        med = [round(sorted(v)[len(v) // 2], 1) if v else 0 for v in per]
+        if any(med):
+            (la, ga), (lb, gb) = here[sa], here[sb]
+            out.append([round(la, 5), round(ga, 5), round(lb, 5), round(gb, 5), med])
+    return out
 
 
 # ───────────────────────── GO trains (Stouffville + Lakeshore East) and level crossings ─────────────────────────
@@ -446,7 +496,8 @@ def build():
     out["stations"] = st.run("stations", fire_stations)
     t = st.run("ttc", ttc)
     if t:
-        out["ttc"], out["subway"] = t["routes"], t["subway"]
+        out["ttc"], out["subway"], out["bsched"] = t["routes"], t["subway"], t.get("bsched") or []
+        st["bsched"] = f"live ({len(out['bsched'])} scheduled bus-speed stretches)"
         st["ttc"] = f"live ({len(t['routes'])} route-directions, {len(t['subway'])} subway stops)"
     go = st.run("go", go_trains)
     if go:
@@ -461,7 +512,7 @@ def build():
     out["calendar"] = st.run("calendar", calendar)
     out["cameras"] = st.run("cameras", cameras)
     # anything that failed this week: keep last week's copy so the game never loses a layer
-    for k in ("stations", "ttc", "subway", "go", "crossings", "schools", "towers", "sites", "worship", "hoods", "calendar"):
+    for k in ("stations", "ttc", "subway", "bsched", "go", "crossings", "schools", "towers", "sites", "worship", "hoods", "calendar"):
         if not out.get(k) and prev.get(k):
             out[k] = prev[k]
             st[k] = st.get(k, "") + " (kept last good copy)"
