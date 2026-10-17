@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-17T17:11:06.192111+00:00",
+  "generated": "2026-10-17T17:26:05.459529+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165601",
+      "source": "fire",
+      "lat": 43.6822784,
+      "lng": -79.4717827,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "421",
+      "location": "York - ROGERS RD & KEELE ST",
+      "approximate": false,
+      "units": "A423, P415",
+      "ts": "2026-10-17T17:14:30+00:00",
+      "related": []
+    },
     {
       "id": "tps_263c3023e9da",
       "source": "police",
@@ -10004,11 +10019,6 @@
           "id": "tps_894bc6d76a28",
           "distance_m": 0,
           "minutes_apart": 25
-        },
-        {
-          "id": "tps_c4c6a8024e4f",
-          "distance_m": 428,
-          "minutes_apart": 151
         }
       ]
     },
@@ -10294,11 +10304,6 @@
           "id": "tps_9b82f2e18138",
           "distance_m": 0,
           "minutes_apart": 25
-        },
-        {
-          "id": "tps_c4c6a8024e4f",
-          "distance_m": 428,
-          "minutes_apart": 126
         }
       ]
     },
@@ -10864,11 +10869,6 @@
       "location": "COLLEGE ST - WOOD ST",
       "ts": "2026-10-16T18:40:37+00:00",
       "related": [
-        {
-          "id": "tps_eafd8e0f2918",
-          "distance_m": 116,
-          "minutes_apart": 88
-        },
         {
           "id": "tps_e40cf4fc4ffe",
           "distance_m": 226,
@@ -11479,88 +11479,6 @@
       "location": "ELMHURST DR - REDWATER DR",
       "ts": "2026-10-16T17:27:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_c1e80b9e91aa",
-      "source": "police",
-      "lat": 43.61540978358478,
-      "lng": -79.50068463101478,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D22",
-      "location": "JUDSON ST - NEWCASTLE ST",
-      "ts": "2026-10-16T17:24:55+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_a147a77d5908",
-      "source": "police",
-      "lat": 43.76362869228448,
-      "lng": -79.19689050624457,
-      "type": "MISVU",
-      "type_plain": "Missing Person (Vulnerable)",
-      "severity": "low",
-      "division": "D41",
-      "location": "185 GALLOWAY RD - LAWRENCE AVE E",
-      "ts": "2026-10-16T17:20:37+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_f8a538fa3db1",
-      "source": "police",
-      "lat": 43.79803402021879,
-      "lng": -79.42004823854431,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D32",
-      "location": " - ",
-      "ts": "2026-10-16T17:18:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c4c6a8024e4f",
-      "source": "police",
-      "lat": 43.680088209882776,
-      "lng": -79.43371192174288,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D13",
-      "location": "WINONA DR - ALBERTA AVE",
-      "ts": "2026-10-16T17:13:14+00:00",
-      "related": [
-        {
-          "id": "tps_894bc6d76a28",
-          "distance_m": 428,
-          "minutes_apart": 126
-        },
-        {
-          "id": "tps_9b82f2e18138",
-          "distance_m": 428,
-          "minutes_apart": 151
-        }
-      ]
-    },
-    {
-      "id": "tps_eafd8e0f2918",
-      "source": "police",
-      "lat": 43.66304470214845,
-      "lng": -79.38308454717834,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "PK51",
-      "location": "GRENVILLE ST - ALEXANDER ST",
-      "ts": "2026-10-16T17:12:38+00:00",
-      "related": [
-        {
-          "id": "tps_0acb6c18e660",
-          "distance_m": 116,
-          "minutes_apart": 88
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11594,22 +11512,6 @@
         "tps_a939a72d08ad",
         "tps_28914baa10ff",
         "tps_0c0be64c78bb"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 6,
-      "baseline_avg": 1.7,
-      "ratio": 3.5,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_104448f7d446",
-        "tps_dd65624d7586",
-        "tps_c165ac0ba4fe",
-        "tps_5c3d43f06135",
-        "tps_9adc8c43c828"
       ]
     },
     {
@@ -11658,6 +11560,22 @@
         "tps_4b7ad5f96b8c",
         "tps_b5cd6a88b82f",
         "tps_daee2bc5e457"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D53",
+      "current_count": 5,
+      "baseline_avg": 1.7,
+      "ratio": 2.9,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_104448f7d446",
+        "tps_dd65624d7586",
+        "tps_c165ac0ba4fe",
+        "tps_5c3d43f06135",
+        "tps_9adc8c43c828"
       ]
     },
     {
