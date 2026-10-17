@@ -1,11 +1,86 @@
 {
-  "generated": "2026-10-17T10:40:28.031013+00:00",
+  "generated": "2026-10-17T10:55:27.473893+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165433",
+      "source": "fire",
+      "lat": 43.7797993,
+      "lng": -79.1709625,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "234",
+      "location": "Scarborough - KINGSTON RD & WEST HILL DR",
+      "approximate": false,
+      "units": "",
+      "ts": "2026-10-17T10:40:50+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26165430",
+      "source": "fire",
+      "lat": 43.7713398,
+      "lng": -79.283313,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "245",
+      "location": "Scarborough - ANTRIM CRES & KENNEDY RD",
+      "approximate": false,
+      "units": "P244, P245",
+      "ts": "2026-10-17T10:33:37+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_d6f1a51f3ac2",
+      "source": "police",
+      "lat": 43.6442321833358,
+      "lng": -79.37582884666803,
+      "type": "IMPDR",
+      "type_plain": "Impaired Driver",
+      "severity": "low",
+      "division": "HP",
+      "location": "GARDINER XWY W - YONGE ST",
+      "ts": "2026-10-17T10:33:17+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_15c00779e8a6",
+      "source": "police",
+      "lat": 43.823279502957654,
+      "lng": -79.25143176779014,
+      "type": "THEVE",
+      "type_plain": "Theft of Vehicle",
+      "severity": "medium",
+      "division": "D42",
+      "location": "HEPC - MCNICOLL AVE",
+      "ts": "2026-10-17T10:32:04+00:00",
+      "related": [
+        {
+          "id": "tps_e74eed84637a",
+          "distance_m": 0,
+          "minutes_apart": 153
+        }
+      ]
+    },
+    {
+      "id": "tps_5c00a79003d9",
+      "source": "police",
+      "lat": 43.66672392285862,
+      "lng": -79.44645392062525,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D11",
+      "location": "DUPONT ST - C P R",
+      "ts": "2026-10-17T10:29:58+00:00",
+      "related": []
+    },
     {
       "id": "tps_98758e77aaa3",
       "source": "police",
@@ -516,7 +591,13 @@
       "division": "D42",
       "location": "HEPC - MCNICOLL AVE",
       "ts": "2026-10-17T07:59:24+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_15c00779e8a6",
+          "distance_m": 0,
+          "minutes_apart": 153
+        }
+      ]
     },
     {
       "id": "tps_52440326a890",
@@ -10516,11 +10597,6 @@
       "ts": "2026-10-16T13:30:00+00:00",
       "related": [
         {
-          "id": "tps_313a61ffc6d6",
-          "distance_m": 318,
-          "minutes_apart": 155
-        },
-        {
           "id": "tps_40487d1f1900",
           "distance_m": 477,
           "minutes_apart": 52
@@ -10544,11 +10620,6 @@
       "location": "SPRUCE ST - DOCTOR O LANE",
       "ts": "2026-10-16T13:24:14+00:00",
       "related": [
-        {
-          "id": "tps_e85e7e581c94",
-          "distance_m": 0,
-          "minutes_apart": 163
-        },
         {
           "id": "tps_b8b94bad2535",
           "distance_m": 359,
@@ -10883,11 +10954,6 @@
       "ts": "2026-10-16T12:38:06+00:00",
       "related": [
         {
-          "id": "tps_313a61ffc6d6",
-          "distance_m": 183,
-          "minutes_apart": 103
-        },
-        {
           "id": "tps_88fdd833be70",
           "distance_m": 477,
           "minutes_apart": 52
@@ -11012,11 +11078,6 @@
       "ts": "2026-10-16T12:03:33+00:00",
       "related": [
         {
-          "id": "tps_cc860025cc97",
-          "distance_m": 209,
-          "minutes_apart": 73
-        },
-        {
           "id": "tps_cd7d14c8bc3e",
           "distance_m": 600,
           "minutes_apart": 166
@@ -11137,11 +11198,6 @@
       "location": "PARLIAMENT ST - COLE ST",
       "ts": "2026-10-16T11:28:20+00:00",
       "related": [
-        {
-          "id": "tps_e85e7e581c94",
-          "distance_m": 359,
-          "minutes_apart": 47
-        },
         {
           "id": "tps_4fa0a18e4050",
           "distance_m": 359,
@@ -11264,18 +11320,7 @@
       "division": "D13",
       "location": "DAVENPORT RD - DUFFERIN ST",
       "ts": "2026-10-16T11:03:33+00:00",
-      "related": [
-        {
-          "id": "tps_176ef1610082",
-          "distance_m": 0,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tfs_F26164819",
-          "distance_m": 21,
-          "minutes_apart": 18
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_6d5d047007b8",
@@ -11310,162 +11355,6 @@
       "units": "P121, R122",
       "ts": "2026-10-16T10:55:46+00:00",
       "related": []
-    },
-    {
-      "id": "tps_176ef1610082",
-      "source": "police",
-      "lat": 43.6729882238195,
-      "lng": -79.44098312262145,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "DAVENPORT RD - DUFFERIN ST",
-      "ts": "2026-10-16T10:55:02+00:00",
-      "related": [
-        {
-          "id": "tps_ea6a24a951ba",
-          "distance_m": 0,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tfs_F26164819",
-          "distance_m": 21,
-          "minutes_apart": 9
-        }
-      ]
-    },
-    {
-      "id": "tps_313a61ffc6d6",
-      "source": "police",
-      "lat": 43.648643687747274,
-      "lng": -79.38027184370603,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D52",
-      "location": "KING ST W - LN S ADELAIDE E BAY",
-      "ts": "2026-10-16T10:55:01+00:00",
-      "related": [
-        {
-          "id": "tps_40487d1f1900",
-          "distance_m": 183,
-          "minutes_apart": 103
-        },
-        {
-          "id": "tps_88fdd833be70",
-          "distance_m": 318,
-          "minutes_apart": 155
-        }
-      ]
-    },
-    {
-      "id": "tps_ab9889a00de3",
-      "source": "police",
-      "lat": 43.68974302004072,
-      "lng": -79.30856384742461,
-      "type": "DISPU",
-      "type_plain": "Dispute",
-      "severity": "low",
-      "division": "D55",
-      "location": "KING EDWARD AVE - BURRELL AVE",
-      "ts": "2026-10-16T10:52:25+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_cc860025cc97",
-      "source": "police",
-      "lat": 43.77015548967409,
-      "lng": -79.41310506996221,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D32",
-      "location": "EMPRESS AVE - KINGSDALE AVE",
-      "ts": "2026-10-16T10:50:57+00:00",
-      "related": [
-        {
-          "id": "tps_77cf5c6062fe",
-          "distance_m": 209,
-          "minutes_apart": 73
-        }
-      ]
-    },
-    {
-      "id": "tps_4a8fd5b1b2c6",
-      "source": "police",
-      "lat": 43.72097784643953,
-      "lng": -79.50863794404951,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D31",
-      "location": "WILSON AVE - JANE ST",
-      "ts": "2026-10-16T10:46:59+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_419785bac2f9",
-      "source": "police",
-      "lat": 43.688447123843794,
-      "lng": -79.30055625233094,
-      "type": "FIG",
-      "type_plain": "FIG",
-      "severity": "low",
-      "division": "D55",
-      "location": "BARRINGTON AVE - GUEST AVE",
-      "ts": "2026-10-16T10:46:02+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26164819",
-      "source": "fire",
-      "lat": 43.6731253,
-      "lng": -79.4411633,
-      "type": "Vehicle - Personal Injury",
-      "type_plain": "Vehicle - Personal Injury",
-      "severity": "medium",
-      "division": "342",
-      "location": "DAVENPORT RD & DUFFERIN ST",
-      "approximate": false,
-      "units": "P342",
-      "ts": "2026-10-16T10:45:43+00:00",
-      "related": [
-        {
-          "id": "tps_176ef1610082",
-          "distance_m": 21,
-          "minutes_apart": 9
-        },
-        {
-          "id": "tps_ea6a24a951ba",
-          "distance_m": 21,
-          "minutes_apart": 18
-        }
-      ]
-    },
-    {
-      "id": "tps_e85e7e581c94",
-      "source": "police",
-      "lat": 43.663201702305415,
-      "lng": -79.36752735760204,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D51",
-      "location": "SPRUCE ST - DOCTOR O LANE",
-      "ts": "2026-10-16T10:41:23+00:00",
-      "related": [
-        {
-          "id": "tps_4fa0a18e4050",
-          "distance_m": 0,
-          "minutes_apart": 163
-        },
-        {
-          "id": "tps_b8b94bad2535",
-          "distance_m": 359,
-          "minutes_apart": 47
-        }
-      ]
     }
   ],
   "anomalies": [
@@ -11485,6 +11374,36 @@
     },
     {
       "source": "police",
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_15c00779e8a6",
+        "tps_0cf822363ff8",
+        "tps_9fcade9a6850",
+        "tps_e74eed84637a"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 4,
+      "baseline_avg": 1.4,
+      "ratio": 2.9,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5c00a79003d9",
+        "tps_d9a567df040a",
+        "tps_841fc8b695bc",
+        "tps_7d85b0da5459"
+      ]
+    },
+    {
+      "source": "police",
       "division": "D23",
       "current_count": 3,
       "baseline_avg": 1.2,
@@ -11499,44 +11418,17 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 3,
-      "baseline_avg": 1.3,
+      "division": "HP",
+      "current_count": 4,
+      "baseline_avg": 1.8,
       "ratio": 2.3,
-      "sample_days": 10,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_d9a567df040a",
-        "tps_841fc8b695bc",
-        "tps_7d85b0da5459"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 5,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5d9ed819cba6",
-        "tps_6fbd708da7b8",
-        "tps_8dfac4618362"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.1,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_0cf822363ff8",
-        "tps_9fcade9a6850",
-        "tps_e74eed84637a"
+        "tps_d6f1a51f3ac2",
+        "tps_98758e77aaa3",
+        "tps_f5b6796df760",
+        "tps_c903aadef6aa"
       ]
     }
   ]
