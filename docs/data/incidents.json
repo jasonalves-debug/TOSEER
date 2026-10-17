@@ -1,11 +1,100 @@
 {
-  "generated": "2026-10-17T14:41:05.050744+00:00",
+  "generated": "2026-10-17T14:56:06.049274+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_026e18465ce0",
+      "source": "police",
+      "lat": 43.684614884974174,
+      "lng": -79.34779360873658,
+      "type": "DISPU",
+      "type_plain": "Dispute",
+      "severity": "low",
+      "division": "D55",
+      "location": "CARLAW AVE - LN W PAPE N FULTON",
+      "ts": "2026-10-17T14:41:06+00:00",
+      "related": []
+    },
+    {
+      "id": "tfs_F26165520",
+      "source": "fire",
+      "lat": 43.697154,
+      "lng": -79.3145238,
+      "type": "Rescue - Elevator",
+      "type_plain": "Rescue - Elevator",
+      "severity": "medium",
+      "division": "224",
+      "location": "East York - COSBURN AVE & CEDARVALE AVE",
+      "approximate": false,
+      "units": "P224, P225",
+      "ts": "2026-10-17T14:37:47+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_1a175dccea4c",
+      "source": "police",
+      "lat": 43.656324795428525,
+      "lng": -79.38091294638609,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D52",
+      "location": "YONGE ST - VICTORIA ST",
+      "ts": "2026-10-17T14:36:15+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165465",
+          "distance_m": 476,
+          "minutes_apart": 127
+        },
+        {
+          "id": "tps_6d2182a560e1",
+          "distance_m": 481,
+          "minutes_apart": 28
+        },
+        {
+          "id": "tps_9dbb632aba0e",
+          "distance_m": 520,
+          "minutes_apart": 100
+        }
+      ]
+    },
+    {
+      "id": "tps_0567ef86dcc5",
+      "source": "police",
+      "lat": 43.65218319363875,
+      "lng": -79.40660193185823,
+      "type": "DIS",
+      "type_plain": "Disturbance",
+      "severity": "medium",
+      "division": "D14",
+      "location": "BATHURST ST - COLLEGE PL",
+      "ts": "2026-10-17T14:29:33+00:00",
+      "related": [
+        {
+          "id": "tps_72617d6fd7af",
+          "distance_m": 545,
+          "minutes_apart": 103
+        }
+      ]
+    },
+    {
+      "id": "tps_68c0242ed6b6",
+      "source": "police",
+      "lat": 43.64878780062026,
+      "lng": -79.52872459489137,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D22",
+      "location": "BURNHAMTHORPE RD - DUNDAS ST W",
+      "ts": "2026-10-17T14:26:54+00:00",
+      "related": []
+    },
     {
       "id": "tps_d5eae7ae625b",
       "source": "police",
@@ -71,7 +160,13 @@
       "division": "D51",
       "location": "GERRARD ST E - COLLEGE ST",
       "ts": "2026-10-17T14:08:15+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_1a175dccea4c",
+          "distance_m": 481,
+          "minutes_apart": 28
+        }
+      ]
     },
     {
       "id": "tps_9d8a0e5172bf",
@@ -499,6 +594,11 @@
           "id": "tfs_F26165465",
           "distance_m": 479,
           "minutes_apart": 27
+        },
+        {
+          "id": "tps_1a175dccea4c",
+          "distance_m": 520,
+          "minutes_apart": 100
         }
       ]
     },
@@ -584,6 +684,11 @@
           "id": "tps_69b054022ee6",
           "distance_m": 520,
           "minutes_apart": 39
+        },
+        {
+          "id": "tps_0567ef86dcc5",
+          "distance_m": 545,
+          "minutes_apart": 103
         }
       ]
     },
@@ -772,6 +877,11 @@
       "units": "C33, P333, T333",
       "ts": "2026-10-17T12:29:43+00:00",
       "related": [
+        {
+          "id": "tps_1a175dccea4c",
+          "distance_m": 476,
+          "minutes_apart": 127
+        },
         {
           "id": "tps_9dbb632aba0e",
           "distance_m": 479,
@@ -10374,11 +10484,6 @@
           "id": "tps_a1dc5ec952ce",
           "distance_m": 463,
           "minutes_apart": 112
-        },
-        {
-          "id": "tps_cd7d14c8bc3e",
-          "distance_m": 463,
-          "minutes_apart": 123
         }
       ]
     },
@@ -10860,11 +10965,6 @@
       "ts": "2026-10-16T16:17:07+00:00",
       "related": [
         {
-          "id": "tps_082ab03b5018",
-          "distance_m": 409,
-          "minutes_apart": 93
-        },
-        {
           "id": "tps_8ac3f31e9946",
           "distance_m": 442,
           "minutes_apart": 37
@@ -11035,11 +11135,6 @@
           "id": "tfs_F26164949",
           "distance_m": 442,
           "minutes_apart": 37
-        },
-        {
-          "id": "tps_082ab03b5018",
-          "distance_m": 581,
-          "minutes_apart": 56
         }
       ]
     },
@@ -11085,11 +11180,6 @@
           "id": "tps_2a601c69f97a",
           "distance_m": 114,
           "minutes_apart": 167
-        },
-        {
-          "id": "tps_082ab03b5018",
-          "distance_m": 340,
-          "minutes_apart": 36
         }
       ]
     },
@@ -11168,13 +11258,7 @@
       "division": "D23",
       "location": "MARCEL RD - KIPLING AVE",
       "ts": "2026-10-16T15:07:57+00:00",
-      "related": [
-        {
-          "id": "tps_d898e93a99cd",
-          "distance_m": 0,
-          "minutes_apart": 15
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_1f4f25fdc06b",
@@ -11215,11 +11299,6 @@
       "ts": "2026-10-16T15:00:57+00:00",
       "related": [
         {
-          "id": "tps_cd7d14c8bc3e",
-          "distance_m": 0,
-          "minutes_apart": 11
-        },
-        {
           "id": "tps_f0caeb1fde6c",
           "distance_m": 463,
           "minutes_apart": 112
@@ -11251,169 +11330,6 @@
       "location": "LEADLEY LANE - KARL FRASER RD",
       "ts": "2026-10-16T14:57:19+00:00",
       "related": []
-    },
-    {
-      "id": "tps_1b868ac568b8",
-      "source": "police",
-      "lat": 43.73006187073596,
-      "lng": -79.27790929759237,
-      "type": "THEVE",
-      "type_plain": "Theft of Vehicle",
-      "severity": "medium",
-      "division": "D41",
-      "location": "BIRCHMOUNT RD - MASSEY CREEK",
-      "ts": "2026-10-16T14:53:13+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_c33819f61d01",
-      "source": "police",
-      "lat": 43.729883168947865,
-      "lng": -79.4186773269365,
-      "type": "INDEX",
-      "type_plain": "INDEX",
-      "severity": "low",
-      "division": "D32",
-      "location": "ST GERMAIN AVE - MELROSE AVE",
-      "ts": "2026-10-16T14:53:08+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_d898e93a99cd",
-      "source": "police",
-      "lat": 43.714021807573054,
-      "lng": -79.564980055997,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "HP",
-      "location": "MARCEL RD - KIPLING AVE",
-      "ts": "2026-10-16T14:52:48+00:00",
-      "related": [
-        {
-          "id": "tps_0e7853d2c6c9",
-          "distance_m": 0,
-          "minutes_apart": 15
-        }
-      ]
-    },
-    {
-      "id": "tps_cd7d14c8bc3e",
-      "source": "police",
-      "lat": 43.76632928585783,
-      "lng": -79.41536447488234,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D32",
-      "location": "NORTH YORK BLVD - PARK HOME AVE",
-      "ts": "2026-10-16T14:49:59+00:00",
-      "related": [
-        {
-          "id": "tps_a1dc5ec952ce",
-          "distance_m": 0,
-          "minutes_apart": 11
-        },
-        {
-          "id": "tps_f0caeb1fde6c",
-          "distance_m": 463,
-          "minutes_apart": 123
-        }
-      ]
-    },
-    {
-      "id": "tps_2313a7580ba2",
-      "source": "police",
-      "lat": 43.73231127802962,
-      "lng": -79.26799761004041,
-      "type": "HAZ",
-      "type_plain": "Hazard",
-      "severity": "low",
-      "division": "D41",
-      "location": " - ",
-      "ts": "2026-10-16T14:49:15+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_e4d08404b445",
-      "source": "police",
-      "lat": 43.808524344184214,
-      "lng": -79.33829772537008,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D42",
-      "location": "TEMPO AVE - SPARKS AVE",
-      "ts": "2026-10-16T14:46:52+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_7ea9c5e737ec",
-      "source": "police",
-      "lat": 43.67034090315868,
-      "lng": -79.31097413209199,
-      "type": "ARR",
-      "type_plain": "Arrest / Arrived at Scene",
-      "severity": "low",
-      "division": "D53",
-      "location": "TOMPKINS MEWS - LN N DIXON AVE E KINGSTON",
-      "ts": "2026-10-16T14:45:27+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_082ab03b5018",
-      "source": "police",
-      "lat": 43.64943898854259,
-      "lng": -79.39654023556032,
-      "type": "DIS",
-      "type_plain": "Disturbance",
-      "severity": "medium",
-      "division": "D52",
-      "location": "PETER ST - SPADINA AVE",
-      "ts": "2026-10-16T14:43:42+00:00",
-      "related": [
-        {
-          "id": "tps_5a603000e213",
-          "distance_m": 340,
-          "minutes_apart": 36
-        },
-        {
-          "id": "tfs_F26164949",
-          "distance_m": 409,
-          "minutes_apart": 93
-        },
-        {
-          "id": "tps_8ac3f31e9946",
-          "distance_m": 581,
-          "minutes_apart": 56
-        }
-      ]
-    },
-    {
-      "id": "tps_5f8a9ebdca8b",
-      "source": "police",
-      "lat": 43.75092157916917,
-      "lng": -79.24040017883593,
-      "type": "GASLE",
-      "type_plain": "Gas Leak",
-      "severity": "low",
-      "division": "D43",
-      "location": "PERIVALE CRES - HAGUE PARK TRL",
-      "ts": "2026-10-16T14:43:21+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5e4d6ce5bb6c",
-      "source": "police",
-      "lat": 43.72085664643957,
-      "lng": -79.50860954401533,
-      "type": "ASSJU",
-      "type_plain": "Assault (Just Occurred)",
-      "severity": "high",
-      "division": "D31",
-      "location": "JANE ST - DALLNER RD",
-      "ts": "2026-10-16T14:42:01+00:00",
-      "related": []
     }
   ],
   "anomalies": [
@@ -11435,22 +11351,6 @@
     },
     {
       "source": "police",
-      "division": "HP",
-      "current_count": 8,
-      "baseline_avg": 2.4,
-      "ratio": 3.4,
-      "sample_days": 11,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_855758c94b71",
-        "tps_fb379155c715",
-        "tps_af7836feb55a",
-        "tps_decea5e7a070",
-        "tps_8159539bceaf"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D41",
       "current_count": 5,
       "baseline_avg": 1.6,
@@ -11467,18 +11367,48 @@
     },
     {
       "source": "police",
-      "division": "D53",
-      "current_count": 5,
-      "baseline_avg": 1.9,
-      "ratio": 2.6,
-      "sample_days": 9,
+      "division": "D22",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.0,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_d5eae7ae625b",
-        "tps_0a63fe18d241",
-        "tps_5677489432bd",
-        "tps_271f39e4f626",
-        "tps_b143f05192a5"
+        "tps_68c0242ed6b6",
+        "tps_89b079def3ce",
+        "tps_6c185f36db35",
+        "tps_9241b4fd9eb1"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 7,
+      "baseline_avg": 2.4,
+      "ratio": 3.0,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_855758c94b71",
+        "tps_fb379155c715",
+        "tps_af7836feb55a",
+        "tps_decea5e7a070",
+        "tps_8159539bceaf"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D55",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.4,
+      "sample_days": 11,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_026e18465ce0",
+        "tps_16457a181b0e",
+        "tps_1967b7eb22b3",
+        "tps_029281cb7962"
       ]
     },
     {
@@ -11499,30 +11429,32 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.4,
-      "sample_days": 8,
+      "division": "D14",
+      "current_count": 4,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 14,
       "window_hours": 3,
       "example_ids": [
-        "tps_f4a2d0b6f244",
-        "tps_d6546d98ae47",
-        "tps_6790d61600bc"
+        "tps_0567ef86dcc5",
+        "tps_69b054022ee6",
+        "tps_72617d6fd7af",
+        "tps_298f4d4cc201"
       ]
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 3,
-      "baseline_avg": 1.4,
-      "ratio": 2.2,
-      "sample_days": 11,
+      "division": "D53",
+      "current_count": 4,
+      "baseline_avg": 1.9,
+      "ratio": 2.1,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
-        "tps_89b079def3ce",
-        "tps_6c185f36db35",
-        "tps_9241b4fd9eb1"
+        "tps_d5eae7ae625b",
+        "tps_0a63fe18d241",
+        "tps_5677489432bd",
+        "tps_271f39e4f626"
       ]
     }
   ]
