@@ -1,11 +1,52 @@
 {
-  "generated": "2026-10-17T20:41:30.494119+00:00",
+  "generated": "2026-10-17T20:56:29.411793+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165697",
+      "source": "fire",
+      "lat": 43.6851092,
+      "lng": -79.419185,
+      "type": "Vehicle - Personal Injury",
+      "type_plain": "Vehicle - Personal Injury",
+      "severity": "medium",
+      "division": "343",
+      "location": "TICHESTER RD & BATHURST ST",
+      "approximate": false,
+      "units": "P311, P344",
+      "ts": "2026-10-17T20:43:40+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_04767b3f8307",
+      "source": "police",
+      "lat": 43.656119297057295,
+      "lng": -79.39916313592867,
+      "type": "LOSEL",
+      "type_plain": "Lost/Found Property or Person",
+      "severity": "low",
+      "division": "D14",
+      "location": "CECIL ST - OXFORD ST",
+      "ts": "2026-10-17T20:38:13+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_766c35605558",
+      "source": "police",
+      "lat": 43.75333148948363,
+      "lng": -79.54269890293543,
+      "type": "HAZ",
+      "type_plain": "Hazard",
+      "severity": "low",
+      "division": "D31",
+      "location": "WESTON RD - ORMONT DR",
+      "ts": "2026-10-17T20:37:15+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165691",
       "source": "fire",
@@ -17,8 +58,21 @@
       "division": "442",
       "location": "York - KING ST & WESTON RD",
       "approximate": false,
-      "units": "",
+      "units": "P415, P442",
       "ts": "2026-10-17T20:34:57+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_cfc9562fdbc3",
+      "source": "police",
+      "lat": 43.78349233661539,
+      "lng": -79.31732517288168,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "HP",
+      "location": "HUNTINGWOOD DR - KILKENNY DR",
+      "ts": "2026-10-17T20:27:34+00:00",
       "related": []
     },
     {
@@ -10284,13 +10338,7 @@
       "division": "D31",
       "location": "JANE ST - WILSON AVE",
       "ts": "2026-10-16T22:17:52+00:00",
-      "related": [
-        {
-          "id": "tps_582351af4a87",
-          "distance_m": 0,
-          "minutes_apart": 90
-        }
-      ]
+      "related": []
     },
     {
       "id": "tps_654a3d3fd933",
@@ -10441,11 +10489,6 @@
           "id": "tfs_F26165116",
           "distance_m": 567,
           "minutes_apart": 37
-        },
-        {
-          "id": "tfs_F26165087",
-          "distance_m": 567,
-          "minutes_apart": 75
         }
       ]
     },
@@ -10723,11 +10766,6 @@
       "ts": "2026-10-16T21:24:39+00:00",
       "related": [
         {
-          "id": "tfs_F26165087",
-          "distance_m": 0,
-          "minutes_apart": 38
-        },
-        {
           "id": "tps_bfedcd40d1f8",
           "distance_m": 567,
           "minutes_apart": 37
@@ -10872,13 +10910,7 @@
       "division": "D42",
       "location": "MEADOWVALE RD - SHEPPARD AVE E",
       "ts": "2026-10-16T20:59:42+00:00",
-      "related": [
-        {
-          "id": "tfs_F26165090",
-          "distance_m": 361,
-          "minutes_apart": 11
-        }
-      ]
+      "related": []
     },
     {
       "id": "tfs_F26165095",
@@ -10907,149 +10939,54 @@
       "location": "CARLAW AVE - LESLIE ST",
       "ts": "2026-10-16T20:57:57+00:00",
       "related": []
-    },
-    {
-      "id": "tfs_F26165092",
-      "source": "fire",
-      "lat": 43.7670524,
-      "lng": -79.1904024,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "234",
-      "location": "Scarborough - LAWRENCE AVE & KINGSTON RD",
-      "approximate": false,
-      "units": "A215, P234",
-      "ts": "2026-10-16T20:53:32+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1163d1ebd356",
-      "source": "police",
-      "lat": 43.698487766565776,
-      "lng": -79.4371897925539,
-      "type": "UNKTR",
-      "type_plain": "Unknown Trouble",
-      "severity": "low",
-      "division": "D13",
-      "location": "WILLIAM R ALLEN RD S - WINNETT AVE",
-      "ts": "2026-10-16T20:50:11+00:00",
-      "related": []
-    },
-    {
-      "id": "tfs_F26165090",
-      "source": "fire",
-      "lat": 43.8092047,
-      "lng": -79.1664571,
-      "type": "Vehicle Fire",
-      "type_plain": "Vehicle Fire",
-      "severity": "medium",
-      "division": "212",
-      "location": "TWYN RIVERS DR & SHEPPARD AVE E",
-      "approximate": false,
-      "units": "P212",
-      "ts": "2026-10-16T20:48:39+00:00",
-      "related": [
-        {
-          "id": "tps_6fef25947b08",
-          "distance_m": 361,
-          "minutes_apart": 11
-        }
-      ]
-    },
-    {
-      "id": "tps_582351af4a87",
-      "source": "police",
-      "lat": 43.72097784643953,
-      "lng": -79.50863794404951,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D31",
-      "location": "JANE ST - WILSON AVE",
-      "ts": "2026-10-16T20:47:46+00:00",
-      "related": [
-        {
-          "id": "tps_d0cd2401a483",
-          "distance_m": 0,
-          "minutes_apart": 90
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26165087",
-      "source": "fire",
-      "lat": 43.7755721,
-      "lng": -79.3474358,
-      "type": "Fire Alarm - Check Call",
-      "type_plain": "Fire Alarm - Check Call",
-      "severity": "medium",
-      "division": "115",
-      "location": "North York - SHEPPARD AVE & DON MILLS RD",
-      "approximate": false,
-      "units": "R115",
-      "ts": "2026-10-16T20:46:27+00:00",
-      "related": [
-        {
-          "id": "tfs_F26165116",
-          "distance_m": 0,
-          "minutes_apart": 38
-        },
-        {
-          "id": "tps_bfedcd40d1f8",
-          "distance_m": 567,
-          "minutes_apart": 75
-        }
-      ]
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D52",
-      "current_count": 5,
-      "baseline_avg": 1.3,
-      "ratio": 3.9,
-      "sample_days": 7,
+      "division": "D14",
+      "current_count": 8,
+      "baseline_avg": 2.5,
+      "ratio": 3.2,
+      "sample_days": 15,
       "window_hours": 3,
       "example_ids": [
-        "tps_04e3982346b8",
-        "tps_454177ba0731",
-        "tps_2d55078e0b69",
-        "tps_6f328632363b",
-        "tps_08a2ed9ffefa"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 6,
-      "baseline_avg": 1.8,
-      "ratio": 3.4,
-      "sample_days": 12,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_889070203096",
-        "tps_47952214bcac",
-        "tps_ccc9a2162774",
-        "tps_09320b2bd9e4",
-        "tps_6483769f6f39"
+        "tps_04767b3f8307",
+        "tps_1743e1e4eb0c",
+        "tps_0ce0f4452581",
+        "tps_86a71add3290",
+        "tps_3cad8ef7e0b1"
       ]
     },
     {
       "source": "police",
       "division": "HP",
       "current_count": 6,
-      "baseline_avg": 1.8,
-      "ratio": 3.3,
+      "baseline_avg": 1.9,
+      "ratio": 3.1,
       "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
+        "tps_cfc9562fdbc3",
         "tps_ed1f4d667725",
         "tps_05c72eeeaca6",
         "tps_1fe38d47149e",
-        "tps_302b5975c531",
-        "tps_0925b0638277"
+        "tps_302b5975c531"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D52",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.1,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_04e3982346b8",
+        "tps_454177ba0731",
+        "tps_2d55078e0b69",
+        "tps_6f328632363b"
       ]
     },
     {
@@ -11070,48 +11007,18 @@
     },
     {
       "source": "police",
-      "division": "D14",
-      "current_count": 7,
-      "baseline_avg": 2.4,
+      "division": "D43",
+      "current_count": 5,
+      "baseline_avg": 1.8,
       "ratio": 2.9,
-      "sample_days": 15,
+      "sample_days": 12,
       "window_hours": 3,
       "example_ids": [
-        "tps_1743e1e4eb0c",
-        "tps_0ce0f4452581",
-        "tps_86a71add3290",
-        "tps_3cad8ef7e0b1",
-        "tps_04baac793dc7"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D55",
-      "current_count": 6,
-      "baseline_avg": 2.3,
-      "ratio": 2.6,
-      "sample_days": 15,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_eac5ecf1add3",
-        "tps_70841ea9e65c",
-        "tps_657684700599",
-        "tps_6f78a6753ac9",
-        "tps_33fa4bb23160"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D33",
-      "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.6,
-      "sample_days": 6,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_63e7c41cc126",
-        "tps_3d7055aa259b",
-        "tps_a0cdf328a76d"
+        "tps_889070203096",
+        "tps_47952214bcac",
+        "tps_ccc9a2162774",
+        "tps_09320b2bd9e4",
+        "tps_6483769f6f39"
       ]
     },
     {
@@ -11133,9 +11040,9 @@
       "source": "police",
       "division": "D42",
       "current_count": 4,
-      "baseline_avg": 1.7,
+      "baseline_avg": 1.6,
       "ratio": 2.4,
-      "sample_days": 13,
+      "sample_days": 14,
       "window_hours": 3,
       "example_ids": [
         "tps_10494ae9765b",
@@ -11146,17 +11053,18 @@
     },
     {
       "source": "police",
-      "division": "D22",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.3,
-      "sample_days": 7,
+      "division": "D55",
+      "current_count": 5,
+      "baseline_avg": 2.3,
+      "ratio": 2.1,
+      "sample_days": 15,
       "window_hours": 3,
       "example_ids": [
-        "tps_b1fb26d6f8dc",
-        "tps_c52ddd452dca",
-        "tps_712d446d38ea",
-        "tps_ce9a8ff2ea71"
+        "tps_eac5ecf1add3",
+        "tps_70841ea9e65c",
+        "tps_657684700599",
+        "tps_6f78a6753ac9",
+        "tps_33fa4bb23160"
       ]
     }
   ]
