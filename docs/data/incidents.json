@@ -1,11 +1,26 @@
 {
-  "generated": "2026-10-17T10:55:27.473893+00:00",
+  "generated": "2026-10-17T11:10:29.292124+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165436",
+      "source": "fire",
+      "lat": 43.709429,
+      "lng": -79.3913879,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "134",
+      "location": "Toronto - MOUNT PLEASANT RD & ROEHAMPTON AVE",
+      "approximate": false,
+      "units": "P131, P134",
+      "ts": "2026-10-17T10:58:20+00:00",
+      "related": []
+    },
     {
       "id": "tfs_F26165433",
       "source": "fire",
@@ -10754,11 +10769,6 @@
           "id": "tps_c8cc493916cf",
           "distance_m": 0,
           "minutes_apart": 125
-        },
-        {
-          "id": "tps_6d5d047007b8",
-          "distance_m": 279,
-          "minutes_apart": 130
         }
       ]
     },
@@ -11269,146 +11279,16 @@
       "location": "FIRESIDE DR - MILLHOUSE CRES",
       "ts": "2026-10-16T11:17:05+00:00",
       "related": []
-    },
-    {
-      "id": "tps_e2034bc4cc33",
-      "source": "police",
-      "lat": 43.663159315728755,
-      "lng": -79.44039652147444,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D11",
-      "location": "SUSAN TIBALDI PARKETTE TRL - LN S WALLACE W BROCK",
-      "ts": "2026-10-16T11:07:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_1e183855cf40",
-      "source": "police",
-      "lat": 43.63060930431278,
-      "lng": -79.483074912105,
-      "type": "THEJU",
-      "type_plain": "Theft (Just Occurred)",
-      "severity": "medium",
-      "division": "D22",
-      "location": "HEPC - HIGH ST",
-      "ts": "2026-10-16T11:06:41+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ad6c765bf07c",
-      "source": "police",
-      "lat": 43.71486344834591,
-      "lng": -79.4794190371048,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D12",
-      "location": "MAPLE LEAF DR - RUSTIC RD",
-      "ts": "2026-10-16T11:05:36+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_ea6a24a951ba",
-      "source": "police",
-      "lat": 43.6729882238195,
-      "lng": -79.44098312262145,
-      "type": "PIACC",
-      "type_plain": "Personal Injury Accident",
-      "severity": "low",
-      "division": "D13",
-      "location": "DAVENPORT RD - DUFFERIN ST",
-      "ts": "2026-10-16T11:03:33+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_6d5d047007b8",
-      "source": "police",
-      "lat": 43.69067643157503,
-      "lng": -79.27656336873825,
-      "type": "DAMAU",
-      "type_plain": "DAMAU",
-      "severity": "low",
-      "division": "D41",
-      "location": "KINGSTON RD - CLONMORE DR",
-      "ts": "2026-10-16T10:58:57+00:00",
-      "related": [
-        {
-          "id": "tps_8a3e0f5f09e7",
-          "distance_m": 279,
-          "minutes_apart": 130
-        }
-      ]
-    },
-    {
-      "id": "tfs_F26164820",
-      "source": "fire",
-      "lat": 43.7438243,
-      "lng": -79.4072736,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "121",
-      "location": "North York - YONGE ST & WILSON AVE",
-      "approximate": false,
-      "units": "P121, R122",
-      "ts": "2026-10-16T10:55:46+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.0,
-      "ratio": 3.0,
-      "sample_days": 4,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_86a882dda8fb",
-        "tps_9d7d5ed6b201",
-        "tps_1cbf68795fd3"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_15c00779e8a6",
-        "tps_0cf822363ff8",
-        "tps_9fcade9a6850",
-        "tps_e74eed84637a"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.4,
-      "ratio": 2.9,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_5c00a79003d9",
-        "tps_d9a567df040a",
-        "tps_841fc8b695bc",
-        "tps_7d85b0da5459"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D23",
       "current_count": 3,
-      "baseline_avg": 1.2,
-      "ratio": 2.5,
-      "sample_days": 5,
+      "baseline_avg": 1.3,
+      "ratio": 2.3,
+      "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
         "tps_1581be01bd8c",
@@ -11419,16 +11299,43 @@
     {
       "source": "police",
       "division": "HP",
-      "current_count": 4,
-      "baseline_avg": 1.8,
-      "ratio": 2.3,
-      "sample_days": 12,
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.2,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
         "tps_d6f1a51f3ac2",
         "tps_98758e77aaa3",
-        "tps_f5b6796df760",
-        "tps_c903aadef6aa"
+        "tps_f5b6796df760"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D11",
+      "current_count": 3,
+      "baseline_avg": 1.4,
+      "ratio": 2.1,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_5c00a79003d9",
+        "tps_d9a567df040a",
+        "tps_841fc8b695bc"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D32",
+      "current_count": 3,
+      "baseline_avg": 1.5,
+      "ratio": 2.0,
+      "sample_days": 6,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_86a882dda8fb",
+        "tps_9d7d5ed6b201",
+        "tps_1cbf68795fd3"
       ]
     }
   ]
