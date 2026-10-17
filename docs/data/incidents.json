@@ -1,11 +1,32 @@
 {
-  "generated": "2026-10-17T12:55:27.676995+00:00",
+  "generated": "2026-10-17T13:10:28.681310+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tfs_F26165474",
+      "source": "fire",
+      "lat": 43.7508649,
+      "lng": -79.6239576,
+      "type": "Alarm Single Source",
+      "type_plain": "Alarm Single Source",
+      "severity": "medium",
+      "division": "412",
+      "location": "Etobicoke - STEINWAY BLVD & SIGNAL HILL AVE",
+      "approximate": false,
+      "units": "P412, R413",
+      "ts": "2026-10-17T12:54:22+00:00",
+      "related": [
+        {
+          "id": "tfs_F26165461",
+          "distance_m": 0,
+          "minutes_apart": 31
+        }
+      ]
+    },
     {
       "id": "tps_eff518a38fd3",
       "source": "police",
@@ -207,7 +228,13 @@
       "approximate": false,
       "units": "P412, R413",
       "ts": "2026-10-17T12:23:49+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tfs_F26165474",
+          "distance_m": 0,
+          "minutes_apart": 31
+        }
+      ]
     },
     {
       "id": "tps_eceb9b97af0e",
@@ -10508,11 +10535,6 @@
       "ts": "2026-10-16T15:13:56+00:00",
       "related": [
         {
-          "id": "tps_8a3e0f5f09e7",
-          "distance_m": 0,
-          "minutes_apart": 125
-        },
-        {
           "id": "tps_f7d03df40c66",
           "distance_m": 416,
           "minutes_apart": 71
@@ -11445,87 +11467,31 @@
           "minutes_apart": 100
         }
       ]
-    },
-    {
-      "id": "tps_5040971aea36",
-      "source": "police",
-      "lat": 43.68738814068995,
-      "lng": -79.2686855717979,
-      "type": "DAMAU",
-      "type_plain": "DAMAU",
-      "severity": "low",
-      "division": "D41",
-      "location": "CRESCENTWOOD RD - VIEWBANK RD",
-      "ts": "2026-10-16T13:09:50+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_8a3e0f5f09e7",
-      "source": "police",
-      "lat": 43.68819153473278,
-      "lng": -79.27702956677086,
-      "type": "DAMAU",
-      "type_plain": "DAMAU",
-      "severity": "low",
-      "division": "D41",
-      "location": "KINGSTON RD - CLONMORE DR",
-      "ts": "2026-10-16T13:09:02+00:00",
-      "related": [
-        {
-          "id": "tps_c8cc493916cf",
-          "distance_m": 0,
-          "minutes_apart": 125
-        }
-      ]
-    },
-    {
-      "id": "tps_06db24d95537",
-      "source": "police",
-      "lat": 43.80175699364265,
-      "lng": -79.21668876782685,
-      "type": "BREEN",
-      "type_plain": "BREEN",
-      "severity": "low",
-      "division": "D42",
-      "location": "KESSACK CRT - QUANTRELL TRL",
-      "ts": "2026-10-16T13:01:05+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5bf847be69a6",
-      "source": "police",
-      "lat": 43.74365542744411,
-      "lng": -79.49181799509242,
-      "type": "PDACC",
-      "type_plain": "Property Damage Accident",
-      "severity": "low",
-      "division": "D31",
-      "location": "SENTINEL RD - SHEPPARD AVE W",
-      "ts": "2026-10-16T12:59:12+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_38db1c295444",
-      "source": "police",
-      "lat": 43.63765767426666,
-      "lng": -79.52324160295542,
-      "type": "FOUPR",
-      "type_plain": "Found Property",
-      "severity": "low",
-      "division": "D22",
-      "location": "NORTHROP RD - C P R SPUR",
-      "ts": "2026-10-16T12:56:28+00:00",
-      "related": []
     }
   ],
   "anomalies": [
     {
       "source": "police",
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.3,
+      "ratio": 3.1,
+      "sample_days": 7,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_f4a2d0b6f244",
+        "tps_d6546d98ae47",
+        "tps_6790d61600bc",
+        "tps_15c00779e8a6"
+      ]
+    },
+    {
+      "source": "police",
       "division": "HP",
-      "current_count": 9,
-      "baseline_avg": 2.1,
-      "ratio": 4.3,
-      "sample_days": 12,
+      "current_count": 8,
+      "baseline_avg": 2.8,
+      "ratio": 2.9,
+      "sample_days": 13,
       "window_hours": 3,
       "example_ids": [
         "tps_8159539bceaf",
@@ -11539,9 +11505,9 @@
       "source": "police",
       "division": "D22",
       "current_count": 4,
-      "baseline_avg": 1.2,
-      "ratio": 3.2,
-      "sample_days": 8,
+      "baseline_avg": 1.5,
+      "ratio": 2.6,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_6c185f36db35",
@@ -11552,40 +11518,11 @@
     },
     {
       "source": "police",
-      "division": "D32",
-      "current_count": 3,
-      "baseline_avg": 1.1,
-      "ratio": 2.7,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_3fb65f508885",
-        "tps_42240de5621d",
-        "tps_247cee3dc6da"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D43",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 13,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_63f34e57126b",
-        "tps_a3ea473c04a9",
-        "tps_1deed95bf64c",
-        "tps_085396387850"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D53",
       "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
-      "sample_days": 7,
+      "baseline_avg": 1.7,
+      "ratio": 2.4,
+      "sample_days": 9,
       "window_hours": 3,
       "example_ids": [
         "tps_b143f05192a5",
@@ -11596,26 +11533,11 @@
     },
     {
       "source": "police",
-      "division": "D11",
-      "current_count": 4,
-      "baseline_avg": 1.7,
-      "ratio": 2.4,
-      "sample_days": 10,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_c33258d95193",
-        "tps_5c00a79003d9",
-        "tps_d9a567df040a",
-        "tps_841fc8b695bc"
-      ]
-    },
-    {
-      "source": "police",
       "division": "D51",
       "current_count": 5,
       "baseline_avg": 2.2,
       "ratio": 2.3,
-      "sample_days": 15,
+      "sample_days": 11,
       "window_hours": 3,
       "example_ids": [
         "tps_eff518a38fd3",
@@ -11627,17 +11549,16 @@
     },
     {
       "source": "police",
-      "division": "D42",
-      "current_count": 4,
-      "baseline_avg": 2.0,
+      "division": "D32",
+      "current_count": 3,
+      "baseline_avg": 1.5,
       "ratio": 2.0,
-      "sample_days": 7,
+      "sample_days": 8,
       "window_hours": 3,
       "example_ids": [
-        "tps_f4a2d0b6f244",
-        "tps_d6546d98ae47",
-        "tps_6790d61600bc",
-        "tps_15c00779e8a6"
+        "tps_3fb65f508885",
+        "tps_42240de5621d",
+        "tps_247cee3dc6da"
       ]
     }
   ]
