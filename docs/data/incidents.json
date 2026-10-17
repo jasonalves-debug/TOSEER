@@ -1,11 +1,113 @@
 {
-  "generated": "2026-10-17T11:40:27.587672+00:00",
+  "generated": "2026-10-17T11:55:30.595335+00:00",
   "source_status": {
     "police": "live",
     "fire": "live"
   },
   "retention_hours": 24,
   "incidents": [
+    {
+      "id": "tps_b21e692c8fd3",
+      "source": "police",
+      "lat": 43.68791698563399,
+      "lng": -79.49201418259986,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D12",
+      "location": "LOCUST ST - OXFORD DR",
+      "ts": "2026-10-17T11:45:53+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_6790d61600bc",
+      "source": "police",
+      "lat": 43.79676839792209,
+      "lng": -79.31575388981902,
+      "type": "UNKTR",
+      "type_plain": "Unknown Trouble",
+      "severity": "low",
+      "division": "D42",
+      "location": "BRIDLETOWNE CRCL - FINCH AVE E",
+      "ts": "2026-10-17T11:45:51+00:00",
+      "related": []
+    },
+    {
+      "id": "tps_60c1c253d597",
+      "source": "police",
+      "lat": 43.64114868007887,
+      "lng": -79.37682824600172,
+      "type": "PIACC",
+      "type_plain": "Personal Injury Accident",
+      "severity": "low",
+      "division": "D52",
+      "location": "MARTIN GOODMAN TRL - ",
+      "ts": "2026-10-17T11:44:54+00:00",
+      "related": [
+        {
+          "id": "tps_d6f1a51f3ac2",
+          "distance_m": 352,
+          "minutes_apart": 72
+        }
+      ]
+    },
+    {
+      "id": "tps_1deed95bf64c",
+      "source": "police",
+      "lat": 43.7684035984007,
+      "lng": -79.18621380674915,
+      "type": "SEEAM",
+      "type_plain": "See Ambulance (medical assist request)",
+      "severity": "low",
+      "division": "D43",
+      "location": "MORNINGSIDE AVE - LAWRENCE AVE E",
+      "ts": "2026-10-17T11:38:18+00:00",
+      "related": [
+        {
+          "id": "tps_085396387850",
+          "distance_m": 0,
+          "minutes_apart": 96
+        }
+      ]
+    },
+    {
+      "id": "tps_97ff843e7cdc",
+      "source": "police",
+      "lat": 43.70538499766094,
+      "lng": -79.40487223576639,
+      "type": "MISVU",
+      "type_plain": "Missing Person (Vulnerable)",
+      "severity": "low",
+      "division": "D53",
+      "location": "EASTBOURNE AVE - EGLINTON PARK TRL",
+      "ts": "2026-10-17T11:37:56+00:00",
+      "related": [
+        {
+          "id": "tps_ca48143108c7",
+          "distance_m": 385,
+          "minutes_apart": 42
+        }
+      ]
+    },
+    {
+      "id": "tps_b58dcae1452b",
+      "source": "police",
+      "lat": 43.67048882426532,
+      "lng": -79.35392097784423,
+      "type": "FTRPD",
+      "type_plain": "FTRPD",
+      "severity": "low",
+      "division": "HP",
+      "location": "LN E BROADVIEW N BAIN - INGHAM AVE",
+      "ts": "2026-10-17T11:35:11+00:00",
+      "related": [
+        {
+          "id": "tps_748419fec909",
+          "distance_m": 0,
+          "minutes_apart": 48
+        }
+      ]
+    },
     {
       "id": "tps_4f31d340e74e",
       "source": "police",
@@ -174,7 +276,13 @@
       "division": "D53",
       "location": "SOUDAN AVE - EGLINTON AVE W",
       "ts": "2026-10-17T10:55:53+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_97ff843e7cdc",
+          "distance_m": 385,
+          "minutes_apart": 42
+        }
+      ]
     },
     {
       "id": "tps_946c60eb3065",
@@ -226,7 +334,13 @@
       "division": "D55",
       "location": "LN E BROADVIEW N BAIN - INGHAM AVE",
       "ts": "2026-10-17T10:47:38+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_b58dcae1452b",
+          "distance_m": 0,
+          "minutes_apart": 48
+        }
+      ]
     },
     {
       "id": "tfs_F26165433",
@@ -269,7 +383,13 @@
       "division": "HP",
       "location": "GARDINER XWY W - YONGE ST",
       "ts": "2026-10-17T10:33:17+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_60c1c253d597",
+          "distance_m": 352,
+          "minutes_apart": 72
+        }
+      ]
     },
     {
       "id": "tps_15c00779e8a6",
@@ -340,7 +460,13 @@
       "division": "D43",
       "location": "MORNINGSIDE AVE - LAWRENCE AVE E",
       "ts": "2026-10-17T10:02:37+00:00",
-      "related": []
+      "related": [
+        {
+          "id": "tps_1deed95bf64c",
+          "distance_m": 0,
+          "minutes_apart": 96
+        }
+      ]
     },
     {
       "id": "tps_98758e77aaa3",
@@ -10133,11 +10259,6 @@
           "id": "tps_0e7853d2c6c9",
           "distance_m": 0,
           "minutes_apart": 15
-        },
-        {
-          "id": "tfs_F26164831",
-          "distance_m": 455,
-          "minutes_apart": 178
         }
       ]
     },
@@ -11300,56 +11421,25 @@
           "minutes_apart": 177
         }
       ]
-    },
-    {
-      "id": "tfs_F26164831",
-      "source": "fire",
-      "lat": 43.7135767,
-      "lng": -79.5593539,
-      "type": "Alarm Single Source",
-      "type_plain": "Alarm Single Source",
-      "severity": "medium",
-      "division": "415",
-      "location": "Etobicoke - BERGAMOT AVE & REXDALE BLVD",
-      "approximate": false,
-      "units": "A415, P415",
-      "ts": "2026-10-16T11:54:34+00:00",
-      "related": [
-        {
-          "id": "tps_d898e93a99cd",
-          "distance_m": 455,
-          "minutes_apart": 178
-        }
-      ]
-    },
-    {
-      "id": "tps_73d0a2e48819",
-      "source": "police",
-      "lat": 43.71943975205952,
-      "lng": -79.33198682919883,
-      "type": "SEEAM",
-      "type_plain": "See Ambulance (medical assist request)",
-      "severity": "low",
-      "division": "D55",
-      "location": "DON MILLS RD - DEAUVILLE LANE",
-      "ts": "2026-10-16T11:54:24+00:00",
-      "related": []
-    },
-    {
-      "id": "tps_5f29d18b98a9",
-      "source": "police",
-      "lat": 43.62025348421728,
-      "lng": -79.50373292566027,
-      "type": "IMPDR",
-      "type_plain": "Impaired Driver",
-      "severity": "low",
-      "division": "D22",
-      "location": "CARNARVON AVE - ALAN AVE",
-      "ts": "2026-10-16T11:53:47+00:00",
-      "related": []
     }
   ],
   "anomalies": [
+    {
+      "source": "police",
+      "division": "HP",
+      "current_count": 5,
+      "baseline_avg": 1.6,
+      "ratio": 3.2,
+      "sample_days": 9,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_b58dcae1452b",
+        "tps_d8fab5396076",
+        "tps_58fbf9ab962a",
+        "tps_d6f1a51f3ac2",
+        "tps_f5b6796df760"
+      ]
+    },
     {
       "source": "police",
       "division": "D23",
@@ -11367,46 +11457,32 @@
     },
     {
       "source": "police",
-      "division": "HP",
+      "division": "D53",
       "current_count": 4,
       "baseline_avg": 1.4,
       "ratio": 2.8,
-      "sample_days": 9,
-      "window_hours": 3,
-      "example_ids": [
-        "tps_d8fab5396076",
-        "tps_58fbf9ab962a",
-        "tps_d6f1a51f3ac2",
-        "tps_f5b6796df760"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D32",
-      "current_count": 4,
-      "baseline_avg": 1.6,
-      "ratio": 2.5,
       "sample_days": 7,
       "window_hours": 3,
       "example_ids": [
-        "tps_42240de5621d",
-        "tps_247cee3dc6da",
-        "tps_86a882dda8fb",
-        "tps_9d7d5ed6b201"
-      ]
-    },
-    {
-      "source": "police",
-      "division": "D53",
-      "current_count": 3,
-      "baseline_avg": 1.3,
-      "ratio": 2.3,
-      "sample_days": 7,
-      "window_hours": 3,
-      "example_ids": [
+        "tps_97ff843e7cdc",
         "tps_82179cdd82f7",
         "tps_ca48143108c7",
         "tps_5d9ed819cba6"
+      ]
+    },
+    {
+      "source": "police",
+      "division": "D42",
+      "current_count": 4,
+      "baseline_avg": 1.6,
+      "ratio": 2.5,
+      "sample_days": 10,
+      "window_hours": 3,
+      "example_ids": [
+        "tps_6790d61600bc",
+        "tps_15c00779e8a6",
+        "tps_0cf822363ff8",
+        "tps_9fcade9a6850"
       ]
     },
     {
